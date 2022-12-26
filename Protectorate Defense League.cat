@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="36df-1e33-682e-8730" name="Protectorate Defense League" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="4d34-eb9d-7579-bc94" name="Remnant Chronicles "/>
+  </publications>
+  <costTypes>
+    <costType id="6920-7c69-b777-103f" name="Resource Points" defaultCostLimit="-1.0" hidden="false"/>
+  </costTypes>
+  <selectionEntries>
+    <selectionEntry id="29b6-e686-9064-bfac" name="Central Guardsmen Fireteam" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="947b-72bc-b461-5b35" name="Central Guardsmen Fireteam" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+          <characteristics>
+            <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
+            <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
+            <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e"/>
+            <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36"/>
+            <characteristic name="INT" typeId="c334-3de5-0bba-70e6"/>
+            <characteristic name="LD" typeId="f7c5-0728-1b20-115b"/>
+            <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429"/>
+            <characteristic name="END" typeId="254f-362a-e072-64bf"/>
+            <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af"/>
+            <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96"/>
+            <characteristic name="SIZE" typeId="2926-db13-a623-b546"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="e98b-7f51-8689-07e1" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+        <categoryLink id="8466-04b0-638c-4245" name="Light Core" hidden="false" targetId="7c28-7f3f-c607-9aaa" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2c4a-cfbc-cdd7-e177" name="Sotil" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8870-59ab-cb06-a722" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c73c-0d1a-7058-8898" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="cf53-b52e-4209-55ed" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+            <categoryLink id="56c4-f4de-0249-77c8" name="Light Core" hidden="false" targetId="7c28-7f3f-c607-9aaa" primary="false"/>
+          </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="bf0c-7f54-8816-6237" name="Primary Weapon" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f5f-6830-b986-fac7" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b500-a3ae-5bca-bc51" type="min"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="8bcf-5829-0508-5db5" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="46b3-9465-5442-7ee9" name="CAR-67  Assault Rifle" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="7a8a-60fd-d00d-75a4" name="CAR-67  Assault Rifle" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
+                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
+                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
+                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
+                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule id="ec8e-51a6-3a56-a747" name="Reliable " hidden="false">
+                      <description>The first this weapon would suffer a malfunction, ignore the result instead.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="748c-f541-7caf-555c" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+                  </categoryLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="774e-26e8-95cc-6912" name="Secondary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="d091-67c1-582e-956d">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac15-0b48-7947-25cb" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a39-980a-0e6c-2295" type="min"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="8e90-9fd8-9ef9-8fc4" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="d091-67c1-582e-956d" name="CAR-68 Pistol" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="d51c-3517-c606-7fd6" name="CAR-68 Pistol" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
+                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
+                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
+                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
+                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <categoryLinks>
+                    <categoryLink id="fab4-9503-c1e3-b177" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+                  </categoryLinks>
+                </selectionEntry>
+                <selectionEntry id="0486-1eb4-5011-a895" name="CAR-66 Submachine Gun" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="63d5-968c-c1ae-1389" name="CAR-66 Submachine Gun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
+                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
+                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
+                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
+                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6a90-32f3-b674-a8e1" name="Type 7 P.A.K. Mule UGV" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9522-7cc8-cc5d-b0c4" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bea-214e-9e9f-f654" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="21e6-452a-dd20-318b" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="3a80-a8b6-f339-63e7" name="Smoke Launchers" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83e2-cc4e-51e6-d0fc" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d0f-85c1-8a44-ef7c" type="min"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="444b-04d2-f57d-6072" name="P.A.K Muke Primary Weapon" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="262f-3e3c-12c5-50f2" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cb5-e38a-ac6b-030d" type="min"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="4d12-72df-6ffd-dcaf" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="ec8f-e5b6-6741-b882" name="6mm  Light Machine Gun" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="125a-695f-46b2-81dd" name="6mm  Light Machine Gun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
+                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
+                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
+                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
+                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <categoryLinks>
+                    <categoryLink id="52bb-261f-e0d5-686f" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+                  </categoryLinks>
+                </selectionEntry>
+                <selectionEntry id="f6e0-78fd-6039-2f64" name="Automatic Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="f72e-6d9e-22c7-ab7b" name="Automatic Grenade Launcher" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
+                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
+                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
+                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
+                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <categoryLinks>
+                    <categoryLink id="7716-af27-8411-857b" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="-5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="7388-adae-318f-6f21" name="Pulse Beam Rifle" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="07e3-5481-729d-8220" name="Pulse Beam Rifle" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
+                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
+                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
+                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
+                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <categoryLinks>
+                    <categoryLink id="9fd1-dd50-9d94-8ebc" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="-7.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="6d3b-65e1-aa8b-360c" name="FlameThrower" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="a358-295a-828c-14cd" name="FlameThrower" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
+                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
+                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
+                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
+                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <categoryLinks>
+                    <categoryLink id="8813-1832-c820-3989" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="-3.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="946e-ee5c-ab33-a8ca" name="Rocket Propelled Grenade" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="88a2-6fa6-d16c-ea4d" name="Rocket Propelled Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/60</characteristic>
+                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">12</characteristic>
+                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:3, Piercing:1, Single Use</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="-1.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="-4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="051b-785d-949c-8b58" name="Squad Specialist " hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab38-6d5a-5bed-d030" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8348-cfe4-3d5d-4474" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="1d89-e021-1045-1e5d" name="Squad Specialist" hidden="false" collective="false" import="true" defaultSelectionEntryId="7cf0-17f2-fbd0-8beb">
+              <profiles>
+                <profile id="43b9-b449-3916-a999" name="Squad Specialist" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                  <characteristics>
+                    <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
+                    <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
+                    <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e"/>
+                    <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36"/>
+                    <characteristic name="INT" typeId="c334-3de5-0bba-70e6"/>
+                    <characteristic name="LD" typeId="f7c5-0728-1b20-115b"/>
+                    <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429"/>
+                    <characteristic name="END" typeId="254f-362a-e072-64bf"/>
+                    <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af"/>
+                    <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96"/>
+                    <characteristic name="SIZE" typeId="2926-db13-a623-b546"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="4df6-9df5-3c59-c063" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="7c9e-31f4-0667-4c22" name="Sotil Machine Gunner" hidden="false" collective="false" import="true" type="model">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebdf-ee66-4f7e-f1ca" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2e2-38fb-a7e5-7043" type="max"/>
+                  </constraints>
+                  <categoryLinks>
+                    <categoryLink id="e35e-982c-e86c-664c" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="-2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="7cf0-17f2-fbd0-8beb" name="Sotil Marksmen" hidden="false" collective="false" import="true" type="model">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="246b-cedd-b135-0703" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3c5-7748-8ff8-9e4a" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="-2.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="04fc-20df-76cf-93e9" name="Central Guardsmen Squad Leader" hidden="false" collective="false" import="true" defaultSelectionEntryId="f3f9-8246-c650-84f6">
+          <selectionEntries>
+            <selectionEntry id="f3f9-8246-c650-84f6" name="Kersan" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f66-c701-43e2-f2b2" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9801-5ced-89b6-c2b5" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="bbe1-a3c9-f6bb-28a5" name="Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                  <characteristics>
+                    <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
+                    <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
+                    <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e"/>
+                    <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36"/>
+                    <characteristic name="INT" typeId="c334-3de5-0bba-70e6"/>
+                    <characteristic name="LD" typeId="f7c5-0728-1b20-115b"/>
+                    <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429"/>
+                    <characteristic name="END" typeId="254f-362a-e072-64bf"/>
+                    <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af"/>
+                    <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96"/>
+                    <characteristic name="SIZE" typeId="2926-db13-a623-b546"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="a8e9-059b-021b-9964" name="Voice of Command" hidden="false">
+                  <description>Use the unit cohesion range instead of LD+SZ when determining area of effect for command Cards</description>
+                </rule>
+              </rules>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="cac2-c29d-5074-55c1" name="Primary Weapon" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d58b-c62b-9299-f536" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5829-57de-a4c1-7a40" type="min"/>
+                  </constraints>
+                  <categoryLinks>
+                    <categoryLink id="5f3f-d984-08f0-e366" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+                  </categoryLinks>
+                  <selectionEntries>
+                    <selectionEntry id="b54f-cf51-f6bd-2a2f" name="CAR-67  Assault Rifle" hidden="false" collective="false" import="true" type="upgrade">
+                      <profiles>
+                        <profile id="d0a9-d24f-544d-cf81" name="CAR-67  Assault Rifle" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                          <characteristics>
+                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
+                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
+                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
+                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
+                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="d7cd-3e4b-36c7-f679" name="Reliable " hidden="false">
+                          <description>The first this weapon would suffer a malfunction, ignore the result instead.</description>
+                        </rule>
+                      </rules>
+                      <categoryLinks>
+                        <categoryLink id="03bf-9212-3819-2dac" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+                      </categoryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="5fcb-990f-9e1c-b4b1" name="Secondary Weapon" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bac-99be-f2c0-092c" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f00-583d-9e9e-b8c1" type="min"/>
+                  </constraints>
+                  <categoryLinks>
+                    <categoryLink id="3cfa-3005-ea39-a1a7" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+                  </categoryLinks>
+                  <selectionEntries>
+                    <selectionEntry id="e2c7-e766-7a48-d77a" name="CAR-68 Pistol" hidden="false" collective="false" import="true" type="upgrade">
+                      <profiles>
+                        <profile id="0570-7a6d-53fd-0cfb" name="CAR-68 Pistol" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                          <characteristics>
+                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
+                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
+                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
+                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
+                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <categoryLinks>
+                        <categoryLink id="201f-46dc-7f92-2983" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+                      </categoryLinks>
+                    </selectionEntry>
+                    <selectionEntry id="7fa9-9e7a-5e80-6e84" name="CAR-66 Submachine Gun" hidden="false" collective="false" import="true" type="upgrade">
+                      <profiles>
+                        <profile id="1ff3-1819-a7d8-1792" name="CAR-66 Submachine Gun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                          <characteristics>
+                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
+                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
+                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
+                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
+                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="7.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a704-9500-a391-5db5" name="Senior Kersan" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3355-2b01-5ad7-3099" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2636-3547-03c7-4588" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="98cf-2c31-4770-ee72" name="Senior Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                  <characteristics>
+                    <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
+                    <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
+                    <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e"/>
+                    <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36"/>
+                    <characteristic name="INT" typeId="c334-3de5-0bba-70e6"/>
+                    <characteristic name="LD" typeId="f7c5-0728-1b20-115b"/>
+                    <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429"/>
+                    <characteristic name="END" typeId="254f-362a-e072-64bf"/>
+                    <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af"/>
+                    <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96"/>
+                    <characteristic name="SIZE" typeId="2926-db13-a623-b546"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="71e9-2ae0-31c0-7bcc" name="Voice of Command" hidden="false">
+                  <description>Use the unit cohesion range instead of LD+SZ when determining area of effect for command Cards</description>
+                </rule>
+              </rules>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="935b-05cd-d262-327e" name="Primary Weapon" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7770-a25b-acb2-34d4" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60cc-f4c3-519e-5ce6" type="min"/>
+                  </constraints>
+                  <categoryLinks>
+                    <categoryLink id="99e3-157c-65fc-4fa8" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+                  </categoryLinks>
+                  <selectionEntries>
+                    <selectionEntry id="0ef8-68fb-8b18-a745" name="CAR-67  Assault Rifle" hidden="false" collective="false" import="true" type="upgrade">
+                      <profiles>
+                        <profile id="4392-22b0-1516-e85e" name="CAR-67  Assault Rifle" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                          <characteristics>
+                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
+                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
+                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
+                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
+                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="40e1-2039-948c-f578" name="Reliable " hidden="false">
+                          <description>The first this weapon would suffer a malfunction, ignore the result instead.</description>
+                        </rule>
+                      </rules>
+                      <categoryLinks>
+                        <categoryLink id="b080-6c7e-6544-68b5" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+                      </categoryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="3f8c-455b-26a3-f669" name="Secondary Weapon" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61e8-c8bf-bd00-fb74" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2967-fc34-c829-8911" type="min"/>
+                  </constraints>
+                  <categoryLinks>
+                    <categoryLink id="850a-72f5-474c-90e8" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+                  </categoryLinks>
+                  <selectionEntries>
+                    <selectionEntry id="202c-673e-6db5-9a7c" name="CAR-68 Pistol" hidden="false" collective="false" import="true" type="upgrade">
+                      <profiles>
+                        <profile id="2b4c-4ade-7c5a-4bc6" name="CAR-68 Pistol" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                          <characteristics>
+                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
+                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
+                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
+                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
+                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <categoryLinks>
+                        <categoryLink id="bfd7-1f97-3712-fa89" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+                      </categoryLinks>
+                    </selectionEntry>
+                    <selectionEntry id="2e66-2a99-c08b-3293" name="CAR-66 Submachine Gun" hidden="false" collective="false" import="true" type="upgrade">
+                      <profiles>
+                        <profile id="cfae-49b2-0145-3dd9" name="CAR-66 Submachine Gun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                          <characteristics>
+                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
+                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
+                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
+                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
+                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="9.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a233-4d1f-19b5-bd79" name="Luut" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e5c-7d3f-a3ab-5f98" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3883-9841-e8c9-6dfd" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="af02-d461-ca97-b129" name="Luut" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                  <characteristics>
+                    <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
+                    <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
+                    <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e"/>
+                    <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36"/>
+                    <characteristic name="INT" typeId="c334-3de5-0bba-70e6"/>
+                    <characteristic name="LD" typeId="f7c5-0728-1b20-115b"/>
+                    <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429"/>
+                    <characteristic name="END" typeId="254f-362a-e072-64bf"/>
+                    <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af"/>
+                    <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96"/>
+                    <characteristic name="SIZE" typeId="2926-db13-a623-b546"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="ab47-c0a2-e4b0-1575" name="Voice of Command" hidden="false">
+                  <description>Use the unit cohesion range instead of LD+SZ when determining area of effect for command Cards</description>
+                </rule>
+              </rules>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="c230-128b-6d61-d202" name="Primary Weapon" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5db-8d7b-e55c-0a43" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a14-4d7a-aae9-7951" type="min"/>
+                  </constraints>
+                  <categoryLinks>
+                    <categoryLink id="5c66-81bd-6c40-6400" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+                  </categoryLinks>
+                  <selectionEntries>
+                    <selectionEntry id="c9d9-a981-b7d5-4749" name="CAR-67  Assault Rifle" hidden="false" collective="false" import="true" type="upgrade">
+                      <profiles>
+                        <profile id="7a3b-7aca-bde2-8e88" name="CAR-67  Assault Rifle" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                          <characteristics>
+                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
+                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
+                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
+                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
+                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="e061-ae20-ac35-63df" name="Reliable " hidden="false">
+                          <description>The first this weapon would suffer a malfunction, ignore the result instead.</description>
+                        </rule>
+                      </rules>
+                      <categoryLinks>
+                        <categoryLink id="c070-760b-88cd-1f4d" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+                      </categoryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="42cc-be91-7151-fcec" name="Secondary Weapon" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f643-42f1-c07c-51fc" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ee6-dbde-4449-90bd" type="min"/>
+                  </constraints>
+                  <categoryLinks>
+                    <categoryLink id="0077-723a-1cfd-44d5" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+                  </categoryLinks>
+                  <selectionEntries>
+                    <selectionEntry id="9a52-0a72-f6e6-0f89" name="CAR-68 Pistol" hidden="false" collective="false" import="true" type="upgrade">
+                      <profiles>
+                        <profile id="7bb7-1d44-4c15-950c" name="CAR-68 Pistol" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                          <characteristics>
+                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
+                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
+                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
+                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
+                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <categoryLinks>
+                        <categoryLink id="9c1c-599c-e22c-4dcc" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+                      </categoryLinks>
+                    </selectionEntry>
+                    <selectionEntry id="4c52-56cc-ac4d-8847" name="CAR-66 Submachine Gun" hidden="false" collective="false" import="true" type="upgrade">
+                      <profiles>
+                        <profile id="6ba6-49d7-2573-6ada" name="CAR-66 Submachine Gun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                          <characteristics>
+                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
+                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
+                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
+                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
+                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="11.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="2.0"/>
+        <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="12b1-6876-65b6-d4de" name="Vanguard Tank Squadron" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="6ec0-9024-37a1-0b81" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+        <categoryLink id="6843-da66-d6ac-96f6" name="Heavy Support" hidden="false" targetId="b035-a4f5-5ab0-65b2" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="93ac-d4a1-60e6-6594" name="Vanguard Tank" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40b5-6e6f-8558-61cd" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f015-a26e-637f-dfec" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="3d29-661b-f336-9261" name="Vanguard Tank" hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
+              <characteristics>
+                <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559"/>
+                <characteristic name="DEF" typeId="6644-0c1a-148c-54f2"/>
+                <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b"/>
+                <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd"/>
+                <characteristic name="INT" typeId="8b64-630a-32e8-c175"/>
+                <characteristic name="LD" typeId="f27a-4395-502d-0edc"/>
+                <characteristic name="ARMOR" typeId="edb2-357a-7123-031f"/>
+                <characteristic name="END" typeId="afaf-9bc5-83c6-72c7"/>
+                <characteristic name="NERVE" typeId="9fbd-f3af-434b-c417"/>
+                <characteristic name="MOVE" typeId="0d4e-6880-8aca-8e7b"/>
+                <characteristic name="SIZE" typeId="e736-9e94-0692-d658"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="4c65-1115-8d0a-2862" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+            <categoryLink id="d9e4-f306-a546-31e3" name="Heavy Support" hidden="false" targetId="b035-a4f5-5ab0-65b2" primary="false"/>
+          </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="80f2-7125-69dc-3cd3" name="Turret Weapon" hidden="false" collective="false" import="true">
+              <categoryLinks>
+                <categoryLink id="f868-f0a5-196a-9810" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+              </categoryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="cd5b-ca17-290b-217f" name="Krashers Fireteam" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="6134-7d19-663f-d0cd" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+        <categoryLink id="5af6-f1e9-f73b-b143" name="Special Forces" hidden="false" targetId="6a9e-ce08-e5f8-aa84" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="10f2-6dd5-61c3-8fff" name="Phantom RIG Team" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="3955-9019-cea4-bed1" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+        <categoryLink id="868c-fa70-b26c-15f2" name="Light Support" hidden="false" targetId="8617-cc36-211a-2bfb" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="27c1-78e5-1087-e817" name="Phantom RIG" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77c4-7885-a431-f676" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76be-180d-1b87-3616" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="1cda-f6bb-2ab0-f607" name="Marauder MLRS " hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="dc95-1132-b9d8-004c" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+        <categoryLink id="52df-fe7f-cb6c-a5be" name="Heavy Support" hidden="false" targetId="b035-a4f5-5ab0-65b2" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="8.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>
