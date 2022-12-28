@@ -1229,7 +1229,7 @@ If the model moves, then it must spend another action to reengage the Stabilizer
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="a10f-fd27-d11e-eab8" name="Rifle Scope " hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="a10f-fd27-d11e-eab8" name="Rifle Scope 3" hidden="false" collective="false" import="true" type="upgrade">
                       <rules>
                         <rule id="4f8b-59ae-cf79-94bb" name="Rifle Scope " hidden="false">
                           <description>Grants the Scope Feature to a single weapon of the players choosing in a unit.</description>
@@ -1298,6 +1298,28 @@ The Models must be in base-to-base contact to perform the check.
                       </rules>
                       <costs>
                         <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-1.0"/>
+                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="41c8-2722-486d-c840" name="Rifle Scope 1" hidden="false" collective="false" import="true" type="upgrade">
+                      <rules>
+                        <rule id="0868-f38a-1317-8fd9" name="Rifle Scope 1" hidden="false">
+                          <description>Grants the Scope Feature to a single weapon of the players choosing in a unit.</description>
+                        </rule>
+                      </rules>
+                      <costs>
+                        <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-1.0"/>
+                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="1ef4-99c5-9b2f-0794" name="Rifle Scope 2" hidden="false" collective="false" import="true" type="upgrade">
+                      <rules>
+                        <rule id="19f0-0d85-37ef-fa92" name="Rifle Scope 2" hidden="false">
+                          <description>Grants the Scope Feature to a single weapon of the players choosing in a unit.</description>
+                        </rule>
+                      </rules>
+                      <costs>
+                        <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-2.0"/>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                       </costs>
                     </selectionEntry>
@@ -1609,7 +1631,15 @@ The Models must be in base-to-base contact to perform the check.
         <categoryLink id="d3f8-b787-004b-efd4" name="Light Support" hidden="false" targetId="8617-cc36-211a-2bfb" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8345-6733-73d3-fe21" name="Mecuary II RIG" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="8345-6733-73d3-fe21" name="M81A1 Mecuary II RIG" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13d7-b4d8-1682-870b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d09-e0e0-be35-3a72" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="9a91-2672-2726-c032" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
+            <categoryLink id="9522-edb9-16c4-edee" name="Light Support" hidden="false" targetId="8617-cc36-211a-2bfb" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="6.0"/>
             <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="0.0"/>
@@ -1617,8 +1647,8 @@ The Models must be in base-to-base contact to perform the check.
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="6.0"/>
         <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="0.0"/>
+        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="84ba-a0eb-8e15-04e1" name="A-9 Outlaw" hidden="false" collective="false" import="true" type="unit">
@@ -1631,13 +1661,17 @@ The Models must be in base-to-base contact to perform the check.
         <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9b80-e371-e396-9756" name="M191 MLRS" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="9b80-e371-e396-9756" name="M191 MLRS Team" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="d3ab-91f4-5cdc-d069" name="Light Support" hidden="false" targetId="8617-cc36-211a-2bfb" primary="true"/>
         <categoryLink id="06ad-458a-3a06-909d" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b2e4-83a2-6d51-7473" name="M191 MLRS" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3a3-b7a6-70fc-15c9" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62f1-e555-255e-0463" type="max"/>
+          </constraints>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="6.0"/>
             <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="0.0"/>
