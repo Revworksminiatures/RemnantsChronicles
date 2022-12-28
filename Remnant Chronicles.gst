@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="10" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="12" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8db2-3d51-7944-b9de" name="Remnant Chronicles "/>
   </publications>
@@ -422,6 +422,7 @@ Orbital Strike
               </rules>
               <categoryLinks>
                 <categoryLink id="a007-374a-9ed2-53c3" name="Tatical Cards" hidden="false" targetId="0658-a548-6451-1495" primary="false"/>
+                <categoryLink id="c74f-8fee-4e82-0818" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
@@ -438,6 +439,7 @@ Orbital Strike
               </rules>
               <categoryLinks>
                 <categoryLink id="4853-8304-7dc2-8d33" name="Tatical Cards" hidden="false" targetId="0658-a548-6451-1495" primary="false"/>
+                <categoryLink id="ea45-4876-4c55-def7" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
@@ -456,6 +458,44 @@ Every model in the unit that uses this Tactical Asset will automatically take an
               </rules>
               <categoryLinks>
                 <categoryLink id="9630-e011-3dfd-91e5" name="Tatical Cards" hidden="false" targetId="0658-a548-6451-1495" primary="false"/>
+                <categoryLink id="4e99-e9ff-8540-80c6" name="Faction: Kingdom of Erland" hidden="false" targetId="b201-77fd-8f2b-73f1" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="42d3-bcdd-eace-a3e5" name="•Eyes Open (Protectorate Defense Leauge)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05b9-4c0e-9058-b988" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f941-6ba5-14b9-19fe" type="min"/>
+              </constraints>
+              <rules>
+                <rule id="ca13-19d1-2411-49c1" name="•Eyes Open (Protectorate Defense Leauge)" hidden="false">
+                  <description>All models within command range of the leader (Leadership+Rank in inches) issuing the order immediately gain an action that can only be used for reactive fire. If this action is not used by the end of the round, it expires and does not carry over to the next round. Units that have yet to activate when this is issued still gain the extra action but may only use it for reactive fire.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="a5d2-8833-231e-7d6e" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+                <categoryLink id="ce1b-e957-4cfe-6c16" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+                <categoryLink id="d5dc-5f2e-70db-daec" name="Tatical Cards" hidden="false" targetId="0658-a548-6451-1495" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5c8a-df58-69b0-a219" name="•Hold the Line! (Protectorate Defense Leauge)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5e8-e287-d589-8db5" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b26-be66-c816-ef31" type="min"/>
+              </constraints>
+              <rules>
+                <rule id="56db-04b7-cbca-069b" name="Hold the Line! (Protectorate Defense Leauge)" hidden="false">
+                  <description>Choose a Light or Heavy Core Unit. it cannot move this activation. If it does not move, spray attacks by this unit gain an advantage until the end of the round</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="0f1f-0742-218b-0cc7" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+                <categoryLink id="5324-253c-573d-d5e1" name="Tatical Cards" hidden="false" targetId="0658-a548-6451-1495" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
@@ -563,6 +603,38 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
                   <description>Discard an additional Tactical Asset from your hand when you play this card. 
 Immediately search your deck for a command card of your choosing and play it without spending a Command Point. Rank Limits still apply. You must shuffle your deck after you play this card.
 </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a850-cde8-af9c-d0e0" name="••Flanking Fire! (Protectorate Defense Leauge)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6652-4a08-98ba-a5b4" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="573b-a8a3-7ac5-8b3c" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="2f3d-47dc-08be-f76e" name="Flanking Fire!" hidden="false">
+                  <description>Choose two units that both have Line of Sight to the same enemy unit. Both units gain an advantage to direct, spray and burst attacks against the designated enemy unit</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="6730-8205-eb42-34f5" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+                <categoryLink id="b6c3-de02-17c2-8948" name="Tatical Cards" hidden="false" targetId="0658-a548-6451-1495" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4764-27d1-b5be-7d06" name="••Diversionary Tactics (Protectorate Defense Leauge)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f8b-46f8-3999-ff00" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="067b-8026-1a47-3747" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="27f3-8a06-7815-0c34" name="Diversionary Tactics" hidden="false">
+                  <description>Play this card when an enemy unit attacks one of your units. Immediately choose another one of your units. This unit gains an advantage to its ranged attacks if it can use a Reaction against the enemy attacking unit</description>
                 </rule>
               </rules>
               <costs>
@@ -703,5 +775,14 @@ Orbital Strike
       <description>This weapon has the chance of Exploding. If the Model wielding this weapon is attacked in the Rear Arc, Roll a D10. On 6+ nothing happens. 2-5, The weapon cannot be used the rest of the Game. On a 1 The weapon detonates. Your Friends Will Miss You Dearly. The Model and anything that is in a Radius equal to the Weapon’s ROF in inches must defend against an Attack Roll using the Model’s Combat Skill. The model is considered to be in the Open for the purposes of this Attack</description>
     </rule>
     <rule id="021c-ab44-4f8a-865b" name="Pistol" hidden="false"/>
+    <rule id="71a3-fa87-9038-1a6f" name="Deafened " hidden="false">
+      <description>A model that is deafened loses all of its actions the next time it activates. It may not be affected by any command cards or rallied by friendly units.</description>
+    </rule>
+    <rule id="0a1b-9f46-d85d-f833" name="Piercing:X " hidden="false">
+      <description>This Weapon treats Armor Ratings as being X less than they normally are.</description>
+    </rule>
+    <rule id="91f8-290b-8c50-39e7" name="Single Use" hidden="false">
+      <description>This weapon can only be used once per ammo box listed. The weapon user must spend a Reload Action before this weapon can be used to attack again</description>
+    </rule>
   </sharedRules>
 </gameSystem>
