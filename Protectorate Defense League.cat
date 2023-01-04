@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="36df-1e33-682e-8730" name="Protectorate Defense League" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="36df-1e33-682e-8730" name="Protectorate Defense League" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="4d34-eb9d-7579-bc94" name="Remnant Chronicles "/>
   </publications>
@@ -9,13 +9,13 @@
   <selectionEntries>
     <selectionEntry id="29b6-e686-9064-bfac" name="Central Guardsmen Fireteam" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="947b-72bc-b461-5b35" name="Central Guardsmen Fireteam" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+        <profile id="947b-72bc-b461-5b35" name="Central Guardsmen" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
           <characteristics>
             <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
             <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
             <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e">2</characteristic>
             <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36">3</characteristic>
-            <characteristic name="INT" typeId="c334-3de5-0bba-70e6">3</characteristic>
+            <characteristic name="INT" typeId="c334-3de5-0bba-70e6">2</characteristic>
             <characteristic name="LD" typeId="f7c5-0728-1b20-115b">2</characteristic>
             <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429">10</characteristic>
             <characteristic name="END" typeId="254f-362a-e072-64bf">2</characteristic>
@@ -56,6 +56,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="5a82-f52b-3574-496a" name="Bayonet" hidden="false" targetId="5bf5-4e64-9e0d-64e7" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="0.0"/>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
@@ -317,6 +320,23 @@ The Models must be in base-to-base contact to perform the check.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83e2-cc4e-51e6-d0fc" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d0f-85c1-8a44-ef7c" type="min"/>
               </constraints>
+              <profiles>
+                <profile id="03fe-729d-5d40-b09c" name="Smoke Launchers" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Indirect</characteristic>
+                    <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">5/-/-</characteristic>
+                    <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+                    <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">-</characteristic>
+                    <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Turret, Smoke:3 Multi-shot:3, Ammo: OO</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="7fe6-1fb8-07dd-f9d5" name="Turret" hidden="false" targetId="3a0e-5ed1-3fa7-c5e5" type="rule"/>
+                <infoLink id="ab4a-7473-4f59-8de2" name="Smoke:X " hidden="false" targetId="df1c-a5ef-18af-3dff" type="rule"/>
+                <infoLink id="572f-7b1f-67ea-bf08" name="Multi-Shot:X" hidden="false" targetId="ebba-c110-9463-eb80" type="rule"/>
+                <infoLink id="588a-0a4c-de0f-2f09" name="Ammo" hidden="false" targetId="3aec-6191-4980-1a2f" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="0.0"/>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
@@ -409,6 +429,9 @@ Medkit        OO
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="bc5a-4e0e-8314-ccc8" name="Auto (Automatic)" hidden="false" targetId="03ba-2b03-f4aa-a28c" type="rule"/>
+                  </infoLinks>
                   <categoryLinks>
                     <categoryLink id="52bb-261f-e0d5-686f" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
                   </categoryLinks>
@@ -421,14 +444,21 @@ Medkit        OO
                   <profiles>
                     <profile id="f72e-6d9e-22c7-ab7b" name="Automatic Grenade Launcher" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
                       <characteristics>
-                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Indirect</characteristic>
+                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/60</characteristic>
+                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1-3</characteristic>
+                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">12</characteristic>
+                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:3, Belt Fed
+Ammo: OOO
+</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="abe2-8be0-579e-8590" name="Belt Fed" hidden="false" targetId="8945-034c-c26e-a11c" type="rule"/>
+                    <infoLink id="f58c-2ce0-a3de-885b" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+                    <infoLink id="f9ff-9f2f-1eee-4f1b" name="Ammo" hidden="false" targetId="3aec-6191-4980-1a2f" type="rule"/>
+                  </infoLinks>
                   <categoryLinks>
                     <categoryLink id="7716-af27-8411-857b" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
                   </categoryLinks>
@@ -441,14 +471,18 @@ Medkit        OO
                   <profiles>
                     <profile id="07e3-5481-729d-8220" name="Pulse Beam Rifle" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
                       <characteristics>
-                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">20/40/OO</characteristic>
+                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">3</characteristic>
+                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">9</characteristic>
+                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Melt:1, Overheats</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="acb1-a576-32fd-0720" name="Melt:X" hidden="false" targetId="7cc9-d5ed-6bde-eeb6" type="rule"/>
+                    <infoLink id="48f9-005e-5f77-177c" name="Overheats" hidden="false" targetId="c2a9-ba17-ea43-af7e" type="rule"/>
+                  </infoLinks>
                   <categoryLinks>
                     <categoryLink id="9fd1-dd50-9d94-8ebc" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
                   </categoryLinks>
@@ -461,14 +495,21 @@ Medkit        OO
                   <profiles>
                     <profile id="a358-295a-828c-14cd" name="FlameThrower" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
                       <characteristics>
-                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/-</characteristic>
+                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">8</characteristic>
+                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Spray, Ignore Cover:1, Sustained, Fire:3, Volatile</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="c72b-9265-7ce7-c7ba" name="Spray " hidden="false" targetId="ff3e-33fd-8017-872a" type="rule"/>
+                    <infoLink id="b57b-7bc6-2f74-a35a" name="Ignores Cover:X" hidden="false" targetId="e2f0-7224-3535-a65f" type="rule"/>
+                    <infoLink id="cae5-6e65-0097-1520" name="Sustained" hidden="false" targetId="d3f2-4d0a-484a-6ee5" type="rule"/>
+                    <infoLink id="04c8-28e8-3d51-833b" name="Volatile" hidden="false" targetId="10b9-bcc7-5dc3-5695" type="rule"/>
+                    <infoLink id="368b-7c07-f3fb-4b8a" name="Fire:X" hidden="false" targetId="9894-7438-2974-fa18" type="rule"/>
+                  </infoLinks>
                   <categoryLinks>
                     <categoryLink id="8813-1832-c820-3989" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
                   </categoryLinks>
@@ -845,17 +886,17 @@ The Models must be in base-to-base contact to perform the check.</description>
               <profiles>
                 <profile id="98cf-2c31-4770-ee72" name="Senior Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
                   <characteristics>
-                    <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
-                    <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
-                    <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e"/>
-                    <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36"/>
-                    <characteristic name="INT" typeId="c334-3de5-0bba-70e6"/>
-                    <characteristic name="LD" typeId="f7c5-0728-1b20-115b"/>
-                    <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429"/>
-                    <characteristic name="END" typeId="254f-362a-e072-64bf"/>
-                    <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af"/>
-                    <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96"/>
-                    <characteristic name="SIZE" typeId="2926-db13-a623-b546"/>
+                    <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
+                    <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
+                    <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e">2</characteristic>
+                    <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36">3</characteristic>
+                    <characteristic name="INT" typeId="c334-3de5-0bba-70e6">3</characteristic>
+                    <characteristic name="LD" typeId="f7c5-0728-1b20-115b">3</characteristic>
+                    <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429">10</characteristic>
+                    <characteristic name="END" typeId="254f-362a-e072-64bf">2</characteristic>
+                    <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af">3</characteristic>
+                    <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96">5</characteristic>
+                    <characteristic name="SIZE" typeId="2926-db13-a623-b546">5 - Med</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1089,17 +1130,17 @@ The Models must be in base-to-base contact to perform the check.</description>
               <profiles>
                 <profile id="af02-d461-ca97-b129" name="Luut" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
                   <characteristics>
-                    <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
-                    <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
-                    <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e"/>
-                    <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36"/>
-                    <characteristic name="INT" typeId="c334-3de5-0bba-70e6"/>
-                    <characteristic name="LD" typeId="f7c5-0728-1b20-115b"/>
-                    <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429"/>
-                    <characteristic name="END" typeId="254f-362a-e072-64bf"/>
-                    <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af"/>
-                    <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96"/>
-                    <characteristic name="SIZE" typeId="2926-db13-a623-b546"/>
+                    <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
+                    <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">3</characteristic>
+                    <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e">2</characteristic>
+                    <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36">2</characteristic>
+                    <characteristic name="INT" typeId="c334-3de5-0bba-70e6">3</characteristic>
+                    <characteristic name="LD" typeId="f7c5-0728-1b20-115b">3</characteristic>
+                    <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429">10</characteristic>
+                    <characteristic name="END" typeId="254f-362a-e072-64bf">3</characteristic>
+                    <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af">3</characteristic>
+                    <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96">5</characteristic>
+                    <characteristic name="SIZE" typeId="2926-db13-a623-b546">5 - Med</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1463,6 +1504,17 @@ The Models must be in base-to-base contact to perform the check.</description>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                   </costs>
                 </selectionEntry>
+                <selectionEntry id="6d08-0b7d-d1aa-1da2" name="Discus Grenades " hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5266-f87b-2d32-78ba" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="8320-cbea-ed59-d4d9" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="-5.0"/>
+                  </costs>
+                </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
             <selectionEntryGroup id="1537-792e-7578-dab7" name="Explosives" hidden="false" collective="false" import="true">
@@ -1527,6 +1579,16 @@ The Models must be in base-to-base contact to perform the check.</description>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                   </costs>
                 </selectionEntry>
+                <selectionEntry id="3150-8b38-d176-5f01" name="Breaching Charges" hidden="false" collective="false" import="true" type="upgrade">
+                  <rules>
+                    <rule id="2382-cffd-74a9-96c1" name="Breaching Charges" hidden="false">
+                      <description>A model may spend an action to place a Breaching Charge Token. The token must be placed next to a terrain feature no more than 1” thick. The model that placed the token may spend another action to detonate the charge. The terrain feature now is considered to have a 2 inch by 3 inch opening in it where the token was placed. Models may pass through this opening as if the terrain was not there.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="-3.0"/>
+                  </costs>
+                </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -1575,12 +1637,26 @@ The Models must be in base-to-base contact to perform the check.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac98-b2ad-93c2-0fe3" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b89c-b374-3efa-3953" type="min"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="7482-1f43-9188-d605" name="Turret" hidden="false" targetId="3a0e-5ed1-3fa7-c5e5" type="rule"/>
+              </infoLinks>
               <selectionEntries>
                 <selectionEntry id="b058-2ba0-374a-b258" name="1 Medium Tank Gun" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab2a-a879-50a4-2ed5" type="max"/>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c3c-dcd8-7d5a-0dcb" type="min"/>
                   </constraints>
+                  <profiles>
+                    <profile id="d3ed-c3d0-35f2-c6d9" name="1 Medium Tank Gun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">30/60/OO</characteristic>
+                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">15</characteristic>
+                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
                   <costs>
                     <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="0.0"/>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
@@ -1591,6 +1667,17 @@ The Models must be in base-to-base contact to perform the check.</description>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6890-4d0f-b704-e921" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="094b-a16c-9cad-96f7" type="max"/>
                   </constraints>
+                  <profiles>
+                    <profile id="4cdd-b9d1-11b6-2b09" name="1 Railgun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">30/60/OO</characteristic>
+                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">15</characteristic>
+                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
                   <costs>
                     <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="-9.0"/>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
@@ -1599,6 +1686,9 @@ The Models must be in base-to-base contact to perform the check.</description>
               </selectionEntries>
             </selectionEntryGroup>
             <selectionEntryGroup id="1120-6d7e-f18a-b51b" name="Anti-Personal Weapons " hidden="false" collective="false" import="true" defaultSelectionEntryId="6f06-2736-758b-c1b6">
+              <infoLinks>
+                <infoLink id="f324-3910-ed55-7bd4" name="Turret" hidden="false" targetId="3a0e-5ed1-3fa7-c5e5" type="rule"/>
+              </infoLinks>
               <categoryLinks>
                 <categoryLink id="799d-fabb-3cb4-b4a2" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
               </categoryLinks>
@@ -1608,6 +1698,20 @@ The Models must be in base-to-base contact to perform the check.</description>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21b4-2e76-cba8-652f" type="max"/>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e51-fc26-f00f-6d72" type="min"/>
                   </constraints>
+                  <profiles>
+                    <profile id="c9c6-4b2d-5e2b-cbd0" name="Light Machine Guns" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">10/20/OO</characteristic>
+                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">2-3</characteristic>
+                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">10</characteristic>
+                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Auto</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="fa1b-60e2-14bf-d10e" name="Auto (Automatic)" hidden="false" targetId="03ba-2b03-f4aa-a28c" type="rule"/>
+                  </infoLinks>
                   <categoryLinks>
                     <categoryLink id="20b6-286f-b2aa-7443" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
                   </categoryLinks>
@@ -1621,6 +1725,20 @@ The Models must be in base-to-base contact to perform the check.</description>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="610a-b2dc-584f-8028" type="max"/>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d74c-8453-f981-7862" type="min"/>
                   </constraints>
+                  <profiles>
+                    <profile id="4fa3-779a-d207-38ce" name="Medium Machine Gun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">10/20/OO</characteristic>
+                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">2-3</characteristic>
+                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">11</characteristic>
+                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Belt Fed</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="4914-b9a5-bcb4-6033" name="Belt Fed" hidden="false" targetId="8945-034c-c26e-a11c" type="rule"/>
+                  </infoLinks>
                   <costs>
                     <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="-7.0"/>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
