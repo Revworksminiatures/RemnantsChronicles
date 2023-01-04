@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="521e-09b1-fcdf-951e" name="Federal Coalition" revision="10" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="521e-09b1-fcdf-951e" name="Federal Coalition" revision="12" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="b3e5-5793-3120-bf85" name="Remnant Chronicles "/>
   </publications>
@@ -7750,6 +7750,7 @@ The Models must be in base-to-base contact to perform the check.
       </categoryLinks>
       <costs>
         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="10.0"/>
+        <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="35f9-fec3-c7dc-0a36" name="Army Aircraft Overwatch" hidden="false" collective="false" import="true" type="upgrade">
@@ -7783,6 +7784,7 @@ The Models must be in base-to-base contact to perform the check.
       </categoryLinks>
       <costs>
         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="10.0"/>
+        <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
