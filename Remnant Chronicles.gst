@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="30" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="36" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8db2-3d51-7944-b9de" name="Remnant Chronicles "/>
   </publications>
@@ -528,15 +528,14 @@ Every model in the unit that uses this Tactical Asset will automatically take an
             </selectionEntry>
             <selectionEntry id="42d3-bcdd-eace-a3e5" name="•Eyes Open (Protectorate Defense Leauge)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="hidden" value="true">
+                <modifier type="set" field="hidden" value="false">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5540-ca8e-1356-62eb" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5540-ca8e-1356-62eb" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05b9-4c0e-9058-b988" type="max"/>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f941-6ba5-14b9-19fe" type="min"/>
               </constraints>
               <rules>
                 <rule id="ca13-19d1-2411-49c1" name="•Eyes Open (Protectorate Defense Leauge)" hidden="false">
@@ -544,9 +543,8 @@ Every model in the unit that uses this Tactical Asset will automatically take an
                 </rule>
               </rules>
               <categoryLinks>
-                <categoryLink id="a5d2-8833-231e-7d6e" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
-                <categoryLink id="ce1b-e957-4cfe-6c16" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
                 <categoryLink id="d5dc-5f2e-70db-daec" name="Tatical Cards" hidden="false" targetId="0658-a548-6451-1495" primary="false"/>
+                <categoryLink id="3780-090f-fe95-3567" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
@@ -554,18 +552,17 @@ Every model in the unit that uses this Tactical Asset will automatically take an
             </selectionEntry>
             <selectionEntry id="5c8a-df58-69b0-a219" name="•Hold the Line! (Protectorate Defense Leauge)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="hidden" value="true">
+                <modifier type="set" field="hidden" value="false">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5540-ca8e-1356-62eb" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5540-ca8e-1356-62eb" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5e8-e287-d589-8db5" type="max"/>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b26-be66-c816-ef31" type="min"/>
               </constraints>
               <rules>
-                <rule id="56db-04b7-cbca-069b" name="Hold the Line! (Protectorate Defense Leauge)" hidden="false">
+                <rule id="56db-04b7-cbca-069b" name="•Hold the Line! (Protectorate Defense Leauge)" hidden="false">
                   <description>Choose a Light or Heavy Core Unit. it cannot move this activation. If it does not move, spray attacks by this unit gain an advantage until the end of the round</description>
                 </rule>
               </rules>
@@ -737,14 +734,13 @@ Immediately search your deck for a command card of your choosing and play it wit
             </selectionEntry>
             <selectionEntry id="a850-cde8-af9c-d0e0" name="••Flanking Fire! (Protectorate Defense Leauge)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="hidden" value="true">
+                <modifier type="set" field="hidden" value="false">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5540-ca8e-1356-62eb" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5540-ca8e-1356-62eb" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6652-4a08-98ba-a5b4" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="573b-a8a3-7ac5-8b3c" type="max"/>
               </constraints>
               <rules>
@@ -762,14 +758,13 @@ Immediately search your deck for a command card of your choosing and play it wit
             </selectionEntry>
             <selectionEntry id="4764-27d1-b5be-7d06" name="••Diversionary Tactics (Protectorate Defense Leauge)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="hidden" value="true">
+                <modifier type="set" field="hidden" value="false">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5540-ca8e-1356-62eb" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5540-ca8e-1356-62eb" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f8b-46f8-3999-ff00" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="067b-8026-1a47-3747" type="max"/>
               </constraints>
               <rules>
@@ -777,6 +772,10 @@ Immediately search your deck for a command card of your choosing and play it wit
                   <description>Play this card when an enemy unit attacks one of your units. Immediately choose another one of your units. This unit gains an advantage to its ranged attacks if it can use a Reaction against the enemy attacking unit</description>
                 </rule>
               </rules>
+              <categoryLinks>
+                <categoryLink id="c882-3baa-dff6-4ab5" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+                <categoryLink id="007c-25a5-995e-10f5" name="Tatical Cards" hidden="false" targetId="0658-a548-6451-1495" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
               </costs>
@@ -2968,5 +2967,26 @@ DMG + Difference - Armor = Damage Taken</description>
       <description>The weapon may fire in any direction no matter which direction it is facing.</description>
     </rule>
     <rule id="0f22-3a0c-dcbd-2d0d" name="Brutal" hidden="false"/>
+    <rule id="7375-bcc8-281c-1b78" name="Veteran Crew" hidden="false">
+      <description>Grants this Vehicle the Voice of Command Ability</description>
+    </rule>
+    <rule id="71c1-7cf0-d0e8-989e" name="Voice of Command" hidden="false">
+      <description>Use the unit cohesion range instead of LD+SZ when determining area of effect for command Cards</description>
+    </rule>
+    <rule id="5673-4584-3c2e-2428" name="Advance" hidden="false">
+      <description>The Vehicle moves up to a number of inches equal to its movement rating. It may freely pivot before, after, or during the move, but must always move in the direction it is facing. Once the move is complete, the action has ended.</description>
+    </rule>
+    <rule id="798d-95bc-1064-e636" name="Fly" hidden="false">
+      <description>The vehicle is not affected by terrain or models for purposes of movement. However, it can never start or end in base-to-base contact with another model. If a flying vehicle&apos;s base would end up touching another model&apos;s base it stops 1 inch outside of base-to-base contact.  For targeting purposes, a player is always at a disadvantage when firing at a flying vehicle</description>
+    </rule>
+    <rule id="33e0-4b09-acb4-f413" name="Hover" hidden="false">
+      <description>A vehicle can switch to hover and vice versa only if it can fly. In order to switch the vehicle must have an available action to do so. When hovering the model may move and act normally. When hovering, the model’s movement rating is halved (rounded down).</description>
+    </rule>
+    <rule id="4a5f-c629-88fc-594b" name="Ram" hidden="false">
+      <description>A Vehicle can choose to ram into structures or other vehicles. If a vehicle chooses to ram a structure or vehicle, it makes a CMBT roll and adds success to the Vehicle’s Armor. If the vehicle’s roll is higher than the structures or vehicle&apos;s AR, the vehicle may use its full movement to “crash” into the target. 
+The structure is reduced to a “ruin” for purposes of terrain.
+An enemy vehicle loses Endurance points equal to the DMG dealt to it by the Ramming force of the vehicle
+</description>
+    </rule>
   </sharedRules>
 </gameSystem>
