@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="36" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="39" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8db2-3d51-7944-b9de" name="Remnant Chronicles "/>
   </publications>
@@ -528,9 +528,9 @@ Every model in the unit that uses this Tactical Asset will automatically take an
             </selectionEntry>
             <selectionEntry id="42d3-bcdd-eace-a3e5" name="•Eyes Open (Protectorate Defense Leauge)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="hidden" value="false">
+                <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5540-ca8e-1356-62eb" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5540-ca8e-1356-62eb" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -552,9 +552,9 @@ Every model in the unit that uses this Tactical Asset will automatically take an
             </selectionEntry>
             <selectionEntry id="5c8a-df58-69b0-a219" name="•Hold the Line! (Protectorate Defense Leauge)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="hidden" value="false">
+                <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5540-ca8e-1356-62eb" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5540-ca8e-1356-62eb" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -606,6 +606,58 @@ Every model in the unit that uses this Tactical Asset will automatically take an
               <categoryLinks>
                 <categoryLink id="e663-1ad8-94cd-9c72" name="Tatical Cards" hidden="false" targetId="0658-a548-6451-1495" primary="false"/>
               </categoryLinks>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cbec-4d80-eb1b-bbb7" name="•Command Re-Roll" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84d3-4f5d-25d3-a0cd" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="9983-91f1-3f1b-d5ad" name="Command Re-Roll" hidden="false">
+                  <description>May reroll any dice roll, but must keep the second result. If a player chooses to reroll, they must reroll all the dice involved in the original roll and keep the second result.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c951-c60a-b3e0-ace9" name="•Steal the Initiative!" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc49-bd88-59c0-7125" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="b3ff-b09b-9953-e75e" name="Steal the Initiative" hidden="false">
+                  <description>May interrupt Opponent’s unit activations to make your own. This card may only be used once per round!</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ab04-255b-6827-e232" name="•Rally!" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6497-aaa6-bdb8-0baf" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="989e-ada9-f89f-de67" name="Rally!" hidden="false">
+                  <description>May immediately recover a unit from being suppressed, pinned or broken</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="13dc-c317-6a72-51c4" name="•Grant an Extra Action" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57cc-cef6-1f23-5b6a" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="7ca6-3505-5c2e-611d" name="Grant an Extra Action" hidden="false">
+                  <description>May give a model an additional action even if it has already spent all of its normal actions. This may be given at any time, even outside the model’s activation. However, it must still abide by any restrictions (such as skill limits) the model has.</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
               </costs>
@@ -734,9 +786,9 @@ Immediately search your deck for a command card of your choosing and play it wit
             </selectionEntry>
             <selectionEntry id="a850-cde8-af9c-d0e0" name="••Flanking Fire! (Protectorate Defense Leauge)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="hidden" value="false">
+                <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5540-ca8e-1356-62eb" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5540-ca8e-1356-62eb" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -758,9 +810,9 @@ Immediately search your deck for a command card of your choosing and play it wit
             </selectionEntry>
             <selectionEntry id="4764-27d1-b5be-7d06" name="••Diversionary Tactics (Protectorate Defense Leauge)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="hidden" value="false">
+                <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5540-ca8e-1356-62eb" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5540-ca8e-1356-62eb" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -2988,5 +3040,16 @@ The structure is reduced to a “ruin” for purposes of terrain.
 An enemy vehicle loses Endurance points equal to the DMG dealt to it by the Ramming force of the vehicle
 </description>
     </rule>
+    <rule id="a899-773b-3970-5c1e" name="Transport: X" hidden="false">
+      <description>This model may carry a certain number of Troops equal to the amount listed. if a model has the Bulky Trait, then that model counts as Bulky X for purposes of being placed into a transport.</description>
+    </rule>
+    <rule id="fc45-036c-4945-1358" name="Walker" hidden="false"/>
+    <rule id="6932-ca7e-0545-70c5" name="Armored" hidden="false">
+      <description>If a vehicle has this trait their Armor stat will be represented by  -/-/- with the first dash being the front armor, the second dash being the side armor and the third dash being the rear armor.  When being attacked, the armor value is from the attackers weapon into whichever part of the vehicle they have the most view of. For purposes of aircraft or artillery attacks, always use the first &quot;front&quot; armor stat.</description>
+    </rule>
+    <rule id="8645-a4f1-699d-56f6" name="Extra Armor" hidden="false">
+      <description>If this upgrade is taken, all armor values on this vehicle are increased by 1.</description>
+    </rule>
+    <rule id="f16d-2b45-0d6e-55b0" name="Infiltrate" hidden="false"/>
   </sharedRules>
 </gameSystem>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="36df-1e33-682e-8730" name="Protectorate Defense League" revision="16" battleScribeVersion="2.03" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="36df-1e33-682e-8730" name="Protectorate Defense League" revision="19" battleScribeVersion="2.03" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="4d34-eb9d-7579-bc94" name="Remnant Chronicles "/>
   </publications>
@@ -636,15 +636,38 @@ Ammo: OOO
           </constraints>
           <categoryLinks>
             <categoryLink id="fb74-9785-5c47-7499" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+            <categoryLink id="0bef-4028-0454-145c" name="Light Support" hidden="false" targetId="8617-cc36-211a-2bfb" primary="false"/>
           </categoryLinks>
           <selectionEntries>
             <selectionEntry id="12a0-dcb0-9dec-7450" name="Kulan IFV" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="f16c-0421-a241-d2f7" name="Kulan IFV" hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
+                  <characteristics>
+                    <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559"/>
+                    <characteristic name="DEF" typeId="6644-0c1a-148c-54f2"/>
+                    <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b"/>
+                    <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd"/>
+                    <characteristic name="INT" typeId="8b64-630a-32e8-c175"/>
+                    <characteristic name="LD" typeId="f27a-4395-502d-0edc"/>
+                    <characteristic name="ARMOR" typeId="edb2-357a-7123-031f"/>
+                    <characteristic name="END" typeId="afaf-9bc5-83c6-72c7"/>
+                    <characteristic name="NERVE" typeId="9fbd-f3af-434b-c417"/>
+                    <characteristic name="MOVE" typeId="0d4e-6880-8aca-8e7b"/>
+                    <characteristic name="SIZE" typeId="e736-9e94-0692-d658"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="0205-2c7c-750b-0505" name="Transport: X" hidden="false" targetId="a899-773b-3970-5c1e" type="rule"/>
+                <infoLink id="175a-2cc6-c080-dc7b" name="Mechanum Wheels" hidden="false" targetId="eac5-a603-c86b-cdea" type="rule"/>
+                <infoLink id="9323-112c-537f-16cb" name="Armored" hidden="false" targetId="6932-ca7e-0545-70c5" type="rule"/>
+              </infoLinks>
               <categoryLinks>
                 <categoryLink id="e4fd-e9d0-f8cf-530a" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
                 <categoryLink id="d8f4-5a20-e795-5384" name="Vehicle" hidden="false" targetId="23bb-b58c-3bd2-08fd" primary="false"/>
               </categoryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="89a6-947a-d809-b878" name="Turret Weapons" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="89a6-947a-d809-b878" name="Turret Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="b3cc-aed6-a84e-83ae">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58f7-1d66-6f8b-032f" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3dae-9a9f-0e0d-56ef" type="min"/>
@@ -652,6 +675,25 @@ Ammo: OOO
                   <categoryLinks>
                     <categoryLink id="051f-441f-bfaa-db4a" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
                   </categoryLinks>
+                  <selectionEntries>
+                    <selectionEntry id="b3cc-aed6-a84e-83ae" name="Medium Autocannon" hidden="false" collective="false" import="true" type="upgrade">
+                      <profiles>
+                        <profile id="aebb-a325-c5e2-72fc" name="Medium Autocannon" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                          <characteristics>
+                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/OO</characteristic>
+                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1-2</characteristic>
+                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">14</characteristic>
+                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="-7.0"/>
+                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
@@ -661,8 +703,8 @@ Ammo: OOO
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="0.0"/>
-            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+            <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="7.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="6.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1865,17 +1907,17 @@ The Models must be in base-to-base contact to perform the check.</description>
           <profiles>
             <profile id="3d29-661b-f336-9261" name="Vanguard Tank" hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
               <characteristics>
-                <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559"/>
-                <characteristic name="DEF" typeId="6644-0c1a-148c-54f2"/>
-                <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b"/>
-                <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd"/>
-                <characteristic name="INT" typeId="8b64-630a-32e8-c175"/>
-                <characteristic name="LD" typeId="f27a-4395-502d-0edc"/>
-                <characteristic name="ARMOR" typeId="edb2-357a-7123-031f"/>
-                <characteristic name="END" typeId="afaf-9bc5-83c6-72c7"/>
-                <characteristic name="NERVE" typeId="9fbd-f3af-434b-c417"/>
-                <characteristic name="MOVE" typeId="0d4e-6880-8aca-8e7b"/>
-                <characteristic name="SIZE" typeId="e736-9e94-0692-d658"/>
+                <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559">Armored, Tracks, Turret, Stablized</characteristic>
+                <characteristic name="DEF" typeId="6644-0c1a-148c-54f2">1</characteristic>
+                <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b">2</characteristic>
+                <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd">2</characteristic>
+                <characteristic name="INT" typeId="8b64-630a-32e8-c175">2</characteristic>
+                <characteristic name="LD" typeId="f27a-4395-502d-0edc">2</characteristic>
+                <characteristic name="ARMOR" typeId="edb2-357a-7123-031f">14</characteristic>
+                <characteristic name="END" typeId="afaf-9bc5-83c6-72c7">5</characteristic>
+                <characteristic name="NERVE" typeId="9fbd-f3af-434b-c417">4</characteristic>
+                <characteristic name="MOVE" typeId="0d4e-6880-8aca-8e7b">10</characteristic>
+                <characteristic name="SIZE" typeId="e736-9e94-0692-d658">MA- 12</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1891,6 +1933,7 @@ The Models must be in base-to-base contact to perform the check.</description>
               </constraints>
               <infoLinks>
                 <infoLink id="7482-1f43-9188-d605" name="Turret" hidden="false" targetId="3a0e-5ed1-3fa7-c5e5" type="rule"/>
+                <infoLink id="d62f-1694-6bb9-ac42" name="Stablized" hidden="false" targetId="8e1a-1779-b009-f80b" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="b058-2ba0-374a-b258" name="1 Medium Tank Gun" hidden="false" collective="false" import="true" type="upgrade">
@@ -2057,6 +2100,27 @@ The Models must be in base-to-base contact to perform the check.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="cd5b-ca17-290b-217f" name="Krashers Fireteam" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="338e-7369-7932-5bf0" name="Krashers Fireteam" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+          <characteristics>
+            <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
+            <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
+            <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e"/>
+            <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36"/>
+            <characteristic name="INT" typeId="c334-3de5-0bba-70e6"/>
+            <characteristic name="LD" typeId="f7c5-0728-1b20-115b"/>
+            <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429"/>
+            <characteristic name="END" typeId="254f-362a-e072-64bf"/>
+            <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af"/>
+            <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96"/>
+            <characteristic name="SIZE" typeId="2926-db13-a623-b546"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6902-0d80-7872-daeb" name="Advanced Deployment" hidden="false" targetId="a16f-2e34-aaa1-87be" type="rule"/>
+        <infoLink id="668b-a341-6209-fac1" name="Infiltrate" hidden="false" targetId="f16d-2b45-0d6e-55b0" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="6134-7d19-663f-d0cd" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
         <categoryLink id="5af6-f1e9-f73b-b143" name="Special Forces" hidden="false" targetId="6a9e-ce08-e5f8-aa84" primary="true"/>
@@ -2328,6 +2392,23 @@ The Models must be in base-to-base contact to perform the check.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee1c-152d-0372-04b7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01cd-b4c8-e5e3-caab" type="min"/>
           </constraints>
+          <profiles>
+            <profile id="a736-8050-5045-1a9f" name="Krashers Sr Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+              <characteristics>
+                <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
+                <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
+                <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e"/>
+                <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36"/>
+                <characteristic name="INT" typeId="c334-3de5-0bba-70e6"/>
+                <characteristic name="LD" typeId="f7c5-0728-1b20-115b"/>
+                <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429"/>
+                <characteristic name="END" typeId="254f-362a-e072-64bf"/>
+                <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af"/>
+                <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96"/>
+                <characteristic name="SIZE" typeId="2926-db13-a623-b546"/>
+              </characteristics>
+            </profile>
+          </profiles>
           <selectionEntries>
             <selectionEntry id="2524-56d0-17be-40f9" name="Krasher Power Armor" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2810,19 +2891,25 @@ The Models must be in base-to-base contact to perform the check.</description>
           <profiles>
             <profile id="6f62-7682-06a6-61f7" name="DP-9 Phantom RIG" hidden="false" typeId="3171-8235-12ee-fea3" typeName="RIG">
               <characteristics>
-                <characteristic name="Key Traits" typeId="c57f-bd9b-9731-5292"/>
-                <characteristic name="DEF" typeId="8c0c-fc9a-dc50-2008"/>
-                <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b"/>
-                <characteristic name="ATHL" typeId="6e35-19f6-f86d-c8c4"/>
-                <characteristic name="INT" typeId="2729-26d6-4909-a42b"/>
-                <characteristic name="LD" typeId="fb75-f849-87bf-0cf7"/>
-                <characteristic name="ARMOR" typeId="03b5-12b6-d388-97a3"/>
-                <characteristic name="NERVE" typeId="d2d7-447d-46cc-09d0"/>
-                <characteristic name="MOVE" typeId="c6d3-4c1d-1edb-4617"/>
-                <characteristic name="SIZE" typeId="5144-a968-b049-94f5"/>
+                <characteristic name="Key Traits" typeId="c57f-bd9b-9731-5292">Arms, Legs, Walker, Armored</characteristic>
+                <characteristic name="DEF" typeId="8c0c-fc9a-dc50-2008">2</characteristic>
+                <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b">2</characteristic>
+                <characteristic name="ATHL" typeId="6e35-19f6-f86d-c8c4">3</characteristic>
+                <characteristic name="INT" typeId="2729-26d6-4909-a42b">2</characteristic>
+                <characteristic name="LD" typeId="fb75-f849-87bf-0cf7">2</characteristic>
+                <characteristic name="ARMOR" typeId="03b5-12b6-d388-97a3">13/12/11</characteristic>
+                <characteristic name="NERVE" typeId="d2d7-447d-46cc-09d0">4</characteristic>
+                <characteristic name="MOVE" typeId="c6d3-4c1d-1edb-4617">10</characteristic>
+                <characteristic name="SIZE" typeId="5144-a968-b049-94f5">11- MA</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="afe1-db11-395a-460a" name="Arms" hidden="false" targetId="3acb-1f99-ab4c-9863" type="rule"/>
+            <infoLink id="fd2c-3941-9bac-9091" name="Walker" hidden="false" targetId="fc45-036c-4945-1358" type="rule"/>
+            <infoLink id="3529-3ed0-290c-9569" name="Legs" hidden="false" targetId="4fd6-d14d-37bb-24af" type="rule"/>
+            <infoLink id="9278-74d2-0592-dc3d" name="Armored" hidden="false" targetId="6932-ca7e-0545-70c5" type="rule"/>
+          </infoLinks>
           <categoryLinks>
             <categoryLink id="b94f-1f50-4bae-18cc" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
           </categoryLinks>
@@ -2833,7 +2920,9 @@ The Models must be in base-to-base contact to perform the check.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aed9-5406-85de-2458" type="min"/>
               </constraints>
               <rules>
-                <rule id="fb97-d3f5-0294-9c33" name="Reflective Armor" hidden="false"/>
+                <rule id="fb97-d3f5-0294-9c33" name="Reflective Armor" hidden="false">
+                  <description>When this vehicle is targeted, the oppoent must remove 1 dice from the attack pool.</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="0.0"/>
@@ -2929,6 +3018,19 @@ The Models must be in base-to-base contact to perform the check.</description>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                   </costs>
                 </selectionEntry>
+                <selectionEntry id="05d8-0821-cf6a-dae8" name="Extra Armor" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48ef-5845-4ec2-ecf7" type="min"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e7d-c505-b204-1d61" type="min"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="e159-2dbb-e4e6-f056" name="Extra Armor" hidden="false" targetId="8645-a4f1-699d-56f6" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="-2.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -2983,6 +3085,83 @@ The Models must be in base-to-base contact to perform the check.</description>
       <costs>
         <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="0.0"/>
         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fa9d-df36-e923-83fd" name="Kulan IFV" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5b1-0aef-a176-a1d0" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="68d7-ad0d-8b1d-2583" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+        <categoryLink id="4443-2d79-c2f8-b665" name="Light Support" hidden="false" targetId="8617-cc36-211a-2bfb" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4b3d-22e1-9e5c-8beb" name="Kulan IFV" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="be64-cebb-904b-b321" name="Kulan IFV" hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
+              <characteristics>
+                <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559"/>
+                <characteristic name="DEF" typeId="6644-0c1a-148c-54f2"/>
+                <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b"/>
+                <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd"/>
+                <characteristic name="INT" typeId="8b64-630a-32e8-c175"/>
+                <characteristic name="LD" typeId="f27a-4395-502d-0edc"/>
+                <characteristic name="ARMOR" typeId="edb2-357a-7123-031f"/>
+                <characteristic name="END" typeId="afaf-9bc5-83c6-72c7"/>
+                <characteristic name="NERVE" typeId="9fbd-f3af-434b-c417"/>
+                <characteristic name="MOVE" typeId="0d4e-6880-8aca-8e7b"/>
+                <characteristic name="SIZE" typeId="e736-9e94-0692-d658"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="1f9d-14a8-ffa1-8ca0" name="Transport: X" hidden="false" targetId="a899-773b-3970-5c1e" type="rule"/>
+            <infoLink id="063b-3b0c-6b3a-6b88" name="Mechanum Wheels" hidden="false" targetId="eac5-a603-c86b-cdea" type="rule"/>
+            <infoLink id="36d1-d04e-f515-2533" name="Armored" hidden="false" targetId="6932-ca7e-0545-70c5" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="a8b4-117a-5665-0df7" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+            <categoryLink id="d58a-56cb-2419-5ac9" name="Vehicle" hidden="false" targetId="23bb-b58c-3bd2-08fd" primary="false"/>
+          </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="4d81-63f1-f31e-40dc" name="Turret Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="f555-8ef0-ef0e-a520">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a782-4dda-975b-87ac" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9bd-7ae2-7380-059b" type="min"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="79ee-d85e-e60c-2de7" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="f555-8ef0-ef0e-a520" name="Medium Autocannon" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="72f5-c1fd-59ab-585f" name="Medium Autocannon" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/OO</characteristic>
+                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1-2</characteristic>
+                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">14</characteristic>
+                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="-7.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="0.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="7.0"/>
+        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="6.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
