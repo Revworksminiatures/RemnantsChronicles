@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="39" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="40" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8db2-3d51-7944-b9de" name="Remnant Chronicles "/>
   </publications>
@@ -3051,5 +3051,6 @@ An enemy vehicle loses Endurance points equal to the DMG dealt to it by the Ramm
       <description>If this upgrade is taken, all armor values on this vehicle are increased by 1.</description>
     </rule>
     <rule id="f16d-2b45-0d6e-55b0" name="Infiltrate" hidden="false"/>
+    <rule id="7fd5-3ad1-0482-19ca" name="Tracks" hidden="false"/>
   </sharedRules>
 </gameSystem>

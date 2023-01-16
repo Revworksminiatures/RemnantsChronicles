@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="36df-1e33-682e-8730" name="Protectorate Defense League" revision="19" battleScribeVersion="2.03" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="36df-1e33-682e-8730" name="Protectorate Defense League" revision="20" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="4d34-eb9d-7579-bc94" name="Remnant Chronicles "/>
   </publications>
@@ -1913,7 +1913,7 @@ The Models must be in base-to-base contact to perform the check.</description>
                 <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd">2</characteristic>
                 <characteristic name="INT" typeId="8b64-630a-32e8-c175">2</characteristic>
                 <characteristic name="LD" typeId="f27a-4395-502d-0edc">2</characteristic>
-                <characteristic name="ARMOR" typeId="edb2-357a-7123-031f">14</characteristic>
+                <characteristic name="ARMOR" typeId="edb2-357a-7123-031f">14/13/12</characteristic>
                 <characteristic name="END" typeId="afaf-9bc5-83c6-72c7">5</characteristic>
                 <characteristic name="NERVE" typeId="9fbd-f3af-434b-c417">4</characteristic>
                 <characteristic name="MOVE" typeId="0d4e-6880-8aca-8e7b">10</characteristic>
@@ -3021,7 +3021,7 @@ The Models must be in base-to-base contact to perform the check.</description>
                 <selectionEntry id="05d8-0821-cf6a-dae8" name="Extra Armor" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48ef-5845-4ec2-ecf7" type="min"/>
-                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e7d-c505-b204-1d61" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e7d-c505-b204-1d61" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="e159-2dbb-e4e6-f056" name="Extra Armor" hidden="false" targetId="8645-a4f1-699d-56f6" type="rule"/>
