@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="40" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="42" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8db2-3d51-7944-b9de" name="Remnant Chronicles "/>
   </publications>
@@ -300,6 +300,22 @@
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1494-491b-79d0-ea9b" type="max"/>
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22df-a908-21c8-cbab" type="min"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="21b1-22b5-10b9-d754" name="Tier 0 Patrol (5 Command Points)" hidden="false">
+      <categoryLinks>
+        <categoryLink id="e8fa-0849-b41c-abdd" name="Light Core" hidden="false" targetId="7c28-7f3f-c607-9aaa" primary="false">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dc1-9ac4-9faa-272a" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fc6-f273-8f15-daaf" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="2842-a0aa-6206-db7b" name="Tatical Cards" hidden="false" targetId="0658-a548-6451-1495" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1616-5091-e024-956b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a59f-c279-2f0a-f3da" type="min"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
