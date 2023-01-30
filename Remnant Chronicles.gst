@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="42" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="44" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8db2-3d51-7944-b9de" name="Remnant Chronicles "/>
   </publications>
@@ -102,6 +102,7 @@
     <categoryEntry id="cbbb-7bd7-2c69-1657" name="First Void War" hidden="false"/>
     <categoryEntry id="2cef-46af-9a52-a214" name="Second Void War" hidden="false"/>
     <categoryEntry id="0041-9683-adf8-a3e2" name="Interwar Period" hidden="false"/>
+    <categoryEntry id="0054-7718-7dc4-feed" name="RIG" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="0b77-b440-9f82-c62f" name="Tier 1 Firefight (10-15 Command Points)" hidden="false">
@@ -890,6 +891,23 @@ Immediately search your deck for a command card of your choosing and play it wit
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="f65f-ea28-2ca6-22cf" name="••Shock Assault (Federal Coalition)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f4fd-5a8f-736f-a498" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb72-6ce2-82e6-c0cd" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="edee-77b6-925d-aa97" name="••Shock Assault (Federal Coalition)" hidden="false">
+                  <description>If a Enemy Unit is holding a nearby Objective, you may select one LIGHT CORE unit. That unit may Immediately fire their weapons at the full Rate of Fire without having to use a Rate of Fire check and must make a regular move towards the objective. The unit immediately must spend a 2nd action to reload after they use the Rate of Fire.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
@@ -1001,7 +1019,7 @@ Orbital Strike
     <selectionEntry id="2228-3191-74fb-b288" name="Standing Orders" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1ff-49e8-550d-9276" type="max"/>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f739-45c3-6e0f-16e2" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f739-45c3-6e0f-16e2" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="cc61-2ad3-2068-8d0d" name="New CategoryLink" hidden="false" targetId="0658-a548-6451-1495" primary="true"/>
