@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="521e-09b1-fcdf-951e" name="Federal Coalition" revision="36" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="47" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="521e-09b1-fcdf-951e" name="Federal Coalition" revision="37" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="47" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="b3e5-5793-3120-bf85" name="Remnant Chronicles "/>
   </publications>
@@ -4443,7 +4443,7 @@ The Models must be in base-to-base contact to perform the check.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d09-e0e0-be35-3a72" type="min"/>
           </constraints>
           <profiles>
-            <profile id="1caf-3804-8179-e88e" name="M81A1 Mecuary II RIG" hidden="false" typeId="3171-8235-12ee-fea3" typeName="RIG">
+            <profile id="1caf-3804-8179-e88e" name="M81A1 Mecuary II RIG" hidden="false" typeId="3171-8235-12ee-fea3" typeName="RIG (Reinforced Integrated General Suit)">
               <characteristics>
                 <characteristic name="Key Traits" typeId="c57f-bd9b-9731-5292">Arms, Legs, Armored, Walker</characteristic>
                 <characteristic name="DEF" typeId="8c0c-fc9a-dc50-2008">1</characteristic>
@@ -4802,7 +4802,7 @@ The Models must be in base-to-base contact to perform the check.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f584-c1ca-e0f7-9160" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0f2e-a458-3777-bffb" name="A-9 Outlaw" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="Aircraft">
+            <profile id="0f2e-a458-3777-bffb" name="A-9 Outlaw" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="HAVOC (High Altitude Void Operable Craft)">
               <characteristics>
                 <characteristic name="Key Traits" typeId="23ac-06bb-6f78-6d37">Fly, Hover</characteristic>
                 <characteristic name="DEF" typeId="8e15-5a49-d4e2-811e">3</characteristic>
@@ -11253,7 +11253,7 @@ The Models must be in base-to-base contact to perform the check.
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="ad38-7f29-330f-16c8" name="AV-34 &quot;Herald&quot; Gunship" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="Aircraft">
+        <profile id="ad38-7f29-330f-16c8" name="AV-34 &quot;Herald&quot; Gunship" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="HAVOC (High Altitude Void Operable Craft)">
           <characteristics>
             <characteristic name="Key Traits" typeId="23ac-06bb-6f78-6d37"/>
             <characteristic name="DEF" typeId="8e15-5a49-d4e2-811e"/>
@@ -20402,7 +20402,7 @@ The Models must be in base-to-base contact to perform the check.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7742-61b4-3580-9390" type="max"/>
           </constraints>
           <profiles>
-            <profile id="414d-4750-aca4-413d" name="A-9 &quot;Outlaw&quot;" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="Aircraft">
+            <profile id="414d-4750-aca4-413d" name="A-9 &quot;Outlaw&quot;" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="HAVOC (High Altitude Void Operable Craft)">
               <characteristics>
                 <characteristic name="Key Traits" typeId="23ac-06bb-6f78-6d37">Fly, Hover</characteristic>
                 <characteristic name="DEF" typeId="8e15-5a49-d4e2-811e">3</characteristic>
@@ -20739,7 +20739,7 @@ The Models must be in base-to-base contact to perform the check.
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="0fd4-8815-0eb6-f9e3" name="AV-34 Herald Gunship" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="Aircraft">
+        <profile id="0fd4-8815-0eb6-f9e3" name="AV-34 Herald Gunship" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="HAVOC (High Altitude Void Operable Craft)">
           <characteristics>
             <characteristic name="Key Traits" typeId="23ac-06bb-6f78-6d37"/>
             <characteristic name="DEF" typeId="8e15-5a49-d4e2-811e"/>
@@ -21977,7 +21977,7 @@ The Models must be in base-to-base contact to perform the check.
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="2d89-01dc-329d-5a2b" name="Naval Aircraft Overwatch " hidden="false" typeId="60cf-ad06-8739-b97e" typeName="Aircraft">
+        <profile id="2d89-01dc-329d-5a2b" name="Naval Aircraft Overwatch " hidden="false" typeId="60cf-ad06-8739-b97e" typeName="HAVOC (High Altitude Void Operable Craft)">
           <characteristics>
             <characteristic name="Key Traits" typeId="23ac-06bb-6f78-6d37"/>
             <characteristic name="DEF" typeId="8e15-5a49-d4e2-811e"/>
@@ -22112,7 +22112,7 @@ The Models must be in base-to-base contact to perform the check.
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9753-37d0-43d5-156c" type="max"/>
               </constraints>
               <profiles>
-                <profile id="a46e-a78d-4114-a527" name="A-9 Outlaw" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="Aircraft">
+                <profile id="a46e-a78d-4114-a527" name="A-9 Outlaw" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="HAVOC (High Altitude Void Operable Craft)">
                   <characteristics>
                     <characteristic name="Key Traits" typeId="23ac-06bb-6f78-6d37"/>
                     <characteristic name="DEF" typeId="8e15-5a49-d4e2-811e"/>
@@ -22250,7 +22250,7 @@ The Models must be in base-to-base contact to perform the check.
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="7ed9-7806-1de7-7097" name="Army Aircraft Overwatch" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="Aircraft">
+        <profile id="7ed9-7806-1de7-7097" name="Army Aircraft Overwatch" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="HAVOC (High Altitude Void Operable Craft)">
           <characteristics>
             <characteristic name="Key Traits" typeId="23ac-06bb-6f78-6d37"/>
             <characteristic name="DEF" typeId="8e15-5a49-d4e2-811e"/>
@@ -22277,7 +22277,7 @@ The Models must be in base-to-base contact to perform the check.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c396-33e7-ddd4-1958" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f768-0279-387d-9892" name="A-9 &quot;Outlaw&quot; " hidden="false" typeId="60cf-ad06-8739-b97e" typeName="Aircraft">
+            <profile id="f768-0279-387d-9892" name="A-9 &quot;Outlaw&quot; " hidden="false" typeId="60cf-ad06-8739-b97e" typeName="HAVOC (High Altitude Void Operable Craft)">
               <characteristics>
                 <characteristic name="Key Traits" typeId="23ac-06bb-6f78-6d37"/>
                 <characteristic name="DEF" typeId="8e15-5a49-d4e2-811e"/>
@@ -31453,6 +31453,8 @@ The Models must be in base-to-base contact to perform the check.
     <selectionEntry id="1e81-aa13-7e76-ad2f" name="M72A9 &quot;Apollo&quot; Light RIG Team" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="6459-26c4-7e39-7c34" name="Heavy Core" hidden="false" targetId="c0e9-b525-0bd1-2fb8" primary="true"/>
+        <categoryLink id="546a-1249-88db-ae14" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
+        <categoryLink id="dc4c-dd1f-7963-92fc" name="RIG" hidden="false" targetId="0054-7718-7dc4-feed" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1930-3733-6149-75d6" name="M72A9 &quot;Apollo&quot; Light RIG" hidden="false" collective="false" import="true" type="upgrade">
@@ -31461,7 +31463,7 @@ The Models must be in base-to-base contact to perform the check.
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dcb-648a-5b91-3157" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d985-7486-0e49-6dc5" name="M72A9 &quot;Apollo&quot; Light RIG" hidden="false" typeId="3171-8235-12ee-fea3" typeName="RIG">
+            <profile id="d985-7486-0e49-6dc5" name="M72A9 &quot;Apollo&quot; Light RIG" hidden="false" typeId="3171-8235-12ee-fea3" typeName="RIG (Reinforced Integrated General Suit)">
               <characteristics>
                 <characteristic name="Key Traits" typeId="c57f-bd9b-9731-5292">Arms, Legs, Armored, Walker</characteristic>
                 <characteristic name="DEF" typeId="8c0c-fc9a-dc50-2008">1</characteristic>
@@ -31785,6 +31787,10 @@ The Models must be in base-to-base contact to perform the check.
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="0.0"/>
+        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
 </catalogue>
