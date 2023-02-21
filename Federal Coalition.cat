@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="521e-09b1-fcdf-951e" name="Federal Coalition" revision="32" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="43" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="521e-09b1-fcdf-951e" name="Federal Coalition" revision="36" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="46" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="b3e5-5793-3120-bf85" name="Remnant Chronicles "/>
   </publications>
@@ -6376,7 +6376,7 @@ The Models must be in base-to-base contact to perform the check.
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8e0a-ba1c-5bfc-c320" name="Type 22 Raven Joint Light Tactical Vehicle " hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="8e0a-ba1c-5bfc-c320" name="Type 22 &quot;Raven&quot; Joint Light Tactical Vehicle" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14c5-acd6-3a69-868d" type="max"/>
           </constraints>
@@ -6385,7 +6385,7 @@ The Models must be in base-to-base contact to perform the check.
             <categoryLink id="99f4-6ac1-feb9-45b5" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
           </categoryLinks>
           <selectionEntries>
-            <selectionEntry id="35e4-cecb-432f-8f62" name="Type 22 Raven  Joint Light Tactical Vehicle" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="35e4-cecb-432f-8f62" name="Type 22 &quot;Raven&quot; Joint Light Tactical Vehicle" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab34-8d17-0f27-8b21" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f25-f2e4-c68d-1603" type="min"/>
@@ -21798,7 +21798,7 @@ The Models must be in base-to-base contact to perform the check.
         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b36b-8303-413c-3ea3" name="Naval Aircraft Overwatch " hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b36b-8303-413c-3ea3" name="Federal Coalition Naval Aircraft Overwatch " hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -22071,7 +22071,7 @@ The Models must be in base-to-base contact to perform the check.
         <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="35f9-fec3-c7dc-0a36" name="Army Aircraft Overwatch" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="35f9-fec3-c7dc-0a36" name="Federal Coalition Army Aircraft Overwatch" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -23195,7 +23195,7 @@ The Models must be in base-to-base contact to perform the check.
         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dcc2-4a7c-24b6-a33d" name="Type 22 Raven Joint Light Tactical Vehicle " hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="dcc2-4a7c-24b6-a33d" name="Type 22 &quot;Raven&quot; Joint Light Tactical Vehicle" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="416b-8f74-2aec-bc2b" type="max"/>
       </constraints>
@@ -23204,13 +23204,13 @@ The Models must be in base-to-base contact to perform the check.
         <categoryLink id="089b-f346-a578-1771" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="7844-bdc5-d0f3-bdbe" name="Type 22 Raven  Joint Light Tactical Vehicle" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7844-bdc5-d0f3-bdbe" name="Type 22 &quot;Raven&quot; Joint Light Tactical Vehicle" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84c3-4a3f-2b00-788d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9455-d5b8-b29b-491c" type="min"/>
           </constraints>
           <profiles>
-            <profile id="f889-2751-09fc-6c85" name="Type 22 Raven  Joint Light Tactical Vehicle" hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
+            <profile id="f889-2751-09fc-6c85" name="Type 22 &quot;Raven&quot; Joint Light Tactical Vehicle" hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
               <characteristics>
                 <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559">Mechanum Wheel, Transport: 5, Armored</characteristic>
                 <characteristic name="DEF" typeId="6644-0c1a-148c-54f2">2</characteristic>
@@ -23226,9 +23226,6 @@ The Models must be in base-to-base contact to perform the check.
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="4e77-c87f-0b8e-1445" name="Type 22 Raven  Joint Light Tactical Vehicle" hidden="false"/>
-          </rules>
           <infoLinks>
             <infoLink id="b574-2cf6-bd36-30cc" name="Mechanum Wheels" hidden="false" targetId="eac5-a603-c86b-cdea" type="rule"/>
             <infoLink id="6c42-b185-ab1c-13d3" name="Armored" hidden="false" targetId="6932-ca7e-0545-70c5" type="rule"/>
@@ -23238,6 +23235,38 @@ The Models must be in base-to-base contact to perform the check.
             <categoryLink id="3dc1-9d20-f589-0af6" name="Attached Unit" hidden="false" targetId="d3da-4f88-7698-1897" primary="false"/>
             <categoryLink id="70f9-9edd-0708-a214" name="Heavy Core" hidden="false" targetId="c0e9-b525-0bd1-2fb8" primary="false"/>
           </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="ed5d-8014-b2e2-7a6f" name="Type 22 &quot;Raven&quot; Joint Light Tactical Vehicle Field Modifications" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b3c-479b-89f7-c508" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f4a-2a09-00ab-0fd0" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="3507-5b1c-f945-1dc5" name="Ambluance  Modification" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18db-9957-7d8e-cefc" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="9188-b42d-322c-fdcb" name="Ambluance  Modification" hidden="false"/>
+                  </rules>
+                  <costs>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="071a-63d9-79d5-5f76" name="Command Modification" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b67-d366-9ba4-2f6f" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="8186-82fb-5a26-64b2" name="Command Modification" hidden="false"/>
+                  </rules>
+                  <costs>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-15.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="a47f-63a2-8cc8-cee4" name="Anti-Personal Weapons " hidden="false" collective="false" import="true">
               <constraints>
@@ -23295,7 +23324,7 @@ The Models must be in base-to-base contact to perform the check.
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="c38c-b84e-b266-d624" name="Type 22 Raven Joint Light Tactical Vehicle Upgrades" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="c38c-b84e-b266-d624" name="Type 22 &quot;Raven&quot; Joint Light Tactical Vehicle Upgrades" hidden="false" collective="false" import="true">
               <selectionEntries>
                 <selectionEntry id="7a62-2d99-2383-c42d" name="Veteran Crew" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -24622,6 +24651,9 @@ The Models must be in base-to-base contact in order to perform the check.
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="0993-c06f-4d04-1335" name="Advanced Deployment" hidden="false" targetId="a16f-2e34-aaa1-87be" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="4844-417a-2ecd-7785" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
         <categoryLink id="4296-9ed0-ff1d-f538" name="Light Core" hidden="false" targetId="7c28-7f3f-c607-9aaa" primary="true"/>
@@ -26660,7 +26692,7 @@ The Models must be in base-to-base contact to perform the check.
                 </selectionEntry>
                 <selectionEntry id="6a1f-5fe6-3de2-64b1" name="Guardsmen Milita Senior Enlisted" hidden="false" collective="false" import="true" type="upgrade">
                   <profiles>
-                    <profile id="f7c0-348c-eaba-476e" name="Marine Senior Enlisted" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                    <profile id="f7c0-348c-eaba-476e" name="Guardsmen Milita Senior Enlisted" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
                       <characteristics>
                         <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
                         <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
@@ -27080,9 +27112,9 @@ The Models must be in base-to-base contact to perform the check.
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="675c-b42c-e007-be53" name="Milita Jr Officer (Tier 3 or Above)" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="675c-b42c-e007-be53" name="Guardsmen Milita Jr Officer (Tier 3 or Above)" hidden="false" collective="false" import="true" type="upgrade">
                   <profiles>
-                    <profile id="2077-070b-fd9b-6b4c" name="Marine Jr Officer (Tier 3 or Above)" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                    <profile id="2077-070b-fd9b-6b4c" name="Guardsmen Milita Jr Officer (Tier 3 or Above)" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
                       <characteristics>
                         <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
                         <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">3</characteristic>
@@ -27502,7 +27534,7 @@ The Models must be in base-to-base contact to perform the check.
                 </selectionEntry>
                 <selectionEntry id="8f45-d101-e71c-0c20" name="Guardsmen Milita Senior Officer (Tier 4 or Above)" hidden="false" collective="false" import="true" type="upgrade">
                   <profiles>
-                    <profile id="b917-b79c-963a-87fc" name="Marine Senior Officer (Tier 4 or Above)" hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
+                    <profile id="b917-b79c-963a-87fc" name="Guardsmen Milita Senior Officer (Tier 4 or Above)" hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
                       <characteristics>
                         <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559"/>
                         <characteristic name="DEF" typeId="6644-0c1a-148c-54f2"/>
@@ -28624,7 +28656,7 @@ The Models must be in base-to-base contact to perform the check.
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="1.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3433-0e73-3aaa-83fc" name="Army Squad Leader" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="3433-0e73-3aaa-83fc" name="Guardsmen Milita Squad Leader" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="741a-ff26-a6b8-37f9" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9314-863a-601c-532e" type="min"/>
@@ -28633,7 +28665,7 @@ The Models must be in base-to-base contact to perform the check.
                 <categoryLink id="b03c-c81c-667f-3cfd" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
               </categoryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="78ca-995d-b4fa-ab01" name="Army Squad Leader" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="78ca-995d-b4fa-ab01" name="Guardsmen Milita Squad Leader" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0908-3cea-d48e-74a7" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ff4-2677-ef81-5490" type="min"/>
@@ -28934,7 +28966,7 @@ The Models must be in base-to-base contact to perform the check.
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="be2c-b494-707e-0eb7" name="Army Soldiers" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="be2c-b494-707e-0eb7" name="Guardsmen Milita" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a195-df58-45ae-98b9" type="max"/>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c505-d4f4-4852-6f29" type="min"/>
@@ -28943,9 +28975,9 @@ The Models must be in base-to-base contact to perform the check.
                 <categoryLink id="952e-bb28-d8d5-ebab" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
               </categoryLinks>
               <selectionEntries>
-                <selectionEntry id="81ca-73d2-d90b-c7f7" name="Soldiers" hidden="false" collective="false" import="true" type="model">
+                <selectionEntry id="81ca-73d2-d90b-c7f7" name="Guardsmen Milita" hidden="false" collective="false" import="true" type="model">
                   <profiles>
-                    <profile id="f003-c167-8c8c-b85d" name="Army Weapons Team" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                    <profile id="f003-c167-8c8c-b85d" name="Guardsmen Milita Weapons Team" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
                       <characteristics>
                         <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
                         <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
@@ -29253,6 +29285,9 @@ The Models must be in base-to-base contact to perform the check.
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="2b49-c864-f938-ac10" name="Advanced Deployment" hidden="false" targetId="a16f-2e34-aaa1-87be" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="fc30-be94-af41-1407" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
         <categoryLink id="c0d9-59bb-d8c7-f1be" name="Infantry" hidden="false" targetId="fb9f-b1e2-371c-b347" primary="false"/>

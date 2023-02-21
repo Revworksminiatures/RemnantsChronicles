@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="44" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="47" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8db2-3d51-7944-b9de" name="Remnant Chronicles "/>
   </publications>
@@ -679,6 +679,26 @@ Every model in the unit that uses this Tactical Asset will automatically take an
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="3093-7cc9-d870-47bc" name="•Counter Intelligence Tactics (Royal Kingdom of Erland)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b201-77fd-8f2b-73f1" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6775-175c-7f79-8400" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="2d2c-cbba-70fd-7c59" name="•Counter Intelligence Tactics (Royal Kingdom of Erland)" hidden="false">
+                  <description>If a oppoenent uses a 1 or 2 point command card from their hand, they must immediatly put it into their discard pile. That card has no effect this round. Immediatly place this card into your discard pile as well.  </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
@@ -907,6 +927,29 @@ Immediately search your deck for a command card of your choosing and play it wit
                   <description>If a Enemy Unit is holding a nearby Objective, you may select one LIGHT CORE unit. That unit may Immediately fire their weapons at the full Rate of Fire without having to use a Rate of Fire check and must make a regular move towards the objective. The unit immediately must spend a 2nd action to reload after they use the Rate of Fire.</description>
                 </rule>
               </rules>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4348-b288-681e-1f5d" name="••Rapid Redeployment! (Royal Kingdom of Erland)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b201-77fd-8f2b-73f1" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29f4-8b3d-57a6-fa83" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="73e2-5bed-fd6f-3844" name="••Rapid Response Unit (Royal Kingdom of Erland)" hidden="false">
+                  <description>A LIGHT CORE unit must disembark from a transport and must fire at the closet nearby enemy unit. To fire at the enemy unit cost 1 action and the unit may use its full ROF.  The LIGHT CORE unit must then must reembark onto the transport. To disembark and reembark cost 1 action each per model in the Unit. If for any reason, any model in the unit cannot disembark or reembark, then this card cannot be used round.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
