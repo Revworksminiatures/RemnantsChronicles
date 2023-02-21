@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="521e-09b1-fcdf-951e" name="Federal Coalition" revision="36" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="46" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="521e-09b1-fcdf-951e" name="Federal Coalition" revision="36" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="47" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="b3e5-5793-3120-bf85" name="Remnant Chronicles "/>
   </publications>
@@ -11244,7 +11244,7 @@ The Models must be in base-to-base contact to perform the check.
         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cce3-82d7-4d95-4284" name="Army AV-34 Herald Gunship Air Support" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="cce3-82d7-4d95-4284" name="Army AV-34 &quot;Herald&quot; Gunship HAVOC Support" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -11253,7 +11253,7 @@ The Models must be in base-to-base contact to perform the check.
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="ad38-7f29-330f-16c8" name="AV-34 Herald Gunship" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="Aircraft">
+        <profile id="ad38-7f29-330f-16c8" name="AV-34 &quot;Herald&quot; Gunship" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="Aircraft">
           <characteristics>
             <characteristic name="Key Traits" typeId="23ac-06bb-6f78-6d37"/>
             <characteristic name="DEF" typeId="8e15-5a49-d4e2-811e"/>
@@ -11273,7 +11273,7 @@ The Models must be in base-to-base contact to perform the check.
         <categoryLink id="2ac4-9730-d469-8c73" name="Heavy Support" hidden="false" targetId="b035-a4f5-5ab0-65b2" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2c46-a7a1-c500-e86a" name="AV-34 Herald Gunship" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2c46-a7a1-c500-e86a" name="AV-34 &quot;Herald&quot; Gunship" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36e1-c5f6-2753-2e85" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5af1-51d5-dea2-f268" type="max"/>
@@ -20382,7 +20382,7 @@ The Models must be in base-to-base contact to perform the check.
         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="18b1-292a-b467-c221" name="Army A-9 Outlaw Air Support" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="18b1-292a-b467-c221" name="Army A-9 &quot;Outlaw&quot; HAVOC Support" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -20396,13 +20396,13 @@ The Models must be in base-to-base contact to perform the check.
         <categoryLink id="fb6b-16bb-d73f-d21d" name="New CategoryLink" hidden="false" targetId="8617-cc36-211a-2bfb" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="1c5e-633b-b549-09ec" name="A-9 Outlaw" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="1c5e-633b-b549-09ec" name="A-9 &quot;Outlaw&quot;" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe07-38fd-6fa9-e3f6" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7742-61b4-3580-9390" type="max"/>
           </constraints>
           <profiles>
-            <profile id="414d-4750-aca4-413d" name="A-9 Outlaw" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="Aircraft">
+            <profile id="414d-4750-aca4-413d" name="A-9 &quot;Outlaw&quot;" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="Aircraft">
               <characteristics>
                 <characteristic name="Key Traits" typeId="23ac-06bb-6f78-6d37">Fly, Hover</characteristic>
                 <characteristic name="DEF" typeId="8e15-5a49-d4e2-811e">3</characteristic>
@@ -20663,7 +20663,7 @@ The Models must be in base-to-base contact to perform the check.
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="148a-27b8-0f3b-76c3" name="Aircraft upgrades" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="148a-27b8-0f3b-76c3" name="HAVOC upgrades" hidden="false" collective="false" import="true">
               <selectionEntries>
                 <selectionEntry id="6f9c-7d9b-b89b-a9c0" name="Veteran Pilot" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -21375,6 +21375,176 @@ The Models must be in base-to-base contact to perform the check.
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="0.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b754-4985-f2a7-978d" name="Type 22 &quot;Raven&quot; Joint Light Tactical Vehicle" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="124d-48be-01dc-1613" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="2abb-5c47-3022-2349" name="Heavy Core" hidden="false" targetId="c0e9-b525-0bd1-2fb8" primary="true"/>
+            <categoryLink id="fe1c-7eda-166d-3fd3" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="bd66-8f06-58b8-f77d" name="Type 22 &quot;Raven&quot; Joint Light Tactical Vehicle" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="692b-edd2-23ad-1ff9" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9858-62a9-96b3-5601" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="c06c-23f4-0a28-f272" name="Type 22 &quot;Raven&quot; Joint Light Tactical Vehicle" hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
+                  <characteristics>
+                    <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559">Mechanum Wheel, Transport: 5, Armored</characteristic>
+                    <characteristic name="DEF" typeId="6644-0c1a-148c-54f2">2</characteristic>
+                    <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b">2</characteristic>
+                    <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd">3</characteristic>
+                    <characteristic name="INT" typeId="8b64-630a-32e8-c175">2</characteristic>
+                    <characteristic name="LD" typeId="f27a-4395-502d-0edc">2</characteristic>
+                    <characteristic name="ARMOR" typeId="edb2-357a-7123-031f">11/10/10</characteristic>
+                    <characteristic name="END" typeId="afaf-9bc5-83c6-72c7">4</characteristic>
+                    <characteristic name="NERVE" typeId="9fbd-f3af-434b-c417">3</characteristic>
+                    <characteristic name="MOVE" typeId="0d4e-6880-8aca-8e7b">9</characteristic>
+                    <characteristic name="SIZE" typeId="e736-9e94-0692-d658">9 -H</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="d251-6b0b-a4ac-0033" name="Mechanum Wheels" hidden="false" targetId="eac5-a603-c86b-cdea" type="rule"/>
+                <infoLink id="7602-c5d5-5eb8-b29b" name="Armored" hidden="false" targetId="6932-ca7e-0545-70c5" type="rule"/>
+                <infoLink id="fa71-e83e-840e-955f" name="Transport: X" hidden="false" targetId="a899-773b-3970-5c1e" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="db79-58cb-868c-a87d" name="Attached Unit" hidden="false" targetId="d3da-4f88-7698-1897" primary="false"/>
+                <categoryLink id="ced5-3d28-d056-f6d4" name="Heavy Core" hidden="false" targetId="c0e9-b525-0bd1-2fb8" primary="false"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="aff8-52da-6bff-fb44" name="Type 22 &quot;Raven&quot; Joint Light Tactical Vehicle Field Modifications" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a7d-d4c2-3af8-8048" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e969-848d-ecb8-1fb3" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="b72f-afbb-4af3-156d" name="Tractor Modification" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a0d-3dc6-6481-1bce" type="max"/>
+                      </constraints>
+                      <rules>
+                        <rule id="4e19-45a2-74da-5df0" name="Command Modification" hidden="false"/>
+                      </rules>
+                      <costs>
+                        <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-15.0"/>
+                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="0.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="e88d-40bb-453c-3db7" name="Type 22 &quot;Raven&quot; Joint Light Tactical Vehicle Upgrades" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="5b8f-9263-ecf5-590b" name="Veteran Crew" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c09c-abe0-a374-594a" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="d339-2f91-d99d-1dd3" name="Veteran Crew" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                          <characteristics>
+                            <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
+                            <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
+                            <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e">3</characteristic>
+                            <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36">2</characteristic>
+                            <characteristic name="INT" typeId="c334-3de5-0bba-70e6">2</characteristic>
+                            <characteristic name="LD" typeId="f7c5-0728-1b20-115b">2</characteristic>
+                            <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429">10</characteristic>
+                            <characteristic name="END" typeId="254f-362a-e072-64bf">3</characteristic>
+                            <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af">3</characteristic>
+                            <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96">5</characteristic>
+                            <characteristic name="SIZE" typeId="2926-db13-a623-b546">5-Med</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="fb0b-632d-9659-9693" name="Veteran Crew" hidden="false">
+                          <description>Grants this Vehicle the Voice of Command Ability</description>
+                        </rule>
+                      </rules>
+                      <categoryLinks>
+                        <categoryLink id="f1fb-13b1-81b3-ac29" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
+                      </categoryLinks>
+                      <costs>
+                        <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="3.0"/>
+                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="2.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="c2d7-cf66-eb86-7c00" name="Extra Armor" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4ef-45e2-c446-6f9f" type="max"/>
+                      </constraints>
+                      <rules>
+                        <rule id="dede-b614-bd47-0e06" name="Extra Armor" hidden="false">
+                          <description>If this upgrade is taken, all armor values on this vehicle are increased by 1.</description>
+                        </rule>
+                      </rules>
+                      <categoryLinks>
+                        <categoryLink id="7c37-76f0-f0b8-0791" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
+                      </categoryLinks>
+                      <costs>
+                        <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-2.0"/>
+                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="eceb-9ca7-9801-e6f1" name="Smoke Launcher" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fab7-4aa8-3c27-a664" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="b65a-7643-26ff-ae19" name="Smoke Launchers" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                          <characteristics>
+                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Indirect</characteristic>
+                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">5/-/-</characteristic>
+                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">-</characteristic>
+                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Smoke:3 Multi-shot:3</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="5cc6-4701-9820-2134" name="Smoke:X " hidden="false" targetId="df1c-a5ef-18af-3dff" type="rule"/>
+                        <infoLink id="3957-347b-bd36-e92c" name="Multi-Shot:X" hidden="false" targetId="ebba-c110-9463-eb80" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-1.0"/>
+                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="5666-d68f-bdc9-54e2" name="Searchlight" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6e6-afd7-55c9-f898" type="max"/>
+                      </constraints>
+                      <rules>
+                        <rule id="82db-2c25-bbdf-7f8d" name="Searchlight" hidden="false"/>
+                      </rules>
+                      <costs>
+                        <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-1.0"/>
+                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="16.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="4.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <costs>
             <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="0.0"/>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
@@ -22101,13 +22271,13 @@ The Models must be in base-to-base contact to perform the check.
         <categoryLink id="9fa2-afad-7d1a-fcf8" name="Special Issue" hidden="false" targetId="6a9e-ce08-e5f8-aa84" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d814-e36c-90e0-2795" name="A-9 Outlaw" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="d814-e36c-90e0-2795" name="A-9 &quot;Outlaw&quot; HAVOC Support" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b418-cc19-44b2-6405" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c396-33e7-ddd4-1958" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f768-0279-387d-9892" name="A-9 Outlaw" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="Aircraft">
+            <profile id="f768-0279-387d-9892" name="A-9 &quot;Outlaw&quot; " hidden="false" typeId="60cf-ad06-8739-b97e" typeName="Aircraft">
               <characteristics>
                 <characteristic name="Key Traits" typeId="23ac-06bb-6f78-6d37"/>
                 <characteristic name="DEF" typeId="8e15-5a49-d4e2-811e"/>
@@ -22228,7 +22398,7 @@ The Models must be in base-to-base contact to perform the check.
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="04ec-2fd1-f99c-b0ae" name="AV-34 Herald Gunship" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="04ec-2fd1-f99c-b0ae" name="AV-34 &quot;Herald&quot; Gunship HAVOC Support" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de58-fa05-b946-afbd" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b8b-dcf8-7aba-71e0" type="max"/>
@@ -23251,6 +23421,7 @@ The Models must be in base-to-base contact to perform the check.
                   </rules>
                   <costs>
                     <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-10.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="071a-63d9-79d5-5f76" name="Command Modification" hidden="false" collective="false" import="true" type="upgrade">
@@ -23262,9 +23433,14 @@ The Models must be in base-to-base contact to perform the check.
                   </rules>
                   <costs>
                     <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-15.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+              <costs>
+                <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="0.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
@@ -31273,6 +31449,342 @@ The Models must be in base-to-base contact to perform the check.
         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="10.0"/>
         <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="1e81-aa13-7e76-ad2f" name="M72A9 &quot;Apollo&quot; Light RIG Team" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="6459-26c4-7e39-7c34" name="Heavy Core" hidden="false" targetId="c0e9-b525-0bd1-2fb8" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1930-3733-6149-75d6" name="M72A9 &quot;Apollo&quot; Light RIG" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e888-3529-8bc4-c80c" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dcb-648a-5b91-3157" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d985-7486-0e49-6dc5" name="M72A9 &quot;Apollo&quot; Light RIG" hidden="false" typeId="3171-8235-12ee-fea3" typeName="RIG">
+              <characteristics>
+                <characteristic name="Key Traits" typeId="c57f-bd9b-9731-5292">Arms, Legs, Armored, Walker</characteristic>
+                <characteristic name="DEF" typeId="8c0c-fc9a-dc50-2008">1</characteristic>
+                <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b">2</characteristic>
+                <characteristic name="ATHL" typeId="6e35-19f6-f86d-c8c4">2</characteristic>
+                <characteristic name="INT" typeId="2729-26d6-4909-a42b">3</characteristic>
+                <characteristic name="LD" typeId="fb75-f849-87bf-0cf7">2</characteristic>
+                <characteristic name="ARMOR" typeId="03b5-12b6-d388-97a3">13/12/11</characteristic>
+                <characteristic name="NERVE" typeId="d2d7-447d-46cc-09d0">3</characteristic>
+                <characteristic name="MOVE" typeId="c6d3-4c1d-1edb-4617">5</characteristic>
+                <characteristic name="SIZE" typeId="5144-a968-b049-94f5">11- MA</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="9ffc-419d-7266-2bd3" name="Both Arms" hidden="false" collective="false" import="true">
+              <categoryLinks>
+                <categoryLink id="f3de-6596-0f39-4d18" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="212b-fc40-711e-fd8b" name="Beam Sniper" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ae1-b384-438c-dbc0" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="3b92-53d6-36c3-4c03" name="Beam Sniper" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">30/60/OO</characteristic>
+                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">*</characteristic>
+                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">9</characteristic>
+                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Melt:2, Sustained, Scope:3, Overheats</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="58f6-7030-7858-1023" name="Melt:X" hidden="false" targetId="7cc9-d5ed-6bde-eeb6" type="rule"/>
+                    <infoLink id="a26c-2dbb-ed6b-43fc" name="Sustained" hidden="false" targetId="d3f2-4d0a-484a-6ee5" type="rule"/>
+                    <infoLink id="fcc7-d1f8-307c-aa17" name="Overheats" hidden="false" targetId="c2a9-ba17-ea43-af7e" type="rule"/>
+                    <infoLink id="1085-de05-5f07-978e" name="Scope:X" hidden="false" targetId="eca3-1d95-fa70-2e80" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-9.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="bf36-cf03-e290-f171" name="Beam Rifle" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ee4-bac1-34c1-de3a" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="7ffc-84fc-79cb-fdd4" name="Beam Rifle" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
+                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
+                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
+                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
+                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="b8a3-30f5-f6ea-00b5" name="Scope:X" hidden="false" targetId="eca3-1d95-fa70-2e80" type="rule"/>
+                    <infoLink id="d0ed-3cfc-5f9d-4c93" name="Melt:X" hidden="false" targetId="7cc9-d5ed-6bde-eeb6" type="rule"/>
+                    <infoLink id="a350-265e-a281-6193" name="Overheats" hidden="false" targetId="c2a9-ba17-ea43-af7e" type="rule"/>
+                    <infoLink id="750f-53c3-e992-e7fd" name="Sustained" hidden="false" targetId="d3f2-4d0a-484a-6ee5" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="0.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="c8ae-1f17-8096-9a74" name="Beam Cannon" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1d7-7e8f-127f-adae" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="2bb6-92a2-6b28-535c" name="Beam Cannon" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">20/40/OO</characteristic>
+                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">-</characteristic>
+                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy, Melt:3, Overhearts </characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="222a-dd1f-9918-93d1" name="Overheats" hidden="false" targetId="c2a9-ba17-ea43-af7e" type="rule"/>
+                    <infoLink id="782a-17ff-d229-f045" name="Melt:X" hidden="false" targetId="7cc9-d5ed-6bde-eeb6" type="rule"/>
+                    <infoLink id="93f6-09bd-f954-2773" name="Heavy" hidden="false" targetId="87e6-ef06-304f-e108" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-9.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="491e-94c3-a2d2-8f29" name="Heavy Machine Gun" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a80-e052-3953-e046" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="1841-676a-aa77-1707" name="Heavy Machine Gun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">10/20/OO</characteristic>
+                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">2-3</characteristic>
+                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">12</characteristic>
+                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy, Auto, Piercing:1, Belt Fed</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="88c4-05e7-2dac-5077" name="Heavy" hidden="false" targetId="87e6-ef06-304f-e108" type="rule"/>
+                    <infoLink id="34dc-9946-2d75-e6a6" name="Auto (Automatic)" hidden="false" targetId="03ba-2b03-f4aa-a28c" type="rule"/>
+                    <infoLink id="d87d-521b-ac4d-a97a" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+                    <infoLink id="46b7-80cb-31fc-080f" name="Belt Fed" hidden="false" targetId="8945-034c-c26e-a11c" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-7.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="7bb1-1c5e-2053-88ee" name="RIG Upgrades" hidden="false" collective="false" import="true">
+              <categoryLinks>
+                <categoryLink id="6e71-e128-6dc7-ac14" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="f7d9-170e-148d-82fd" name="Veteran Pilot" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09f2-8054-dd01-174f" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="2300-d2ba-958b-69d1" name="Veteran Pilot" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                      <characteristics>
+                        <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
+                        <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
+                        <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e">3</characteristic>
+                        <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36">2</characteristic>
+                        <characteristic name="INT" typeId="c334-3de5-0bba-70e6">2</characteristic>
+                        <characteristic name="LD" typeId="f7c5-0728-1b20-115b">2</characteristic>
+                        <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429">10</characteristic>
+                        <characteristic name="END" typeId="254f-362a-e072-64bf">3</characteristic>
+                        <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af">3</characteristic>
+                        <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96">5</characteristic>
+                        <characteristic name="SIZE" typeId="2926-db13-a623-b546">5-Med</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule id="80fe-6112-c7e8-186c" name="Veteran Pilot" hidden="false">
+                      <description>Grants this Vehicle the Voice of Command Ability</description>
+                    </rule>
+                    <rule id="cc77-3c2a-bf67-e40c" name="Voice of Command" hidden="false">
+                      <description>Use the unit cohesion range instead of LD+SZ when determining area of effect for command Cards</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="431d-4a8b-63f9-95b3" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-3.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="73ec-67f4-66b8-7e5e" name="Extra Armor" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d4e-0b87-4cac-be25" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="1316-c6b7-8f48-069e" name="Extra Armor" hidden="false">
+                      <description>If this upgrade is taken, all armor values on this vehicle are increased by 1.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="2353-f35d-c70b-f096" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-2.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="a72a-6d47-4e8a-a903" name="Smoke Launcher" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="256e-4f22-22ab-79a0" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="b8e1-7466-caf1-fa67" name="Smoke Launchers" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Indirect</characteristic>
+                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">5/-/-</characteristic>
+                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">-</characteristic>
+                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Smoke:3 Multi-shot:3</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="90ec-55bb-91d9-df5b" name="Smoke:X " hidden="false" targetId="df1c-a5ef-18af-3dff" type="rule"/>
+                    <infoLink id="9abb-93d0-448e-d4ad" name="Multi-Shot:X" hidden="false" targetId="ebba-c110-9463-eb80" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-1.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="46e0-d1cb-81fa-9030" name="Searchlight" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76c5-04b5-76ab-acb4" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="a9d2-04b2-d474-7031" name="Searchlight" hidden="false"/>
+                  </rules>
+                  <costs>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-1.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="8e13-67f4-2d3e-d375" name="Shoulder Mount" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="805d-b1fc-579c-eed4" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="3da8-e499-9c6b-e62d" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="cfef-ff13-8685-04f6" name="Light Anti-Armor Rocket" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7593-f38e-e37b-8bb9" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="102e-d701-e5a5-b987" name="Light Anti-Armor Rocket" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/60</characteristic>
+                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">12</characteristic>
+                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:4, Piercing:1, Single Use</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule id="5067-556a-27ea-7f80" name="Light Anti-Armor Rocket" hidden="false"/>
+                  </rules>
+                  <infoLinks>
+                    <infoLink id="ecb2-ce94-49ae-913e" name="Deafened " hidden="false" targetId="71a3-fa87-9038-1a6f" type="rule"/>
+                    <infoLink id="625a-7fda-e086-d494" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+                    <infoLink id="0818-1940-f515-9c3d" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+                    <infoLink id="28b6-6812-3bb6-4de6" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-3.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="d8a0-fb7c-c01b-aa81" name="Rocket Propelled Grenade" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb65-f02c-0765-a2b7" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="c3d9-4b88-6e61-8e80" name="Rocket Propelled Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/60</characteristic>
+                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">12</characteristic>
+                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:3, Piercing:1, Single Use</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule id="83c5-6584-242f-8898" name="Rocket Propelled Grenade" hidden="false"/>
+                  </rules>
+                  <infoLinks>
+                    <infoLink id="1404-fdcf-ec49-3b67" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+                    <infoLink id="4508-6e5f-58be-66b2" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+                    <infoLink id="3f40-6e5b-6db8-fab4" name="Deafened " hidden="false" targetId="71a3-fa87-9038-1a6f" type="rule"/>
+                    <infoLink id="33ca-7d73-4d7f-a81f" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-1.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="3da6-1501-4eff-eb42" name="Medium Anti-Armor Rocket" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33b6-6219-9424-bd90" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="58d3-9646-27f1-79f9" name="Medium Anti-Armor Rocket" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/60</characteristic>
+                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">14</characteristic>
+                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="934c-d44e-e183-008a" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+                    <infoLink id="f4a3-af29-b87c-8aa3" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+                    <infoLink id="c725-ebc1-0bdf-d4ea" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+                    <infoLink id="4e09-4e38-3539-95b8" name="Deafened " hidden="false" targetId="71a3-fa87-9038-1a6f" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-5.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="4.0"/>
+            <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </selectionEntries>
 </catalogue>

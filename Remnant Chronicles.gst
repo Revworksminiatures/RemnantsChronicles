@@ -46,7 +46,7 @@
         <characteristicType id="e736-9e94-0692-d658" name="SIZE"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="3171-8235-12ee-fea3" name="RIG">
+    <profileType id="3171-8235-12ee-fea3" name="RIG (Reinforced Integrated General Suit)">
       <characteristicTypes>
         <characteristicType id="c57f-bd9b-9731-5292" name="Key Traits"/>
         <characteristicType id="8c0c-fc9a-dc50-2008" name="DEF"/>
@@ -60,7 +60,7 @@
         <characteristicType id="5144-a968-b049-94f5" name="SIZE"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="60cf-ad06-8739-b97e" name="Aircraft">
+    <profileType id="60cf-ad06-8739-b97e" name="HAVOC (High Altitude Void Operable Craft)">
       <characteristicTypes>
         <characteristicType id="23ac-06bb-6f78-6d37" name="Key Traits"/>
         <characteristicType id="8e15-5a49-d4e2-811e" name="DEF"/>
