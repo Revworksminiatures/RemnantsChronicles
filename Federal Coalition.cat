@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="521e-09b1-fcdf-951e" name="Federal Coalition" revision="42" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="47" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="521e-09b1-fcdf-951e" name="Federal Coalition" revision="44" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="51" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="b3e5-5793-3120-bf85" name="Remnant Chronicles "/>
   </publications>
@@ -4132,7 +4132,7 @@ The Models must be in base-to-base contact to perform the check.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db5b-dd81-ec77-3ab4" type="min"/>
           </constraints>
           <profiles>
-            <profile id="382c-3400-5de7-fb77" name="Type 91 Tank" hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
+            <profile id="382c-3400-5de7-fb77" name="Type 91 &quot;Judge&quot; Tank" hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
               <characteristics>
                 <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559">Armored, Tracks, Turret, Stablized</characteristic>
                 <characteristic name="DEF" typeId="6644-0c1a-148c-54f2">1</characteristic>
@@ -4782,7 +4782,7 @@ The Models must be in base-to-base contact to perform the check.
         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="84ba-a0eb-8e15-04e1" name="Naval A-9 Outlaw Air Support" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="84ba-a0eb-8e15-04e1" name="Naval A-9 &quot;Outlaw&quot; HAVOC Support" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -4796,13 +4796,13 @@ The Models must be in base-to-base contact to perform the check.
         <categoryLink id="f8dc-a773-724c-bc71" name="Light Support" hidden="false" targetId="8617-cc36-211a-2bfb" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="3f49-06cd-247d-7330" name="A-9 Outlaw" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="3f49-06cd-247d-7330" name="A-9 &quot;Outlaw&quot; HAVOC" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a182-5568-75f2-9ab1" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f584-c1ca-e0f7-9160" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0f2e-a458-3777-bffb" name="A-9 Outlaw" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="HAVOC (High Altitude Void Operable Craft)">
+            <profile id="0f2e-a458-3777-bffb" name="A-9 &quot;Outlaw&quot; HAVOC" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="HAVOC (High Altitude Void Operable Craft)">
               <characteristics>
                 <characteristic name="Key Traits" typeId="23ac-06bb-6f78-6d37">Fly, Hover</characteristic>
                 <characteristic name="DEF" typeId="8e15-5a49-d4e2-811e">3</characteristic>
@@ -5121,7 +5121,7 @@ The Models must be in base-to-base contact to perform the check.
           </selectionEntryGroups>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="6.0"/>
-            <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="24.0"/>
+            <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7338,6 +7338,9 @@ The Models must be in base-to-base contact to perform the check.
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="cad9-c6d3-2604-5695" name="Marine Heavy Machine Gun Team" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9923-b94d-7e28-f76f" type="max"/>
+          </constraints>
           <categoryLinks>
             <categoryLink id="3fcc-8dc1-0e7e-50e5" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
           </categoryLinks>
@@ -7944,6 +7947,9 @@ The Models must be in base-to-base contact to perform the check.
           </costs>
         </selectionEntry>
         <selectionEntry id="bd44-beb6-82ff-f818" name="Marine Mortar Team" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52be-7c31-a490-ee51" type="max"/>
+          </constraints>
           <categoryLinks>
             <categoryLink id="a689-608a-e50a-f42e" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
           </categoryLinks>
@@ -8550,6 +8556,9 @@ The Models must be in base-to-base contact to perform the check.
           </costs>
         </selectionEntry>
         <selectionEntry id="8105-a53e-54e1-6b39" name="Marine Howitzer Team" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f19c-060e-9b6f-aaed" type="max"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="59c4-a916-7667-e734" name="Light Howitzer" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -20074,7 +20083,7 @@ The Models must be in base-to-base contact to perform the check.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc62-ee3f-c8a5-4dcf" type="min"/>
           </constraints>
           <profiles>
-            <profile id="6082-235d-f2ac-eabb" name="Type 92 Tank" hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
+            <profile id="6082-235d-f2ac-eabb" name="Type 92 &quot;Executioner&quot; Tank" hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
               <characteristics>
                 <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559">Armored, Tracks, Turret, Stablized</characteristic>
                 <characteristic name="DEF" typeId="6644-0c1a-148c-54f2">1</characteristic>
@@ -20730,7 +20739,7 @@ The Models must be in base-to-base contact to perform the check.
         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9cc5-425c-b53d-6d89" name="Naval AV-34 Herald Gunship Air Support" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="9cc5-425c-b53d-6d89" name="Naval AV-34 &quot;Herald&quot; Gunship HAVOC Support" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -20739,18 +20748,18 @@ The Models must be in base-to-base contact to perform the check.
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="0fd4-8815-0eb6-f9e3" name="AV-34 Herald Gunship" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="HAVOC (High Altitude Void Operable Craft)">
+        <profile id="0fd4-8815-0eb6-f9e3" name="AV-34 &quot;Herald&quot; HAVOC Gunship" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="HAVOC (High Altitude Void Operable Craft)">
           <characteristics>
-            <characteristic name="Key Traits" typeId="23ac-06bb-6f78-6d37"/>
-            <characteristic name="DEF" typeId="8e15-5a49-d4e2-811e"/>
-            <characteristic name="CMBT" typeId="ed58-6ece-14d6-093f"/>
-            <characteristic name="ATHL" typeId="c8cd-c089-dd3d-2e16"/>
-            <characteristic name="INT" typeId="c031-02ff-75c4-b668"/>
-            <characteristic name="LD" typeId="72b8-4489-fc13-4747"/>
-            <characteristic name="ARMOR" typeId="5b00-5f59-dfe6-152d"/>
-            <characteristic name="NERVE" typeId="0fa5-3723-3c14-25e8"/>
-            <characteristic name="MOVE" typeId="dfea-c7c0-d15b-83d6"/>
-            <characteristic name="SIZE" typeId="8e01-4602-4ce5-b15c"/>
+            <characteristic name="Key Traits" typeId="23ac-06bb-6f78-6d37">Fly, Hover</characteristic>
+            <characteristic name="DEF" typeId="8e15-5a49-d4e2-811e">3</characteristic>
+            <characteristic name="CMBT" typeId="ed58-6ece-14d6-093f">2</characteristic>
+            <characteristic name="ATHL" typeId="c8cd-c089-dd3d-2e16">3</characteristic>
+            <characteristic name="INT" typeId="c031-02ff-75c4-b668">2</characteristic>
+            <characteristic name="LD" typeId="72b8-4489-fc13-4747">2</characteristic>
+            <characteristic name="ARMOR" typeId="5b00-5f59-dfe6-152d">13/12/11</characteristic>
+            <characteristic name="NERVE" typeId="0fa5-3723-3c14-25e8">4</characteristic>
+            <characteristic name="MOVE" typeId="dfea-c7c0-d15b-83d6">11</characteristic>
+            <characteristic name="SIZE" typeId="8e01-4602-4ce5-b15c">11- MA</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -20760,7 +20769,7 @@ The Models must be in base-to-base contact to perform the check.
         <categoryLink id="5470-66c4-23dd-fb00" name="Vehicle" hidden="false" targetId="23bb-b58c-3bd2-08fd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="599f-f641-3113-96e4" name="AV-34 Herald Gunship" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="599f-f641-3113-96e4" name="AV-34 &quot;Herald&quot; HAVOC Gunship" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a4a-b3dc-fc3a-71d0" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaeb-3c52-54fc-c612" type="max"/>
@@ -22449,12 +22458,12 @@ The Models must be in base-to-base contact to perform the check.
         <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="36ce-8061-243e-e932" name="Type 17 Shrike IFV " hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="36ce-8061-243e-e932" name="Type 17 &quot;Shrike&quot; IFV " hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b982-24c7-1c50-29bb" type="max"/>
       </constraints>
       <profiles>
-        <profile id="022f-3015-dc48-5f66" name="Type 17 Shrike IFV" hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
+        <profile id="022f-3015-dc48-5f66" name="Type 17 &quot;Shrike&quot; IFV " hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
           <characteristics>
             <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559">Mechanum Wheel, Transport: 10, Armored, Armored, Turret, Stablized</characteristic>
             <characteristic name="DEF" typeId="6644-0c1a-148c-54f2">2</characteristic>
@@ -22470,16 +22479,13 @@ The Models must be in base-to-base contact to perform the check.
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="679b-d0b6-0f0c-55dd" name="Type 17 Shrike IFV" hidden="false"/>
-      </rules>
       <categoryLinks>
         <categoryLink id="7f99-f062-52fa-8a61" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
         <categoryLink id="4845-c325-7fd8-6a60" name="Vehicle" hidden="false" targetId="23bb-b58c-3bd2-08fd" primary="false"/>
         <categoryLink id="4334-e251-b7ed-051b" name="Light Support" hidden="false" targetId="8617-cc36-211a-2bfb" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="ee48-2a4b-3fd0-ad9c" name="Type 17 Shrike IFV" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="ee48-2a4b-3fd0-ad9c" name="Type 17 &quot;Shrike&quot; IFV " hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a357-9238-cfc1-dc09" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6523-1376-dac9-46e4" type="min"/>
@@ -31471,10 +31477,10 @@ The Models must be in base-to-base contact to perform the check.
                 <characteristic name="ATHL" typeId="6e35-19f6-f86d-c8c4">2</characteristic>
                 <characteristic name="INT" typeId="2729-26d6-4909-a42b">3</characteristic>
                 <characteristic name="LD" typeId="fb75-f849-87bf-0cf7">2</characteristic>
-                <characteristic name="ARMOR" typeId="03b5-12b6-d388-97a3">13/12/11</characteristic>
+                <characteristic name="ARMOR" typeId="03b5-12b6-d388-97a3">12/11/11</characteristic>
                 <characteristic name="NERVE" typeId="d2d7-447d-46cc-09d0">3</characteristic>
-                <characteristic name="MOVE" typeId="c6d3-4c1d-1edb-4617">5</characteristic>
-                <characteristic name="SIZE" typeId="5144-a968-b049-94f5">11- MA</characteristic>
+                <characteristic name="MOVE" typeId="c6d3-4c1d-1edb-4617">7</characteristic>
+                <characteristic name="SIZE" typeId="5144-a968-b049-94f5">9- H</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -31701,7 +31707,7 @@ The Models must be in base-to-base contact to perform the check.
               <selectionEntries>
                 <selectionEntry id="cfef-ff13-8685-04f6" name="Light Anti-Armor Rocket" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7593-f38e-e37b-8bb9" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7593-f38e-e37b-8bb9" type="max"/>
                   </constraints>
                   <profiles>
                     <profile id="102e-d701-e5a5-b987" name="Light Anti-Armor Rocket" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
@@ -31730,7 +31736,7 @@ The Models must be in base-to-base contact to perform the check.
                 </selectionEntry>
                 <selectionEntry id="d8a0-fb7c-c01b-aa81" name="Rocket Propelled Grenade" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb65-f02c-0765-a2b7" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb65-f02c-0765-a2b7" type="max"/>
                   </constraints>
                   <profiles>
                     <profile id="c3d9-4b88-6e61-8e80" name="Rocket Propelled Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
@@ -31759,7 +31765,7 @@ The Models must be in base-to-base contact to perform the check.
                 </selectionEntry>
                 <selectionEntry id="3da6-1501-4eff-eb42" name="Medium Anti-Armor Rocket" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33b6-6219-9424-bd90" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33b6-6219-9424-bd90" type="max"/>
                   </constraints>
                   <profiles>
                     <profile id="58d3-9646-27f1-79f9" name="Medium Anti-Armor Rocket" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
