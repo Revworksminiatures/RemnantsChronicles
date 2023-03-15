@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="60" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="62" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8db2-3d51-7944-b9de" name="Remnant Chronicles "/>
   </publications>
@@ -7,7 +7,7 @@
     <costType id="a20b-d4d2-6853-8d1c" name="Command Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
   <profileTypes>
-    <profileType id="78d3-bea5-ee48-c524" name="Trooper">
+    <profileType id="78d3-bea5-ee48-c524" name="HAVOC (High Altitude Void Operable Craft)">
       <characteristicTypes>
         <characteristicType id="e18f-0217-d489-0887" name="Key Traits"/>
         <characteristicType id="d72a-4556-c015-f5e3" name="DEF"/>
@@ -46,32 +46,34 @@
         <characteristicType id="e736-9e94-0692-d658" name="SIZE"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="3171-8235-12ee-fea3" name="RIG (Reinforced Integrated General Suit)">
+    <profileType id="8554-7c5b-644d-0781" name="Trooper (Real)">
       <characteristicTypes>
-        <characteristicType id="c57f-bd9b-9731-5292" name="Key Traits"/>
-        <characteristicType id="8c0c-fc9a-dc50-2008" name="DEF"/>
-        <characteristicType id="fb90-fabf-ddc8-8d7b" name="CMBT"/>
-        <characteristicType id="6e35-19f6-f86d-c8c4" name="ATHL"/>
-        <characteristicType id="2729-26d6-4909-a42b" name="INT"/>
-        <characteristicType id="fb75-f849-87bf-0cf7" name="LD"/>
-        <characteristicType id="03b5-12b6-d388-97a3" name="ARMOR"/>
-        <characteristicType id="d2d7-447d-46cc-09d0" name="NERVE"/>
-        <characteristicType id="c6d3-4c1d-1edb-4617" name="MOVE"/>
-        <characteristicType id="5144-a968-b049-94f5" name="SIZE"/>
+        <characteristicType id="533f-d2f4-b240-29c2" name="Key Traits"/>
+        <characteristicType id="6327-fd82-8107-5ea3" name="DEF"/>
+        <characteristicType id="bd54-b27e-a8fa-59fa" name="CMBT"/>
+        <characteristicType id="c988-b08c-df98-0786" name="ATHL"/>
+        <characteristicType id="6b9a-0ec2-b6eb-ba5d" name="INT"/>
+        <characteristicType id="e23a-0dfa-b3b1-9f13" name="LD"/>
+        <characteristicType id="171f-5e5a-ec7c-6d99" name="ARMOR"/>
+        <characteristicType id="3d52-4bc1-5a65-f947" name="END"/>
+        <characteristicType id="96a7-4b9b-d78d-6ab7" name="NERVE"/>
+        <characteristicType id="9dd2-b6f5-1311-0283" name="MOVE"/>
+        <characteristicType id="8c4d-98b0-558e-fbd6" name="SIZE"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="60cf-ad06-8739-b97e" name="HAVOC (High Altitude Void Operable Craft)">
+    <profileType id="c397-e9ce-4ecb-e421" name="RIG (Reinforced Integrated General Suit)">
       <characteristicTypes>
-        <characteristicType id="23ac-06bb-6f78-6d37" name="Key Traits"/>
-        <characteristicType id="8e15-5a49-d4e2-811e" name="DEF"/>
-        <characteristicType id="ed58-6ece-14d6-093f" name="CMBT"/>
-        <characteristicType id="c8cd-c089-dd3d-2e16" name="ATHL"/>
-        <characteristicType id="c031-02ff-75c4-b668" name="INT"/>
-        <characteristicType id="72b8-4489-fc13-4747" name="LD"/>
-        <characteristicType id="5b00-5f59-dfe6-152d" name="ARMOR"/>
-        <characteristicType id="0fa5-3723-3c14-25e8" name="NERVE"/>
-        <characteristicType id="dfea-c7c0-d15b-83d6" name="MOVE"/>
-        <characteristicType id="8e01-4602-4ce5-b15c" name="SIZE"/>
+        <characteristicType id="5d6b-2941-c528-c8a6" name="Key Traits"/>
+        <characteristicType id="77de-4164-8c4f-5cf4" name="DEF"/>
+        <characteristicType id="75c5-380c-c20f-8577" name="CMBT"/>
+        <characteristicType id="b302-4eb2-c988-f07f" name="ATHL"/>
+        <characteristicType id="3c33-5b26-9cc0-f5d2" name="INT"/>
+        <characteristicType id="2b55-1eb7-cf27-4a20" name="LD"/>
+        <characteristicType id="ec49-ddda-6f3c-0fe2" name="ARMOR"/>
+        <characteristicType id="fe1b-1db7-fdf4-f37e" name="END"/>
+        <characteristicType id="bda7-234c-0705-b435" name="NERVE"/>
+        <characteristicType id="6d1b-0a08-d0b5-47e4" name="MOVE"/>
+        <characteristicType id="5f00-3965-dbe5-9b8c" name="SIZE"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -103,6 +105,7 @@
     <categoryEntry id="2cef-46af-9a52-a214" name="Second Void War" hidden="false"/>
     <categoryEntry id="0041-9683-adf8-a3e2" name="Interwar Period" hidden="false"/>
     <categoryEntry id="0054-7718-7dc4-feed" name="RIG" hidden="false"/>
+    <categoryEntry id="b5a0-50e3-f1df-647c" name="HAVOC" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="0b77-b440-9f82-c62f" name="Tier 1 Firefight (10-15 Command Points)" hidden="false">
@@ -377,7 +380,6 @@
             </selectionEntry>
             <selectionEntry id="872e-fcfb-10fd-d747" name="•Dig In! " hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2941-b290-506d-9b2f" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3e6-0508-187d-1a5d" type="max"/>
               </constraints>
               <rules>
@@ -469,7 +471,7 @@ Orbital Strike
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="191a-0d11-ff34-5c3b" name="•Force of Fire (Federal Coalition)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="191a-0d11-ff34-5c3b" name="•Force of Fire (Federal Coalition Marine Corps)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -493,7 +495,7 @@ Orbital Strike
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="171a-11a5-8d51-24dd" name="•Dogged Discipline (Federal Coalition)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="171a-11a5-8d51-24dd" name="•Dogged Discipline (Federal Coalition Marine Corps)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -505,7 +507,7 @@ Orbital Strike
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6477-76ca-8aae-c321" type="max"/>
               </constraints>
               <rules>
-                <rule id="b9a1-2dd9-c379-04b0" name="•Dogged Discipline (Federal Coalition)" hidden="false">
+                <rule id="b9a1-2dd9-c379-04b0" name="•Dogged Discipline (Federal Coalition Marine Corps)" hidden="false">
                   <description>Choose a Unit that is suppressed. It immediately gains an advantage in its leadership skill for the rest of the round.</description>
                 </rule>
               </rules>
@@ -543,7 +545,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="42d3-bcdd-eace-a3e5" name="•Eyes Open (Protectorate Defense Leauge)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="42d3-bcdd-eace-a3e5" name="•Eyes Open (Protectorate Defense Leauge Central Guard)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -567,7 +569,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5c8a-df58-69b0-a219" name="•Hold the Line! (Protectorate Defense Leauge)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5c8a-df58-69b0-a219" name="•Hold the Line! (Protectorate Defense Leauge Central Guard)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -699,6 +701,26 @@ Every model in the unit that uses this Tactical Asset will automatically take an
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="517c-583d-56de-6650" name="•Keep It Together! •Dogged Discipline (Federal Coalition Army / Home Guard)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f4fd-5a8f-736f-a498" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e94-c0d9-bc2a-6862" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="c98f-e495-55e4-d6c0" name="•Keep It Together!" hidden="false">
+                  <description>A LIGHT Core unit may immediately lose 1 stress token for each member of its unit.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
@@ -778,7 +800,7 @@ Orbital Strike
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="887c-28bf-813c-838e" name="••Cover me! (Federal Coalition)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="887c-28bf-813c-838e" name="••Cover me! (Federal Coalition Marine Corps)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -821,7 +843,7 @@ Immediately search your deck for a command card of your choosing and play it wit
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a850-cde8-af9c-d0e0" name="••Flanking Fire! (Protectorate Defense Leauge)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a850-cde8-af9c-d0e0" name="••Flanking Fire! (Protectorate Defense Leauge Central Guard)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -845,7 +867,7 @@ Immediately search your deck for a command card of your choosing and play it wit
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4764-27d1-b5be-7d06" name="••Diversionary Tactics (Protectorate Defense Leauge)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4764-27d1-b5be-7d06" name="••Diversionary Tactics (Protectorate Defense Leauge Central Guard)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -911,7 +933,7 @@ Immediately search your deck for a command card of your choosing and play it wit
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f65f-ea28-2ca6-22cf" name="••Shock Assault (Federal Coalition)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f65f-ea28-2ca6-22cf" name="••Shock Assault (Federal Coalition Marine Corps)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -923,7 +945,7 @@ Immediately search your deck for a command card of your choosing and play it wit
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb72-6ce2-82e6-c0cd" type="max"/>
               </constraints>
               <rules>
-                <rule id="edee-77b6-925d-aa97" name="••Shock Assault (Federal Coalition)" hidden="false">
+                <rule id="edee-77b6-925d-aa97" name="••Shock Assault (Federal Coalition Marine Corps)" hidden="false">
                   <description>If a Enemy Unit is holding a nearby Objective, you may select one LIGHT CORE unit. That unit may Immediately fire their weapons at the full Rate of Fire without having to use a Rate of Fire check and must make a regular move towards the objective. The unit immediately must spend a 2nd action to reload after they use the Rate of Fire.</description>
                 </rule>
               </rules>
@@ -945,6 +967,129 @@ Immediately search your deck for a command card of your choosing and play it wit
               <rules>
                 <rule id="73e2-5bed-fd6f-3844" name="••Rapid Response Unit (Royal Kingdom of Erland)" hidden="false">
                   <description>A LIGHT CORE unit must disembark from a transport and must fire at the closet nearby enemy unit. To fire at the enemy unit cost 1 action and the unit may use its full ROF.  The LIGHT CORE unit must then must reembark onto the transport. To disembark and reembark cost 1 action each per model in the Unit. If for any reason, any model in the unit cannot disembark or reembark, then this card cannot be used round.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2d16-163c-f8b4-de09" name="••Get it Done! (Federal Coalition Army / Home Guard)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f4fd-5a8f-736f-a498" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3155-6b03-aef2-1488" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="3666-9028-5b3a-eba4" name="••Get it Done! (Federal Coalition Army / Home Guard)" hidden="false">
+                  <description>A Light or Heavy Unit may </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ebfa-1851-7f1b-31e4" name="••Fire and Maneuver (Federal Coalition Army / Home Guard)" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="051c-14bf-539b-b6ec" name="••Fire and Maneuver" hidden="false">
+                  <description>A Light or Heavy Core unit may move again, even if it did not have an action to do so at full movement.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="707f-5f06-8d8c-1d09" name="••Stay Sharp! (Protectorate Defense Leauge Border Frontier)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5540-ca8e-1356-62eb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cc4-d5eb-8c36-adbf" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="092e-4832-5e20-23a2" name="••Stay Sharp! (Protectorate Defense Leauge Border Frontier)" hidden="false">
+                  <description>The Border Frontier ONLY</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1262-191c-f0c3-c975" name="••Plug in! (Protectorate Defense Leauge E&apos;Selda Protectorate)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5540-ca8e-1356-62eb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7221-c1fe-0f5b-491b" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="9418-160e-3587-aa93" name="••Plug in! (Protectorate Defense Leauge E&apos;Selda Protectorate)" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b88b-3c83-e35a-a5ae" name="••Upgraded Tech (Protectorate Defense Leauge Axel Collective)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5540-ca8e-1356-62eb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a5e-8c44-26e3-074b" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="b4ce-7d6f-5c02-8078" name="••Upgraded Tech" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="824c-b8ae-f88d-aa77" name="••Duty Unto Death (United Commonwealth of Martyr)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c970-1b2e-ed1b-a449" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="4408-21fe-dc6b-5dca" name="••Duty Unto Death (United Commonwealth of Martyr)" hidden="false">
+                  <description>A Light or Heavy Core unit is unaffected by stress tokens for the next round</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bc73-6d24-9062-ac7b" name="••Tactical Analysis (Zircon)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="459d-d21a-0831-9576" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="76d9-98a1-cfb7-f46e" name="••Tactical Analysis" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fa95-5813-f1a5-c763" name="••Nano Repair (Zircon)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87b2-4467-c26e-713d" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="8f7e-7ef9-212d-a19c" name="••Nano Repair (Zircon)" hidden="false">
+                  <description>The ordered LIGHT CORE unit immediately regains one lost health box for any wounded troopers. However, this may never revive a dead drone or destroyed model.</description>
                 </rule>
               </rules>
               <costs>
@@ -1071,7 +1216,7 @@ Orbital Strike
         <selectionEntry id="6295-a2ff-8e85-1cca" name="Disrupt Enemy Leadership" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="552e-510b-de00-e946" type="max"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f604-8215-e2de-71aa" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f604-8215-e2de-71aa" type="min"/>
           </constraints>
           <rules>
             <rule id="bad9-1be8-6cf2-095c" name="Disrupt Enemy Leadership" hidden="false">
@@ -1088,7 +1233,7 @@ X equals destroyed leader’s Rank
         <selectionEntry id="3eae-75ab-d141-eccf" name="Recover Casualties" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1d8-7a1a-7dd2-d64e" type="max"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10bc-6bca-90c5-9f9e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10bc-6bca-90c5-9f9e" type="min"/>
           </constraints>
           <rules>
             <rule id="d4ce-9fe5-ae9e-83f4" name="Recover Casualties" hidden="false">
@@ -1108,7 +1253,7 @@ X equals the rank of the casualty.
         <selectionEntry id="80bb-437b-feec-8ea4" name="Tactical Retreat" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3660-d345-8682-35dd" type="max"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bef4-10d4-d17c-ebb7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bef4-10d4-d17c-ebb7" type="min"/>
           </constraints>
           <rules>
             <rule id="7346-771c-f50e-9481" name="Tactical Retreat" hidden="false">
@@ -1126,7 +1271,7 @@ Choosing this Standing order ends the game immediately as soon as the last unit 
         </selectionEntry>
         <selectionEntry id="2566-2ee3-a686-c33c" name="Take Prisoners" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e50-5756-a965-1dcf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e50-5756-a965-1dcf" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc5f-da88-1945-e81e" type="max"/>
           </constraints>
           <rules>
@@ -1204,6 +1349,11 @@ Casualties can only be secured by bringing them in contact with your home edge.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91f5-05e5-c08e-91de" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d4a-32a2-9870-7eac" type="min"/>
           </constraints>
+          <rules>
+            <rule id="fd81-904f-b597-f53b" name="Campaign " hidden="false">
+              <description>This is for narrative games or players wishing to recreate battles from the lore.</description>
+            </rule>
+          </rules>
           <selectionEntries>
             <selectionEntry id="491b-1969-3571-2e02" name="First Void War" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -3031,7 +3181,9 @@ Once a Token has been rolled for and the result applied, remove it from the game
     <rule id="91f8-290b-8c50-39e7" name="Single Use" hidden="false">
       <description>This weapon can only be used once per ammo box listed. The weapon user must spend a Reload Action before this weapon can be used to attack again</description>
     </rule>
-    <rule id="a16f-2e34-aaa1-87be" name="Advanced Deployment" hidden="false"/>
+    <rule id="a16f-2e34-aaa1-87be" name="Advanced Deployment" hidden="false">
+      <description>The unit and its attachments may deploy up to 5&apos; outside of their deployment zone</description>
+    </rule>
     <rule id="0360-a6e4-3a67-5d72" name="Amphibious" hidden="false"/>
     <rule id="3803-e3ab-71ca-2eda" name="Backblast" hidden="false">
       <description>This weapon creates a dangerous blast behind the Model. Any other Living Model of equal or lesser size is in the Back Arc of the Attacking Model, they are immediately Knocked Down and Suffer the Deafened Condition. The Deafened condition lasts for one Round.</description>

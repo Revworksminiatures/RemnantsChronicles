@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="36df-1e33-682e-8730" name="Protectorate Defense League" revision="42" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="60" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="36df-1e33-682e-8730" name="Protectorate Defense League" revision="43" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="60" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="4d34-eb9d-7579-bc94" name="Remnant Chronicles "/>
   </publications>
@@ -9,7 +9,7 @@
   <selectionEntries>
     <selectionEntry id="29b6-e686-9064-bfac" name="Central Guardsmen Fireteam" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="947b-72bc-b461-5b35" name="Central Guardsmen" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+        <profile id="947b-72bc-b461-5b35" name="Central Guardsmen" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
           <characteristics>
             <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
             <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
@@ -554,7 +554,7 @@ Ammo: OOO
           <selectionEntryGroups>
             <selectionEntryGroup id="1d89-e021-1045-1e5d" name="Squad Specialist" hidden="false" collective="false" import="true" defaultSelectionEntryId="7cf0-17f2-fbd0-8beb">
               <profiles>
-                <profile id="43b9-b449-3916-a999" name="Squad Specialist" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                <profile id="43b9-b449-3916-a999" name="Squad Specialist" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                   <characteristics>
                     <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
                     <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
@@ -706,7 +706,7 @@ Ammo: OOO
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c49c-a2b8-8bfc-fd3b" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="a84f-d5df-d12b-1b65" name="Veteran Crew" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                        <profile id="a84f-d5df-d12b-1b65" name="Veteran Crew" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                           <characteristics>
                             <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
                             <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
@@ -879,7 +879,7 @@ Ammo: OOO
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9801-5ced-89b6-c2b5" type="min"/>
               </constraints>
               <profiles>
-                <profile id="bbe1-a3c9-f6bb-28a5" name="Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                <profile id="bbe1-a3c9-f6bb-28a5" name="Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                   <characteristics>
                     <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
                     <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
@@ -1149,7 +1149,7 @@ The Models must be in base-to-base contact to perform the check.</description>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2636-3547-03c7-4588" type="min"/>
               </constraints>
               <profiles>
-                <profile id="98cf-2c31-4770-ee72" name="Senior Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                <profile id="98cf-2c31-4770-ee72" name="Senior Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                   <characteristics>
                     <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
                     <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
@@ -1419,7 +1419,7 @@ The Models must be in base-to-base contact to perform the check.</description>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3883-9841-e8c9-6dfd" type="min"/>
               </constraints>
               <profiles>
-                <profile id="af02-d461-ca97-b129" name="Luut" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                <profile id="af02-d461-ca97-b129" name="Luut" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                   <characteristics>
                     <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
                     <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">3</characteristic>
@@ -1775,22 +1775,6 @@ The Models must be in base-to-base contact to perform the check.</description>
                   <constraints>
                     <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1c9-2a61-0db7-5b76" type="max"/>
                   </constraints>
-                  <profiles>
-                    <profile id="5a9c-771a-8947-17aa" name="Heavy Anti-Armor Rocket" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="HAVOC (High Altitude Void Operable Craft)">
-                      <characteristics>
-                        <characteristic name="Key Traits" typeId="23ac-06bb-6f78-6d37"/>
-                        <characteristic name="DEF" typeId="8e15-5a49-d4e2-811e"/>
-                        <characteristic name="CMBT" typeId="ed58-6ece-14d6-093f"/>
-                        <characteristic name="ATHL" typeId="c8cd-c089-dd3d-2e16"/>
-                        <characteristic name="INT" typeId="c031-02ff-75c4-b668"/>
-                        <characteristic name="LD" typeId="72b8-4489-fc13-4747"/>
-                        <characteristic name="ARMOR" typeId="5b00-5f59-dfe6-152d"/>
-                        <characteristic name="NERVE" typeId="0fa5-3723-3c14-25e8"/>
-                        <characteristic name="MOVE" typeId="dfea-c7c0-d15b-83d6"/>
-                        <characteristic name="SIZE" typeId="8e01-4602-4ce5-b15c"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
                   <categoryLinks>
                     <categoryLink id="3502-d9e8-5cb1-54f8" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
                   </categoryLinks>
@@ -2243,7 +2227,7 @@ The Models must be in base-to-base contact to perform the check.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1351-8973-53e5-06b1" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="85c5-bd68-bc89-8350" name="Veteran Crew" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                    <profile id="85c5-bd68-bc89-8350" name="Veteran Crew" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                       <characteristics>
                         <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
                         <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
@@ -2341,7 +2325,7 @@ The Models must be in base-to-base contact to perform the check.</description>
     </selectionEntry>
     <selectionEntry id="cd5b-ca17-290b-217f" name="Krashers Fireteam" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="338e-7369-7932-5bf0" name="Krashers Fireteam" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+        <profile id="338e-7369-7932-5bf0" name="Krashers Fireteam" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
           <characteristics>
             <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
             <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
@@ -2623,7 +2607,6 @@ The Models must be in base-to-base contact to perform the check.</description>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="2.0"/>
             <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2633,7 +2616,7 @@ The Models must be in base-to-base contact to perform the check.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01cd-b4c8-e5e3-caab" type="min"/>
           </constraints>
           <profiles>
-            <profile id="a736-8050-5045-1a9f" name="Krashers Sr Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+            <profile id="a736-8050-5045-1a9f" name="Krashers Sr Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
               <characteristics>
                 <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
                 <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
@@ -2901,7 +2884,7 @@ The Models must be in base-to-base contact to perform the check.</description>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="2.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
             <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -3114,7 +3097,7 @@ The Models must be in base-to-base contact to perform the check.</description>
       </selectionEntryGroups>
       <costs>
         <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="0.0"/>
-        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="10f2-6dd5-61c3-8fff" name="DP-9 &quot;Phantom&quot; RIG Team" hidden="false" collective="false" import="true" type="model">
@@ -3126,21 +3109,22 @@ The Models must be in base-to-base contact to perform the check.</description>
         <selectionEntry id="27c1-78e5-1087-e817" name="DP-9 &quot;Phantom&quot; RIG" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76be-180d-1b87-3616" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5da8-d8d4-f62c-42db" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5da8-d8d4-f62c-42db" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6f62-7682-06a6-61f7" name="DP-9 &quot;Phantom&quot; RIG" hidden="false" typeId="3171-8235-12ee-fea3" typeName="RIG (Reinforced Integrated General Suit)">
+            <profile id="aefe-2bdf-0f74-9bd7" name="DP-9 &quot;Phantom&quot; RIG" hidden="false" typeId="c397-e9ce-4ecb-e421" typeName="RIG (Reinforced Integrated General Suit)">
               <characteristics>
-                <characteristic name="Key Traits" typeId="c57f-bd9b-9731-5292">Arms, Legs, Walker, Armored, RIG</characteristic>
-                <characteristic name="DEF" typeId="8c0c-fc9a-dc50-2008">2</characteristic>
-                <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b">2</characteristic>
-                <characteristic name="ATHL" typeId="6e35-19f6-f86d-c8c4">3</characteristic>
-                <characteristic name="INT" typeId="2729-26d6-4909-a42b">2</characteristic>
-                <characteristic name="LD" typeId="fb75-f849-87bf-0cf7">2</characteristic>
-                <characteristic name="ARMOR" typeId="03b5-12b6-d388-97a3">13/12/11</characteristic>
-                <characteristic name="NERVE" typeId="d2d7-447d-46cc-09d0">4</characteristic>
-                <characteristic name="MOVE" typeId="c6d3-4c1d-1edb-4617">10</characteristic>
-                <characteristic name="SIZE" typeId="5144-a968-b049-94f5">11- MA</characteristic>
+                <characteristic name="Key Traits" typeId="5d6b-2941-c528-c8a6">Arms, Legs, Walker, Armored, RIG</characteristic>
+                <characteristic name="DEF" typeId="77de-4164-8c4f-5cf4">2</characteristic>
+                <characteristic name="CMBT" typeId="75c5-380c-c20f-8577">2</characteristic>
+                <characteristic name="ATHL" typeId="b302-4eb2-c988-f07f">3</characteristic>
+                <characteristic name="INT" typeId="3c33-5b26-9cc0-f5d2">2</characteristic>
+                <characteristic name="LD" typeId="2b55-1eb7-cf27-4a20">2</characteristic>
+                <characteristic name="ARMOR" typeId="ec49-ddda-6f3c-0fe2">13/12/11</characteristic>
+                <characteristic name="END" typeId="fe1b-1db7-fdf4-f37e">3</characteristic>
+                <characteristic name="NERVE" typeId="bda7-234c-0705-b435">4</characteristic>
+                <characteristic name="MOVE" typeId="6d1b-0a08-d0b5-47e4">10</characteristic>
+                <characteristic name="SIZE" typeId="5f00-3965-dbe5-9b8c">11-MA</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3373,7 +3357,7 @@ Ammo: OOO
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e864-096b-3534-d698" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="12c1-1659-3a14-07ac" name="Veteran Pilot" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                    <profile id="12c1-1659-3a14-07ac" name="Veteran Pilot" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                       <characteristics>
                         <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
                         <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
@@ -3455,12 +3439,24 @@ Ammo: OOO
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                   </costs>
                 </selectionEntry>
+                <selectionEntry id="90dc-cecf-b15c-be90" name="Cortal Plugin Uplink (E’Selda Protectorate Only)" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8e2-19b0-db68-8e63" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="ca44-ed9c-a3b8-c077" name="Cortal Plugin Uplink" hidden="false"/>
+                  </rules>
+                  <costs>
+                    <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="-5.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="6.0"/>
-            <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="17.0"/>
+            <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3512,7 +3508,7 @@ Ammo: OOO
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f87-1104-faa0-be34" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="3555-95a0-57bf-a73c" name="Veteran Pilot" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                    <profile id="3555-95a0-57bf-a73c" name="Veteran Pilot" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                       <characteristics>
                         <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
                         <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
@@ -3748,7 +3744,7 @@ Ammo: OOO
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="506a-ef67-290f-22a7" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="005e-9bb2-ddd4-4aa0" name="Veteran Crew" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                    <profile id="005e-9bb2-ddd4-4aa0" name="Veteran Crew" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                       <characteristics>
                         <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
                         <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
@@ -4278,7 +4274,7 @@ The Models must be in base-to-base contact to perform the check.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9e5-9b80-4efd-863a" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="7bc0-8348-42c0-332d" name="Veteran Pilot" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                        <profile id="7bc0-8348-42c0-332d" name="Veteran Pilot" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                           <characteristics>
                             <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
                             <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
@@ -4451,7 +4447,7 @@ The Models must be in base-to-base contact to perform the check.</description>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ae7-39f9-c847-5983" type="min"/>
               </constraints>
               <profiles>
-                <profile id="4b53-646d-685f-3d9f" name="Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                <profile id="4b53-646d-685f-3d9f" name="Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                   <characteristics>
                     <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
                     <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
@@ -4721,7 +4717,7 @@ The Models must be in base-to-base contact to perform the check.</description>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f8d-c494-dcd7-6d3c" type="min"/>
               </constraints>
               <profiles>
-                <profile id="7566-5c82-78d1-5704" name="Senior Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                <profile id="7566-5c82-78d1-5704" name="Senior Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                   <characteristics>
                     <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
                     <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
@@ -5232,30 +5228,31 @@ Ammo: OOO
         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="708c-e8f7-23b7-0ef8" name="JP-7 BlackStar HAVOC Support" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="708c-e8f7-23b7-0ef8" name="JP-7 &quot;BlackStar&quot; HAVOC Support" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="c72b-6046-9a3a-e5c4" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
         <categoryLink id="51c9-d8ef-443e-0194" name="Light Support" hidden="false" targetId="8617-cc36-211a-2bfb" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c4f3-c4d5-a256-0a49" name="JP-7 BlackStar " hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c4f3-c4d5-a256-0a49" name="JP-7 &quot;BlackStar&quot; HAVOC " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9f0-4af8-0fd7-a503" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67a2-facb-7357-e95c" type="min"/>
           </constraints>
           <profiles>
-            <profile id="3a45-3e15-b8fb-0745" name="JP-7 BlackStar " hidden="false" typeId="60cf-ad06-8739-b97e" typeName="HAVOC (High Altitude Void Operable Craft)">
+            <profile id="e483-eeb1-21f2-5793" name="JP-7 &quot;BlackStar&quot; HAVOC " hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
               <characteristics>
-                <characteristic name="Key Traits" typeId="23ac-06bb-6f78-6d37"/>
-                <characteristic name="DEF" typeId="8e15-5a49-d4e2-811e"/>
-                <characteristic name="CMBT" typeId="ed58-6ece-14d6-093f"/>
-                <characteristic name="ATHL" typeId="c8cd-c089-dd3d-2e16"/>
-                <characteristic name="INT" typeId="c031-02ff-75c4-b668"/>
-                <characteristic name="LD" typeId="72b8-4489-fc13-4747"/>
-                <characteristic name="ARMOR" typeId="5b00-5f59-dfe6-152d"/>
-                <characteristic name="NERVE" typeId="0fa5-3723-3c14-25e8"/>
-                <characteristic name="MOVE" typeId="dfea-c7c0-d15b-83d6"/>
-                <characteristic name="SIZE" typeId="8e01-4602-4ce5-b15c"/>
+                <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Fly, Hover	</characteristic>
+                <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">3</characteristic>
+                <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e">2</characteristic>
+                <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36">3</characteristic>
+                <characteristic name="INT" typeId="c334-3de5-0bba-70e6">2</characteristic>
+                <characteristic name="LD" typeId="f7c5-0728-1b20-115b">2</characteristic>
+                <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429">11/11/10</characteristic>
+                <characteristic name="END" typeId="254f-362a-e072-64bf">3</characteristic>
+                <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af">4</characteristic>
+                <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96">11-MA</characteristic>
+                <characteristic name="SIZE" typeId="2926-db13-a623-b546"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5440,7 +5437,7 @@ Ammo: OOO
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="e9b4-6c1e-c78e-51de" name="Aircraft Upgrades" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="e9b4-6c1e-c78e-51de" name="HAVOC Upgrades" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e33f-1934-280f-f0a6" type="max"/>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08f5-ff89-c4d3-2c35" type="min"/>
@@ -5451,7 +5448,7 @@ Ammo: OOO
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15a4-29c8-b846-8383" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="e28f-6623-fc64-f3ec" name="Veteran Pilot" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                    <profile id="e28f-6623-fc64-f3ec" name="Veteran Pilot" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                       <characteristics>
                         <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
                         <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
@@ -5517,24 +5514,25 @@ Ammo: OOO
         <categoryLink id="db20-4a6d-e883-8292" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="352b-cbef-3921-9396" name="JP-9 Aurora" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="352b-cbef-3921-9396" name="JP-9 &quot;Aurora&quot; HAVOC" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1811-cfb5-f9e1-1b33" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09b6-b766-fb0c-105b" type="min"/>
           </constraints>
           <profiles>
-            <profile id="b813-e9ed-40fe-6710" name="JP-9 Aurora" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="HAVOC (High Altitude Void Operable Craft)">
+            <profile id="97d7-2a12-6236-5742" name="JP-9 &quot;Aurora&quot; HAVOC" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
               <characteristics>
-                <characteristic name="Key Traits" typeId="23ac-06bb-6f78-6d37"/>
-                <characteristic name="DEF" typeId="8e15-5a49-d4e2-811e"/>
-                <characteristic name="CMBT" typeId="ed58-6ece-14d6-093f"/>
-                <characteristic name="ATHL" typeId="c8cd-c089-dd3d-2e16"/>
-                <characteristic name="INT" typeId="c031-02ff-75c4-b668"/>
-                <characteristic name="LD" typeId="72b8-4489-fc13-4747"/>
-                <characteristic name="ARMOR" typeId="5b00-5f59-dfe6-152d"/>
-                <characteristic name="NERVE" typeId="0fa5-3723-3c14-25e8"/>
-                <characteristic name="MOVE" typeId="dfea-c7c0-d15b-83d6"/>
-                <characteristic name="SIZE" typeId="8e01-4602-4ce5-b15c"/>
+                <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
+                <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
+                <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e"/>
+                <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36"/>
+                <characteristic name="INT" typeId="c334-3de5-0bba-70e6"/>
+                <characteristic name="LD" typeId="f7c5-0728-1b20-115b"/>
+                <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429"/>
+                <characteristic name="END" typeId="254f-362a-e072-64bf"/>
+                <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af"/>
+                <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96"/>
+                <characteristic name="SIZE" typeId="2926-db13-a623-b546"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5546,7 +5544,7 @@ Ammo: OOO
             <categoryLink id="763b-a887-2652-cd4a" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="8fd8-bb4b-59f7-7218" name="Aircraft Upgrades" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="8fd8-bb4b-59f7-7218" name="HAVOC Upgrades" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0db4-7a30-5478-a6b8" type="max"/>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22c2-771a-9ff7-ba47" type="min"/>
@@ -5557,7 +5555,7 @@ Ammo: OOO
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c13c-8ac5-5b01-1750" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="431e-b014-509a-ebbc" name="Veteran Pilot" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                    <profile id="431e-b014-509a-ebbc" name="Veteran Pilot" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                       <characteristics>
                         <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
                         <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
@@ -5597,6 +5595,39 @@ Ammo: OOO
                   <costs>
                     <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="-2.0"/>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="daa2-9644-cbfa-9c7d" name="Ejection Seat" hidden="false" collective="false" import="true" type="upgrade">
+                  <rules>
+                    <rule id="7df2-558d-d9e1-0795" name="Ejection Seat" hidden="false"/>
+                  </rules>
+                  <costs>
+                    <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="-5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="73d8-c269-1d61-17d9" name="Captain Kai &quot;Ghost&quot; Ratislav" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="545c-cb21-8885-a040" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="dec2-3274-2a92-3871" name="Captain Kai &quot;Ghost&quot; Ratislav" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper (Real)">
+                      <characteristics>
+                        <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2"/>
+                        <characteristic name="DEF" typeId="6327-fd82-8107-5ea3"/>
+                        <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa"/>
+                        <characteristic name="ATHL" typeId="c988-b08c-df98-0786"/>
+                        <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d"/>
+                        <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13"/>
+                        <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99"/>
+                        <characteristic name="END" typeId="3d52-4bc1-5a65-f947"/>
+                        <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7"/>
+                        <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283"/>
+                        <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="-5.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -5745,22 +5776,6 @@ Ammo: OOO
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0344-fe4a-251c-6243" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a046-4304-942c-785a" type="min"/>
               </constraints>
-              <profiles>
-                <profile id="64b8-0a21-956f-59a8" name="JP-7 BlackStar " hidden="false" typeId="60cf-ad06-8739-b97e" typeName="HAVOC (High Altitude Void Operable Craft)">
-                  <characteristics>
-                    <characteristic name="Key Traits" typeId="23ac-06bb-6f78-6d37"/>
-                    <characteristic name="DEF" typeId="8e15-5a49-d4e2-811e"/>
-                    <characteristic name="CMBT" typeId="ed58-6ece-14d6-093f"/>
-                    <characteristic name="ATHL" typeId="c8cd-c089-dd3d-2e16"/>
-                    <characteristic name="INT" typeId="c031-02ff-75c4-b668"/>
-                    <characteristic name="LD" typeId="72b8-4489-fc13-4747"/>
-                    <characteristic name="ARMOR" typeId="5b00-5f59-dfe6-152d"/>
-                    <characteristic name="NERVE" typeId="0fa5-3723-3c14-25e8"/>
-                    <characteristic name="MOVE" typeId="dfea-c7c0-d15b-83d6"/>
-                    <characteristic name="SIZE" typeId="8e01-4602-4ce5-b15c"/>
-                  </characteristics>
-                </profile>
-              </profiles>
               <infoLinks>
                 <infoLink id="4363-f95f-62f5-9ab6" name="Fly" hidden="false" targetId="798d-95bc-1064-e636" type="rule"/>
                 <infoLink id="ab1b-8788-75fa-f0b9" name="Hover" hidden="false" targetId="33e0-4b09-acb4-f413" type="rule"/>
@@ -5847,22 +5862,6 @@ Ammo: OOO
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9302-51c2-18ae-2178" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="545e-2a3c-e53e-51e8" type="min"/>
               </constraints>
-              <profiles>
-                <profile id="14e1-bd83-8510-af82" name="JP-9 Aurora" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="HAVOC (High Altitude Void Operable Craft)">
-                  <characteristics>
-                    <characteristic name="Key Traits" typeId="23ac-06bb-6f78-6d37"/>
-                    <characteristic name="DEF" typeId="8e15-5a49-d4e2-811e"/>
-                    <characteristic name="CMBT" typeId="ed58-6ece-14d6-093f"/>
-                    <characteristic name="ATHL" typeId="c8cd-c089-dd3d-2e16"/>
-                    <characteristic name="INT" typeId="c031-02ff-75c4-b668"/>
-                    <characteristic name="LD" typeId="72b8-4489-fc13-4747"/>
-                    <characteristic name="ARMOR" typeId="5b00-5f59-dfe6-152d"/>
-                    <characteristic name="NERVE" typeId="0fa5-3723-3c14-25e8"/>
-                    <characteristic name="MOVE" typeId="dfea-c7c0-d15b-83d6"/>
-                    <characteristic name="SIZE" typeId="8e01-4602-4ce5-b15c"/>
-                  </characteristics>
-                </profile>
-              </profiles>
               <infoLinks>
                 <infoLink id="376b-f1ba-251b-8392" name="Hover" hidden="false" targetId="33e0-4b09-acb4-f413" type="rule"/>
                 <infoLink id="7548-8b24-113c-4a90" name="Fly" hidden="false" targetId="798d-95bc-1064-e636" type="rule"/>
@@ -6031,7 +6030,7 @@ Ammo: OOO
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c4c-55e5-d1b7-d155" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="0cbc-67bc-0723-8cf2" name="Veteran Pilot" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                    <profile id="0cbc-67bc-0723-8cf2" name="Veteran Pilot" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                       <characteristics>
                         <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
                         <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
@@ -6193,7 +6192,7 @@ Ammo: OOO
     </selectionEntry>
     <selectionEntry id="9a5b-19be-fe18-1ec4" name="Central Guardsmen Scout Team" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="f994-0363-c7d2-531e" name="Central Guardsmen Scout Team" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+        <profile id="f994-0363-c7d2-531e" name="Central Guardsmen Scout Team" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
           <characteristics>
             <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
             <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
@@ -6498,7 +6497,7 @@ The Models must be in base-to-base contact to perform the check.</description>
           <selectionEntryGroups>
             <selectionEntryGroup id="645a-b180-b54f-3996" name="Squad Specialist" hidden="false" collective="false" import="true">
               <profiles>
-                <profile id="11fd-b61b-11b6-600e" name="Squad Specialist" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                <profile id="11fd-b61b-11b6-600e" name="Squad Specialist" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                   <characteristics>
                     <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
                     <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
@@ -6650,7 +6649,7 @@ The Models must be in base-to-base contact to perform the check.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09f3-1566-ddbd-6c1e" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="949f-00e2-e1d2-f010" name="Veteran Pilot" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                        <profile id="949f-00e2-e1d2-f010" name="Veteran Pilot" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                           <characteristics>
                             <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
                             <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
@@ -6844,7 +6843,7 @@ The Models must be in base-to-base contact to perform the check.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f27-89c1-35d4-8be3" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="5c24-76e3-bc61-123a" name="Veteran Pilot" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                        <profile id="5c24-76e3-bc61-123a" name="Veteran Pilot" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                           <characteristics>
                             <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
                             <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
@@ -7017,7 +7016,7 @@ The Models must be in base-to-base contact to perform the check.</description>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8c1-c4c8-77bb-714f" type="min"/>
               </constraints>
               <profiles>
-                <profile id="f644-3f94-042e-90db" name="Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                <profile id="f644-3f94-042e-90db" name="Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                   <characteristics>
                     <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
                     <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
@@ -7287,7 +7286,7 @@ The Models must be in base-to-base contact to perform the check.</description>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c24-1d26-cb58-ca4f" type="min"/>
               </constraints>
               <profiles>
-                <profile id="d7ee-3394-90ab-1ab5" name="Senior Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                <profile id="d7ee-3394-90ab-1ab5" name="Senior Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                   <characteristics>
                     <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
                     <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
@@ -7646,22 +7645,6 @@ The Models must be in base-to-base contact to perform the check.</description>
                   <constraints>
                     <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c281-91ae-350e-0d71" type="max"/>
                   </constraints>
-                  <profiles>
-                    <profile id="2526-b975-d3e0-8524" name="Heavy Anti-Armor Rocket" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="HAVOC (High Altitude Void Operable Craft)">
-                      <characteristics>
-                        <characteristic name="Key Traits" typeId="23ac-06bb-6f78-6d37"/>
-                        <characteristic name="DEF" typeId="8e15-5a49-d4e2-811e"/>
-                        <characteristic name="CMBT" typeId="ed58-6ece-14d6-093f"/>
-                        <characteristic name="ATHL" typeId="c8cd-c089-dd3d-2e16"/>
-                        <characteristic name="INT" typeId="c031-02ff-75c4-b668"/>
-                        <characteristic name="LD" typeId="72b8-4489-fc13-4747"/>
-                        <characteristic name="ARMOR" typeId="5b00-5f59-dfe6-152d"/>
-                        <characteristic name="NERVE" typeId="0fa5-3723-3c14-25e8"/>
-                        <characteristic name="MOVE" typeId="dfea-c7c0-d15b-83d6"/>
-                        <characteristic name="SIZE" typeId="8e01-4602-4ce5-b15c"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
                   <categoryLinks>
                     <categoryLink id="dee5-ab6a-27fe-e504" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
                   </categoryLinks>
@@ -7925,7 +7908,7 @@ The Models must be in base-to-base contact to perform the check.</description>
     </selectionEntry>
     <selectionEntry id="2cca-4fa6-bd9f-688d" name="Central Guardsmen Scout Sniper Team" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="974b-0bf1-5cc5-336a" name="Central Guardsmen Scout Sniper Team" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+        <profile id="974b-0bf1-5cc5-336a" name="Central Guardsmen Scout Sniper Team" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
           <characteristics>
             <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
             <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
@@ -8256,7 +8239,7 @@ The Models must be in base-to-base contact to perform the check.</description>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2aa5-1639-e13d-4544" type="min"/>
               </constraints>
               <profiles>
-                <profile id="4c41-2b1b-6933-5c1c" name="Kersan Dedicated Marksmen" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                <profile id="4c41-2b1b-6933-5c1c" name="Kersan Dedicated Marksmen" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                   <characteristics>
                     <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
                     <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
@@ -8615,22 +8598,6 @@ The Models must be in base-to-base contact to perform the check.</description>
                   <constraints>
                     <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baa1-1f57-07fd-1eea" type="max"/>
                   </constraints>
-                  <profiles>
-                    <profile id="23de-4df1-af4e-1cd8" name="Heavy Anti-Armor Rocket" hidden="false" typeId="60cf-ad06-8739-b97e" typeName="HAVOC (High Altitude Void Operable Craft)">
-                      <characteristics>
-                        <characteristic name="Key Traits" typeId="23ac-06bb-6f78-6d37"/>
-                        <characteristic name="DEF" typeId="8e15-5a49-d4e2-811e"/>
-                        <characteristic name="CMBT" typeId="ed58-6ece-14d6-093f"/>
-                        <characteristic name="ATHL" typeId="c8cd-c089-dd3d-2e16"/>
-                        <characteristic name="INT" typeId="c031-02ff-75c4-b668"/>
-                        <characteristic name="LD" typeId="72b8-4489-fc13-4747"/>
-                        <characteristic name="ARMOR" typeId="5b00-5f59-dfe6-152d"/>
-                        <characteristic name="NERVE" typeId="0fa5-3723-3c14-25e8"/>
-                        <characteristic name="MOVE" typeId="dfea-c7c0-d15b-83d6"/>
-                        <characteristic name="SIZE" typeId="8e01-4602-4ce5-b15c"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
                   <categoryLinks>
                     <categoryLink id="a78a-6290-6eb7-e5da" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
                   </categoryLinks>
@@ -8912,7 +8879,7 @@ The Models must be in base-to-base contact to perform the check.</description>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db3d-c640-8697-7e24" type="min"/>
               </constraints>
               <profiles>
-                <profile id="3790-f5f0-1549-fd1f" name="Central Guardsmen Heavy Machine Gun Team" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                <profile id="3790-f5f0-1549-fd1f" name="Central Guardsmen Heavy Machine Gun Team" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                   <characteristics>
                     <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
                     <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
@@ -9239,7 +9206,7 @@ The Models must be in base-to-base contact to perform the check.</description>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0dc-bef4-90ee-d1aa" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="a0c5-75c9-53d4-45a9" name="Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                    <profile id="a0c5-75c9-53d4-45a9" name="Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                       <characteristics>
                         <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
                         <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
@@ -9522,7 +9489,7 @@ The Models must be in base-to-base contact to perform the check.</description>
                 <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4147-3d88-4b06-ab00" type="min"/>
               </constraints>
               <profiles>
-                <profile id="821c-3dea-2ba1-f3d7" name="Central Guardsmen Heavy Machine Gun Team" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                <profile id="821c-3dea-2ba1-f3d7" name="Central Guardsmen Heavy Machine Gun Team" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                   <characteristics>
                     <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
                     <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
@@ -9843,7 +9810,7 @@ The Models must be in base-to-base contact to perform the check.</description>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fa2-ff0d-f21d-5be0" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="119f-3af4-125c-b197" name="Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                    <profile id="119f-3af4-125c-b197" name="Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                       <characteristics>
                         <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
                         <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
@@ -10126,7 +10093,7 @@ The Models must be in base-to-base contact to perform the check.</description>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b53b-045f-224e-fb83" type="min"/>
               </constraints>
               <profiles>
-                <profile id="3628-1a8d-3046-34cf" name="Central Guardsmen Heavy Machine Gun Team" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                <profile id="3628-1a8d-3046-34cf" name="Central Guardsmen Heavy Machine Gun Team" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                   <characteristics>
                     <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
                     <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
@@ -10447,7 +10414,7 @@ The Models must be in base-to-base contact to perform the check.</description>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e6e-64d9-1e75-e82b" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="cd6b-8f58-a89d-1c63" name="Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                    <profile id="cd6b-8f58-a89d-1c63" name="Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                       <characteristics>
                         <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
                         <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
@@ -10816,7 +10783,7 @@ The Models must be in base-to-base contact to perform the check.</description>
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="aac1-5728-fcb8-a1dd" name="Frontiersman Scout Team" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+        <profile id="aac1-5728-fcb8-a1dd" name="Frontiersman Scout Team" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
           <characteristics>
             <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
             <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
@@ -11131,7 +11098,7 @@ The Models must be in base-to-base contact to perform the check.</description>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30d5-31d4-8a92-16ad" type="min"/>
               </constraints>
               <profiles>
-                <profile id="4ac6-0b3d-2060-dee6" name="Frontiersman Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                <profile id="4ac6-0b3d-2060-dee6" name="Frontiersman Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                   <characteristics>
                     <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
                     <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
@@ -11401,7 +11368,7 @@ The Models must be in base-to-base contact to perform the check.</description>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="236a-90c6-529f-b626" type="min"/>
               </constraints>
               <profiles>
-                <profile id="78c5-83c7-67c7-1138" name="Senior Frontiersman Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                <profile id="78c5-83c7-67c7-1138" name="Senior Frontiersman Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                   <characteristics>
                     <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
                     <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
@@ -11682,7 +11649,7 @@ The Models must be in base-to-base contact to perform the check.</description>
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="f5f2-e785-677f-f859" name="Frontiersman " hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+        <profile id="f5f2-e785-677f-f859" name="Frontiersman " hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
           <characteristics>
             <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
             <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
@@ -11722,18 +11689,19 @@ The Models must be in base-to-base contact to perform the check.</description>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbf1-5932-1f10-b355" type="max"/>
           </constraints>
           <profiles>
-            <profile id="29c2-b09e-08f1-dfe0" name="DP-36 &quot;Specter&quot; Light RIG" hidden="false" typeId="3171-8235-12ee-fea3" typeName="RIG (Reinforced Integrated General Suit)">
+            <profile id="7c4e-bbff-d2f1-3324" name="DP-36 &quot;Specter&quot; Light RIG" hidden="false" typeId="c397-e9ce-4ecb-e421" typeName="RIG (Reinforced Integrated General Suit)">
               <characteristics>
-                <characteristic name="Key Traits" typeId="c57f-bd9b-9731-5292">Arms, Legs, Walker, Armored, RIG</characteristic>
-                <characteristic name="DEF" typeId="8c0c-fc9a-dc50-2008">2</characteristic>
-                <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b">2</characteristic>
-                <characteristic name="ATHL" typeId="6e35-19f6-f86d-c8c4">3</characteristic>
-                <characteristic name="INT" typeId="2729-26d6-4909-a42b">2</characteristic>
-                <characteristic name="LD" typeId="fb75-f849-87bf-0cf7">2</characteristic>
-                <characteristic name="ARMOR" typeId="03b5-12b6-d388-97a3">13/12/11</characteristic>
-                <characteristic name="NERVE" typeId="d2d7-447d-46cc-09d0">4</characteristic>
-                <characteristic name="MOVE" typeId="c6d3-4c1d-1edb-4617">10</characteristic>
-                <characteristic name="SIZE" typeId="5144-a968-b049-94f5">11- MA</characteristic>
+                <characteristic name="Key Traits" typeId="5d6b-2941-c528-c8a6"/>
+                <characteristic name="DEF" typeId="77de-4164-8c4f-5cf4"/>
+                <characteristic name="CMBT" typeId="75c5-380c-c20f-8577"/>
+                <characteristic name="ATHL" typeId="b302-4eb2-c988-f07f"/>
+                <characteristic name="INT" typeId="3c33-5b26-9cc0-f5d2"/>
+                <characteristic name="LD" typeId="2b55-1eb7-cf27-4a20"/>
+                <characteristic name="ARMOR" typeId="ec49-ddda-6f3c-0fe2"/>
+                <characteristic name="END" typeId="fe1b-1db7-fdf4-f37e"/>
+                <characteristic name="NERVE" typeId="bda7-234c-0705-b435"/>
+                <characteristic name="MOVE" typeId="6d1b-0a08-d0b5-47e4"/>
+                <characteristic name="SIZE" typeId="5f00-3965-dbe5-9b8c"/>
               </characteristics>
             </profile>
           </profiles>
@@ -11962,7 +11930,7 @@ Ammo: OOO
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fec2-5136-ccc0-ec0b" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="4729-acae-7df7-24e0" name="Veteran Pilot" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="Trooper">
+                    <profile id="4729-acae-7df7-24e0" name="Veteran Pilot" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                       <characteristics>
                         <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
                         <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
@@ -12041,6 +12009,18 @@ Ammo: OOO
                   </rules>
                   <costs>
                     <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="-1.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="8511-9406-7f31-4dd5" name="Cortal Plugin Uplink (E’Selda Protectorate Only)" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8168-bc1d-bc63-ab83" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="3dd4-6f41-1c92-6da8" name="Cortal Plugin Uplink" hidden="false"/>
+                  </rules>
+                  <costs>
+                    <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="-5.0"/>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                   </costs>
                 </selectionEntry>
