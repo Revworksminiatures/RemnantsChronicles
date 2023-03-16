@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="62" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="64" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8db2-3d51-7944-b9de" name="Remnant Chronicles "/>
   </publications>
@@ -994,6 +994,16 @@ Immediately search your deck for a command card of your choosing and play it wit
               </costs>
             </selectionEntry>
             <selectionEntry id="ebfa-1851-7f1b-31e4" name="••Fire and Maneuver (Federal Coalition Army / Home Guard)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f4fd-5a8f-736f-a498" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd77-6ed0-8d1e-6b69" type="max"/>
+              </constraints>
               <rules>
                 <rule id="051c-14bf-539b-b6ec" name="••Fire and Maneuver" hidden="false">
                   <description>A Light or Heavy Core unit may move again, even if it did not have an action to do so at full movement.</description>
@@ -1060,6 +1070,13 @@ Immediately search your deck for a command card of your choosing and play it wit
               </costs>
             </selectionEntry>
             <selectionEntry id="824c-b8ae-f88d-aa77" name="••Duty Unto Death (United Commonwealth of Martyr)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="8dc0-9373-9db0-d163" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c970-1b2e-ed1b-a449" type="max"/>
               </constraints>
@@ -1073,6 +1090,13 @@ Immediately search your deck for a command card of your choosing and play it wit
               </costs>
             </selectionEntry>
             <selectionEntry id="bc73-6d24-9062-ac7b" name="••Tactical Analysis (Zircon)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="788d-a341-1be1-7efe" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="459d-d21a-0831-9576" type="max"/>
               </constraints>
@@ -1084,6 +1108,13 @@ Immediately search your deck for a command card of your choosing and play it wit
               </costs>
             </selectionEntry>
             <selectionEntry id="fa95-5813-f1a5-c763" name="••Nano Repair (Zircon)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="788d-a341-1be1-7efe" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87b2-4467-c26e-713d" type="max"/>
               </constraints>

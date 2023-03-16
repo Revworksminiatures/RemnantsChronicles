@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="521e-09b1-fcdf-951e" name="Federal Coalition" revision="51" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="60" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="521e-09b1-fcdf-951e" name="Federal Coalition" revision="52" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="62" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="b3e5-5793-3120-bf85" name="Remnant Chronicles "/>
   </publications>
@@ -5184,7 +5184,7 @@ The Models must be in base-to-base contact to perform the check.
           </selectionEntryGroups>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="6.0"/>
-            <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="20.0"/>
+            <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="29.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -11436,12 +11436,43 @@ The Models must be in base-to-base contact to perform the check.
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                   </costs>
                 </selectionEntry>
+                <selectionEntry id="81ca-09e6-89f7-409c" name="Ejection Seat" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4325-5d57-f5a7-df54" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="d5a3-f1f1-3f4d-49c7" name="Ejection Seat Pilot" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
+                      <characteristics>
+                        <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
+                        <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
+                        <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e">2</characteristic>
+                        <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36">3</characteristic>
+                        <characteristic name="INT" typeId="c334-3de5-0bba-70e6">2</characteristic>
+                        <characteristic name="LD" typeId="f7c5-0728-1b20-115b">2</characteristic>
+                        <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429">10</characteristic>
+                        <characteristic name="END" typeId="254f-362a-e072-64bf">2</characteristic>
+                        <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af">3</characteristic>
+                        <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96">5</characteristic>
+                        <characteristic name="SIZE" typeId="2926-db13-a623-b546">5-Med</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule id="4ce0-61db-12cf-b44d" name="Ejection Seat" hidden="false">
+                      <description>If this model is destroyed, you may place a model representing the pilot next to the base of the destoryed model. This model does not count extra towards VP for the purposes of Kill &apos;em All. The model maybe captured, killed, or interacted with as normal. </description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-5.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="8.0"/>
-            <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="23.0"/>
+            <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="38.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -20792,12 +20823,43 @@ The Models must be in base-to-base contact to perform the check.
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                   </costs>
                 </selectionEntry>
+                <selectionEntry id="850a-60d1-2c5b-ca7e" name="Ejection Seat" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80d3-54d7-e991-30f2" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="3416-d4a4-af4c-bca4" name="Ejection Seat Pilot" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
+                      <characteristics>
+                        <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
+                        <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
+                        <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e">2</characteristic>
+                        <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36">3</characteristic>
+                        <characteristic name="INT" typeId="c334-3de5-0bba-70e6">2</characteristic>
+                        <characteristic name="LD" typeId="f7c5-0728-1b20-115b">2</characteristic>
+                        <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429">10</characteristic>
+                        <characteristic name="END" typeId="254f-362a-e072-64bf">2</characteristic>
+                        <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af">3</characteristic>
+                        <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96">5</characteristic>
+                        <characteristic name="SIZE" typeId="2926-db13-a623-b546">5-Med</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule id="16c6-009d-f0ea-29c1" name="Ejection Seat" hidden="false">
+                      <description>If this model is destroyed, you may place a model representing the pilot next to the base of the destoryed model. This model does not count extra towards VP for the purposes of Kill &apos;em All. The model maybe captured, killed, or interacted with as normal. </description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-5.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="6.0"/>
-            <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="24.0"/>
+            <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="29.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -20931,12 +20993,43 @@ The Models must be in base-to-base contact to perform the check.
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                   </costs>
                 </selectionEntry>
+                <selectionEntry id="189d-2c38-e373-02ec" name="Ejection Seat" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cad5-a268-ba9f-d260" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="e66c-60e3-e847-0508" name="Ejection Seat Pilot" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
+                      <characteristics>
+                        <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
+                        <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
+                        <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e">2</characteristic>
+                        <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36">3</characteristic>
+                        <characteristic name="INT" typeId="c334-3de5-0bba-70e6">2</characteristic>
+                        <characteristic name="LD" typeId="f7c5-0728-1b20-115b">2</characteristic>
+                        <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429">10</characteristic>
+                        <characteristic name="END" typeId="254f-362a-e072-64bf">2</characteristic>
+                        <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af">3</characteristic>
+                        <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96">5</characteristic>
+                        <characteristic name="SIZE" typeId="2926-db13-a623-b546">5-Med</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule id="7242-a47b-8f4e-5f66" name="Ejection Seat" hidden="false">
+                      <description>If this model is destroyed, you may place a model representing the pilot next to the base of the destoryed model. This model does not count extra towards VP for the purposes of Kill &apos;em All. The model maybe captured, killed, or interacted with as normal. </description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-5.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="8.0"/>
-            <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="23.0"/>
+            <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="38.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
