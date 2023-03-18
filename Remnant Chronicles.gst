@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="64" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="66" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8db2-3d51-7944-b9de" name="Remnant Chronicles "/>
   </publications>
@@ -46,7 +46,7 @@
         <characteristicType id="e736-9e94-0692-d658" name="SIZE"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="8554-7c5b-644d-0781" name="Trooper (Real)">
+    <profileType id="8554-7c5b-644d-0781" name="Trooper ">
       <characteristicTypes>
         <characteristicType id="533f-d2f4-b240-29c2" name="Key Traits"/>
         <characteristicType id="6327-fd82-8107-5ea3" name="DEF"/>
