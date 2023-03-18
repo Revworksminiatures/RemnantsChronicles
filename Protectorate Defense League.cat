@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="36df-1e33-682e-8730" name="Protectorate Defense League" revision="45" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="62" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="36df-1e33-682e-8730" name="Protectorate Defense League" revision="49" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="66" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="4d34-eb9d-7579-bc94" name="Remnant Chronicles "/>
   </publications>
@@ -9,19 +9,19 @@
   <selectionEntries>
     <selectionEntry id="29b6-e686-9064-bfac" name="Central Guardsmen Fireteam" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="947b-72bc-b461-5b35" name="Central Guardsmen" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
+        <profile id="947b-72bc-b461-5b35" name="Central Guardsmen" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
           <characteristics>
-            <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
-            <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
-            <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e">2</characteristic>
-            <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36">3</characteristic>
-            <characteristic name="INT" typeId="c334-3de5-0bba-70e6">2</characteristic>
-            <characteristic name="LD" typeId="f7c5-0728-1b20-115b">2</characteristic>
-            <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429">10</characteristic>
-            <characteristic name="END" typeId="254f-362a-e072-64bf">2</characteristic>
-            <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af">3</characteristic>
-            <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96">5</characteristic>
-            <characteristic name="SIZE" typeId="2926-db13-a623-b546">5 - Med</characteristic>
+            <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
+            <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">2</characteristic>
+            <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">2</characteristic>
+            <characteristic name="ATHL" typeId="c988-b08c-df98-0786">3</characteristic>
+            <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">2</characteristic>
+            <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">2</characteristic>
+            <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+            <characteristic name="END" typeId="3d52-4bc1-5a65-f947">2</characteristic>
+            <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+            <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+            <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5 - Med</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3469,7 +3469,7 @@ Ammo: OOO
     <selectionEntry id="1cda-f6bb-2ab0-f607" name="DP-99 &quot;Marauder&quot; MLRS " hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
         <categoryLink id="dc95-1132-b9d8-004c" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
-        <categoryLink id="52df-fe7f-cb6c-a5be" name="Heavy Support" hidden="false" targetId="b035-a4f5-5ab0-65b2" primary="true"/>
+        <categoryLink id="1394-8456-60c5-ab29" name="New CategoryLink" hidden="false" targetId="8617-cc36-211a-2bfb" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="eaab-5005-f018-a5a3" name="DP-99 &quot;Marauder&quot; MLRS " hidden="false" collective="false" import="true" type="upgrade">
@@ -3496,9 +3496,10 @@ Ammo: OOO
           </profiles>
           <categoryLinks>
             <categoryLink id="b9a7-9f80-1707-4409" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
+            <categoryLink id="375b-9dc5-5a7f-ebd5" name="Vehicle" hidden="false" targetId="23bb-b58c-3bd2-08fd" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="6548-d0da-9e04-e7e3" name="Marauder Upgrades" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="6548-d0da-9e04-e7e3" name="DP-99 &quot;Marauder&quot; MLRS  Upgrades" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82c0-5b5d-be97-0383" type="max"/>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86d7-ded2-e043-7f71" type="min"/>
@@ -3659,7 +3660,7 @@ Ammo: OOO
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="8.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="6.0"/>
             <cost name="Resource Points" typeId="6920-7c69-b777-103f" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -4448,19 +4449,19 @@ The Models must be in base-to-base contact to perform the check.</description>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ae7-39f9-c847-5983" type="min"/>
               </constraints>
               <profiles>
-                <profile id="4b53-646d-685f-3d9f" name="Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
+                <profile id="4b53-646d-685f-3d9f" name="Kersan" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
                   <characteristics>
-                    <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
-                    <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
-                    <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e">3</characteristic>
-                    <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36">3</characteristic>
-                    <characteristic name="INT" typeId="c334-3de5-0bba-70e6">3</characteristic>
-                    <characteristic name="LD" typeId="f7c5-0728-1b20-115b">3</characteristic>
-                    <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429">10</characteristic>
-                    <characteristic name="END" typeId="254f-362a-e072-64bf">3</characteristic>
-                    <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af">3</characteristic>
-                    <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96">5</characteristic>
-                    <characteristic name="SIZE" typeId="2926-db13-a623-b546">5 - Med</characteristic>
+                    <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
+                    <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">2</characteristic>
+                    <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">3</characteristic>
+                    <characteristic name="ATHL" typeId="c988-b08c-df98-0786">3</characteristic>
+                    <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">3</characteristic>
+                    <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">3</characteristic>
+                    <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+                    <characteristic name="END" typeId="3d52-4bc1-5a65-f947">3</characteristic>
+                    <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+                    <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+                    <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5 - Med</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4718,19 +4719,19 @@ The Models must be in base-to-base contact to perform the check.</description>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f8d-c494-dcd7-6d3c" type="min"/>
               </constraints>
               <profiles>
-                <profile id="7566-5c82-78d1-5704" name="Senior Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
+                <profile id="7566-5c82-78d1-5704" name="Senior Kersan" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
                   <characteristics>
-                    <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
-                    <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
-                    <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e">2</characteristic>
-                    <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36">3</characteristic>
-                    <characteristic name="INT" typeId="c334-3de5-0bba-70e6">3</characteristic>
-                    <characteristic name="LD" typeId="f7c5-0728-1b20-115b">3</characteristic>
-                    <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429">10</characteristic>
-                    <characteristic name="END" typeId="254f-362a-e072-64bf">2</characteristic>
-                    <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af">3</characteristic>
-                    <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96">5</characteristic>
-                    <characteristic name="SIZE" typeId="2926-db13-a623-b546">5 - Med</characteristic>
+                    <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
+                    <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">2</characteristic>
+                    <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">2</characteristic>
+                    <characteristic name="ATHL" typeId="c988-b08c-df98-0786">3</characteristic>
+                    <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">3</characteristic>
+                    <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">3</characteristic>
+                    <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+                    <characteristic name="END" typeId="3d52-4bc1-5a65-f947">2</characteristic>
+                    <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+                    <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+                    <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5 - Med</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4995,6 +4996,23 @@ The Models must be in base-to-base contact to perform the check.</description>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="782a-85f3-89c5-5944" type="max"/>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f530-9f5e-5b9a-6722" type="min"/>
       </constraints>
+      <profiles>
+        <profile id="d475-bc2c-1368-ff90" name="Type 7 P.A.K. Mule UGV" hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
+          <characteristics>
+            <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559"/>
+            <characteristic name="DEF" typeId="6644-0c1a-148c-54f2"/>
+            <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b"/>
+            <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd"/>
+            <characteristic name="INT" typeId="8b64-630a-32e8-c175"/>
+            <characteristic name="LD" typeId="f27a-4395-502d-0edc"/>
+            <characteristic name="ARMOR" typeId="edb2-357a-7123-031f"/>
+            <characteristic name="END" typeId="afaf-9bc5-83c6-72c7"/>
+            <characteristic name="NERVE" typeId="9fbd-f3af-434b-c417"/>
+            <characteristic name="MOVE" typeId="0d4e-6880-8aca-8e7b"/>
+            <characteristic name="SIZE" typeId="e736-9e94-0692-d658"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <categoryLinks>
         <categoryLink id="2598-7bd2-8881-4847" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
         <categoryLink id="38d2-bda4-af28-788b" name="Vehicle" hidden="false" targetId="23bb-b58c-3bd2-08fd" primary="false"/>
@@ -5505,7 +5523,7 @@ Ammo: OOO
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="489f-c5b1-6f77-5f44" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="d336-6fee-a604-5fc2" name="Captain Kai &quot;Ghost&quot; Ratislav" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper (Real)">
+                    <profile id="d336-6fee-a604-5fc2" name="Captain Kai &quot;Ghost&quot; Ratislav" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
                       <characteristics>
                         <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2"/>
                         <characteristic name="DEF" typeId="6327-fd82-8107-5ea3"/>
@@ -5783,11 +5801,28 @@ Ammo: OOO
             <categoryLink id="f0e2-bf10-d7e0-c292" name="Light Support" hidden="false" targetId="8617-cc36-211a-2bfb" primary="true"/>
           </categoryLinks>
           <selectionEntries>
-            <selectionEntry id="0bea-8915-70d7-dff3" name="JP-7 BlackStar " hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0bea-8915-70d7-dff3" name="JP-7 &quot;BlackStar&quot;" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0344-fe4a-251c-6243" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a046-4304-942c-785a" type="min"/>
               </constraints>
+              <profiles>
+                <profile id="0bf4-598f-af06-92b5" name="JP-7 &quot;BlackStar&quot; HAVOC " hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
+                  <characteristics>
+                    <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
+                    <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
+                    <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e"/>
+                    <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36"/>
+                    <characteristic name="INT" typeId="c334-3de5-0bba-70e6"/>
+                    <characteristic name="LD" typeId="f7c5-0728-1b20-115b"/>
+                    <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429"/>
+                    <characteristic name="END" typeId="254f-362a-e072-64bf"/>
+                    <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af"/>
+                    <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96"/>
+                    <characteristic name="SIZE" typeId="2926-db13-a623-b546"/>
+                  </characteristics>
+                </profile>
+              </profiles>
               <infoLinks>
                 <infoLink id="4363-f95f-62f5-9ab6" name="Fly" hidden="false" targetId="798d-95bc-1064-e636" type="rule"/>
                 <infoLink id="ab1b-8788-75fa-f0b9" name="Hover" hidden="false" targetId="33e0-4b09-acb4-f413" type="rule"/>
@@ -5864,12 +5899,29 @@ Ammo: OOO
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4acb-3e86-b033-ec1a" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0a2-ef3f-cbdb-856f" type="min"/>
           </constraints>
+          <profiles>
+            <profile id="204c-4a46-624a-c207" name="JP-9 &quot;Aurora&quot; HAVOC Support" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
+              <characteristics>
+                <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
+                <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
+                <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e"/>
+                <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36"/>
+                <characteristic name="INT" typeId="c334-3de5-0bba-70e6"/>
+                <characteristic name="LD" typeId="f7c5-0728-1b20-115b"/>
+                <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429"/>
+                <characteristic name="END" typeId="254f-362a-e072-64bf"/>
+                <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af"/>
+                <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96"/>
+                <characteristic name="SIZE" typeId="2926-db13-a623-b546"/>
+              </characteristics>
+            </profile>
+          </profiles>
           <categoryLinks>
             <categoryLink id="f935-271f-33e7-72f8" name="Heavy Support" hidden="false" targetId="b035-a4f5-5ab0-65b2" primary="true"/>
             <categoryLink id="bf48-e92f-02de-caea" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
           </categoryLinks>
           <selectionEntries>
-            <selectionEntry id="1ff8-3e4c-f029-4247" name="JP-9 Aurora" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1ff8-3e4c-f029-4247" name="JP-9 &quot;Aurora&quot; HAVOC" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9302-51c2-18ae-2178" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="545e-2a3c-e53e-51e8" type="min"/>
@@ -6204,19 +6256,19 @@ Ammo: OOO
     </selectionEntry>
     <selectionEntry id="9a5b-19be-fe18-1ec4" name="Central Guardsmen Scout Team" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="f994-0363-c7d2-531e" name="Central Guardsmen Scout Team" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
+        <profile id="f994-0363-c7d2-531e" name="Central Guardsmen Scout Team" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
           <characteristics>
-            <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
-            <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
-            <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e">2</characteristic>
-            <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36">3</characteristic>
-            <characteristic name="INT" typeId="c334-3de5-0bba-70e6">2</characteristic>
-            <characteristic name="LD" typeId="f7c5-0728-1b20-115b">2</characteristic>
-            <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429">10</characteristic>
-            <characteristic name="END" typeId="254f-362a-e072-64bf">2</characteristic>
-            <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af">3</characteristic>
-            <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96">5</characteristic>
-            <characteristic name="SIZE" typeId="2926-db13-a623-b546">5 - Med</characteristic>
+            <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
+            <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">2</characteristic>
+            <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">2</characteristic>
+            <characteristic name="ATHL" typeId="c988-b08c-df98-0786">3</characteristic>
+            <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">2</characteristic>
+            <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">2</characteristic>
+            <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+            <characteristic name="END" typeId="3d52-4bc1-5a65-f947">2</characteristic>
+            <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+            <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+            <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5 - Med</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7920,19 +7972,19 @@ The Models must be in base-to-base contact to perform the check.</description>
     </selectionEntry>
     <selectionEntry id="2cca-4fa6-bd9f-688d" name="Central Guardsmen Scout Sniper Team" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="974b-0bf1-5cc5-336a" name="Central Guardsmen Scout Sniper Team" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
+        <profile id="974b-0bf1-5cc5-336a" name="Central Guardsmen Scout Sniper Team" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
           <characteristics>
-            <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
-            <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
-            <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e">2</characteristic>
-            <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36">3</characteristic>
-            <characteristic name="INT" typeId="c334-3de5-0bba-70e6">2</characteristic>
-            <characteristic name="LD" typeId="f7c5-0728-1b20-115b">2</characteristic>
-            <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429">10</characteristic>
-            <characteristic name="END" typeId="254f-362a-e072-64bf">2</characteristic>
-            <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af">3</characteristic>
-            <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96">5</characteristic>
-            <characteristic name="SIZE" typeId="2926-db13-a623-b546">5 - Med</characteristic>
+            <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
+            <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">2</characteristic>
+            <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">2</characteristic>
+            <characteristic name="ATHL" typeId="c988-b08c-df98-0786">3</characteristic>
+            <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">2</characteristic>
+            <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">2</characteristic>
+            <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+            <characteristic name="END" typeId="3d52-4bc1-5a65-f947">2</characteristic>
+            <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+            <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+            <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5 - Med</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8891,19 +8943,19 @@ The Models must be in base-to-base contact to perform the check.</description>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db3d-c640-8697-7e24" type="min"/>
               </constraints>
               <profiles>
-                <profile id="3790-f5f0-1549-fd1f" name="Central Guardsmen Heavy Machine Gun Team" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
+                <profile id="3790-f5f0-1549-fd1f" name="Central Guardsmen Heavy Machine Gun Team" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
                   <characteristics>
-                    <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
-                    <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
-                    <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e">2</characteristic>
-                    <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36">3</characteristic>
-                    <characteristic name="INT" typeId="c334-3de5-0bba-70e6">2</characteristic>
-                    <characteristic name="LD" typeId="f7c5-0728-1b20-115b">2</characteristic>
-                    <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429">10</characteristic>
-                    <characteristic name="END" typeId="254f-362a-e072-64bf">2</characteristic>
-                    <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af">3</characteristic>
-                    <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96">5</characteristic>
-                    <characteristic name="SIZE" typeId="2926-db13-a623-b546">5 - Med</characteristic>
+                    <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
+                    <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">2</characteristic>
+                    <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">2</characteristic>
+                    <characteristic name="ATHL" typeId="c988-b08c-df98-0786">3</characteristic>
+                    <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">2</characteristic>
+                    <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">2</characteristic>
+                    <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+                    <characteristic name="END" typeId="3d52-4bc1-5a65-f947">2</characteristic>
+                    <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+                    <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+                    <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5 - Med</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9218,19 +9270,19 @@ The Models must be in base-to-base contact to perform the check.</description>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0dc-bef4-90ee-d1aa" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="a0c5-75c9-53d4-45a9" name="Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
+                    <profile id="a0c5-75c9-53d4-45a9" name="Kersan" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
                       <characteristics>
-                        <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
-                        <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
-                        <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e">3</characteristic>
-                        <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36">3</characteristic>
-                        <characteristic name="INT" typeId="c334-3de5-0bba-70e6">3</characteristic>
-                        <characteristic name="LD" typeId="f7c5-0728-1b20-115b">3</characteristic>
-                        <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429">10</characteristic>
-                        <characteristic name="END" typeId="254f-362a-e072-64bf">3</characteristic>
-                        <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af">3</characteristic>
-                        <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96">5</characteristic>
-                        <characteristic name="SIZE" typeId="2926-db13-a623-b546">5 - Med</characteristic>
+                        <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
+                        <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">2</characteristic>
+                        <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">3</characteristic>
+                        <characteristic name="ATHL" typeId="c988-b08c-df98-0786">3</characteristic>
+                        <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">3</characteristic>
+                        <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">3</characteristic>
+                        <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+                        <characteristic name="END" typeId="3d52-4bc1-5a65-f947">3</characteristic>
+                        <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+                        <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+                        <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5 - Med</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9501,19 +9553,19 @@ The Models must be in base-to-base contact to perform the check.</description>
                 <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4147-3d88-4b06-ab00" type="min"/>
               </constraints>
               <profiles>
-                <profile id="821c-3dea-2ba1-f3d7" name="Central Guardsmen Heavy Machine Gun Team" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
+                <profile id="821c-3dea-2ba1-f3d7" name="Central Guardsmen Heavy Machine Gun Team" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
                   <characteristics>
-                    <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
-                    <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
-                    <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e">2</characteristic>
-                    <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36">3</characteristic>
-                    <characteristic name="INT" typeId="c334-3de5-0bba-70e6">2</characteristic>
-                    <characteristic name="LD" typeId="f7c5-0728-1b20-115b">2</characteristic>
-                    <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429">10</characteristic>
-                    <characteristic name="END" typeId="254f-362a-e072-64bf">2</characteristic>
-                    <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af">3</characteristic>
-                    <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96">5</characteristic>
-                    <characteristic name="SIZE" typeId="2926-db13-a623-b546">5 - Med</characteristic>
+                    <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
+                    <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">2</characteristic>
+                    <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">2</characteristic>
+                    <characteristic name="ATHL" typeId="c988-b08c-df98-0786">3</characteristic>
+                    <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">2</characteristic>
+                    <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">2</characteristic>
+                    <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+                    <characteristic name="END" typeId="3d52-4bc1-5a65-f947">2</characteristic>
+                    <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+                    <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+                    <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5 - Med</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9822,19 +9874,19 @@ The Models must be in base-to-base contact to perform the check.</description>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fa2-ff0d-f21d-5be0" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="119f-3af4-125c-b197" name="Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
+                    <profile id="119f-3af4-125c-b197" name="Kersan" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
                       <characteristics>
-                        <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
-                        <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
-                        <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e">3</characteristic>
-                        <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36">3</characteristic>
-                        <characteristic name="INT" typeId="c334-3de5-0bba-70e6">3</characteristic>
-                        <characteristic name="LD" typeId="f7c5-0728-1b20-115b">3</characteristic>
-                        <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429">10</characteristic>
-                        <characteristic name="END" typeId="254f-362a-e072-64bf">3</characteristic>
-                        <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af">3</characteristic>
-                        <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96">5</characteristic>
-                        <characteristic name="SIZE" typeId="2926-db13-a623-b546">5 - Med</characteristic>
+                        <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
+                        <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">2</characteristic>
+                        <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">3</characteristic>
+                        <characteristic name="ATHL" typeId="c988-b08c-df98-0786">3</characteristic>
+                        <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">3</characteristic>
+                        <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">3</characteristic>
+                        <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+                        <characteristic name="END" typeId="3d52-4bc1-5a65-f947">3</characteristic>
+                        <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+                        <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+                        <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5 - Med</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10105,19 +10157,19 @@ The Models must be in base-to-base contact to perform the check.</description>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b53b-045f-224e-fb83" type="min"/>
               </constraints>
               <profiles>
-                <profile id="3628-1a8d-3046-34cf" name="Central Guardsmen Heavy Machine Gun Team" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
+                <profile id="3628-1a8d-3046-34cf" name="Central Guardsmen Heavy Machine Gun Team" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
                   <characteristics>
-                    <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
-                    <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
-                    <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e">2</characteristic>
-                    <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36">3</characteristic>
-                    <characteristic name="INT" typeId="c334-3de5-0bba-70e6">2</characteristic>
-                    <characteristic name="LD" typeId="f7c5-0728-1b20-115b">2</characteristic>
-                    <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429">10</characteristic>
-                    <characteristic name="END" typeId="254f-362a-e072-64bf">2</characteristic>
-                    <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af">3</characteristic>
-                    <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96">5</characteristic>
-                    <characteristic name="SIZE" typeId="2926-db13-a623-b546">5 - Med</characteristic>
+                    <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
+                    <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">2</characteristic>
+                    <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">2</characteristic>
+                    <characteristic name="ATHL" typeId="c988-b08c-df98-0786">3</characteristic>
+                    <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">2</characteristic>
+                    <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">2</characteristic>
+                    <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+                    <characteristic name="END" typeId="3d52-4bc1-5a65-f947">2</characteristic>
+                    <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+                    <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+                    <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5 - Med</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10426,19 +10478,19 @@ The Models must be in base-to-base contact to perform the check.</description>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e6e-64d9-1e75-e82b" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="cd6b-8f58-a89d-1c63" name="Kersan" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
+                    <profile id="cd6b-8f58-a89d-1c63" name="Kersan" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
                       <characteristics>
-                        <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
-                        <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
-                        <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e">3</characteristic>
-                        <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36">3</characteristic>
-                        <characteristic name="INT" typeId="c334-3de5-0bba-70e6">3</characteristic>
-                        <characteristic name="LD" typeId="f7c5-0728-1b20-115b">3</characteristic>
-                        <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429">10</characteristic>
-                        <characteristic name="END" typeId="254f-362a-e072-64bf">3</characteristic>
-                        <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af">3</characteristic>
-                        <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96">5</characteristic>
-                        <characteristic name="SIZE" typeId="2926-db13-a623-b546">5 - Med</characteristic>
+                        <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
+                        <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">2</characteristic>
+                        <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">3</characteristic>
+                        <characteristic name="ATHL" typeId="c988-b08c-df98-0786">3</characteristic>
+                        <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">3</characteristic>
+                        <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">3</characteristic>
+                        <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+                        <characteristic name="END" typeId="3d52-4bc1-5a65-f947">3</characteristic>
+                        <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+                        <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+                        <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5 - Med</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10795,19 +10847,19 @@ The Models must be in base-to-base contact to perform the check.</description>
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="aac1-5728-fcb8-a1dd" name="Frontiersman Scout Team" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
+        <profile id="aac1-5728-fcb8-a1dd" name="Frontiersman Scout Team" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
           <characteristics>
-            <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
-            <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
-            <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e">2</characteristic>
-            <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36">3</characteristic>
-            <characteristic name="INT" typeId="c334-3de5-0bba-70e6">2</characteristic>
-            <characteristic name="LD" typeId="f7c5-0728-1b20-115b">2</characteristic>
-            <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429">10</characteristic>
-            <characteristic name="END" typeId="254f-362a-e072-64bf">2</characteristic>
-            <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af">3</characteristic>
-            <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96">5</characteristic>
-            <characteristic name="SIZE" typeId="2926-db13-a623-b546">5 - Med</characteristic>
+            <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
+            <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">2</characteristic>
+            <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">2</characteristic>
+            <characteristic name="ATHL" typeId="c988-b08c-df98-0786">3</characteristic>
+            <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">2</characteristic>
+            <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">2</characteristic>
+            <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+            <characteristic name="END" typeId="3d52-4bc1-5a65-f947">2</characteristic>
+            <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+            <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+            <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5 - Med</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11661,19 +11713,19 @@ The Models must be in base-to-base contact to perform the check.</description>
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="f5f2-e785-677f-f859" name="Frontiersman " hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
+        <profile id="f5f2-e785-677f-f859" name="Frontiersman " hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
           <characteristics>
-            <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
-            <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
-            <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e">2</characteristic>
-            <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36">3</characteristic>
-            <characteristic name="INT" typeId="c334-3de5-0bba-70e6">2</characteristic>
-            <characteristic name="LD" typeId="f7c5-0728-1b20-115b">2</characteristic>
-            <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429">10</characteristic>
-            <characteristic name="END" typeId="254f-362a-e072-64bf">2</characteristic>
-            <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af">3</characteristic>
-            <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96">5</characteristic>
-            <characteristic name="SIZE" typeId="2926-db13-a623-b546">5 - Med</characteristic>
+            <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
+            <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">2</characteristic>
+            <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">2</characteristic>
+            <characteristic name="ATHL" typeId="c988-b08c-df98-0786">3</characteristic>
+            <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">2</characteristic>
+            <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">2</characteristic>
+            <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+            <characteristic name="END" typeId="3d52-4bc1-5a65-f947">2</characteristic>
+            <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+            <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+            <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5 - Med</characteristic>
           </characteristics>
         </profile>
       </profiles>
