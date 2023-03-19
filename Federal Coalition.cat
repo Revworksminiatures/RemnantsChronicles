@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="521e-09b1-fcdf-951e" name="Federal Coalition" revision="57" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="66" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="521e-09b1-fcdf-951e" name="Federal Coalition" revision="58" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="67" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="b3e5-5793-3120-bf85" name="Remnant Chronicles "/>
   </publications>
@@ -4309,7 +4309,7 @@ The Models must be in base-to-base contact to perform the check.
                   </infoLinks>
                   <costs>
                     <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="2.0"/>
-                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="4.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="dd53-c3d9-1651-33a5" name="Extra Armor" hidden="false" collective="false" import="true" type="upgrade">
@@ -4865,7 +4865,7 @@ The Models must be in base-to-base contact to perform the check.
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54ff-b7af-e5dc-65d7" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="f5f1-5f19-725b-43d8" name="Anti-Tank Missile" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="f5f1-5f19-725b-43d8" name="2x Anti-Tank Missile" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79ee-f2e1-7496-5e5a" type="max"/>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="548d-8a76-150f-1b1b" type="min"/>
@@ -4885,11 +4885,11 @@ The Models must be in base-to-base contact to perform the check.
                     <infoLink id="af23-2adf-7037-865c" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-5.0"/>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-10.0"/>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="4742-3be5-65ba-d49f" name="Anti-Air Missile" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="4742-3be5-65ba-d49f" name="2x Anti-Air Missile" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcff-a6b0-b4a1-cd85" type="max"/>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b72c-a4ae-7e97-bbe2" type="min"/>
@@ -4909,11 +4909,11 @@ The Models must be in base-to-base contact to perform the check.
                     <infoLink id="e584-6c44-0f2b-122e" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-5.0"/>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-10.0"/>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="06a2-8cf2-eef1-9b14" name="Anti-Armor Missile" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="06a2-8cf2-eef1-9b14" name="2x Anti-Armor Missile" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f7f-1bbd-4047-7606" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7dc-0434-bae2-4f19" type="max"/>
@@ -4933,11 +4933,11 @@ The Models must be in base-to-base contact to perform the check.
                     <infoLink id="69e3-23f3-db0e-bc3b" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-5.0"/>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-10.0"/>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="a0fe-7e1f-1698-df69" name="Smoke Bombs" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="a0fe-7e1f-1698-df69" name="2x Smoke Bombs" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9887-6da9-7fa0-023d" type="max"/>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0b9-e53c-92da-102a" type="min"/>
@@ -4958,7 +4958,7 @@ The Models must be in base-to-base contact to perform the check.
                     <infoLink id="1348-a75f-9536-24f2" name="Multi-Shot:X" hidden="false" targetId="ebba-c110-9463-eb80" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-1.0"/>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-2.0"/>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -5137,12 +5137,12 @@ The Models must be in base-to-base contact to perform the check.
                         <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">3</characteristic>
                         <characteristic name="ATHL" typeId="c988-b08c-df98-0786">3</characteristic>
                         <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">2</characteristic>
-                        <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13"/>
-                        <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99"/>
-                        <characteristic name="END" typeId="3d52-4bc1-5a65-f947"/>
+                        <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">3	</characteristic>
+                        <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">9</characteristic>
+                        <characteristic name="END" typeId="3d52-4bc1-5a65-f947">4</characteristic>
                         <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">4</characteristic>
-                        <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283"/>
-                        <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6"/>
+                        <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+                        <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5-Med</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5155,8 +5155,8 @@ The Models must be in base-to-base contact to perform the check.
                     <categoryLink id="8d64-80cf-6633-d097" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
                   </categoryLinks>
                   <costs>
-                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
-                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="3.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="4.0"/>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="5.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="8478-6328-d8be-4e71" name="Ejection Seat" hidden="false" collective="false" import="true" type="upgrade">
@@ -5164,19 +5164,19 @@ The Models must be in base-to-base contact to perform the check.
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52fc-513b-c5d1-0007" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="c24c-6a0e-39e1-692f" name="Ejection Seat Pilot" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
+                    <profile id="c24c-6a0e-39e1-692f" name="Ejected Pilot" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
                       <characteristics>
-                        <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
-                        <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
-                        <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e">2</characteristic>
-                        <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36">3</characteristic>
-                        <characteristic name="INT" typeId="c334-3de5-0bba-70e6">2</characteristic>
-                        <characteristic name="LD" typeId="f7c5-0728-1b20-115b">2</characteristic>
-                        <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429">10</characteristic>
-                        <characteristic name="END" typeId="254f-362a-e072-64bf">2</characteristic>
-                        <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af">3</characteristic>
-                        <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96">5</characteristic>
-                        <characteristic name="SIZE" typeId="2926-db13-a623-b546">5-Med</characteristic>
+                        <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
+                        <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">2</characteristic>
+                        <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">2</characteristic>
+                        <characteristic name="ATHL" typeId="c988-b08c-df98-0786">3</characteristic>
+                        <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">2</characteristic>
+                        <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">2</characteristic>
+                        <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+                        <characteristic name="END" typeId="3d52-4bc1-5a65-f947">2</characteristic>
+                        <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+                        <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+                        <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5-Med</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -20379,7 +20379,7 @@ The Models must be in base-to-base contact to perform the check.
                   </categoryLinks>
                   <costs>
                     <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="2.0"/>
-                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="4.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="9ec3-5edb-5692-6864" name="Extra Armor" hidden="false" collective="false" import="true" type="upgrade">
@@ -20519,7 +20519,7 @@ The Models must be in base-to-base contact to perform the check.
         <categoryLink id="fb6b-16bb-d73f-d21d" name="New CategoryLink" hidden="false" targetId="8617-cc36-211a-2bfb" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="1c5e-633b-b549-09ec" name="A-9 &quot;Outlaw&quot;" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="1c5e-633b-b549-09ec" name="A-9 &quot;Outlaw&quot; HAVOC" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe07-38fd-6fa9-e3f6" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7742-61b4-3580-9390" type="max"/>
@@ -20583,7 +20583,7 @@ The Models must be in base-to-base contact to perform the check.
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64ff-7425-43ed-f321" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="7bba-9ad6-e0b3-51ac" name="Anti-Tank Missile" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="7bba-9ad6-e0b3-51ac" name="2x Anti-Tank Missile" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d31b-3cf7-273b-4eb3" type="max"/>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="937c-36ba-a710-948e" type="min"/>
@@ -20603,11 +20603,11 @@ The Models must be in base-to-base contact to perform the check.
                     <infoLink id="0520-a14a-ecaf-09fc" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-5.0"/>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-10.0"/>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="119c-2dc0-a0e8-b566" name="Anti-Air Missile" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="119c-2dc0-a0e8-b566" name="2x Anti-Air Missile" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0f0-dfd1-6be5-3969" type="max"/>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20bc-d23e-ef42-a6ae" type="min"/>
@@ -20627,11 +20627,11 @@ The Models must be in base-to-base contact to perform the check.
                     <infoLink id="e168-7cf8-ce89-8e56" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-5.0"/>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-10.0"/>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="23be-ee06-0161-f5b4" name="Anti-Armor Missile" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="23be-ee06-0161-f5b4" name="2x Anti-Armor Missile" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85df-002b-57ce-955d" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3182-4454-4f5a-513a" type="max"/>
@@ -20651,11 +20651,11 @@ The Models must be in base-to-base contact to perform the check.
                     <infoLink id="3ff5-5607-e805-b56c" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-5.0"/>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-10.0"/>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="76a2-1af4-b111-a7b3" name="Smoke Bombs" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="76a2-1af4-b111-a7b3" name="2x Smoke Bombs" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd76-dbc2-53b7-adcd" type="max"/>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5671-0d46-e3c3-0b41" type="min"/>
@@ -20676,7 +20676,7 @@ The Models must be in base-to-base contact to perform the check.
                     <infoLink id="e64f-a8a5-6b95-c90a" name="Multi-Shot:X" hidden="false" targetId="ebba-c110-9463-eb80" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-1.0"/>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-2.0"/>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -20688,7 +20688,7 @@ The Models must be in base-to-base contact to perform the check.
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca46-ab52-44a1-9daf" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="dc5b-d541-0099-ebb6" name="Anti-Tank Missile" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="dc5b-d541-0099-ebb6" name="2x Anti-Tank Missile" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bf0-93ae-75f4-1345" type="max"/>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccaa-39b3-3aa9-f7b5" type="min"/>
@@ -20708,11 +20708,11 @@ The Models must be in base-to-base contact to perform the check.
                     <infoLink id="3f3e-5e4b-0cb1-77db" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-5.0"/>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-10.0"/>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="2ddf-e62f-1db8-4ec3" name="Anti-Air Missile" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="2ddf-e62f-1db8-4ec3" name="2x Anti-Air Missile" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d94-7628-e5ae-25f8" type="max"/>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d53-d3de-6d84-96cf" type="min"/>
@@ -20732,11 +20732,11 @@ The Models must be in base-to-base contact to perform the check.
                     <infoLink id="3dab-2089-f45b-81f4" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-5.0"/>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-10.0"/>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="18b6-48d8-f4ef-997a" name="Anti-Armor Missile" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="18b6-48d8-f4ef-997a" name="2x Anti-Armor Missile" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="004f-f68f-e736-25d0" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4341-0275-95d2-cbbe" type="max"/>
@@ -20756,11 +20756,11 @@ The Models must be in base-to-base contact to perform the check.
                     <infoLink id="9fbe-459f-3ac5-efb3" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-5.0"/>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-10.0"/>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="6280-3402-8be3-cfd1" name="Smoke Bombs" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="6280-3402-8be3-cfd1" name="2x Smoke Bombs" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="767c-4636-0b2f-c5e6" type="max"/>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6635-d9cf-6f1b-454d" type="min"/>
@@ -20781,7 +20781,7 @@ The Models must be in base-to-base contact to perform the check.
                     <infoLink id="0c26-05bb-bb5a-4f11" name="Multi-Shot:X" hidden="false" targetId="ebba-c110-9463-eb80" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-1.0"/>
+                    <cost name="Resource Points" typeId="709a-2c94-4c24-5aa8" value="-2.0"/>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -20845,19 +20845,19 @@ The Models must be in base-to-base contact to perform the check.
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80d3-54d7-e991-30f2" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="3416-d4a4-af4c-bca4" name="Ejection Seat Pilot" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
+                    <profile id="3416-d4a4-af4c-bca4" name="Ejectied Pilot" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
                       <characteristics>
-                        <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Living, Arms, Legs</characteristic>
-                        <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">2</characteristic>
-                        <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e">2</characteristic>
-                        <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36">3</characteristic>
-                        <characteristic name="INT" typeId="c334-3de5-0bba-70e6">2</characteristic>
-                        <characteristic name="LD" typeId="f7c5-0728-1b20-115b">2</characteristic>
-                        <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429">10</characteristic>
-                        <characteristic name="END" typeId="254f-362a-e072-64bf">2</characteristic>
-                        <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af">3</characteristic>
-                        <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96">5</characteristic>
-                        <characteristic name="SIZE" typeId="2926-db13-a623-b546">5-Med</characteristic>
+                        <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
+                        <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">2</characteristic>
+                        <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">2</characteristic>
+                        <characteristic name="ATHL" typeId="c988-b08c-df98-0786">3</characteristic>
+                        <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">2</characteristic>
+                        <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">2</characteristic>
+                        <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+                        <characteristic name="END" typeId="3d52-4bc1-5a65-f947">2</characteristic>
+                        <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+                        <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+                        <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5-Med</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -25126,7 +25126,7 @@ The Models must be in base-to-base contact in order to perform the check.
                     </selectionEntry>
                   </selectionEntries>
                   <selectionEntryGroups>
-                    <selectionEntryGroup id="52e6-d206-0039-a724" name="Primary Weapon" hidden="false" collective="false" import="true">
+                    <selectionEntryGroup id="52e6-d206-0039-a724" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="8662-7e73-3d23-07e7">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0642-995e-f59e-e952" type="max"/>
                       </constraints>
@@ -25182,7 +25182,7 @@ The Models must be in base-to-base contact in order to perform the check.
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>
-                    <selectionEntryGroup id="178e-a47c-bee2-4f87" name="Marine Secondary Weapon" hidden="false" collective="false" import="true">
+                    <selectionEntryGroup id="178e-a47c-bee2-4f87" name="Marine Secondary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="4bfd-b1a9-b2da-fefd">
                       <selectionEntries>
                         <selectionEntry id="4546-6985-0c51-64fa" name="M892A5 Submachine Gun" hidden="false" collective="false" import="true" type="upgrade">
                           <constraints>
@@ -26293,7 +26293,7 @@ The Models must be in base-to-base contact to perform the check.
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4022-59ea-4659-22a7" name="Marines " hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="4022-59ea-4659-22a7" name="Scout Sniper Marines " hidden="false" collective="false" import="true" defaultSelectionEntryId="e1b1-4fa9-a48a-819c">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91e1-e05d-48e0-797b" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4342-7460-4eee-8f98" type="min"/>
@@ -26304,7 +26304,7 @@ The Models must be in base-to-base contact to perform the check.
             <categoryLink id="d393-8049-bf9b-07f6" name="Marine" hidden="false" targetId="eb78-3e7e-0b96-cdc9" primary="false"/>
           </categoryLinks>
           <selectionEntries>
-            <selectionEntry id="e1b1-4fa9-a48a-819c" name="Marine" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="e1b1-4fa9-a48a-819c" name="Scout Sniper Marines " hidden="false" collective="false" import="true" type="model">
               <categoryLinks>
                 <categoryLink id="d19d-92c4-087a-d0ba" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
                 <categoryLink id="56ba-a55f-a55b-fc1c" name="Infantry" hidden="false" targetId="fb9f-b1e2-371c-b347" primary="false"/>
@@ -26358,7 +26358,7 @@ The Models must be in base-to-base contact to perform the check.
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
-                <selectionEntryGroup id="80f4-049c-1ea7-b677" name="Primary Weapon" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="80f4-049c-1ea7-b677" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="8e28-653b-bbae-4e02">
                   <categoryLinks>
                     <categoryLink id="20a9-f2df-045a-8805" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
                   </categoryLinks>
@@ -26377,7 +26377,7 @@ The Models must be in base-to-base contact to perform the check.
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="49f2-1159-2579-84d9" name="Secondary Weapon" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="49f2-1159-2579-84d9" name="Secondary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="75fd-f981-f2ac-87c6">
                   <selectionEntries>
                     <selectionEntry id="75fd-f981-f2ac-87c6" name="M892A4 Sniper Rifle" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
