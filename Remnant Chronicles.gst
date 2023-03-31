@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="68" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="72" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8db2-3d51-7944-b9de" name="Remnant Chronicles "/>
   </publications>
   <costTypes>
     <costType id="a20b-d4d2-6853-8d1c" name="Command Points" defaultCostLimit="-1.0" hidden="false"/>
+    <costType id="9f39-e69b-dc02-b17c" name="Resource Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="78d3-bea5-ee48-c524" name="HAVOC (High Altitude Void Operable Craft)">
@@ -362,6 +363,7 @@
               </categoryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="04cc-c60a-45a0-ca68" name="•Fire on my Target! " hidden="false" collective="false" import="true" type="upgrade">
@@ -378,6 +380,7 @@
               </categoryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="872e-fcfb-10fd-d747" name="•Dig In! " hidden="false" collective="false" import="true" type="upgrade">
@@ -394,6 +397,7 @@
               </categoryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c201-cd46-42a9-0247" name="•Requesting Air Support!" hidden="false" collective="false" import="true" type="upgrade">
@@ -415,6 +419,7 @@ For range measurements, treat the weapon as having originated anywhere from your
               </categoryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3f25-f8e5-419d-241c" name="•Fire Support is Needed! (1 Command Point)" hidden="false" collective="false" import="true" type="upgrade">
@@ -455,6 +460,7 @@ Orbital Strike
               </categoryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="02f5-75dc-c245-7214" name="•Leaked Intelligence" hidden="false" collective="false" import="true" type="upgrade">
@@ -471,6 +477,7 @@ Orbital Strike
               </categoryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="191a-0d11-ff34-5c3b" name="•Force of Fire (Federal Coalition Marine Corps)" hidden="false" collective="false" import="true" type="upgrade">
@@ -495,6 +502,7 @@ Orbital Strike
               </categoryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="171a-11a5-8d51-24dd" name="•Dogged Discipline (Federal Coalition Marine Corps)" hidden="false" collective="false" import="true" type="upgrade">
@@ -519,6 +527,7 @@ Orbital Strike
               </categoryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fd8b-c04a-fe7c-0739" name="•Firing Line (Royal Kingdom of Erland)" hidden="false" collective="false" import="true" type="upgrade">
@@ -545,6 +554,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
               </categoryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="42d3-bcdd-eace-a3e5" name="•Eyes Open (Protectorate Defense Leauge Central Guard)" hidden="false" collective="false" import="true" type="upgrade">
@@ -569,6 +579,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
               </categoryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5c8a-df58-69b0-a219" name="•Hold the Line! (Protectorate Defense Leauge Central Guard)" hidden="false" collective="false" import="true" type="upgrade">
@@ -593,6 +604,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
               </categoryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b7a3-64bf-21cf-e085" name="•Electronic Warfare" hidden="false" collective="false" import="true" type="upgrade">
@@ -606,6 +618,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
               </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cc0c-275a-6294-9b7e" name="•Coordinated Attack (Zircon)" hidden="false" collective="false" import="true" type="upgrade">
@@ -629,6 +642,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
               </categoryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cbec-4d80-eb1b-bbb7" name="•Command Re-Roll" hidden="false" collective="false" import="true" type="upgrade">
@@ -642,6 +656,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
               </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c951-c60a-b3e0-ace9" name="•Steal the Initiative!" hidden="false" collective="false" import="true" type="upgrade">
@@ -655,6 +670,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
               </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ab04-255b-6827-e232" name="•Rally!" hidden="false" collective="false" import="true" type="upgrade">
@@ -668,6 +684,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
               </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="13dc-c317-6a72-51c4" name="•Grant an Extra Action" hidden="false" collective="false" import="true" type="upgrade">
@@ -681,6 +698,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
               </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3093-7cc9-d870-47bc" name="•Counter Intelligence Tactics (Royal Kingdom of Erland)" hidden="false" collective="false" import="true" type="upgrade">
@@ -701,6 +719,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
               </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="517c-583d-56de-6650" name="•Keep It Together! •Dogged Discipline (Federal Coalition Army / Home Guard)" hidden="false" collective="false" import="true" type="upgrade">
@@ -721,11 +740,13 @@ Every model in the unit that uses this Tactical Asset will automatically take an
               </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f5f1-6853-9382-01b0" name="2 Command Point Cards" hidden="false" collective="false" import="true" type="upgrade">
@@ -763,6 +784,7 @@ For range measurements, treat the weapon as having originated anywhere from your
               </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4daf-8f42-3473-4ea4" name="••Fire Support is Needed! (2 Command Points)" hidden="false" collective="false" import="true" type="upgrade">
@@ -800,6 +822,7 @@ Orbital Strike
               </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="887c-28bf-813c-838e" name="••Cover me! (Federal Coalition Marine Corps)" hidden="false" collective="false" import="true" type="upgrade">
@@ -821,6 +844,7 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
               </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dfc4-8c76-35c8-485c" name="••Adaptive Tactics (United Commonwealth of Martyr)" hidden="false" collective="false" import="true" type="upgrade">
@@ -843,6 +867,7 @@ Immediately search your deck for a command card of your choosing and play it wit
               </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a850-cde8-af9c-d0e0" name="••Flanking Fire! (Protectorate Defense Leauge Central Guard)" hidden="false" collective="false" import="true" type="upgrade">
@@ -867,6 +892,7 @@ Immediately search your deck for a command card of your choosing and play it wit
               </categoryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4764-27d1-b5be-7d06" name="••Diversionary Tactics (Protectorate Defense Leauge Central Guard)" hidden="false" collective="false" import="true" type="upgrade">
@@ -891,6 +917,7 @@ Immediately search your deck for a command card of your choosing and play it wit
               </categoryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0096-e582-7579-93b5" name="••Leaked Intelligence" hidden="false" collective="false" import="true" type="upgrade">
@@ -907,6 +934,7 @@ Immediately search your deck for a command card of your choosing and play it wit
               </categoryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="601a-edd0-5998-b69e" name="••Jammed Communications " hidden="false" collective="false" import="true" type="upgrade">
@@ -920,6 +948,7 @@ Immediately search your deck for a command card of your choosing and play it wit
               </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="82b4-bd22-8f35-fe4c" name="••Electronic Warfare" hidden="false" collective="false" import="true" type="upgrade">
@@ -933,6 +962,7 @@ Immediately search your deck for a command card of your choosing and play it wit
               </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f65f-ea28-2ca6-22cf" name="••Shock Assault (Federal Coalition Marine Corps)" hidden="false" collective="false" import="true" type="upgrade">
@@ -953,6 +983,7 @@ Immediately search your deck for a command card of your choosing and play it wit
               </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4348-b288-681e-1f5d" name="••Rapid Redeployment! (Royal Kingdom of Erland)" hidden="false" collective="false" import="true" type="upgrade">
@@ -973,6 +1004,7 @@ Immediately search your deck for a command card of your choosing and play it wit
               </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2d16-163c-f8b4-de09" name="••Get it Done! (Federal Coalition Army / Home Guard)" hidden="false" collective="false" import="true" type="upgrade">
@@ -993,6 +1025,7 @@ Immediately search your deck for a command card of your choosing and play it wit
               </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ebfa-1851-7f1b-31e4" name="••Fire and Maneuver (Federal Coalition Army / Home Guard)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1013,6 +1046,7 @@ Immediately search your deck for a command card of your choosing and play it wit
               </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="707f-5f06-8d8c-1d09" name="••Stay Sharp! (Protectorate Defense Leauge Border Frontier)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1033,6 +1067,7 @@ Immediately search your deck for a command card of your choosing and play it wit
               </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1262-191c-f0c3-c975" name="••Plug in! (Protectorate Defense Leauge E&apos;Selda Protectorate)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1051,6 +1086,7 @@ Immediately search your deck for a command card of your choosing and play it wit
               </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b88b-3c83-e35a-a5ae" name="••Upgraded Tech (Protectorate Defense Leauge Axel Collective)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1069,6 +1105,7 @@ Immediately search your deck for a command card of your choosing and play it wit
               </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="824c-b8ae-f88d-aa77" name="••Duty Unto Death (United Commonwealth of Martyr)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1089,6 +1126,7 @@ Immediately search your deck for a command card of your choosing and play it wit
               </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="bc73-6d24-9062-ac7b" name="••Tactical Analysis (Zircon)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1107,6 +1145,7 @@ Immediately search your deck for a command card of your choosing and play it wit
               </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fa95-5813-f1a5-c763" name="••Nano Repair (Zircon)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1127,11 +1166,13 @@ Immediately search your deck for a command card of your choosing and play it wit
               </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f5e6-d70a-0396-9c0e" name="3 Command Point Cards" hidden="false" collective="false" import="true" type="upgrade">
@@ -1156,6 +1197,7 @@ If a player chooses to “break” radio silence, the card is removed from play 
               </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="156e-5c83-6199-dfce" name="•••Fire Support is Needed! (3 Command Points)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1193,6 +1235,7 @@ Orbital Strike
               </rules>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5ba7-e4a2-c67c-e92d" name="•••Prepared Defenses" hidden="false" collective="false" import="true" type="upgrade">
@@ -1209,6 +1252,7 @@ Orbital Strike
               </categoryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5e5a-8e50-452d-b801" name="•••Reinforcements " hidden="false" collective="false" import="true" type="upgrade">
@@ -1225,16 +1269,19 @@ Orbital Strike
               </categoryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2228-3191-74fb-b288" name="Standing Orders" hidden="false" collective="false" import="true" type="upgrade">
@@ -1261,6 +1308,7 @@ X equals destroyed leader’s Rank
           </rules>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3eae-75ab-d141-eccf" name="Recover Casualties" hidden="false" collective="false" import="true" type="upgrade">
@@ -1281,6 +1329,7 @@ X equals the rank of the casualty.
           </categoryLinks>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="80bb-437b-feec-8ea4" name="Tactical Retreat" hidden="false" collective="false" import="true" type="upgrade">
@@ -1300,6 +1349,7 @@ Choosing this Standing order ends the game immediately as soon as the last unit 
           </rules>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2566-2ee3-a686-c33c" name="Take Prisoners" hidden="false" collective="false" import="true" type="upgrade">
@@ -1319,11 +1369,13 @@ Casualties can only be secured by bringing them in contact with your home edge.
           </rules>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="24f0-bbe9-f58b-77e3" name="Game Type" hidden="false" collective="false" import="true" type="upgrade">
@@ -1347,6 +1399,7 @@ Casualties can only be secured by bringing them in contact with your home edge.
           </rules>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ee97-23e3-bf1d-d958" name="General" hidden="false" collective="false" import="true" type="upgrade">
@@ -1361,6 +1414,7 @@ Casualties can only be secured by bringing them in contact with your home edge.
           </rules>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ac6f-deec-b9ee-adbc" name="Competitive" hidden="false" collective="false" import="true" type="upgrade">
@@ -1375,6 +1429,7 @@ Casualties can only be secured by bringing them in contact with your home edge.
           </rules>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1934-e0fc-dff6-23cc" name="Campaign " hidden="false" collective="false" import="true" type="upgrade">
@@ -1395,6 +1450,7 @@ Casualties can only be secured by bringing them in contact with your home edge.
               </constraints>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="237c-8720-79a9-83e8" name="Interwar Period" hidden="false" collective="false" import="true" type="upgrade">
@@ -1404,6 +1460,7 @@ Casualties can only be secured by bringing them in contact with your home edge.
               </constraints>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5556-39e7-b3cd-c9ba" name="Second Void War" hidden="false" collective="false" import="true" type="upgrade">
@@ -1413,16 +1470,19 @@ Casualties can only be secured by bringing them in contact with your home edge.
               </constraints>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8e2c-03be-ac1b-b8c6" name="Layout" hidden="false" collective="false" import="true" type="upgrade">
@@ -1469,6 +1529,7 @@ Casualties can only be secured by bringing them in contact with your home edge.
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="857f-3d96-1d9f-9630" name="Recover (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1482,6 +1543,7 @@ Casualties can only be secured by bringing them in contact with your home edge.
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="62a2-f222-83b9-df8c" name="Grab ‘Em! (3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1495,6 +1557,7 @@ Casualties can only be secured by bringing them in contact with your home edge.
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="6161-f31f-12cc-b35d" name="POW (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1508,6 +1571,7 @@ Casualties can only be secured by bringing them in contact with your home edge.
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="3006-59b9-42c3-b591" name="Lost and Found (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1545,6 +1609,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1565,6 +1630,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="a1c2-ca08-e863-311d" name="Kill ‘Em All (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1578,6 +1644,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="08d5-dcd7-21e3-c768" name="Manhunt (1-3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1593,6 +1660,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="828b-3623-cd6b-00c1" name="Raid (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1608,6 +1676,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="3ed2-8f37-c328-ec7c" name="Seize (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1621,6 +1690,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1641,6 +1711,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="2896-84bd-dddd-fba8" name="Scout (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1654,6 +1725,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="d88a-5c3f-22b3-9c34" name="Infiltrate (3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1667,6 +1739,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="fb16-c2ba-5a77-d889" name="Tracking (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1680,6 +1753,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="70ca-a617-950f-b59e" name="Pathfinder (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1693,6 +1767,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1710,6 +1785,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="f04f-90c5-6c7e-77b5" name="Guard (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1723,6 +1799,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="cec3-3a83-7385-3d3d" name="Hold the Line (3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1736,6 +1813,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="1ad3-624e-ca7b-ccf4" name="Besieged (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1749,6 +1827,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="b208-4c02-a1f4-9c4b" name="Escort (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1789,6 +1868,7 @@ Wounded
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1809,6 +1889,7 @@ Wounded
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="155c-4fb9-77b1-92d3" name="Safe Passage (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1822,6 +1903,7 @@ Wounded
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="1c98-ec67-6330-df45" name="Escape and Evade (3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1835,6 +1917,7 @@ Wounded
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="adf6-3d3e-28c1-b97c" name="Relay (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1849,6 +1932,7 @@ Wounded
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="a6e0-af90-9cbf-5712" name="Repair (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1893,6 +1977,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1900,6 +1985,7 @@ If an action cost for an objective exceeds double its starting value, the object
               </selectionEntryGroups>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5d59-6cf5-3a3e-baa9" name="Secondary Mission Objectives" hidden="false" collective="false" import="true" type="upgrade">
@@ -1924,6 +2010,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="effd-87e4-a954-f113" name="Recover (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1937,6 +2024,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="c1b7-efb1-d9a6-c2c9" name="Grab ‘Em! (3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1950,6 +2038,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="c368-5f34-0080-2dd9" name="POW (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1963,6 +2052,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="a9ba-13c6-e299-ff2f" name="Lost and Found (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2000,6 +2090,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2020,6 +2111,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="b5ab-43db-de82-19b6" name="Kill ‘Em All (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2033,6 +2125,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="57b1-1190-b436-ca6f" name="Manhunt (1-3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2048,6 +2141,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="8e60-ee3f-09bf-e51a" name="Raid (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2063,6 +2157,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="0201-3b2f-a4f4-41c8" name="Seize (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2076,6 +2171,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2096,6 +2192,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="d73b-331f-0678-098f" name="Scout (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2109,6 +2206,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="1745-db8a-4bc6-6339" name="Infiltrate (3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2122,6 +2220,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="5b1f-bba4-d453-a080" name="Tracking (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2135,6 +2234,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="c2a2-f218-f2c4-0219" name="Pathfinder (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2148,6 +2248,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2165,6 +2266,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="c322-71f6-4c89-32ba" name="Guard (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2178,6 +2280,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="dd69-8e3c-e4f3-1dcf" name="Hold the Line (3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2191,6 +2294,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="5167-c3bb-77a3-cbf0" name="Besieged (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2204,6 +2308,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="17c9-9931-9cab-85d3" name="Escort (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2244,6 +2349,7 @@ Wounded
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2264,6 +2370,7 @@ Wounded
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="73de-2600-98a1-955c" name="Safe Passage (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2277,6 +2384,7 @@ Wounded
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="c2e2-000e-d117-6f45" name="Escape and Evade (3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2290,6 +2398,7 @@ Wounded
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="cfb8-dbe3-c08a-3ea6" name="Relay (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2304,6 +2413,7 @@ Wounded
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="68c3-2cef-9abd-1196" name="Repair (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2348,6 +2458,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2355,11 +2466,13 @@ If an action cost for an objective exceeds double its starting value, the object
               </selectionEntryGroups>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3331-52db-2812-7654" name="Off Sides (3-4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2394,6 +2507,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="985b-ad0e-861d-4aad" name="Grab ‘Em! (3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2407,6 +2521,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="e0e9-ac8e-10e4-3505" name="POW (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2420,6 +2535,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="580a-e0d5-a77d-124b" name="Lost and Found (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2457,6 +2573,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2477,6 +2594,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="64b5-6979-698b-bf5f" name="Kill ‘Em All (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2490,6 +2608,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="12a7-ff1f-489c-40e2" name="Manhunt (1-3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2505,6 +2624,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="9ed0-18c9-4f04-4dbe" name="Raid (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2520,6 +2640,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="d7a1-7e3a-9ae4-72de" name="Seize (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2533,6 +2654,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2553,6 +2675,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="05fd-ff74-2312-e1dc" name="Infiltrate (3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2566,6 +2689,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2583,6 +2707,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="b001-4ff1-09f5-f353" name="Guard (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2596,6 +2721,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="ed7f-8fd2-3585-4115" name="Hold the Line (3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2609,6 +2735,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="63fa-bcaa-3d5b-c244" name="Besieged (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2622,6 +2749,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2642,6 +2770,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="de53-5617-3aac-df1a" name="Escape and Evade (3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2655,6 +2784,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2662,6 +2792,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
               </selectionEntryGroups>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e669-7f13-3964-5d23" name="Secondary Mission Objectives" hidden="false" collective="false" import="true" type="upgrade">
@@ -2686,6 +2817,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="4d9f-0d49-7e52-fbe5" name="Grab ‘Em! (3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2699,6 +2831,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="39c0-b140-869d-310a" name="POW (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2712,6 +2845,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="c836-438f-8e57-5dc9" name="Lost and Found (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2749,6 +2883,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2769,6 +2904,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="f5ac-a29b-b263-06aa" name="Kill ‘Em All (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2782,6 +2918,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="ddc7-9dca-adbf-d300" name="Manhunt (1-3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2797,6 +2934,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="58dc-50db-1142-2076" name="Raid (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2812,6 +2950,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="cc6b-bc3e-b495-d724" name="Seize (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2825,6 +2964,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2845,6 +2985,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="120d-4d2e-dcf8-d9db" name="Infiltrate (3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2858,6 +2999,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2875,6 +3017,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="5321-15ac-e349-68bc" name="Guard (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2888,6 +3031,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="4b9a-7734-07c1-10da" name="Hold the Line (3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2901,6 +3045,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="54d7-29e2-b664-242c" name="Besieged (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2914,6 +3059,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2934,6 +3080,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="da6a-aae4-215f-507e" name="Escape and Evade (3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2947,6 +3094,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2954,11 +3102,13 @@ Once a Token has been rolled for and the result applied, remove it from the game
               </selectionEntryGroups>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7756-6329-833b-ab83" name="Corners (5-6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2996,6 +3146,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="9b82-5d71-d07d-d21f" name="Kill ‘Em All (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3009,6 +3160,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="51b3-f5e8-2ff0-fd55" name="Manhunt (1-3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3024,6 +3176,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="cb88-2a35-c503-4552" name="Raid (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3039,6 +3192,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -3059,6 +3213,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="44bb-8d00-d6ad-71c9" name="Scout (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3072,6 +3227,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="3ccd-88ca-d940-bd2d" name="Tracking (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3085,6 +3241,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -3102,6 +3259,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="1a3d-0147-e110-3120" name="Guard (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3115,6 +3273,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="1d2e-33fc-d4d8-1f02" name="Besieged (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3128,6 +3287,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -3148,6 +3308,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="94f3-ad35-c2a1-18ab" name="Relay (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3162,6 +3323,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="e967-dc1e-c976-7dfd" name="Repair (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3206,6 +3368,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -3223,6 +3386,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="d602-313e-f87d-d9ef" name="Recover (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3236,6 +3400,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="c28f-6140-7be0-0ba3" name="Grab ‘Em! (3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3249,6 +3414,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="d6a7-89d3-ea5c-ca5c" name="POW (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3262,6 +3428,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="5596-23de-2622-bea5" name="Lost and Found (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3299,6 +3466,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -3306,6 +3474,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
               </selectionEntryGroups>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b185-893b-faee-a4c2" name="Primary Mission Objectives" hidden="false" collective="false" import="true" type="upgrade">
@@ -3333,6 +3502,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="c5fe-4a73-8cbc-d04a" name="Kill ‘Em All (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3346,6 +3516,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="0664-a843-1288-43f7" name="Manhunt (1-3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3361,6 +3532,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="bb9d-5aab-c41c-3e07" name="Raid (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3376,6 +3548,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -3396,6 +3569,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="5f92-582d-c36c-970a" name="Scout (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3409,6 +3583,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="4606-7eaa-11c0-6dac" name="Tracking (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3422,6 +3597,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -3439,6 +3615,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="590f-d412-fcf4-735e" name="Guard (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3452,6 +3629,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="c0e1-b993-3810-1532" name="Besieged (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3465,6 +3643,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -3485,6 +3664,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="21db-520a-4afb-080d" name="Relay (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3499,6 +3679,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="fae4-eb20-c1fd-4a05" name="Repair (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3543,6 +3724,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -3560,6 +3742,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="5766-f1be-8e0a-7c9b" name="Recover (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3573,6 +3756,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="8d70-7724-4575-a344" name="Grab ‘Em! (3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3586,6 +3770,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="283b-0eb6-2e10-25a3" name="POW (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3599,6 +3784,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="0d65-b18f-7329-4964" name="Lost and Found (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3636,6 +3822,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -3643,11 +3830,13 @@ Once a Token has been rolled for and the result applied, remove it from the game
               </selectionEntryGroups>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b752-f742-4dda-0960" name="Middle Ground (7-8)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3686,6 +3875,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="42ab-9430-790f-8994" name="Recover (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3699,6 +3889,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="5c09-d8bb-52ef-e92c" name="Grab ‘Em! (3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3712,6 +3903,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="bf37-0063-5c0f-72cf" name="POW (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3725,6 +3917,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="1665-7784-4a48-1322" name="Lost and Found (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3762,6 +3955,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -3782,6 +3976,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="baba-f7f9-3c8b-66ad" name="Seize (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3795,6 +3990,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -3815,6 +4011,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="2292-fbe3-4f21-653b" name="Tracking (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3828,6 +4025,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -3845,6 +4043,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="37b2-23cd-b228-215b" name="Guard (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3858,6 +4057,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="344b-dfee-b02c-01f3" name="Hold the Line (3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3871,6 +4071,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="bb0d-9f0f-7e16-4d58" name="Besieged (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3884,6 +4085,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="3fae-88ec-e2d0-220a" name="Escort (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3924,6 +4126,7 @@ Wounded
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -3975,6 +4178,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -3982,6 +4186,7 @@ If an action cost for an objective exceeds double its starting value, the object
               </selectionEntryGroups>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0ac9-720d-6534-1624" name="Secondary Mission Objectives" hidden="false" collective="false" import="true" type="upgrade">
@@ -4006,6 +4211,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="0cc4-2e79-4ba2-7b73" name="Recover (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4019,6 +4225,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="959f-c13e-4d93-3ba9" name="Grab ‘Em! (3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4032,6 +4239,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="d7f8-ef6c-5cb4-d759" name="POW (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4045,6 +4253,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="2068-0d69-d436-e80d" name="Lost and Found (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4082,6 +4291,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -4102,6 +4312,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="2cdb-32f3-7ef7-94d4" name="Seize (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4115,6 +4326,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -4135,6 +4347,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="8029-fd64-4673-4fc7" name="Tracking (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4148,6 +4361,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -4165,6 +4379,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="3b61-f4ab-80ef-5233" name="Guard (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4178,6 +4393,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="c33e-2b74-24ba-b763" name="Hold the Line (3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4191,6 +4407,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="2380-aea7-5909-86d4" name="Besieged (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4204,6 +4421,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="5044-32f5-2299-8285" name="Escort (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4244,6 +4462,7 @@ Wounded
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -4295,6 +4514,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -4302,11 +4522,13 @@ If an action cost for an objective exceeds double its starting value, the object
               </selectionEntryGroups>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c0b1-ad89-463c-6ec5" name="Scattered (9-10)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4351,6 +4573,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="8ca2-bacc-934b-bae1" name="Recover (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4364,6 +4587,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="973e-5b04-a253-c4d1" name="Grab ‘Em! (3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4377,6 +4601,7 @@ If an action cost for an objective exceeds double its starting value, the object
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="cbf2-b384-8bb2-9721" name="Lost and Found (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4414,6 +4639,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -4434,6 +4660,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="9c16-7c93-8772-da11" name="Kill ‘Em All (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4447,6 +4674,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="815c-6a61-06b7-63a0" name="Manhunt (1-3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4462,6 +4690,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -4482,6 +4711,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="bdba-8ac7-5c2c-7ede" name="Tracking (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4495,6 +4725,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -4512,6 +4743,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -4532,6 +4764,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -4539,6 +4772,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
               </selectionEntryGroups>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="477a-40c5-62ad-3f16" name="Secondary Mission Objectives" hidden="false" collective="false" import="true" type="upgrade">
@@ -4563,6 +4797,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="767a-8b37-1a2d-cda2" name="Recover (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4576,6 +4811,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="baea-7b48-3082-e708" name="Grab ‘Em! (3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4589,6 +4825,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="61c7-7df7-c23f-a1c2" name="Lost and Found (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4626,6 +4863,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -4646,6 +4884,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="526e-cf8c-eea3-d303" name="Kill ‘Em All (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4659,6 +4898,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="f0d3-ba51-6548-6377" name="Manhunt (1-3 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4674,6 +4914,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -4694,6 +4935,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="5803-762e-be8f-daa7" name="Tracking (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4707,6 +4949,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -4724,6 +4967,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -4744,6 +4988,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
                       </rules>
                       <costs>
                         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -4751,19 +4996,2653 @@ Once a Token has been rolled for and the result applied, remove it from the game
               </selectionEntryGroups>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="ad8e-2170-089a-4f05" name="Submachine Gun" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5c21-7d28-86ee-de8f" name="Submachine Gun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/OO</characteristic>
+            <characteristic name="ROF" typeId="84c1-58a6-c210-6200">2-3</characteristic>
+            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">8</characteristic>
+            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-3.0"/>
+        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="90ab-521c-90cf-663a" name="Pistol" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5b08-08b0-1010-b116" name="Pistol" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">5/10/15</characteristic>
+            <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">8</characteristic>
+            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Pistol</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5100-d319-6c7e-1dd5" name="Beam Rifle" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="61ab-dafe-4964-970f" name="Beam Rifle" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">20/40/OO</characteristic>
+            <characteristic name="ROF" typeId="84c1-58a6-c210-6200">*</characteristic>
+            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">9</characteristic>
+            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Melt:1, Sustained, Scope:1, Overheats</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="de0d-74d5-2606-3acc" name="Overheats" hidden="false" targetId="c2a9-ba17-ea43-af7e" type="rule"/>
+        <infoLink id="3495-af3f-4ab3-060b" name="Scope:X" hidden="false" targetId="eca3-1d95-fa70-2e80" type="rule"/>
+        <infoLink id="6895-7f2a-7e63-7231" name="Melt:X" hidden="false" targetId="7cc9-d5ed-6bde-eeb6" type="rule"/>
+        <infoLink id="7b6d-aa77-d3e1-8279" name="Sustained" hidden="false" targetId="d3f2-4d0a-484a-6ee5" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-7.0"/>
+        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3c59-bf4e-def9-aeaa" name="Assault Rifle" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="d65d-087f-cc88-1229" name="Assault Rifle" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/OO</characteristic>
+            <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1-2</characteristic>
+            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">10</characteristic>
+            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bf23-806e-2750-912f" name="Mortar" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="24aa-0480-2022-1690" name="Portable Mortar" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Indirect</characteristic>
+            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">30/60/OO</characteristic>
+            <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">13</characteristic>
+            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Observer, Blast:3, Guided, Single Use</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="caa5-29f5-2a19-d73c" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+        <infoLink id="67ae-38d6-fcdf-c772" name="Guided" hidden="false" targetId="c0c0-9450-2301-d12e" type="rule"/>
+        <infoLink id="6540-fdfc-a3a1-901e" name="Observer" hidden="false" targetId="60a8-d69b-ca67-6a98" type="rule"/>
+        <infoLink id="081b-4329-5367-5153" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-3.0"/>
+        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3501-a8ae-efeb-6f6b" name="Heavy Machine Gun" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="af92-7757-46ce-ddbf" name="Heavy Machine Gun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">10/20/OO</characteristic>
+            <characteristic name="ROF" typeId="84c1-58a6-c210-6200">2-3</characteristic>
+            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">12</characteristic>
+            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy, Auto, Piercing:1, Belt Fed</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7c3c-26c3-afb8-d60e" name="Auto (Automatic)" hidden="false" targetId="03ba-2b03-f4aa-a28c" type="rule"/>
+        <infoLink id="8688-5f86-3407-d402" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+        <infoLink id="14fc-630f-6784-2d7c" name="Belt Fed" hidden="false" targetId="8945-034c-c26e-a11c" type="rule"/>
+        <infoLink id="ac9a-1a16-6812-b18f" name="Heavy" hidden="false" targetId="87e6-ef06-304f-e108" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-7.0"/>
+        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="10e0-44f3-fcaf-11a7" name="Beam Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="d872-d888-3255-1c13" name="Beam Cannon" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">20/40/OO</characteristic>
+            <characteristic name="ROF" typeId="84c1-58a6-c210-6200">*</characteristic>
+            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">9</characteristic>
+            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy, Melt:3, Overhearts </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="edf4-69c6-9e91-ea26" name="Melt:X" hidden="false" targetId="7cc9-d5ed-6bde-eeb6" type="rule"/>
+        <infoLink id="3d25-8c8e-972c-ca35" name="Overheats" hidden="false" targetId="c2a9-ba17-ea43-af7e" type="rule"/>
+        <infoLink id="9e18-1242-2c31-0abc" name="Heavy" hidden="false" targetId="87e6-ef06-304f-e108" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-9.0"/>
+        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2850-fe38-e142-3c3b" name="Beam Sniper" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="d06a-ceed-7e7f-4027" name="Beam Sniper" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">30/60/OO</characteristic>
+            <characteristic name="ROF" typeId="84c1-58a6-c210-6200">*</characteristic>
+            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">9</characteristic>
+            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Melt:2, Sustained, Scope:3, Overheats</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a0e6-6cc6-736a-dd29" name="Sustained" hidden="false" targetId="d3f2-4d0a-484a-6ee5" type="rule"/>
+        <infoLink id="add4-c34d-8c61-1913" name="Overheats" hidden="false" targetId="c2a9-ba17-ea43-af7e" type="rule"/>
+        <infoLink id="8832-2393-ca14-a715" name="Melt:X" hidden="false" targetId="7cc9-d5ed-6bde-eeb6" type="rule"/>
+        <infoLink id="3a7b-17be-2ca1-b73c" name="Scope:X" hidden="false" targetId="eca3-1d95-fa70-2e80" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-9.0"/>
+        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8d47-b320-2a7c-0f38" name="Howitzer" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="0860-91fc-7c7e-7340" name="Howitzer" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Indirect</characteristic>
+            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">30/60/OO</characteristic>
+            <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">14</characteristic>
+            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Observer, Blast:4, Guided, Single Use</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="b676-660f-728e-9a2b" name="Hand Grenades" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="true" import="true">
+      <selectionEntries>
+        <selectionEntry id="9660-35bb-1c14-77ed" name="Frag Grenades" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="c1c3-8ac8-70fa-de9e" name="Frag Grenades" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Thrown</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">SZ+ATHL</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">11</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:3, Frag, Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e548-7276-004e-03fc" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="1c82-3220-f13e-f23a" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+            <infoLink id="bf51-8231-cfab-6689" name="Frag" hidden="false" targetId="184c-7ed0-4d1d-e4c1" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-3.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="eedd-726c-167b-9a9c" name="HE Grenade" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="17f7-a89f-89ac-a0c0" name="HE Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Thrown</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">SZ+ATHL</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">13</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:4, Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="bb5e-81c1-8488-8273" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+            <infoLink id="210a-8bff-108b-4e0a" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-7.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9115-c13a-7a83-785d" name="Incendiary Grenade" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="cc3a-5ab1-97ef-372e" name="Incendiary Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Thrown</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">SZ+ATHL</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">11</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:2, Single Use, Fire:3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="863a-c1ca-3883-677e" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+            <infoLink id="2005-9c82-e3c5-b40e" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="53e1-fdc5-e681-72e5" name="Fire:X" hidden="false" targetId="9894-7438-2974-fa18" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="687a-0d0c-241f-3417" name="EMP Grenade" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="4ecd-7da6-2783-fcb4" name="EMP Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Thrown</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">SZ+ATHL</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">5</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:2, Single Use, EM:3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d47b-43e0-5afa-bc14" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="9ba9-9d7a-932b-7a82" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+            <infoLink id="c0b4-796b-f0de-62b2" name="EM:X" hidden="false" targetId="bdf2-7299-720a-90a5" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-3.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="032a-60d7-e3a6-ce77" name="Flash Bang Grenade" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="9ead-3dd4-7b6e-2e07" name="Flash Bang Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Thrown</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">SZ+ATHL</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">5</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:4, Single Use, Flash:3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="bc50-04cc-8c96-a65e" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="33e4-c2fe-9c76-d23c" name="Flash:X" hidden="false" targetId="d572-6e67-11bb-2bcc" type="rule"/>
+            <infoLink id="658c-5032-ffed-0413" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b111-a38b-1161-ad41" name="Smoke Grenade" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="1ef4-3fa0-b43f-f107" name="Smoke Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Thrown</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">SZ+ATHL</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">5</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Smoke:3, Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="524e-d01f-d628-a18f" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+            <infoLink id="836d-e6bb-5fac-5ced" name="Smoke:X " hidden="false" targetId="df1c-a5ef-18af-3dff" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-3.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e64d-eebe-9473-d026" name="Explosives" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="true" import="true">
+      <selectionEntries>
+        <selectionEntry id="7d38-aa25-0721-158c" name="Anti-Armor Mine" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="26af-0e34-7ef9-df7a" name="Anti-Armor Mine" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Placed</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">-</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">15</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:2, Piercing:2, Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="aa8b-6e63-1b0f-9c0d" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="c136-14f0-f66b-276b" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+            <infoLink id="8c37-8f15-d3a1-7976" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6fed-0b7a-b0e8-a69c" name="Anti-Personal Mine" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="059a-d222-68f6-5bbc" name="Anti-Personal Mine" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Placed</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">-</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">13</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:2, Frag, Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="8b49-a4df-2eda-dd26" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="c1b3-73c4-a199-e9a8" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+            <infoLink id="4dcb-d7ad-5e4f-30ef" name="Frag" hidden="false" targetId="184c-7ed0-4d1d-e4c1" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-1.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2be3-b6f7-bec0-4b21" name="Anti-Tank Mine" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="1713-52dc-1b99-316b" name="Anti-Tank Mine" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Placed</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">-</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">18</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:3, Piercing:3, Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="4246-703c-96ff-2816" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="416c-bebd-d01a-5a34" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+            <infoLink id="95e3-88e9-fa4f-5364" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-7.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6b56-9598-e403-1e5c" name="Det Pack" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="5fff-2e8e-1b82-4e75" name="Det Pack" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Placed</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">-</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">14</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:3, Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7310-4849-73cd-96ba" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="d45d-ba77-c1b4-3ae9" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-3.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8b36-1c83-14c3-d8f2" name="Thermite" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="fc50-088b-0303-3953" name="Thermite" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Placed</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">-</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">12</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Melt:3, Piercing:3, Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9eb3-d371-1896-8b06" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+            <infoLink id="abec-c6bb-4780-81b5" name="Melt:X" hidden="false" targetId="7cc9-d5ed-6bde-eeb6" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-3.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3c04-6ed5-2066-5da9" name="Anti-Tank Weapons" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="true" import="true">
+      <selectionEntries>
+        <selectionEntry id="9956-a419-8a84-f10a" name="Rocket Propelled Grenade" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="6553-e933-d294-a01c" name="Rocket Propelled Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/60</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">12</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:3, Piercing:1, Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="31c9-366f-a07f-3db6" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="93c3-b317-845c-9ad4" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+            <infoLink id="2727-be04-16eb-1967" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-1.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="54f2-95c3-585e-c7e2" name="Light Anti-Armor Rocket" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="0af7-48d2-836c-1a8f" name="Light Anti-Armor Rocket" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/60</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">13</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:4, Piercing:1, Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2a34-ebd9-181d-23ec" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="beff-1bec-a1c5-e2d0" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+            <infoLink id="0b94-14d6-375a-bd22" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-3.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="64cb-f3e3-cd3a-38e4" name="Medium Anti-Armor Rocket" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="7d48-acc3-e300-f561" name="Medium Anti-Armor Rocket" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/60</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">14</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:4, Piercing:2, Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="0943-6df4-f87a-e5ab" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="d6ec-71c2-c44c-b7ab" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+            <infoLink id="4001-f77b-d2fd-221e" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="77fb-7298-d73a-dd00" name="Heavy Anti-Armor Rocket" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="cba2-b556-392e-547a" name="Heavy Anti-Armor Rocket" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/60</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">15</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:4, Piercing:3, Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="bf1d-35ff-731d-e5b5" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="c549-0e59-51bd-fc9d" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+            <infoLink id="6b71-20e1-8234-4a66" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-7.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5896-228b-3193-1acd" name="Anti-Armor Missile" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="cf2c-dab0-1f62-afc0" name="Anti-Armor Missile" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/60</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">13</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:2, Piercing:2, Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7429-f30f-7743-1085" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="bd75-82ad-c341-ea85" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+            <infoLink id="a908-ee23-7856-b96a" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5349-e4d7-1045-3ca4" name="Anti-Air Missile" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="fc23-7c9f-c456-283e" name="Anti-Air Missile" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/60</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">14</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:2, Piercing:2, Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="b575-cb87-c195-f75f" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="009e-915f-4f00-6145" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+            <infoLink id="3463-3850-6c0d-25b7" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e675-2a2a-dc14-9302" name="Anti-Tank Missile" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="7d50-8bbf-e039-fd56" name="Anti-Tank Missile" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/60</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">13</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:2, Piercing:2, Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="99da-9bb6-bd7a-fc03" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="a45d-30e1-66e3-8f07" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+            <infoLink id="08da-1928-80ba-66d9" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="901a-6c2c-7710-b64f" name="Tank Upgrades" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="true" import="true">
+      <selectionEntries>
+        <selectionEntry id="b758-ae96-58ce-6e9b" name="Camo Netting" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffaf-0016-359d-b88f" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="137c-2453-67da-31f0" name="Camo Netting" hidden="false">
+              <description>Add 1 addtional dice to your DEF roll if you did not move in the previous round.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-1.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="67f1-deec-23d2-fe0a" name="Extra Armor" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d16e-1721-21cd-5fc4" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="64dd-d986-f0f9-5a3b" name="Extra Armor" hidden="false">
+              <description>If this upgrade is taken, all armor values on this vehicle are increased by 1.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-2.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="57b7-af8e-d964-37f5" name="Hardened Comms" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ba3-f47a-6da1-ce4c" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="5cc7-b0ed-2c2c-6b1d" name="Hardened Comms" hidden="false">
+              <description>You may activate and give command cards to this vehicle as normal ignoring any EM effects on the field.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="fa47-1154-d608-edac" name="Resist EM: X" hidden="false" targetId="ebb3-ac7d-c42e-b27f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0aee-1bcb-2a21-7b08" name="Mine Sweeper Attachment" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="889c-8af6-a32f-72c2" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="c809-f729-c548-beb8" name="Mine Sweeper Attachment" hidden="false">
+              <description>You may remove any enemy mines you move over without them causing damage to your vehicle. Immediatly remove the mine from play.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="54ce-22c6-73da-4cfe" name="Rough Terrain Modifications" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b02-3533-f012-98de" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="650c-9b7a-24b0-4ef3" name="Rough Terrain Modifications" hidden="false">
+              <description>You may move as normal over any difficult terrain.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="46c0-c275-6a9d-2cd7" name="Searchlight" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a460-3d27-23a7-9313" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="a9ee-ab1c-d955-c843" name="Searchlight" hidden="false">
+              <description>Add one dice to the INT dice pool if using the Night Fighting Rules</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-1.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="efcb-4af9-4c64-6250" name="Smoke Launchers" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6d4-ef40-a3ab-bb0b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="da2b-1a82-b488-f3b4" name="Smoke Launchers" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Indirect</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">5/-/-</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">-</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Smoke:3 Multi-shot:3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="4de1-a210-9733-4e95" name="Smoke:X " hidden="false" targetId="df1c-a5ef-18af-3dff" type="rule"/>
+            <infoLink id="46e2-8ac9-b210-20cf" name="Multi-Shot:X" hidden="false" targetId="ebba-c110-9463-eb80" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-1.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7a6c-773b-cb50-d4ab" name="HAVOC Upgrades" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="true" import="true">
+      <selectionEntries>
+        <selectionEntry id="9b7a-8f6a-25e6-579f" name="Ejection Seat" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3581-d6e6-48bd-8def" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4f81-4442-fdd3-d716" name="Ejected Pilot" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
+              <characteristics>
+                <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
+                <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">2</characteristic>
+                <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">2</characteristic>
+                <characteristic name="ATHL" typeId="c988-b08c-df98-0786">3</characteristic>
+                <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">2</characteristic>
+                <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">2</characteristic>
+                <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+                <characteristic name="END" typeId="3d52-4bc1-5a65-f947">2</characteristic>
+                <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+                <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+                <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5-Med</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="da02-e77d-30a9-6008" name="Ejection Seat" hidden="false">
+              <description>If this model is destroyed, you may place a model representing the pilot next to the base of the destoryed model. This model does not count extra towards VP for the purposes of Kill &apos;em All. The model maybe captured, killed, or interacted with as normal. </description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c8b1-1432-1d24-dc7e" name="Extra Armor" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0ff-90d2-d9a8-d14b" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="7855-ab00-1cbb-c3fb" name="Extra Armor" hidden="false">
+              <description>If this upgrade is taken, all armor values on this vehicle are increased by 1.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="960f-85fc-6426-f658" name="Flare / Chaff Launcher" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d439-5946-11b7-ac31" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="3290-f41f-32db-5cc9" name="Flare / Chaff Launcher" hidden="false"/>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="613b-67a7-f456-a195" name="Infrared Targeting Display" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c7e-172f-6cce-f7e2" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="be1e-9a3d-0bab-304d" name="Infrared Targeting Display" hidden="false"/>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9b89-64c8-deb1-45fd" name="Nose Art" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bee1-3a72-d6a0-e89f" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="e163-8830-6cc3-911a" name="Nose Art" hidden="false"/>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-1.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="70d1-18f0-d349-3216" name="Targetting Flares" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1fc-badf-46df-cc0b" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="186b-1ede-4522-8497" name="Targetting Flares" hidden="false"/>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="de60-0d9f-47af-1039" name="Anti-Personal Weapons " publicationId="8db2-3d51-7944-b9de" hidden="false" collective="true" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="098f-1f96-3121-f80d" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="464e-b61f-f3a8-8b52" name="Light Machine Gun" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da55-27be-7645-e8f9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6447-20f9-6eb4-3a87" name="Light Machine Gun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">10/20/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">2-3</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">10</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Auto</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="a26a-5c1a-ec1c-44d2" name="Auto (Automatic)" hidden="false" targetId="03ba-2b03-f4aa-a28c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f69c-2dc7-e32a-454b" name="Medium Machine Gun" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d435-de43-53f1-80ea" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2b9d-92f9-32b6-cd90" name="Medium Machine Gun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">10/20/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">2-3</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">11</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Belt Fed</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c1a1-074c-cf34-5809" name="Belt Fed" hidden="false" targetId="8945-034c-c26e-a11c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-7.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7736-b82c-b98d-936d" name="Personal Loadouts" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="true" import="true">
+      <selectionEntries>
+        <selectionEntry id="6aaa-635c-48f2-d040" name="Auxiliary Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cec-4add-c696-663f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d652-7b75-460b-c8a8" name="Auxiliary Grenade Launcher" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Indirect</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/60</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">12</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:3, Single Use, Special  Ammo</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="348e-0516-3858-5f51" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="5f0b-1acf-9220-d97a" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+            <infoLink id="32b1-b4f8-9bc2-6898" name="Spec. Ammo (Special Ammunition)" hidden="false" targetId="169f-d39a-e1f7-3f3c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-1.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ee65-3b63-58b4-fc60" name="Climbing Gear" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6da6-54a6-4357-1592" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="5492-92b4-0195-14b9" name="Climbing Gear" hidden="false">
+              <description>A model may climb one additional model volume when using a climb action.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-1.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8650-2ea2-14ea-6ccc" name="Extra Magazines" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccce-72b8-1c14-7c1e" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="79d6-8935-25e4-8747" name="Extra Magazines" hidden="false">
+              <description>A unit is counted as having 1 additional Extra Ammo Box on their card</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-1.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1778-0fd8-3e61-3a13" name="Medical Kit" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b99-99d7-7fb0-9260" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="fabe-c44f-735a-d5b3" name="Medical Kit" hidden="false">
+              <description>This model in the unit is equipped with one Medical Kit. A model may spend 1 medical kit to add an advantage to their intelligence skill roll as long as the casualty has the Living Trait. Regardless if it is a success, the Medical Kit is used up and the model loses this special rule.
+The  Model must be in base-to-base contact with the casualty to perform the check.
+ A model may also only use a medical kit on themselves if they have sustained Critical Damage. On a successful check, the model is returned to normal condition.  </description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-3.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6bb5-1c05-5fda-b488" name="Repair Kit" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1294-e25d-681e-9e6c" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="bf72-1241-99a1-3ed1" name="Repair Kit" hidden="false">
+              <description>This model in the unit is equipped with one repair kit. A model may spend 1 repair kit to add to their intelligence roll on a casualty with the Construct Keyword. 
+Regardless of the result of the check, the repair kit is used up and the model loses this special rule. 
+The Models must be in base-to-base contact to perform the check.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-3.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1681-85af-9550-cfe1" name="Rifle Scope 1" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="882f-7476-de6a-096d" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="920c-2174-7f9e-ef71" name="Rifle Scope 1" hidden="false">
+              <description>Grants the Scope Feature to a single weapon of the players choosing in a unit.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="ebed-b374-65de-b43e" name="Scope:X" hidden="false" targetId="eca3-1d95-fa70-2e80" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-1.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ccd3-6bed-8839-2aa9" name="Rifle Scope 2" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa62-8cd6-8b73-7a41" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="45bc-dbb4-b480-de1a" name="Rifle Scope 2" hidden="false">
+              <description>Grants the Scope Feature to a single weapon of the players choosing in a unit.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="ccda-a4db-be7b-d7f0" name="Scope:X" hidden="false" targetId="eca3-1d95-fa70-2e80" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-2.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ce90-7e0b-cd18-135e" name="Rifle Scope 3" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e9f-f133-4a87-037d" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="86b0-dd9a-566a-a46d" name="Rifle Scope 3" hidden="false">
+              <description>Grants the Scope Feature to a single weapon of the players choosing in a unit.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="8b5c-d66b-1628-20bd" name="Scope:X" hidden="false" targetId="eca3-1d95-fa70-2e80" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-3.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8b57-4077-57d1-0793" name="Stim Pack" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4574-c3b4-ca84-f299" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="742a-2da7-c6de-5de6" name="Stim Pack" hidden="false">
+              <description>The model may spend an action if it is in Base Contact with another friendly model with the Living Trait. The friendly model may ignore the effects of Critical Wounds until the start of their next activation</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-1.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a68e-fcc9-ba50-3fee" name="Targeting Laser" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be69-855c-cf5d-dcfd" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="87f9-25b4-1db2-c7ae" name="Targeting Laser" hidden="false">
+              <description>When a model acts as a forward observer for a model in another unit the targeting laser adds a single advantage to that attack roll.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-3.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f96a-482d-93e3-7cd6" name="HAVOC Weapons" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="true" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7b9-c48c-1527-a436" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="ffc3-248e-a7ff-f11b" name="2x Anti-Air Missile" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f14a-c710-fd7e-097f" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f601-a5cf-5fe9-ff57" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="da40-3474-775d-d3c4" name="2x Anti-Air Missile" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/60</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">14</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:2, Piercing:2, Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="ed2c-5c14-1219-6f1e" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+            <infoLink id="eeac-ec63-6619-3305" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="53c9-077a-232c-0234" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-10.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6618-d5e5-51a1-686f" name="2x Anti-Armor Missiles" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d0e-6188-1225-282c" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b41-44ea-de2f-a2f0" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="ee18-2c25-5a23-2d16" name="2x Anti-Armor Missiles" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/60</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">14</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast: , Piercing:      ,  Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3213-4a8b-42b7-9977" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+            <infoLink id="d2a4-1a72-2a01-9b87" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+            <infoLink id="eb08-9636-a74e-a5b3" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-10.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3cd0-c80a-9cd2-cdec" name="2x Anti-Tank Missiles" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5117-f582-1bbc-59bc" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d7a-3dc3-c0ef-80e2" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="c9ea-edf6-1b9d-5e55" name="2x Anti-Tank Missiles" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/60</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">13</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast: , Piercing:      ,  Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="4538-7bfd-4b8d-0d71" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+            <infoLink id="6b25-8637-afbf-ba62" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+            <infoLink id="8698-5e5a-5592-2d72" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-10.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8866-1e00-3305-5f54" name="2x Guided Smoke Bombs" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9c5-1372-d076-edbb" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d24-20ec-14db-28d0" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="c9f7-abbd-4511-ba99" name="2x Smoke Bombs" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct	</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">5/-/-</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">5</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Smoke</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="0964-6e40-5e58-618e" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+            <infoLink id="5508-7eeb-c71b-9ae6" name="Smoke:X " hidden="false" targetId="df1c-a5ef-18af-3dff" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-6.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="afc3-50ee-6a08-1627" name="Federal Coaltion Primary Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="fa8f-91b0-6dcd-b917">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97a5-cb5b-348a-56bb" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="fa8f-91b0-6dcd-b917" name="M89A1 Assault Rifle" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="891d-18b8-f09d-aeb1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6ba7-e5f5-4f06-065e" name="M89A1 Assault Rifle" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1-2</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">10</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6a20-49af-72c8-bf7c" name="M92A3 Beam Rifle" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fbd-d201-489d-06fb" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a0cf-509f-3cf0-676f" name="M92A3 Beam Rifle" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">20/40/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">*</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">9</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Melt:1, Sustained, Scope:1, Overheats</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2329-bc60-bad7-d4f7" name="Overheats" hidden="false" targetId="c2a9-ba17-ea43-af7e" type="rule"/>
+            <infoLink id="48a0-09d4-58e4-c422" name="Scope:X" hidden="false" targetId="eca3-1d95-fa70-2e80" type="rule"/>
+            <infoLink id="ef32-f2fc-9af9-409d" name="Melt:X" hidden="false" targetId="7cc9-d5ed-6bde-eeb6" type="rule"/>
+            <infoLink id="28a2-7b03-411d-557b" name="Sustained" hidden="false" targetId="d3f2-4d0a-484a-6ee5" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-7.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="831e-f500-d082-85b7" name="Type 91 &quot;Judge&quot; Tank Turret Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="b59a-6a20-5f8a-8cae">
+      <selectionEntries>
+        <selectionEntry id="6225-299a-db62-2245" name="2x Light Tank Gun" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f112-17e1-ef95-a43e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6243-7010-97e8-b1cc" name="2x Light Tank Gun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">14</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="93fc-6ebf-1608-58e1" name="Heavy" hidden="false" targetId="87e6-ef06-304f-e108" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b59a-6a20-5f8a-8cae" name="2x Medium Tank Guns" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd30-ffd5-cec9-c190" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b44a-e171-4db2-7cfe" name="2x Medium Tank Guns" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">30/60/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">15</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="af12-3769-2864-398d" name="Heavy" hidden="false" targetId="87e6-ef06-304f-e108" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="74d4-0942-6b61-b32e" name="2x Railguns" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f78-c68a-9e9c-c52d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="bea9-d22e-771f-4ce7" name="2x Railguns" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">30/60/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">20</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3af5-629d-8889-c9ee" name="Heavy" hidden="false" targetId="87e6-ef06-304f-e108" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-18.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e7b9-f55c-6003-6ded" name="2x Beam Cannons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d87c-428b-7a19-47b1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4fe1-2234-7027-861c" name="2x Beam Cannons" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">20/40/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">*</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">*</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy, Melt:3, Overhearts </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="80c3-00ce-c123-24a2" name="Heavy" hidden="false" targetId="87e6-ef06-304f-e108" type="rule"/>
+            <infoLink id="06b0-734c-f93e-f603" name="Melt:X" hidden="false" targetId="7cc9-d5ed-6bde-eeb6" type="rule"/>
+            <infoLink id="7653-0723-9526-d3a5" name="Overheats" hidden="false" targetId="c2a9-ba17-ea43-af7e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-18.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2441-8213-0fc7-d897" name="Tank Turret Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="d2a0-eef6-88fd-fffd">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="358d-064a-4d38-ea64" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="688a-9d20-9505-b332" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="1a78-59f0-b4b7-cc12" name="Beam Cannon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce04-9d3a-b4ac-e9cb" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1686-7c4f-b36b-d88c" name="Beam Cannon" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">20/40/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">*</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">*</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy, Melt:3, Overhearts </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="0b64-4518-2d98-26b6" name="Heavy" hidden="false" targetId="87e6-ef06-304f-e108" type="rule"/>
+            <infoLink id="16e9-7e9e-23b2-ccfb" name="Melt:X" hidden="false" targetId="7cc9-d5ed-6bde-eeb6" type="rule"/>
+            <infoLink id="d670-84c4-dfbe-6bf2" name="Overheats" hidden="false" targetId="c2a9-ba17-ea43-af7e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-9.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="979c-0db9-15b6-cdb6" name="Light Tank Gun" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d29-4cb4-a992-b794" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="abfc-87d7-1b5b-8bb9" name="Light Tank Gun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">14</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="5afc-a581-acd1-0426" name="Heavy" hidden="false" targetId="87e6-ef06-304f-e108" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d2a0-eef6-88fd-fffd" name="Medium Tank Gun" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2ca-78b1-5732-2435" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b57a-3ad8-a1d9-2851" name="Medium Tank Gun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">30/60/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">15</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="6ec3-77d0-1acc-8bf5" name="Heavy" hidden="false" targetId="87e6-ef06-304f-e108" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2517-1294-e4ed-22a0" name="Railgun" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3e8-83f1-d15a-2441" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ecfb-3409-b072-0ba0" name="Railgun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">30/60/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">20</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="6def-be08-081a-8b3a" name="Heavy" hidden="false" targetId="87e6-ef06-304f-e108" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-9.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b971-eded-3652-097d" name="Vehicle Upgrades" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="true" import="true">
+      <selectionEntries>
+        <selectionEntry id="1fb5-4e2d-51a6-8917" name="Camo Netting" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a712-08a9-c3ce-bebf" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="adc8-5619-226f-e808" name="Camo Netting" hidden="false">
+              <description>Add 1 addtional dice to your DEF roll if you did not move in the previous round.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-1.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d296-f6b3-8953-c903" name="Extra Armor" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0a4-4104-46dd-d68a" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="8343-c939-0cc5-7fce" name="Extra Armor" hidden="false">
+              <description>If this upgrade is taken, all armor values on this vehicle are increased by 1.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-2.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cc32-d2f1-19ba-ae8c" name="Hardened Comms" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06c7-f432-cb4a-5ebf" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="3e5e-9edc-7b69-1912" name="Hardened Comms" hidden="false">
+              <description>You may activate and give command cards to this vehicle as normal ignoring any EM effects on the field.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="55a8-acdc-3b72-eea5" name="Resist EM: X" hidden="false" targetId="ebb3-ac7d-c42e-b27f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d2b4-2d44-7d09-5d4b" name="Mine Sweeper Attachment" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f69-12d7-b080-d199" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="fb88-b269-4e75-a3f2" name="Mine Sweeper Attachment" hidden="false">
+              <description>You may remove any enemy mines you move over without them causing damage to your vehicle. Immediatly remove the mine from play.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="aadf-469b-3785-c7b0" name="Rough Terrain Modifications" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbcc-a118-374d-8bab" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="fe82-664d-4020-e21a" name="Rough Terrain Modifications" hidden="false">
+              <description>You may move as normal over any difficult terrain.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4804-6138-708d-8f3f" name="Searchlight" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33d2-c835-83f2-42b2" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="e800-736c-2960-2aff" name="Searchlight" hidden="false">
+              <description>Add one dice to the INT dice pool if using the Night Fighting Rules</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-1.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4ffe-b053-2934-b667" name="Smoke Launchers" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e47-556f-df33-62b1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="bb79-2cdf-8df5-30fa" name="Smoke Launchers" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Indirect</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">5/-/-</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">-</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Smoke:3 Multi-shot:3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="4d57-8d10-7640-45b8" name="Smoke:X " hidden="false" targetId="df1c-a5ef-18af-3dff" type="rule"/>
+            <infoLink id="192a-bbab-82eb-b0f7" name="Multi-Shot:X" hidden="false" targetId="ebba-c110-9463-eb80" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-1.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ae2e-59ef-2d05-5379" name="IFV Turret Weapons" hidden="false" collective="true" import="true" defaultSelectionEntryId="fa3d-49e2-6379-de19">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38a4-671d-e112-307a" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="4d4e-d8ad-fde5-5ae5" name="Medium Autocannon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b60-9c35-753c-ab17" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2ebf-b057-9a66-2e19" name="Medium Autocannon" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1-2</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">14</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2969-8dd1-e3f9-e655" name="Heavy" hidden="false" targetId="87e6-ef06-304f-e108" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-7.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fa3d-49e2-6379-de19" name="Light Autocannon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2174-1d95-26df-759a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e06c-cab8-3b26-0572" name="Light Autocannon" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1-2</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">13</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="66f3-9719-27ce-be8e" name="Heavy" hidden="false" targetId="87e6-ef06-304f-e108" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3eef-652a-86d4-0c25" name="Heavy Autocannon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2392-5725-f240-4a0f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0c59-34a5-0b2d-c538" name="Heavy Autocannon" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1-2</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">15</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="fb2a-267c-8d60-76a0" name="Heavy" hidden="false" targetId="87e6-ef06-304f-e108" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-9.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f0ba-4258-7d29-03e8" name="Federal Coaltion Secondary Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="9047-0fd8-6e21-d537">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e13-d2e9-14b0-f221" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="9047-0fd8-6e21-d537" name="M89A2 Pistol" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4790-f62e-3af3-f180" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6700-0693-3a11-b94a" name="M89A2 Pistol" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">5/10/15</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">8</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Pistol</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="26fc-c634-3ebc-7f9e" name="M892A5 Submachine Gun" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab79-c6cf-f781-293c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="be34-dfb6-a37f-950a" name="M892A5 Submachine Gun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">2-3</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">8</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-3.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="866e-0336-c81b-691d" name="Fire Support Weapons" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fc0-3a1f-d71d-83c0" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be63-699d-a5ff-554d" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="7fff-8b8f-f553-6a93" name="Missile Battery" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3523-fc28-fbb8-f915" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5def-c3d0-7de5-ee44" name="Missile Battery" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Indirect</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">30/60/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1-3</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">15</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Observer, Blast:4, Guided, Multi-Shot</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="6c5c-50fe-07f1-fe5a" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="8a79-601c-12c2-6884" name="Observer" hidden="false" targetId="60a8-d69b-ca67-6a98" type="rule"/>
+            <infoLink id="c952-eaa0-a321-35e7" name="Guided" hidden="false" targetId="c0c0-9450-2301-d12e" type="rule"/>
+            <infoLink id="74d8-a306-498f-e6d8" name="Multi-Shot:X" hidden="false" targetId="ebba-c110-9463-eb80" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-9.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="617b-c85d-3161-7a7e" name="Anti-Tank Missiles" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c498-d621-0860-31b8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a952-72bb-ae81-d13f" name="Anti-Tank Missile" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/60</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">13</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:2, Piercing:2, Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d059-818c-89de-a0d3" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+            <infoLink id="b7fd-1efc-b4fd-eac8" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+            <infoLink id="2816-04fd-e78d-267d" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8a26-00a8-afda-252d" name="Anti-Armor Missiles" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="555a-6587-3ce8-cadc" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07d4-32ea-da69-6372" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="3bdd-85ca-91b5-572a" name="Anti-Armor Missiles" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/60</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">14</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:2, Piercing:2, Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9b95-c83d-3437-f199" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+            <infoLink id="0ecd-d6f9-2c06-5a99" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+            <infoLink id="088b-5dce-055e-bda2" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="51f5-f909-824d-d1c4" name="Anti-Air Missile" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3065-fdcf-ee4c-45dc" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc95-4390-a0b0-79ce" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="4acf-9259-6ea1-f6a8" name="Anti-Air Missile" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/60</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">14</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:2, Piercing:2, Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="1eca-b5ab-8020-86f9" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+            <infoLink id="72dc-b78b-1bc1-de43" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="a07c-9c6d-9a62-d52a" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2103-9bd3-a38b-3f28" name="Heavy Anti-Armor Rocket" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c88-9ee6-d777-356f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3881-5480-ec83-d97a" name="Heavy Anti-Armor Rocket" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct	</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">15</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:4, Piercing:3, Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9a88-c2b3-13e7-50ce" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="1102-c4c1-799d-9743" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+            <infoLink id="d98d-0b67-8421-edd2" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-7.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4faf-5b94-d5cf-3109" name="RIG Upgrades" hidden="false" collective="true" import="true">
+      <selectionEntries>
+        <selectionEntry id="613d-1bd4-dad6-b009" name="Camo Netting" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6b1-2e6d-53ca-2cf4" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="c2a0-13c9-da67-5888" name="Camo Netting" hidden="false">
+              <description>Add 1 addtional dice to your DEF roll if you did not move in the previous round.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-1.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8bf4-c846-e613-f53e" name="Extra Armor" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffb0-0145-1e26-b237" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="7c6a-a449-4c6e-1ff0" name="Extra Armor" hidden="false">
+              <description>If this upgrade is taken, all armor values on this vehicle are increased by 1.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-2.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="88be-6134-e0de-3b32" name="Hardened Comms" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c953-2e84-00ca-ea16" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="2d14-4004-3f10-804c" name="Hardened Comms" hidden="false">
+              <description>You may activate and give command cards to this vehicle as normal ignoring any EM effects on the field.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="0cf4-d73e-26da-1e2b" name="Resist EM: X" hidden="false" targetId="ebb3-ac7d-c42e-b27f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d29b-3dda-4cd3-211e" name="Rough Terrain Modifications" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccca-26f1-3acd-369a" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="1b26-419c-1c3f-3c60" name="Rough Terrain Modifications" hidden="false">
+              <description>You may move as normal over any difficult terrain.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e41d-aeac-f703-6c98" name="Searchlight" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="508c-5a59-974f-519b" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="704f-9208-50cb-471f" name="Searchlight" hidden="false">
+              <description>Add one dice to the INT dice pool if using the Night Fighting Rules</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-1.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="32e4-03c1-bc6f-7c84" name="Smoke Launchers" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee53-3106-9c7f-48e9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8e90-1fad-c12a-6d7d" name="Smoke Launchers" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Indirect</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">5/-/-</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">-</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Smoke:3 Multi-shot:3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e723-2969-e190-8f8a" name="Smoke:X " hidden="false" targetId="df1c-a5ef-18af-3dff" type="rule"/>
+            <infoLink id="d1f4-7be5-daa7-aa10" name="Multi-Shot:X" hidden="false" targetId="ebba-c110-9463-eb80" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-1.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3288-9d0a-8702-8c0d" name="RIG Shoulder Mounts" hidden="false" collective="true" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d725-3ae4-a726-0f34" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="e17a-9f03-dc1f-1575" name="Light Anti-Armor Rocket" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96ae-291f-59a1-3d68" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="185b-a275-145a-1b78" name="Light Anti-Armor Rocket" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/60</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">13</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:4, Piercing:1, Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e1a8-2f4f-e231-5953" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="16e7-f2cc-1a50-d490" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+            <infoLink id="fab4-2d21-e648-aed1" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-3.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1a0a-d215-f752-92d7" name="Medium Anti-Armor Rocket" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d95b-d117-80ed-6f88" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4500-a4d8-d68c-9ecd" name="Medium Anti-Armor Rocket" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/60</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">14</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:4, Piercing:2, Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="65cd-a60a-86c8-4629" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="d1db-629c-cadc-f1d9" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+            <infoLink id="c0ad-fe57-dabf-5148" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="edf4-4cae-1c22-ca23" name="Rocket Propelled Grenade" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12c7-6423-d9e9-7048" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4d90-bd72-25ce-2130" name="Rocket Propelled Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/60</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">12</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:3, Piercing:1, Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="bd03-b423-4262-0ad1" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="b2b0-7402-4f8f-8449" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+            <infoLink id="82e3-e922-2f4e-60fd" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-1.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="afde-fee0-43c5-8571" name="RIG Carried Weapons" hidden="false" collective="true" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a489-1ff9-59a0-557b" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="f3ad-ad51-a054-53a7" name="Heavy Machine Gun" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42ec-7993-5430-a1ae" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9954-1f30-88f5-13aa" name="Heavy Machine Gun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">10/20/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">2-3</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">12</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy, Auto, Piercing:1, Belt Fed</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="1d37-8b3e-2d07-9248" name="Auto (Automatic)" hidden="false" targetId="03ba-2b03-f4aa-a28c" type="rule"/>
+            <infoLink id="8ea9-58da-5725-020d" name="Belt Fed" hidden="false" targetId="8945-034c-c26e-a11c" type="rule"/>
+            <infoLink id="d780-3646-53e0-8612" name="Heavy" hidden="false" targetId="87e6-ef06-304f-e108" type="rule"/>
+            <infoLink id="6bf7-81db-665c-abc8" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-7.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bb68-7f92-1ecd-537a" name="Beam Rifle" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="417b-13d7-20d6-71c9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="56a4-c27c-a1df-6c68" name="Beam Rifle" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">20/40/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">*</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">9</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Melt:1, Sustained, Scope:1, Overheats</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3f91-64ff-7c16-d94e" name="Overheats" hidden="false" targetId="c2a9-ba17-ea43-af7e" type="rule"/>
+            <infoLink id="726f-a04f-c4f2-6526" name="Scope:X" hidden="false" targetId="eca3-1d95-fa70-2e80" type="rule"/>
+            <infoLink id="5626-4e01-d02c-921e" name="Melt:X" hidden="false" targetId="7cc9-d5ed-6bde-eeb6" type="rule"/>
+            <infoLink id="363d-03d0-40ee-6ea7" name="Sustained" hidden="false" targetId="d3f2-4d0a-484a-6ee5" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-7.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d22e-4988-1dcb-beaa" name="Beam Cannon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46ff-c887-33b5-6988" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="13f8-abea-d584-3b4a" name="Beam Cannon" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">20/40/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">*</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">*</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy, Melt:3, Overhearts </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9743-60d5-02ab-58be" name="Melt:X" hidden="false" targetId="7cc9-d5ed-6bde-eeb6" type="rule"/>
+            <infoLink id="7d7a-6f82-113c-3ef5" name="Overheats" hidden="false" targetId="c2a9-ba17-ea43-af7e" type="rule"/>
+            <infoLink id="d92c-6851-5779-211b" name="Heavy" hidden="false" targetId="87e6-ef06-304f-e108" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-9.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3a0f-4c3e-30be-7a7a" name="Beam Sniper" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="529c-1114-710c-6e5c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="eff5-bd6d-4d53-0f5e" name="Beam Sniper" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">30/60/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">*</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">9</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Melt:2, Sustained, Scope:3, Overheats</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="38e6-7b73-e59c-a8d3" name="Sustained" hidden="false" targetId="d3f2-4d0a-484a-6ee5" type="rule"/>
+            <infoLink id="f96c-b020-d329-4cfa" name="Overheats" hidden="false" targetId="c2a9-ba17-ea43-af7e" type="rule"/>
+            <infoLink id="9a74-9782-392a-6791" name="Melt:X" hidden="false" targetId="7cc9-d5ed-6bde-eeb6" type="rule"/>
+            <infoLink id="a47a-c4c1-b421-4971" name="Scope:X" hidden="false" targetId="eca3-1d95-fa70-2e80" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-9.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="cd1a-aa2a-4b5e-3776" name="RIG Left Arm" hidden="false" collective="true" import="true" defaultSelectionEntryId="f33d-7ee5-10c3-9eef">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce00-e05e-353f-a582" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="ee05-5128-0290-66ed" name="2x Beam Cannons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a974-36ee-d8a4-3e9c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="74ae-b4d1-cd7d-a5ff" name="Beam Cannons" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">20/40/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">*</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">*</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy, Melt:3, Overhearts </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="acee-e11e-838c-7427" name="Melt:X" hidden="false" targetId="7cc9-d5ed-6bde-eeb6" type="rule"/>
+            <infoLink id="972c-5c37-93e7-95ad" name="Overheats" hidden="false" targetId="c2a9-ba17-ea43-af7e" type="rule"/>
+            <infoLink id="b4c0-8c21-f08b-105b" name="Heavy" hidden="false" targetId="87e6-ef06-304f-e108" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-18.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f33d-7ee5-10c3-9eef" name="2x Beam Rifles" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e965-d5dd-6c41-8546" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e9f9-ec12-935f-f7e9" name="Beam Rifles" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">20/40/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">*</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">9</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Melt:1, Sustained, Scope:1, Overheats</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="256d-0830-b575-bbbf" name="Overheats" hidden="false" targetId="c2a9-ba17-ea43-af7e" type="rule"/>
+            <infoLink id="0060-d9be-1662-e788" name="Scope:X" hidden="false" targetId="eca3-1d95-fa70-2e80" type="rule"/>
+            <infoLink id="c5c8-a72a-5bd8-e16b" name="Melt:X" hidden="false" targetId="7cc9-d5ed-6bde-eeb6" type="rule"/>
+            <infoLink id="bbab-795b-9696-82f9" name="Sustained" hidden="false" targetId="d3f2-4d0a-484a-6ee5" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a004-a7ff-ed05-7679" name="2x Beam Snipers" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a382-81e2-18bc-5cbb" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0136-5ca9-d8a3-9bdb" name="Beam Sniper" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">30/60/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">*</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">9</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Melt:2, Sustained, Scope:3, Overheats</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="6f85-3978-badc-2125" name="Sustained" hidden="false" targetId="d3f2-4d0a-484a-6ee5" type="rule"/>
+            <infoLink id="67b2-de8a-75b5-2b14" name="Overheats" hidden="false" targetId="c2a9-ba17-ea43-af7e" type="rule"/>
+            <infoLink id="e8da-eb09-82ce-e8ad" name="Melt:X" hidden="false" targetId="7cc9-d5ed-6bde-eeb6" type="rule"/>
+            <infoLink id="20c3-0880-fc7e-70e6" name="Scope:X" hidden="false" targetId="eca3-1d95-fa70-2e80" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-18.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b39c-1e6e-58ff-1c4c" name="2x Heavy Machine Guns" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12fd-df3e-998e-7c81" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="075c-5c0f-c39d-24c1" name="Heavy Machine Guns" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">10/20/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">2-3</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">12</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy, Auto, Piercing:1, Belt Fed</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c4ee-9ce0-f7ce-d4f2" name="Auto (Automatic)" hidden="false" targetId="03ba-2b03-f4aa-a28c" type="rule"/>
+            <infoLink id="5923-bf1b-83ad-c194" name="Belt Fed" hidden="false" targetId="8945-034c-c26e-a11c" type="rule"/>
+            <infoLink id="1f32-72fa-c0b3-0ef0" name="Heavy" hidden="false" targetId="87e6-ef06-304f-e108" type="rule"/>
+            <infoLink id="1c94-1bba-2ac6-d124" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-14.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8045-7cb6-9adb-2d59" name="RIG Right Arm" hidden="false" collective="true" import="true" defaultSelectionEntryId="195d-ac81-b5b0-235c">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d24-08da-1d66-8713" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="7784-48ac-20c6-eee8" name="2x Beam Cannons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e383-af77-3b1b-8ae0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e441-d882-2277-2c01" name="Beam Cannons" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">20/40/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">*</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">*</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy, Melt:3, Overhearts </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f6b1-db88-9304-3c89" name="Melt:X" hidden="false" targetId="7cc9-d5ed-6bde-eeb6" type="rule"/>
+            <infoLink id="44e0-f29b-4619-2f9f" name="Overheats" hidden="false" targetId="c2a9-ba17-ea43-af7e" type="rule"/>
+            <infoLink id="0b60-6ce9-2053-6973" name="Heavy" hidden="false" targetId="87e6-ef06-304f-e108" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-18.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b953-284a-c503-86b8" name="2x Beam Rifles" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f86-f0eb-87d8-1011" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9b78-0152-93b9-19a2" name="Beam Rifles" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">20/40/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">*</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">9</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Melt:1, Sustained, Scope:1, Overheats</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="135b-df69-34ce-6ce5" name="Overheats" hidden="false" targetId="c2a9-ba17-ea43-af7e" type="rule"/>
+            <infoLink id="9727-53ba-bcbb-835c" name="Scope:X" hidden="false" targetId="eca3-1d95-fa70-2e80" type="rule"/>
+            <infoLink id="cc1e-b081-0058-6fe5" name="Melt:X" hidden="false" targetId="7cc9-d5ed-6bde-eeb6" type="rule"/>
+            <infoLink id="dafb-ed29-1748-82b4" name="Sustained" hidden="false" targetId="d3f2-4d0a-484a-6ee5" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d04e-c260-c476-e568" name="2x Beam Snipers" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="521a-5961-cc62-11bb" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a846-d0af-d864-1214" name="Beam Sniper" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">30/60/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">*</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">9</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Melt:2, Sustained, Scope:3, Overheats</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d68c-bf7d-4db3-27f7" name="Sustained" hidden="false" targetId="d3f2-4d0a-484a-6ee5" type="rule"/>
+            <infoLink id="0160-9192-79a3-3d78" name="Overheats" hidden="false" targetId="c2a9-ba17-ea43-af7e" type="rule"/>
+            <infoLink id="f2e6-8618-7b38-6c43" name="Melt:X" hidden="false" targetId="7cc9-d5ed-6bde-eeb6" type="rule"/>
+            <infoLink id="ed11-e659-921d-ab4c" name="Scope:X" hidden="false" targetId="eca3-1d95-fa70-2e80" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-18.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="195d-ac81-b5b0-235c" name="2x Heavy Machine Guns" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="989e-f03d-2126-cf83" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2d7c-8d8a-854e-7870" name="Heavy Machine Guns" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">10/20/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">2-3</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">12</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy, Auto, Piercing:1, Belt Fed</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="a558-43d8-ca52-1da1" name="Auto (Automatic)" hidden="false" targetId="03ba-2b03-f4aa-a28c" type="rule"/>
+            <infoLink id="dd11-0ebb-4d1e-d54f" name="Belt Fed" hidden="false" targetId="8945-034c-c26e-a11c" type="rule"/>
+            <infoLink id="9c8c-6828-b258-b010" name="Heavy" hidden="false" targetId="87e6-ef06-304f-e108" type="rule"/>
+            <infoLink id="8c1c-14db-3d25-5ff9" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-14.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7595-c858-df7f-2856" name="Advanced Fire Support Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="32b2-6b0e-f85a-9119">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f10-2fb0-d955-bf06" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="674c-c3ec-bc70-e646" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="86c1-7521-562b-dbaf" name="Missile Battery" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7a3-4193-c849-956e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c396-8080-dba7-1bce" name="Missile Battery" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Indirect</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">30/60/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1-3</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">15</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Observer, Blast:4, Guided, Multi-Shot</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="0c47-809c-9861-e1ae" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="bfc1-b4dd-015a-ef07" name="Observer" hidden="false" targetId="60a8-d69b-ca67-6a98" type="rule"/>
+            <infoLink id="4ac7-7505-f8f9-45e7" name="Guided" hidden="false" targetId="c0c0-9450-2301-d12e" type="rule"/>
+            <infoLink id="e5c8-162c-fb71-e9ce" name="Multi-Shot:X" hidden="false" targetId="ebba-c110-9463-eb80" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-9.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="57b1-f80c-b7ae-356f" name="Portable Mortar" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1326-c55d-4496-5bbe" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="18d5-6028-d468-cf58" name="Portable Mortar" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Indirect</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">30/60/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">13</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Observer, Blast:3, Guided, Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="19e4-38c5-4d82-a262" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="6441-bd7c-80b1-b8c6" name="Guided" hidden="false" targetId="c0c0-9450-2301-d12e" type="rule"/>
+            <infoLink id="6412-690d-1a80-59a7" name="Observer" hidden="false" targetId="60a8-d69b-ca67-6a98" type="rule"/>
+            <infoLink id="c3ac-904a-ff02-dae1" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-3.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9884-bffe-0d97-2745" name="Heavy Anti-Armor Rocket" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="584b-e5cd-af56-3be8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2d58-1d63-4cd9-4237" name="Heavy Anti-Armor Rocket" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct	</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">15</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:4, Piercing:3, Single Use</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f661-0605-2ac3-b79e" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="a6a7-fb7a-f8e9-5547" name="Piercing:X " hidden="false" targetId="0a1b-9f46-d85d-f833" type="rule"/>
+            <infoLink id="f804-448d-c205-8cd6" name="Single Use" hidden="false" targetId="91f8-290b-8c50-39e7" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-7.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="89a2-9a05-0207-5bb4" name="Multiple Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="493f-cc61-4342-214a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8d7d-3226-b39e-7003" name="Multiple Grenade Launcher" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Indirect</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/60</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">12</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Blast:3, Limited Ammo</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e2d4-9c80-468d-c7f0" name="Blast" hidden="false" targetId="210d-ea9d-2882-32d1" type="rule"/>
+            <infoLink id="ae34-2342-b4e9-fbe1" name="Limited Ammo" hidden="false" targetId="9678-0e71-6255-63dd" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-3.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d304-1969-6620-08e7" name="Microwave Emitter" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="689a-55ef-7e83-35bb" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8ce1-aa91-7358-0b75" name="Microwave Emitter" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct	</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">10/20/-</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">-</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy, EM:3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="0587-5391-9b99-e086" name="EM:X" hidden="false" targetId="bdf2-7299-720a-90a5" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-3.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="32b2-6b0e-f85a-9119" name="Microwave Array" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fd0-1cd5-91af-4507" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5b84-bd63-5174-d7c2" name="Microwave Array" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">10/20/-</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">-</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Heavy, EM:5</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="44d1-b3b0-8089-d6bb" name="EM:X" hidden="false" targetId="bdf2-7299-720a-90a5" type="rule"/>
+            <infoLink id="cce8-3cd8-5f7a-a1a9" name="Heavy" hidden="false" targetId="87e6-ef06-304f-e108" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-5.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="466d-8df9-1f2e-c96f" name="Kingdom of Erland Primary Weapons" hidden="false" collective="true" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c71-f170-e328-578e" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="3645-c16e-36b6-287f" name="SR-27 Battle Rifle" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02f4-8154-5979-6a65" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="be8c-9504-6a5d-7fe3" name="SR-27 Battle Rifle" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1-2</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">10</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c97d-3f0b-a43c-a970" name="SR-26 Assault Rifle" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bc3-b008-9684-bd0d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2b4e-f6e4-d12e-d204" name="SR-26 Assault Rifle" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1-2</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">10</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="48d8-80d6-c35a-76eb" name="Kingdom of Erland Secondary Weapons" hidden="false" collective="true" import="true">
+      <selectionEntries>
+        <selectionEntry id="bee6-4c7d-915e-0407" name="SR-36 Submachine Gun" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="89f2-718b-b008-5481" name="SR-36 Submachine Gun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">2-3</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">8</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-3.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7b07-1f58-9f61-5132" name="SK-40 Pistol" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="ebb4-b116-b797-2bc7" name="SK-40 Pistol" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">5/10/15</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">8</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Pistol</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1d46-8592-df84-666d" name="Protectorate Defense League Primary Weapons" hidden="false" collective="true" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="272c-118d-4e3a-b89c" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="fd96-d52a-5dcb-ca42" name="CAR-67 Assault Rifle" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3290-973d-811a-d279" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="23ac-fc44-f05d-7f19" name="CAR-67 Assault Rifle" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1-2</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">10</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="77eb-029a-929b-492c" name="ES-R21 Beam Rifle" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc87-41f9-1bb3-2573" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9b2b-721c-bcf1-4c88" name="ES-R21 Beam Rifle " hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">20/40/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">*</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">9</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Melt:1, Sustained, Scope:1, Overheats</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f83e-6808-2deb-284b" name="Overheats" hidden="false" targetId="c2a9-ba17-ea43-af7e" type="rule"/>
+            <infoLink id="6ad0-db0a-8753-a02a" name="Scope:X" hidden="false" targetId="eca3-1d95-fa70-2e80" type="rule"/>
+            <infoLink id="574d-608e-0652-5aa9" name="Melt:X" hidden="false" targetId="7cc9-d5ed-6bde-eeb6" type="rule"/>
+            <infoLink id="df39-c115-288c-ce68" name="Sustained" hidden="false" targetId="d3f2-4d0a-484a-6ee5" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-7.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7b38-8837-bb93-9a36" name="CAR-66 Submachine Gun" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7e9-c1ba-55f1-1b19" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2b86-e57c-c9fd-af98" name="CAR-66 Submachine Gun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">2-3</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">8</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-3.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="58ca-9441-4ebe-dfb9" name="Protectorate Defense League Secondary Weapons" hidden="false" collective="true" import="true">
+      <selectionEntries>
+        <selectionEntry id="fe92-b470-41b1-de25" name="CAR-66 Submachine Gun" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c4e-be72-e863-6c50" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9e87-74c9-503d-fec5" name="CAR-66 Submachine Gun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">2-3</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">8</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-3.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ba27-63a2-df5b-a789" name="CAR-68 Pistol" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4957-98f5-10aa-8d18" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a7d0-708b-dbf2-9e76" name="CAR-68 Pistol" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">5/10/15</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">8</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Pistol</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="5bf5-4e64-9e0d-64e7" name="Bayonet" hidden="false">
       <description>This Weapon can be attached to another weapon to extend its reach. A model may spend an Action to “Fix Bayonets.” The Weapon doubles its Range. However, the Model Suffers a Disadvantage in its Attack against a Target that is in Base Contact with it. The Model may spend an Action to “Unfix Bayonets,” The weapon then returns to its normal state and the Disadvantage no longer applies.</description>
@@ -4928,7 +7807,44 @@ An enemy vehicle loses Endurance points equal to the DMG dealt to it by the Ramm
     <rule id="8645-a4f1-699d-56f6" name="Extra Armor" hidden="false">
       <description>If this upgrade is taken, all armor values on this vehicle are increased by 1.</description>
     </rule>
-    <rule id="f16d-2b45-0d6e-55b0" name="Infiltrate" hidden="false"/>
+    <rule id="f16d-2b45-0d6e-55b0" name="Infiltrate" hidden="false">
+      <description>Models with this special rule may come in from any board edge up to 5 inches. This does not count as a move action for purposes of activations.</description>
+    </rule>
     <rule id="7fd5-3ad1-0482-19ca" name="Tracks" hidden="false"/>
+    <rule id="f500-f8ba-1a3c-b73e" name="Stun" hidden="false">
+      <description>A model hit by a weapon with this special rule loses a action for the next round that it activates.It may not be affected by any command cards or rallied by friendly units.</description>
+    </rule>
   </sharedRules>
+  <sharedProfiles>
+    <profile id="bfb6-9203-8753-c4e1" name="Veteran Crew" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
+        <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">2</characteristic>
+        <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">3</characteristic>
+        <characteristic name="ATHL" typeId="c988-b08c-df98-0786">2</characteristic>
+        <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">2</characteristic>
+        <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">2</characteristic>
+        <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+        <characteristic name="END" typeId="3d52-4bc1-5a65-f947">3</characteristic>
+        <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+        <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+        <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5-Med</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c7ca-5b15-a4df-2e0b" name="Veteran Pilot" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
+        <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">2</characteristic>
+        <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">3</characteristic>
+        <characteristic name="ATHL" typeId="c988-b08c-df98-0786">2</characteristic>
+        <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">2</characteristic>
+        <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">2</characteristic>
+        <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+        <characteristic name="END" typeId="3d52-4bc1-5a65-f947">3</characteristic>
+        <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+        <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+        <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5- Med</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </gameSystem>
