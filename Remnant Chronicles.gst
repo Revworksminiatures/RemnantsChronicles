@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="72" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="75" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8db2-3d51-7944-b9de" name="Remnant Chronicles "/>
   </publications>
@@ -722,7 +722,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="517c-583d-56de-6650" name="•Keep It Together! •Dogged Discipline (Federal Coalition Army / Home Guard)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="517c-583d-56de-6650" name="•Keep It Together! (Federal Coalition Army / Home Guard)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -741,6 +741,25 @@ Every model in the unit that uses this Tactical Asset will automatically take an
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="784b-9df4-cb39-ec67" name="•For the Kingdom! (Royal Kingdom of Erland)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b201-77fd-8f2b-73f1" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c90-68e2-ae9b-6cb1" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="756b-0001-b1f7-7392" name="•For the Kingdom! (Royal Kingdom of Erland)" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5195,6 +5214,61 @@ Once a Token has been rolled for and the result applied, remove it from the game
         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4500-e888-6a23-336a" name="Shotgun" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="af79-7c53-b7ac-d1db" name="Shotgun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct	</characteristic>
+            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/45</characteristic>
+            <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">9</characteristic>
+            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b357-5c27-c711-be91" name="Carbine Rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="3922-a39d-f488-95f9" name="Carbine Rifle" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/OO</characteristic>
+            <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">10</characteristic>
+            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Scope:1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d778-8829-b633-e315" name="Scope:X" hidden="false" targetId="eca3-1d95-fa70-2e80" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9f4a-4a90-07da-a3c8" name="Task Force Leader" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d3e2-5516-f3de-8853" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ee0d-8ac5-0d9a-c4fe" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="288f-768e-36a4-5db8" name="Voice of Command" hidden="false">
+          <description>Use the unit cohesion range instead of LD+SZ when determining area of effect for command Cards</description>
+        </rule>
+        <rule id="00da-d20b-a30f-aa30" name="Task Force Leader" hidden="false">
+          <description>If the Task Force Leader is killed, Another model with the Voice of Command Ability of Equal or Lesser Rank must be appointed as the new Task Force Leader. Killing the Task Force Leader counts towards Disrupt Enemy Leadership and also Take Prisoners if the Task Force Leader is captured. There may be only 1 Task Force Leader Per Task Force. </description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="b676-660f-728e-9a2b" name="Hand Grenades" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="true" import="true">
@@ -7445,12 +7519,12 @@ The Models must be in base-to-base contact to perform the check.</description>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c71-f170-e328-578e" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="3645-c16e-36b6-287f" name="SR-27 Battle Rifle" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3645-c16e-36b6-287f" name="SR-25 7.5mm  Battle Rifle " publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02f4-8154-5979-6a65" type="max"/>
           </constraints>
           <profiles>
-            <profile id="be8c-9504-6a5d-7fe3" name="SR-27 Battle Rifle" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+            <profile id="be8c-9504-6a5d-7fe3" name="SR-25 7.5mm  Battle Rifle " hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
               <characteristics>
                 <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
                 <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/OO</characteristic>
@@ -7460,17 +7534,20 @@ The Models must be in base-to-base contact to perform the check.</description>
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="4798-a6ba-1f04-13f2" name="Scope:X" hidden="false" targetId="eca3-1d95-fa70-2e80" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c97d-3f0b-a43c-a970" name="SR-26 Assault Rifle" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c97d-3f0b-a43c-a970" name="SR-27 7.5mm Automatic Rifle" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bc3-b008-9684-bd0d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2b4e-f6e4-d12e-d204" name="SR-26 Assault Rifle" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+            <profile id="2b4e-f6e4-d12e-d204" name="SR-27 7.5mm Automatic Rifle" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
               <characteristics>
                 <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
                 <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/OO</characteristic>
@@ -7480,6 +7557,9 @@ The Models must be in base-to-base contact to perform the check.</description>
               </characteristics>
             </profile>
           </profiles>
+          <rules>
+            <rule id="e425-84c2-c230-4954" name="Reflex Sight" hidden="false"/>
+          </rules>
           <costs>
             <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
@@ -7488,8 +7568,14 @@ The Models must be in base-to-base contact to perform the check.</description>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="48d8-80d6-c35a-76eb" name="Kingdom of Erland Secondary Weapons" hidden="false" collective="true" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c457-9d4a-fc41-642f" type="max"/>
+      </constraints>
       <selectionEntries>
         <selectionEntry id="bee6-4c7d-915e-0407" name="SR-36 Submachine Gun" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e3f-71c3-2068-14db" type="max"/>
+          </constraints>
           <profiles>
             <profile id="89f2-718b-b008-5481" name="SR-36 Submachine Gun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
               <characteristics>
@@ -7506,7 +7592,10 @@ The Models must be in base-to-base contact to perform the check.</description>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7b07-1f58-9f61-5132" name="SK-40 Pistol" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7b07-1f58-9f61-5132" name="SR-40 Pistol" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5fd-86a9-4db2-e97b" type="max"/>
+          </constraints>
           <profiles>
             <profile id="ebb4-b116-b797-2bc7" name="SK-40 Pistol" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
               <characteristics>
@@ -7518,6 +7607,9 @@ The Models must be in base-to-base contact to perform the check.</description>
               </characteristics>
             </profile>
           </profiles>
+          <rules>
+            <rule id="44dd-fdfd-12bc-cb03" name="Pistol" hidden="false"/>
+          </rules>
           <costs>
             <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
@@ -7545,6 +7637,9 @@ The Models must be in base-to-base contact to perform the check.</description>
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="b9a6-16fd-a666-ea20" name="Reliable" hidden="false" targetId="c17d-5941-d935-d963" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
@@ -7635,6 +7730,152 @@ The Models must be in base-to-base contact to perform the check.</description>
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="4989-04ca-059c-55fc" name="Reliable" hidden="false" targetId="c17d-5941-d935-d963" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4c17-df43-0973-f53f" name="The Independent&apos;s Primary Weapons" hidden="false" collective="true" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c843-a441-ce9c-e37b" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="4076-491f-f7c9-c400" name="Assault Rifle" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b4c-ff74-bac5-8e52" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f262-4c93-64d0-0951" name="Assault Rifle" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1-2</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">10</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2fde-aefa-6c5c-1314" name="Submachine Gun" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fe2-9ead-975a-d762" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5c26-5cb4-8833-fdae" name="Submachine Gun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">2-3</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">8</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-3.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fd25-9113-7f81-c454" name="Beam Rifle" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86c5-7f8d-f926-dd69" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b534-1e0b-5e4e-46f5" name="Beam Rifle" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">20/40/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">*</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">9</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Melt:1, Sustained, Scope:1, Overheats</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9be4-532c-066a-046e" name="Overheats" hidden="false" targetId="c2a9-ba17-ea43-af7e" type="rule"/>
+            <infoLink id="15c2-fad9-0196-041e" name="Scope:X" hidden="false" targetId="eca3-1d95-fa70-2e80" type="rule"/>
+            <infoLink id="27a5-61e7-cd66-c574" name="Melt:X" hidden="false" targetId="7cc9-d5ed-6bde-eeb6" type="rule"/>
+            <infoLink id="4ce7-aa7a-7b76-5e8f" name="Sustained" hidden="false" targetId="d3f2-4d0a-484a-6ee5" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-7.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8688-c8c1-c9ea-09ba" name="The Independent&apos;s Secondary Weapons" hidden="false" collective="true" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19a4-2f30-8d8d-7ea6" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="5de4-4bf6-c3c7-42aa" name="Pistol" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6394-b4ec-94d1-96dc" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a9ee-a283-ad09-93f0" name="Pistol" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">5/10/15</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">8</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Pistol</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5f21-bbcb-9a02-ddbf" name="Shotgun" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f626-aa49-28ad-fb2d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="696a-88d9-f97f-d459" name="Shotgun" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct	</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/45</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">9</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5e45-0fea-e5dc-e72c" name="Carbine Rifle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89a9-904e-ce06-0d72" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9ff5-1845-e30a-bad2" name="Carbine Rifle" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct</characteristic>
+                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">15/30/OO</characteristic>
+                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">1</characteristic>
+                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">10</characteristic>
+                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Scope:1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="8cfb-499c-8a01-a30c" name="Scope:X" hidden="false" targetId="eca3-1d95-fa70-2e80" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
@@ -7800,7 +8041,9 @@ An enemy vehicle loses Endurance points equal to the DMG dealt to it by the Ramm
     <rule id="a899-773b-3970-5c1e" name="Transport: X" hidden="false">
       <description>This model may carry a certain number of Troops equal to the amount listed. if a model has the Bulky Trait, then that model counts as Bulky X for purposes of being placed into a transport.</description>
     </rule>
-    <rule id="fc45-036c-4945-1358" name="Walker" hidden="false"/>
+    <rule id="fc45-036c-4945-1358" name="Walker" hidden="false">
+      <description>The model gains the &quot;Legs&quot; Trait on their card.</description>
+    </rule>
     <rule id="6932-ca7e-0545-70c5" name="Armored" hidden="false">
       <description>If a vehicle has this trait their Armor stat will be represented by  -/-/- with the first dash being the front armor, the second dash being the side armor and the third dash being the rear armor.  When being attacked, the armor value is from the attackers weapon into whichever part of the vehicle they have the most view of. For purposes of aircraft or artillery attacks, always use the first &quot;front&quot; armor stat.</description>
     </rule>
@@ -7814,6 +8057,7 @@ An enemy vehicle loses Endurance points equal to the DMG dealt to it by the Ramm
     <rule id="f500-f8ba-1a3c-b73e" name="Stun" hidden="false">
       <description>A model hit by a weapon with this special rule loses a action for the next round that it activates.It may not be affected by any command cards or rallied by friendly units.</description>
     </rule>
+    <rule id="8d5a-3e7b-2ed4-4891" name="High Altitude Drop Orbital Certificated (HADOC)" hidden="false"/>
   </sharedRules>
   <sharedProfiles>
     <profile id="bfb6-9203-8753-c4e1" name="Veteran Crew" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">

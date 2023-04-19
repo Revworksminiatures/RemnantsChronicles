@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4543-f73a-9a1c-b8d4" name="Kingdom of Erland" revision="4" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4543-f73a-9a1c-b8d4" name="Kingdom of Erland" revision="7" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="74" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3e2d-c10c-14ff-f523" name="Remnant Chronicles "/>
   </publications>
@@ -287,6 +287,12 @@
                 <entryLink id="f365-5f45-9700-d121" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
                 <entryLink id="1605-5886-5b98-aae7" name="Kingdom of Erland Secondary Weapons" hidden="false" collective="false" import="true" targetId="48d8-80d6-c35a-76eb" type="selectionEntryGroup"/>
                 <entryLink id="cfd4-fdb3-98df-3fb6" name="Kingdom of Erland Primary Weapons" hidden="false" collective="false" import="true" targetId="466d-8df9-1f2e-c96f" type="selectionEntryGroup"/>
+                <entryLink id="5d4b-bd2d-0d3b-fd04" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21d5-36e4-0aba-4f20" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="679c-f609-ccaa-a17c" type="max"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -491,6 +497,14 @@
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="0c8c-bdfd-9eee-b535" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd80-a871-5883-abcc" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db44-e0ad-cd72-e1ac" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="9.0"/>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="13.0"/>
@@ -694,6 +708,14 @@
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="0a0f-74a9-5755-9fcf" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9016-9ea1-da4e-c51b" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38fc-13d1-e344-92fc" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="11.0"/>
@@ -897,6 +919,14 @@
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="dbe2-668d-beb7-52b4" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eadb-3f84-69c5-d19a" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b1d-8d3e-b94a-acb1" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="9.0"/>
@@ -1355,7 +1385,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="5c59-11a1-f8a6-0d27" name="Infiltrate" hidden="false" targetId="f16d-2b45-0d6e-55b0" type="rule"/>
-        <infoLink id="0c69-30d1-58f5-3c70" name="Advanced Deployment" hidden="false" targetId="a16f-2e34-aaa1-87be" type="rule"/>
+        <infoLink id="82ec-aaaa-6283-13f4" name="High Altitude Drop Orbital Certificated (HADOC)" hidden="false" targetId="8d5a-3e7b-2ed4-4891" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="601b-0056-3e7a-6734" name="Faction: Kingdom of Erland" hidden="false" targetId="b201-77fd-8f2b-73f1" primary="false"/>
@@ -2981,8 +3011,8 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="48d9-69b0-9516-6e75" name="Advanced Deployment" hidden="false" targetId="a16f-2e34-aaa1-87be" type="rule"/>
         <infoLink id="308e-85fc-f3f0-1fe2" name="Infiltrate" hidden="false" targetId="f16d-2b45-0d6e-55b0" type="rule"/>
+        <infoLink id="0cee-c57a-da91-8ba4" name="High Altitude Drop Orbital Certificated (HADOC)" hidden="false" targetId="8d5a-3e7b-2ed4-4891" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0ebb-3d33-d19b-6700" name="Faction: Kingdom of Erland" hidden="false" targetId="b201-77fd-8f2b-73f1" primary="false"/>
@@ -3649,6 +3679,12 @@
                 <entryLink id="e2ba-b5eb-fef0-c7ad" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
                 <entryLink id="2bec-b782-deef-2332" name="Kingdom of Erland Secondary Weapons" hidden="false" collective="false" import="true" targetId="48d8-80d6-c35a-76eb" type="selectionEntryGroup"/>
                 <entryLink id="8132-e776-d462-167b" name="Kingdom of Erland Primary Weapons" hidden="false" collective="false" import="true" targetId="466d-8df9-1f2e-c96f" type="selectionEntryGroup"/>
+                <entryLink id="9358-14aa-1c05-cdf4" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54e2-e8fb-755e-30f4" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff64-21be-0b5b-757a" type="max"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -3853,6 +3889,14 @@
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="af60-0efe-0170-f71c" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffdd-2a56-6b4f-0e98" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fa3-7643-41cd-fbcb" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="9.0"/>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="13.0"/>
@@ -4056,6 +4100,14 @@
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="a249-e00a-1248-442f" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="beae-1ce4-d59d-d1c5" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eabc-2610-c256-2981" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="11.0"/>
@@ -4259,6 +4311,14 @@
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="a8b4-23de-c9e9-c201" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65ad-5c56-e748-3b67" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecba-3822-bd81-c24c" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="9.0"/>
@@ -5335,7 +5395,6 @@
       </profiles>
       <infoLinks>
         <infoLink id="c220-550f-becb-ce5f" name="Advanced Deployment" hidden="false" targetId="a16f-2e34-aaa1-87be" type="rule"/>
-        <infoLink id="265d-e920-0a8e-dfee" name="Infiltrate" hidden="false" targetId="f16d-2b45-0d6e-55b0" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d75e-07c5-1961-c8ac" name="Faction: Kingdom of Erland" hidden="false" targetId="b201-77fd-8f2b-73f1" primary="false"/>
@@ -6013,6 +6072,12 @@
                 <entryLink id="765f-f147-565d-8701" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
                 <entryLink id="7070-c2a8-4ad4-6e5b" name="Kingdom of Erland Secondary Weapons" hidden="false" collective="false" import="true" targetId="48d8-80d6-c35a-76eb" type="selectionEntryGroup"/>
                 <entryLink id="9484-bfda-36a4-a582" name="Kingdom of Erland Primary Weapons" hidden="false" collective="false" import="true" targetId="466d-8df9-1f2e-c96f" type="selectionEntryGroup"/>
+                <entryLink id="5379-7a01-5d40-bbc7" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52e1-188c-ccb3-3492" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b993-e6f0-0586-092e" type="max"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -6217,6 +6282,14 @@
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="ed12-51d0-69ef-0874" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbfc-bb87-d2ce-8516" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed2d-14c3-4996-7ada" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="9.0"/>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="13.0"/>
@@ -6420,6 +6493,14 @@
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="19c5-5bf6-2daa-766f" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56ad-a08a-1538-ad58" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4cc-07c2-95dc-869f" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="11.0"/>
@@ -6623,6 +6704,14 @@
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="7f84-f712-de54-f719" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5c7-4525-f5d7-e765" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c26-7069-6df0-7d77" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="9.0"/>
@@ -6919,6 +7008,12 @@
                 <entryLink id="bf4e-ca4c-d977-5e9a" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
                 <entryLink id="9e6b-2f31-ef04-9d8d" name="Kingdom of Erland Secondary Weapons" hidden="false" collective="false" import="true" targetId="48d8-80d6-c35a-76eb" type="selectionEntryGroup"/>
                 <entryLink id="48de-e5fe-8f1e-58d0" name="Kingdom of Erland Primary Weapons" hidden="false" collective="false" import="true" targetId="466d-8df9-1f2e-c96f" type="selectionEntryGroup"/>
+                <entryLink id="7b83-bb68-9f73-84e4" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca49-66ec-ac41-027f" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9d9-4c6e-7940-bd6a" type="max"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -7123,6 +7218,14 @@
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="2be9-8cb0-ff05-c04b" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5722-b556-c802-50c5" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b30-a605-b829-2c12" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="9.0"/>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="13.0"/>
@@ -7326,6 +7429,14 @@
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="5646-bb72-5d4c-2953" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb45-38a6-c045-f868" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f67-cd33-5600-ccd4" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="11.0"/>
@@ -7529,6 +7640,14 @@
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="2877-1ed7-749c-f718" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f548-dd0c-5649-7096" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53cc-8b6f-2c44-7a81" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="9.0"/>
@@ -7975,8 +8094,8 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="1bb1-01d7-2afe-22cd" name="Infiltrate" hidden="false" targetId="f16d-2b45-0d6e-55b0" type="rule"/>
         <infoLink id="2bfe-6bf2-ac32-e72d" name="Advanced Deployment" hidden="false" targetId="a16f-2e34-aaa1-87be" type="rule"/>
+        <infoLink id="1d8e-9f20-8ff4-90d5" name="High Altitude Drop Orbital Certificated (HADOC)" hidden="false" targetId="8d5a-3e7b-2ed4-4891" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="052f-b2cc-57f1-29ce" name="Faction: Kingdom of Erland" hidden="false" targetId="b201-77fd-8f2b-73f1" primary="false"/>
