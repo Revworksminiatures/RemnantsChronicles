@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="36df-1e33-682e-8730" name="Protectorate Defense League" revision="57" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="70" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="36df-1e33-682e-8730" name="Protectorate Defense League" revision="59" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="74" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="4d34-eb9d-7579-bc94" name="Remnant Chronicles "/>
   </publications>
@@ -418,7 +418,7 @@ Medkit        OO
                   </categoryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="6.0"/>
+                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="6b3b-7f34-7c25-b355" name="Automatic Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -635,6 +635,7 @@ Ammo: OOO
                 <entryLink id="994c-0d74-971b-97ab" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
                 <entryLink id="2cdf-5fe9-a684-8b7e" name="Protectorate Defense League Primary Weapons" hidden="false" collective="false" import="true" targetId="1d46-8592-df84-666d" type="selectionEntryGroup"/>
                 <entryLink id="94d1-ab5d-cce4-3ee9" name="Protectorate Defense League Secondary Weapons" hidden="false" collective="false" import="true" targetId="58ca-9441-4ebe-dfb9" type="selectionEntryGroup"/>
+                <entryLink id="56f0-fe03-5892-0c21" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -742,6 +743,7 @@ Ammo: OOO
                 <entryLink id="2bb6-3c09-2535-e803" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
                 <entryLink id="a597-fe65-5b88-4c76" name="Protectorate Defense League Primary Weapons" hidden="false" collective="false" import="true" targetId="1d46-8592-df84-666d" type="selectionEntryGroup"/>
                 <entryLink id="cdb0-3015-3122-64ef" name="Protectorate Defense League Secondary Weapons" hidden="false" collective="false" import="true" targetId="58ca-9441-4ebe-dfb9" type="selectionEntryGroup"/>
+                <entryLink id="1755-f16e-71f9-a3c2" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
@@ -849,6 +851,7 @@ Ammo: OOO
                 <entryLink id="c580-5861-92f7-a6e0" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
                 <entryLink id="c521-bc91-0742-90d3" name="Protectorate Defense League Primary Weapons" hidden="false" collective="false" import="true" targetId="1d46-8592-df84-666d" type="selectionEntryGroup"/>
                 <entryLink id="5748-fd28-309e-76c7" name="Protectorate Defense League Secondary Weapons" hidden="false" collective="false" import="true" targetId="58ca-9441-4ebe-dfb9" type="selectionEntryGroup"/>
+                <entryLink id="2763-1929-5b66-8c2d" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
@@ -961,8 +964,8 @@ Ammo: OOO
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="6902-0d80-7872-daeb" name="Advanced Deployment" hidden="false" targetId="a16f-2e34-aaa1-87be" type="rule"/>
         <infoLink id="668b-a341-6209-fac1" name="Infiltrate" hidden="false" targetId="f16d-2b45-0d6e-55b0" type="rule"/>
+        <infoLink id="8021-fe9c-a358-07ce" name="High Altitude Drop Orbital Certificated (HADOC)" hidden="false" targetId="8d5a-3e7b-2ed4-4891" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6134-7d19-663f-d0cd" name="Faction: Protectorate Defense Leauge" hidden="false" targetId="5540-ca8e-1356-62eb" primary="false"/>
@@ -1972,6 +1975,10 @@ Ammo: OOO
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+              <costs>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -2050,6 +2057,10 @@ Ammo: OOO
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+              <costs>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
@@ -5114,6 +5125,7 @@ Ammo: OOO
                 <entryLink id="7771-aa28-e209-0444" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
                 <entryLink id="cc09-589a-a712-dbe6" name="Protectorate Defense League Primary Weapons" hidden="false" collective="false" import="true" targetId="1d46-8592-df84-666d" type="selectionEntryGroup"/>
                 <entryLink id="fcba-8777-95c8-d525" name="Protectorate Defense League Secondary Weapons" hidden="false" collective="false" import="true" targetId="58ca-9441-4ebe-dfb9" type="selectionEntryGroup"/>
+                <entryLink id="5855-7b1b-1ac4-ad6a" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -5177,6 +5189,7 @@ Ammo: OOO
                 <entryLink id="3093-3106-acae-b40b" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
                 <entryLink id="d5ae-1e69-585d-6a8c" name="Protectorate Defense League Primary Weapons" hidden="false" collective="false" import="true" targetId="1d46-8592-df84-666d" type="selectionEntryGroup"/>
                 <entryLink id="a0ba-6ea8-e3e4-75ed" name="Protectorate Defense League Secondary Weapons" hidden="false" collective="false" import="true" targetId="58ca-9441-4ebe-dfb9" type="selectionEntryGroup"/>
+                <entryLink id="c902-8cbb-e0a5-b22d" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="521e-09b1-fcdf-951e" name="Federal Coalition" revision="65" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="70" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="521e-09b1-fcdf-951e" name="Federal Coalition" revision="68" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="74" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="8579-7af4-3204-2739" name="Marine Corp Fire Team" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -129,6 +129,12 @@
                     <entryLink id="5a6b-201a-ffc4-7558" name="Federal Coaltion Secondary Weapons" hidden="false" collective="false" import="true" targetId="f0ba-4258-7d29-03e8" type="selectionEntryGroup"/>
                     <entryLink id="dec7-dbfe-1bd8-800a" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
                     <entryLink id="be67-b776-e974-3397" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
+                    <entryLink id="6046-4005-6bf3-796b" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e064-8ee5-d08f-b99c" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee27-2c2b-34c8-cff1" type="max"/>
+                      </constraints>
+                    </entryLink>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -212,6 +218,12 @@
                     <entryLink id="c03a-b412-fd91-3cee" name="Federal Coaltion Secondary Weapons" hidden="false" collective="false" import="true" targetId="f0ba-4258-7d29-03e8" type="selectionEntryGroup"/>
                     <entryLink id="f2f5-e56c-c546-7ce7" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
                     <entryLink id="8a36-ef98-04eb-ebae" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
+                    <entryLink id="58d5-bd9a-9a9c-311f" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4936-835e-04fd-84aa" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e3e-ba96-61ab-e4e4" type="max"/>
+                      </constraints>
+                    </entryLink>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
@@ -296,6 +308,12 @@
                     <entryLink id="3537-66f3-a024-1de7" name="Federal Coaltion Secondary Weapons" hidden="false" collective="false" import="true" targetId="f0ba-4258-7d29-03e8" type="selectionEntryGroup"/>
                     <entryLink id="e6a1-39ba-f0f7-c998" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
                     <entryLink id="5053-8c17-5eff-190a" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
+                    <entryLink id="7ca6-0e02-88d0-2fc6" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4105-04d5-4b1f-ca56" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9da0-0ba7-512f-dc58" type="max"/>
+                      </constraints>
+                    </entryLink>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
@@ -380,6 +398,12 @@
                     <entryLink id="32b7-ff46-9539-ddc9" name="Federal Coaltion Secondary Weapons" hidden="false" collective="false" import="true" targetId="f0ba-4258-7d29-03e8" type="selectionEntryGroup"/>
                     <entryLink id="e180-176f-f7bc-2d5f" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
                     <entryLink id="873d-6d12-8998-f0f7" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
+                    <entryLink id="e92f-a635-9d0c-6c60" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a53-ce49-2db3-7a5a" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83ae-f7ab-db97-7727" type="max"/>
+                      </constraints>
+                    </entryLink>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="9.0"/>
@@ -2146,8 +2170,8 @@ If the model moves, then it must spend another action to reengage the Stabilizer
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="3b5c-0370-9408-23ef" name="Advanced Deployment" hidden="false" targetId="a16f-2e34-aaa1-87be" type="rule"/>
         <infoLink id="f3ce-dfec-5a7b-cbf3" name="Infiltrate" hidden="false" targetId="f16d-2b45-0d6e-55b0" type="rule"/>
+        <infoLink id="b9bf-325a-4e5d-1fd0" name="High Altitude Drop Orbital Certificated (HADOC)" hidden="false" targetId="8d5a-3e7b-2ed4-4891" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="51e1-2c80-a738-2ec1" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
@@ -3322,8 +3346,8 @@ If the model moves, then it must spend another action to reengage the Stabilizer
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="3c37-7153-6472-a4e7" name="Advanced Deployment" hidden="false" targetId="a16f-2e34-aaa1-87be" type="rule"/>
         <infoLink id="ef51-95d1-d5f4-5683" name="Infiltrate" hidden="false" targetId="f16d-2b45-0d6e-55b0" type="rule"/>
+        <infoLink id="71c1-2896-6c05-7911" name="High Altitude Drop Orbital Certificated (HADOC)" hidden="false" targetId="8d5a-3e7b-2ed4-4891" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ad33-96ea-269e-74b3" name="Special Forces" hidden="false" targetId="6a9e-ce08-e5f8-aa84" primary="true"/>
@@ -3730,17 +3754,17 @@ If the model moves, then it must spend another action to reengage the Stabilizer
           <profiles>
             <profile id="4c79-e687-89c5-315c" name="Type 101 &quot;Drake&quot; Missile Truck" hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
               <characteristics>
-                <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559"/>
-                <characteristic name="DEF" typeId="6644-0c1a-148c-54f2"/>
-                <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b"/>
-                <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd"/>
-                <characteristic name="INT" typeId="8b64-630a-32e8-c175"/>
-                <characteristic name="LD" typeId="f27a-4395-502d-0edc"/>
-                <characteristic name="ARMOR" typeId="edb2-357a-7123-031f"/>
-                <characteristic name="END" typeId="afaf-9bc5-83c6-72c7"/>
-                <characteristic name="NERVE" typeId="9fbd-f3af-434b-c417"/>
+                <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559">Armored, Mecanum Wheels, Turret, Stalized</characteristic>
+                <characteristic name="DEF" typeId="6644-0c1a-148c-54f2">2</characteristic>
+                <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b">2</characteristic>
+                <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd">1</characteristic>
+                <characteristic name="INT" typeId="8b64-630a-32e8-c175">2</characteristic>
+                <characteristic name="LD" typeId="f27a-4395-502d-0edc">2</characteristic>
+                <characteristic name="ARMOR" typeId="edb2-357a-7123-031f">11/10/10</characteristic>
+                <characteristic name="END" typeId="afaf-9bc5-83c6-72c7">5</characteristic>
+                <characteristic name="NERVE" typeId="9fbd-f3af-434b-c417">4</characteristic>
                 <characteristic name="MOVE" typeId="0d4e-6880-8aca-8e7b">7</characteristic>
-                <characteristic name="SIZE" typeId="e736-9e94-0692-d658"/>
+                <characteristic name="SIZE" typeId="e736-9e94-0692-d658">9-H</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3932,7 +3956,7 @@ If the model moves, then it must spend another action to reengage the Stabilizer
             <categoryLink id="03b7-7707-dfc9-7e70" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="1e01-9d53-7455-05cd" name="Squad Attachment Unit" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="1e01-9d53-7455-05cd" name="Squad Attachment Unit" hidden="false" collective="false" import="true" defaultSelectionEntryId="f6b4-1c56-35ef-4e95">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfa8-c383-0dc6-daad" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97c4-4dd5-efb3-da0f" type="min"/>
@@ -5068,6 +5092,12 @@ The Models must be in base-to-base contact in order to perform the check.
                     <entryLink id="e420-5a03-19a6-1d8f" name="Federal Coaltion Secondary Weapons" hidden="false" collective="false" import="true" targetId="f0ba-4258-7d29-03e8" type="selectionEntryGroup"/>
                     <entryLink id="9ba7-c361-09c1-2772" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
                     <entryLink id="9f35-1bb3-4844-8b9e" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
+                    <entryLink id="f460-9431-ff4b-e513" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26eb-65ca-8575-4060" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b1b-7daf-63ec-b52f" type="max"/>
+                      </constraints>
+                    </entryLink>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -5151,6 +5181,12 @@ The Models must be in base-to-base contact in order to perform the check.
                     <entryLink id="32d0-d3b2-bcdf-4128" name="Federal Coaltion Secondary Weapons" hidden="false" collective="false" import="true" targetId="f0ba-4258-7d29-03e8" type="selectionEntryGroup"/>
                     <entryLink id="5233-4335-8ca9-8913" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
                     <entryLink id="7d50-312d-3bbe-0545" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
+                    <entryLink id="9ea9-9f71-8c7a-d73f" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba6d-d125-c688-cb8e" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="249c-d640-44d3-1e98" type="max"/>
+                      </constraints>
+                    </entryLink>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
@@ -5235,6 +5271,12 @@ The Models must be in base-to-base contact in order to perform the check.
                     <entryLink id="5f0a-f444-7548-94d8" name="Federal Coaltion Secondary Weapons" hidden="false" collective="false" import="true" targetId="f0ba-4258-7d29-03e8" type="selectionEntryGroup"/>
                     <entryLink id="5e2d-77ca-bddd-8b99" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
                     <entryLink id="84d2-693d-100c-9084" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
+                    <entryLink id="f1e3-c432-6a07-ac77" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a96-b556-103b-c687" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4d3-9045-0f62-c570" type="max"/>
+                      </constraints>
+                    </entryLink>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
@@ -5319,6 +5361,12 @@ The Models must be in base-to-base contact in order to perform the check.
                     <entryLink id="2aa3-9eed-bbb8-bca9" name="Federal Coaltion Secondary Weapons" hidden="false" collective="false" import="true" targetId="f0ba-4258-7d29-03e8" type="selectionEntryGroup"/>
                     <entryLink id="59cc-100a-92df-a98a" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
                     <entryLink id="7270-eaba-dee8-be68" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
+                    <entryLink id="b90f-cf4b-bda4-665e" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e0f-c8c8-65df-d4c6" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75f3-e7b8-00b9-da3f" type="max"/>
+                      </constraints>
+                    </entryLink>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="9.0"/>
@@ -7268,6 +7316,12 @@ The Models must be in base-to-base contact in order to perform the check.
                     <entryLink id="c4a3-c01e-938f-fea7" name="Federal Coaltion Secondary Weapons" hidden="false" collective="false" import="true" targetId="f0ba-4258-7d29-03e8" type="selectionEntryGroup"/>
                     <entryLink id="1f20-3145-1b8d-52d8" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
                     <entryLink id="a42f-fa92-2c95-68b5" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
+                    <entryLink id="e9c2-bc3d-991b-1025" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d42e-0719-379f-edad" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf2c-3404-aaf5-af6b" type="max"/>
+                      </constraints>
+                    </entryLink>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -7351,6 +7405,12 @@ The Models must be in base-to-base contact in order to perform the check.
                     <entryLink id="0fec-2ea6-b484-e4e1" name="Federal Coaltion Secondary Weapons" hidden="false" collective="false" import="true" targetId="f0ba-4258-7d29-03e8" type="selectionEntryGroup"/>
                     <entryLink id="e750-6fc9-0cf5-aa67" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
                     <entryLink id="17b8-4f70-35f3-6fe1" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
+                    <entryLink id="ff68-1ad3-d0d7-de3b" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af0c-1418-ce52-add1" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f48e-5e47-4cb8-5039" type="max"/>
+                      </constraints>
+                    </entryLink>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
@@ -7435,6 +7495,12 @@ The Models must be in base-to-base contact in order to perform the check.
                     <entryLink id="701c-0777-2562-253d" name="Federal Coaltion Secondary Weapons" hidden="false" collective="false" import="true" targetId="f0ba-4258-7d29-03e8" type="selectionEntryGroup"/>
                     <entryLink id="06d6-cd40-7874-f07c" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
                     <entryLink id="dbab-856c-9320-d504" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
+                    <entryLink id="5f60-90de-4f00-2bce" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b35-379d-b4ff-2f43" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4461-5829-b106-8078" type="max"/>
+                      </constraints>
+                    </entryLink>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
@@ -7519,6 +7585,12 @@ The Models must be in base-to-base contact in order to perform the check.
                     <entryLink id="7548-d47f-b612-60ba" name="Federal Coaltion Secondary Weapons" hidden="false" collective="false" import="true" targetId="f0ba-4258-7d29-03e8" type="selectionEntryGroup"/>
                     <entryLink id="8686-963e-f323-c735" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
                     <entryLink id="b767-8b4b-9efd-c660" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
+                    <entryLink id="7825-f6f2-979d-6d8a" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="719f-bb46-2384-e00a" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9978-6b8c-e96a-24eb" type="max"/>
+                      </constraints>
+                    </entryLink>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="9.0"/>
@@ -7758,7 +7830,7 @@ The Models must be in base-to-base contact in order to perform the check.
       </profiles>
       <infoLinks>
         <infoLink id="9f78-09b1-a913-93ed" name="Infiltrate" hidden="false" targetId="f16d-2b45-0d6e-55b0" type="rule"/>
-        <infoLink id="8550-7cc5-6f52-adda" name="Advanced Deployment" hidden="false" targetId="a16f-2e34-aaa1-87be" type="rule"/>
+        <infoLink id="0f46-c00f-0c42-d7b7" name="High Altitude Drop Orbital Certificated (HADOC)" hidden="false" targetId="8d5a-3e7b-2ed4-4891" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c7a2-c15c-277c-eb80" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
@@ -11215,6 +11287,12 @@ The Models must be in base-to-base contact in order to perform the check.
                     <entryLink id="3d39-4b6f-e5bb-7212" name="Federal Coaltion Secondary Weapons" hidden="false" collective="false" import="true" targetId="f0ba-4258-7d29-03e8" type="selectionEntryGroup"/>
                     <entryLink id="061b-9278-e2ef-2f4c" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
                     <entryLink id="fdf8-21f9-86ea-03fb" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
+                    <entryLink id="5c1d-e590-2e3b-6b8f" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14ed-26c1-4878-40d0" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3254-414d-cb85-f32a" type="max"/>
+                      </constraints>
+                    </entryLink>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -11298,6 +11376,12 @@ The Models must be in base-to-base contact in order to perform the check.
                     <entryLink id="fb0a-615f-eece-ce11" name="Federal Coaltion Secondary Weapons" hidden="false" collective="false" import="true" targetId="f0ba-4258-7d29-03e8" type="selectionEntryGroup"/>
                     <entryLink id="4a16-e5df-0307-d214" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
                     <entryLink id="a3cc-4ba0-4f61-16d8" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
+                    <entryLink id="fac7-3feb-c7cb-57ff" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="215e-7a77-dde8-1e03" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07de-271f-18a3-19f8" type="max"/>
+                      </constraints>
+                    </entryLink>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
@@ -11382,6 +11466,12 @@ The Models must be in base-to-base contact in order to perform the check.
                     <entryLink id="ea07-58b0-8d6c-ad42" name="Federal Coaltion Secondary Weapons" hidden="false" collective="false" import="true" targetId="f0ba-4258-7d29-03e8" type="selectionEntryGroup"/>
                     <entryLink id="b333-32c3-3947-cc54" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
                     <entryLink id="d797-3cfa-6d88-9a23" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
+                    <entryLink id="fa3d-c642-1936-a8f4" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccee-fa94-923e-817b" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab9b-cbd2-abb5-cb8b" type="max"/>
+                      </constraints>
+                    </entryLink>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
@@ -11466,6 +11556,12 @@ The Models must be in base-to-base contact in order to perform the check.
                     <entryLink id="57e4-6c4f-c9de-72d6" name="Federal Coaltion Secondary Weapons" hidden="false" collective="false" import="true" targetId="f0ba-4258-7d29-03e8" type="selectionEntryGroup"/>
                     <entryLink id="d1be-6fcf-7109-8ecc" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
                     <entryLink id="e96a-22ff-912b-2da0" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
+                    <entryLink id="92b6-074f-a679-9df1" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6872-30fd-f3ac-49d0" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e5a-5197-76a7-12b2" type="max"/>
+                      </constraints>
+                    </entryLink>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="9.0"/>
