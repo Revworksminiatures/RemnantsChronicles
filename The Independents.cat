@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cb27-a002-56ed-3016" name="The Independents" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="75" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cb27-a002-56ed-3016" name="The Independents" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="76" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="f59a-401b-e3f6-1d3a" name="Remnant Chronicles "/>
   </publications>
