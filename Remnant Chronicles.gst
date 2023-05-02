@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="75" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="76" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8db2-3d51-7944-b9de" name="Remnant Chronicles "/>
   </publications>
@@ -762,6 +762,46 @@ Every model in the unit that uses this Tactical Asset will automatically take an
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="5681-4d91-22a6-e9da" name="•Pride in Service (Federal Coalition Army / Home Guard)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f4fd-5a8f-736f-a498" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21c8-6bb2-e03f-4693" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="92ef-12db-2b1f-9aed" name="•Pride in Service" hidden="false">
+                  <description>At the start of a LIGHT CORE units activation, they immediately gain a Aim Token for each member of unit.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3d0b-0e6b-bb99-f636" name="•Combat Stims (Zi&apos;lo Drug Cartel)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c744-1e1c-b9b4-cd76" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b85-da88-4626-9a06" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="5c5d-38ae-bb3e-0bcf" name="•Combat Stims (Zi&apos;lo Drug Cartel)" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
@@ -1026,7 +1066,7 @@ Immediately search your deck for a command card of your choosing and play it wit
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2d16-163c-f8b4-de09" name="••Get it Done! (Federal Coalition Army / Home Guard)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2d16-163c-f8b4-de09" name="••Fire Mission Inbound!! (Federal Coalition Army / Home Guard)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1038,8 +1078,8 @@ Immediately search your deck for a command card of your choosing and play it wit
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3155-6b03-aef2-1488" type="max"/>
               </constraints>
               <rules>
-                <rule id="3666-9028-5b3a-eba4" name="••Get it Done! (Federal Coalition Army / Home Guard)" hidden="false">
-                  <description>A Light or Heavy Unit may </description>
+                <rule id="3666-9028-5b3a-eba4" name="••Fire Mission Inbound!! (Federal Coalition Army / Home Guard)" hidden="false">
+                  <description>If a LIGHT CORE unit has line of sight to a targeted enemy unit, you may add one Advatange to your dice pool to one  LIGHT SUPPORT Unit with a Indirect ability weapon.</description>
                 </rule>
               </rules>
               <costs>
@@ -1047,7 +1087,7 @@ Immediately search your deck for a command card of your choosing and play it wit
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ebfa-1851-7f1b-31e4" name="••Fire and Maneuver (Federal Coalition Army / Home Guard)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ebfa-1851-7f1b-31e4" name="••Rolling Thunder (Federal Coalition Army / Home Guard)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1059,8 +1099,8 @@ Immediately search your deck for a command card of your choosing and play it wit
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd77-6ed0-8d1e-6b69" type="max"/>
               </constraints>
               <rules>
-                <rule id="051c-14bf-539b-b6ec" name="••Fire and Maneuver" hidden="false">
-                  <description>A Light or Heavy Core unit may move again, even if it did not have an action to do so at full movement.</description>
+                <rule id="051c-14bf-539b-b6ec" name="••Rolling Thunder" hidden="false">
+                  <description>A HEAVY SUPPORT unit may move again towards the nearest objective, even if it does not have the extra action to do so. </description>
                 </rule>
               </rules>
               <costs>
@@ -1186,6 +1226,69 @@ Immediately search your deck for a command card of your choosing and play it wit
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5d3c-e87c-8572-dcff" name="••Combat Readiness (Federal Coalition Army / Home Guard)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f4fd-5a8f-736f-a498" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea04-eb15-7354-c82e" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="d012-4c33-adf7-e8db" name="••Combat Readiness (Federal Coalition Army / Home Guard)" hidden="false">
+                  <description>If a enemy unit has selected a LIGHT or HEAVY Core unit as a target, the selected unit may immediately act as if they had 1 Reaction. </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f6be-f5bc-42da-ef17" name="••Hunt the Target (Mercs and Bounty Hunters)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c744-1e1c-b9b4-cd76" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2654-9429-bb0d-98df" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="68e9-ada6-baad-c88a" name="••Hunt the Target (Mercs and Bounty Hunters)" hidden="false">
+                  <description>Pick a LIGHT CORE BOUNTY HUNTER Unit. That unit must select a Target from your oppoent&apos;s army that has the Voice of Command Special Rule. If your selected unit kills or captures the target you score an additional 3 Victory Points. If you select the Team Leader of the enemy Task Force and kill or Capture them you gain an additional 5 Victory Points instead.  </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="82ee-7f3e-24d3-5f51" name="••Gunnery Practice (Royal Kingdom of Erland)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b201-77fd-8f2b-73f1" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbfc-960f-2398-19ef" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="e872-431f-6e7a-85bb" name="••Gunnery Practice (Royal Kingdom of Erland)" hidden="false">
+                  <description>A HEAVY SUPPORT unit may choose to fire its TURRET weapon again even if it does not have the action to do so.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5266,7 +5369,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
       </rules>
       <costs>
         <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="-3.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -7883,6 +7986,89 @@ The Models must be in base-to-base contact to perform the check.</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup id="5375-7ceb-d584-c716" name="Drones" hidden="false" collective="true" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a05-9895-f7e1-0ef5" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="b275-a67f-d4a9-63bc" name="Combat Drone" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3db-f0a3-27ca-c6e0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7aeb-2fdf-483f-d6dc" name="Combat Drone" hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
+              <characteristics>
+                <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559"/>
+                <characteristic name="DEF" typeId="6644-0c1a-148c-54f2"/>
+                <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b"/>
+                <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd"/>
+                <characteristic name="INT" typeId="8b64-630a-32e8-c175"/>
+                <characteristic name="LD" typeId="f27a-4395-502d-0edc"/>
+                <characteristic name="ARMOR" typeId="edb2-357a-7123-031f"/>
+                <characteristic name="END" typeId="afaf-9bc5-83c6-72c7"/>
+                <characteristic name="NERVE" typeId="9fbd-f3af-434b-c417"/>
+                <characteristic name="MOVE" typeId="0d4e-6880-8aca-8e7b"/>
+                <characteristic name="SIZE" typeId="e736-9e94-0692-d658"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="fb77-f916-30c1-3104" name="Remote Controlled" hidden="false" targetId="e7f3-f370-0354-d422" type="rule"/>
+            <infoLink id="f062-b54f-5e9d-22ba" name="Hover" hidden="false" targetId="33e0-4b09-acb4-f413" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="6f75-2645-5d54-3426" name="Attached Unit" hidden="false" targetId="d3da-4f88-7698-1897" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="2.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d6dd-e60d-e428-6b5d" name="Reconnaissance Drone" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="053a-0d27-0cb8-d589" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="cdce-0d95-c2e8-ff91" name="Reconnaissance Drone" hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
+              <characteristics>
+                <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559"/>
+                <characteristic name="DEF" typeId="6644-0c1a-148c-54f2"/>
+                <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b"/>
+                <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd"/>
+                <characteristic name="INT" typeId="8b64-630a-32e8-c175"/>
+                <characteristic name="LD" typeId="f27a-4395-502d-0edc"/>
+                <characteristic name="ARMOR" typeId="edb2-357a-7123-031f"/>
+                <characteristic name="END" typeId="afaf-9bc5-83c6-72c7"/>
+                <characteristic name="NERVE" typeId="9fbd-f3af-434b-c417"/>
+                <characteristic name="MOVE" typeId="0d4e-6880-8aca-8e7b"/>
+                <characteristic name="SIZE" typeId="e736-9e94-0692-d658"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="bba9-95b5-8b19-8496" name="Remote Controlled" hidden="false" targetId="e7f3-f370-0354-d422" type="rule"/>
+            <infoLink id="e61b-1ff1-0e75-2e9c" name="Observer" hidden="false" targetId="60a8-d69b-ca67-6a98" type="rule"/>
+            <infoLink id="197e-fcff-56fb-9c76" name="Hover" hidden="false" targetId="33e0-4b09-acb4-f413" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="80bb-64cb-01e4-c5c9" name="Combat Camera" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22b8-908d-c788-4036" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad28-39cc-c723-2862" type="min"/>
+              </constraints>
+              <costs>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="1.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="5bf5-4e64-9e0d-64e7" name="Bayonet" hidden="false">
@@ -8058,6 +8244,8 @@ An enemy vehicle loses Endurance points equal to the DMG dealt to it by the Ramm
       <description>A model hit by a weapon with this special rule loses a action for the next round that it activates.It may not be affected by any command cards or rallied by friendly units.</description>
     </rule>
     <rule id="8d5a-3e7b-2ed4-4891" name="High Altitude Drop Orbital Certificated (HADOC)" hidden="false"/>
+    <rule id="1316-38e6-b950-4e67" name="Fearless" hidden="false"/>
+    <rule id="e7f3-f370-0354-d422" name="Remote Controlled" hidden="false"/>
   </sharedRules>
   <sharedProfiles>
     <profile id="bfb6-9203-8753-c4e1" name="Veteran Crew" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
