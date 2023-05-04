@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="36df-1e33-682e-8730" name="Protectorate Defense League" revision="60" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="76" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="36df-1e33-682e-8730" name="Protectorate Defense League" revision="62" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="77" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="4d34-eb9d-7579-bc94" name="Remnant Chronicles "/>
   </publications>
@@ -636,6 +636,7 @@ Ammo: OOO
                 <entryLink id="2cdf-5fe9-a684-8b7e" name="Protectorate Defense League Primary Weapons" hidden="false" collective="false" import="true" targetId="1d46-8592-df84-666d" type="selectionEntryGroup"/>
                 <entryLink id="94d1-ab5d-cce4-3ee9" name="Protectorate Defense League Secondary Weapons" hidden="false" collective="false" import="true" targetId="58ca-9441-4ebe-dfb9" type="selectionEntryGroup"/>
                 <entryLink id="56f0-fe03-5892-0c21" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry"/>
+                <entryLink id="7ff0-92c8-9590-54a8" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -744,6 +745,7 @@ Ammo: OOO
                 <entryLink id="a597-fe65-5b88-4c76" name="Protectorate Defense League Primary Weapons" hidden="false" collective="false" import="true" targetId="1d46-8592-df84-666d" type="selectionEntryGroup"/>
                 <entryLink id="cdb0-3015-3122-64ef" name="Protectorate Defense League Secondary Weapons" hidden="false" collective="false" import="true" targetId="58ca-9441-4ebe-dfb9" type="selectionEntryGroup"/>
                 <entryLink id="1755-f16e-71f9-a3c2" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry"/>
+                <entryLink id="e66e-5338-0634-7ea6" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
@@ -852,6 +854,7 @@ Ammo: OOO
                 <entryLink id="c521-bc91-0742-90d3" name="Protectorate Defense League Primary Weapons" hidden="false" collective="false" import="true" targetId="1d46-8592-df84-666d" type="selectionEntryGroup"/>
                 <entryLink id="5748-fd28-309e-76c7" name="Protectorate Defense League Secondary Weapons" hidden="false" collective="false" import="true" targetId="58ca-9441-4ebe-dfb9" type="selectionEntryGroup"/>
                 <entryLink id="2763-1929-5b66-8c2d" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry"/>
+                <entryLink id="9920-19f1-4a67-04de" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
@@ -2973,6 +2976,7 @@ Ammo: OOO
                 <entryLink id="bf46-63dd-06a7-410f" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
                 <entryLink id="42dd-aa29-4ae9-c93a" name="Protectorate Defense League Primary Weapons" hidden="false" collective="false" import="true" targetId="1d46-8592-df84-666d" type="selectionEntryGroup"/>
                 <entryLink id="69a7-108b-a10e-a709" name="Protectorate Defense League Secondary Weapons" hidden="false" collective="false" import="true" targetId="58ca-9441-4ebe-dfb9" type="selectionEntryGroup"/>
+                <entryLink id="3b7c-3578-6f1b-1f7f" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -3080,6 +3084,7 @@ Ammo: OOO
                 <entryLink id="46d8-8bd5-e946-941a" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
                 <entryLink id="282c-ecae-f106-3e32" name="Protectorate Defense League Primary Weapons" hidden="false" collective="false" import="true" targetId="1d46-8592-df84-666d" type="selectionEntryGroup"/>
                 <entryLink id="e03e-6a12-5198-2635" name="Protectorate Defense League Secondary Weapons" hidden="false" collective="false" import="true" targetId="58ca-9441-4ebe-dfb9" type="selectionEntryGroup"/>
+                <entryLink id="ce76-b43b-5614-32ce" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
@@ -3413,6 +3418,7 @@ Ammo: OOO
                 <entryLink id="27e3-bb1c-a45a-fb5e" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
                 <entryLink id="5668-300e-6d7b-f05c" name="Protectorate Defense League Primary Weapons" hidden="false" collective="false" import="true" targetId="1d46-8592-df84-666d" type="selectionEntryGroup"/>
                 <entryLink id="2b0c-a073-770d-07a5" name="Protectorate Defense League Secondary Weapons" hidden="false" collective="false" import="true" targetId="58ca-9441-4ebe-dfb9" type="selectionEntryGroup"/>
+                <entryLink id="21af-e250-437f-d2c6" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -4777,6 +4783,7 @@ Ammo: OOO
                 <entryLink id="545a-bf10-2d35-4845" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
                 <entryLink id="b7d5-b003-ab61-fee9" name="Protectorate Defense League Primary Weapons" hidden="false" collective="false" import="true" targetId="1d46-8592-df84-666d" type="selectionEntryGroup"/>
                 <entryLink id="7cf7-6df8-2537-304b" name="Protectorate Defense League Secondary Weapons" hidden="false" collective="false" import="true" targetId="58ca-9441-4ebe-dfb9" type="selectionEntryGroup"/>
+                <entryLink id="a686-9b88-7833-8d8c" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -4840,6 +4847,7 @@ Ammo: OOO
                 <entryLink id="46a3-3274-2161-ede8" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
                 <entryLink id="4afb-b4d3-2dc8-cfdd" name="Protectorate Defense League Primary Weapons" hidden="false" collective="false" import="true" targetId="1d46-8592-df84-666d" type="selectionEntryGroup"/>
                 <entryLink id="7d84-3294-524c-5ee7" name="Protectorate Defense League Secondary Weapons" hidden="false" collective="false" import="true" targetId="58ca-9441-4ebe-dfb9" type="selectionEntryGroup"/>
+                <entryLink id="c16f-4b44-c3bc-3557" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
@@ -5126,6 +5134,7 @@ Ammo: OOO
                 <entryLink id="cc09-589a-a712-dbe6" name="Protectorate Defense League Primary Weapons" hidden="false" collective="false" import="true" targetId="1d46-8592-df84-666d" type="selectionEntryGroup"/>
                 <entryLink id="fcba-8777-95c8-d525" name="Protectorate Defense League Secondary Weapons" hidden="false" collective="false" import="true" targetId="58ca-9441-4ebe-dfb9" type="selectionEntryGroup"/>
                 <entryLink id="5855-7b1b-1ac4-ad6a" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry"/>
+                <entryLink id="9a52-6195-2428-d360" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -5190,6 +5199,7 @@ Ammo: OOO
                 <entryLink id="d5ae-1e69-585d-6a8c" name="Protectorate Defense League Primary Weapons" hidden="false" collective="false" import="true" targetId="1d46-8592-df84-666d" type="selectionEntryGroup"/>
                 <entryLink id="a0ba-6ea8-e3e4-75ed" name="Protectorate Defense League Secondary Weapons" hidden="false" collective="false" import="true" targetId="58ca-9441-4ebe-dfb9" type="selectionEntryGroup"/>
                 <entryLink id="c902-8cbb-e0a5-b22d" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry"/>
+                <entryLink id="ba3b-f964-ddbe-5bb5" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>

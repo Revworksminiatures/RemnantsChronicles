@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="521e-09b1-fcdf-951e" name="Federal Coalition" revision="69" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="76" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="521e-09b1-fcdf-951e" name="Federal Coalition" revision="70" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="77" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="8579-7af4-3204-2739" name="Marine Corp Fire Team" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -225,6 +225,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e3e-ba96-61ab-e4e4" type="max"/>
                       </constraints>
                     </entryLink>
+                    <entryLink id="75fb-f41a-5016-a664" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
@@ -315,6 +316,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9da0-0ba7-512f-dc58" type="max"/>
                       </constraints>
                     </entryLink>
+                    <entryLink id="af48-ed98-c954-d5d1" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
@@ -405,6 +407,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83ae-f7ab-db97-7727" type="max"/>
                       </constraints>
                     </entryLink>
+                    <entryLink id="cb23-b118-0dbd-648a" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="9.0"/>
@@ -5107,6 +5110,7 @@ The Models must be in base-to-base contact in order to perform the check.
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b1b-7daf-63ec-b52f" type="max"/>
                       </constraints>
                     </entryLink>
+                    <entryLink id="f799-9a97-19f9-73e3" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -5196,6 +5200,7 @@ The Models must be in base-to-base contact in order to perform the check.
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="249c-d640-44d3-1e98" type="max"/>
                       </constraints>
                     </entryLink>
+                    <entryLink id="fe59-35e8-f145-2002" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
@@ -5286,6 +5291,7 @@ The Models must be in base-to-base contact in order to perform the check.
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4d3-9045-0f62-c570" type="max"/>
                       </constraints>
                     </entryLink>
+                    <entryLink id="fd4b-e2cd-476a-6129" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
@@ -5376,6 +5382,7 @@ The Models must be in base-to-base contact in order to perform the check.
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75f3-e7b8-00b9-da3f" type="max"/>
                       </constraints>
                     </entryLink>
+                    <entryLink id="1aea-d552-b776-0e32" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="9.0"/>
@@ -7331,6 +7338,7 @@ The Models must be in base-to-base contact in order to perform the check.
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf2c-3404-aaf5-af6b" type="max"/>
                       </constraints>
                     </entryLink>
+                    <entryLink id="a5e9-3879-ba25-7f02" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -7420,6 +7428,7 @@ The Models must be in base-to-base contact in order to perform the check.
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f48e-5e47-4cb8-5039" type="max"/>
                       </constraints>
                     </entryLink>
+                    <entryLink id="0ffd-1795-114a-6180" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
@@ -7510,6 +7519,7 @@ The Models must be in base-to-base contact in order to perform the check.
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4461-5829-b106-8078" type="max"/>
                       </constraints>
                     </entryLink>
+                    <entryLink id="a453-f4c2-7acf-c579" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
@@ -7600,6 +7610,7 @@ The Models must be in base-to-base contact in order to perform the check.
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9978-6b8c-e96a-24eb" type="max"/>
                       </constraints>
                     </entryLink>
+                    <entryLink id="28b7-bda0-7296-c4b2" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="9.0"/>
@@ -10947,6 +10958,7 @@ The Models must be in base-to-base contact in order to perform the check.
                     <entryLink id="cd53-ba94-bd20-bf68" name="Federal Coaltion Secondary Weapons" hidden="false" collective="false" import="true" targetId="f0ba-4258-7d29-03e8" type="selectionEntryGroup"/>
                     <entryLink id="cecf-3552-4d52-916f" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
                     <entryLink id="ca18-2c53-e18f-5442" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
+                    <entryLink id="5f54-3efb-69c5-6bf1" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -11030,6 +11042,7 @@ The Models must be in base-to-base contact in order to perform the check.
                     <entryLink id="feef-2fbd-cd65-913a" name="Federal Coaltion Secondary Weapons" hidden="false" collective="false" import="true" targetId="f0ba-4258-7d29-03e8" type="selectionEntryGroup"/>
                     <entryLink id="8316-7e84-3fe9-d30a" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
                     <entryLink id="b199-1e77-a453-e8bc" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
+                    <entryLink id="0a3d-ec28-76bb-d1eb" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
@@ -11302,6 +11315,7 @@ The Models must be in base-to-base contact in order to perform the check.
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3254-414d-cb85-f32a" type="max"/>
                       </constraints>
                     </entryLink>
+                    <entryLink id="536d-404f-1e39-cb55" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -11391,6 +11405,7 @@ The Models must be in base-to-base contact in order to perform the check.
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07de-271f-18a3-19f8" type="max"/>
                       </constraints>
                     </entryLink>
+                    <entryLink id="596d-29e7-572d-d1ec" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
@@ -11481,6 +11496,7 @@ The Models must be in base-to-base contact in order to perform the check.
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab9b-cbd2-abb5-cb8b" type="max"/>
                       </constraints>
                     </entryLink>
+                    <entryLink id="5324-a080-5b2f-f0ab" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
@@ -11571,6 +11587,7 @@ The Models must be in base-to-base contact in order to perform the check.
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e5a-5197-76a7-12b2" type="max"/>
                       </constraints>
                     </entryLink>
+                    <entryLink id="a289-2574-e0f5-b8cd" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="9.0"/>
