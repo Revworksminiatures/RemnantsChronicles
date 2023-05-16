@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="79" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="80" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8db2-3d51-7944-b9de" name="Remnant Chronicles "/>
   </publications>
@@ -345,7 +345,7 @@
             <modifier type="increment" field="e1fe-6a6f-14c9-4b64" value="1.0"/>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e1fe-6a6f-14c9-4b64" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e1fe-6a6f-14c9-4b64" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="be85-f46e-7d7e-d861" type="max"/>
           </constraints>
           <selectionEntries>
@@ -880,8 +880,8 @@ Every model in the unit that uses this Tactical Asset will automatically take an
             <modifier type="increment" field="51f6-889f-fd10-0a97" value="2.0"/>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="51f6-889f-fd10-0a97" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d951-24b9-f2ba-b50a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="51f6-889f-fd10-0a97" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d951-24b9-f2ba-b50a" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="a257-9f29-90d7-3295" name="••Requesting Air Support!" hidden="false" collective="false" import="true" type="upgrade">

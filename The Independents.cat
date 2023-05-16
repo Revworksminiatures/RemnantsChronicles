@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cb27-a002-56ed-3016" name="The Independents" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="79" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cb27-a002-56ed-3016" name="The Independents" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="80" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="f59a-401b-e3f6-1d3a" name="Remnant Chronicles "/>
   </publications>
@@ -277,7 +277,7 @@
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="1.0"/>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -367,7 +367,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e50d-4739-0a73-172b" name="Squad Specialist " hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="e50d-4739-0a73-172b" name="Squad Specialist " hidden="false" collective="false" import="true" defaultSelectionEntryId="3e55-97f7-94c4-96df">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bda2-fb73-548b-6657" type="max"/>
           </constraints>
@@ -538,7 +538,7 @@
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="1.0"/>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
           </costs>
         </selectionEntry>
