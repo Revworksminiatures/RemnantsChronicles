@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cb27-a002-56ed-3016" name="The Independents" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="76" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cb27-a002-56ed-3016" name="The Independents" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="79" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="f59a-401b-e3f6-1d3a" name="Remnant Chronicles "/>
   </publications>
@@ -184,6 +184,7 @@
             <entryLink id="908b-9bd8-b2c0-f4b7" name="The Independent&apos;s Primary Weapons" hidden="false" collective="false" import="true" targetId="4c17-df43-0973-f53f" type="selectionEntryGroup"/>
             <entryLink id="5d25-1f16-02e8-18db" name="The Independent&apos;s Secondary Weapons" hidden="false" collective="false" import="true" targetId="8688-c8c1-c9ea-09ba" type="selectionEntryGroup"/>
             <entryLink id="0aa2-65c7-8457-9eac" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry"/>
+            <entryLink id="0f50-b3af-3cd7-92bb" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -319,6 +320,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12a4-163f-17c7-3153" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="639c-9a16-1619-aa4d" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -356,10 +358,70 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f62-af70-f73c-40dd" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="b491-ed47-d192-e064" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="7.0"/>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e50d-4739-0a73-172b" name="Squad Specialist " hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bda2-fb73-548b-6657" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9b2b-fe06-fbcd-85de" name="Hired Gun Marksmen" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4025-255c-b1c9-a351" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="90c4-4774-1488-9e0e" name="Hired Gun Marksmen" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
+                  <characteristics>
+                    <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2"/>
+                    <characteristic name="DEF" typeId="6327-fd82-8107-5ea3"/>
+                    <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa"/>
+                    <characteristic name="ATHL" typeId="c988-b08c-df98-0786"/>
+                    <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d"/>
+                    <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13"/>
+                    <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99"/>
+                    <characteristic name="END" typeId="3d52-4bc1-5a65-f947"/>
+                    <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7"/>
+                    <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283"/>
+                    <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-2.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3e55-97f7-94c4-96df" name="Hired Gun Machine Gunner" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e24d-7280-022f-a821" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="2c4f-ec1a-9502-dab2" name="Hired Gun Machine Gunner" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
+                  <characteristics>
+                    <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2"/>
+                    <characteristic name="DEF" typeId="6327-fd82-8107-5ea3"/>
+                    <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa"/>
+                    <characteristic name="ATHL" typeId="c988-b08c-df98-0786"/>
+                    <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d"/>
+                    <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13"/>
+                    <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99"/>
+                    <characteristic name="END" typeId="3d52-4bc1-5a65-f947"/>
+                    <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7"/>
+                    <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283"/>
+                    <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="-2.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -423,6 +485,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a921-9619-75fb-e398" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="9868-1e42-3148-552c" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="5.0"/>
@@ -576,6 +639,7 @@
                 <entryLink id="49b7-c52b-2c65-fa19" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
                 <entryLink id="fce7-c254-d314-69af" name="The Independent&apos;s Primary Weapons" hidden="false" collective="false" import="true" targetId="4c17-df43-0973-f53f" type="selectionEntryGroup"/>
                 <entryLink id="8704-8a26-67fc-f023" name="The Independent&apos;s Secondary Weapons" hidden="false" collective="false" import="true" targetId="8688-c8c1-c9ea-09ba" type="selectionEntryGroup"/>
+                <entryLink id="6f81-6e9b-8c33-b6fa" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -608,6 +672,7 @@
                 <entryLink id="ace9-6ad7-cef2-1ea2" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
                 <entryLink id="9843-68af-cca7-da32" name="The Independent&apos;s Primary Weapons" hidden="false" collective="false" import="true" targetId="4c17-df43-0973-f53f" type="selectionEntryGroup"/>
                 <entryLink id="626e-db8c-b19e-c2ea" name="The Independent&apos;s Secondary Weapons" hidden="false" collective="false" import="true" targetId="8688-c8c1-c9ea-09ba" type="selectionEntryGroup"/>
+                <entryLink id="4c3e-bfd1-f92c-e644" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="7.0"/>
@@ -859,6 +924,7 @@
             <entryLink id="175a-6f55-eb96-dd6d" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
             <entryLink id="87d2-f649-092e-9137" name="The Independent&apos;s Primary Weapons" hidden="false" collective="false" import="true" targetId="4c17-df43-0973-f53f" type="selectionEntryGroup"/>
             <entryLink id="3336-ef7d-30c0-6ef6" name="The Independent&apos;s Secondary Weapons" hidden="false" collective="false" import="true" targetId="8688-c8c1-c9ea-09ba" type="selectionEntryGroup"/>
+            <entryLink id="8003-5170-f774-8430" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -1012,6 +1078,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a23-74b7-400c-6865" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="272c-ab62-656c-29a6" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -1049,6 +1116,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4566-1c74-27dd-f559" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="133f-c17b-18e9-e834" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="7.0"/>
@@ -1349,6 +1417,7 @@
             <entryLink id="8998-a636-a764-f435" name="The Independent&apos;s Primary Weapons" hidden="false" collective="false" import="true" targetId="4c17-df43-0973-f53f" type="selectionEntryGroup"/>
             <entryLink id="babe-6904-e8c1-14f4" name="The Independent&apos;s Secondary Weapons" hidden="false" collective="false" import="true" targetId="8688-c8c1-c9ea-09ba" type="selectionEntryGroup"/>
             <entryLink id="d47e-9cd5-c9b3-0710" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry"/>
+            <entryLink id="0c50-6738-a631-0573" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="2.0"/>
@@ -1728,7 +1797,7 @@
         <categoryLink id="be01-97c2-1b6d-874b" name="Light Core" hidden="false" targetId="7c28-7f3f-c607-9aaa" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8379-e586-a5c7-5604" name="Zi&apos;lo Ganger" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8379-e586-a5c7-5604" name="Zi&apos;lo Slaver" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e22-1d5b-1fe2-c45c" type="max"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f51-c0c7-ef6a-bddf" type="min"/>
@@ -1781,6 +1850,7 @@
             <entryLink id="3638-712b-9ffd-ebce" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
             <entryLink id="d8da-adcf-f7a3-d66c" name="The Independent&apos;s Primary Weapons" hidden="false" collective="false" import="true" targetId="4c17-df43-0973-f53f" type="selectionEntryGroup"/>
             <entryLink id="8b23-3797-0c2d-1436" name="The Independent&apos;s Secondary Weapons" hidden="false" collective="false" import="true" targetId="8688-c8c1-c9ea-09ba" type="selectionEntryGroup"/>
+            <entryLink id="0beb-8c3d-8ed9-9c56" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -2658,6 +2728,321 @@
           <costs>
             <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="20.0"/>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="4.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="59ee-b3cf-553b-9fdf" name="Planetary Heavy Weapons Team" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9892-adaf-fb3b-0977" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="6732-4340-9831-fcf4" name="New CategoryLink" hidden="false" targetId="8617-cc36-211a-2bfb" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d46f-73c5-fae3-befe" name="Planetary Heavy Machine Gun Team" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d3e-7d49-c6dd-c812" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9fbf-85d1-e6c8-5760" name="Planetary Heavy Machine Gun Team" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
+              <characteristics>
+                <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2"/>
+                <characteristic name="DEF" typeId="6327-fd82-8107-5ea3"/>
+                <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa"/>
+                <characteristic name="ATHL" typeId="c988-b08c-df98-0786"/>
+                <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d"/>
+                <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13"/>
+                <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99"/>
+                <characteristic name="END" typeId="3d52-4bc1-5a65-f947"/>
+                <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7"/>
+                <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283"/>
+                <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry id="cf2d-49b4-9311-74e1" name="Planetary Trooper" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6c4-6780-8ad8-9400" type="max"/>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05e6-c9b2-0aa4-2e74" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="863a-3a63-2a96-ebbe" name="Planetary Trooper" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa7e-1320-0222-b5d2" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78ad-8a3f-246b-4b1b" type="min"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="5f9d-7c20-8c1a-02e3" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
+                    <entryLink id="0ebc-9bb5-36d8-34e5" name="The Independent&apos;s Primary Weapons" hidden="false" collective="false" import="true" targetId="4c17-df43-0973-f53f" type="selectionEntryGroup"/>
+                    <entryLink id="9870-ec21-7ba6-67e9" name="The Independent&apos;s Secondary Weapons" hidden="false" collective="false" import="true" targetId="8688-c8c1-c9ea-09ba" type="selectionEntryGroup"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="1.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="d7f8-e13f-56bc-0ed7" name="Planetary Team Leader" hidden="false" collective="false" import="true" defaultSelectionEntryId="0e28-72ee-a732-5b00">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0ac-5561-ef3e-ee3e" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19aa-a003-24b7-e82e" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="0e28-72ee-a732-5b00" name="Well Trained Planetary Trooper" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1ec-6682-29a2-435d" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="191a-7498-1bf2-f4b0" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="1c46-d8a1-fed8-3509" name="Well Trained Planetary Trooper" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
+                      <characteristics>
+                        <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
+                        <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">2</characteristic>
+                        <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">3</characteristic>
+                        <characteristic name="ATHL" typeId="c988-b08c-df98-0786">2</characteristic>
+                        <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">2</characteristic>
+                        <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">2</characteristic>
+                        <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+                        <characteristic name="END" typeId="3d52-4bc1-5a65-f947">2</characteristic>
+                        <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+                        <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+                        <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5- Med</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <entryLinks>
+                    <entryLink id="64f1-40f5-7104-0208" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
+                    <entryLink id="ae97-f366-007d-a874" name="The Independent&apos;s Primary Weapons" hidden="false" collective="false" import="true" targetId="4c17-df43-0973-f53f" type="selectionEntryGroup"/>
+                    <entryLink id="ac5c-6420-1d70-17b6" name="The Independent&apos;s Secondary Weapons" hidden="false" collective="false" import="true" targetId="8688-c8c1-c9ea-09ba" type="selectionEntryGroup"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
+                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cd65-281a-1587-3b22" name="Planetary Howitzer Team" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d9c-fefb-ed8d-68eb" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="893b-a7e4-e021-db3f" name="Planetary Howitzer Team" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
+              <characteristics>
+                <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2"/>
+                <characteristic name="DEF" typeId="6327-fd82-8107-5ea3"/>
+                <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa"/>
+                <characteristic name="ATHL" typeId="c988-b08c-df98-0786"/>
+                <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d"/>
+                <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13"/>
+                <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99"/>
+                <characteristic name="END" typeId="3d52-4bc1-5a65-f947"/>
+                <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7"/>
+                <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283"/>
+                <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry id="f926-85bd-7a4c-8777" name="Planetary Trooper" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8199-6532-4fbe-6b74" type="max"/>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc2d-3e9e-1de2-d4cc" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="9d54-ac24-993e-4e35" name="Planetary Trooper" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52b7-4c34-7b99-a03d" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06b9-4a86-f7a5-e00f" type="min"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="1b91-ed48-4c6d-e3f6" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
+                    <entryLink id="f0df-0248-bfd1-e30d" name="The Independent&apos;s Primary Weapons" hidden="false" collective="false" import="true" targetId="4c17-df43-0973-f53f" type="selectionEntryGroup"/>
+                    <entryLink id="6bc9-e992-b9bd-b1d7" name="The Independent&apos;s Secondary Weapons" hidden="false" collective="false" import="true" targetId="8688-c8c1-c9ea-09ba" type="selectionEntryGroup"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="1.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="6c08-76b4-af76-fd8c" name="Planetary Team Leader" hidden="false" collective="false" import="true" defaultSelectionEntryId="c480-dc8c-0fca-c52d">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e964-2c27-ab7f-3d15" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d35a-7d88-3a0a-9110" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="c480-dc8c-0fca-c52d" name="Well Trained Planetary Trooper" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="881a-8f1a-b12c-df47" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0eac-349f-6cd5-fde5" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="8539-7684-f0ff-8031" name="Well Trained Planetary Trooper" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
+                      <characteristics>
+                        <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
+                        <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">2</characteristic>
+                        <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">3</characteristic>
+                        <characteristic name="ATHL" typeId="c988-b08c-df98-0786">2</characteristic>
+                        <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">2</characteristic>
+                        <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">2</characteristic>
+                        <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+                        <characteristic name="END" typeId="3d52-4bc1-5a65-f947">2</characteristic>
+                        <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+                        <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+                        <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5- Med</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <entryLinks>
+                    <entryLink id="efe0-73fd-aa6c-740f" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
+                    <entryLink id="5392-cf0a-8a25-407e" name="The Independent&apos;s Primary Weapons" hidden="false" collective="false" import="true" targetId="4c17-df43-0973-f53f" type="selectionEntryGroup"/>
+                    <entryLink id="86d8-b12d-2409-050a" name="The Independent&apos;s Secondary Weapons" hidden="false" collective="false" import="true" targetId="8688-c8c1-c9ea-09ba" type="selectionEntryGroup"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
+                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="a7f9-2e88-3f12-24c5" name="Howitzer" hidden="false" collective="false" import="true" targetId="8d47-b320-2a7c-0f38" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4031-18fd-bbc7-408e" name="Planetary Mortar Team" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9fb-6db7-8a7b-045b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b16a-89de-eaea-6d11" name="Planetary Mortar Team" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
+              <characteristics>
+                <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2"/>
+                <characteristic name="DEF" typeId="6327-fd82-8107-5ea3"/>
+                <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa"/>
+                <characteristic name="ATHL" typeId="c988-b08c-df98-0786"/>
+                <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d"/>
+                <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13"/>
+                <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99"/>
+                <characteristic name="END" typeId="3d52-4bc1-5a65-f947"/>
+                <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7"/>
+                <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283"/>
+                <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry id="8981-837c-77e5-7a9e" name="Planetary Trooper" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75e0-bd72-44f6-4f84" type="max"/>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1eaa-4546-03e4-98c4" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="e79f-dcad-88f6-443d" name="Planetary Trooper" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce81-500e-cc37-186c" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c05b-8b39-b506-844e" type="min"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="15aa-2618-a1bb-5bdd" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
+                    <entryLink id="90b2-e962-027f-ce2b" name="The Independent&apos;s Primary Weapons" hidden="false" collective="false" import="true" targetId="4c17-df43-0973-f53f" type="selectionEntryGroup"/>
+                    <entryLink id="f3d2-b9ee-57f6-7272" name="The Independent&apos;s Secondary Weapons" hidden="false" collective="false" import="true" targetId="8688-c8c1-c9ea-09ba" type="selectionEntryGroup"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="1.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="8e50-b887-e496-8c25" name="Planetary Team Leader" hidden="false" collective="false" import="true" defaultSelectionEntryId="7e69-4714-9dd2-c40f">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09df-33c6-c57a-9160" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b30f-faf7-e7db-9e24" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="7e69-4714-9dd2-c40f" name="Well Trained Planetary Trooper" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48ca-4865-13c5-eb80" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7943-a689-2b61-73ae" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="ffd6-32b7-7dfc-2fcc" name="Well Trained Planetary Trooper" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
+                      <characteristics>
+                        <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
+                        <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">2</characteristic>
+                        <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">3</characteristic>
+                        <characteristic name="ATHL" typeId="c988-b08c-df98-0786">2</characteristic>
+                        <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">2</characteristic>
+                        <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">2</characteristic>
+                        <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+                        <characteristic name="END" typeId="3d52-4bc1-5a65-f947">2</characteristic>
+                        <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+                        <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+                        <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5- Med</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <entryLinks>
+                    <entryLink id="2424-afb5-80a1-d6df" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="7736-b82c-b98d-936d" type="selectionEntryGroup"/>
+                    <entryLink id="ac80-d920-9a00-39d1" name="The Independent&apos;s Primary Weapons" hidden="false" collective="false" import="true" targetId="4c17-df43-0973-f53f" type="selectionEntryGroup"/>
+                    <entryLink id="b8e1-9799-a75d-c1c1" name="The Independent&apos;s Secondary Weapons" hidden="false" collective="false" import="true" targetId="8688-c8c1-c9ea-09ba" type="selectionEntryGroup"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
+                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="bd82-9038-cc9d-e4ef" name="Mortar" hidden="false" collective="false" import="true" targetId="bf23-806e-2750-912f" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
