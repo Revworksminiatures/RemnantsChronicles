@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="77" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="79" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8db2-3d51-7944-b9de" name="Remnant Chronicles "/>
   </publications>
@@ -345,7 +345,7 @@
             <modifier type="increment" field="e1fe-6a6f-14c9-4b64" value="1.0"/>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e1fe-6a6f-14c9-4b64" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e1fe-6a6f-14c9-4b64" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="be85-f46e-7d7e-d861" type="max"/>
           </constraints>
           <selectionEntries>
@@ -795,7 +795,72 @@ Every model in the unit that uses this Tactical Asset will automatically take an
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b85-da88-4626-9a06" type="max"/>
               </constraints>
               <rules>
-                <rule id="5c5d-38ae-bb3e-0bcf" name="•Combat Stims (Zi&apos;lo Drug Cartel)" hidden="false"/>
+                <rule id="5c5d-38ae-bb3e-0bcf" name="•Combat Stims (Zi&apos;lo Drug Cartel)" hidden="false">
+                  <description>Select a ZI&apos;LO SLAVER or GANGER unit. When that unit is attacked immediatly prevent up to 2 damage for each member of the squad. Place the wound tokens on this card instead. At the beginning of the next round, roll a defense </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d6b5-53db-7bc7-75d3" name="•Uncanny Luck (Mercs and Bounty Hunters)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c744-1e1c-b9b4-cd76" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08a7-8d78-e1cd-fe29" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="6203-e541-73dd-1d93" name="•Uncanny Luck (Mercs and Bounty Hunters)" hidden="false">
+                  <description>A single unit of BOUNTY HUNTERS or HIRED GUNs gains an additional advantage to their dice pool (Up to a maximum of 5 dice per pool) during their activation after you use this card. </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="db9a-a9e5-9621-329e" name="•Worthy Adversaries (Mercs and Bounty Hunters)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c744-1e1c-b9b4-cd76" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e1a-aeb0-1ad3-b5e8" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="6d87-125a-6251-5144" name="•Worthy Adversaries (Mercs and Bounty Hunters)" hidden="false">
+                  <description>Select an enemy unit. When this card is played that unit suffers a disadvantage to all of their defense rolls. Additonally, if that unit is killed by a HIRED GUN or BOUNTY HUNTER unit the turn this card is played, you gain 1 additonal Victory Point.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="acf2-b912-dad4-5a41" name="•Street Smarts (Zi&apos;lo Drug Cartel)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c744-1e1c-b9b4-cd76" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5085-407b-6ab6-d11b" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="464f-da9a-7197-0bfe" name="•Street Smarts (Zi&apos;lo Drug Cartel)" hidden="false">
+                  <description>Select a ZI&apos;LO SLAVER or GANGER unit. That unit immediatly gains 1 advantage to all of their defense rolls for the next round to a maximum of 5 dice.</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
@@ -816,7 +881,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="51f6-889f-fd10-0a97" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d951-24b9-f2ba-b50a" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d951-24b9-f2ba-b50a" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="a257-9f29-90d7-3295" name="••Requesting Air Support!" hidden="false" collective="false" import="true" type="upgrade">
@@ -1284,6 +1349,27 @@ Immediately search your deck for a command card of your choosing and play it wit
               <rules>
                 <rule id="e872-431f-6e7a-85bb" name="••Gunnery Practice (Royal Kingdom of Erland)" hidden="false">
                   <description>A HEAVY SUPPORT unit may choose to fire its TURRET weapon again even if it does not have the action to do so.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1d98-d928-5cc3-1c51" name="••Odds in your favor (Mercs and Bounty Hunters)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c744-1e1c-b9b4-cd76" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bfb-49ed-aa3d-25df" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="b9f1-1470-f632-9974" name="••Odds in your favor (Mercs and Bounty Hunters)" hidden="false">
+                  <description>When this card is played select a HIRED GUN or BOUNTY HUNTER unit. That unit immediatly gains 1 aim token for each member of the squad. This does not cost an action. If the aim tokens are not used by the end of the turn, then the unit loses the aim token.</description>
                 </rule>
               </rules>
               <costs>
@@ -8239,13 +8325,22 @@ An enemy vehicle loses Endurance points equal to the DMG dealt to it by the Ramm
     <rule id="f16d-2b45-0d6e-55b0" name="Infiltrate" hidden="false">
       <description>Models with this special rule may come in from any board edge up to 5 inches. This does not count as a move action for purposes of activations.</description>
     </rule>
-    <rule id="7fd5-3ad1-0482-19ca" name="Tracks" hidden="false"/>
+    <rule id="7fd5-3ad1-0482-19ca" name="Tracks" hidden="false">
+      <description>The Vehicle may move over difficult terrain without any disadvtange to their movement.</description>
+    </rule>
     <rule id="f500-f8ba-1a3c-b73e" name="Stun" hidden="false">
       <description>A model hit by a weapon with this special rule loses a action for the next round that it activates.It may not be affected by any command cards or rallied by friendly units.</description>
     </rule>
-    <rule id="8d5a-3e7b-2ed4-4891" name="High Altitude Drop Orbital Certificated (HADOC)" hidden="false"/>
+    <rule id="8d5a-3e7b-2ed4-4891" name="High Altitude Drop Orbital Certificated (HADOC)" hidden="false">
+      <description>A unit with this special rule may chose to stay in reserve at the beginning of the game. At the beginning of the 2nd round, the selected unit may be deployed anywhere on the board. Place the unit where you wish for them to land and then roll a d10 to determine scatter. Subtract the rolled distance from their intelligence skill. The number is the selected distance that the unit has scattered. 
+If a unit would scatter onto a terrain piece then roll a check for each of the models in that unit. on a 6+ the model lives. If the roll is below a 6+ then the model dies having suffered a terrible injury on landing.
+If a unit would scatter off the battlefield or onto impassable terrain then they are placed into reserve and do not come in this round. If a unit does not come in by the beginning of Round 4 then they are considered to be removed from play. </description>
+    </rule>
     <rule id="1316-38e6-b950-4e67" name="Fearless" hidden="false"/>
     <rule id="e7f3-f370-0354-d422" name="Remote Controlled" hidden="false"/>
+    <rule id="e4dc-4a37-9d5a-8653" name="Multi-Use: X" hidden="false">
+      <description>This weapon or unit can only be used X amount of times listed per turn. The unit or weapon user must spend a Reload Action before the weapon can be used to attack again the following turn.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="bfb6-9203-8753-c4e1" name="Veteran Crew" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4543-f73a-9a1c-b8d4" name="Kingdom of Erland" revision="8" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="76" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4543-f73a-9a1c-b8d4" name="Kingdom of Erland" revision="9" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="78" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3e2d-c10c-14ff-f523" name="Remnant Chronicles "/>
   </publications>
@@ -293,6 +293,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="679c-f609-ccaa-a17c" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="46e8-b7b1-054a-754e" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -504,6 +505,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db44-e0ad-cd72-e1ac" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="e31f-7ead-51f5-8106" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="9.0"/>
@@ -715,6 +717,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38fc-13d1-e344-92fc" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="e42a-c88a-6b05-08f0" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
@@ -926,6 +929,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b1d-8d3e-b94a-acb1" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="5b39-c540-81a1-c3a1" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
@@ -1951,6 +1955,7 @@
                 <entryLink id="5e25-f03c-cf75-bb87" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
                 <entryLink id="eb91-9cbd-1c87-9f91" name="Kingdom of Erland Secondary Weapons" hidden="false" collective="false" import="true" targetId="48d8-80d6-c35a-76eb" type="selectionEntryGroup"/>
                 <entryLink id="e1de-9691-b9ed-2926" name="Kingdom of Erland Primary Weapons" hidden="false" collective="false" import="true" targetId="466d-8df9-1f2e-c96f" type="selectionEntryGroup"/>
+                <entryLink id="29fb-b490-1e03-83b5" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -2155,6 +2160,9 @@
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="73d3-62d8-4ce8-eece" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
+              </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="9.0"/>
@@ -2350,6 +2358,7 @@
                 <entryLink id="fe8f-6724-553c-c342" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
                 <entryLink id="d0c3-126a-4752-c992" name="Kingdom of Erland Secondary Weapons" hidden="false" collective="false" import="true" targetId="48d8-80d6-c35a-76eb" type="selectionEntryGroup"/>
                 <entryLink id="8229-0819-8d39-d331" name="Kingdom of Erland Primary Weapons" hidden="false" collective="false" import="true" targetId="466d-8df9-1f2e-c96f" type="selectionEntryGroup"/>
+                <entryLink id="280e-62c2-bcbc-8fc1" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -2554,6 +2563,9 @@
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="c857-55af-f07e-fe1e" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
+              </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="9.0"/>
@@ -3685,6 +3697,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff64-21be-0b5b-757a" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="ee1c-2fc9-1ae9-71ea" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -3896,6 +3909,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fa3-7643-41cd-fbcb" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="4d88-cb4c-221a-bde0" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="9.0"/>
@@ -4107,6 +4121,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eabc-2610-c256-2981" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="1633-d8e5-a69f-953c" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
@@ -4318,6 +4333,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecba-3822-bd81-c24c" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="8efa-c521-d806-618f" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
@@ -5069,13 +5085,13 @@
             <entryLink id="235f-462e-4638-476a" name="Anti-Tank Weapons" hidden="false" collective="false" import="true" targetId="3c04-6ed5-2066-5da9" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="dd22-4998-57bd-dd6b" name="Erland Erland Strykor Leader" hidden="false" collective="false" import="true" defaultSelectionEntryId="7c78-4600-15a2-c242">
+        <selectionEntryGroup id="dd22-4998-57bd-dd6b" name="Erland Royal Engineer Leader" hidden="false" collective="false" import="true" defaultSelectionEntryId="7c78-4600-15a2-c242">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c72-7961-69b4-b1b6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8df3-f6d5-9560-cf76" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="7c78-4600-15a2-c242" name="Erland Strykor Leader" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="7c78-4600-15a2-c242" name="Erland Royal Engineer Leader" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33d9-ab85-8abc-ea43" type="max"/>
               </constraints>
@@ -5157,7 +5173,7 @@
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="7.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4703-4726-3fa6-04c4" name="Erland Strykor Senior Leader" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="4703-4726-3fa6-04c4" name="Erland Royal Engineer Senior Leader" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa59-16b2-1335-448b" type="max"/>
               </constraints>
@@ -6078,6 +6094,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b993-e6f0-0586-092e" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="4a64-ac47-cb27-e14a" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -6289,6 +6306,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed2d-14c3-4996-7ada" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="777d-11ad-6fff-f979" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="9.0"/>
@@ -6500,6 +6518,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4cc-07c2-95dc-869f" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="2244-39fd-16d8-7f18" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
@@ -6711,6 +6730,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c26-7069-6df0-7d77" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="847a-a881-dc1f-1e1d" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
@@ -7014,6 +7034,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9d9-4c6e-7940-bd6a" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="df9b-5281-57a7-e708" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -7225,6 +7246,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b30-a605-b829-2c12" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="147a-6642-7ffb-39cd" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="9.0"/>
@@ -7436,6 +7458,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f67-cd33-5600-ccd4" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="986d-648b-c394-b2ea" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
@@ -7647,6 +7670,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53cc-8b6f-2c44-7a81" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="42ff-d054-73cf-1fa9" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
@@ -8762,6 +8786,7 @@
                 <entryLink id="91f1-bdf2-5d00-7fe6" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
                 <entryLink id="d345-62d8-b25a-50c1" name="Kingdom of Erland Secondary Weapons" hidden="false" collective="false" import="true" targetId="48d8-80d6-c35a-76eb" type="selectionEntryGroup"/>
                 <entryLink id="ee42-ec09-23b6-da75" name="Kingdom of Erland Primary Weapons" hidden="false" collective="false" import="true" targetId="466d-8df9-1f2e-c96f" type="selectionEntryGroup"/>
+                <entryLink id="2842-67ba-68f1-54b7" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
@@ -8966,6 +8991,9 @@
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="2d4b-086b-b432-533b" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
+              </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="9.0"/>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="13.0"/>
@@ -9169,6 +9197,9 @@
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="27b0-3cce-0fe2-5907" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
+              </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="11.0"/>
@@ -9372,6 +9403,9 @@
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="351f-df13-3dec-4653" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
+              </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="9.0"/>
@@ -9890,6 +9924,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="08c4-3231-37ad-577e" name="Multi-Use: X" hidden="false" targetId="e4dc-4a37-9d5a-8653" type="rule"/>
+              </infoLinks>
               <entryLinks>
                 <entryLink id="c351-731c-1a0d-2d6f" name="HAVOC Weapons" hidden="false" collective="false" import="true" targetId="f96a-482d-93e3-7cd6" type="selectionEntryGroup"/>
                 <entryLink id="de4f-5355-153c-6d06" name="HAVOC Weapons" hidden="false" collective="false" import="true" targetId="f96a-482d-93e3-7cd6" type="selectionEntryGroup"/>
@@ -9930,6 +9967,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="41d4-8df3-9bca-94f7" name="Multi-Use: X" hidden="false" targetId="e4dc-4a37-9d5a-8653" type="rule"/>
+              </infoLinks>
               <entryLinks>
                 <entryLink id="51a6-29c2-0fc0-8c1d" name="HAVOC Weapons" hidden="false" collective="false" import="true" targetId="f96a-482d-93e3-7cd6" type="selectionEntryGroup"/>
                 <entryLink id="c0ca-6834-fd09-a91f" name="HAVOC Weapons" hidden="false" collective="false" import="true" targetId="f96a-482d-93e3-7cd6" type="selectionEntryGroup"/>

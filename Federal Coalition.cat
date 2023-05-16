@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="521e-09b1-fcdf-951e" name="Federal Coalition" revision="70" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="77" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="521e-09b1-fcdf-951e" name="Federal Coalition" revision="72" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="78" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="8579-7af4-3204-2739" name="Marine Corp Fire Team" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -3773,9 +3773,9 @@ If the model moves, then it must spend another action to reengage the Stabilizer
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="fae2-02e7-08e5-5a73" name="Mechanum Wheels" hidden="false" targetId="eac5-a603-c86b-cdea" type="rule"/>
             <infoLink id="d5db-5fc2-fbb6-d71e" name="Turret" hidden="false" targetId="3a0e-5ed1-3fa7-c5e5" type="rule"/>
             <infoLink id="783a-1e63-2dcd-4eae" name="Armored" hidden="false" targetId="6932-ca7e-0545-70c5" type="rule"/>
+            <infoLink id="82d6-168d-a817-b8fb" name="Mechanum Wheels" hidden="false" targetId="eac5-a603-c86b-cdea" type="rule"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry id="1d61-516d-b80b-bc52" name="Type 101 &quot;Drake&quot; Missile Truck Crew" hidden="false" collective="false" import="true" type="upgrade">
@@ -4925,87 +4925,6 @@ The Models must be in base-to-base contact in order to perform the check.
             <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="db4b-f066-c058-370f" name="Type 17 &quot;Shrike&quot; IFV  Attachment" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c963-5e46-183a-3741" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="e2fc-0338-93cb-0022" name="Type 17 &quot;Shrike&quot; IFV " hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
-              <characteristics>
-                <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559">Mechanum Wheel, Transport: 10, Armored, Armored, Turret, Stablized</characteristic>
-                <characteristic name="DEF" typeId="6644-0c1a-148c-54f2">2</characteristic>
-                <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b">2</characteristic>
-                <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd">2</characteristic>
-                <characteristic name="INT" typeId="8b64-630a-32e8-c175">2</characteristic>
-                <characteristic name="LD" typeId="f27a-4395-502d-0edc">2</characteristic>
-                <characteristic name="ARMOR" typeId="edb2-357a-7123-031f">11/11/10</characteristic>
-                <characteristic name="END" typeId="afaf-9bc5-83c6-72c7">4</characteristic>
-                <characteristic name="NERVE" typeId="9fbd-f3af-434b-c417">4</characteristic>
-                <characteristic name="MOVE" typeId="0d4e-6880-8aca-8e7b">7</characteristic>
-                <characteristic name="SIZE" typeId="e736-9e94-0692-d658">9 -H</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <categoryLinks>
-            <categoryLink id="062d-b6ad-7371-c3b7" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
-            <categoryLink id="cf5e-49f5-a281-ca06" name="Vehicle" hidden="false" targetId="23bb-b58c-3bd2-08fd" primary="false"/>
-            <categoryLink id="7da5-0cf9-eed0-356f" name="Light Support" hidden="false" targetId="8617-cc36-211a-2bfb" primary="true"/>
-          </categoryLinks>
-          <selectionEntries>
-            <selectionEntry id="4a5e-b751-8e1b-b42a" name="Type 17 &quot;Shrike&quot; IFV " hidden="false" collective="false" import="true" type="unit">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3e5-fcda-7ea5-7b77" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d336-3741-ed73-6122" type="min"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="59c2-203a-b0f1-38f0" name="Transport: X" hidden="false" targetId="a899-773b-3970-5c1e" type="rule"/>
-              </infoLinks>
-              <categoryLinks>
-                <categoryLink id="a4ba-60fd-6950-fe87" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
-              </categoryLinks>
-              <selectionEntries>
-                <selectionEntry id="0d8e-b73f-724a-56e9" name="Type 17 &quot;Shrike&quot; IFV Tank Crew" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="687a-0c3b-632c-b74e" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="e24c-3c35-e343-f829" name="Veteran Crew" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11f9-89ee-818e-52df" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="e9a0-1e61-9002-1cdc" name="Voice of Command" hidden="false" targetId="71c1-7cf0-d0e8-989e" type="rule"/>
-                        <infoLink id="b15a-400d-abb1-f494" name="Veteran Crew" hidden="false" targetId="bfb6-9203-8753-c4e1" type="profile"/>
-                        <infoLink id="7508-91d4-2de3-4972" name="Veteran Crew" hidden="false" targetId="7375-bcc8-281c-1b78" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="3.0"/>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="2.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <entryLinks>
-                <entryLink id="c942-0f3b-b489-086f" name="Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="b971-eded-3652-097d" type="selectionEntryGroup"/>
-                <entryLink id="8343-3dbd-dd4b-f117" name="Anti-Personal Weapons " hidden="false" collective="false" import="true" targetId="de60-0d9f-47af-1039" type="selectionEntryGroup"/>
-                <entryLink id="b7d8-3840-335e-6b27" name="IFV Turret Weapons" hidden="false" collective="false" import="true" targetId="ae2e-59ef-2d05-5379" type="selectionEntryGroup"/>
-              </entryLinks>
-              <costs>
-                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="6.0"/>
-                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="20.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="4d0b-6593-8ae6-df38" name="Army Fire Team Squad Leader" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55f1-f0bc-8bac-0643" type="max"/>
@@ -5392,6 +5311,88 @@ The Models must be in base-to-base contact in order to perform the check.
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="48d8-f7a8-34ce-b0bb" name="Type 17 &quot;Shrike&quot; IFV Attachment" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d9b-9b0e-0919-be3c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5b3b-9a8f-3215-f8a3" name="Type 17 &quot;Shrike&quot; IFV " hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
+              <characteristics>
+                <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559">Tracks, Transport: 10, Armored, Armored, Turret, Stablized</characteristic>
+                <characteristic name="DEF" typeId="6644-0c1a-148c-54f2">2</characteristic>
+                <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b">2</characteristic>
+                <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd">2</characteristic>
+                <characteristic name="INT" typeId="8b64-630a-32e8-c175">2</characteristic>
+                <characteristic name="LD" typeId="f27a-4395-502d-0edc">2</characteristic>
+                <characteristic name="ARMOR" typeId="edb2-357a-7123-031f">11/11/10</characteristic>
+                <characteristic name="END" typeId="afaf-9bc5-83c6-72c7">4</characteristic>
+                <characteristic name="NERVE" typeId="9fbd-f3af-434b-c417">4</characteristic>
+                <characteristic name="MOVE" typeId="0d4e-6880-8aca-8e7b">7</characteristic>
+                <characteristic name="SIZE" typeId="e736-9e94-0692-d658">9 -H</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="a709-b9e8-c7ea-1f69" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
+            <categoryLink id="4da1-a63f-f71a-cac6" name="Vehicle" hidden="false" targetId="23bb-b58c-3bd2-08fd" primary="false"/>
+            <categoryLink id="5d92-e02a-ded0-61f4" name="Light Support" hidden="false" targetId="8617-cc36-211a-2bfb" primary="true"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="a97d-34f6-1788-cf24" name="Type 17 &quot;Shrike&quot; IFV " hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3064-fb50-8534-5664" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0c4-a5ac-a73a-df3c" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="19fe-4ee3-c822-0dcc" name="Transport: X" hidden="false" targetId="a899-773b-3970-5c1e" type="rule"/>
+                <infoLink id="5f75-edd2-6116-cd1b" name="Tracks" hidden="false" targetId="7fd5-3ad1-0482-19ca" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="fdc8-138b-c04b-9254" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="fd47-e733-afc9-24db" name="Type 17 &quot;Shrike&quot; IFV Tank Crew" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="791b-5af0-0988-2b26" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="2909-e92b-092e-04da" name="Veteran Crew" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b855-103a-d8d4-919e" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="0791-f796-878e-b60a" name="Voice of Command" hidden="false" targetId="71c1-7cf0-d0e8-989e" type="rule"/>
+                        <infoLink id="1500-5c3f-ec0c-9edc" name="Veteran Crew" hidden="false" targetId="bfb6-9203-8753-c4e1" type="profile"/>
+                        <infoLink id="6842-f528-2e1e-a333" name="Veteran Crew" hidden="false" targetId="7375-bcc8-281c-1b78" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="3.0"/>
+                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="2.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="2e2e-cb9d-f4ef-0203" name="Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="b971-eded-3652-097d" type="selectionEntryGroup"/>
+                <entryLink id="e17f-9210-d055-ab08" name="Anti-Personal Weapons " hidden="false" collective="false" import="true" targetId="de60-0d9f-47af-1039" type="selectionEntryGroup"/>
+                <entryLink id="608a-5456-0f25-80db" name="IFV Turret Weapons" hidden="false" collective="false" import="true" targetId="ae2e-59ef-2d05-5379" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="6.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="20.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
             <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
@@ -7625,87 +7626,6 @@ The Models must be in base-to-base contact in order to perform the check.
             <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1249-dfb2-4aef-7b84" name="Type 17 &quot;Shrike&quot; IFV  Attachment" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21e1-d95d-1957-c3ad" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="ac71-582b-a1b8-2c7a" name="Type 17 &quot;Shrike&quot; IFV " hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
-              <characteristics>
-                <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559">Mechanum Wheel, Transport: 10, Armored, Armored, Turret, Stablized</characteristic>
-                <characteristic name="DEF" typeId="6644-0c1a-148c-54f2">2</characteristic>
-                <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b">2</characteristic>
-                <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd">2</characteristic>
-                <characteristic name="INT" typeId="8b64-630a-32e8-c175">2</characteristic>
-                <characteristic name="LD" typeId="f27a-4395-502d-0edc">2</characteristic>
-                <characteristic name="ARMOR" typeId="edb2-357a-7123-031f">11/11/10</characteristic>
-                <characteristic name="END" typeId="afaf-9bc5-83c6-72c7">4</characteristic>
-                <characteristic name="NERVE" typeId="9fbd-f3af-434b-c417">4</characteristic>
-                <characteristic name="MOVE" typeId="0d4e-6880-8aca-8e7b">7</characteristic>
-                <characteristic name="SIZE" typeId="e736-9e94-0692-d658">9 -H</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <categoryLinks>
-            <categoryLink id="4612-ec97-2fbc-ab71" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
-            <categoryLink id="d1c5-ba88-ea4e-105b" name="Vehicle" hidden="false" targetId="23bb-b58c-3bd2-08fd" primary="false"/>
-            <categoryLink id="c40e-511f-1a4f-e856" name="Light Support" hidden="false" targetId="8617-cc36-211a-2bfb" primary="true"/>
-          </categoryLinks>
-          <selectionEntries>
-            <selectionEntry id="55fa-2d10-1fc8-caef" name="Type 17 &quot;Shrike&quot; IFV " hidden="false" collective="false" import="true" type="unit">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bafe-05b5-eed1-e137" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="721c-cd02-3608-c427" type="min"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="b5e4-2d80-b019-18d1" name="Transport: X" hidden="false" targetId="a899-773b-3970-5c1e" type="rule"/>
-              </infoLinks>
-              <categoryLinks>
-                <categoryLink id="ab31-c616-de0a-ff10" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
-              </categoryLinks>
-              <selectionEntries>
-                <selectionEntry id="8c79-1575-eb7b-37f1" name="Type 17 &quot;Shrike&quot; IFV Tank Crew" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c314-1570-9705-2d3d" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="c195-c49a-193a-e06f" name="Veteran Crew" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de3c-11b2-8356-7684" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="42ed-c397-6521-2456" name="Voice of Command" hidden="false" targetId="71c1-7cf0-d0e8-989e" type="rule"/>
-                        <infoLink id="ed59-8156-967d-ce2d" name="Veteran Crew" hidden="false" targetId="bfb6-9203-8753-c4e1" type="profile"/>
-                        <infoLink id="563a-2b41-46a5-b209" name="Veteran Crew" hidden="false" targetId="7375-bcc8-281c-1b78" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="3.0"/>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="2.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <entryLinks>
-                <entryLink id="95fb-5f7f-57aa-f7df" name="Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="b971-eded-3652-097d" type="selectionEntryGroup"/>
-                <entryLink id="3025-94fd-1a32-634c" name="Anti-Personal Weapons " hidden="false" collective="false" import="true" targetId="de60-0d9f-47af-1039" type="selectionEntryGroup"/>
-                <entryLink id="49bf-6edf-a2a7-8ff7" name="IFV Turret Weapons" hidden="false" collective="false" import="true" targetId="ae2e-59ef-2d05-5379" type="selectionEntryGroup"/>
-              </entryLinks>
-              <costs>
-                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="6.0"/>
-                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="20.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="2978-3b31-bf85-e275" name="Type 22 &quot;Raven&quot; Joint Light Tactical Vehicle Attachment" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7a4-616c-870b-8418" type="max"/>
@@ -7791,6 +7711,88 @@ The Models must be in base-to-base contact in order to perform the check.
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="4.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="20.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9fa3-231f-2601-8e54" name="Type 17 &quot;Shrike&quot; IFV Attachment" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffc5-bfb0-4748-1d89" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="713f-28c3-303a-68ba" name="Type 17 &quot;Shrike&quot; IFV " hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
+              <characteristics>
+                <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559">Tracks, Transport: 10, Armored, Armored, Turret, Stablized</characteristic>
+                <characteristic name="DEF" typeId="6644-0c1a-148c-54f2">2</characteristic>
+                <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b">2</characteristic>
+                <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd">2</characteristic>
+                <characteristic name="INT" typeId="8b64-630a-32e8-c175">2</characteristic>
+                <characteristic name="LD" typeId="f27a-4395-502d-0edc">2</characteristic>
+                <characteristic name="ARMOR" typeId="edb2-357a-7123-031f">11/11/10</characteristic>
+                <characteristic name="END" typeId="afaf-9bc5-83c6-72c7">4</characteristic>
+                <characteristic name="NERVE" typeId="9fbd-f3af-434b-c417">4</characteristic>
+                <characteristic name="MOVE" typeId="0d4e-6880-8aca-8e7b">7</characteristic>
+                <characteristic name="SIZE" typeId="e736-9e94-0692-d658">9 -H</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="7754-0c66-373e-3d9d" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
+            <categoryLink id="63c8-10a3-b599-b7ba" name="Vehicle" hidden="false" targetId="23bb-b58c-3bd2-08fd" primary="false"/>
+            <categoryLink id="84b6-1477-4252-97b8" name="Light Support" hidden="false" targetId="8617-cc36-211a-2bfb" primary="true"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="d3ee-a79e-4651-7103" name="Type 17 &quot;Shrike&quot; IFV " hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11ac-2115-09e3-3e6d" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d44-c57f-eb0b-0e38" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="d11d-1e85-499f-9832" name="Transport: X" hidden="false" targetId="a899-773b-3970-5c1e" type="rule"/>
+                <infoLink id="b4fa-f6b1-5bb0-41b7" name="Tracks" hidden="false" targetId="7fd5-3ad1-0482-19ca" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="a58f-d0f9-688c-7586" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="a3c6-4ba9-5d77-3d0c" name="Type 17 &quot;Shrike&quot; IFV Tank Crew" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0473-c2ac-b267-bf95" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="834a-00fa-b1e3-0f18" name="Veteran Crew" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fda8-a2ca-5b12-6b06" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="3b85-6624-d287-a514" name="Voice of Command" hidden="false" targetId="71c1-7cf0-d0e8-989e" type="rule"/>
+                        <infoLink id="4af3-73ed-2422-73ba" name="Veteran Crew" hidden="false" targetId="bfb6-9203-8753-c4e1" type="profile"/>
+                        <infoLink id="7d29-44a4-8fc2-66f9" name="Veteran Crew" hidden="false" targetId="7375-bcc8-281c-1b78" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="3.0"/>
+                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="2.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="cf56-3843-babf-a7ad" name="Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="b971-eded-3652-097d" type="selectionEntryGroup"/>
+                <entryLink id="3de6-0bdc-8aca-3d07" name="Anti-Personal Weapons " hidden="false" collective="false" import="true" targetId="de60-0d9f-47af-1039" type="selectionEntryGroup"/>
+                <entryLink id="3a7c-c092-aa5c-f03e" name="IFV Turret Weapons" hidden="false" collective="false" import="true" targetId="ae2e-59ef-2d05-5379" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="6.0"/>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="20.0"/>
               </costs>
             </selectionEntry>
@@ -8809,7 +8811,7 @@ The Models must be in base-to-base contact in order to perform the check.
               <profiles>
                 <profile id="ce24-95bc-5df6-8a84" name="A-9 &quot;Outlaw&quot; HAVOC Support" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                   <characteristics>
-                    <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
+                    <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Multi-Use: 3, Fly</characteristic>
                     <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
                     <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e"/>
                     <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36"/>
@@ -8825,6 +8827,7 @@ The Models must be in base-to-base contact in order to perform the check.
               </profiles>
               <infoLinks>
                 <infoLink id="94e1-d599-4ba9-d912" name="Fly" hidden="false" targetId="798d-95bc-1064-e636" type="rule"/>
+                <infoLink id="fa38-af33-143e-b801" name="Multi-Use: X" hidden="false" targetId="e4dc-4a37-9d5a-8653" type="rule"/>
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="7a4d-f5ab-1df1-22e6" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
@@ -8937,7 +8940,7 @@ The Models must be in base-to-base contact in order to perform the check.
               <profiles>
                 <profile id="089e-e28b-4177-495d" name="AV-34 &quot;Herald&quot; Gunship HAVOC Support" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
                   <characteristics>
-                    <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
+                    <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Multi-Use: 2, Fly</characteristic>
                     <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
                     <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e"/>
                     <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36"/>
@@ -8953,6 +8956,7 @@ The Models must be in base-to-base contact in order to perform the check.
               </profiles>
               <infoLinks>
                 <infoLink id="5dd6-d8f4-a702-6c3c" name="Fly" hidden="false" targetId="798d-95bc-1064-e636" type="rule"/>
+                <infoLink id="d1cc-c65e-de6d-eb6d" name="Multi-Use: X" hidden="false" targetId="e4dc-4a37-9d5a-8653" type="rule"/>
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="b648-ecf3-d4db-80f0" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
@@ -9021,7 +9025,7 @@ The Models must be in base-to-base contact in order to perform the check.
           <profiles>
             <profile id="9502-e8eb-64a4-e155" name="A-9 &quot;Outlaw&quot; HAVOC Support" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
               <characteristics>
-                <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
+                <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Multi-Use: 3, Fly</characteristic>
                 <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
                 <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e"/>
                 <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36"/>
@@ -9037,6 +9041,7 @@ The Models must be in base-to-base contact in order to perform the check.
           </profiles>
           <infoLinks>
             <infoLink id="ce27-d7f1-7434-6107" name="Fly" hidden="false" targetId="798d-95bc-1064-e636" type="rule"/>
+            <infoLink id="8a4b-10d9-f5e2-d819" name="Multi-Use: X" hidden="false" targetId="e4dc-4a37-9d5a-8653" type="rule"/>
           </infoLinks>
           <categoryLinks>
             <categoryLink id="339c-3335-1cd7-8758" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
@@ -9149,7 +9154,7 @@ The Models must be in base-to-base contact in order to perform the check.
           <profiles>
             <profile id="c86d-e80a-5bec-f206" name="AV-34 &quot;Herald&quot; Gunship HAVOC Support" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
               <characteristics>
-                <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
+                <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Multi-Use: 2, Fly</characteristic>
                 <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
                 <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e"/>
                 <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36"/>
@@ -9165,6 +9170,7 @@ The Models must be in base-to-base contact in order to perform the check.
           </profiles>
           <infoLinks>
             <infoLink id="a254-a7d8-e4c7-1f87" name="Fly" hidden="false" targetId="798d-95bc-1064-e636" type="rule"/>
+            <infoLink id="1ca4-e281-07f9-b639" name="Multi-Use: X" hidden="false" targetId="e4dc-4a37-9d5a-8653" type="rule"/>
           </infoLinks>
           <categoryLinks>
             <categoryLink id="0899-706a-3536-7003" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
@@ -9216,7 +9222,7 @@ The Models must be in base-to-base contact in order to perform the check.
       <profiles>
         <profile id="022f-3015-dc48-5f66" name="Type 17 &quot;Shrike&quot; IFV " hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
           <characteristics>
-            <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559">Mechanum Wheel, Transport: 10, Armored, Armored, Turret, Stablized</characteristic>
+            <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559">Tracks, Transport: 10, Armored, Armored, Turret, Stablized</characteristic>
             <characteristic name="DEF" typeId="6644-0c1a-148c-54f2">2</characteristic>
             <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b">2</characteristic>
             <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd">2</characteristic>
@@ -9243,6 +9249,7 @@ The Models must be in base-to-base contact in order to perform the check.
           </constraints>
           <infoLinks>
             <infoLink id="60d9-fbed-acbf-3de3" name="Transport: X" hidden="false" targetId="a899-773b-3970-5c1e" type="rule"/>
+            <infoLink id="bec5-816e-454f-54c2" name="Tracks" hidden="false" targetId="7fd5-3ad1-0482-19ca" type="rule"/>
           </infoLinks>
           <categoryLinks>
             <categoryLink id="291d-b59a-8b6a-36a2" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
