@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cb27-a002-56ed-3016" name="The Independents" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="80" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cb27-a002-56ed-3016" name="The Independents" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="81" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="f59a-401b-e3f6-1d3a" name="Remnant Chronicles "/>
   </publications>
@@ -880,6 +880,7 @@
             <entryLink id="9cf3-9a43-4784-cf8f" name="RIG Upgrades" hidden="false" collective="false" import="true" targetId="4faf-5b94-d5cf-3109" type="selectionEntryGroup"/>
             <entryLink id="3486-ff1e-dc4d-f027" name="RIG Carried Weapons" hidden="false" collective="false" import="true" targetId="afde-fee0-43c5-8571" type="selectionEntryGroup"/>
             <entryLink id="4348-8b5d-f0ca-b2a1" name="RIG Shoulder Mounts" hidden="false" collective="false" import="true" targetId="3288-9d0a-8702-8c0d" type="selectionEntryGroup"/>
+            <entryLink id="3004-e088-599d-2c50" name="2x Metal Fist" hidden="false" collective="false" import="true" targetId="2f1a-7d84-3211-acf7" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="6.0"/>
@@ -1320,6 +1321,7 @@
             <entryLink id="7b1c-97f8-e1e2-a42d" name="RIG Left Arm" hidden="false" collective="false" import="true" targetId="cd1a-aa2a-4b5e-3776" type="selectionEntryGroup"/>
             <entryLink id="0a30-a444-515e-95d9" name="RIG Upgrades" hidden="false" collective="false" import="true" targetId="4faf-5b94-d5cf-3109" type="selectionEntryGroup"/>
             <entryLink id="baea-ca6a-e16d-28fa" name="RIG Shoulder Mounts" hidden="false" collective="false" import="true" targetId="3288-9d0a-8702-8c0d" type="selectionEntryGroup"/>
+            <entryLink id="4e26-6904-e44f-c6a1" name="2x Metal Arm" hidden="false" collective="false" import="true" targetId="5a24-dd53-8a76-73ed" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="4.0"/>
@@ -1622,6 +1624,7 @@
             <entryLink id="8e9c-2297-62f8-98f7" name="RIG Upgrades" hidden="false" collective="false" import="true" targetId="4faf-5b94-d5cf-3109" type="selectionEntryGroup"/>
             <entryLink id="7d3a-5f6f-bbc4-308c" name="RIG Carried Weapons" hidden="false" collective="false" import="true" targetId="afde-fee0-43c5-8571" type="selectionEntryGroup"/>
             <entryLink id="984b-d1b6-1521-be7b" name="RIG Shoulder Mounts" hidden="false" collective="false" import="true" targetId="3288-9d0a-8702-8c0d" type="selectionEntryGroup"/>
+            <entryLink id="a6c2-7559-2cfb-cd95" name="2x Metal Fist" hidden="false" collective="false" import="true" targetId="2f1a-7d84-3211-acf7" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="6.0"/>
@@ -2457,6 +2460,7 @@
             <entryLink id="8176-35be-dbf5-3909" name="RIG Right Arm" hidden="false" collective="false" import="true" targetId="8045-7cb6-9adb-2d59" type="selectionEntryGroup"/>
             <entryLink id="d396-22bf-deaf-1978" name="RIG Upgrades" hidden="false" collective="false" import="true" targetId="4faf-5b94-d5cf-3109" type="selectionEntryGroup"/>
             <entryLink id="c6ab-be5a-98cc-9e47" name="RIG Shoulder Mounts" hidden="false" collective="false" import="true" targetId="3288-9d0a-8702-8c0d" type="selectionEntryGroup"/>
+            <entryLink id="b96f-4b76-e7f5-937a" name="2x Metal Arm" hidden="false" collective="false" import="true" targetId="5a24-dd53-8a76-73ed" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="6.0"/>

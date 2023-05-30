@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="36df-1e33-682e-8730" name="Protectorate Defense League" revision="63" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="78" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="36df-1e33-682e-8730" name="Protectorate Defense League" revision="64" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="81" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="4d34-eb9d-7579-bc94" name="Remnant Chronicles "/>
   </publications>
@@ -1206,6 +1206,7 @@ Ammo: OOO
             <entryLink id="e964-60e9-edd3-d4c4" name="RIG Upgrades" hidden="false" collective="false" import="true" targetId="4faf-5b94-d5cf-3109" type="selectionEntryGroup"/>
             <entryLink id="effb-0b1c-dc31-f57c" name="RIG Shoulder Mounts" hidden="false" collective="false" import="true" targetId="3288-9d0a-8702-8c0d" type="selectionEntryGroup"/>
             <entryLink id="10ff-bf92-7347-7928" name="RIG Carried Weapons" hidden="false" collective="false" import="true" targetId="afde-fee0-43c5-8571" type="selectionEntryGroup"/>
+            <entryLink id="8d3d-a749-f80d-65a7" name="2x Metal Fist" hidden="false" collective="false" import="true" targetId="2f1a-7d84-3211-acf7" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="6.0"/>
@@ -5289,6 +5290,7 @@ Ammo: OOO
             <entryLink id="05e0-b325-7176-2e6f" name="RIG Right Arm" hidden="false" collective="false" import="true" targetId="8045-7cb6-9adb-2d59" type="selectionEntryGroup"/>
             <entryLink id="cf1b-c6bb-4f75-9fe7" name="RIG Upgrades" hidden="false" collective="false" import="true" targetId="4faf-5b94-d5cf-3109" type="selectionEntryGroup"/>
             <entryLink id="3942-02ee-3ea4-528d" name="RIG Shoulder Mounts" hidden="false" collective="false" import="true" targetId="3288-9d0a-8702-8c0d" type="selectionEntryGroup"/>
+            <entryLink id="4c25-9169-9a87-9ef3" name="2x Metal Arm" hidden="false" collective="false" import="true" targetId="5a24-dd53-8a76-73ed" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="4.0"/>

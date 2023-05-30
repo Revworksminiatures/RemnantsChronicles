@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="80" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3b5b-1b6b-db22-4180" name="Remnant Chronicles " revision="81" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="8db2-3d51-7944-b9de" name="Remnant Chronicles "/>
   </publications>
@@ -5456,6 +5456,54 @@ Once a Token has been rolled for and the result applied, remove it from the game
       <costs>
         <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="-3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2f1a-7d84-3211-acf7" name="2x Metal Fist" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5988-5905-f040-967a" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d45-6744-7a98-dc0d" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="de70-ce10-4a56-54ff" name="RIG Metal Fist" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Melee	</characteristic>
+            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">Base	</characteristic>
+            <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">10</characteristic>
+            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Rend</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4292-2ff3-cc81-9b81" name="Rend" hidden="false" targetId="9e49-e071-e1b4-4580" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5a24-dd53-8a76-73ed" name="2x Metal Arm" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7306-0419-58cc-ef2c" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d542-f006-5130-fb50" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="2a96-0b7b-3bb6-5a1c" name="RIG Metal Arm" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Melee	</characteristic>
+            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">Base	</characteristic>
+            <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">10</characteristic>
+            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Rend</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e68f-591b-3602-84bf" name="Rend" hidden="false" targetId="9e49-e071-e1b4-4580" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
