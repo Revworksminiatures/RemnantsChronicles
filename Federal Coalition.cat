@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="521e-09b1-fcdf-951e" name="Federal Coalition" revision="72" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="78" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="521e-09b1-fcdf-951e" name="Federal Coalition" revision="73" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="81" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="8579-7af4-3204-2739" name="Marine Corp Fire Team" publicationId="8db2-3d51-7944-b9de" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -1923,6 +1923,7 @@ If the model moves, then it must spend another action to reengage the Stabilizer
             <entryLink id="cb74-1e93-0597-7a55" name="RIG Upgrades" hidden="false" collective="false" import="true" targetId="4faf-5b94-d5cf-3109" type="selectionEntryGroup"/>
             <entryLink id="9cfa-56c7-84e3-5840" name="RIG Shoulder Mounts" hidden="false" collective="false" import="true" targetId="3288-9d0a-8702-8c0d" type="selectionEntryGroup"/>
             <entryLink id="2a0b-19f8-fdb6-3f16" name="RIG Carried Weapons" hidden="false" collective="false" import="true" targetId="afde-fee0-43c5-8571" type="selectionEntryGroup"/>
+            <entryLink id="5f1c-8ad9-1f9a-2e88" name="2x Metal Fist" hidden="false" collective="false" import="true" targetId="2f1a-7d84-3211-acf7" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="6.0"/>
@@ -12787,6 +12788,7 @@ The Models must be in base-to-base contact in order to perform the check.
             <entryLink id="79b4-fdcb-75cb-d9e7" name="RIG Upgrades" hidden="false" collective="false" import="true" targetId="4faf-5b94-d5cf-3109" type="selectionEntryGroup"/>
             <entryLink id="9274-486d-bb6c-b641" name="RIG Left Arm" hidden="false" collective="false" import="true" targetId="cd1a-aa2a-4b5e-3776" type="selectionEntryGroup"/>
             <entryLink id="61ea-21e2-2f62-4ac4" name="RIG Right Arm" hidden="false" collective="false" import="true" targetId="8045-7cb6-9adb-2d59" type="selectionEntryGroup"/>
+            <entryLink id="8a8e-87ed-f873-89cf" name="2x Metal Arm" hidden="false" collective="false" import="true" targetId="5a24-dd53-8a76-73ed" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="4.0"/>
@@ -12872,6 +12874,7 @@ The Models must be in base-to-base contact in order to perform the check.
             <entryLink id="4042-e510-f331-6596" name="RIG Shoulder Mounts" hidden="false" collective="false" import="true" targetId="3288-9d0a-8702-8c0d" type="selectionEntryGroup"/>
             <entryLink id="e34f-1ae3-5578-747e" name="RIG Upgrades" hidden="false" collective="false" import="true" targetId="4faf-5b94-d5cf-3109" type="selectionEntryGroup"/>
             <entryLink id="f709-3fc5-7a2a-fdd2" name="RIG Carried Weapons" hidden="false" collective="false" import="true" targetId="afde-fee0-43c5-8571" type="selectionEntryGroup"/>
+            <entryLink id="ae91-89b2-d68b-71e1" name="2x Metal Fist" hidden="false" collective="false" import="true" targetId="2f1a-7d84-3211-acf7" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="6.0"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4543-f73a-9a1c-b8d4" name="Kingdom of Erland" revision="9" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="78" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4543-f73a-9a1c-b8d4" name="Kingdom of Erland" revision="10" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="81" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3e2d-c10c-14ff-f523" name="Remnant Chronicles "/>
   </publications>
@@ -9621,6 +9621,7 @@
             <entryLink id="2f96-c7f7-45cc-8998" name="RIG Upgrades" hidden="false" collective="false" import="true" targetId="4faf-5b94-d5cf-3109" type="selectionEntryGroup"/>
             <entryLink id="f31b-40ec-b84e-83cf" name="RIG Carried Weapons" hidden="false" collective="false" import="true" targetId="afde-fee0-43c5-8571" type="selectionEntryGroup"/>
             <entryLink id="2f6e-5671-ddde-7ca5" name="RIG Shoulder Mounts" hidden="false" collective="false" import="true" targetId="3288-9d0a-8702-8c0d" type="selectionEntryGroup"/>
+            <entryLink id="75ff-6045-3482-797b" name="2x Metal Fist" hidden="false" collective="false" import="true" targetId="2f1a-7d84-3211-acf7" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="6.0"/>
@@ -10465,6 +10466,7 @@
             <entryLink id="23a6-27ec-91e0-5f5f" name="RIG Shoulder Mounts" hidden="false" collective="false" import="true" targetId="3288-9d0a-8702-8c0d" type="selectionEntryGroup"/>
             <entryLink id="d47e-9258-72a6-9be3" name="RIG Left Arm" hidden="false" collective="false" import="true" targetId="cd1a-aa2a-4b5e-3776" type="selectionEntryGroup"/>
             <entryLink id="bb05-9196-df90-86db" name="RIG Right Arm" hidden="false" collective="false" import="true" targetId="8045-7cb6-9adb-2d59" type="selectionEntryGroup"/>
+            <entryLink id="fcbd-614c-0ef7-b2f7" name="2x Metal Arm" hidden="false" collective="false" import="true" targetId="5a24-dd53-8a76-73ed" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="4.0"/>
