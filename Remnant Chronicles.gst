@@ -867,6 +867,44 @@ Every model in the unit that uses this Tactical Asset will automatically take an
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="264d-340f-ec10-cd06" name="•Duty and Honor ((United Commonwealth of Martyr)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8dc0-9373-9db0-d163" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de27-ead9-fb62-05c7" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="e54d-2c00-585e-c1d9" name="•Duty and Honor (UCoM)" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8811-0ac3-0db8-ac59" name="•Grenadier Assault (United Commonwealth of Martyr)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8dc0-9373-9db0-d163" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6397-eafd-4659-60b2" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="bbd6-83b9-c34c-88cf" name="•Grenadier Assault (UCoM)" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
@@ -1377,6 +1415,25 @@ Immediately search your deck for a command card of your choosing and play it wit
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="4bce-44d6-264e-7f6a" name="••We&apos;re Liberators, Not Conquerors! (United Commonwealth of Martyr)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="8dc0-9373-9db0-d163" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cdf-4ef0-9b2b-56b4" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="35f6-58ff-e017-ce6f" name="••We&apos;re Liberators, Not Conquerors!" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
@@ -1478,6 +1535,27 @@ Orbital Strike
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2388-cd28-5040-fd13" name="•••Extra Stockpiles" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c744-1e1c-b9b4-cd76" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bef-81fe-72b2-99f2" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="c58c-abb6-6317-ef8f" name="•••Extra Stockpiles" hidden="false">
+                  <description>Play this card before the game begins. This card allows you to draw a additional stockpile selection in addition to the required 2 stockpiles. This stockpile cannot be from the same stockpiles that you have already selected. Discard this card before the game begins.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1640,13 +1718,13 @@ Casualties can only be secured by bringing them in contact with your home edge.
             <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1934-e0fc-dff6-23cc" name="Campaign " hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1934-e0fc-dff6-23cc" name="Era of Play" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91f5-05e5-c08e-91de" type="max"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d4a-32a2-9870-7eac" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d4a-32a2-9870-7eac" type="min"/>
           </constraints>
           <rules>
-            <rule id="fd81-904f-b597-f53b" name="Campaign " hidden="false">
+            <rule id="fd81-904f-b597-f53b" name="Era of Play" hidden="false">
               <description>This is for narrative games or players wishing to recreate battles from the lore.</description>
             </rule>
           </rules>
