@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="d99b-3164-81f3-77cd" name="United Commonwealth of Martyr" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="81" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="7ea1-eed0-0651-6865" name="StormTroopers Fire Team" hidden="false" collective="false" import="true" type="unit"/>
+    <selectionEntry id="84be-4571-a0b4-b99c" name="MI-236 &quot;Warrior&quot; RIG" hidden="false" collective="false" import="true" type="unit"/>
+    <selectionEntry id="cae7-bb27-95cd-9c98" name="MI-52 &quot;Torrent&quot; HAVOC Fighter" hidden="false" collective="false" import="true" type="model"/>
+    <selectionEntry id="2ea1-3120-4783-8093" name="Hunter Light Infantry Fire Team" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="af4b-a65f-b6cf-ab23" name="Close Assault Trooper (CAT Mk1)" hidden="false" collective="false" import="true" type="upgrade"/>
+  </selectionEntries>
+</catalogue>
