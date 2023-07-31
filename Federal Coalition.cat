@@ -2176,7 +2176,6 @@ If the model moves, then it must spend another action to reengage the Stabilizer
       </profiles>
       <infoLinks>
         <infoLink id="f3ce-dfec-5a7b-cbf3" name="Infiltrate" hidden="false" targetId="f16d-2b45-0d6e-55b0" type="rule"/>
-        <infoLink id="b9bf-325a-4e5d-1fd0" name="High Altitude Drop Orbital Certificated (HADOC)" hidden="false" targetId="8d5a-3e7b-2ed4-4891" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="51e1-2c80-a738-2ec1" name="Faction: Federal Coalition " hidden="false" targetId="f4fd-5a8f-736f-a498" primary="false"/>
@@ -3351,7 +3350,6 @@ If the model moves, then it must spend another action to reengage the Stabilizer
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="ef51-95d1-d5f4-5683" name="Infiltrate" hidden="false" targetId="f16d-2b45-0d6e-55b0" type="rule"/>
         <infoLink id="71c1-2896-6c05-7911" name="High Altitude Drop Orbital Certificated (HADOC)" hidden="false" targetId="8d5a-3e7b-2ed4-4891" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -3464,19 +3462,19 @@ If the model moves, then it must spend another action to reengage the Stabilizer
                 </selectionEntry>
                 <selectionEntry id="5eeb-0a46-4e01-3b17" name="Marine Senior Enlisted" hidden="false" collective="false" import="true" type="upgrade">
                   <profiles>
-                    <profile id="9a94-6028-1f1b-effd" name="Force Recon Marine Senior Enlisted " hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
+                    <profile id="0b93-55b8-fe47-a0c0" name="Force Recon Marine Senior Enlisted" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
                       <characteristics>
                         <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
-                        <characteristic name="DEF" typeId="6327-fd82-8107-5ea3"/>
-                        <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa"/>
-                        <characteristic name="ATHL" typeId="c988-b08c-df98-0786"/>
-                        <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d"/>
-                        <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13"/>
-                        <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99"/>
-                        <characteristic name="END" typeId="3d52-4bc1-5a65-f947"/>
-                        <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7"/>
-                        <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283"/>
-                        <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6"/>
+                        <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">3</characteristic>
+                        <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">3</characteristic>
+                        <characteristic name="ATHL" typeId="c988-b08c-df98-0786">2</characteristic>
+                        <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">2</characteristic>
+                        <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">3</characteristic>
+                        <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+                        <characteristic name="END" typeId="3d52-4bc1-5a65-f947">3</characteristic>
+                        <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+                        <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+                        <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5-Med</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7852,7 +7850,6 @@ The Models must be in base-to-base contact in order to perform the check.
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="9f78-09b1-a913-93ed" name="Infiltrate" hidden="false" targetId="f16d-2b45-0d6e-55b0" type="rule"/>
         <infoLink id="0f46-c00f-0c42-d7b7" name="High Altitude Drop Orbital Certificated (HADOC)" hidden="false" targetId="8d5a-3e7b-2ed4-4891" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -10975,19 +10972,19 @@ The Models must be in base-to-base contact in order to perform the check.
                 </selectionEntry>
                 <selectionEntry id="b947-2856-30bd-a72b" name="Marine Senior Enlisted" hidden="false" collective="false" import="true" type="upgrade">
                   <profiles>
-                    <profile id="1173-fc8c-7347-515a" name="Marine Scout Sniper Senior Enlisted" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
+                    <profile id="9609-4a21-87c7-5b03" name="Marine Scout Sniper Senior Enlisted" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
                       <characteristics>
                         <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
-                        <characteristic name="DEF" typeId="6327-fd82-8107-5ea3"/>
-                        <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa"/>
-                        <characteristic name="ATHL" typeId="c988-b08c-df98-0786"/>
-                        <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d"/>
-                        <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13"/>
-                        <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99"/>
-                        <characteristic name="END" typeId="3d52-4bc1-5a65-f947"/>
-                        <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7"/>
-                        <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283"/>
-                        <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6"/>
+                        <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">3</characteristic>
+                        <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">3</characteristic>
+                        <characteristic name="ATHL" typeId="c988-b08c-df98-0786">2</characteristic>
+                        <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">2</characteristic>
+                        <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">3</characteristic>
+                        <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+                        <characteristic name="END" typeId="3d52-4bc1-5a65-f947">3</characteristic>
+                        <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+                        <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+                        <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5-Med</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -12806,6 +12803,11 @@ The Models must be in base-to-base contact in order to perform the check.
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dc15-f71d-62a9-3f05" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2cef-46af-9a52-a214" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>

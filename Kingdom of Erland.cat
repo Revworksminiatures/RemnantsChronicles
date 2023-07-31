@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4543-f73a-9a1c-b8d4" name="Kingdom of Erland" revision="10" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="81" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4543-f73a-9a1c-b8d4" name="Kingdom of Erland" revision="11" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="3b5b-1b6b-db22-4180" gameSystemRevision="81" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3e2d-c10c-14ff-f523" name="Remnant Chronicles "/>
   </publications>
@@ -115,19 +115,19 @@
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a80e-c8f4-1096-f9a2" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="47b5-2a71-6bb2-b5d8" name="RER &quot;Squire&quot; Mobile Combat Unit" hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
+                    <profile id="94fd-1739-826b-a99f" name="Squire Support Squad" hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
                       <characteristics>
-                        <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559"/>
-                        <characteristic name="DEF" typeId="6644-0c1a-148c-54f2"/>
-                        <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b"/>
-                        <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd"/>
-                        <characteristic name="INT" typeId="8b64-630a-32e8-c175"/>
-                        <characteristic name="LD" typeId="f27a-4395-502d-0edc"/>
-                        <characteristic name="ARMOR" typeId="edb2-357a-7123-031f"/>
-                        <characteristic name="END" typeId="afaf-9bc5-83c6-72c7"/>
-                        <characteristic name="NERVE" typeId="9fbd-f3af-434b-c417"/>
-                        <characteristic name="MOVE" typeId="0d4e-6880-8aca-8e7b"/>
-                        <characteristic name="SIZE" typeId="e736-9e94-0692-d658"/>
+                        <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559">Construct, Bulky, Cumbersome, Tracked, Stablized, Resist EM:2 Sensor Package</characteristic>
+                        <characteristic name="DEF" typeId="6644-0c1a-148c-54f2">2</characteristic>
+                        <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b">2</characteristic>
+                        <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd">3</characteristic>
+                        <characteristic name="INT" typeId="8b64-630a-32e8-c175">1</characteristic>
+                        <characteristic name="LD" typeId="f27a-4395-502d-0edc">1</characteristic>
+                        <characteristic name="ARMOR" typeId="edb2-357a-7123-031f">11/10/9</characteristic>
+                        <characteristic name="END" typeId="afaf-9bc5-83c6-72c7">1(4)</characteristic>
+                        <characteristic name="NERVE" typeId="9fbd-f3af-434b-c417">-</characteristic>
+                        <characteristic name="MOVE" typeId="0d4e-6880-8aca-8e7b">6</characteristic>
+                        <characteristic name="SIZE" typeId="e736-9e94-0692-d658">5-Med</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -145,11 +145,11 @@
                           <profiles>
                             <profile id="bf6d-de0e-92f1-ec91" name="7.5mm MMG" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
                               <characteristics>
-                                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                                <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+                                <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct </characteristic>
+                                <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">30/60/OO</characteristic>
+                                <characteristic name="ROF" typeId="84c1-58a6-c210-6200">2-3</characteristic>
+                                <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">11</characteristic>
+                                <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Belt Fed</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -182,6 +182,23 @@
                           <constraints>
                             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ce5-8c6e-a67a-1beb" type="max"/>
                           </constraints>
+                          <profiles>
+                            <profile id="74b0-e7be-3e0a-e67b" name="7.5mm Missile Launcher" hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
+                              <characteristics>
+                                <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559"/>
+                                <characteristic name="DEF" typeId="6644-0c1a-148c-54f2"/>
+                                <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b"/>
+                                <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd"/>
+                                <characteristic name="INT" typeId="8b64-630a-32e8-c175"/>
+                                <characteristic name="LD" typeId="f27a-4395-502d-0edc"/>
+                                <characteristic name="ARMOR" typeId="edb2-357a-7123-031f"/>
+                                <characteristic name="END" typeId="afaf-9bc5-83c6-72c7"/>
+                                <characteristic name="NERVE" typeId="9fbd-f3af-434b-c417"/>
+                                <characteristic name="MOVE" typeId="0d4e-6880-8aca-8e7b"/>
+                                <characteristic name="SIZE" typeId="e736-9e94-0692-d658"/>
+                              </characteristics>
+                            </profile>
+                          </profiles>
                           <costs>
                             <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
                             <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
@@ -284,444 +301,13 @@
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink id="f365-5f45-9700-d121" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
                 <entryLink id="1605-5886-5b98-aae7" name="Kingdom of Erland Secondary Weapons" hidden="false" collective="false" import="true" targetId="48d8-80d6-c35a-76eb" type="selectionEntryGroup"/>
                 <entryLink id="cfd4-fdb3-98df-3fb6" name="Kingdom of Erland Primary Weapons" hidden="false" collective="false" import="true" targetId="466d-8df9-1f2e-c96f" type="selectionEntryGroup"/>
-                <entryLink id="5d4b-bd2d-0d3b-fd04" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21d5-36e4-0aba-4f20" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="679c-f609-ccaa-a17c" type="max"/>
-                  </constraints>
-                </entryLink>
                 <entryLink id="46e8-b7b1-054a-754e" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="7.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="d891-35ff-79da-965f" name="Kapten (Tier 4 or above)" hidden="false" collective="false" import="true" type="unit">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7e1-1368-0ca3-a6ad" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="2c16-f150-cd4b-6aa4" name="Kapten (Tier 4 or above)" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
-                  <characteristics>
-                    <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
-                    <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">3</characteristic>
-                    <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">3</characteristic>
-                    <characteristic name="ATHL" typeId="c988-b08c-df98-0786">3</characteristic>
-                    <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">3</characteristic>
-                    <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">3</characteristic>
-                    <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
-                    <characteristic name="END" typeId="3d52-4bc1-5a65-f947">3</characteristic>
-                    <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
-                    <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
-                    <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5- Med</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="3469-77cb-65f1-8423" name="Voice of Command" hidden="false" targetId="71c1-7cf0-d0e8-989e" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="e285-8c4b-50a2-d9b2" name="War Pick" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eda9-a499-c8b0-c9e7" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d975-7378-c9b5-f2fa" type="min"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="a3cc-5f1e-0070-b06e" name="War Pick" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                      <characteristics>
-                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Melee</characteristic>
-                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">Base</characteristic>
-                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
-                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">7+CMBT</characteristic>
-                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Brutal, Stun</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="f75a-9128-c717-7413" name="Brutal" hidden="false" targetId="0f22-3a0c-dcbd-2d0d" type="rule"/>
-                    <infoLink id="ca5f-3c17-ab84-e92f" name="Stun" hidden="false" targetId="f500-f8ba-1a3c-b73e" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="1665-260d-f59a-6ee0" name="Hand to Hand Combat" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb40-14d2-d3f9-d114" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b230-4b86-2847-0eb2" type="min"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="9e27-bde7-cf86-b6e4" name="Hand to Hand Combat" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                      <characteristics>
-                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Melee	</characteristic>
-                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">Base</characteristic>
-                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">CMBT</characteristic>
-                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">7</characteristic>
-                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">-</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <costs>
-                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="767c-06c7-84e3-e756" name="Hand Grenades " hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="5c4d-8a55-68ef-56b0" name="EMP Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0bc-b463-55a6-c3e5" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="6db6-bb42-1270-921a" name="EMP Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="0c20-ef37-5936-61d0" name="Flash Bang Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6766-c194-d9e7-cd32" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="d219-0193-5a73-9e0b" name="Flash Bang Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="ffa8-b6d8-7f5f-2baa" name="Frag Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f50-f6f1-d775-8bb3" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="aa18-91f7-f5fa-8c63" name="Frag Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="7cf5-59a7-49bf-197f" name="HE Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79b0-a912-256f-9cfb" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="30d7-38f9-2db3-1a29" name="HE Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="e513-f0e4-5623-7b42" name="Incendiary Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1155-768b-5c82-af02" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="673e-9f48-8d3b-7b55" name="Incendiary Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="f63e-7194-b22c-1cee" name="Smoke Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66e4-21c9-a848-0650" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="7424-e541-e732-0581" name="Smoke Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks>
-                <entryLink id="0c8c-bdfd-9eee-b535" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd80-a871-5883-abcc" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db44-e0ad-cd72-e1ac" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="e31f-7ead-51f5-8106" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
-              </entryLinks>
-              <costs>
-                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="9.0"/>
-                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="13.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="76c8-234c-0321-7e03" name="Lotnaunt (Tier 3 or above)" hidden="false" collective="false" import="true" type="unit">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cee-a7e4-c84f-2b2c" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="f830-d2f3-f20b-e1dc" name="Lotnaunt (Tier 3 or above)" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
-                  <characteristics>
-                    <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
-                    <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">3</characteristic>
-                    <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">2</characteristic>
-                    <characteristic name="ATHL" typeId="c988-b08c-df98-0786">2</characteristic>
-                    <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">3</characteristic>
-                    <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">3</characteristic>
-                    <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
-                    <characteristic name="END" typeId="3d52-4bc1-5a65-f947">3</characteristic>
-                    <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
-                    <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
-                    <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5- Med</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="e89d-abc3-7664-8b4d" name="Voice of Command" hidden="false" targetId="71c1-7cf0-d0e8-989e" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="c0f7-9c73-01b0-bffc" name="War Pick" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a5f-807f-c24a-fd42" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2ce-6096-8443-607e" type="min"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="5f12-a086-29dd-7965" name="War Pick" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                      <characteristics>
-                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Melee</characteristic>
-                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">Base</characteristic>
-                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
-                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">7+CMBT</characteristic>
-                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Brutal, Stun</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="d78e-2628-6459-0503" name="Brutal" hidden="false" targetId="0f22-3a0c-dcbd-2d0d" type="rule"/>
-                    <infoLink id="9e6d-f6c7-2723-208a" name="Stun" hidden="false" targetId="f500-f8ba-1a3c-b73e" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="a153-1298-fc40-8c9b" name="Hand to Hand Combat" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29b8-5487-e958-70c9" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eacf-017e-7bc2-1578" type="min"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="9e88-7054-0d30-ef51" name="Hand to Hand Combat" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                      <characteristics>
-                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Melee	</characteristic>
-                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">Base</characteristic>
-                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">CMBT</characteristic>
-                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">7</characteristic>
-                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">-</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <costs>
-                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="40b4-8aef-79dc-f19f" name="Hand Grenades " hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="efde-251f-77b6-3eb4" name="EMP Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bf7-578a-19ff-a0ae" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="94f8-ed60-7b21-3a5f" name="EMP Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="f551-81e8-a9ad-b6d9" name="Flash Bang Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a0c-6ab8-9864-3688" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="2810-30a6-8f86-02f3" name="Flash Bang Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="0be8-b403-ba9c-b381" name="Frag Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30b4-a93f-7b04-fd8c" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="0776-e4af-47cd-785e" name="Frag Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="9650-ce85-a4f9-3b95" name="HE Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fc3-e5cd-5192-511f" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="408d-fa34-4b16-74c6" name="HE Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="7813-7351-e81d-d774" name="Incendiary Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef2b-c8b4-b1a8-74dd" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="d405-1b3d-0cff-b4f7" name="Incendiary Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="744b-8544-5d22-581c" name="Smoke Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9034-3f9d-4d3a-2aad" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="26de-a430-2322-6490" name="Smoke Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks>
-                <entryLink id="0a0f-74a9-5755-9fcf" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9016-9ea1-da4e-c51b" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38fc-13d1-e344-92fc" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="e42a-c88a-6b05-08f0" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
-              </entryLinks>
-              <costs>
-                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
-                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="11.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3285-6521-5d06-0747" name="Senior Cadre Trupp Leader" hidden="false" collective="false" import="true" type="unit">
@@ -796,140 +382,10 @@
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="d3f5-fc04-0acc-9787" name="Hand Grenades " hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="0a1b-e4dc-e026-ba35" name="EMP Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc4c-e6eb-ac57-c1c5" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="5342-ba7b-4335-3b29" name="EMP Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="5cb0-9acd-bf0e-3449" name="Flash Bang Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="243c-aaa1-4369-e32c" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="79a0-747f-c9f2-b4bf" name="Flash Bang Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="3ac8-97fb-e3b1-a9c6" name="Frag Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af01-e0a8-64bf-0b65" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="93d2-184e-fff9-521d" name="Frag Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="219f-c2fe-78bb-aae1" name="HE Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d6f-2ca1-74fd-bba7" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="c309-4b62-3846-1c9f" name="HE Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="4eb0-b46a-e242-ba55" name="Incendiary Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94ba-67e4-d06b-e0c7" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="4f4d-7161-bb84-bcd3" name="Incendiary Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="43b3-19fc-3df2-7a31" name="Smoke Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c977-bcd9-e93a-e4ea" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="8a14-b47b-9dbb-4fe1" name="Smoke Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
               <entryLinks>
-                <entryLink id="dbe2-668d-beb7-52b4" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eadb-3f84-69c5-d19a" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b1d-8d3e-b94a-acb1" type="max"/>
-                  </constraints>
-                </entryLink>
                 <entryLink id="5b39-c540-81a1-c3a1" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
+                <entryLink id="f43b-b96c-b427-3e6d" name="Kingdom of Erland Primary Weapons" hidden="false" collective="false" import="true" targetId="466d-8df9-1f2e-c96f" type="selectionEntryGroup"/>
+                <entryLink id="2ac8-c37a-a11c-8cd1" name="Kingdom of Erland Secondary Weapons" hidden="false" collective="false" import="true" targetId="48d8-80d6-c35a-76eb" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
@@ -1388,7 +844,6 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="5c59-11a1-f8a6-0d27" name="Infiltrate" hidden="false" targetId="f16d-2b45-0d6e-55b0" type="rule"/>
         <infoLink id="82ec-aaaa-6283-13f4" name="High Altitude Drop Orbital Certificated (HADOC)" hidden="false" targetId="8d5a-3e7b-2ed4-4891" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1784,17 +1239,17 @@
       <profiles>
         <profile id="78a9-2fc2-f40a-ee0b" name="Erland Army Skirmishers " hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
           <characteristics>
-            <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2"/>
-            <characteristic name="DEF" typeId="6327-fd82-8107-5ea3"/>
-            <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa"/>
-            <characteristic name="ATHL" typeId="c988-b08c-df98-0786"/>
-            <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d"/>
-            <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13"/>
-            <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99"/>
-            <characteristic name="END" typeId="3d52-4bc1-5a65-f947"/>
-            <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7"/>
-            <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283"/>
-            <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6"/>
+            <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
+            <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">2</characteristic>
+            <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">2</characteristic>
+            <characteristic name="ATHL" typeId="c988-b08c-df98-0786">3</characteristic>
+            <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">2</characteristic>
+            <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">2</characteristic>
+            <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+            <characteristic name="END" typeId="3d52-4bc1-5a65-f947">2</characteristic>
+            <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+            <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+            <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5-Med</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3691,441 +3146,11 @@
                 <entryLink id="e2ba-b5eb-fef0-c7ad" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
                 <entryLink id="2bec-b782-deef-2332" name="Kingdom of Erland Secondary Weapons" hidden="false" collective="false" import="true" targetId="48d8-80d6-c35a-76eb" type="selectionEntryGroup"/>
                 <entryLink id="8132-e776-d462-167b" name="Kingdom of Erland Primary Weapons" hidden="false" collective="false" import="true" targetId="466d-8df9-1f2e-c96f" type="selectionEntryGroup"/>
-                <entryLink id="9358-14aa-1c05-cdf4" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54e2-e8fb-755e-30f4" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff64-21be-0b5b-757a" type="max"/>
-                  </constraints>
-                </entryLink>
                 <entryLink id="ee1c-2fc9-1ae9-71ea" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="7.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="cead-53a9-8311-6687" name="Marine Lancers Kapten (Tier 4 or above)" hidden="false" collective="false" import="true" type="unit">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a38c-bb92-a252-2af6" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="03a7-4d09-745e-c0fb" name="Marine Lancers Kapten (Tier 4 or above)" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
-                  <characteristics>
-                    <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
-                    <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">3</characteristic>
-                    <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">3</characteristic>
-                    <characteristic name="ATHL" typeId="c988-b08c-df98-0786">3</characteristic>
-                    <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">3</characteristic>
-                    <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">3</characteristic>
-                    <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
-                    <characteristic name="END" typeId="3d52-4bc1-5a65-f947">3</characteristic>
-                    <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
-                    <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
-                    <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5- Med</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="3a0f-31e5-d927-82b8" name="Voice of Command" hidden="false" targetId="71c1-7cf0-d0e8-989e" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="1851-f2ba-281b-e1ca" name="War Pick" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="002e-2a5e-fc32-23e8" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eeab-a422-b92e-6f61" type="min"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="8942-a15d-7c36-5301" name="War Pick" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                      <characteristics>
-                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Melee</characteristic>
-                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">Base</characteristic>
-                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
-                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">7+CMBT</characteristic>
-                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Brutal, Stun</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="57a3-1b37-1d3d-7404" name="Brutal" hidden="false" targetId="0f22-3a0c-dcbd-2d0d" type="rule"/>
-                    <infoLink id="ef7f-a8a0-de33-7511" name="Stun" hidden="false" targetId="f500-f8ba-1a3c-b73e" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="daef-979a-e10d-958b" name="Hand to Hand Combat" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8725-7176-c280-887a" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ea2-ccaa-0d37-d8d4" type="min"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="5a76-11e6-2c4b-1577" name="Hand to Hand Combat" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                      <characteristics>
-                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Melee	</characteristic>
-                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">Base</characteristic>
-                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">CMBT</characteristic>
-                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">7</characteristic>
-                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">-</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <costs>
-                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="e6fc-dde1-247e-5ce6" name="Hand Grenades " hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="9cf1-6bce-7e0b-9700" name="EMP Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3532-0623-455e-4ce0" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="b6cd-c232-fb86-23c7" name="EMP Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="e23a-bfc7-58a6-4329" name="Flash Bang Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03c1-162a-465b-8e58" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="50d7-6484-df2c-7b7c" name="Flash Bang Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="e290-5a42-3655-4abd" name="Frag Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b862-4594-60ea-7cd3" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="3ceb-e826-a2e1-270a" name="Frag Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="381e-2da4-b820-573a" name="HE Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4191-69f1-2f65-4bbf" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="d90f-1775-7343-2d17" name="HE Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="a4cd-9582-f072-07f7" name="Incendiary Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b29b-a540-50d3-8274" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="5dbb-ada4-cbed-a4ab" name="Incendiary Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="ec76-8e37-6861-b844" name="Smoke Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80ee-b9f7-caba-d9a5" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="6699-c8c7-ec5f-2ccc" name="Smoke Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks>
-                <entryLink id="af60-0efe-0170-f71c" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffdd-2a56-6b4f-0e98" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fa3-7643-41cd-fbcb" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="4d88-cb4c-221a-bde0" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
-              </entryLinks>
-              <costs>
-                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="9.0"/>
-                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="13.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8b54-cbd5-2e8a-85d8" name="Marine Lancers Lotnaunt (Tier 3 or above)" hidden="false" collective="false" import="true" type="unit">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6648-b160-908a-b597" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="2a92-73b0-02be-fc37" name="Marine Lancers Lotnaunt (Tier 3 or above)" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
-                  <characteristics>
-                    <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
-                    <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">3</characteristic>
-                    <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">2</characteristic>
-                    <characteristic name="ATHL" typeId="c988-b08c-df98-0786">2</characteristic>
-                    <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">3</characteristic>
-                    <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">3</characteristic>
-                    <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
-                    <characteristic name="END" typeId="3d52-4bc1-5a65-f947">3</characteristic>
-                    <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
-                    <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
-                    <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5- Med</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="c567-cef8-88fe-8a9c" name="Voice of Command" hidden="false" targetId="71c1-7cf0-d0e8-989e" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="5216-bfa8-0ba1-8d4d" name="War Pick" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7a9-1f8d-c645-458a" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36a7-b945-6b55-f51f" type="min"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="e748-084d-8af7-4b59" name="War Pick" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                      <characteristics>
-                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Melee</characteristic>
-                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">Base</characteristic>
-                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
-                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">7+CMBT</characteristic>
-                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Brutal, Stun</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="9c34-5d9c-1039-fc2c" name="Brutal" hidden="false" targetId="0f22-3a0c-dcbd-2d0d" type="rule"/>
-                    <infoLink id="a15c-1e36-b7bf-d192" name="Stun" hidden="false" targetId="f500-f8ba-1a3c-b73e" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="bc1c-7857-04ad-e983" name="Hand to Hand Combat" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8809-fd48-32c8-b3f1" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec43-9f4e-0468-5b4f" type="min"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="a705-4db5-9ffe-7a52" name="Hand to Hand Combat" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                      <characteristics>
-                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Melee	</characteristic>
-                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">Base</characteristic>
-                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">CMBT</characteristic>
-                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">7</characteristic>
-                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">-</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <costs>
-                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="199a-c9bd-4fd7-ba52" name="Hand Grenades " hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="953e-e785-3798-4213" name="EMP Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b02-a349-9237-c41d" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="649a-beaf-e8d4-b945" name="EMP Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="db9f-c842-d34e-9716" name="Flash Bang Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff1e-e2a7-1eea-fd75" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="5e0b-8df6-da11-428d" name="Flash Bang Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="66f1-65c6-6e8f-fad5" name="Frag Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a401-d6f7-1987-1c6f" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="bd06-7220-2a96-dc07" name="Frag Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="9866-b897-3db8-0561" name="HE Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e871-2aa9-5e7d-35ec" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="33d3-641d-b287-534a" name="HE Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="369c-38bd-f607-de1b" name="Incendiary Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35ff-db59-0ab5-5197" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="52f0-0f6c-e923-c5f9" name="Incendiary Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="f8ad-75a3-0177-25c8" name="Smoke Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="829f-ff15-1bbb-c787" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="1301-1f7a-ed55-6e08" name="Smoke Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks>
-                <entryLink id="a249-e00a-1248-442f" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="beae-1ce4-d59d-d1c5" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eabc-2610-c256-2981" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="1633-d8e5-a69f-953c" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
-              </entryLinks>
-              <costs>
-                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
-                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="11.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="27ab-2d41-4142-0c67" name="Senior Marine Lancers Leader" hidden="false" collective="false" import="true" type="unit">
@@ -4327,12 +3352,6 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink id="a8b4-23de-c9e9-c201" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65ad-5c56-e748-3b67" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecba-3822-bd81-c24c" type="max"/>
-                  </constraints>
-                </entryLink>
                 <entryLink id="8efa-c521-d806-618f" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
@@ -6101,430 +5120,6 @@
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="7.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b59c-e23f-8f52-7208" name="Hussars Kapten (Tier 4 or above)" hidden="false" collective="false" import="true" type="unit">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d954-e699-ea8c-90a7" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="92d1-653c-49dd-0973" name="Hussars Kapten (Tier 4 or above)" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
-                  <characteristics>
-                    <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
-                    <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">3</characteristic>
-                    <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">3</characteristic>
-                    <characteristic name="ATHL" typeId="c988-b08c-df98-0786">3</characteristic>
-                    <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">3</characteristic>
-                    <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">3</characteristic>
-                    <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
-                    <characteristic name="END" typeId="3d52-4bc1-5a65-f947">3</characteristic>
-                    <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
-                    <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
-                    <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5- Med</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="26c1-c40a-9d4d-76dc" name="Voice of Command" hidden="false" targetId="71c1-7cf0-d0e8-989e" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="c7e6-7ed6-c1d3-06e3" name="War Pick" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c55-81be-cd57-8bbc" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f72-732d-ae28-e9cd" type="min"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="656d-6da3-73ec-1469" name="War Pick" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                      <characteristics>
-                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Melee</characteristic>
-                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">Base</characteristic>
-                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
-                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">7+CMBT</characteristic>
-                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Brutal, Stun</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="8149-fd64-7bf2-4b85" name="Brutal" hidden="false" targetId="0f22-3a0c-dcbd-2d0d" type="rule"/>
-                    <infoLink id="e860-40ff-ef41-12cb" name="Stun" hidden="false" targetId="f500-f8ba-1a3c-b73e" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="fc20-e688-c573-406a" name="Hand to Hand Combat" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be91-d7a7-d90d-d7bf" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe9e-bd5f-909e-2c48" type="min"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="3ff6-ef1f-7fbf-fb7e" name="Hand to Hand Combat" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                      <characteristics>
-                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Melee	</characteristic>
-                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">Base</characteristic>
-                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">CMBT</characteristic>
-                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">7</characteristic>
-                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">-</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <costs>
-                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="de4e-c872-fc7b-f3cf" name="Hand Grenades " hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="9696-0295-8cca-1acd" name="EMP Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d94c-5cf6-dce4-0849" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="00f0-3e07-7eb4-3ebb" name="EMP Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="9591-be60-6488-8601" name="Flash Bang Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2470-cff8-01e9-03f4" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="3f3a-8bcf-6531-80fa" name="Flash Bang Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="f340-967c-df6e-6dfd" name="Frag Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d3e-8999-deac-a6ec" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="f333-418e-2cfc-d1d7" name="Frag Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="225c-4698-8cdc-90a6" name="HE Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0592-89ed-a627-6adf" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="3634-b615-e5d2-7844" name="HE Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="2a04-08fc-9a84-fbe4" name="Incendiary Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0ed-586a-80f2-8ce8" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="18d8-9357-a90a-55d8" name="Incendiary Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="49be-f5aa-3089-c7d6" name="Smoke Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb74-b51e-9516-bc86" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="8747-3f02-2f48-fa21" name="Smoke Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks>
-                <entryLink id="ed12-51d0-69ef-0874" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbfc-bb87-d2ce-8516" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed2d-14c3-4996-7ada" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="777d-11ad-6fff-f979" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
-              </entryLinks>
-              <costs>
-                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="9.0"/>
-                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="13.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="fbaf-1436-ddc1-e930" name="Hussars Lotnaunt (Tier 3 or above)" hidden="false" collective="false" import="true" type="unit">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16a0-e48e-a39b-c555" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="dd40-09e4-648b-da15" name="Hussars Lotnaunt (Tier 3 or above)" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
-                  <characteristics>
-                    <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
-                    <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">3</characteristic>
-                    <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">2</characteristic>
-                    <characteristic name="ATHL" typeId="c988-b08c-df98-0786">2</characteristic>
-                    <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">3</characteristic>
-                    <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">3</characteristic>
-                    <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
-                    <characteristic name="END" typeId="3d52-4bc1-5a65-f947">3</characteristic>
-                    <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
-                    <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
-                    <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5- Med</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="4c65-ced2-62cd-54cd" name="Voice of Command" hidden="false" targetId="71c1-7cf0-d0e8-989e" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="56b2-ba96-5c7a-b524" name="War Pick" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="394b-342e-4e61-f88f" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="696b-4fc4-ef2c-c376" type="min"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="a9fc-33dc-de24-35e5" name="War Pick" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                      <characteristics>
-                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Melee</characteristic>
-                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">Base</characteristic>
-                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
-                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">7+CMBT</characteristic>
-                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Brutal, Stun</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="8aae-bd2a-8184-f242" name="Brutal" hidden="false" targetId="0f22-3a0c-dcbd-2d0d" type="rule"/>
-                    <infoLink id="e02e-795b-69db-7d1f" name="Stun" hidden="false" targetId="f500-f8ba-1a3c-b73e" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="09c8-a7c9-45ea-556e" name="Hand to Hand Combat" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d14d-2c68-8d82-771d" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1b4-9a81-d658-def5" type="min"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="3d2d-1ac7-9394-c892" name="Hand to Hand Combat" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                      <characteristics>
-                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Melee	</characteristic>
-                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">Base</characteristic>
-                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">CMBT</characteristic>
-                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">7</characteristic>
-                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">-</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <costs>
-                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="cee4-b125-e48e-ddae" name="Hand Grenades " hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="fd85-9a93-28cb-3c29" name="EMP Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b418-484e-ab3d-dd4a" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="853f-1cd7-bd41-7ffa" name="EMP Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="1350-0d6a-aefd-3088" name="Flash Bang Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4d1-c9a1-defa-05ec" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="e251-ffbc-8a60-c5e6" name="Flash Bang Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="4f2f-c7cc-8a29-21ff" name="Frag Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc53-9047-f472-e668" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="490d-0439-e3c8-349c" name="Frag Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="44b9-13e1-ed77-252f" name="HE Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="627c-653c-134e-8a58" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="a8ff-27e5-01c2-15f2" name="HE Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="191c-5861-f898-9ddc" name="Incendiary Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b235-7f3e-dee6-57a9" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="4768-91e2-4b5c-93c5" name="Incendiary Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="60ac-cacd-0ba8-1fdd" name="Smoke Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3e2-a65d-49aa-1bca" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="7ec0-1554-6f6b-ba8c" name="Smoke Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks>
-                <entryLink id="19c5-5bf6-2daa-766f" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56ad-a08a-1538-ad58" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4cc-07c2-95dc-869f" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="2244-39fd-16d8-7f18" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
-              </entryLinks>
-              <costs>
-                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
-                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="11.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="291b-e0bf-7b5e-5d6f" name="Senior Hussars Leader" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1d2-f86e-7a0a-617f" type="max"/>
@@ -7039,430 +5634,6 @@
               <costs>
                 <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="3.0"/>
                 <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="7.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f82d-f2ec-def0-35ff" name="Homeguard Militiaman  Kapten (Tier 4 or above)" hidden="false" collective="false" import="true" type="unit">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2687-e2ec-7c5f-81d7" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="05d6-a645-fb00-a233" name="Homeguard Militiaman  Kapten (Tier 4 or above)" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
-                  <characteristics>
-                    <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
-                    <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">3</characteristic>
-                    <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">3</characteristic>
-                    <characteristic name="ATHL" typeId="c988-b08c-df98-0786">3</characteristic>
-                    <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">3</characteristic>
-                    <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">3</characteristic>
-                    <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
-                    <characteristic name="END" typeId="3d52-4bc1-5a65-f947">3</characteristic>
-                    <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
-                    <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
-                    <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5- Med</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="08d2-27f6-b237-13d3" name="Voice of Command" hidden="false" targetId="71c1-7cf0-d0e8-989e" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="93c8-5b99-223d-605a" name="War Pick" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec53-f1af-c725-3f38" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88bf-275e-813c-2bf7" type="min"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="cfb6-5ce5-715a-48dc" name="War Pick" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                      <characteristics>
-                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Melee</characteristic>
-                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">Base</characteristic>
-                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
-                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">7+CMBT</characteristic>
-                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Brutal, Stun</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="b170-3984-3228-7d1e" name="Brutal" hidden="false" targetId="0f22-3a0c-dcbd-2d0d" type="rule"/>
-                    <infoLink id="ab29-2eb4-2567-adb0" name="Stun" hidden="false" targetId="f500-f8ba-1a3c-b73e" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="4605-837e-5215-758a" name="Hand to Hand Combat" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ead4-a5b3-45f7-523d" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8573-1631-0f3d-3a3f" type="min"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="646a-b928-b16d-9f55" name="Hand to Hand Combat" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                      <characteristics>
-                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Melee	</characteristic>
-                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">Base</characteristic>
-                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">CMBT</characteristic>
-                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">7</characteristic>
-                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">-</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <costs>
-                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="9cb7-d046-381f-07d6" name="Hand Grenades " hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="fe11-2c42-8274-70a6" name="EMP Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f26a-ca95-1fb5-46b0" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="0328-c4d2-a8d3-e50f" name="EMP Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="d948-2da2-3f2c-8399" name="Flash Bang Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71a6-c603-981b-73f0" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="9e89-c06e-d9d9-78b4" name="Flash Bang Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="6116-88f9-a9fd-25c6" name="Frag Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e333-8e08-0c55-41aa" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="027b-ae6a-fa55-71df" name="Frag Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="31cb-74aa-1bf5-6d69" name="HE Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e90-ed97-734d-0df3" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="cbf7-4e4b-900f-df04" name="HE Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="662e-f629-7819-efd8" name="Incendiary Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be08-a7e9-9ac4-567a" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="ded9-33e8-1d21-dcbb" name="Incendiary Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="607d-aa05-9b38-096f" name="Smoke Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33b5-8448-24b4-2489" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="91eb-ea0a-0f6d-eb16" name="Smoke Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks>
-                <entryLink id="2be9-8cb0-ff05-c04b" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5722-b556-c802-50c5" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b30-a605-b829-2c12" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="147a-6642-7ffb-39cd" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
-              </entryLinks>
-              <costs>
-                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="9.0"/>
-                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="13.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="b969-1745-078d-936b" name="Homeguard Dragoon Lotnaunt (Tier 3 or above)" hidden="false" collective="false" import="true" type="unit">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1de3-5991-2036-21f0" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="81a9-c60b-28bf-3687" name="Homeguard Dragoon Lotnaunt (Tier 3 or above)" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
-                  <characteristics>
-                    <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
-                    <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">3</characteristic>
-                    <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">2</characteristic>
-                    <characteristic name="ATHL" typeId="c988-b08c-df98-0786">2</characteristic>
-                    <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">3</characteristic>
-                    <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">3</characteristic>
-                    <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
-                    <characteristic name="END" typeId="3d52-4bc1-5a65-f947">3</characteristic>
-                    <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
-                    <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
-                    <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5- Med</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="f7ca-6dd2-0df5-b10c" name="Voice of Command" hidden="false" targetId="71c1-7cf0-d0e8-989e" type="rule"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="f172-235a-f4dd-4c6e" name="War Pick" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2aa7-e69c-290c-89e5" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb35-6ab3-146a-9cde" type="min"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="a16b-51ab-ad41-1325" name="War Pick" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                      <characteristics>
-                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Melee</characteristic>
-                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">Base</characteristic>
-                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
-                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">7+CMBT</characteristic>
-                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Brutal, Stun</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="4479-3cab-09e3-7ec1" name="Brutal" hidden="false" targetId="0f22-3a0c-dcbd-2d0d" type="rule"/>
-                    <infoLink id="3539-8447-cb7c-afd0" name="Stun" hidden="false" targetId="f500-f8ba-1a3c-b73e" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="ecaa-c809-8c01-069b" name="Hand to Hand Combat" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1a2-ca69-6997-f9ab" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6121-986f-acf7-32c9" type="min"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="58ee-77e0-a42d-30e0" name="Hand to Hand Combat" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                      <characteristics>
-                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Melee	</characteristic>
-                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">Base</characteristic>
-                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">CMBT</characteristic>
-                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">7</characteristic>
-                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">-</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <costs>
-                    <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                    <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="c8ae-c4c9-67be-6e3e" name="Hand Grenades " hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="14d9-dd33-eaa2-da2c" name="EMP Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="570c-a0bf-7cd0-6da9" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="6a5f-5f30-a1cd-a428" name="EMP Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="671f-65d7-9fd2-3e2d" name="Flash Bang Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="597f-9576-95fd-7369" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="10eb-8218-d80e-580f" name="Flash Bang Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="4c1d-e157-2943-e48c" name="Frag Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de8c-5b4c-9dc0-ab13" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="f951-e3ee-1741-aa7b" name="Frag Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="a9af-5f34-ae96-e565" name="HE Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cda-9741-dbda-ee60" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="9955-2a58-cbf0-a937" name="HE Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="e490-93c5-4694-3e31" name="Incendiary Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="add8-6833-95aa-008b" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="cfec-38af-8876-a5bc" name="Incendiary Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="4778-d0f6-7c91-21c3" name="Smoke Grenade" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e01b-02c7-16c1-459b" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="99f4-521a-57c8-82f1" name="Smoke Grenade" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
-                          <characteristics>
-                            <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                            <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                            <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                            <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                            <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
-                        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks>
-                <entryLink id="5646-bb72-5d4c-2953" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb45-38a6-c045-f868" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f67-cd33-5600-ccd4" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="986d-648b-c394-b2ea" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
-              </entryLinks>
-              <costs>
-                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
-                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="11.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4132-5ad2-10cc-1a86" name="Senior Homeguard Militiaman  Leader" hidden="false" collective="false" import="true" type="unit">
@@ -9423,17 +7594,17 @@
       <profiles>
         <profile id="3fc4-3302-3336-b6c9" name="Crusader Mk 1 Main Battle Tank" hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
           <characteristics>
-            <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559"/>
-            <characteristic name="DEF" typeId="6644-0c1a-148c-54f2"/>
-            <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b"/>
-            <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd"/>
-            <characteristic name="INT" typeId="8b64-630a-32e8-c175"/>
-            <characteristic name="LD" typeId="f27a-4395-502d-0edc"/>
-            <characteristic name="ARMOR" typeId="edb2-357a-7123-031f"/>
-            <characteristic name="END" typeId="afaf-9bc5-83c6-72c7"/>
-            <characteristic name="NERVE" typeId="9fbd-f3af-434b-c417"/>
-            <characteristic name="MOVE" typeId="0d4e-6880-8aca-8e7b"/>
-            <characteristic name="SIZE" typeId="e736-9e94-0692-d658"/>
+            <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559">Armored, Tracks, Turret, Stablized </characteristic>
+            <characteristic name="DEF" typeId="6644-0c1a-148c-54f2">1</characteristic>
+            <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b">2</characteristic>
+            <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd">2</characteristic>
+            <characteristic name="INT" typeId="8b64-630a-32e8-c175">2</characteristic>
+            <characteristic name="LD" typeId="f27a-4395-502d-0edc">2</characteristic>
+            <characteristic name="ARMOR" typeId="edb2-357a-7123-031f">14/13/12</characteristic>
+            <characteristic name="END" typeId="afaf-9bc5-83c6-72c7">5</characteristic>
+            <characteristic name="NERVE" typeId="9fbd-f3af-434b-c417">4</characteristic>
+            <characteristic name="MOVE" typeId="0d4e-6880-8aca-8e7b">7</characteristic>
+            <characteristic name="SIZE" typeId="e736-9e94-0692-d658">MA-12</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9729,20 +7900,23 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3d8a-90b2-d06e-ec91" name="ERD Monarch Infantry Fighting Vehicle" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eef6-7b27-8c1c-a56b" type="min"/>
+      </constraints>
       <profiles>
         <profile id="6e6d-a6fa-8f6e-4b65" name="Monarch IFV" hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
           <characteristics>
-            <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559"/>
-            <characteristic name="DEF" typeId="6644-0c1a-148c-54f2"/>
-            <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b"/>
-            <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd"/>
-            <characteristic name="INT" typeId="8b64-630a-32e8-c175"/>
-            <characteristic name="LD" typeId="f27a-4395-502d-0edc"/>
-            <characteristic name="ARMOR" typeId="edb2-357a-7123-031f"/>
-            <characteristic name="END" typeId="afaf-9bc5-83c6-72c7"/>
-            <characteristic name="NERVE" typeId="9fbd-f3af-434b-c417"/>
-            <characteristic name="MOVE" typeId="0d4e-6880-8aca-8e7b"/>
-            <characteristic name="SIZE" typeId="e736-9e94-0692-d658"/>
+            <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559">Tracks, Transport:10, Armored, Turret, Stablized</characteristic>
+            <characteristic name="DEF" typeId="6644-0c1a-148c-54f2">2</characteristic>
+            <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b">2</characteristic>
+            <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd">2</characteristic>
+            <characteristic name="INT" typeId="8b64-630a-32e8-c175">2</characteristic>
+            <characteristic name="LD" typeId="f27a-4395-502d-0edc">2</characteristic>
+            <characteristic name="ARMOR" typeId="edb2-357a-7123-031f">12/11/10</characteristic>
+            <characteristic name="END" typeId="afaf-9bc5-83c6-72c7">4</characteristic>
+            <characteristic name="NERVE" typeId="9fbd-f3af-434b-c417">4</characteristic>
+            <characteristic name="MOVE" typeId="0d4e-6880-8aca-8e7b">7</characteristic>
+            <characteristic name="SIZE" typeId="e736-9e94-0692-d658">9-H</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9802,20 +7976,23 @@
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ced0-075f-5dad-eb85" name="ERD-6 &quot;Corsair&quot; HAVOC Fighter-Bomber" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92b1-49a7-e117-1b25" type="min"/>
+          </constraints>
           <profiles>
             <profile id="3ae5-5a51-1b63-20fe" name="ERD-6 &quot;Corsair&quot; HAVOC Fighter-Bomber" hidden="false" typeId="78d3-bea5-ee48-c524" typeName="HAVOC (High Altitude Void Operable Craft)">
               <characteristics>
-                <characteristic name="Key Traits" typeId="e18f-0217-d489-0887"/>
-                <characteristic name="DEF" typeId="d72a-4556-c015-f5e3"/>
-                <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e"/>
-                <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36"/>
-                <characteristic name="INT" typeId="c334-3de5-0bba-70e6"/>
-                <characteristic name="LD" typeId="f7c5-0728-1b20-115b"/>
-                <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429"/>
-                <characteristic name="END" typeId="254f-362a-e072-64bf"/>
-                <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af"/>
-                <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96"/>
-                <characteristic name="SIZE" typeId="2926-db13-a623-b546"/>
+                <characteristic name="Key Traits" typeId="e18f-0217-d489-0887">Fly, Hover</characteristic>
+                <characteristic name="DEF" typeId="d72a-4556-c015-f5e3">3</characteristic>
+                <characteristic name="CMBT" typeId="8938-1543-9e15-6e2e">2</characteristic>
+                <characteristic name="ATHL" typeId="cd39-abb1-0875-2e36">4</characteristic>
+                <characteristic name="INT" typeId="c334-3de5-0bba-70e6">2</characteristic>
+                <characteristic name="LD" typeId="f7c5-0728-1b20-115b">2</characteristic>
+                <characteristic name="ARMOR" typeId="4ff4-280f-57ff-5429">12/11/10</characteristic>
+                <characteristic name="END" typeId="254f-362a-e072-64bf">3</characteristic>
+                <characteristic name="NERVE" typeId="a2e9-c51a-b196-78af">4</characteristic>
+                <characteristic name="MOVE" typeId="5e80-2d2f-e0ad-ae96">11</characteristic>
+                <characteristic name="SIZE" typeId="2926-db13-a623-b546">11-MA</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10265,17 +8442,17 @@
       <profiles>
         <profile id="89f0-073c-f991-0995" name="Squire Support Squad" hidden="false" typeId="faae-a0e8-494f-5008" typeName="Vehicle">
           <characteristics>
-            <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559"/>
-            <characteristic name="DEF" typeId="6644-0c1a-148c-54f2"/>
-            <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b"/>
-            <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd"/>
-            <characteristic name="INT" typeId="8b64-630a-32e8-c175"/>
-            <characteristic name="LD" typeId="f27a-4395-502d-0edc"/>
-            <characteristic name="ARMOR" typeId="edb2-357a-7123-031f"/>
-            <characteristic name="END" typeId="afaf-9bc5-83c6-72c7"/>
-            <characteristic name="NERVE" typeId="9fbd-f3af-434b-c417"/>
-            <characteristic name="MOVE" typeId="0d4e-6880-8aca-8e7b"/>
-            <characteristic name="SIZE" typeId="e736-9e94-0692-d658"/>
+            <characteristic name="Key Traits" typeId="46aa-26b5-33ac-2559">Construct, Bulky, Cumbersome, Tracked, Stablized, Resist EM:2 Sensor Package</characteristic>
+            <characteristic name="DEF" typeId="6644-0c1a-148c-54f2">2</characteristic>
+            <characteristic name="CMBT" typeId="fb90-fabf-ddc8-8d7b">2</characteristic>
+            <characteristic name="ATHL" typeId="93ba-ce36-e394-4fbd">3</characteristic>
+            <characteristic name="INT" typeId="8b64-630a-32e8-c175">1</characteristic>
+            <characteristic name="LD" typeId="f27a-4395-502d-0edc">1</characteristic>
+            <characteristic name="ARMOR" typeId="edb2-357a-7123-031f">11/10/9</characteristic>
+            <characteristic name="END" typeId="afaf-9bc5-83c6-72c7">1(4)</characteristic>
+            <characteristic name="NERVE" typeId="9fbd-f3af-434b-c417">-</characteristic>
+            <characteristic name="MOVE" typeId="0d4e-6880-8aca-8e7b">6</characteristic>
+            <characteristic name="SIZE" typeId="e736-9e94-0692-d658">5-Med</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10301,13 +8478,13 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c6b-0601-019a-2c00" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="a625-beed-b308-fb07" name="7.5mm MMG" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                    <profile id="8ab4-817f-86d0-f081" name="7.5mm MMG" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
                       <characteristics>
-                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416"/>
-                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b"/>
-                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200"/>
-                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692"/>
-                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8"/>
+                        <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Direct </characteristic>
+                        <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">30/60/OO</characteristic>
+                        <characteristic name="ROF" typeId="84c1-58a6-c210-6200">2-3</characteristic>
+                        <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">11</characteristic>
+                        <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Belt Fed</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10477,6 +8654,326 @@
       <costs>
         <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
         <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="41a3-ebac-4dc4-3842" name="Royal Erland Officer" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="656c-ffee-1c6e-4466" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3858-828b-6429-c23f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5f33-5489-6cb7-5d7e" name="Faction: Kingdom of Erland" hidden="false" targetId="b201-77fd-8f2b-73f1" primary="false"/>
+        <categoryLink id="a2d7-7d25-92aa-624f" name="Light Core" hidden="false" targetId="7c28-7f3f-c607-9aaa" primary="true"/>
+        <categoryLink id="a5ce-31df-43d0-94a6" name="Soldier " hidden="false" targetId="c39a-a703-eee2-775e" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="bb0c-48e3-91ff-be33" name="Kapten (Tier 4 or above)" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54f2-7ae5-8286-e56f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c77f-f67d-e2b4-b705" name="Kapten (Tier 4 or above)" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
+              <characteristics>
+                <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
+                <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">3</characteristic>
+                <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">3</characteristic>
+                <characteristic name="ATHL" typeId="c988-b08c-df98-0786">3</characteristic>
+                <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">3</characteristic>
+                <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">3</characteristic>
+                <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+                <characteristic name="END" typeId="3d52-4bc1-5a65-f947">3</characteristic>
+                <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+                <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+                <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5- Med</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3a24-cf10-36fb-0741" name="Voice of Command" hidden="false" targetId="71c1-7cf0-d0e8-989e" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="95dc-7dcf-aff7-9a04" name="War Pick" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b762-4a7f-b2a8-415a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fb9-3904-9d6b-5bf2" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="1801-3c2c-f010-4c1e" name="War Pick" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Melee</characteristic>
+                    <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">Base</characteristic>
+                    <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                    <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">7+CMBT</characteristic>
+                    <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Brutal, Stun</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="22cc-4f68-9f7f-ce28" name="Brutal" hidden="false" targetId="0f22-3a0c-dcbd-2d0d" type="rule"/>
+                <infoLink id="b794-9cd4-fc1c-e597" name="Stun" hidden="false" targetId="f500-f8ba-1a3c-b73e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2821-3d48-e290-1952" name="Hand to Hand Combat" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ae6-935b-ba47-164d" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3a2-0aa3-28d9-83e2" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="8474-d02f-0f0e-d499" name="Hand to Hand Combat" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Melee	</characteristic>
+                    <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">Base</characteristic>
+                    <characteristic name="ROF" typeId="84c1-58a6-c210-6200">CMBT</characteristic>
+                    <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">7</characteristic>
+                    <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="57c6-462b-7043-1c87" name="Officer Equipment(Max 3)" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2880-c295-d4a5-6e5e" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21ee-bef3-0cc9-d8cd" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="514f-09da-d643-dd27" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
+                <entryLink id="1e51-af6c-2696-bd5c" name="Explosives" hidden="false" collective="false" import="true" targetId="e64d-eebe-9473-d026" type="selectionEntryGroup"/>
+                <entryLink id="f717-2308-b9a8-a8f6" name="Anti-Tank Weapons" hidden="false" collective="false" import="true" targetId="3c04-6ed5-2066-5da9" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="875a-939b-3560-9c40" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3d5-7da5-8e5b-5485" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e411-8853-97f2-93a8" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="19a7-bdd8-3086-528a" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
+            <entryLink id="7e90-4b92-aa1f-7279" name="Kingdom of Erland Primary Weapons" hidden="false" collective="false" import="true" targetId="466d-8df9-1f2e-c96f" type="selectionEntryGroup"/>
+            <entryLink id="8f51-7530-cbd9-d286" name="Kingdom of Erland Secondary Weapons" hidden="false" collective="false" import="true" targetId="48d8-80d6-c35a-76eb" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="9.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="13.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7fde-a49b-49ba-615c" name="Lotnaunt (Tier 3 or above)" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="795a-f7dd-f758-fecc" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="819c-5556-a94b-02b9" name="Lotnaunt (Tier 3 or above)" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
+              <characteristics>
+                <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
+                <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">3</characteristic>
+                <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">2</characteristic>
+                <characteristic name="ATHL" typeId="c988-b08c-df98-0786">2</characteristic>
+                <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">3</characteristic>
+                <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">3</characteristic>
+                <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+                <characteristic name="END" typeId="3d52-4bc1-5a65-f947">3</characteristic>
+                <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+                <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+                <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5- Med</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c114-ed08-5209-edf4" name="Voice of Command" hidden="false" targetId="71c1-7cf0-d0e8-989e" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="f796-f4bd-7ffe-e5f7" name="War Pick" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9eb1-c156-4f8c-5043" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d302-9bfb-dd5d-1563" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="2c96-79ea-2312-036f" name="War Pick" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Melee</characteristic>
+                    <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">Base</characteristic>
+                    <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                    <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">7+CMBT</characteristic>
+                    <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Brutal, Stun</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="3196-d9eb-1c7f-cc30" name="Brutal" hidden="false" targetId="0f22-3a0c-dcbd-2d0d" type="rule"/>
+                <infoLink id="2fa0-0470-be55-6f02" name="Stun" hidden="false" targetId="f500-f8ba-1a3c-b73e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ae0a-78fa-c230-c3be" name="Hand to Hand Combat" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3191-4f76-0407-552b" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff80-fc77-2401-d063" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="f6b4-1e2c-2a30-4e33" name="Hand to Hand Combat" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Melee	</characteristic>
+                    <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">Base</characteristic>
+                    <characteristic name="ROF" typeId="84c1-58a6-c210-6200">CMBT</characteristic>
+                    <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">7</characteristic>
+                    <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="31ed-c815-c14a-d366" name="Officer Equipment(Max 3)" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d31f-d774-28af-4a94" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb0f-e95d-093c-43ac" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="2215-130e-9f71-f51e" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
+                <entryLink id="dc50-5cf4-93b6-e887" name="Explosives" hidden="false" collective="false" import="true" targetId="e64d-eebe-9473-d026" type="selectionEntryGroup"/>
+                <entryLink id="b5ea-96b8-6839-01b6" name="Anti-Tank Weapons" hidden="false" collective="false" import="true" targetId="3c04-6ed5-2066-5da9" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="7cfc-394b-2a7e-1014" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3876-462b-7dca-66f6" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a74-bd1b-e6bc-94b2" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="dcf3-837e-13b8-6f2d" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
+            <entryLink id="7892-fac7-f427-bffc" name="Kingdom of Erland Primary Weapons" hidden="false" collective="false" import="true" targetId="466d-8df9-1f2e-c96f" type="selectionEntryGroup"/>
+            <entryLink id="8810-a63d-3cfa-776b" name="Kingdom of Erland Secondary Weapons" hidden="false" collective="false" import="true" targetId="48d8-80d6-c35a-76eb" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="7.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="11.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f85b-4667-2ee4-ee73" name="Senior Enlisted Leader" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c348-890c-bc3e-d819" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3771-dbc6-032f-50f6" name="Senior Cadre Trupp Leader" hidden="false" typeId="8554-7c5b-644d-0781" typeName="Trooper ">
+              <characteristics>
+                <characteristic name="Key Traits" typeId="533f-d2f4-b240-29c2">Living, Arms, Legs</characteristic>
+                <characteristic name="DEF" typeId="6327-fd82-8107-5ea3">3</characteristic>
+                <characteristic name="CMBT" typeId="bd54-b27e-a8fa-59fa">2</characteristic>
+                <characteristic name="ATHL" typeId="c988-b08c-df98-0786">2</characteristic>
+                <characteristic name="INT" typeId="6b9a-0ec2-b6eb-ba5d">2</characteristic>
+                <characteristic name="LD" typeId="e23a-0dfa-b3b1-9f13">2</characteristic>
+                <characteristic name="ARMOR" typeId="171f-5e5a-ec7c-6d99">10</characteristic>
+                <characteristic name="END" typeId="3d52-4bc1-5a65-f947">2</characteristic>
+                <characteristic name="NERVE" typeId="96a7-4b9b-d78d-6ab7">3</characteristic>
+                <characteristic name="MOVE" typeId="9dd2-b6f5-1311-0283">5</characteristic>
+                <characteristic name="SIZE" typeId="8c4d-98b0-558e-fbd6">5- Med</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="ec78-4fce-4217-4f57" name="Voice of Command" hidden="false" targetId="71c1-7cf0-d0e8-989e" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="b34a-9edc-cec8-446a" name="War Pick" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4772-763f-3040-619a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d5b-45cf-6505-2b4f" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="5cf5-ba5d-858c-0d10" name="War Pick" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Melee</characteristic>
+                    <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">Base</characteristic>
+                    <characteristic name="ROF" typeId="84c1-58a6-c210-6200">-</characteristic>
+                    <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">7+CMBT</characteristic>
+                    <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">Brutal, Stun</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="1d2c-59a6-30fb-c985" name="Brutal" hidden="false" targetId="0f22-3a0c-dcbd-2d0d" type="rule"/>
+                <infoLink id="ac01-dc3a-d10d-d5f2" name="Stun" hidden="false" targetId="f500-f8ba-1a3c-b73e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a7c9-beeb-e0c5-9d18" name="Hand to Hand Combat" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b85-9abd-f654-34d1" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9be-86d6-649b-b4c6" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="b1de-a594-389c-475f" name="Hand to Hand Combat" hidden="false" typeId="c35e-6e23-ae6b-8588" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="a3d7-ecfa-eabd-3416">Melee	</characteristic>
+                    <characteristic name="Range" typeId="5bfa-8ab4-bf4b-866b">Base</characteristic>
+                    <characteristic name="ROF" typeId="84c1-58a6-c210-6200">CMBT</characteristic>
+                    <characteristic name="DMG" typeId="0ee6-e14a-1c95-f692">7</characteristic>
+                    <characteristic name="Special Rules" typeId="85c4-eea7-28d9-2fd8">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
+                <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="11de-91d1-dcac-1617" name="Officer Equipment(Max 3)" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81cd-ee96-7857-a716" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1d6-2d3c-4422-a23b" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="6ea4-66a8-a75b-d9b6" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="b676-660f-728e-9a2b" type="selectionEntryGroup"/>
+                <entryLink id="54f6-7bdf-3c8e-0e9c" name="Explosives" hidden="false" collective="false" import="true" targetId="e64d-eebe-9473-d026" type="selectionEntryGroup"/>
+                <entryLink id="29de-d6de-3d6f-b0f4" name="Anti-Tank Weapons" hidden="false" collective="false" import="true" targetId="3c04-6ed5-2066-5da9" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="753a-4b6b-08ab-92cb" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="9f4a-4a90-07da-a3c8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc68-1cfb-30fc-6cac" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c19e-841b-5e77-2e52" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="ecd1-abdf-1d65-d821" name="Drones" hidden="false" collective="false" import="true" targetId="5375-7ceb-d584-c716" type="selectionEntryGroup"/>
+            <entryLink id="4b4d-7b7d-bcf5-2385" name="Kingdom of Erland Primary Weapons" hidden="false" collective="false" import="true" targetId="466d-8df9-1f2e-c96f" type="selectionEntryGroup"/>
+            <entryLink id="3078-9940-925d-110a" name="Kingdom of Erland Secondary Weapons" hidden="false" collective="false" import="true" targetId="48d8-80d6-c35a-76eb" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="5.0"/>
+            <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Resource Points" typeId="9f39-e69b-dc02-b17c" value="0.0"/>
+        <cost name="Command Points" typeId="a20b-d4d2-6853-8d1c" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
