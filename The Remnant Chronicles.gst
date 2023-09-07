@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="4" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="5" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c8da-24a8-bcaa-8190" name="The Remnant Chronicles Rulebook"/>
     <publication id="8c20-1e89-cba7-0494" name="Forces of the Federal Coalition "/>
@@ -107,6 +107,7 @@
         <categoryLink id="2835-b418-638e-b99d" name="Mission Briefing" hidden="false" targetId="d47e-03f7-a6e5-cddc" primary="false"/>
         <categoryLink id="6a8c-ee19-debb-cbc9" name="Armed Forces Selector" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="bc1c-3334-8a07-6030" primary="false"/>
         <categoryLink id="4fd4-9212-9f6c-9be7" name="Era of Play " hidden="false" targetId="b6a6-5387-61f2-2383" primary="false"/>
+        <categoryLink id="648b-c059-34e3-f9a7" name="Command Cards and Utilities" hidden="false" targetId="7c73-06e3-1e6a-caf8" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="ed80-109a-8029-bcde" name="Tier 1 Firefight (10-15 Command Points)" hidden="false">
@@ -144,6 +145,7 @@
         <categoryLink id="8107-9d84-304e-bda5" name="Mission Briefing" hidden="false" targetId="d47e-03f7-a6e5-cddc" primary="false"/>
         <categoryLink id="a7e8-4b18-12b6-f348" name="Armed Forces Selector" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="bc1c-3334-8a07-6030" primary="false"/>
         <categoryLink id="db59-b753-0871-c1b2" name="Era of Play " hidden="false" targetId="b6a6-5387-61f2-2383" primary="false"/>
+        <categoryLink id="b807-23d0-2374-73b0" name="Command Cards and Utilities" hidden="false" targetId="7c73-06e3-1e6a-caf8" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="2c7d-5472-b942-3b15" name="Tier 2 Skirmish (20-25 Command Points)" hidden="false">
@@ -181,6 +183,7 @@
         <categoryLink id="5d05-182a-73fc-ea0e" name="Mission Briefing" hidden="false" targetId="d47e-03f7-a6e5-cddc" primary="false"/>
         <categoryLink id="0e2e-43c8-443a-64b6" name="Armed Forces Selector" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="bc1c-3334-8a07-6030" primary="false"/>
         <categoryLink id="94ef-a4f5-b0ad-46ea" name="Era of Play " hidden="false" targetId="b6a6-5387-61f2-2383" primary="false"/>
+        <categoryLink id="6132-9fb8-e926-1e90" name="Command Cards and Utilities" hidden="false" targetId="7c73-06e3-1e6a-caf8" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="f811-2c76-9d8f-014d" name="Tier 3 Engagement (30-35 Command Points)" hidden="false">
@@ -261,6 +264,7 @@
         <categoryLink id="88f3-382a-9f77-1b8e" name="Mission Briefing" hidden="false" targetId="d47e-03f7-a6e5-cddc" primary="false"/>
         <categoryLink id="997f-d77d-080b-cf3b" name="Armed Forces Selector" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="bc1c-3334-8a07-6030" primary="false"/>
         <categoryLink id="6ae1-a978-dcb1-e993" name="Era of Play " hidden="false" targetId="b6a6-5387-61f2-2383" primary="false"/>
+        <categoryLink id="1df8-0980-5ada-48f9" name="Command Cards and Utilities" hidden="false" targetId="7c73-06e3-1e6a-caf8" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="8265-916a-ff55-3652" name="Tier 5 Total War (50+ Command Points)" hidden="false">
@@ -298,6 +302,7 @@
         <categoryLink id="83bb-b220-615e-2037" name="Mission Briefing" hidden="false" targetId="d47e-03f7-a6e5-cddc" primary="false"/>
         <categoryLink id="9bf4-6a2d-8b47-2df8" name="Armed Forces Selector" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="bc1c-3334-8a07-6030" primary="false"/>
         <categoryLink id="4a58-c1d0-c6c1-dcd8" name="Era of Play " hidden="false" targetId="b6a6-5387-61f2-2383" primary="false"/>
+        <categoryLink id="aa51-7ba3-af8e-0228" name="Command Cards and Utilities" hidden="false" targetId="7c73-06e3-1e6a-caf8" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -563,7 +568,7 @@ Casualties can only be secured by bringing them in contact with your home edge.
               </rules>
               <costs>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
-                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ea2f-951b-e295-ec35" name="•Dig In! " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -575,7 +580,7 @@ Casualties can only be secured by bringing them in contact with your home edge.
               </rules>
               <costs>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
-                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9917-a194-2c48-fdfd" name="•Electronic Warfare" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -587,7 +592,7 @@ Casualties can only be secured by bringing them in contact with your home edge.
               </rules>
               <costs>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
-                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -637,7 +642,7 @@ Orbital Strike
               </rules>
               <costs>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
-                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9ec0-7b83-0138-b4a8" name="•••Prepared Defenses" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -651,7 +656,7 @@ Orbital Strike
               </rules>
               <costs>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
-                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3414-beb9-c973-ae27" name="•••Radio Silence" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -670,7 +675,7 @@ If a player chooses to “break” radio silence, the card is removed from play 
               </rules>
               <costs>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
-                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6b4c-7184-2ccf-8fb5" name="•••Reinforcements " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -684,8 +689,16 @@ If a player chooses to “break” radio silence, the card is removed from play 
               </rules>
               <costs>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
-                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry id="a321-1eb1-9dbd-0325" name="•••Seize The Initiative" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fac-2ef5-cc28-cb42" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="9bb1-4097-532a-35b3" name="•••Seize The Initiative" hidden="false"/>
+              </rules>
             </selectionEntry>
           </selectionEntries>
           <costs>
@@ -705,7 +718,7 @@ If a player chooses to “break” radio silence, the card is removed from play 
               </constraints>
               <costs>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
-                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5dd5-218e-c793-121c" name="••Fire Support is Needed! (2 Command Points)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -714,7 +727,7 @@ If a player chooses to “break” radio silence, the card is removed from play 
               </constraints>
               <costs>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
-                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="27f6-985f-db4e-955b" name="••Jammed Communications " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -723,7 +736,7 @@ If a player chooses to “break” radio silence, the card is removed from play 
               </constraints>
               <costs>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
-                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3c27-5be7-7aec-1a38" name="••Leaked Intelligence" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -732,7 +745,7 @@ If a player chooses to “break” radio silence, the card is removed from play 
               </constraints>
               <costs>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
-                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b731-37c0-ced7-fe74" name="••Requesting Air Support!" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -741,7 +754,7 @@ If a player chooses to “break” radio silence, the card is removed from play 
               </constraints>
               <costs>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
-                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3502,6 +3515,17 @@ The  Model must be in base-to-base contact with the casualty to perform the chec
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc9d-4f56-79f2-44c6" type="max"/>
           </constraints>
         </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="c541-04e9-2851-e86f" name="Squad Equipment (Max 3 per Squad)" hidden="false" collective="true" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d87e-b147-a72c-f153" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbbd-d0af-ffc3-6af1" type="min"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="90af-2fe5-a25f-4f43" name="Anti-Tank Weapons" hidden="false" collective="false" import="true" targetId="21a2-e213-95c8-b961" type="selectionEntryGroup"/>
+        <entryLink id="6122-0b28-55d4-974c" name="Explosives" hidden="false" collective="false" import="true" targetId="ae5e-6636-b33c-051b" type="selectionEntryGroup"/>
+        <entryLink id="315e-94e4-66af-fbb6" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="c7e8-1f2d-1ea3-29ae" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
