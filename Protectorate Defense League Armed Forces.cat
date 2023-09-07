@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="4" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="5" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="4f5f-9cb5-c624-6d11" name="Central Guard Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -160,10 +160,8 @@
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7b8-7886-5ddd-1727" type="max"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e762-83ec-baf4-c4ea" type="min"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="6ff3-91a4-c648-62f0" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
-          </entryLinks>
         </entryLink>
+        <entryLink id="b3dc-97dd-d823-f1ce" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -524,9 +522,6 @@ The Pak Mule can never benefit from its own ballistic shields
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a99-e4e6-3976-6f80" type="max"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="652d-b88d-bde9-15a7" type="min"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="a244-9013-d0f3-2a18" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
-          </entryLinks>
         </entryLink>
         <entryLink id="b712-c3f3-b42f-a446" name="Squad Specialist " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="fe1f-3230-2baf-0333" type="selectionEntryGroup">
           <constraints>
@@ -534,6 +529,7 @@ The Pak Mule can never benefit from its own ballistic shields
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a06-5051-ebc7-5737" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="2c95-5e61-422e-b9c0" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -577,15 +573,13 @@ The Pak Mule can never benefit from its own ballistic shields
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae18-c9a7-e061-d103" type="max"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0fb-c6d0-013f-21c1" type="min"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="1f46-9ef1-99e8-b1fb" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
-          </entryLinks>
         </entryLink>
         <entryLink id="6907-c499-fbe9-c148" name="Frontiersman Squad Leader" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="f2b7-8be7-be9e-2eb7" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dce-1c40-a4b6-30fb" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="3639-7057-d55d-8c2b" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -654,9 +648,6 @@ The Pak Mule can never benefit from its own ballistic shields
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b30-701b-e7e0-580e" type="max"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5343-c1e8-19be-b058" type="min"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="4db4-5f13-ecab-b8ca" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
-          </entryLinks>
         </entryLink>
         <entryLink id="64f6-9ae8-a2a0-ec36" name="Combat Shield" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="ea61-c3b9-c27c-939f" type="selectionEntry">
           <constraints>
@@ -666,6 +657,7 @@ The Pak Mule can never benefit from its own ballistic shields
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-1.0"/>
           </costs>
         </entryLink>
+        <entryLink id="1aa9-be93-3636-4101" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="10.0"/>
@@ -872,10 +864,8 @@ The Pak Mule can never benefit from its own ballistic shields
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e31e-82ab-9a2b-41a3" type="max"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47b4-d5b0-697f-d225" type="min"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="0c3c-e40e-8bfa-2c60" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
-          </entryLinks>
         </entryLink>
+        <entryLink id="9baf-418c-97dd-6b7a" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -910,12 +900,12 @@ The Pak Mule can never benefit from its own ballistic shields
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3830-4c74-4f72-a644" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="5d17-c5d8-5aff-2dbb" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="4.0"/>
           </costs>
         </entryLink>
+        <entryLink id="9138-2712-c3d5-2426" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -1000,10 +990,8 @@ The Pak Mule can never benefit from its own ballistic shields
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24b6-8fb4-6aa3-5ea2" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb92-5cbd-8e4c-a115" type="min"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="2c55-d6ce-9261-702c" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
-          </entryLinks>
         </entryLink>
+        <entryLink id="14ec-26c6-824e-1648" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -1351,11 +1339,9 @@ The Pak Mule can never benefit from its own ballistic shields
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6eca-7c1d-7c30-a9c8" type="max"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="201a-69e3-63e0-4d0d" type="min"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="c419-a94f-2e5e-7acd" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
-          </entryLinks>
         </entryLink>
         <entryLink id="101d-6d17-29be-c9d1" name="E&apos;Selda Grenadier Squad Leader" hidden="false" collective="false" import="true" targetId="2254-f0ff-53f8-a298" type="selectionEntryGroup"/>
+        <entryLink id="33e9-5b2f-c878-1fe3" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -1506,10 +1492,8 @@ The Pak Mule can never benefit from its own ballistic shields
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6215-2df7-75ad-95f5" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fd1-c58f-e69e-ab8b" type="min"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="c584-b01f-9cd2-98f6" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
-          </entryLinks>
         </entryLink>
+        <entryLink id="4684-c28a-1892-6818" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -2017,10 +2001,8 @@ The Pak Mule can never benefit from its own ballistic shields
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e39a-e258-6ec3-5c7e" type="max"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="743f-862b-6b2d-9ca3" type="min"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="d4cc-38ba-3f62-b2a4" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
-          </entryLinks>
         </entryLink>
+        <entryLink id="7a15-0075-487c-3dd6" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
