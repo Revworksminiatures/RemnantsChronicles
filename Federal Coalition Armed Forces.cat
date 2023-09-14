@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="5" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="6" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="674c-569a-ca53-7190" name="Marine Boarding Assault Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
-        <categoryLink id="b326-f9a8-5237-f133" name="Light Core" hidden="false" targetId="fa42-d150-a4d6-a3db" primary="false">
+        <categoryLink id="b326-f9a8-5237-f133" name="Light Core" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="fa42-d150-a4d6-a3db" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06cd-e17f-43fc-bca8" type="max"/>
           </constraints>
@@ -13,10 +13,10 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="680b-e643-0337-7ef8" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="3553-461a-2c97-b9e4" name="Armed Forces Selector" hidden="false" targetId="bc1c-3334-8a07-6030" primary="false"/>
-        <categoryLink id="7cb4-6da2-6757-1650" name="Era of Play " hidden="false" targetId="b6a6-5387-61f2-2383" primary="false"/>
-        <categoryLink id="017f-42eb-0165-1d32" name="Mission Briefing" hidden="false" targetId="d47e-03f7-a6e5-cddc" primary="false"/>
-        <categoryLink id="c2e8-865d-6730-9264" name="Command Cards and Utilities" hidden="false" targetId="7c73-06e3-1e6a-caf8" primary="false"/>
+        <categoryLink id="3553-461a-2c97-b9e4" name="Armed Forces Selector" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="bc1c-3334-8a07-6030" primary="false"/>
+        <categoryLink id="7cb4-6da2-6757-1650" name="Era of Play " publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b6a6-5387-61f2-2383" primary="false"/>
+        <categoryLink id="017f-42eb-0165-1d32" name="Mission Briefing" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="d47e-03f7-a6e5-cddc" primary="false"/>
+        <categoryLink id="c2e8-865d-6730-9264" name="Command Cards and Utilities" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="7c73-06e3-1e6a-caf8" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="754e-c159-ebe7-d70f" name="Special Operations Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
@@ -26,10 +26,10 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c80-e04b-f56a-3478" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="a52f-8f76-609e-8d5d" name="Armed Forces Selector" hidden="false" targetId="bc1c-3334-8a07-6030" primary="false"/>
-        <categoryLink id="56f1-d1a8-cf1b-2307" name="Era of Play " hidden="false" targetId="b6a6-5387-61f2-2383" primary="false"/>
-        <categoryLink id="3ab4-99f4-e95e-cd40" name="Mission Briefing" hidden="false" targetId="d47e-03f7-a6e5-cddc" primary="false"/>
-        <categoryLink id="a4be-8f1d-bf96-9dfc" name="Command Cards and Utilities" hidden="false" targetId="7c73-06e3-1e6a-caf8" primary="false"/>
+        <categoryLink id="a52f-8f76-609e-8d5d" name="Armed Forces Selector" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="bc1c-3334-8a07-6030" primary="false"/>
+        <categoryLink id="56f1-d1a8-cf1b-2307" name="Era of Play " publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b6a6-5387-61f2-2383" primary="false"/>
+        <categoryLink id="3ab4-99f4-e95e-cd40" name="Mission Briefing" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="d47e-03f7-a6e5-cddc" primary="false"/>
+        <categoryLink id="a4be-8f1d-bf96-9dfc" name="Command Cards and Utilities" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="7c73-06e3-1e6a-caf8" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="d5e6-14cf-cc68-f8f6" name="Armored Assault Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
@@ -44,10 +44,10 @@
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bb8-f7db-7911-7ccc" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="1e85-d459-aed4-cd1b" name="Armed Forces Selector" hidden="false" targetId="bc1c-3334-8a07-6030" primary="false"/>
-        <categoryLink id="8da7-8fb5-7f05-6110" name="Era of Play " hidden="false" targetId="b6a6-5387-61f2-2383" primary="false"/>
-        <categoryLink id="9b43-b9f9-33de-d43f" name="Command Cards and Utilities" hidden="false" targetId="7c73-06e3-1e6a-caf8" primary="false"/>
-        <categoryLink id="7986-e313-6349-bcb8" name="Mission Briefing" hidden="false" targetId="d47e-03f7-a6e5-cddc" primary="false"/>
+        <categoryLink id="1e85-d459-aed4-cd1b" name="Armed Forces Selector" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="bc1c-3334-8a07-6030" primary="false"/>
+        <categoryLink id="8da7-8fb5-7f05-6110" name="Era of Play " publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b6a6-5387-61f2-2383" primary="false"/>
+        <categoryLink id="9b43-b9f9-33de-d43f" name="Command Cards and Utilities" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="7c73-06e3-1e6a-caf8" primary="false"/>
+        <categoryLink id="7986-e313-6349-bcb8" name="Mission Briefing" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="d47e-03f7-a6e5-cddc" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -1437,6 +1437,27 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
               <costs>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4a8c-798f-03e4-e9ff" name="••• Orbital Fleet Relay" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="89d8-cf0a-2b59-8519" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f20-fd2f-04fa-9fe1" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="d7b3-53fb-96d5-a26d" name="••• Orbital Fleet Relay" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+                  <description>A LIGHT SUPPORT Unit with a Indirect ability weapon may fire its weapon as if it was a Direct Fire weapon. Line of Sight is not needed in order to use this card. </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
