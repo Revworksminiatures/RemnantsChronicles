@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="6" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="7" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="674c-569a-ca53-7190" name="Marine Boarding Assault Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -388,6 +388,7 @@
           <entryLinks>
             <entryLink id="2f44-b1c3-c287-e85e" name="Vehicle Upgrades" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="bfd2-6b47-8ff3-dd43" type="selectionEntryGroup"/>
             <entryLink id="16e9-030a-876d-f939" name="Tank Turret Weapons" hidden="false" collective="false" import="true" targetId="ca0a-20b8-683b-684f" type="selectionEntryGroup"/>
+            <entryLink id="730c-64fa-0d4c-c48e" name="Anti-Personal Weapons " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="5ea4-d121-3247-864f" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="8.0"/>
@@ -846,10 +847,6 @@
           </conditions>
         </modifier>
       </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a08-6c5d-d38d-b835" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d13-837c-f87a-ac57" type="max"/>
-      </constraints>
       <profiles>
         <profile id="a6d3-95b6-65b5-ba9b" name="R782 &quot;Gemini&quot; RIG Team" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="752c-3a73-d54e-d187" typeName="RIG (Reinforced Integrated General Suit)">
           <characteristics>
@@ -886,6 +883,12 @@
             <entryLink id="e1e0-1e1f-45fa-e4df" name="RIG Upgrades" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="38d2-6d0d-1fc8-c3ca" type="selectionEntryGroup"/>
             <entryLink id="e7c8-b388-fbea-035f" name="RIG Carried Weapons" hidden="false" collective="false" import="true" targetId="6fa9-c71a-f533-6ed0" type="selectionEntryGroup"/>
             <entryLink id="09ca-44ef-d578-a62f" name="RIG Shoulder Mounts" hidden="false" collective="false" import="true" targetId="32a8-f039-24ae-22bc" type="selectionEntryGroup"/>
+            <entryLink id="13c1-f067-a343-002b" name="2x Metal Fist" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="a8c9-9fe4-8348-c039" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="618c-48b9-bb60-9ada" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b52d-2992-c919-3601" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
@@ -3211,15 +3214,11 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
       </costs>
     </selectionEntry>
     <selectionEntry id="f998-9891-0d36-1ea9" name="M81A1 Mercury II  RIG Team" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fdf-a6c8-5054-91a3" type="min"/>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6dc-484d-21ef-2599" type="max"/>
-      </constraints>
       <profiles>
         <profile id="a2ea-3704-1219-b0da" name="M81A1 Mercury II  RIG Team" hidden="false" typeId="752c-3a73-d54e-d187" typeName="RIG (Reinforced Integrated General Suit)">
           <characteristics>
             <characteristic name="Key Traits" typeId="ceff-52f7-ad02-94b5">Arms, Legs, Armored, Walker</characteristic>
-            <characteristic name="CMBT" typeId="06b1-607f-a7ec-e56f">21</characteristic>
+            <characteristic name="CMBT" typeId="06b1-607f-a7ec-e56f">2</characteristic>
             <characteristic name="DEF" typeId="58eb-5efc-7ff9-eda8">1</characteristic>
             <characteristic name="ATHL" typeId="16cc-6490-5a6c-d9a3">2</characteristic>
             <characteristic name="INT" typeId="58c5-f861-554f-7c36">3</characteristic>
@@ -3251,6 +3250,12 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
             <entryLink id="2381-a138-5b5e-db30" name="RIG Carried Weapons" hidden="false" collective="false" import="true" targetId="6fa9-c71a-f533-6ed0" type="selectionEntryGroup"/>
             <entryLink id="195d-4ee8-83ff-6878" name="RIG Shoulder Mounts" hidden="false" collective="false" import="true" targetId="32a8-f039-24ae-22bc" type="selectionEntryGroup"/>
             <entryLink id="d5dc-118e-b0a1-d24a" name="RIG Upgrades" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="38d2-6d0d-1fc8-c3ca" type="selectionEntryGroup"/>
+            <entryLink id="bb65-ae1c-3f41-8cba" name="2x Metal Fist" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="a8c9-9fe4-8348-c039" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5298-dbb4-042f-6f03" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4a0-a6af-563c-620d" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
@@ -3264,10 +3269,6 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
       </costs>
     </selectionEntry>
     <selectionEntry id="7f5e-31f5-b64e-072d" name="M72A9 &quot;Apollo&quot; Light RIG Team" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a26-eb5b-d823-c9c6" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aca2-fd3b-76e3-d6cd" type="max"/>
-      </constraints>
       <categoryLinks>
         <categoryLink id="1043-752d-5635-3076" name="Heavy Core" hidden="false" targetId="aaf1-86b5-3e39-53a0" primary="true"/>
       </categoryLinks>
@@ -3304,6 +3305,13 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
             <entryLink id="9f01-4d89-6739-f4ee" name="RIG Left Arm" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="f1d6-492d-f0ac-195a" type="selectionEntryGroup"/>
             <entryLink id="94f0-35b9-baf0-a2e9" name="RIG Right Arm" hidden="false" collective="false" import="true" targetId="79f4-b7c9-fed6-d7a9" type="selectionEntryGroup"/>
             <entryLink id="960f-90a6-0929-bcb4" name="RIG Shoulder Mounts" hidden="false" collective="false" import="true" targetId="32a8-f039-24ae-22bc" type="selectionEntryGroup"/>
+            <entryLink id="1586-ad6b-48fe-f16d" name="RIG Upgrades" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="38d2-6d0d-1fc8-c3ca" type="selectionEntryGroup"/>
+            <entryLink id="838e-ac92-704b-4c91" name="2x Metal Arm" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="16c0-59b6-031d-2e6b" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1449-5ec8-5858-3103" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0fb-cabb-84e4-fb53" type="min"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="4.0"/>
@@ -3317,9 +3325,6 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
       </costs>
     </selectionEntry>
     <selectionEntry id="4e49-ef1c-1b3c-4a56" name="M191 MLRS Team" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5809-7149-93e8-aee1" type="max"/>
-      </constraints>
       <infoLinks>
         <infoLink id="b146-429a-cbbd-4525" name="Tracks" hidden="false" targetId="33c8-ea05-c817-6f55" type="rule"/>
         <infoLink id="8fc4-802e-c911-70dc" name="Armored" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5cdd-1b21-9cee-76de" type="rule"/>

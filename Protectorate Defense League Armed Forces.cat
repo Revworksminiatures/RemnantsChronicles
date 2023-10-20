@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="6" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="7" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="4f5f-9cb5-c624-6d11" name="Central Guard Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -692,6 +692,7 @@ The Pak Mule can never benefit from its own ballistic shields
             <entryLink id="d41f-cf47-add6-6a84" name="RIG Right Arm" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="79f4-b7c9-fed6-d7a9" type="selectionEntryGroup"/>
             <entryLink id="219a-b54c-566d-6831" name="RIG Shoulder Mounts" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="32a8-f039-24ae-22bc" type="selectionEntryGroup"/>
             <entryLink id="dd58-5a15-1cd6-0386" name="RIG Upgrades" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="38d2-6d0d-1fc8-c3ca" type="selectionEntryGroup"/>
+            <entryLink id="2d6f-bff9-fa6e-aeff" name="2x Metal Arm" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="16c0-59b6-031d-2e6b" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="20.0"/>
@@ -1185,7 +1186,7 @@ The Pak Mule can never benefit from its own ballistic shields
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d43b-5cfa-9691-c6d2" type="equalTo"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae31-3cb2-ae9f-c0aa" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -1193,9 +1194,7 @@ The Pak Mule can never benefit from its own ballistic shields
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3d6-e96b-338b-422b" type="max"/>
               </constraints>
               <rules>
-                <rule id="b2f7-b160-7444-d12b" name="••Stay Sharp! (Protectorate Defense Leauge Border Frontier)" hidden="false">
-                  <description>The Border Frontier ONLY</description>
-                </rule>
+                <rule id="b2f7-b160-7444-d12b" name="••Stay Sharp! " publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
               </rules>
               <costs>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -1221,7 +1220,7 @@ The Pak Mule can never benefit from its own ballistic shields
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c157-d773-f2e9-e8c9" name="••Stealth Tactics" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c157-d773-f2e9-e8c9" name="••Stealth Tactics" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1233,14 +1232,14 @@ The Pak Mule can never benefit from its own ballistic shields
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99a2-cccd-3ade-5254" type="max"/>
               </constraints>
               <rules>
-                <rule id="3c8c-5706-11a6-c26a" name="••Stealth Tactics" hidden="false"/>
+                <rule id="3c8c-5706-11a6-c26a" name="••Stealth Tactics" publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="27b9-75ba-6a80-2181" name="••Forward Recon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="27b9-75ba-6a80-2181" name="••Forward Recon" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1252,7 +1251,28 @@ The Pak Mule can never benefit from its own ballistic shields
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b23-29bb-6223-b2ac" type="max"/>
               </constraints>
               <rules>
-                <rule id="db2c-d872-5705-945b" name="••Forward Recon" hidden="false"/>
+                <rule id="db2c-d872-5705-945b" name="••Forward Recon" publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3fff-ef2d-0536-e0cc" name="••Flanking Fire!" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d43b-5cfa-9691-c6d2" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8411-61dd-3060-5852" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="1736-2e34-f250-8a94" name="••Flanking Fire!" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+                  <description>Choose two units that both have Line of Sight to the same enemy unit. Both units gain an advantage to direct, spray and burst attacks against the designated enemy unit</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -2004,6 +2024,100 @@ The Pak Mule can never benefit from its own ballistic shields
         </entryLink>
         <entryLink id="7a15-0075-487c-3dd6" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f555-8d23-8e1d-6cdb" name="Type 221 &quot;Armada&quot; Tank Squadron" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d43b-5cfa-9691-c6d2" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cd9-6283-e8ef-357a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3445-2d35-dfce-fba4" name="Heavy Support" hidden="false" targetId="4749-85c7-9d41-aa3f" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="bbd7-2c70-4735-257d" name="Type 221 &quot;Armada&quot; Tank " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9af3-8358-936a-ba6b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bed-8e5a-ee83-9edb" type="min"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="6ff1-2cf6-8a0f-4c2e" name="Type 221 &quot;Armada&quot; Tank   Commander" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="b185-e7be-16f2-9dd6" name="Type 221 &quot;Armada&quot; Tank   Commander" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1af6-8f7f-f296-90e0" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="4a85-0707-fb14-2678" name="Voice of Command" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5581-8d83-3043-4a25" type="rule"/>
+                    <infoLink id="5795-83b4-f4b3-b76d" name="Veteran Crew" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="cc82-cc85-07be-750b" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="3.0"/>
+                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="7ec2-a86f-5d35-8a53" name="• Captain Wandi Danzinger" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d43b-5cfa-9691-c6d2" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="139f-0160-def7-3a98" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="b67e-a519-e974-ce22" name="• Commander Wandi Danzinger" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+                      <characteristics>
+                        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Arms, Legs, Living	</characteristic>
+                        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
+                        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+                        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">2</characteristic>
+                        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+                        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
+                        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+                        <characteristic name="END" typeId="9490-11f5-1aaf-c586">3</characteristic>
+                        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+                        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+                        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5- Med</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="54a1-6088-531b-4b65" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+                    <infoLink id="999f-62ca-a33c-c6e4" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+                    <infoLink id="a6f9-48fc-51c9-1b23" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+                    <infoLink id="ac50-a098-b8c9-db17" name="Voice of Command" hidden="false" targetId="5581-8d83-3043-4a25" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="7.0"/>
+                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="11.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="3772-91c8-7334-453d" name="Anti-Personal Weapons " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="5ea4-d121-3247-864f" type="selectionEntryGroup"/>
+            <entryLink id="5ea8-74ef-a1cd-ab40" name="Tank Turret Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="ca0a-20b8-683b-684f" type="selectionEntryGroup"/>
+            <entryLink id="5cad-29f6-3fae-15d5" name="Tank Upgrades" hidden="false" collective="false" import="true" targetId="bfd2-6b47-8ff3-dd43" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="8.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="8" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="10" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c8da-24a8-bcaa-8190" name="The Remnant Chronicles Rulebook"/>
     <publication id="8c20-1e89-cba7-0494" name="Forces of the Federal Coalition "/>
@@ -3708,6 +3708,9 @@ Once a Token has been rolled for and the result applied, remove it from the game
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="3058-3316-5fcc-29f2" name="Pistol" hidden="false" targetId="2bf3-65e8-f195-5487" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -3725,6 +3728,9 @@ Once a Token has been rolled for and the result applied, remove it from the game
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="018c-d5a0-a721-4b33" name="Pistol" hidden="false" targetId="2bf3-65e8-f195-5487" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="-3.0"/>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -5137,6 +5143,63 @@ The  Model must be in base-to-base contact with the casualty to perform the chec
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="00fc-5b5d-ce03-7925" name="Dedicated Marksmen Rifle (DMR)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="8f94-ebec-160d-68a9" name="Dedicated Marksmen Rifle (DMR)" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct</characteristic>
+            <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">20/40/OO</characteristic>
+            <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">1-2</characteristic>
+            <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">10</characteristic>
+            <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Scope:2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c1cb-b5dd-ddad-f1d4" name="Sniper Rifle" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="eb31-3309-c4e0-e1b4" name="Sniper Rifle" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct</characteristic>
+            <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">30/60/OO</characteristic>
+            <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">1</characteristic>
+            <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">11</characteristic>
+            <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Scope:3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-5.0"/>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5299-428a-efcf-e3a2" name="Howitzer" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7f64-15e1-489b-de5c" name="Howitzer" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Indirect</characteristic>
+            <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">30/60/OO</characteristic>
+            <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">-</characteristic>
+            <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">14</characteristic>
+            <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Observer, Blast:4, Guided, Single Use</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0300-8d87-866a-590d" name="Observer" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="f9de-63fa-4577-a269" type="rule"/>
+        <infoLink id="dfa5-a5cf-7cfb-6b20" name="Blast" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="2c83-dd28-35b9-0f5d" type="rule"/>
+        <infoLink id="3c82-a116-5f77-88ec" name="Guided" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b47c-7c4e-7f21-050e" type="rule"/>
+        <infoLink id="ccf8-2825-c748-33db" name="Single Use" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="f740-eeb9-719c-d5c7" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-5.0"/>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="bfd2-6b47-8ff3-dd43" name="Tank Upgrades" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="true" import="true">
@@ -5264,26 +5327,30 @@ The  Model must be in base-to-base contact with the casualty to perform the chec
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bfe-29d1-ae67-5c91" type="max"/>
           </constraints>
           <profiles>
-            <profile id="cd6c-e6d7-96e3-5a78" name="Combat Drone" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
+            <profile id="cd6c-e6d7-96e3-5a78" name="Combat Drone" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
               <characteristics>
-                <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d"/>
-                <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6"/>
-                <characteristic name="DEF" typeId="26f5-47a1-8310-51da"/>
-                <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4"/>
-                <characteristic name="INT" typeId="b52b-fc57-76e8-5e4b"/>
-                <characteristic name="LD" typeId="1c19-dad2-a576-46c1"/>
-                <characteristic name="ARMOR" typeId="0abc-6803-65ce-ea04"/>
-                <characteristic name="END" typeId="60e8-bc63-0a32-48e5"/>
-                <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34"/>
-                <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90"/>
-                <characteristic name="SIZE" typeId="1adb-2fcb-5438-776f"/>
+                <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d">Fly, Hover, Remote Controlled, Deployable</characteristic>
+                <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6">2</characteristic>
+                <characteristic name="DEF" typeId="26f5-47a1-8310-51da">3</characteristic>
+                <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4">2</characteristic>
+                <characteristic name="INT" typeId="b52b-fc57-76e8-5e4b">3</characteristic>
+                <characteristic name="LD" typeId="1c19-dad2-a576-46c1">-</characteristic>
+                <characteristic name="ARMOR" typeId="0abc-6803-65ce-ea04">10/10/10</characteristic>
+                <characteristic name="END" typeId="60e8-bc63-0a32-48e5">2</characteristic>
+                <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34">-</characteristic>
+                <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90">9</characteristic>
+                <characteristic name="SIZE" typeId="1adb-2fcb-5438-776f">3-S</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="53a9-87cd-924d-756a" name="Hover" hidden="false" targetId="9df6-6829-df07-ef91" type="rule"/>
             <infoLink id="c290-d1f4-d96e-2516" name="Remote Controlled" hidden="false" targetId="3acb-e422-fa9b-d7da" type="rule"/>
+            <infoLink id="4bd6-f7bc-2d19-82e2" name="Deployable" hidden="false" targetId="cc62-cd2d-f022-116a" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="9a15-b27b-ea74-7786" name="Anti-Personal Weapons " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="5ea4-d121-3247-864f" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -5296,23 +5363,25 @@ The  Model must be in base-to-base contact with the casualty to perform the chec
           <profiles>
             <profile id="9a72-7cc2-c4aa-16eb" name="Reconnaissance Drone" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
               <characteristics>
-                <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d"/>
-                <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6"/>
-                <characteristic name="DEF" typeId="26f5-47a1-8310-51da"/>
-                <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4"/>
-                <characteristic name="INT" typeId="b52b-fc57-76e8-5e4b"/>
-                <characteristic name="LD" typeId="1c19-dad2-a576-46c1"/>
-                <characteristic name="ARMOR" typeId="0abc-6803-65ce-ea04"/>
-                <characteristic name="END" typeId="60e8-bc63-0a32-48e5"/>
-                <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34"/>
-                <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90"/>
-                <characteristic name="SIZE" typeId="1adb-2fcb-5438-776f"/>
+                <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d">Fly, Hover, Remote Controlled, Deployable, Observer</characteristic>
+                <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6">1</characteristic>
+                <characteristic name="DEF" typeId="26f5-47a1-8310-51da">2</characteristic>
+                <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4">2</characteristic>
+                <characteristic name="INT" typeId="b52b-fc57-76e8-5e4b">2</characteristic>
+                <characteristic name="LD" typeId="1c19-dad2-a576-46c1">-</characteristic>
+                <characteristic name="ARMOR" typeId="0abc-6803-65ce-ea04">9/9/9</characteristic>
+                <characteristic name="END" typeId="60e8-bc63-0a32-48e5">3</characteristic>
+                <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34">-</characteristic>
+                <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90">9</characteristic>
+                <characteristic name="SIZE" typeId="1adb-2fcb-5438-776f">3-S</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="2b32-eedf-96a8-48fc" name="Hover" hidden="false" targetId="9df6-6829-df07-ef91" type="rule"/>
             <infoLink id="e510-1504-b36e-dd08" name="Remote Controlled" hidden="false" targetId="3acb-e422-fa9b-d7da" type="rule"/>
+            <infoLink id="cc64-a260-7041-ce75" name="Deployable" hidden="false" targetId="cc62-cd2d-f022-116a" type="rule"/>
+            <infoLink id="6c4c-5179-62c9-62f9" name="Observer" hidden="false" targetId="f9de-63fa-4577-a269" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
@@ -6175,7 +6244,7 @@ The  Model must be in base-to-base contact with the casualty to perform the chec
     </selectionEntryGroup>
     <selectionEntryGroup id="c541-04e9-2851-e86f" name="Squad Equipment (Max 3 per Squad)" hidden="false" collective="true" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d87e-b147-a72c-f153" type="max"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d87e-b147-a72c-f153" type="max"/>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbbd-d0af-ffc3-6af1" type="min"/>
       </constraints>
       <entryLinks>
@@ -6656,6 +6725,38 @@ If an action cost for an objective exceeds double its starting value, the object
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup id="a35e-f097-842e-9664" name="Veteran Crew" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="d5da-add7-d2fe-c4fc" name="Veteran Crew" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8459-d769-fd4c-0ce9" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b624-00dc-858a-49aa" name="Veteran Crew" hidden="false" targetId="93de-01b7-b2bd-38a7" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="94ca-b310-2de5-cc18" name="Veteran Pilot" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="00e8-3412-6fdb-9587" name="Veteran Pilot" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="039d-a3fc-c5f1-411f" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="30dc-23d2-9d6f-dbca" name="Veteran Pilot" hidden="false" targetId="aaa1-218c-ea0a-22a4" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="48d5-dd87-3500-38a0" name="Walker" hidden="false">
@@ -6712,7 +6813,9 @@ If an action cost for an objective exceeds double its starting value, the object
     <rule id="006d-bb00-aa88-f600" name="Rend" hidden="false">
       <description>This Weapon Critical Hits on a Natural 9+</description>
     </rule>
-    <rule id="3acb-e422-fa9b-d7da" name="Remote Controlled" hidden="false"/>
+    <rule id="3acb-e422-fa9b-d7da" name="Remote Controlled" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+      <description>This model must stay within the Command range of the Units Leader Model but does not require an action to activate.</description>
+    </rule>
     <rule id="8d04-2d8e-5a78-46b0" name="Reliable" hidden="false"/>
     <rule id="f2c1-e7c9-2023-4209" name="Ram" hidden="false">
       <description>A Vehicle can choose to ram into structures or other vehicles. If a vehicle chooses to ram a structure or vehicle, it makes a CMBT roll and adds success to the Vehicle’s Armor. If the vehicle’s roll is higher than the structures or vehicle&apos;s AR, the vehicle may use its full movement to “crash” into the target. 
@@ -6720,7 +6823,9 @@ The structure is reduced to a “ruin” for purposes of terrain.
 An enemy vehicle loses Endurance points equal to the DMG dealt to it by the Ramming force of the vehicle
 </description>
     </rule>
-    <rule id="2bf3-65e8-f195-5487" name="Pistol" hidden="false"/>
+    <rule id="2bf3-65e8-f195-5487" name="Pistol" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+      <description>This weapon maybe used in melee without suffering any disadvantages.</description>
+    </rule>
     <rule id="8015-9cc1-b80a-25a1" name="Piercing:X " hidden="false">
       <description>This Weapon treats Armor Ratings as being X less than they normally are.</description>
     </rule>
@@ -6842,36 +6947,39 @@ equal to X inches from the point where the weapon hit. The Blind Condition lasts
     <rule id="6fd3-1474-d8b9-aacb" name="Advance" hidden="false">
       <description>The Vehicle moves up to a number of inches equal to its movement rating. It may freely pivot before, after, or during the move, but must always move in the direction it is facing. Once the move is complete, the action has ended.</description>
     </rule>
+    <rule id="cc62-cd2d-f022-116a" name="Deployable" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+      <description>This model maybe added to or  removed from the tabletop if a model uses a action to deploy or undeploy it. The controlling model must be in base to base contact in order to deploy or undeploy the model</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="93de-01b7-b2bd-38a7" name="Veteran Crew" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
-        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8"/>
-        <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
-        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
-        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
-        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
-        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
-        <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
-        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
-        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
-        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
+        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">3</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">2</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">3</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
       </characteristics>
     </profile>
     <profile id="aaa1-218c-ea0a-22a4" name="Veteran Pilot" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
-        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8"/>
-        <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
-        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
-        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
-        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
-        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
-        <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
-        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
-        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
-        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
+        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">3</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">2</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">3</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5- Med</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
