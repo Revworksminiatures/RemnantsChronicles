@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="2" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="5" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="e924-7063-5021-9f05" name="Mercenary Gang (Casual Play)" publicationId="782f-493f-cc20-a098" hidden="false"/>
     <forceEntry id="3e5c-c3d7-7fa7-d7d6" name="Han&apos;s Crusaders (Casual Play)" publicationId="782f-493f-cc20-a098" hidden="false"/>
@@ -1669,6 +1669,13 @@ Ammo: OOO</characteristic>
           </constraints>
           <selectionEntries>
             <selectionEntry id="8eaf-6bb6-73b2-1351" name="•Combat Stims (Zi&apos;lo Drug Cartel)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="46b0-19ed-b41c-f070" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ace-0762-ad00-1445" type="max"/>
               </constraints>
@@ -1683,6 +1690,13 @@ Ammo: OOO</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="289f-aca1-231b-5dcf" name="•Street Smarts (Zi&apos;lo Drug Cartel)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="46b0-19ed-b41c-f070" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de0b-ee49-43ca-2411" type="max"/>
               </constraints>
@@ -1697,6 +1711,13 @@ Ammo: OOO</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="877e-6c0c-42bc-2b78" name="•Uncanny Luck (Mercs and Bounty Hunters)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b6dd-bf62-ef07-4fdc" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb54-f181-7d9b-acea" type="max"/>
               </constraints>
@@ -1711,6 +1732,13 @@ Ammo: OOO</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="90c9-902e-3f09-6e05" name="•Worthy Adversaries (Mercs and Bounty Hunters)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b6dd-bf62-ef07-4fdc" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7566-7d02-4a7a-584e" type="max"/>
               </constraints>
@@ -1725,6 +1753,13 @@ Ammo: OOO</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="f6ec-959f-d13e-3f1c" name="•Crusader Zeal (Han&apos;s Crusade)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="027c-c1d3-194c-1ae6" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97e4-64b7-270b-9aaf" type="max"/>
               </constraints>
@@ -1739,6 +1774,13 @@ Ammo: OOO</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="63a7-6409-dbd9-a230" name="•Crusader Training (Han&apos;s Crusade)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="027c-c1d3-194c-1ae6" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28a9-3fee-0fa6-50e2" type="max"/>
               </constraints>
@@ -1764,6 +1806,13 @@ Ammo: OOO</characteristic>
           </constraints>
           <selectionEntries>
             <selectionEntry id="ab8a-0e3c-28a1-d935" name="••Hunt the Target (Mercs and Bounty Hunters)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b6dd-bf62-ef07-4fdc" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fba-077d-1f89-b756" type="max"/>
               </constraints>
@@ -1778,6 +1827,13 @@ Ammo: OOO</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="9966-64e9-5f9e-b07b" name="••Odds in your favor (Mercs and Bounty Hunters)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b6dd-bf62-ef07-4fdc" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d2a-0a56-90c5-71b2" type="max"/>
               </constraints>
@@ -1831,9 +1887,10 @@ Ammo: OOO</characteristic>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f52-f14e-8a3f-ccde" type="min"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="47e3-c764-fa68-02e8" name="Bonus Stat" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" defaultSelectionEntryId="1fb1-97ef-7ffd-f558">
+        <selectionEntryGroup id="47e3-c764-fa68-02e8" name="Bonus Stat" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8bc-00bc-ff25-83bb" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d975-2f53-5bc4-716f" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="eb76-b44f-7aff-418d" name="ATHL" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
@@ -1894,6 +1951,7 @@ Ammo: OOO</characteristic>
         <selectionEntryGroup id="7050-efc9-0da3-a975" name="Drawback Stat" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5afe-88c6-2912-5fdf" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ae3-5551-2b5b-86bb" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="b525-c538-5e45-9626" name="ATHL" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">

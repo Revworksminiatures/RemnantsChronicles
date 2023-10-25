@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="7" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="8" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="4f5f-9cb5-c624-6d11" name="Central Guard Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -2653,6 +2653,23 @@ Ammo: OOO</characteristic>
             <infoLink id="61ce-23dc-aab1-0d4c" name="CAR-68 Pistol" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="066f-da24-0c49-294c" type="profile"/>
             <infoLink id="9dfb-7a53-a824-34f4" name="Pistol" hidden="false" targetId="2bf3-65e8-f195-5487" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8a70-f1ab-e028-bce1" name="BRI-61 Assault Shotgun" publicationId="6f11-4351-f3f0-26cb" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="53ec-fbcb-3720-b2c7" name="BRI-61 Assault Shotgun" publicationId="6f11-4351-f3f0-26cb" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct</characteristic>
+                <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">15/30/45</characteristic>
+                <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">1</characteristic>
+                <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">9</characteristic>
+                <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Spray</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>

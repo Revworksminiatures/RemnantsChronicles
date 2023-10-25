@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="10" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="12" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c8da-24a8-bcaa-8190" name="The Remnant Chronicles Rulebook"/>
     <publication id="8c20-1e89-cba7-0494" name="Forces of the Federal Coalition "/>
@@ -3732,8 +3732,8 @@ Once a Token has been rolled for and the result applied, remove it from the game
         <infoLink id="018c-d5a0-a721-4b33" name="Pistol" hidden="false" targetId="2bf3-65e8-f195-5487" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="-3.0"/>
-        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c9d8-fa13-6ff9-4300" name="Personal Loadouts" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="true" import="true" type="upgrade">
