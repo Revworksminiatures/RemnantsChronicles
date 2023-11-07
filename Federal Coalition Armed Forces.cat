@@ -1429,6 +1429,13 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
           </constraints>
           <selectionEntries>
             <selectionEntry id="ca30-9190-d554-0371" name="•••Fire Mission Inbound!! (Federal Coalition Army / Home Guard)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8be4-e13a-b373-fc47" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18d9-b1eb-b405-4301" type="max"/>
               </constraints>
@@ -1471,6 +1478,9 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bef-2b62-68ff-0a9a" type="max"/>
+              </constraints>
               <rules>
                 <rule id="96a8-ff50-b240-c685" name="••• Valor Above All" publicationId="8c20-1e89-cba7-0494" hidden="false">
                   <description>If an enemy unit is within charging distance of a LIGHT CORE unit,  the enemy unit may not react to your movement or charge even if they have a reaction prepared. They may still defend themselves against any melee or shooting attack as normal as long as they have the actions or reactions to do so.</description>
@@ -1478,6 +1488,7 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
