@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="8" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="9" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="4f5f-9cb5-c624-6d11" name="Central Guard Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -82,6 +82,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink id="87d0-f553-966e-99f5" name="Central Guardsmen Fireteam" hidden="false" targetId="e62a-ae92-a5df-1d3b" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="8e07-8c5c-9ebc-b838" name="Light Core" hidden="false" targetId="fa42-d150-a4d6-a3db" primary="true"/>
       </categoryLinks>
@@ -869,7 +872,7 @@ The Pak Mule can never benefit from its own ballistic shields
         <entryLink id="9baf-418c-97dd-6b7a" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -883,6 +886,7 @@ The Pak Mule can never benefit from its own ballistic shields
       </modifiers>
       <infoLinks>
         <infoLink id="d7ed-7f32-6162-ab2a" name="Infiltrate" hidden="false" targetId="aa34-b8b4-90d1-3ee5" type="rule"/>
+        <infoLink id="c28e-3ee2-a78c-e7d5" name="Central Guardsmen Scout Sniper Team" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="1bd5-0933-1b4c-29af" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7573-caa2-e342-6aac" name="Light Core" hidden="false" targetId="fa42-d150-a4d6-a3db" primary="true"/>
@@ -909,7 +913,7 @@ The Pak Mule can never benefit from its own ballistic shields
         <entryLink id="9138-2712-c3d5-2426" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1175,7 +1179,9 @@ The Pak Mule can never benefit from its own ballistic shields
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc95-2a18-1131-3c29" type="max"/>
               </constraints>
               <rules>
-                <rule id="df21-fb85-1925-1e03" name="••Plug in! " publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
+                <rule id="df21-fb85-1925-1e03" name="••Plug in! " publicationId="c8da-24a8-bcaa-8190" hidden="false">
+                  <description>A LIGHT SUPPORT or HEAVY CORE RIG may add an additional dice to any CMBT, DEF, and ATHL checks the next time they activate.  This effect only last 1 round. After the end of the round the LIGHT SUPPORT or HEAVY CORE RIG will immediately suffer 2 Wounds on its Stat card.</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -1194,7 +1200,9 @@ The Pak Mule can never benefit from its own ballistic shields
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3d6-e96b-338b-422b" type="max"/>
               </constraints>
               <rules>
-                <rule id="b2f7-b160-7444-d12b" name="••Stay Sharp! " publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
+                <rule id="b2f7-b160-7444-d12b" name="••Stay Sharp! " publicationId="c8da-24a8-bcaa-8190" hidden="false">
+                  <description>If a LIGHT CORE unit is the chosen target of a attack, they may an additonal dice to their DEF pool.</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -1213,7 +1221,9 @@ The Pak Mule can never benefit from its own ballistic shields
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7215-6c03-18f1-ae57" type="max"/>
               </constraints>
               <rules>
-                <rule id="2c07-658f-5f8e-7558" name="••Overloaded Power Cells" publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
+                <rule id="2c07-658f-5f8e-7558" name="••Overloaded Power Cells" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+                  <description>A Unit using BEAM weapons may immediately add an additonal +2 to the DMG of their weapons the next time they activate. This effect ends after the unit has finished its activations.  The chosen unit immediately suffers a out of ammon token.</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -1232,7 +1242,9 @@ The Pak Mule can never benefit from its own ballistic shields
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99a2-cccd-3ade-5254" type="max"/>
               </constraints>
               <rules>
-                <rule id="3c8c-5706-11a6-c26a" name="••Stealth Tactics" publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
+                <rule id="3c8c-5706-11a6-c26a" name="••Stealth Tactics" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+                  <description>If a LIGHT CORE unit is stealthed, you may add one dice to the dice pool when rolling for a Stealth Check.</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -1251,7 +1263,9 @@ The Pak Mule can never benefit from its own ballistic shields
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b23-29bb-6223-b2ac" type="max"/>
               </constraints>
               <rules>
-                <rule id="db2c-d872-5705-945b" name="••Forward Recon" publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
+                <rule id="db2c-d872-5705-945b" name="••Forward Recon" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+                  <description>A LIGHT CORE unit may immediately make an extra move action even if they do not have the action to do so.</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -1289,6 +1303,28 @@ The Pak Mule can never benefit from its own ballistic shields
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8af-e142-5ad9-0a0f" type="max"/>
           </constraints>
+          <selectionEntries>
+            <selectionEntry id="39dd-e443-0135-ae65" name="••• Modified Warheads" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7b08-1fb6-77fc-4d07" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4d7-2b37-c4e3-bda5" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="9864-482a-1c9d-c24f" name="••• Modified Warheads" publicationId="6f11-4351-f3f0-26cb" hidden="false">
+                  <description>A DP-99 Marauder may add either NUCLEAR, BIOLOGICAL, or CHEMICAL Keywords to its Fire Support Weapon USR.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <costs>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -2036,6 +2072,11 @@ The Pak Mule can never benefit from its own ballistic shields
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d43b-5cfa-9691-c6d2" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d774-6800-9d01-7f5f" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cd9-6283-e8ef-357a" type="max"/>
@@ -2659,6 +2700,9 @@ Ammo: OOO</characteristic>
           </costs>
         </selectionEntry>
         <selectionEntry id="8a70-f1ab-e028-bce1" name="BRI-61 Assault Shotgun" publicationId="6f11-4351-f3f0-26cb" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d35a-70bf-2be4-50f9" type="max"/>
+          </constraints>
           <profiles>
             <profile id="53ec-fbcb-3720-b2c7" name="BRI-61 Assault Shotgun" publicationId="6f11-4351-f3f0-26cb" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
               <characteristics>
@@ -3397,6 +3441,21 @@ Ammo: OOO</characteristic>
         <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34">3</characteristic>
         <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90">7</characteristic>
         <characteristic name="SIZE" typeId="1adb-2fcb-5438-776f">9-H</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1bd5-0933-1b4c-29af" name="Central Guardsmen Scout Sniper Team" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5- Med</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

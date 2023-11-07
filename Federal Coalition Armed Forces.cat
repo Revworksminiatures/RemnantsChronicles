@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="7" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="8" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="674c-569a-ca53-7190" name="Marine Boarding Assault Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -1461,6 +1461,23 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="68ac-4266-d269-1984" name="••• Valor Above All" publicationId="8c20-1e89-cba7-0494" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="89d8-cf0a-2b59-8519" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <rules>
+                <rule id="96a8-ff50-b240-c685" name="••• Valor Above All" publicationId="8c20-1e89-cba7-0494" hidden="false">
+                  <description>If an enemy unit is within charging distance of a LIGHT CORE unit,  the enemy unit may not react to your movement or charge even if they have a reaction prepared. They may still defend themselves against any melee or shooting attack as normal as long as they have the actions or reactions to do so.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
