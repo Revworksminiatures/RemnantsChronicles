@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="7" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="8" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="e924-7063-5021-9f05" name="Mercenary Gang (Casual Play)" publicationId="782f-493f-cc20-a098" hidden="false"/>
     <forceEntry id="3e5c-c3d7-7fa7-d7d6" name="Han&apos;s Crusaders (Casual Play)" publicationId="782f-493f-cc20-a098" hidden="false"/>
@@ -2232,6 +2232,28 @@ Ammo: OOO</characteristic>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="caf5-730d-3df2-cec8" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="0cb5-91ac-082a-3056" name="• Tuinas &quot;Colt&quot; Hamgar" publicationId="782f-493f-cc20-a098" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+              <characteristics>
+                <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
+                <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
+                <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">3</characteristic>
+                <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+                <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">3</characteristic>
+                <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">10</characteristic>
+                <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+                <characteristic name="END" typeId="9490-11f5-1aaf-c586">4</characteristic>
+                <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">4</characteristic>
+                <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+                <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="b687-ffc5-07c8-6cbf" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+            <infoLink id="23c9-7471-7135-682b" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+            <infoLink id="3b18-f89c-5ce0-7815" name="Living" publicationId="782f-493f-cc20-a098" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+          </infoLinks>
           <entryLinks>
             <entryLink id="a8e8-f0a2-7390-c0f8" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
             <entryLink id="b628-3095-d98c-26d2" name="Personal Loadouts" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
