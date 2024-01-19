@@ -1,10 +1,251 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="8" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="10" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
-    <forceEntry id="e924-7063-5021-9f05" name="Mercenary Gang (Casual Play)" publicationId="782f-493f-cc20-a098" hidden="false"/>
-    <forceEntry id="3e5c-c3d7-7fa7-d7d6" name="Han&apos;s Crusaders (Casual Play)" publicationId="782f-493f-cc20-a098" hidden="false"/>
-    <forceEntry id="9319-e9eb-647b-c0c8" name="Router&apos;s Gild (Casual Play)" publicationId="782f-493f-cc20-a098" hidden="false"/>
-    <forceEntry id="4886-61ce-ad80-2345" name="Planetary Milita Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
+    <forceEntry id="3e5c-c3d7-7fa7-d7d6" name="Han&apos;s Crusaders (Casual Play)" publicationId="782f-493f-cc20-a098" hidden="false">
+      <categoryLinks>
+        <categoryLink id="3c4d-4f2a-45ba-1716" name="Armed Forces Selector" publicationId="6f11-4351-f3f0-26cb" hidden="false" targetId="bc1c-3334-8a07-6030" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84c3-c85b-2e16-af89" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="aa13-9b9d-3762-7758" name="Command Cards and Utilities" hidden="false" targetId="7c73-06e3-1e6a-caf8" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af8b-2208-684b-b9d2" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="d6bb-4622-edec-cc51" name="Light Core" publicationId="782f-493f-cc20-a098" hidden="false" targetId="fa42-d150-a4d6-a3db" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="704e-991d-3148-97c2" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="b6f6-2e7a-2ac1-7152" name="Special Issue" publicationId="782f-493f-cc20-a098" hidden="false" targetId="77a9-6ad1-a22d-695a" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="654b-4c04-41b1-013a" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="b955-586a-4e90-5d70" name="Heavy Core" publicationId="782f-493f-cc20-a098" hidden="false" targetId="aaf1-86b5-3e39-53a0" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5da8-1a18-f9bc-1ac7" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="be8a-90b9-0d7d-a619" name="Era of Play " hidden="false" targetId="b6a6-5387-61f2-2383" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ac1-1d46-19c8-13f6" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="62a0-b62b-3131-4392" name="Light Support" publicationId="782f-493f-cc20-a098" hidden="false" targetId="45b0-9ee5-e76b-4914" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06a5-f0e9-c026-f7c9" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="406b-9ba3-69ae-28cb" name="Heavy Support" publicationId="782f-493f-cc20-a098" hidden="false" targetId="4749-85c7-9d41-aa3f" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a697-a561-dc92-81fb" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="a8a0-f7a3-8513-0066" name="Mission Briefing" publicationId="782f-493f-cc20-a098" hidden="false" targetId="d47e-03f7-a6e5-cddc" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da4f-969c-bdf3-1ff8" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="9319-e9eb-647b-c0c8" name="Router&apos;s Gild (Casual Play)" publicationId="782f-493f-cc20-a098" hidden="false">
+      <categoryLinks>
+        <categoryLink id="4e0d-390d-adfc-1088" name="Armed Forces Selector" publicationId="6f11-4351-f3f0-26cb" hidden="false" targetId="bc1c-3334-8a07-6030" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42e6-59af-df7f-a4c6" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="5481-de2f-4613-f10c" name="Command Cards and Utilities" hidden="false" targetId="7c73-06e3-1e6a-caf8" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1d1-0c9a-40a5-e968" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="7968-5cbf-efb1-26c7" name="Light Core" publicationId="782f-493f-cc20-a098" hidden="false" targetId="fa42-d150-a4d6-a3db" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca18-669a-41a7-80f3" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="030a-e1cb-a869-abce" name="Special Issue" publicationId="782f-493f-cc20-a098" hidden="false" targetId="77a9-6ad1-a22d-695a" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e65-c050-3e7d-50a6" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="3e35-9e3b-93fc-2c5d" name="Heavy Core" publicationId="782f-493f-cc20-a098" hidden="false" targetId="aaf1-86b5-3e39-53a0" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffde-01ef-9d19-d0f3" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="4cfa-c6e6-f453-42b9" name="Era of Play " hidden="false" targetId="b6a6-5387-61f2-2383" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7059-21e7-e80d-46c9" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="afba-3d74-9b6f-d0ca" name="Light Support" publicationId="782f-493f-cc20-a098" hidden="false" targetId="45b0-9ee5-e76b-4914" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31b6-735d-318d-1306" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="cc44-8776-c318-3af8" name="Heavy Support" publicationId="782f-493f-cc20-a098" hidden="false" targetId="4749-85c7-9d41-aa3f" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d797-48ae-380e-2458" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="4b22-d7d9-ecde-5368" name="Mission Briefing" publicationId="782f-493f-cc20-a098" hidden="false" targetId="d47e-03f7-a6e5-cddc" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6be5-d040-4988-2029" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="4886-61ce-ad80-2345" name="Planetary Milita Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+      <categoryLinks>
+        <categoryLink id="8c53-8122-a92d-2ba4" name="Armed Forces Selector" publicationId="6f11-4351-f3f0-26cb" hidden="false" targetId="bc1c-3334-8a07-6030" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fa3-d0c5-f753-a287" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="a2e5-fe27-a317-4f46" name="Command Cards and Utilities" hidden="false" targetId="7c73-06e3-1e6a-caf8" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2945-729d-fbdc-df83" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="5afe-9f23-8648-9e75" name="Light Core" publicationId="782f-493f-cc20-a098" hidden="false" targetId="fa42-d150-a4d6-a3db" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e71f-1e35-ee99-8bac" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="3504-c581-db93-200e" name="Special Issue" publicationId="782f-493f-cc20-a098" hidden="false" targetId="77a9-6ad1-a22d-695a" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a88a-36fb-89fe-2f89" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="e8ac-39f0-29c4-51a0" name="Heavy Core" publicationId="782f-493f-cc20-a098" hidden="false" targetId="aaf1-86b5-3e39-53a0" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a39-3074-0af3-1b4f" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="7a75-805e-eb3e-b7be" name="Era of Play " hidden="false" targetId="b6a6-5387-61f2-2383" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7822-31b9-3b25-f88f" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="93f4-a891-97d2-40e6" name="Light Support" publicationId="782f-493f-cc20-a098" hidden="false" targetId="45b0-9ee5-e76b-4914" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60de-9c42-8e65-47c1" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="aac1-dcc2-52ed-769c" name="Heavy Support" publicationId="782f-493f-cc20-a098" hidden="false" targetId="4749-85c7-9d41-aa3f" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa69-1479-ec33-ea37" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="b3b5-7fe0-107e-b467" name="Mission Briefing" publicationId="782f-493f-cc20-a098" hidden="false" targetId="d47e-03f7-a6e5-cddc" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3731-7718-eb19-1d75" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="ed4e-0be0-e777-a865" name="Raiders of Cancer Pirate Group (Casual Play)" publicationId="782f-493f-cc20-a098" hidden="false">
+      <categoryLinks>
+        <categoryLink id="3aa0-06b2-52a0-ee35" name="Armed Forces Selector" publicationId="6f11-4351-f3f0-26cb" hidden="false" targetId="bc1c-3334-8a07-6030" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41e4-2fc1-28e0-9c13" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="d717-9173-f1ca-914b" name="Light Core" publicationId="782f-493f-cc20-a098" hidden="false" targetId="fa42-d150-a4d6-a3db" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55ff-6329-4cf0-f76f" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="7af5-bcc7-7172-572d" name="Special Issue" publicationId="782f-493f-cc20-a098" hidden="false" targetId="77a9-6ad1-a22d-695a" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70d4-dcfa-7bcb-f989" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="04ec-0b7e-b17c-9a85" name="Heavy Core" publicationId="782f-493f-cc20-a098" hidden="false" targetId="aaf1-86b5-3e39-53a0" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="540e-f9f3-11a8-25ae" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="9fc6-183b-7323-65fd" name="Era of Play " hidden="false" targetId="b6a6-5387-61f2-2383" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d246-513f-c9ae-8234" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="5385-7145-888a-fb92" name="Light Support" publicationId="782f-493f-cc20-a098" hidden="false" targetId="45b0-9ee5-e76b-4914" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7aa8-0282-d191-2724" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="4caa-cec7-247e-a21c" name="Heavy Support" publicationId="782f-493f-cc20-a098" hidden="false" targetId="4749-85c7-9d41-aa3f" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05ff-6372-ef4e-7fcf" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="d24f-fc99-822e-9dac" name="Command Cards and Utilities" hidden="false" targetId="7c73-06e3-1e6a-caf8" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c79c-3d7f-4b4e-3ae2" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="8217-d0d8-cf05-a11d" name="Mission Briefing" publicationId="782f-493f-cc20-a098" hidden="false" targetId="d47e-03f7-a6e5-cddc" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9439-d412-af0c-94d9" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="dc8a-963e-5823-aa81" name="Mercanary Gang (Casual Play)" hidden="false">
+      <categoryLinks>
+        <categoryLink id="a3f0-8139-c484-baa4" name="Armed Forces Selector" publicationId="6f11-4351-f3f0-26cb" hidden="false" targetId="bc1c-3334-8a07-6030" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96ad-2e0d-42aa-4c7f" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="45cf-708e-ebe3-2a01" name="Command Cards and Utilities" hidden="false" targetId="7c73-06e3-1e6a-caf8" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9d0-a067-5b6a-7bfd" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="8ea2-be45-0167-2408" name="Era of Play " hidden="false" targetId="b6a6-5387-61f2-2383" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6003-e2cc-9e83-b5fb" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="4649-3e6b-d45a-10ef" name="Heavy Core" publicationId="782f-493f-cc20-a098" hidden="false" targetId="aaf1-86b5-3e39-53a0" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2938-26ea-ecde-e758" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="c418-5ebb-b825-87e7" name="Light Core" publicationId="782f-493f-cc20-a098" hidden="false" targetId="fa42-d150-a4d6-a3db" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fa3-9cba-0a44-88fb" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="f114-95b3-1e2f-219f" name="Special Issue" publicationId="782f-493f-cc20-a098" hidden="false" targetId="77a9-6ad1-a22d-695a" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="143d-1b1a-d0e2-7665" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="006e-e723-6a85-5fc1" name="Light Support" publicationId="782f-493f-cc20-a098" hidden="false" targetId="45b0-9ee5-e76b-4914" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce86-56e5-c345-d466" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="4ef1-4311-0b6f-3dc3" name="Heavy Support" publicationId="782f-493f-cc20-a098" hidden="false" targetId="4749-85c7-9d41-aa3f" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27d8-2845-da56-a821" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="73f0-fdf0-c104-27b7" name="Mission Briefing" publicationId="782f-493f-cc20-a098" hidden="false" targetId="d47e-03f7-a6e5-cddc" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec5e-8043-2c23-235c" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
   </forceEntries>
   <selectionEntries>
     <selectionEntry id="a69a-b9a3-eed9-3463" name="Stockpiles Selection" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -251,6 +492,11 @@
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19ac-8249-7c6c-1962" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="2edd-6e99-8068-361a" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+            <infoLink id="81ea-75c2-6964-aee9" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+            <infoLink id="8ba5-7192-a070-e024" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+          </infoLinks>
           <selectionEntries>
             <selectionEntry id="eef1-14b5-ed09-8557" name="Model 32 &quot;Marauder&quot; Heavy Exo Suit" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -315,6 +561,7 @@
             <infoLink id="1cec-b37c-31c5-47bf" name="Independent&apos;s Combat Technical Truck" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b734-4ac1-9f3a-6e97" type="profile"/>
             <infoLink id="ac5c-42a2-3446-0ad6" name="Mechanum Wheels" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="4359-da52-3a45-63b3" type="rule"/>
             <infoLink id="c94b-1af8-0c0f-233d" name="Transport: X" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="369e-0c29-6c01-f12b" type="rule"/>
+            <infoLink id="0f65-ebd1-9d62-446e" name="Armored" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5cdd-1b21-9cee-76de" type="rule"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="2c46-7aaf-ab7d-37b1" name="Veteran Crew" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="a35e-f097-842e-9664" type="selectionEntryGroup"/>
@@ -352,6 +599,10 @@
           </constraints>
           <infoLinks>
             <infoLink id="70cc-e907-0da0-38ae" name="Independent&apos;s &quot;Apollo&quot; Light RIG" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="0c13-8eac-1b91-16ff" type="profile"/>
+            <infoLink id="29f7-c8b1-aaf5-1bb5" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+            <infoLink id="e6a5-fa95-1f18-4fc3" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+            <infoLink id="07ab-153f-9044-7d36" name="Walker" hidden="false" targetId="48d5-dd87-3500-38a0" type="rule"/>
+            <infoLink id="9021-ce56-ae78-0561" name="Armored" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5cdd-1b21-9cee-76de" type="rule"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="37fd-e2d2-7c1f-a867" name="Veteran Pilot" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="94ca-b310-2de5-cc18" type="selectionEntryGroup"/>
@@ -401,6 +652,9 @@
               </constraints>
               <infoLinks>
                 <infoLink id="d8f5-866d-54af-11a3" name="Bounty Hunter Trainees" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="4a18-b309-9c31-979f" type="profile"/>
+                <infoLink id="ada5-2432-37e3-538f" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+                <infoLink id="46a6-3440-a54a-0173" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+                <infoLink id="53ec-b6ec-589d-fa53" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
               </infoLinks>
               <entryLinks>
                 <entryLink id="c29c-5aa5-fbbb-6d32" name="Personal Loadouts" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
@@ -431,6 +685,9 @@
           </constraints>
           <infoLinks>
             <infoLink id="5be4-40fe-bbf1-6661" name="Experienced Bounty Hunter" hidden="false" targetId="6c34-2526-c822-d2f7" type="profile"/>
+            <infoLink id="0d76-4634-604c-30b8" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+            <infoLink id="b7d9-6be2-8913-6e5c" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+            <infoLink id="c1f9-31a6-d64b-060f" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="0794-bcd7-a12f-b9b3" name="Task Force Leader" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
@@ -451,6 +708,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="9f0e-dd02-f798-cc4f" name="Squad Equipment (Max 3 per Squad)" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -465,7 +725,7 @@
         </modifier>
       </modifiers>
       <infoLinks>
-        <infoLink id="fffe-59bf-0ae0-d05a" name="Han&apos;s Crusader Team" publicationId="782f-493f-cc20-a098" hidden="false" targetId="7bc8-308e-a64b-e49d" type="profile"/>
+        <infoLink id="fffe-59bf-0ae0-d05a" name="Han&apos;s Crusader " publicationId="782f-493f-cc20-a098" hidden="false" targetId="7bc8-308e-a64b-e49d" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="66b5-e9ef-141a-8886" name="Light Core" hidden="false" targetId="fa42-d150-a4d6-a3db" primary="true"/>
@@ -476,6 +736,11 @@
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71ba-343d-d241-34f3" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2138-ebf3-d436-d9ae" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="04e7-2afc-8cca-8dfb" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+            <infoLink id="adc8-ae1c-f93e-d57f" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+            <infoLink id="d2e4-3e5c-9856-3b6c" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+          </infoLinks>
           <entryLinks>
             <entryLink id="0fb4-3d9a-e826-d121" name="The Independent&apos;s Primary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
             <entryLink id="cc02-dd8e-3a1e-6294" name="The Independent&apos;s Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
@@ -499,6 +764,9 @@
           </constraints>
           <infoLinks>
             <infoLink id="63bb-f004-c5dc-b6a5" name="Han&apos;s Crusader Fanatic" hidden="false" targetId="82fd-dc05-d7df-00d9" type="profile"/>
+            <infoLink id="4be2-a773-7029-5c71" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+            <infoLink id="5ff7-77dd-4bef-f5af" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+            <infoLink id="9c4b-3e2e-92b0-4612" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="bb0e-f848-fa36-73ec" name="Task Force Leader" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
@@ -519,6 +787,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="00cd-4029-84c6-0346" name="Squad Equipment (Max 3 per Squad)" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -544,6 +815,11 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9e7-e640-76fd-f6f8" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef34-1592-0ee7-0b31" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="efa7-bee6-d973-fa63" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+                <infoLink id="62c3-191e-15ef-828f" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+                <infoLink id="7b23-d3e2-d189-9e44" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+              </infoLinks>
               <entryLinks>
                 <entryLink id="0c34-144d-c1a3-ed92" name="Personal Loadouts" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
                   <constraints>
@@ -569,6 +845,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="3d03-501c-f431-532a" name="Assassin Team Leader" hidden="false" collective="false" import="true" targetId="774d-d221-2723-890e" type="selectionEntryGroup"/>
+        <entryLink id="2040-2914-b811-2803" name="Squad Equipment (Max 3 per Squad)" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="10.0"/>
@@ -601,6 +878,11 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b98c-d686-f5de-ff6d" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c522-1c48-707e-7da6" type="min"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="cada-8715-6629-8c82" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+                <infoLink id="08e8-221b-867e-7fc2" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+                <infoLink id="5f18-461f-a1f4-788d" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+              </infoLinks>
               <entryLinks>
                 <entryLink id="13d2-eb14-dffa-e19e" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
                 <entryLink id="a233-ffcb-862a-c6ed" name="Personal Loadouts" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
@@ -626,6 +908,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="c009-96ca-6599-99d6" name="Erland Seditionist Team Leader" hidden="false" collective="false" import="true" targetId="b183-a1e9-0684-058d" type="selectionEntryGroup"/>
+        <entryLink id="3e3d-adba-3283-000d" name="Squad Equipment (Max 3 per Squad)" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -658,6 +941,11 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ba6-6ef4-040c-2c17" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f51-0748-df85-b87e" type="min"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="f438-0af4-1857-d18a" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+                <infoLink id="1bf1-b420-a529-05c3" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+                <infoLink id="317e-11d0-2fa3-c4d6" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+              </infoLinks>
               <entryLinks>
                 <entryLink id="e59c-9199-6e08-aa7e" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
                 <entryLink id="31fa-08e0-c8f0-a9be" name="Personal Loadouts" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
@@ -684,6 +972,7 @@
       <entryLinks>
         <entryLink id="6dad-8855-dbca-a2ac" name="Hired Guns Team Leader" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="aaa5-fb49-6916-1c96" type="selectionEntryGroup"/>
         <entryLink id="2607-cda2-c859-3b8c" name="Hired Gun Squad Specialist" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="fb88-21ae-6eff-2ede" type="selectionEntryGroup"/>
+        <entryLink id="db73-beba-7012-4a27" name="Squad Equipment (Max 3 per Squad)" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -787,11 +1076,6 @@
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="640d-8429-c7a4-a187" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3ef7-5a45-7e70-4455" type="equalTo"/>
           </conditions>
         </modifier>
@@ -809,6 +1093,7 @@
             <infoLink id="c28f-3eb5-f0ca-7942" name="Fly" publicationId="782f-493f-cc20-a098" hidden="false" targetId="05c5-d7d9-c3e9-8ba5" type="rule"/>
             <infoLink id="bf4a-3f73-4539-b34c" name="Hover" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="9df6-6829-df07-ef91" type="rule"/>
             <infoLink id="347a-7693-e6e2-4618" name="Independent&apos;s JP-7 &quot;Black Star&quot; HAVOC Fighter" publicationId="782f-493f-cc20-a098" hidden="false" targetId="2dd8-89c2-967d-027e" type="profile"/>
+            <infoLink id="1a21-aed9-3a3d-9e4a" name="Armored" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5cdd-1b21-9cee-76de" type="rule"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="4ce7-3eb1-2764-d5f4" name="Veteran Pilot" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="94ca-b310-2de5-cc18" type="selectionEntryGroup"/>
@@ -889,6 +1174,11 @@
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a96a-031e-930b-c37f" type="max"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7445-0da2-b78d-55a8" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="a322-2afe-2ca6-6fff" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+            <infoLink id="92e0-eabb-d16d-805a" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+            <infoLink id="d109-db94-f0d4-172c" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+          </infoLinks>
           <selectionEntries>
             <selectionEntry id="1b31-5018-f111-8849" name="Router Hired Guns" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -927,6 +1217,9 @@
           </constraints>
           <infoLinks>
             <infoLink id="1138-c477-e156-144b" name="Router Leader" hidden="false" targetId="2d81-ad20-4cae-fb71" type="profile"/>
+            <infoLink id="6ee7-638c-c29f-17c8" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+            <infoLink id="3823-cf22-49f4-5040" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+            <infoLink id="4bda-68aa-4f65-343e" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="daa4-c54c-b483-bfbe" name="Personal Loadouts" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
@@ -946,6 +1239,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="eca0-cbaf-fd49-dc28" name="Squad Equipment (Max 3 per Squad)" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="10.0"/>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -971,6 +1267,27 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="252c-cd6c-b932-ff15" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="000e-82af-8db6-a233" type="max"/>
           </constraints>
+          <selectionEntries>
+            <selectionEntry id="4f54-08a8-8395-2722" name="2x Ballistic Shields" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c102-95bc-c839-1b54" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6eff-f4c2-46e9-a7cf" type="min"/>
+              </constraints>
+              <rules>
+                <rule id="e66a-f727-1b2b-c3ac" name="2x Ballastic Shields" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>This model may spend an action to deploy its shields. When the Ballistic Shields are deployed, any other models that are equal to or smaller in size and in the base-to-base contact are considered to be in Cover 3. While the shields are deployed the Pak Mule can only use a Move action once a round. 
+The PAK Mule must use an action to store the shield. When stored, the model may move normally and no models in the base contact gain any cover from the shields.
+Models that are in base contact in the front arc of this model do not benefit from Cover 3 from the shields when they are deployed. 
+The Pak Mule can never benefit from its own ballistic shields
+</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="a268-2877-3762-c4b1" name="P.A.K Muke Primary Weapon" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" defaultSelectionEntryId="c6cd-fa4d-a673-55d6">
               <constraints>
@@ -1018,12 +1335,6 @@ Ammo: OOO</characteristic>
               </constraints>
             </entryLink>
             <entryLink id="c555-18a3-6a43-2b68" name="Surplus Modification" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="a48a-6f2e-2705-a900" type="selectionEntry"/>
-            <entryLink id="7c6a-e4cf-8fc1-ba2f" name="Combat Shield" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="ea61-c3b9-c27c-939f" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cd6-2c3f-2811-e57e" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d158-75b9-6c39-d7b6" type="min"/>
-              </constraints>
-            </entryLink>
             <entryLink id="0f7f-edfc-19a9-ca99" name="Spare Supplies" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="903e-4671-5939-e5b6" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec04-b5c1-9c18-d5b7" type="max"/>
@@ -1067,6 +1378,9 @@ Ammo: OOO</characteristic>
           </constraints>
           <infoLinks>
             <infoLink id="521f-d3b4-df22-93e5" name="Zi&apos;lo Gang Crew" publicationId="782f-493f-cc20-a098" hidden="false" targetId="228e-6184-defc-8d46" type="profile"/>
+            <infoLink id="a2ac-ca2e-cb64-669c" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+            <infoLink id="e80a-754b-b087-5691" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+            <infoLink id="295f-c2b4-5240-0a6a" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry id="7b62-7b63-45f3-7fa9" name="Zi&apos;lo Ganger" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
@@ -1103,6 +1417,9 @@ Ammo: OOO</characteristic>
           </constraints>
           <infoLinks>
             <infoLink id="d509-578a-6510-8a41" name="Zi&apos;lo Crew Leader" publicationId="782f-493f-cc20-a098" hidden="false" targetId="a5dd-2c87-eb50-37f5" type="profile"/>
+            <infoLink id="af7e-8f71-d56a-db79" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+            <infoLink id="23e6-eca3-c780-29f6" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+            <infoLink id="dfde-33a1-b7c1-cb70" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="496f-e570-e0f1-92a5" name="Personal Loadouts" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
@@ -1121,6 +1438,9 @@ Ammo: OOO</characteristic>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="6afb-1a1e-b7aa-6eaa" name="Squad Equipment (Max 3 per Squad)" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -1145,6 +1465,9 @@ Ammo: OOO</characteristic>
           </constraints>
           <infoLinks>
             <infoLink id="a8bb-d028-aa12-0fe6" name="Zi&apos;lo Slaver" publicationId="782f-493f-cc20-a098" hidden="false" targetId="40a3-9118-8179-5dc2" type="profile"/>
+            <infoLink id="be01-46df-8971-8615" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+            <infoLink id="8981-bd3a-eba1-74ec" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+            <infoLink id="9b93-e229-4212-9144" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry id="519d-3d62-a8ef-e3fb" name="Zi&apos;lo Slaver" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
@@ -1181,6 +1504,9 @@ Ammo: OOO</characteristic>
           </constraints>
           <infoLinks>
             <infoLink id="cf55-792b-f7bc-f513" name="Zi&apos;lo Slaver Leader" hidden="false" targetId="cab4-6807-831a-8277" type="profile"/>
+            <infoLink id="e605-c3e1-1412-fbdf" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+            <infoLink id="b8a5-6894-3ac9-0b98" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+            <infoLink id="79e0-e385-0c53-12d2" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="e0dd-a4c0-6924-6e7b" name="Personal Loadouts" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
@@ -1199,6 +1525,9 @@ Ammo: OOO</characteristic>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="7707-4a67-5e2e-2764" name="Squad Equipment (Max 3 per Squad)" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -1227,6 +1556,9 @@ Ammo: OOO</characteristic>
           </constraints>
           <infoLinks>
             <infoLink id="74d0-373b-9385-f35d" name="Planetary Heavy Machine Gun Team" hidden="false" targetId="66a0-a9c6-d9ec-a538" type="profile"/>
+            <infoLink id="be20-64df-3dff-51f9" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+            <infoLink id="be6f-2372-14a1-0bc6" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+            <infoLink id="4904-a979-8757-0c45" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry id="c952-837f-a874-235d" name="Planetary Trooper" hidden="false" collective="false" import="true" type="upgrade">
@@ -1289,7 +1621,7 @@ Ammo: OOO</characteristic>
                   </entryLinks>
                   <costs>
                     <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="5.0"/>
-                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1316,6 +1648,11 @@ Ammo: OOO</characteristic>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6378-2cb8-49e9-055a" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="3c8b-e045-31f0-15f2" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+            <infoLink id="658b-ccc6-9ebb-0715" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+            <infoLink id="775c-b040-e35e-2be5" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+          </infoLinks>
           <selectionEntries>
             <selectionEntry id="68a9-bad1-a453-b5cc" name="Planetary Trooper" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -1377,7 +1714,7 @@ Ammo: OOO</characteristic>
                   </entryLinks>
                   <costs>
                     <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="5.0"/>
-                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1401,6 +1738,11 @@ Ammo: OOO</characteristic>
           </costs>
         </selectionEntry>
         <selectionEntry id="aaa1-171f-13a9-d4b9" name="Planetary Mortar Team" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="25ef-c42d-41da-2183" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+            <infoLink id="6dfb-f727-34c2-f9eb" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+            <infoLink id="6367-ec67-3861-dd62" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+          </infoLinks>
           <selectionEntries>
             <selectionEntry id="cb75-0b3a-c120-6539" name="Planetary Team Leader" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -1429,13 +1771,13 @@ Ammo: OOO</characteristic>
                   </entryLinks>
                   <costs>
                     <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="5.0"/>
-                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c6a7-aa7a-8b0d-d54a" name="Planetary Trooper" hidden="false" collective="false" import="true" type="upgrade">
@@ -1473,7 +1815,12 @@ Ammo: OOO</characteristic>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="21ac-a50d-b6ec-5da2" name="Mortar" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="56b5-9e33-c21d-8923" type="selectionEntry"/>
+            <entryLink id="21ac-a50d-b6ec-5da2" name="Mortar" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="56b5-9e33-c21d-8923" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61aa-1889-002c-43b4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b788-23fb-849b-bb78" type="min"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -1494,6 +1841,11 @@ Ammo: OOO</characteristic>
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink id="9cb6-079c-9bd7-898b" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+        <infoLink id="24fd-449e-32c8-83f6" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+        <infoLink id="913a-e5f9-e1f2-9fd2" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="cffb-22af-bb26-8aa6" name="Light Core" hidden="false" targetId="fa42-d150-a4d6-a3db" primary="true"/>
       </categoryLinks>
@@ -1565,6 +1917,9 @@ Ammo: OOO</characteristic>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="1f7d-6212-e16e-c831" name="Squad Equipment (Max 3 per Squad)" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="5.0"/>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -1578,6 +1933,11 @@ Ammo: OOO</characteristic>
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink id="9d56-f28e-be8c-5932" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+        <infoLink id="f4e4-5653-a7c4-7430" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+        <infoLink id="9277-e6ad-d2bf-d05d" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="dca6-d42d-cd12-16e3" name="Light Core" hidden="false" targetId="fa42-d150-a4d6-a3db" primary="true"/>
       </categoryLinks>
@@ -1649,6 +2009,9 @@ Ammo: OOO</characteristic>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="00b8-1862-8e49-e21a" name="Squad Equipment (Max 3 per Squad)" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="5.0"/>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -1867,6 +2230,27 @@ Ammo: OOO</characteristic>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="4150-a720-556a-dcf8" name="••• Ruthless Reputation " hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0ccd-8e75-d188-09c5" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4315-9d47-7417-98c6" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="9fa2-497d-c57b-e0be" name="••• Ruthless Reputation " publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>TUINAS &quot;COLT&quot; HAMGAR Only.  Before this model is forced to take a NERVE Test, the model may choose to ignore the pins on his card and activate as normal. The model will be required to take a NERVE Test the next time it activates. Discard this card after its use. </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -1887,16 +2271,16 @@ Ammo: OOO</characteristic>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f52-f14e-8a3f-ccde" type="min"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup id="47e3-c764-fa68-02e8" name="Bonus Stat" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="47e3-c764-fa68-02e8" name="Bonus Stat" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" defaultSelectionEntryId="1fb1-97ef-7ffd-f558">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8bc-00bc-ff25-83bb" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d975-2f53-5bc4-716f" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="eb76-b44f-7aff-418d" name="ATHL" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="eb76-b44f-7aff-418d" name="ARMOR" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
-                <rule id="50b9-8c91-9ad9-d76d" name="ATHL" publicationId="782f-493f-cc20-a098" hidden="false">
-                  <description>Add +1 to your ATHL stat</description>
+                <rule id="50b9-8c91-9ad9-d76d" name="ARMOR" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>Add +1 to all sides of your ARMOR stat</description>
                 </rule>
               </rules>
               <costs>
@@ -1948,16 +2332,16 @@ Ammo: OOO</characteristic>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="7050-efc9-0da3-a975" name="Drawback Stat" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="7050-efc9-0da3-a975" name="Drawback Stat" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" defaultSelectionEntryId="1633-32d1-962a-3aab">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5afe-88c6-2912-5fdf" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ae3-5551-2b5b-86bb" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="b525-c538-5e45-9626" name="ATHL" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="b525-c538-5e45-9626" name="ARMOR" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
-                <rule id="6be7-cd9d-c864-0c65" name="ATHL" publicationId="782f-493f-cc20-a098" hidden="false">
-                  <description>Remove -1 to your ATHL stat. This number cannot go below 1.</description>
+                <rule id="d871-26e4-0d72-15dc" name="ARMOR" hidden="false">
+                  <description>Remove -1 to all sides of your ARMOR Stat. This number cannot go below 1.</description>
                 </rule>
               </rules>
               <costs>

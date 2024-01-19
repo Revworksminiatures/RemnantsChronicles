@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="10" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="13" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="4f5f-9cb5-c624-6d11" name="Central Guard Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -1352,7 +1352,7 @@ The Pak Mule can never benefit from its own ballistic shields
               </constraints>
               <rules>
                 <rule id="e42e-eef4-82bf-94bd" name="•• Modified Vehicle Kits" publicationId="6f11-4351-f3f0-26cb" hidden="false">
-                  <description>Select a LIGHT SUPPORT or HEAVY CORE unit with the VEHICLE key word before its activation. For the remainder of the round, this unit counts as having +1 extra armor on all sides of the vehicle for purposes of being attacked. (This maybe combined with the extra armor upgrade). Additonally, the unit gains either the Ambluance or Command Vehicle modification for the rest of the round. </description>
+                  <description>Select a LIGHT SUPPORT or HEAVY CORE unit with the VEHICLE keyword before its activation. For the remainder of the round, this unit counts as having +1 extra armor on all sides of the vehicle for purposes of being attacked. (This may be combined with the extra armor upgrade). Additionally, the unit gains either the Ambulance or Command Vehicle modification for the rest of the round. </description>
                 </rule>
               </rules>
               <costs>
@@ -1385,7 +1385,7 @@ The Pak Mule can never benefit from its own ballistic shields
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8af-e142-5ad9-0a0f" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="39dd-e443-0135-ae65" name="••• Modified Warheads" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="39dd-e443-0135-ae65" name="••• Modified Warheads" publicationId="6f11-4351-f3f0-26cb" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1420,7 +1420,7 @@ The Pak Mule can never benefit from its own ballistic shields
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0709-0d2c-6aa4-103d" name="•••Armor Pentatration Rounds" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0709-0d2c-6aa4-103d" name="•••Armor Penetration Rounds " publicationId="6f11-4351-f3f0-26cb" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1432,8 +1432,8 @@ The Pak Mule can never benefit from its own ballistic shields
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf98-cd9e-bddb-03c3" type="max"/>
               </constraints>
               <rules>
-                <rule id="141f-3a09-e7ae-ec70" name="••••••Armor Pentatration Rounds" publicationId="6f11-4351-f3f0-26cb" hidden="false">
-                  <description>One LIGHT CORE unit may immediately use this card at the start of its activation. The weapon profiles on their PRIMARY WEAPON become the following: DMG 12 and gains the HEAVY and Piercing:1 Traits for the remainder of the round. Discard this card at the end of the units activation.</description>
+                <rule id="141f-3a09-e7ae-ec70" name="•••Armor Penetration Rounds" publicationId="6f11-4351-f3f0-26cb" hidden="false">
+                  <description>One LIGHT CORE unit may immediately use this card at the start of its activation. The weapon profiles on their PRIMARY WEAPON become DMG 12 and gain the HEAVY and Piercing:1 Traits for the remainder of the round. Discard this card at the end of the unit&apos;s activation.</description>
                 </rule>
               </rules>
               <costs>
@@ -2359,6 +2359,7 @@ The Pak Mule can never benefit from its own ballistic shields
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a4d-3b32-988a-fde3" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="102f-6c6c-64a5-707f" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -2442,9 +2443,61 @@ The Pak Mule can never benefit from its own ballistic shields
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22fb-8dd0-0fe2-a749" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="4415-e7e0-feac-c4e5" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="82a2-26eb-6586-491c" name="BL-70 &quot;Maverick&quot; Armor Personnal Carrier" publicationId="6f11-4351-f3f0-26cb" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4f7-c323-cf07-9a9d" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="017c-f00a-556b-f14e" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4d27-8398-e3ee-df4f" name="Heavy Core" hidden="false" targetId="aaf1-86b5-3e39-53a0" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8440-580f-242b-bfce" name="BL-70 &quot;Maverick&quot; Armor Personnal Carrier" publicationId="6f11-4351-f3f0-26cb" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a638-c1aa-6df6-6fad" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d958-463f-d5eb-8c19" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="1dc3-0268-ae71-2446" name="Armored" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5cdd-1b21-9cee-76de" type="rule"/>
+            <infoLink id="09b8-5b9c-c3c7-8b4d" name="Tracks" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="33c8-ea05-c817-6f55" type="rule"/>
+            <infoLink id="f5e0-141d-be47-2374" name="Transport: X" hidden="false" targetId="369e-0c29-6c01-f12b" type="rule"/>
+            <infoLink id="b1e6-d533-1894-5f54" name="BL-70 &quot;Maverick&quot; Armor Personnal Carrier" hidden="false" targetId="fd13-9edc-7560-d7a5" type="profile"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="6672-31c0-a2c5-a6ce" name="BL-70 &quot;Maverick&quot; Armor Personnal Carrier Commander" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fed-4040-548d-4a6b" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="3ba0-bbf5-3aea-bdd5" name="Voice of Command" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5581-8d83-3043-4a25" type="rule"/>
+                <infoLink id="e36a-ff20-c8fb-b3e6" name="Veteran Crew" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="cc82-cc85-07be-750b" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="3.0"/>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="79df-c822-aa29-c5ff" name="Anti-Personal Weapons " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="5ea4-d121-3247-864f" type="selectionEntryGroup"/>
+            <entryLink id="8847-1170-d739-a8be" name="Vehicle Upgrades" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="7efe-9b10-3efa-df24" type="selectionEntryGroup"/>
+            <entryLink id="14d6-df6d-a0db-3157" name="Vehicle Upgrades" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="7efe-9b10-3efa-df24" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="4.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3465,6 +3518,7 @@ Ammo: OOO</characteristic>
             <entryLink id="153f-9eb7-ea53-2466" name="Drones" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="ff57-6117-c5e2-2971" type="selectionEntryGroup"/>
             <entryLink id="5abe-41ff-a2bc-39df" name="Protectorate Defense League Primary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="ba6e-fb51-ac5b-7b1e" type="selectionEntryGroup"/>
             <entryLink id="3e74-c746-1ad6-8fd9" name="Protectorate Defense League Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="1313-1095-ab60-832c" type="selectionEntryGroup"/>
+            <entryLink id="f872-3a4f-ef52-3801" name="Task Force Leader" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
@@ -3493,6 +3547,7 @@ Ammo: OOO</characteristic>
             <entryLink id="98f3-39a7-f76c-da3a" name="Drones" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="ff57-6117-c5e2-2971" type="selectionEntryGroup"/>
             <entryLink id="b6b1-448c-7ebb-d0ac" name="Protectorate Defense League Primary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="ba6e-fb51-ac5b-7b1e" type="selectionEntryGroup"/>
             <entryLink id="ef96-a6f7-5f0b-0c16" name="Protectorate Defense League Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="1313-1095-ab60-832c" type="selectionEntryGroup"/>
+            <entryLink id="6fcb-9b12-ad5e-ba2f" name="Task Force Leader" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="5.0"/>
@@ -3522,6 +3577,7 @@ Ammo: OOO</characteristic>
             <entryLink id="4035-ead9-3269-0bdb" name="Drones" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="ff57-6117-c5e2-2971" type="selectionEntryGroup"/>
             <entryLink id="8981-3243-61d0-e9ca" name="Protectorate Defense League Primary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="ba6e-fb51-ac5b-7b1e" type="selectionEntryGroup"/>
             <entryLink id="4488-20eb-aaf8-f8f5" name="Protectorate Defense League Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="1313-1095-ab60-832c" type="selectionEntryGroup"/>
+            <entryLink id="d64c-54df-aa3f-c0c1" name="Task Force Leader" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="11.0"/>
@@ -3899,6 +3955,21 @@ Ammo: OOO</characteristic>
         <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
         <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
         <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fd13-9edc-7560-d7a5" name="BL-70 &quot;Maverick&quot; Armor Personnal Carrier" publicationId="6f11-4351-f3f0-26cb" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d"/>
+        <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6"/>
+        <characteristic name="DEF" typeId="26f5-47a1-8310-51da"/>
+        <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4"/>
+        <characteristic name="INT" typeId="b52b-fc57-76e8-5e4b"/>
+        <characteristic name="LD" typeId="1c19-dad2-a576-46c1"/>
+        <characteristic name="ARMOR" typeId="0abc-6803-65ce-ea04"/>
+        <characteristic name="END" typeId="60e8-bc63-0a32-48e5"/>
+        <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34"/>
+        <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90"/>
+        <characteristic name="SIZE" typeId="1adb-2fcb-5438-776f"/>
       </characteristics>
     </profile>
   </sharedProfiles>

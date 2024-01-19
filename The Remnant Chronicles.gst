@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="13" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="14" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c8da-24a8-bcaa-8190" name="The Remnant Chronicles Rulebook"/>
     <publication id="8c20-1e89-cba7-0494" name="Forces of the Federal Coalition "/>
@@ -6787,7 +6787,8 @@ If an action cost for an objective exceeds double its starting value, the object
       <description>The weapon does not have a preset Rate of Fire value. Instead, when this weapon hits, the Model may spend additional actions to continue the attack. To continue the attack, first resolve the initial hit as normal. Then, for every action spent by the attacker, the target must defend against the attacker’s initial Result again, treating it as a separate attack. For Ammo Checks, this weapon counts as using a ROF value equal to the number of actions spent by the attacker in this way.</description>
     </rule>
     <rule id="1571-6e5e-3087-ac7f" name="Stun" hidden="false">
-      <description>A model hit by a weapon with this special rule loses a action for the next round that it activates.It may not be affected by any command cards or rallied by friendly units.</description>
+      <description>A model hit by a weapon with this special rule loses a action for the next round that it activates. It may not be affected by any command cards or rallied by friendly units
+</description>
     </rule>
     <rule id="1e08-ca30-b162-2802" name="Stablized" hidden="false">
       <description>This model does not suffer a disadvantage when attacking with a weapon that has the Heavy Trait</description>
@@ -6950,6 +6951,7 @@ equal to X inches from the point where the weapon hit. The Blind Condition lasts
     <rule id="cc62-cd2d-f022-116a" name="Deployable" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <description>This model maybe added to or  removed from the tabletop if a model uses a action to deploy or undeploy it. The controlling model must be in base to base contact in order to deploy or undeploy the model</description>
     </rule>
+    <rule id="ea3e-af6a-4404-a09b" name="Blind" publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
   </sharedRules>
   <sharedProfiles>
     <profile id="93de-01b7-b2bd-38a7" name="Veteran Crew" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">

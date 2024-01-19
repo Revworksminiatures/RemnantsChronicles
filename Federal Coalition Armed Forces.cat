@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="9" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="10" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="674c-569a-ca53-7190" name="Marine Boarding Assault Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -959,7 +959,7 @@
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="babe-b420-5f09-3f85" name="Type 17 &quot;Shrike&quot; IFV " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="babe-b420-5f09-3f85" name="Type 17 &quot;Shrike&quot; Infantry Fighting Vehicle" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fd2-d8e2-d41c-da92" type="max"/>
       </constraints>
@@ -967,7 +967,7 @@
         <categoryLink id="8810-e6e1-f569-77bf" name="Light Support" hidden="false" targetId="45b0-9ee5-e76b-4914" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="3211-3081-ae2f-7c2a" name="Type 17 &quot;Shrike&quot; IFV " hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3211-3081-ae2f-7c2a" name="Type 17 &quot;Shrike&quot; Infantry Fighting Vehicle" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00dd-e64e-df4e-34d3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b234-abfb-cb1d-06db" type="min"/>
@@ -997,7 +997,7 @@
             <infoLink id="8cf1-7b1f-e026-bb09" name="Turret" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="9b21-2da6-42dd-e66c" type="rule"/>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry id="c8f6-ea10-9f6c-2fdb" name="Type 17 &quot;Shrike&quot; IFV Tank Crew" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c8f6-ea10-9f6c-2fdb" name="Type 17 &quot;Shrike&quot; Infantry Fighting Vehicle Crew" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39be-3cd4-e7a1-4bbf" type="max"/>
               </constraints>
@@ -2645,6 +2645,7 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
       </modifiers>
       <infoLinks>
         <infoLink id="64c5-1676-d211-d4ef" name="Infiltrate" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="aa34-b8b4-90d1-3ee5" type="rule"/>
+        <infoLink id="6296-29af-ada0-2028" name="Marine Scouts and Raiders" publicationId="8c20-1e89-cba7-0494" hidden="false" targetId="28a5-5d67-8d76-b4ca" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a521-3446-63b4-1896" name="Special Issue" hidden="false" targetId="77a9-6ad1-a22d-695a" primary="true"/>
@@ -3005,6 +3006,10 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
       </modifiers>
       <infoLinks>
         <infoLink id="7709-0a1e-dcfa-8da4" name="High Altitude Drop Orbital Certificated (HADOC)" hidden="false" targetId="df1d-6427-a387-0682" type="rule"/>
+        <infoLink id="55b4-68f2-3953-747a" name="Marine Scouts and Raiders" hidden="false" targetId="73f2-3845-dd68-da3c" type="profile"/>
+        <infoLink id="bb0b-fa98-afa5-1a99" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+        <infoLink id="3ade-2ccc-ba9b-b1ac" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+        <infoLink id="eeff-2c50-a0b3-0046" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ff58-c901-cc5a-afb6" name="Special Issue" hidden="false" targetId="77a9-6ad1-a22d-695a" primary="true"/>
@@ -3143,6 +3148,11 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="e58c-b01d-e19f-90d1" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+                <infoLink id="3ad9-5967-c6c3-6075" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+                <infoLink id="8a9d-287c-fca2-bc58" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+              </infoLinks>
               <entryLinks>
                 <entryLink id="5f5b-19cf-09e4-c3be" name="Federal Coalition Primary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="7851-a776-e33e-7086" type="selectionEntryGroup"/>
                 <entryLink id="91da-cadb-daab-171d" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
@@ -3179,6 +3189,11 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="6566-e3a5-d3c9-6232" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+                <infoLink id="c605-f6be-1dd0-4581" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+                <infoLink id="fa69-77bc-cd13-14ac" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+              </infoLinks>
               <entryLinks>
                 <entryLink id="dde8-3a33-c9e7-d5ad" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
                 <entryLink id="fb16-e858-512b-fc2b" name="Hand to Hand Combat" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="2772-828a-0b7c-24f8" type="selectionEntry"/>
@@ -3215,6 +3230,11 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="68ef-b92a-1fa8-b1f6" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+                <infoLink id="a8bf-b547-19ed-524b" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+                <infoLink id="b358-83dc-5cab-c23d" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+              </infoLinks>
               <entryLinks>
                 <entryLink id="16a3-7ced-8470-345c" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
                 <entryLink id="c1a4-82ff-30bf-5eec" name="Hand to Hand Combat" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="2772-828a-0b7c-24f8" type="selectionEntry"/>
@@ -8101,6 +8121,67 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="6324-a21e-d2a2-48fe" name="Type 16 &quot;Titan&quot; Armored Personal Carrier" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c261-1ddd-74de-52da" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a731-9194-eafb-bfd0" name="Heavy Core" hidden="false" targetId="aaf1-86b5-3e39-53a0" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="df61-2615-1dda-aea3" name="Type 16 &quot;Titan&quot; Armored Personal Carrier" publicationId="8c20-1e89-cba7-0494" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb9d-db01-9356-e25a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f18-b2d4-08d8-86c7" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="4585-6ed5-c586-4ddc" name="Armored" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5cdd-1b21-9cee-76de" type="rule"/>
+            <infoLink id="74e8-6654-39e6-8892" name="Tracks" hidden="false" targetId="33c8-ea05-c817-6f55" type="rule"/>
+            <infoLink id="31e6-fa65-cbcc-33f8" name="Transport: X" hidden="false" targetId="369e-0c29-6c01-f12b" type="rule"/>
+            <infoLink id="fa10-e7e4-2fb6-d67b" name="Type 16 &quot;Titan&quot; Armored Personal Carrier" publicationId="8c20-1e89-cba7-0494" hidden="false" targetId="fb8b-25b9-0c49-7d19" type="profile"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="5e3e-2cbd-a252-04c8" name="Type 16 &quot;Titan&quot; Armored Personal Carrier Crew" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f45-44dc-c321-5663" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="abd3-a756-0bb6-713e" name="Veteran Crew" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d24-460b-e256-9de1" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="b0d0-7670-50d6-e9bb" name="Veteran Crew" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="93de-01b7-b2bd-38a7" type="profile"/>
+                    <infoLink id="b20b-89b8-5165-772d" name="Voice of Command" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5581-8d83-3043-4a25" type="rule"/>
+                    <infoLink id="516c-2418-ba28-4e95" name="Veteran Crew" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="cc82-cc85-07be-750b" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="3.0"/>
+                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="2e87-525e-a9a0-de12" name="Anti-Personal Weapons " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="5ea4-d121-3247-864f" type="selectionEntryGroup"/>
+            <entryLink id="52dd-acff-7b14-c18f" name="Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="7efe-9b10-3efa-df24" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="4.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="1aaf-902c-f4f4-bcf8" name="Federal Coalition Power Armor" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -8272,6 +8353,32 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="9.0"/>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="13.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0089-96a8-0fc0-6074" name="•Master Sargeant Powell" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ceab-f15c-4284-9724" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="1698-5624-4c46-1eb5" name="•Master Sargeant Powell" hidden="false" targetId="df7c-05aa-b6cd-b2dc" type="profile"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="4b5c-b9de-f3e2-5e15" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
+            <entryLink id="3e04-d475-a6eb-bcc2" name="Hand to Hand Combat" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="2772-828a-0b7c-24f8" type="selectionEntry"/>
+            <entryLink id="66e2-bdee-846c-20a1" name="Personal Loadouts" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7853-abc2-674c-feaf" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e112-bf4b-e2b3-86be" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="f98b-c800-e31f-edde" name="Task Force Leader" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
+            <entryLink id="7194-6208-3914-2e82" name="Drones" hidden="false" collective="false" import="true" targetId="ff57-6117-c5e2-2971" type="selectionEntryGroup"/>
+            <entryLink id="6267-457d-0794-c395" name="Federal Coalition Primary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="7851-a776-e33e-7086" type="selectionEntryGroup"/>
+            <entryLink id="ea8d-ae78-9933-5667" name="Federal Coalition Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c19e-c46a-3f1d-9616" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="7.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="12.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10132,6 +10239,66 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
         <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">-</characteristic>
         <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">14</characteristic>
         <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Observer, Blast:4, Guided, Single Use</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="73f2-3845-dd68-da3c" name="Force Recon Marine" publicationId="8c20-1e89-cba7-0494" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5	</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="28a5-5d67-8d76-b4ca" name="Marine Scouts and Raiders" publicationId="8c20-1e89-cba7-0494" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5	</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fb8b-25b9-0c49-7d19" name="Type 16 &quot;Titan&quot; Armored Personal Carrier" publicationId="8c20-1e89-cba7-0494" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d"/>
+        <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6"/>
+        <characteristic name="DEF" typeId="26f5-47a1-8310-51da"/>
+        <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4"/>
+        <characteristic name="INT" typeId="b52b-fc57-76e8-5e4b"/>
+        <characteristic name="LD" typeId="1c19-dad2-a576-46c1"/>
+        <characteristic name="ARMOR" typeId="0abc-6803-65ce-ea04"/>
+        <characteristic name="END" typeId="60e8-bc63-0a32-48e5"/>
+        <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34"/>
+        <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90"/>
+        <characteristic name="SIZE" typeId="1adb-2fcb-5438-776f"/>
+      </characteristics>
+    </profile>
+    <profile id="df7c-05aa-b6cd-b2dc" name="•Master Sargeant Powell" publicationId="8c20-1e89-cba7-0494" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8"/>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
       </characteristics>
     </profile>
   </sharedProfiles>
