@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="10" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="11" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="3e5c-c3d7-7fa7-d7d6" name="Han&apos;s Crusaders (Casual Play)" publicationId="782f-493f-cc20-a098" hidden="false">
       <categoryLinks>
@@ -1081,7 +1081,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="8ea0-4de4-a7ac-cc5a" name="Special Issue" hidden="false" targetId="77a9-6ad1-a22d-695a" primary="true"/>
+        <categoryLink id="feb7-b864-e93b-7635" name="Light Support" hidden="false" targetId="45b0-9ee5-e76b-4914" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8e1c-ce2f-fe17-ecb1" name="JP-7 &quot;Black Star&quot; HAVOC Fighter" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
@@ -2210,6 +2210,90 @@ Ammo: OOO</characteristic>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="cfea-d106-f12f-7bbe" name="••Shrouded Vendetta (Zi&apos;lo Drug Cartel)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="46b0-19ed-b41c-f070" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d94-9341-b0a2-e597" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="c9e3-d0b8-4592-af59" name="••Shrouded Vendetta(Zi&apos;lo Drug Cartel)" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description> </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ce5a-9d89-04b4-bb5d" name="••Whispering Shadows (Zi&apos;lo Drug Cartel)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="46b0-19ed-b41c-f070" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75d5-e57c-2beb-14ec" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="508c-286e-d7cb-b1d5" name="••Whispering Shadows (Zi&apos;lo Drug Cartel)" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description> </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0fb9-c079-5bf3-3f6b" name="••Nomadic Kingdom (Han&apos;s Crusade)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="027c-c1d3-194c-1ae6" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d85e-8062-6f81-5727" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="3a34-3ce5-3237-28bf" name="••Nomadic Kingdom  (Han&apos;s Crusade)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+                  <description></description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="929f-d633-fde0-97ee" name="••Banished Elite  (Han&apos;s Crusade)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="027c-c1d3-194c-1ae6" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fd2-1382-0e46-1d06" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="3ba1-5406-000c-3aa4" name="••Banished Elite   (Han&apos;s Crusade)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+                  <description></description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -2244,6 +2328,90 @@ Ammo: OOO</characteristic>
               <rules>
                 <rule id="9fa2-497d-c57b-e0be" name="••• Ruthless Reputation " publicationId="782f-493f-cc20-a098" hidden="false">
                   <description>TUINAS &quot;COLT&quot; HAMGAR Only.  Before this model is forced to take a NERVE Test, the model may choose to ignore the pins on his card and activate as normal. The model will be required to take a NERVE Test the next time it activates. Discard this card after its use. </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0924-1699-dd1b-836a" name="•••Nocturnal Cypher (Zi&apos;lo Drug Cartel)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="46b0-19ed-b41c-f070" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5638-9201-5b98-6d0b" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="99ae-2461-5aab-1f10" name="••Nocturnal Cypher(Zi&apos;lo Drug Cartel)" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description> </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fab9-5f54-51aa-30df" name="•••Shadow Serenade (Zi&apos;lo Drug Cartel)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="46b0-19ed-b41c-f070" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e125-b2a5-95b8-4a10" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="dc73-d1be-9dd0-f17b" name="••Shadow Serenade(Zi&apos;lo Drug Cartel)" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description> </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7c65-bf19-b393-7b79" name="••• Royal Wardens  (Han&apos;s Crusade)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="027c-c1d3-194c-1ae6" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd5e-1d7d-c1cb-f022" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="5b9d-4bb7-513c-830c" name="••• Royal Wardens  (Han&apos;s Crusade)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+                  <description></description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="80c9-a6cf-f2d2-b0db" name="••• Sovereign&apos;s in Exile (Han&apos;s Crusade)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="027c-c1d3-194c-1ae6" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea7f-b4dc-e199-dc54" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="478a-50bf-151c-3622" name="••• Sovereign&apos;s in Exile  (Han&apos;s Crusade)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+                  <description></description>
                 </rule>
               </rules>
               <costs>
