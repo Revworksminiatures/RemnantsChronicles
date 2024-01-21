@@ -1103,7 +1103,7 @@
             <entryLink id="2a11-f1f1-75bb-5a01" name="Surplus Modification" hidden="false" collective="false" import="true" targetId="a48a-6f2e-2705-a900" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="10.0"/>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="20.0"/>
           </costs>
         </selectionEntry>
@@ -2264,9 +2264,7 @@ Ammo: OOO</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d85e-8062-6f81-5727" type="max"/>
               </constraints>
               <rules>
-                <rule id="3a34-3ce5-3237-28bf" name="••Nomadic Kingdom  (Han&apos;s Crusade)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
-                  <description></description>
-                </rule>
+                <rule id="3a34-3ce5-3237-28bf" name="••Nomadic Kingdom  (Han&apos;s Crusade)" publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -2285,9 +2283,7 @@ Ammo: OOO</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fd2-1382-0e46-1d06" type="max"/>
               </constraints>
               <rules>
-                <rule id="3ba1-5406-000c-3aa4" name="••Banished Elite   (Han&apos;s Crusade)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
-                  <description></description>
-                </rule>
+                <rule id="3ba1-5406-000c-3aa4" name="••Banished Elite   (Han&apos;s Crusade)" publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -2389,9 +2385,7 @@ Ammo: OOO</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd5e-1d7d-c1cb-f022" type="max"/>
               </constraints>
               <rules>
-                <rule id="5b9d-4bb7-513c-830c" name="••• Royal Wardens  (Han&apos;s Crusade)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
-                  <description></description>
-                </rule>
+                <rule id="5b9d-4bb7-513c-830c" name="••• Royal Wardens  (Han&apos;s Crusade)" publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
@@ -2410,9 +2404,7 @@ Ammo: OOO</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea7f-b4dc-e199-dc54" type="max"/>
               </constraints>
               <rules>
-                <rule id="478a-50bf-151c-3622" name="••• Sovereign&apos;s in Exile  (Han&apos;s Crusade)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
-                  <description></description>
-                </rule>
+                <rule id="478a-50bf-151c-3622" name="••• Sovereign&apos;s in Exile  (Han&apos;s Crusade)" publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>

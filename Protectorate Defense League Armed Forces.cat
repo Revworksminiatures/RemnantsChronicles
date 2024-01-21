@@ -2488,7 +2488,6 @@ The Pak Mule can never benefit from its own ballistic shields
           <entryLinks>
             <entryLink id="79df-c822-aa29-c5ff" name="Anti-Personal Weapons " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="5ea4-d121-3247-864f" type="selectionEntryGroup"/>
             <entryLink id="8847-1170-d739-a8be" name="Vehicle Upgrades" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="7efe-9b10-3efa-df24" type="selectionEntryGroup"/>
-            <entryLink id="14d6-df6d-a0db-3157" name="Vehicle Upgrades" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="7efe-9b10-3efa-df24" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="4.0"/>
