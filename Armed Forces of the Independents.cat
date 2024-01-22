@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="11" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="13" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="3e5c-c3d7-7fa7-d7d6" name="Han&apos;s Crusaders (Casual Play)" publicationId="782f-493f-cc20-a098" hidden="false">
       <categoryLinks>
