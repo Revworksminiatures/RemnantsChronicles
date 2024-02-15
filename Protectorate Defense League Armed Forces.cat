@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="15" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="17" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="4f5f-9cb5-c624-6d11" name="Central Guard Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -1181,6 +1181,44 @@ The Pak Mule can never benefit from its own ballistic shields
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="bbb1-febf-8de8-beed" name="•We Lead the Way!" publicationId="6f11-4351-f3f0-26cb" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d627-c493-79fb-0ee6" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0b0-0ca7-af61-f26c" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="9556-8d12-eb5f-187f" name="•We Lead the Way!" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6711-de6e-a9a0-e0fc" name="•Luck and Talent" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d627-c493-79fb-0ee6" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8914-eddf-c609-6ad9" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="af2d-643d-8a36-496b" name="•Luck and Talent" publicationId="6f11-4351-f3f0-26cb" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -1374,6 +1412,44 @@ The Pak Mule can never benefit from its own ballistic shields
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="f60c-6fad-eda1-80c3" name="••Skilled Commander" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d627-c493-79fb-0ee6" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ac5-1d22-9456-06d6" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="1543-6026-3a66-4ba6" name="••Skilled Commander" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8517-fb5f-5da9-26a9" name="••Improvised Orders " hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d627-c493-79fb-0ee6" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5d0-c9c0-89f5-a35e" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="edd8-1bd1-f3d1-9f61" name="••Improvised Orders " publicationId="6f11-4351-f3f0-26cb" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -1435,6 +1511,25 @@ The Pak Mule can never benefit from its own ballistic shields
                 <rule id="141f-3a09-e7ae-ec70" name="•••Armor Penetration Rounds" publicationId="6f11-4351-f3f0-26cb" hidden="false">
                   <description>One LIGHT CORE unit may immediately use this card at the start of its activation. The weapon profiles on their PRIMARY WEAPON become DMG 12 and gain the HEAVY and Piercing:1 Traits for the remainder of the round. Discard this card at the end of the unit&apos;s activation.</description>
                 </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0a9b-ef68-b50c-9586" name="••• EMP Warfare" publicationId="6f11-4351-f3f0-26cb" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d627-c493-79fb-0ee6" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25a9-ac45-b1fd-b763" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="8824-a024-6466-4a33" name="••• EMP Warfare" hidden="false"/>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
@@ -2500,6 +2595,78 @@ The Pak Mule can never benefit from its own ballistic shields
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="68e8-9398-589b-0c7c" name="Rangers Fire Team" publicationId="6f11-4351-f3f0-26cb" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d627-c493-79fb-0ee6" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="9fdc-8918-e8a1-6c79" name="Advanced Deployment" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="7c11-6c70-ffe8-e8c2" type="rule"/>
+        <infoLink id="b141-2c88-18fd-c872" name="Ranger Fire Team" hidden="false" targetId="cf34-fa4a-754a-fb02" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8a97-40bf-b831-979b" name="Light Core" hidden="false" targetId="fa42-d150-a4d6-a3db" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8084-9afc-4a74-970f" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
+        <entryLink id="cab2-4262-01d0-9a55" name="Ranger" hidden="false" collective="false" import="true" targetId="bbb6-2584-d288-ca15" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00be-7814-3f85-0823" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4495-1023-d4cb-f002" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="1.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="cfe7-33b9-c8d3-d696" name="Ranger Squad Leader" publicationId="6f11-4351-f3f0-26cb" hidden="false" collective="false" import="true" targetId="6342-bced-6e83-0dd4" type="selectionEntryGroup"/>
+        <entryLink id="b735-7207-f4fa-cdfd" name="Squad Specialist " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="fe1f-3230-2baf-0333" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f33-ba5a-3132-8c8e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31d1-6121-781b-4260" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0fd6-a71f-5420-b12b" name="Rangers Scout Team" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d627-c493-79fb-0ee6" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="3a11-4e7b-5ff7-9f96" name="Infiltrate" hidden="false" targetId="aa34-b8b4-90d1-3ee5" type="rule"/>
+        <infoLink id="e3c7-a61d-07c2-6f75" name="Ranger Scout Team" hidden="false" targetId="c951-f2fd-e291-bc3d" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6857-d1e7-d7ee-23ac" name="Light Core" hidden="false" targetId="fa42-d150-a4d6-a3db" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c61c-11b1-5b2a-0e03" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
+        <entryLink id="c7ca-3374-5759-326a" name="Ranger" hidden="false" collective="false" import="true" targetId="bbb6-2584-d288-ca15" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24e0-d651-0098-9b20" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="136b-dc71-dbd3-ae93" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="1.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="ea55-f8e8-eb06-8bb7" name="Ranger Squad Leader" publicationId="6f11-4351-f3f0-26cb" hidden="false" collective="false" import="true" targetId="6342-bced-6e83-0dd4" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="ce4c-1396-5e64-75db" name="Protectorate Defense League Power Armor" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -2894,6 +3061,46 @@ Ammo: OOO</characteristic>
         <entryLink id="f816-c382-e6a5-acb5" name="Protectorate Defense League Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="1313-1095-ab60-832c" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0aa5-4770-05cd-120e" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="1.0"/>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bbb6-2584-d288-ca15" name="Ranger" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5114-7905-db87-b5d2" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+        <infoLink id="f09a-ee92-864d-f4eb" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+        <infoLink id="c7ca-9625-78d3-7e62" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="ac03-e1c0-4540-ed6c" name="Combat Cleaver" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="18f5-ed0a-1d31-183f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd66-d1c2-2f4c-4211" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d36c-2478-81e9-7bab" name="Discus Grenades " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="10c9-de36-6738-1a3f" type="selectionEntry"/>
+        <entryLink id="3d3f-f6c0-f436-1bf8" name="Hand to Hand Combat" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="2772-828a-0b7c-24f8" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a41-1509-098f-2970" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="30d3-06a8-31cf-6745" name="Personal Loadouts" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c173-8f57-a58b-694b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="560d-8e76-539e-6613" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8024-3f20-8b1d-3203" name="Protectorate Defense League Primary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="ba6e-fb51-ac5b-7b1e" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b739-81c4-8bab-679d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4373-0618-8fd0-3379" name="Protectorate Defense League Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="1313-1095-ab60-832c" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9958-84d7-ce4b-9205" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -3585,6 +3792,97 @@ Ammo: OOO</characteristic>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup id="6342-bced-6e83-0dd4" name="Ranger Squad Leader" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" defaultSelectionEntryId="6b9d-d325-1c59-67da">
+      <selectionEntries>
+        <selectionEntry id="6b9d-d325-1c59-67da" name="Kersan" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="175c-07bf-55ec-9caf" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="afc3-ebbd-2475-d9e7" name="Kersan" hidden="false" targetId="c606-bfa6-d251-93b2" type="profile"/>
+            <infoLink id="129a-30fa-d677-9c08" name="Voice of Command" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5581-8d83-3043-4a25" type="rule"/>
+            <infoLink id="1145-5dc3-3f4a-1d26" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+            <infoLink id="5f92-b194-3aa7-e0b1" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+            <infoLink id="b90e-c2b0-5508-cd8d" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="4ae6-c06c-ad1f-5456" name="Hand to Hand Combat" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="2772-828a-0b7c-24f8" type="selectionEntry"/>
+            <entryLink id="649e-17f9-60e8-0e48" name="Personal Loadouts" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c41-9a5b-5d7a-cc22" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e01f-1587-e2ad-517e" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="3297-813b-de66-baeb" name="Task Force Leader" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
+            <entryLink id="b83f-95c6-c5f8-71c4" name="Drones" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="ff57-6117-c5e2-2971" type="selectionEntryGroup"/>
+            <entryLink id="fff8-9043-51f2-62b0" name="Protectorate Defense League Primary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="ba6e-fb51-ac5b-7b1e" type="selectionEntryGroup"/>
+            <entryLink id="5bcb-80cc-78f7-18e4" name="Protectorate Defense League Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="1313-1095-ab60-832c" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5297-3c38-ec38-3b1c" name="Luut" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a36-a832-d340-661d" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d1de-d659-6fc2-5d61" name="Luut" hidden="false" targetId="3a60-32c5-b15d-da07" type="profile"/>
+            <infoLink id="999a-45ac-fcd8-43fd" name="Voice of Command" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5581-8d83-3043-4a25" type="rule"/>
+            <infoLink id="579f-b108-8a6a-e79e" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+            <infoLink id="b3dc-5a7e-bcb8-e46d" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+            <infoLink id="36d2-9587-6487-749b" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="a7fb-024b-7553-67a9" name="Hand to Hand Combat" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="2772-828a-0b7c-24f8" type="selectionEntry"/>
+            <entryLink id="125e-1265-479c-f69f" name="Personal Loadouts" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11b8-e7e6-9cec-c923" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fdf-ca57-fd00-7e93" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="e719-6f25-aecd-cb98" name="Task Force Leader" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
+            <entryLink id="1375-53a6-6806-baca" name="Drones" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="ff57-6117-c5e2-2971" type="selectionEntryGroup"/>
+            <entryLink id="b07d-d2d7-6991-c3de" name="Protectorate Defense League Primary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="ba6e-fb51-ac5b-7b1e" type="selectionEntryGroup"/>
+            <entryLink id="7afe-6877-eaba-431b" name="Protectorate Defense League Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="1313-1095-ab60-832c" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="11.0"/>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cd3e-6a66-ae29-d019" name="Senior Kersan" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="804c-2081-573c-1a23" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="0c16-86b5-7a50-3f76" name="Senior Kersan" hidden="false" targetId="24c0-d76f-0bb0-6fbe" type="profile"/>
+            <infoLink id="0338-ad07-8b30-25d9" name="Voice of Command" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5581-8d83-3043-4a25" type="rule"/>
+            <infoLink id="cbc9-da54-4884-ac91" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+            <infoLink id="fdb1-981f-55ed-c3d5" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+            <infoLink id="2dc6-2d1c-96c5-9321" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="4d0f-d8a6-f55a-07e3" name="Hand to Hand Combat" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="2772-828a-0b7c-24f8" type="selectionEntry"/>
+            <entryLink id="a1bc-2fb5-74af-f798" name="Personal Loadouts" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd57-2465-488d-a5d8" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="365f-9fb1-c0ae-0dc3" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="7c42-ca44-d2ba-01b4" name="Task Force Leader" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
+            <entryLink id="a8d7-9138-2b5e-a9b2" name="Drones" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="ff57-6117-c5e2-2971" type="selectionEntryGroup"/>
+            <entryLink id="7b1e-0690-cbf5-6383" name="Protectorate Defense League Primary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="ba6e-fb51-ac5b-7b1e" type="selectionEntryGroup"/>
+            <entryLink id="218d-9f68-2f58-ac59" name="Protectorate Defense League Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="1313-1095-ab60-832c" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="5.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedProfiles>
     <profile id="e62a-ae92-a5df-1d3b" name="Central Guardsmen Fireteam" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
@@ -3653,7 +3951,7 @@ Ammo: OOO</characteristic>
         <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">15/30/OO</characteristic>
         <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">2-3</characteristic>
         <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">8</characteristic>
-        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb"/>
+        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Pistol</characteristic>
       </characteristics>
     </profile>
     <profile id="babd-bfda-3b8c-d301" name="CAR-67 Assault Rifle" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
@@ -3692,10 +3990,10 @@ Ammo: OOO</characteristic>
     <profile id="e28d-89e2-a911-cdd7" name="6mm Dedicated Marksmen Rifle" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
       <characteristics>
         <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct</characteristic>
-        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">30/60/OO</characteristic>
+        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">20/40/OO</characteristic>
         <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">1</characteristic>
-        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">11</characteristic>
-        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Scope: 3</characteristic>
+        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">10</characteristic>
+        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Scope: 2</characteristic>
       </characteristics>
     </profile>
     <profile id="a195-e34a-c2cb-805b" name="6mm  Light Machine Gun" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
@@ -3969,6 +4267,51 @@ Ammo: OOO</characteristic>
         <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34"/>
         <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90"/>
         <characteristic name="SIZE" typeId="1adb-2fcb-5438-776f"/>
+      </characteristics>
+    </profile>
+    <profile id="47e5-ba75-950b-6438" name="E&apos;Selda Mechanized Fire Team" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cf34-fa4a-754a-fb02" name="Ranger Fire Team" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c951-f2fd-e291-bc3d" name="Ranger Scout Team" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

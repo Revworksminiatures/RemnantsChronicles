@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="12" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="13" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="674c-569a-ca53-7190" name="Marine Boarding Assault Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -1246,7 +1246,6 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="5b0d-ac34-02c9-c9e8" name="Marine Squad Leader" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="f267-3dca-6b72-311f" type="selectionEntryGroup"/>
-        <entryLink id="6180-2c5a-78e9-e078" name="Personal Loadouts" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry"/>
         <entryLink id="fcee-de81-3d4a-e92b" name="Marine Squad Attachment" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="668e-c890-2ebd-9198" type="selectionEntryGroup"/>
         <entryLink id="aa51-824c-56e2-9198" name="Marine Squad Specialist" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="a771-28c7-b2a1-e7bf" type="selectionEntryGroup"/>
       </entryLinks>
@@ -1318,6 +1317,11 @@
                     <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8be4-e13a-b373-fc47" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="911d-630f-a010-e507" type="equalTo"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9387-957b-5346-417a" type="max"/>
@@ -1337,6 +1341,11 @@
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
                     <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8be4-e13a-b373-fc47" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="911d-630f-a010-e507" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -1369,6 +1378,11 @@
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
                     <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8be4-e13a-b373-fc47" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="911d-630f-a010-e507" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -1412,6 +1426,11 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
                     <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8be4-e13a-b373-fc47" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="911d-630f-a010-e507" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -1460,11 +1479,16 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0374-b867-6165-abc2" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ca30-9190-d554-0371" name="•••Fire Mission Inbound!! (Federal Coalition Army / Home Guard)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ca30-9190-d554-0371" name="•••Fire Mission Inbound!! " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
                     <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8be4-e13a-b373-fc47" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="911d-630f-a010-e507" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -8501,7 +8525,7 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
                 <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">15/30/OO</characteristic>
                 <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">2-3</characteristic>
                 <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">8</characteristic>
-                <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb"/>
+                <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Pistol</characteristic>
               </characteristics>
             </profile>
           </profiles>
