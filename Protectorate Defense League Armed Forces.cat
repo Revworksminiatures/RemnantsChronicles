@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="17" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="19" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="4f5f-9cb5-c624-6d11" name="Central Guard Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -1399,6 +1399,13 @@ The Pak Mule can never benefit from its own ballistic shields
               </costs>
             </selectionEntry>
             <selectionEntry id="152c-108d-3aff-fb5b" name="••Steel Nerves" publicationId="6f11-4351-f3f0-26cb" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae31-3cb2-ae9f-c0aa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c41-ddd5-5dbd-1a84" type="max"/>
               </constraints>
@@ -1408,7 +1415,7 @@ The Pak Mule can never benefit from its own ballistic shields
                 </rule>
               </rules>
               <costs>
-                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -1483,6 +1490,13 @@ The Pak Mule can never benefit from its own ballistic shields
               </costs>
             </selectionEntry>
             <selectionEntry id="ce3d-63dd-1d3c-60e6" name="••• Central Guard Training" publicationId="6f11-4351-f3f0-26cb" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d43b-5cfa-9691-c6d2" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0d4-df2b-f9af-595d" type="max"/>
               </constraints>
@@ -2293,6 +2307,9 @@ The Pak Mule can never benefit from its own ballistic shields
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9af3-8358-936a-ba6b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bed-8e5a-ee83-9edb" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="73a9-8d13-3a4f-b020" name="Type 221 &quot;Armada&quot; Tank" hidden="false" targetId="9574-d567-a0b9-1ff0" type="profile"/>
+          </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="6ff1-2cf6-8a0f-4c2e" name="Type 221 &quot;Armada&quot; Tank   Commander" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true">
               <selectionEntries>
@@ -4067,8 +4084,8 @@ Ammo: OOO</characteristic>
         <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
         <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
         <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
-        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">11</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">3</characteristic>
         <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
         <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
         <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5 - Med</characteristic>
@@ -4081,9 +4098,9 @@ Ammo: OOO</characteristic>
         <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">3</characteristic>
         <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">4</characteristic>
         <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">4</characteristic>
-        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">10</characteristic>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
-        <characteristic name="END" typeId="9490-11f5-1aaf-c586">3</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">3</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">11</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">4</characteristic>
         <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">4</characteristic>
         <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
         <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
@@ -4312,6 +4329,21 @@ Ammo: OOO</characteristic>
         <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
         <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
         <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9574-d567-a0b9-1ff0" name="Type 221 &quot;Armada&quot; Tank" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d"/>
+        <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6"/>
+        <characteristic name="DEF" typeId="26f5-47a1-8310-51da"/>
+        <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4"/>
+        <characteristic name="INT" typeId="b52b-fc57-76e8-5e4b"/>
+        <characteristic name="LD" typeId="1c19-dad2-a576-46c1"/>
+        <characteristic name="ARMOR" typeId="0abc-6803-65ce-ea04"/>
+        <characteristic name="END" typeId="60e8-bc63-0a32-48e5"/>
+        <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34"/>
+        <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90"/>
+        <characteristic name="SIZE" typeId="1adb-2fcb-5438-776f"/>
       </characteristics>
     </profile>
   </sharedProfiles>

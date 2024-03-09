@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="14" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="17" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="3e5c-c3d7-7fa7-d7d6" name="Han&apos;s Crusaders (Casual Play)" publicationId="782f-493f-cc20-a098" hidden="false">
       <categoryLinks>
@@ -2020,7 +2020,6 @@ Ammo: OOO</characteristic>
     <selectionEntry id="385f-509d-4812-a2cb" name="Independent Armed Forces Command Cards" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="423e-4280-0bc5-de17" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbd2-2bdc-5a42-359a" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="6c49-5863-a07f-2034" name="Command Cards and Utilities" hidden="false" targetId="7c73-06e3-1e6a-caf8" primary="true"/>
@@ -2151,6 +2150,58 @@ Ammo: OOO</characteristic>
                 <rule id="0043-d393-1c10-b99a" name="•Crusader Training  (Han&apos;s Crusade)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
                   <description>A single HANS CRUSADER Team may use a Rate of Fire attack without needing to use a rate of fire ammo check. Check off the ammo box on the card when the attack is completed. </description>
                 </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e051-1ab8-502d-40f1" name="•Independent Vigilance (Sponsored Colonies)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd6d-0c1c-6879-9b63" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="1f87-1ff4-80be-3fc6" name="•Independent Vigilance" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>When played, choose a single unit on the battlefield. That unit may immediately make a reaction for each member of its unit, even if it did not have a extra reaction.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f1ee-2e94-90e8-0b11" name="•Sovereign Bastion (Sponsored Colonies)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb51-67de-a21f-841c" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="a6ad-d259-908d-3962" name="•Sovereign Bastion " publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>Select a single LIGHT CORE unit on the battlefield. The chosen unit gains +2 to its DEF until the next Round.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="55c4-9dab-ebcb-9473" name="•Insurgents Uprising (Erland seditionist) " hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f7c-34a8-e8e5-ab3d" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="9565-2986-4514-d548" name="•Insurgents Uprising " hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6737-a710-e1ce-0c7f" name="•Eternal Dissent  (Erland seditionist) " hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07dd-c86e-bfcd-bb18" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="dc02-2b3b-5980-0c15" name="•Eternal Dissent  (Erland seditionist) " hidden="false"/>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
@@ -2290,6 +2341,58 @@ Ammo: OOO</characteristic>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="2901-d2d5-82af-3991" name="••Colonial Unity (Sponsored Colonies)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1ee-cbd4-4370-c77f" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="76b8-799b-4122-c032" name="••Colonial Unity (Sponsored Colonies)" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>All units that have the SPONSORED COLONIES keyword gain +1 LD and +1 NERVE until the start of the next Round.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1de2-e0fa-f428-7ed4" name="••Liberty Guardians (Sponsored Colonies)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbe5-f7e5-c2e7-ff36" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="8f91-14f2-5c74-66b9" name="••Liberty Guardians" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>Any unit with the SPONSORED COLONIES Keyword gains a +2 to their Armor until the start of the next round. </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="18d6-7e9f-c226-4f38" name="••Kingdom&apos;s Thorn (Erland seditionist) " hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d41d-49c1-4bea-6778" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="4f7d-6a21-dc39-ec5f" name="••Kingdom&apos;s Thorn (Erland seditionist) " hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7adb-586c-cd39-71fb" name="•• Seditionist Turmoil (Erland seditionist) " hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5f8-30f9-157e-eaa8" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="14b1-1bf1-4863-0b1a" name="•• Seditionist Turmoil (Erland seditionist) " hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -2310,7 +2413,7 @@ Ammo: OOO</characteristic>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4150-a720-556a-dcf8" name="••• Ruthless Reputation " hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4150-a720-556a-dcf8" name="••• Ruthless Reputation (Mercs and Bounty Hunters)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -2405,6 +2508,61 @@ Ammo: OOO</characteristic>
               </constraints>
               <rules>
                 <rule id="478a-50bf-151c-3622" name="••• Sovereign&apos;s in Exile  (Han&apos;s Crusade)" publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="47ed-2cc0-f557-3c81" name="•••In it for the Money  (Mercs and Bounty Hunters)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0ccd-8e75-d188-09c5" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="024c-c6d4-feec-0b92" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="0932-b23f-6daa-95ef" name="In it for the Money  (Mercs and Bounty Hunters)" publicationId="782f-493f-cc20-a098" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b2d1-f587-3965-8510" name="•••Reforged Alliances (Sponsored Colonies)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea8c-5ec3-2818-05c5" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="824b-6ebb-79b9-f0ec" name="•••Reforged Alliances (Sponsored Colonies)" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="53fe-d9a5-5fdd-1509" name="•••Uncertain Loyalties (Erland seditionist) " hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f45-8c1b-b7ea-8525" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="d0ab-5956-e77b-1bca" name="•••Uncertain Loyalties (Erland seditionist) " hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="259f-3a7b-0099-dc66" name="•••Rebellion’s Shadow (Erland seditionist) " hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd79-cdb7-6192-d6b3" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="9958-cf3c-d232-f4cb" name="•••Rebellion’s Shadow (Erland seditionist) " hidden="false"/>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>

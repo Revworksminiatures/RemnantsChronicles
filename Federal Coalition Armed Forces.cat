@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="13" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="15" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="674c-569a-ca53-7190" name="Marine Boarding Assault Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -2764,24 +2764,37 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f866-c4a9-c2f6-509a" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="2fbc-3c47-d155-33cb" name="Marine Sargeant" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2fbc-3c47-d155-33cb" name="Scouts and Raiders Marine Sargeant" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="9780-7ea8-3977-440d" name="Marine Sargeant" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+                <profile id="9780-7ea8-3977-440d" name="Scouts and Raiders Marine Marine Sargeant" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
                   <characteristics>
-                    <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8"/>
-                    <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
-                    <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
-                    <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
-                    <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
-                    <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
-                    <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
-                    <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
-                    <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
-                    <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
-                    <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
+                    <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
+                    <characteristic name="CMBT" typeId="2883-255f-189e-af1b">4</characteristic>
+                    <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+                    <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+                    <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+                    <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
+                    <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">11</characteristic>
+                    <characteristic name="END" typeId="9490-11f5-1aaf-c586">3</characteristic>
+                    <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+                    <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+                    <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <selectionEntries>
+                <selectionEntry id="9b0e-d5ff-c818-f810" name="Federal Coalition Power Armor" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+                  <rules>
+                    <rule id="73c7-30d1-1615-eb32" name="Federal Coalition Power Armor" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+                      <description>Federal Coalition Power Armor grants +1 to the armor, +1 to CMBT and +1 to Endurance. This stats have all been added the units stat line.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
               <entryLinks>
                 <entryLink id="ec37-caf5-dc99-ef1f" name="Federal Coalition Primary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="7851-a776-e33e-7086" type="selectionEntryGroup"/>
                 <entryLink id="2f7c-af83-3602-9160" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
@@ -2800,24 +2813,37 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="7.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a70f-fa38-6cf4-fa98" name="Marine Senior Enlisted" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a70f-fa38-6cf4-fa98" name="Scouts and Raiders Marine Senior Enlisted" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="5365-53c4-cfcf-77da" name="Marine Senior Enlisted" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+                <profile id="5365-53c4-cfcf-77da" name="Scouts and Raiders Marine Senior Enlisted" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
                   <characteristics>
-                    <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8"/>
-                    <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
-                    <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
-                    <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
-                    <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
-                    <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
-                    <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
-                    <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
-                    <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
-                    <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
-                    <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
+                    <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Arms, Living, Legs	</characteristic>
+                    <characteristic name="CMBT" typeId="2883-255f-189e-af1b">4</characteristic>
+                    <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">3</characteristic>
+                    <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+                    <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+                    <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">3</characteristic>
+                    <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">11</characteristic>
+                    <characteristic name="END" typeId="9490-11f5-1aaf-c586">4</characteristic>
+                    <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+                    <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+                    <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <selectionEntries>
+                <selectionEntry id="99db-9ef2-6f7d-daae" name="Federal Coalition Power Armor" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+                  <rules>
+                    <rule id="3616-53e3-0e15-06a6" name="Federal Coalition Power Armor" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+                      <description>Federal Coalition Power Armor grants +1 to the armor, +1 to CMBT and +1 to Endurance. This stats have all been added the units stat line.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
               <entryLinks>
                 <entryLink id="9f0f-1e72-2ac6-9a18" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
                 <entryLink id="a7e0-7111-406b-619d" name="Hand to Hand Combat" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="2772-828a-0b7c-24f8" type="selectionEntry"/>
@@ -3062,7 +3088,7 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
       </modifiers>
       <infoLinks>
         <infoLink id="7709-0a1e-dcfa-8da4" name="High Altitude Drop Orbital Certificated (HADOC)" hidden="false" targetId="df1d-6427-a387-0682" type="rule"/>
-        <infoLink id="55b4-68f2-3953-747a" name="Marine Scouts and Raiders" hidden="false" targetId="73f2-3845-dd68-da3c" type="profile"/>
+        <infoLink id="55b4-68f2-3953-747a" name="Force Recon Marine" hidden="false" targetId="73f2-3845-dd68-da3c" type="profile"/>
         <infoLink id="bb0b-fa98-afa5-1a99" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
         <infoLink id="3ade-2ccc-ba9b-b1ac" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
         <infoLink id="eeff-2c50-a0b3-0046" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
@@ -3186,18 +3212,18 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc9a-a74e-b6ab-7d7a" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="7762-9143-f1e7-9133" name="Marine Sargeant" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7762-9143-f1e7-9133" name="Force Recon Marine Sargeant" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="7575-f1d6-a799-d33b" name="Marine Sargeant" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+                <profile id="7575-f1d6-a799-d33b" name="Force Recon Marine Sargeant" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
                   <characteristics>
                     <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
-                    <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
+                    <characteristic name="CMBT" typeId="2883-255f-189e-af1b">4</characteristic>
                     <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
                     <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
                     <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
                     <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
-                    <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
-                    <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+                    <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">11</characteristic>
+                    <characteristic name="END" typeId="9490-11f5-1aaf-c586">3</characteristic>
                     <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
                     <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
                     <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
@@ -3209,6 +3235,19 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
                 <infoLink id="3ad9-5967-c6c3-6075" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
                 <infoLink id="8a9d-287c-fca2-bc58" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
               </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="783e-73f4-fe73-0976" name="Federal Coalition Power Armor" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+                  <rules>
+                    <rule id="718c-4c2e-1d58-c3df" name="Federal Coalition Power Armor" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+                      <description>Federal Coalition Power Armor grants +1 to the armor, +1 to CMBT and +1 to Endurance. This stats have all been added the units stat line.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
               <entryLinks>
                 <entryLink id="5f5b-19cf-09e4-c3be" name="Federal Coalition Primary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="7851-a776-e33e-7086" type="selectionEntryGroup"/>
                 <entryLink id="91da-cadb-daab-171d" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
@@ -3227,18 +3266,18 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="7.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3c6a-bde0-35c5-958f" name="Marine Senior Enlisted" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3c6a-bde0-35c5-958f" name="Force Recon Marine Senior Enlisted" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="d7ee-7a13-ead1-2f4f" name="Marine Senior Enlisted" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+                <profile id="d7ee-7a13-ead1-2f4f" name="Force Recon Marine Sr. Enlisted" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
                   <characteristics>
                     <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
-                    <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
+                    <characteristic name="CMBT" typeId="2883-255f-189e-af1b">4</characteristic>
                     <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">3</characteristic>
                     <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">2</characteristic>
                     <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
                     <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">3</characteristic>
-                    <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
-                    <characteristic name="END" typeId="9490-11f5-1aaf-c586">3</characteristic>
+                    <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">11</characteristic>
+                    <characteristic name="END" typeId="9490-11f5-1aaf-c586">4</characteristic>
                     <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
                     <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
                     <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
@@ -3250,6 +3289,19 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
                 <infoLink id="c605-f6be-1dd0-4581" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
                 <infoLink id="fa69-77bc-cd13-14ac" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
               </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="6171-241e-5c27-ed52" name="Federal Coalition Power Armor" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+                  <rules>
+                    <rule id="f7b0-09a7-9050-adaa" name="Federal Coalition Power Armor" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+                      <description>Federal Coalition Power Armor grants +1 to the armor, +1 to CMBT and +1 to Endurance. This stats have all been added the units stat line.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
               <entryLinks>
                 <entryLink id="dde8-3a33-c9e7-d5ad" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
                 <entryLink id="fb16-e858-512b-fc2b" name="Hand to Hand Combat" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="2772-828a-0b7c-24f8" type="selectionEntry"/>
@@ -3268,18 +3320,18 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="9.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f961-f97b-472a-a39c" name="•Sargeant McMichen" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f961-f97b-472a-a39c" name="• Force Recon Marine Sargeant McMichen" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="08e6-84fe-2d0b-ae63" name="•Sargeant McMichen" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
                   <characteristics>
                     <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
-                    <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
+                    <characteristic name="CMBT" typeId="2883-255f-189e-af1b">4</characteristic>
                     <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">3</characteristic>
                     <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">2</characteristic>
                     <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">3</characteristic>
                     <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">3</characteristic>
-                    <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
-                    <characteristic name="END" typeId="9490-11f5-1aaf-c586">4</characteristic>
+                    <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">11</characteristic>
+                    <characteristic name="END" typeId="9490-11f5-1aaf-c586">5</characteristic>
                     <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
                     <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
                     <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
@@ -3291,6 +3343,19 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
                 <infoLink id="a8bf-b547-19ed-524b" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
                 <infoLink id="b358-83dc-5cab-c23d" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
               </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="13a2-1f7d-68a1-be68" name="Federal Coalition Power Armor" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+                  <rules>
+                    <rule id="2844-5310-e681-d570" name="Federal Coalition Power Armor" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+                      <description>Federal Coalition Power Armor grants +1 to the armor, +1 to CMBT and +1 to Endurance. This stats have all been added the units stat line.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
               <entryLinks>
                 <entryLink id="16a3-7ced-8470-345c" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
                 <entryLink id="c1a4-82ff-30bf-5eec" name="Hand to Hand Combat" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="2772-828a-0b7c-24f8" type="selectionEntry"/>
@@ -5649,13 +5714,13 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
         <profile id="2985-4947-0c88-3469" name="Army Rangers" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
           <characteristics>
             <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
-            <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
+            <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
             <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
             <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
             <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
             <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
-            <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
-            <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+            <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">11</characteristic>
+            <characteristic name="END" typeId="9490-11f5-1aaf-c586">3</characteristic>
             <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
             <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
             <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
@@ -5789,7 +5854,7 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
           <selectionEntries>
             <selectionEntry id="fa9d-f82e-93d8-817d" name="Army Sargeant" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="c8f2-dc25-4fd2-a4b6" name="Army Sargeant" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+                <profile id="c8f2-dc25-4fd2-a4b6" name="Army Ranger Sargeant" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
                   <characteristics>
                     <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
                     <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
@@ -5797,8 +5862,8 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
                     <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
                     <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
                     <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
-                    <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
-                    <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+                    <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">11</characteristic>
+                    <characteristic name="END" typeId="9490-11f5-1aaf-c586">3</characteristic>
                     <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
                     <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
                     <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
@@ -5825,16 +5890,16 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
             </selectionEntry>
             <selectionEntry id="93c6-4d15-3a93-6904" name="Army  Senior Enlisted" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="ed66-3d6b-eac7-7b8c" name="Army Senior Enlisted" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+                <profile id="ed66-3d6b-eac7-7b8c" name="Army Ranger Senior Enlisted" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
                   <characteristics>
                     <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
-                    <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
+                    <characteristic name="CMBT" typeId="2883-255f-189e-af1b">4</characteristic>
                     <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">3</characteristic>
                     <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">2</characteristic>
                     <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
                     <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">3</characteristic>
-                    <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
-                    <characteristic name="END" typeId="9490-11f5-1aaf-c586">3</characteristic>
+                    <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">11</characteristic>
+                    <characteristic name="END" typeId="9490-11f5-1aaf-c586">4</characteristic>
                     <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
                     <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
                     <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
@@ -8242,7 +8307,9 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
   <sharedSelectionEntries>
     <selectionEntry id="1aaf-902c-f4f4-bcf8" name="Federal Coalition Power Armor" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
-        <rule id="55cf-b224-b379-dda2" name="Federal Coalition Power Armor" publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
+        <rule id="55cf-b224-b379-dda2" name="Federal Coalition Power Armor" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+          <description>Federal Coalition Power Armor grants +1 to the armor, +1 to CMBT and +1 to Endurance. This stats have all been added the units stat line.</description>
+        </rule>
       </rules>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -8434,7 +8501,7 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="7.0"/>
-            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="12.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="10.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10300,13 +10367,13 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
     <profile id="73f2-3845-dd68-da3c" name="Force Recon Marine" publicationId="8c20-1e89-cba7-0494" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
-        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
         <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
         <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
         <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
         <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
-        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">11</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">3</characteristic>
         <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
         <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5	</characteristic>
         <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
@@ -10315,13 +10382,13 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
     <profile id="28a5-5d67-8d76-b4ca" name="Marine Scouts and Raiders" publicationId="8c20-1e89-cba7-0494" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
-        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
         <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
         <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
         <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
         <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
-        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">11</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">3</characteristic>
         <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
         <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5	</characteristic>
         <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
