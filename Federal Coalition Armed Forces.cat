@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="16" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="17" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="674c-569a-ca53-7190" name="Marine Boarding Assault Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -8313,6 +8313,9 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink id="047d-ad61-07d2-2b68" name="Heavy Support" hidden="false" targetId="4749-85c7-9d41-aa3f" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9b52-f989-ad8f-55cd" name="AV-52 &quot;Harbringer&quot; Bomber" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="model">
           <constraints>
