@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="17" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="18" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c8da-24a8-bcaa-8190" name="The Remnant Chronicles Rulebook"/>
     <publication id="8c20-1e89-cba7-0494" name="Forces of the Federal Coalition "/>
     <publication id="6f11-4351-f3f0-26cb" name="Forces of the Protectorate Defense League"/>
     <publication id="ecbd-4756-1610-637c" name="Royal Kingdom of Erland Armed Forces"/>
     <publication id="782f-493f-cc20-a098" name="The Independents"/>
+    <publication id="9b0c-e2fe-dd63-1ebd" name="The United Commonwealth of Martyr Armed Forces"/>
   </publications>
   <costTypes>
     <costType id="118c-125b-468b-4b84" name="Resource Points" defaultCostLimit="-1.0" hidden="false"/>
@@ -4386,8 +4387,13 @@ The Models must be in base-to-base contact to perform the check.</description>
     </selectionEntry>
     <selectionEntry id="bbe2-dd0d-f6cc-5ccf" name="Senor Package" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
-        <rule id="186b-f96a-9885-8ebb" name="Senor Package" publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
+        <rule id="186b-f96a-9885-8ebb" name="Senor Package" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+          <description>This model has the Observer key term</description>
+        </rule>
       </rules>
+      <infoLinks>
+        <infoLink id="2b68-7ae6-7ef2-6ada" name="Observer" hidden="false" targetId="f9de-63fa-4577-a269" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -6916,7 +6922,9 @@ equal to X inches from the point where the weapon hit. The Blind Condition lasts
     <rule id="9f3a-57ab-abea-9055" name="Bulky" hidden="false">
       <description>This model may not embark on a transport unit unless the transport unit has the Transport: Bulky Trait</description>
     </rule>
-    <rule id="e3c4-cf2c-a076-fd94" name="Brutal" hidden="false"/>
+    <rule id="e3c4-cf2c-a076-fd94" name="Brutal" hidden="false">
+      <description>&quot;Brutal&quot; weapons are truly devastating, adding an extra layer of ferocity to their attacks. Equipped with this feature, such weapons bolster their damage output by incorporating an additional +2 Successes to the final damage result. Furthermore, they are recognized as having inflicted critical damage, underscoring their ruthless efficacy on the battlefield.</description>
+    </rule>
     <rule id="2c83-dd28-35b9-0f5d" name="Blast" hidden="false">
       <description>This weapon affects a radius equal to X inches from the point where it hits. Any Model caught in this radius must defend against the attack. Even if the Defense is a success, models caught in the blast are immediately Knocked Down and suffer the Deafened Condition. The Deafened condition lasts for one Round.</description>
     </rule>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="17" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="18" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="3e5c-c3d7-7fa7-d7d6" name="Han&apos;s Crusaders (Casual Play)" publicationId="782f-493f-cc20-a098" hidden="false">
       <categoryLinks>
@@ -50,7 +50,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="9319-e9eb-647b-c0c8" name="Router&apos;s Gild (Casual Play)" publicationId="782f-493f-cc20-a098" hidden="false">
+    <forceEntry id="9319-e9eb-647b-c0c8" name="Router&apos;s Guild (Casual Play)" publicationId="782f-493f-cc20-a098" hidden="false">
       <categoryLinks>
         <categoryLink id="4e0d-390d-adfc-1088" name="Armed Forces Selector" publicationId="6f11-4351-f3f0-26cb" hidden="false" targetId="bc1c-3334-8a07-6030" primary="false">
           <constraints>
@@ -480,71 +480,73 @@
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c10d-a2bb-7fa9-74e4" name="Model 32 &quot;Marauder&quot; Heavy Exo Suit Team" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c10d-a2bb-7fa9-74e4" name="Model 85 &quot;Marauder&quot; Power Armor Team" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="717d-8b41-561c-2617" name="Model 32 &quot;Marauder&quot; Heavy Exo Suit" publicationId="782f-493f-cc20-a098" hidden="false" targetId="9995-d68e-3175-06ba" type="profile"/>
+        <infoLink id="717d-8b41-561c-2617" name="Model 85 &quot;Marauder&quot; Power Armor" publicationId="782f-493f-cc20-a098" hidden="false" targetId="9995-d68e-3175-06ba" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8d88-1fba-9467-5acf" name="Heavy Core" hidden="false" targetId="aaf1-86b5-3e39-53a0" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="0d20-ccac-acee-885e" name="Model 32 &quot;Marauder&quot; Heavy Exo Suit" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0d20-ccac-acee-885e" name="Model 85 &quot;Marauder&quot; Power Armor" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19ac-8249-7c6c-1962" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9366-e930-dc24-0d77" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="2edd-6e99-8068-361a" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
-            <infoLink id="81ea-75c2-6964-aee9" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
             <infoLink id="8ba5-7192-a070-e024" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+            <infoLink id="66c6-811d-1bc7-6adf" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry id="eef1-14b5-ed09-8557" name="Model 32 &quot;Marauder&quot; Heavy Exo Suit" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="75ad-4e3c-b83f-9126" name="2x Metal Fist" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d769-2016-fc92-bcd8" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52df-0fd0-d91f-c436" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c76d-c210-b6c1-858a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3516-4e32-0386-9253" type="min"/>
               </constraints>
-              <selectionEntries>
-                <selectionEntry id="639d-1a32-de91-74d4" name="2x Metal Fist" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f12-e2b5-3d39-de24" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fae0-35d8-a1b4-e687" type="min"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="59d7-3da6-0e5a-ee30" name="2x Metal Fist" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
-                      <characteristics>
-                        <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Melee	</characteristic>
-                        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">Base</characteristic>
-                        <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">-</characteristic>
-                        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">10</characteristic>
-                        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Rend</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <costs>
-                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <entryLinks>
-                <entryLink id="6d9f-f9e0-c9de-b8be" name="The Independent&apos;s Primary Heavy Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="980e-c581-d4d6-2982" type="selectionEntryGroup"/>
-                <entryLink id="123e-9b3f-8e37-c9a1" name="The Independent&apos;s Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
-              </entryLinks>
+              <profiles>
+                <profile id="40fd-ee3c-9475-edd2" name="2x Metal Fist" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Melee	</characteristic>
+                    <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">Base</characteristic>
+                    <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">-</characteristic>
+                    <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">10</characteristic>
+                    <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Rend</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
-                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="1.0"/>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="21fe-7c88-7870-0e8b" name="2-round Light Anti Armor Rocket Launcher" hidden="false" collective="false" import="true" targetId="b7e9-9fff-d7ff-373f" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27fc-e983-00c5-c948" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cef8-cfad-7e0b-7bd1" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="0540-84c5-79ea-84e1" name="Jump Jets" hidden="false" collective="false" import="true" targetId="85dc-892e-856c-932b" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efb8-2f38-9b36-1e1f" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="0e73-045d-0c0d-5bf8" name="The Independent&apos;s Primary Heavy Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="980e-c581-d4d6-2982" type="selectionEntryGroup"/>
+            <entryLink id="0e9d-56b4-9931-0bc6" name="The Independent&apos;s Special Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="14c7-e6c8-8846-517e" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="17.0"/>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="4.0"/>
-        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="10.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7bff-a191-451f-ed6a" name="Independent&apos;s Combat Technical Truck" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
@@ -2020,6 +2022,7 @@ Ammo: OOO</characteristic>
     <selectionEntry id="385f-509d-4812-a2cb" name="Independent Armed Forces Command Cards" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="423e-4280-0bc5-de17" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcf0-8ec4-652b-dee4" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="6c49-5863-a07f-2034" name="Command Cards and Utilities" hidden="false" targetId="7c73-06e3-1e6a-caf8" primary="true"/>
@@ -2085,7 +2088,8 @@ Ammo: OOO</characteristic>
               </constraints>
               <rules>
                 <rule id="a560-8f42-7e45-b18a" name="•Uncanny Luck (Mercs and Bounty Hunters)" publicationId="782f-493f-cc20-a098" hidden="false">
-                  <description>A single unit of BOUNTY HUNTERS or HIRED GUNs gains an additional advantage to their dice pool (Up to a maximum of 5 dice per pool) during their activation after you use this card. </description>
+                  <description>A single LIGHT CORE unit gains an additional advantage to their dice pool (Up to a maximum of 5 dice per pool) during their activation after you use this card
+</description>
                 </rule>
               </rules>
               <costs>
@@ -2106,7 +2110,8 @@ Ammo: OOO</characteristic>
               </constraints>
               <rules>
                 <rule id="6f98-a3a9-283e-7c24" name="•Worthy Adversaries (Mercs and Bounty Hunters)" publicationId="782f-493f-cc20-a098" hidden="false">
-                  <description>Select an enemy unit. When this card is played that unit suffers a disadvantage to all of their defense rolls. Additonally, if that unit is killed by a HIRED GUN or BOUNTY HUNTER unit the turn this card is played, you gain 1 additonal Victory Point.</description>
+                  <description>Choose an enemy unit. They have a disadvantage to their defense rolls this round. If a HIRED GUN or BOUNTY HUNTER unit kills them this round when this card is played, you gain an extra Victory Point.
+</description>
                 </rule>
               </rules>
               <costs>
@@ -2185,6 +2190,13 @@ Ammo: OOO</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="55c4-9dab-ebcb-9473" name="•Insurgents Uprising (Erland seditionist) " hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7274-d90a-a367-e6de" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f7c-34a8-e8e5-ab3d" type="max"/>
               </constraints>
@@ -2197,6 +2209,13 @@ Ammo: OOO</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="6737-a710-e1ce-0c7f" name="•Eternal Dissent  (Erland seditionist) " hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7274-d90a-a367-e6de" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07dd-c86e-bfcd-bb18" type="max"/>
               </constraints>
@@ -2253,7 +2272,8 @@ Ammo: OOO</characteristic>
               </constraints>
               <rules>
                 <rule id="0356-281c-e60f-748e" name="••Odds in your favor (Mercs and Bounty Hunters)" publicationId="782f-493f-cc20-a098" hidden="false">
-                  <description>When this card is played select a HIRED GUN or BOUNTY HUNTER unit. That unit immediatly gains 1 aim token for each member of the squad. This does not cost an action. If the aim tokens are not used by the end of the turn, then the unit loses the aim token.</description>
+                  <description>When this card is played select a HIRED GUN or BOUNTY HUNTER unit. That unit immediately gains 1 aim token for each member of the squad. This does not cost an action. If the aim tokens are not used by the end of the turn, then the unit loses the aim token.
+</description>
                 </rule>
               </rules>
               <costs>
@@ -2370,6 +2390,13 @@ Ammo: OOO</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="18d6-7e9f-c226-4f38" name="••Kingdom&apos;s Thorn (Erland seditionist) " hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7274-d90a-a367-e6de" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d41d-49c1-4bea-6778" type="max"/>
               </constraints>
@@ -2382,6 +2409,13 @@ Ammo: OOO</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="7adb-586c-cd39-71fb" name="•• Seditionist Turmoil (Erland seditionist) " hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7274-d90a-a367-e6de" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5f8-30f9-157e-eaa8" type="max"/>
               </constraints>
@@ -2408,6 +2442,12 @@ Ammo: OOO</characteristic>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c2d-73b0-aeaa-7e9c" type="max"/>
               </constraints>
+              <rules>
+                <rule id="7a8e-7146-96b1-3e17" name="•••Extra Stockpiles" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>Before the game begins, players may choose an additional Stockpile to use during the game. 
+</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -2514,11 +2554,11 @@ Ammo: OOO</characteristic>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="47ed-2cc0-f557-3c81" name="•••In it for the Money  (Mercs and Bounty Hunters)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="47ed-2cc0-f557-3c81" name="•••Time is money  (Mercs and Bounty Hunters)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0ccd-8e75-d188-09c5" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b6dd-bf62-ef07-4fdc" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -2526,7 +2566,13 @@ Ammo: OOO</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="024c-c6d4-feec-0b92" type="max"/>
               </constraints>
               <rules>
-                <rule id="0932-b23f-6daa-95ef" name="In it for the Money  (Mercs and Bounty Hunters)" publicationId="782f-493f-cc20-a098" hidden="false"/>
+                <rule id="0932-b23f-6daa-95ef" name="•••Time is money (Mercs and Bounty Hunters)" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>Once per game, you may immediately activate up to 3 units as if you had seized the initiative.  These units may activate and react as normal as if it were that player&apos;s turn. Discard this card after use.
+
+
+
+</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
@@ -2534,11 +2580,20 @@ Ammo: OOO</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="b2d1-f587-3965-8510" name="•••Reforged Alliances (Sponsored Colonies)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4edd-1901-d664-8525" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea8c-5ec3-2818-05c5" type="max"/>
               </constraints>
               <rules>
-                <rule id="824b-6ebb-79b9-f0ec" name="•••Reforged Alliances (Sponsored Colonies)" hidden="false"/>
+                <rule id="824b-6ebb-79b9-f0ec" name="•••Reforged Alliances (Sponsored Colonies)" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>When a LIGHT CORE SPONSORED COLONIES unit is engaged in melee combat, the enemy unit immediately breaks as if its nerve had been exceeded. It must retreat a distance of double its MOVE action towards the opponents&apos; table edge and is considered activated for the remainder of the round. If this retreat would take the unit off the table, it is placed on the table&apos;s edge and is not considered destroyed for purposes of morale or victory points.</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
@@ -2546,6 +2601,13 @@ Ammo: OOO</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="53fe-d9a5-5fdd-1509" name="•••Uncertain Loyalties (Erland seditionist) " hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7274-d90a-a367-e6de" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f45-8c1b-b7ea-8525" type="max"/>
               </constraints>
@@ -2558,6 +2620,13 @@ Ammo: OOO</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="259f-3a7b-0099-dc66" name="•••Rebellion’s Shadow (Erland seditionist) " hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7274-d90a-a367-e6de" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd79-cdb7-6192-d6b3" type="max"/>
               </constraints>
@@ -2578,6 +2647,98 @@ Ammo: OOO</characteristic>
       </selectionEntries>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6841-41d0-f1d8-6744" name="Planetary Milita Squad" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4edd-1901-d664-8525" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="ee81-4c7f-f02e-06a5" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+        <infoLink id="bbd7-df15-d7a9-6659" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+        <infoLink id="699f-464c-ac15-1eea" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f222-8e68-a5d5-b79b" name="Light Core" hidden="false" targetId="fa42-d150-a4d6-a3db" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="65c5-8de5-cc8d-4a0a" name="Planetary Trooper" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="270d-1cf4-87d8-cdd1" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad52-689e-0fc9-13d7" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5eec-e143-849f-cf06" name="Planetary Trooper" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cd4-c997-3714-42b4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4c2-9189-958b-dcc8" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="4a6c-31a4-8e32-664d" name="The Independent&apos;s Primary Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
+                <entryLink id="e6be-bc6b-8f5f-c7ab" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
+                <entryLink id="22ea-7d0d-b5e0-096b" name="The Independent&apos;s Secondary Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
+                <entryLink id="ff85-bb3b-019e-1ea6" name="Personal Loadouts" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d360-abb3-6b12-b627" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d34-19dc-8cfb-520a" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="1.0"/>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cc3b-e97c-e4b7-f6ce" name="Planetary Seditionist Team Leader" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="913a-fdd8-d5d2-1126" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0917-3e14-0a17-a135" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d66e-0b4d-23e5-20de" name="Well Trained Planetary Trooper" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6edc-5471-3421-0552" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64fb-a3c4-f4bb-a8b7" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="7fd7-bb9e-6435-0b57" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
+                <entryLink id="de0b-200f-426d-5b39" name="Personal Loadouts" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbe0-dbb9-db43-e8af" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0359-d3c3-04b7-ed8f" type="min"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="80c6-9b30-c447-d684" name="The Independent&apos;s Primary Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
+                <entryLink id="50f9-3dfb-7e98-09d3" name="The Independent&apos;s Secondary Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="5.0"/>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="0588-59a3-357f-1fc5" name="Squad Equipment (Max 3 per Squad)" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="5.0"/>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2725,11 +2886,21 @@ Ammo: OOO</characteristic>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7249-94bd-8449-b149" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="1e34-1ad9-bf7e-37d7" name="Assault Rifle" hidden="false" targetId="c074-aaab-f8f6-3f7b" type="profile"/>
+          </infoLinks>
         </entryLink>
         <entryLink id="1fa4-b9a7-edb8-9d00" name="Assault Shotgun" hidden="false" collective="false" import="true" targetId="a969-6800-858c-1fcb" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e02f-74a1-7bfc-5f9e" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="8b11-9067-035c-9ac3" name="Assault Shotgun" hidden="false" targetId="1f66-2544-4f1c-4ca0" type="profile"/>
+            <infoLink id="72f6-055c-d712-5e4d" name="Spray " hidden="false" targetId="6173-216f-8176-f9ae" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
+          </costs>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2739,11 +2910,22 @@ Ammo: OOO</characteristic>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2bc-659c-23f9-0418" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="4dd0-3af6-21ad-794e" name="Pistol" hidden="false" targetId="baf5-616e-ac38-ee10" type="profile"/>
+            <infoLink id="e673-9c14-4182-23a3" name="Pistol" hidden="false" targetId="2bf3-65e8-f195-5487" type="rule"/>
+          </infoLinks>
         </entryLink>
         <entryLink id="b732-291f-ddf0-661e" name="Submachine Gun" hidden="false" collective="false" import="true" targetId="d069-be70-a959-11a8" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6c9-6d74-b8e7-880e" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="5d38-5318-e4b3-6af1" name="Submachine Gun" hidden="false" targetId="821c-5b7b-f831-6885" type="profile"/>
+            <infoLink id="424c-374f-898b-a142" name="Pistol" hidden="false" targetId="2bf3-65e8-f195-5487" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
+          </costs>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2942,7 +3124,7 @@ Ammo: OOO</characteristic>
                 <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">3</characteristic>
                 <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
                 <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">3</characteristic>
-                <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">10</characteristic>
+                <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">3</characteristic>
                 <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
                 <characteristic name="END" typeId="9490-11f5-1aaf-c586">4</characteristic>
                 <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">4</characteristic>
@@ -2971,7 +3153,7 @@ Ammo: OOO</characteristic>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="7.0"/>
-            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="9.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="11.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3051,8 +3233,8 @@ Ammo: OOO</characteristic>
     <profile id="3dd6-b204-01b5-b252" name="Independent&apos;s &quot;Mercuary II&quot; RIG" publicationId="782f-493f-cc20-a098" hidden="false" typeId="752c-3a73-d54e-d187" typeName="RIG (Reinforced Integrated General Suit)">
       <characteristics>
         <characteristic name="Key Traits" typeId="ceff-52f7-ad02-94b5">Arms, Legs, Armored, Walker</characteristic>
-        <characteristic name="CMBT" typeId="06b1-607f-a7ec-e56f">1</characteristic>
-        <characteristic name="DEF" typeId="58eb-5efc-7ff9-eda8">2</characteristic>
+        <characteristic name="CMBT" typeId="06b1-607f-a7ec-e56f">2</characteristic>
+        <characteristic name="DEF" typeId="58eb-5efc-7ff9-eda8">1</characteristic>
         <characteristic name="ATHL" typeId="16cc-6490-5a6c-d9a3">2</characteristic>
         <characteristic name="INT" typeId="58c5-f861-554f-7c36">3</characteristic>
         <characteristic name="LD" typeId="31bd-f441-3a39-72a9">2</characteristic>
@@ -3126,13 +3308,13 @@ Ammo: OOO</characteristic>
     <profile id="6c34-2526-c822-d2f7" name="Experienced Bounty Hunter" publicationId="782f-493f-cc20-a098" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
-        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
         <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
         <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
         <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
-        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">3</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
         <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
-        <characteristic name="END" typeId="9490-11f5-1aaf-c586">3</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
         <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
         <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
         <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5- Med</characteristic>
@@ -3183,7 +3365,7 @@ Ammo: OOO</characteristic>
         <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5- Med</characteristic>
       </characteristics>
     </profile>
-    <profile id="b45e-1337-d543-c863" name="Erland Seditionist Squad" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+    <profile id="b45e-1337-d543-c863" name="Erland Seditionist Squad" publicationId="782f-493f-cc20-a098" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
         <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
@@ -3198,7 +3380,7 @@ Ammo: OOO</characteristic>
         <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5- Med</characteristic>
       </characteristics>
     </profile>
-    <profile id="9995-d68e-3175-06ba" name="Model 32 &quot;Marauder&quot; Heavy Exo Suit" publicationId="782f-493f-cc20-a098" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+    <profile id="9995-d68e-3175-06ba" name="Model 85 &quot;Marauder&quot; Power Armor" publicationId="782f-493f-cc20-a098" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs, Power Armored</characteristic>
         <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
@@ -3318,7 +3500,7 @@ Ammo: OOO</characteristic>
         <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-  Med</characteristic>
       </characteristics>
     </profile>
-    <profile id="2158-291a-922e-dbc2" name="Type 7 P.A.K. Mule UGV" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
+    <profile id="2158-291a-922e-dbc2" name="Type 7 P.A.K. Mule UGV" publicationId="6f11-4351-f3f0-26cb" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
       <characteristics>
         <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d">Construct, Bulky, Cumbersome, Mecanum Wheels, Stablized, Resist EM:2, Sensor Package</characteristic>
         <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6">2</characteristic>
@@ -3427,12 +3609,12 @@ Ammo: OOO</characteristic>
       <characteristics>
         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
         <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
-        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">3</characteristic>
-        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">2</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
         <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
         <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
         <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
-        <characteristic name="END" typeId="9490-11f5-1aaf-c586">3</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
         <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
         <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
         <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
@@ -3441,16 +3623,52 @@ Ammo: OOO</characteristic>
     <profile id="7752-1d82-5f0d-c151" name="Well Trained Hired Gun" publicationId="782f-493f-cc20-a098" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
-        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
         <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">3</characteristic>
-        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">2</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
         <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
         <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">9</characteristic>
-        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">3</characteristic>
         <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
         <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
         <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5- Med</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c074-aaab-f8f6-3f7b" name="Assault Rifle" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Type" typeId="e829-a194-1e82-ef0e"/>
+        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd"/>
+        <characteristic name="RoF" typeId="78b1-0557-98bf-20b5"/>
+        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4"/>
+        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb"/>
+      </characteristics>
+    </profile>
+    <profile id="baf5-616e-ac38-ee10" name="Pistol" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Type" typeId="e829-a194-1e82-ef0e"/>
+        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd"/>
+        <characteristic name="RoF" typeId="78b1-0557-98bf-20b5"/>
+        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4"/>
+        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb"/>
+      </characteristics>
+    </profile>
+    <profile id="1f66-2544-4f1c-4ca0" name="Assault Shotgun" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Type" typeId="e829-a194-1e82-ef0e"/>
+        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd"/>
+        <characteristic name="RoF" typeId="78b1-0557-98bf-20b5"/>
+        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4"/>
+        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb"/>
+      </characteristics>
+    </profile>
+    <profile id="821c-5b7b-f831-6885" name="Submachine Gun" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Type" typeId="e829-a194-1e82-ef0e"/>
+        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd"/>
+        <characteristic name="RoF" typeId="78b1-0557-98bf-20b5"/>
+        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4"/>
+        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb"/>
       </characteristics>
     </profile>
   </sharedProfiles>

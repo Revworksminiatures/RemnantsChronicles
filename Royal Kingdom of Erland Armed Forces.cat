@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="6" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="7" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="a603-48d7-f61c-36e6" name="Special Operations Task Force (Casual Play)" publicationId="ecbd-4756-1610-637c" hidden="false">
       <categoryLinks>
@@ -494,7 +494,9 @@ Every model in the unit that uses this Tactical Asset will automatically take an
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b21d-781e-9a91-6839" type="max"/>
               </constraints>
               <rules>
-                <rule id="502d-3cf3-d359-484a" name="•The Kings Own (Royal Elite Guard)" publicationId="ecbd-4756-1610-637c" hidden="false"/>
+                <rule id="502d-3cf3-d359-484a" name="•The Kings Own (Royal Elite Guard)" publicationId="ecbd-4756-1610-637c" hidden="false">
+                  <description>Upon activation, this unit promptly acquires the esteemed &quot;LifeGuard&quot; Keyword, signifying their role as protectors of utmost importance. Additionally, when in CMD range of an Erland Officer, they contribute +2 Victory Points to your tally at the game&apos;s conclusion, provided the Officer remains unharmed. Should the Officer become the target of an attack, the trained bodyguards of the &quot;LifeGuard&quot; unit (if they are in CMD range) instinctively intervene, redirecting the threat towards themselves to shield their charge from harm.</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
@@ -701,7 +703,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e393-10d1-e88f-8d53" name="•• Stubborn Defense (Home Guard)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e393-10d1-e88f-8d53" name="•• Information Warfare (Home Guard)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -713,8 +715,8 @@ Every model in the unit that uses this Tactical Asset will automatically take an
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="005c-10c3-0ee0-00a4" type="max"/>
               </constraints>
               <rules>
-                <rule id="22ed-ce18-3183-e2e0" name="•• Stubborn Defense (Home Guard)" publicationId="ecbd-4756-1610-637c" hidden="false">
-                  <description>If an Erland Officer is within CMD Range, a single Erland LIGHT CORE or HEAVY CORE unit with Pins placed on it will not be compelled to take a NERVE test for the current round when this card is played. However, in the subsequent round, if there are still more Pins than their NERVE, the unit will be required to take a NERVE test. This effect is lost if the Officer is killed the turn it is played.</description>
+                <rule id="22ed-ce18-3183-e2e0" name="•• Information Warfare (Home Guard)" publicationId="ecbd-4756-1610-637c" hidden="false">
+                  <description>Choose one card randomly from your opponent&apos;s hand. They must reveal the chosen card to you. You may then decide whether to immediately force the player to play that card if possible, or the card must be discarded immediately. This card is also discarded after use.</description>
                 </rule>
               </rules>
               <costs>
@@ -786,7 +788,8 @@ Every model in the unit that uses this Tactical Asset will automatically take an
               </constraints>
               <rules>
                 <rule id="f408-40c8-ed7b-a59c" name="•••Cross Trained" publicationId="ecbd-4756-1610-637c" hidden="false">
-                  <description>A single Special Issue unit, has the capability to access LIGHT or HEAVY CORE keyword cards as if it were classified as a LIGHT CORE or HEAVY CORE unit, respectively.</description>
+                  <description>A single Special Issue unit gains the ability to access LIGHT or HEAVY CORE keyword cards as if it were classified as a LIGHT CORE or HEAVY CORE unit, respectively. This effect lasts for 2 Rounds. After use, place this card in the discard pile.
+</description>
                 </rule>
               </rules>
               <costs>
@@ -2305,16 +2308,16 @@ Every model in the unit that uses this Tactical Asset will automatically take an
             <profile id="a54f-e30f-5088-1665" name="Warrant Officer" publicationId="ecbd-4756-1610-637c" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
               <characteristics>
                 <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
-                <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
-                <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
-                <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
-                <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
-                <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
-                <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
-                <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
-                <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
-                <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
-                <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
+                <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
+                <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+                <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">2</characteristic>
+                <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">3</characteristic>
+                <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">3</characteristic>
+                <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+                <characteristic name="END" typeId="9490-11f5-1aaf-c586">3</characteristic>
+                <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+                <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+                <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
               </characteristics>
             </profile>
           </profiles>

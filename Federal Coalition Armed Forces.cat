@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="15" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="16" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="674c-569a-ca53-7190" name="Marine Boarding Assault Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -5259,6 +5259,8 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
       </profiles>
       <infoLinks>
         <infoLink id="885f-d7eb-a0f6-2370" name="Construct" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="934c-8201-c567-37c2" type="rule"/>
+        <infoLink id="2ae5-16b8-2572-47b2" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+        <infoLink id="912c-a960-ce05-4fde" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="fd1e-5669-4293-9b4c" name="Light Support" hidden="false" targetId="45b0-9ee5-e76b-4914" primary="true"/>
@@ -8294,6 +8296,69 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="4.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3bc5-5e87-969c-9b86" name="Army AV-52 &quot;Harbringer&quot; Bomber HAVOC Support" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8be4-e13a-b373-fc47" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <selectionEntries>
+        <selectionEntry id="9b52-f989-ad8f-55cd" name="AV-52 &quot;Harbringer&quot; Bomber" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d31-c36f-3eb4-4f17" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60ad-2e56-1bea-72d7" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="ae11-be5d-c514-9778" name="Army AV-52 &quot;Harbringer&quot; Bomber HAVOC Support" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="41dd-5dc6-25fb-0fec" typeName="HAVOC (High Altitude Void Operable Craft)">
+              <characteristics>
+                <characteristic name="Key Traits" typeId="4633-6459-4bd3-e726">Fly</characteristic>
+                <characteristic name="CMBT" typeId="eb85-3ac6-58e1-f7a9">2</characteristic>
+                <characteristic name="DEF" typeId="433c-b0b2-1479-82a1">1</characteristic>
+                <characteristic name="ATHL" typeId="eb57-555c-3be1-767d">4</characteristic>
+                <characteristic name="INT" typeId="c57d-6641-9fa9-54eb">3</characteristic>
+                <characteristic name="LD" typeId="50a1-cbc1-0863-bab7">2</characteristic>
+                <characteristic name="ARMOR" typeId="8114-e1e1-84cf-8538">12/12/12</characteristic>
+                <characteristic name="END" typeId="dd36-bcb2-7fcd-8e42">6</characteristic>
+                <characteristic name="NERVE" typeId="d831-570a-d7a0-0a7f">3</characteristic>
+                <characteristic name="MOVE" typeId="9bbe-c282-7305-bd5b">11</characteristic>
+                <characteristic name="SIZE" typeId="2dfb-1c0b-95d8-1e29">11-MA</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d05d-1da0-7141-4ce3" name="Fly" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="05c5-d7d9-c3e9-8ba5" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="c5e2-8f68-288e-195f" name="HAVOC Upgrades" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="acee-a966-194d-e3af" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b70-43b5-b461-dd26" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b58-39ab-029f-9f38" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="c796-55b0-41c0-99db" name="HAVOC Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="889c-7917-52f4-6490" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fe3-7966-eb8a-51de" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="1cfa-0378-9d2e-a372" name="HAVOC Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="889c-7917-52f4-6490" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28a2-5859-502e-9145" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="8.0"/>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="20.0"/>
           </costs>
         </selectionEntry>
