@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="7" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="8" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="a603-48d7-f61c-36e6" name="Special Operations Task Force (Casual Play)" publicationId="ecbd-4756-1610-637c" hidden="false">
       <categoryLinks>
@@ -2504,6 +2504,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
         <selectionEntry id="09e7-897c-b868-5f65" name="Hussars Senior Leader" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="model">
           <infoLinks>
             <infoLink id="fc3d-6f05-9276-148e" name="Voice of Command" publicationId="ecbd-4756-1610-637c" hidden="false" targetId="5581-8d83-3043-4a25" type="rule"/>
+            <infoLink id="6e4a-7f5a-7c65-68c9" name="Senior Hussars Leader" hidden="false" targetId="cc2a-e844-fc84-8449" type="profile"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="3b3b-f0b9-3a7d-1f87" name="Hand to Hand Combat" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="2772-828a-0b7c-24f8" type="selectionEntry"/>
@@ -2880,6 +2881,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
         <selectionEntry id="837d-4ef0-7ec5-f41e" name="Royal Guard Leader" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="model">
           <infoLinks>
             <infoLink id="56c1-c85d-6849-7768" name="Voice of Command" publicationId="ecbd-4756-1610-637c" hidden="false" targetId="5581-8d83-3043-4a25" type="rule"/>
+            <infoLink id="a0e9-f73c-6b3b-2a82" name="Royal Guard Leader" hidden="false" targetId="5df6-9c3b-d168-8964" type="profile"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="bc8a-9714-b3c3-f724" name="Hand to Hand Combat" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="2772-828a-0b7c-24f8" type="selectionEntry"/>
@@ -2902,6 +2904,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
         <selectionEntry id="2dfa-597c-5148-4248" name="Senior Royal Guard Leader" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="model">
           <infoLinks>
             <infoLink id="2774-095a-7273-d807" name="Voice of Command" publicationId="ecbd-4756-1610-637c" hidden="false" targetId="5581-8d83-3043-4a25" type="rule"/>
+            <infoLink id="94bc-5885-0298-84ea" name="Senior Royal Guard Leader" hidden="false" targetId="a916-1241-cc05-333c" type="profile"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="9949-c2fc-9844-460f" name="Hand to Hand Combat" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="2772-828a-0b7c-24f8" type="selectionEntry"/>
@@ -3283,31 +3286,31 @@ Every model in the unit that uses this Tactical Asset will automatically take an
     <profile id="e409-f18b-e9e6-1953" name="Hussars Leader " publicationId="ecbd-4756-1610-637c" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
-        <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
-        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
-        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
-        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
-        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
-        <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
-        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
-        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
-        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
       </characteristics>
     </profile>
     <profile id="cc2a-e844-fc84-8449" name="Senior Hussars Leader" publicationId="ecbd-4756-1610-637c" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
-        <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
-        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
-        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
-        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
-        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
-        <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
-        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
-        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
-        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">3</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">3</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">3</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
       </characteristics>
     </profile>
     <profile id="c26f-31a2-af90-8c85" name="Queen’s Royal Engineers " publicationId="ecbd-4756-1610-637c" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
@@ -3485,6 +3488,36 @@ Every model in the unit that uses this Tactical Asset will automatically take an
         <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
         <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
         <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5df6-9c3b-d168-8964" name="Royal Guard Leader" publicationId="ecbd-4756-1610-637c" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a916-1241-cc05-333c" name="Senior Royal Guard Leader" publicationId="ecbd-4756-1610-637c" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">3</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">3</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">3</characteristic>
         <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
         <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
         <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>

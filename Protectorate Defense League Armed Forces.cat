@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="20" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="22" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="4f5f-9cb5-c624-6d11" name="Central Guard Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -1071,7 +1071,7 @@ The Pak Mule can never benefit from its own ballistic shields
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ff3-d6b8-9b1e-40c4" type="max"/>
               </constraints>
               <rules>
-                <rule id="2a64-bc73-201d-dd9f" name="•Skilled Marksmen" hidden="false"/>
+                <rule id="2a64-bc73-201d-dd9f" name="•Skilled Marksmen" publicationId="6f11-4351-f3f0-26cb" hidden="false"/>
               </rules>
               <costs>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
