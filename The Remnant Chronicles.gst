@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="19" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="21" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c8da-24a8-bcaa-8190" name="The Remnant Chronicles Rulebook"/>
     <publication id="8c20-1e89-cba7-0494" name="Forces of the Federal Coalition "/>
@@ -4580,8 +4580,8 @@ The Models must be in base-to-base contact in order to perform the check.
     <selectionEntry id="878c-d1c1-b3d0-d700" name="Spare Ammo" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="9ad5-c8c2-f670-599c" name="Spare Ammo" hidden="false">
-          <description>Friendly models that are in base to base contact with the CAL may spend an action to unmark their ammo boxes for any of their weapons that are listed below.
-Mark off an ammo box on this CAL for each type of ammo taken
+          <description>Friendly models that are in base to base contact with the this model may spend an action to unmark their ammo boxes for any of their weapons that are listed below.
+Mark off an ammo box on this model for each type of ammo taken
 A friendly model may only take a number of ammo boxes equal to what they originally had for weapons that they were carrying
 
 Assault Rifle Ammo OOOOO
@@ -4597,8 +4597,8 @@ Frag, HE, or Incendiary Grenades   OOO</description>
     <selectionEntry id="903e-4671-5939-e5b6" name="Spare Supplies" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="da00-f5a2-df25-b371" name="Spare Supplies" hidden="false">
-          <description>Friendly models that are in base to base contact with the CAL  may spend an action to unmark their Use boxes for any of their equipment that is listed below.
-Mark off a Use box on this CAL for each type of equipment taken
+          <description>Friendly models that are in base to base contact with this model  may spend an action to unmark their Use boxes for any of their equipment that is listed below.
+Mark off a Use box on this model for each type of equipment taken
 A friendly model may only take a number of use boxes equal to what they originally had for equipment that they were carrying
 
 Suit Patch  OO
@@ -4998,7 +4998,9 @@ Medkit        OO
     </selectionEntry>
     <selectionEntry id="dbda-0524-2570-9948" name="Flare / Chaff Launcher" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
-        <rule id="d81c-2a9a-642b-fe76" name="Infrared Targeting Display" hidden="false"/>
+        <rule id="d81c-2a9a-642b-fe76" name="Flare / Chaff Launcher" hidden="false">
+          <description>When a HAVOC model equipped with this card is targeted by a direct ranged attack, you may activate the Chaff/Flare Launchers. Roll a D10. If the result is 6 or higher, the attack is negated, and the unit suffers no damage. This card can only be used once per turn.</description>
+        </rule>
       </rules>
       <costs>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-5.0"/>
@@ -5007,7 +5009,10 @@ Medkit        OO
     </selectionEntry>
     <selectionEntry id="2bb1-9603-66c1-d8e3" name="Nose Art" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
-        <rule id="42f1-dfec-260c-61ca" name="Nose Art" publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
+        <rule id="42f1-dfec-260c-61ca" name="Nose Art" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+          <description>One friendly Light Core unit within Command Range of this HAVOC may ignore being pinned for the duration of this round. 
+</description>
+        </rule>
       </rules>
       <costs>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-1.0"/>
@@ -5016,7 +5021,10 @@ Medkit        OO
     </selectionEntry>
     <selectionEntry id="1032-3fd2-8663-c095" name="Targetting Flares" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
-        <rule id="1dd1-ee88-76ff-eaf8" name="Targetting Flares" hidden="false"/>
+        <rule id="1dd1-ee88-76ff-eaf8" name="Targetting Flares" hidden="false">
+          <description>The HAVOC equipped with Targeting Flares may deploy flares to illuminate a designated area within its Command Range. This reveals any enemy units that are under concealment or stealth in the illuminated area, making them targetable for the duration of the round.
+</description>
+        </rule>
       </rules>
       <costs>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-5.0"/>
@@ -5025,7 +5033,9 @@ Medkit        OO
     </selectionEntry>
     <selectionEntry id="35df-d334-e3e3-1c54" name="Infrared Targeting Display" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
-        <rule id="4a6a-bba7-eb8b-2acc" name="Infrared Targeting Display" hidden="false"/>
+        <rule id="4a6a-bba7-eb8b-2acc" name="Infrared Targeting Display" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+          <description>When a HAVOC targets a unit under the night fighting condition or in full concealment, it can ignore those conditions for the purpose of its attack.</description>
+        </rule>
       </rules>
       <costs>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-5.0"/>
@@ -5892,7 +5902,7 @@ The  Model must be in base-to-base contact with the casualty to perform the chec
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="6fa9-c71a-f533-6ed0" name="RIG Carried Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="true" import="true">
+    <selectionEntryGroup id="6fa9-c71a-f533-6ed0" name="RIG Carried Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="true" import="true" defaultSelectionEntryId="d04f-38dc-4f92-85c2">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29ee-1dff-892c-0fa0" type="max"/>
       </constraints>
@@ -6762,6 +6772,25 @@ If an action cost for an objective exceeds double its starting value, the object
           </costs>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3dcb-dd1a-015d-deed" name="RIG Carried Specialist Weapons" hidden="false" collective="true" import="true" defaultSelectionEntryId="948e-f0e8-8b14-c4c5">
+      <entryLinks>
+        <entryLink id="5b31-9ff7-ea0f-7ef1" name="Beam Cannon" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="638c-214b-2837-c4ce" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d9e-e0ca-45e4-6f53" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3143-5098-b2a5-7378" name="Beam Rifle" hidden="false" collective="false" import="true" targetId="25a3-214b-e5d2-da50" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43ba-8843-1e7e-d9f9" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="948e-f0e8-8b14-c4c5" name="Beam Sniper" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="7049-7d08-7f1c-5513" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa64-a0f4-4993-ad85" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="19" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="20" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="674c-569a-ca53-7190" name="Marine Boarding Assault Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -851,7 +851,7 @@
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8188-b077-cca1-30f9" name="R782 &quot;Gemini&quot; RIG Team" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8188-b077-cca1-30f9" name="R782A2 &quot;Gemini&quot; RIG Team" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -880,7 +880,7 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="a6d3-95b6-65b5-ba9b" name="R782 &quot;Gemini&quot; RIG Team" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="752c-3a73-d54e-d187" typeName="RIG (Reinforced Integrated General Suit)">
+        <profile id="a6d3-95b6-65b5-ba9b" name="R782A2 &quot;Gemini&quot; RIG Team" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="752c-3a73-d54e-d187" typeName="RIG (Reinforced Integrated General Suit)">
           <characteristics>
             <characteristic name="Key Traits" typeId="ceff-52f7-ad02-94b5">Arms, Legs, Armored, Walker		</characteristic>
             <characteristic name="CMBT" typeId="06b1-607f-a7ec-e56f">2</characteristic>
@@ -900,9 +900,9 @@
         <categoryLink id="7397-5e68-38c4-c549" name="Light Support" hidden="false" targetId="45b0-9ee5-e76b-4914" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="129c-3cb6-1a09-fcfc" name="R782 &quot;Gemini&quot; RIG " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="129c-3cb6-1a09-fcfc" name="R782A2 &quot;Gemini&quot; RIG " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="unit">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94d2-0df8-a096-2995" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94d2-0df8-a096-2995" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b225-3413-c48a-b429" type="min"/>
           </constraints>
           <infoLinks>
@@ -919,6 +919,33 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="618c-48b9-bb60-9ada" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b52d-2992-c919-3601" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4920-410c-cd63-fa80" name="R782A2 &quot;Gemini&quot; RIG Specialist" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f76-76de-a515-0070" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9923-0844-8fa6-7e0d" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="734d-b6b7-67f1-c6ff" name="Armored" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5cdd-1b21-9cee-76de" type="rule"/>
+            <infoLink id="e23b-77ad-6520-5e11" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+            <infoLink id="04d1-8958-8778-0ad0" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+            <infoLink id="af69-dfdd-6fbd-3f6c" name="Walker" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="48d5-dd87-3500-38a0" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="3967-a600-1183-eae9" name="RIG Upgrades" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="38d2-6d0d-1fc8-c3ca" type="selectionEntryGroup"/>
+            <entryLink id="2555-38c3-4408-d980" name="RIG Carried Specialist Weapons" hidden="false" collective="false" import="true" targetId="3dcb-dd1a-015d-deed" type="selectionEntryGroup"/>
+            <entryLink id="c50a-94c6-0724-cea4" name="RIG Shoulder Mounts" hidden="false" collective="false" import="true" targetId="32a8-f039-24ae-22bc" type="selectionEntryGroup"/>
+            <entryLink id="8e2f-9594-28c1-7af1" name="2x Metal Fist" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="a8c9-9fe4-8348-c039" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fbe-d571-bd27-9146" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7378-0f33-dfee-5af4" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -1007,7 +1034,7 @@
           <profiles>
             <profile id="43b8-2a99-e2d6-7acc" name="Type 17 &quot;Shrike&quot; IFV " publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
               <characteristics>
-                <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d">Tracks, Transport: 10, Armored, Armored, Turret, Stablized</characteristic>
+                <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d">Tracks, Transport: 10, Armored, Turret, Stablized</characteristic>
                 <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6">2</characteristic>
                 <characteristic name="DEF" typeId="26f5-47a1-8310-51da">2</characteristic>
                 <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4">2</characteristic>
@@ -3406,7 +3433,7 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
       <selectionEntries>
         <selectionEntry id="a46b-28c7-afa4-c541" name="M81A1 Mercury II " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfe8-ccb2-bbb5-5d98" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfe8-ccb2-bbb5-5d98" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10db-8124-5efc-548d" type="min"/>
           </constraints>
           <infoLinks>
@@ -3431,6 +3458,33 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="20.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="426a-7d27-ca88-ae06" name="M81A1 Mercury II Specialist" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="410a-7da6-26c3-0b60" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1d8-1138-3bb9-513f" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3c77-61bb-752a-077d" name="Armored" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5cdd-1b21-9cee-76de" type="rule"/>
+            <infoLink id="57a7-5cba-6339-8651" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+            <infoLink id="3178-f263-ac37-0961" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+            <infoLink id="89c0-790f-fb63-bd2e" name="Walker" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="48d5-dd87-3500-38a0" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="214e-ff6c-ba70-92d5" name="RIG Carried Specialist Weapons" hidden="false" collective="false" import="true" targetId="3dcb-dd1a-015d-deed" type="selectionEntryGroup"/>
+            <entryLink id="a252-f88a-4580-17fe" name="RIG Shoulder Mounts" hidden="false" collective="false" import="true" targetId="32a8-f039-24ae-22bc" type="selectionEntryGroup"/>
+            <entryLink id="c27d-5ec4-6438-4a30" name="RIG Upgrades" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="38d2-6d0d-1fc8-c3ca" type="selectionEntryGroup"/>
+            <entryLink id="8d33-3fd6-d983-c2ee" name="2x Metal Fist" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="a8c9-9fe4-8348-c039" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2049-a4dd-640d-2657" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b09e-2f6e-4e79-3d8f" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="20.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -3444,7 +3498,7 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
       <selectionEntries>
         <selectionEntry id="8b91-e20b-ee65-a3e7" name="M72A9 &quot;Apollo&quot; Light RIG" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d075-004d-9f73-2f94" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d075-004d-9f73-2f94" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2be-a054-f366-dab5" type="min"/>
           </constraints>
           <profiles>
@@ -3512,7 +3566,7 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
           <profiles>
             <profile id="b077-55ca-4f0c-6da4" name="M191 MLRS" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
               <characteristics>
-                <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d">Tracked , Armored,, Turret, Stablized</characteristic>
+                <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d">Tracked , Armored, Turret, Stablized</characteristic>
                 <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6">2</characteristic>
                 <characteristic name="DEF" typeId="26f5-47a1-8310-51da">2</characteristic>
                 <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4">2</characteristic>
@@ -3861,8 +3915,8 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
-            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="7.0"/>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="17.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="83a6-fb77-0657-e5b6" name="Guardsmen Milita Howitzer Team" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -4119,8 +4173,8 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
-            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="5.0"/>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b3aa-2541-5200-6bb4" name="Guardsmen Milita Mortar Team" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -4377,8 +4431,8 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="3.0"/>
-            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="13.0"/>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7718,8 +7772,8 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
-            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="7.0"/>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="17.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9f83-a5f2-101f-1e8c" name="Army Howitzer Team" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -7976,8 +8030,8 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
-            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="5.0"/>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1472-833a-d644-a3ff" name="Army Mortar Team" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -8234,8 +8288,8 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="3.0"/>
-            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="13.0"/>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10464,7 +10518,7 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
     </profile>
     <profile id="fb8b-25b9-0c49-7d19" name="Type 16 &quot;Titan&quot; Armored Personal Carrier" publicationId="8c20-1e89-cba7-0494" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
       <characteristics>
-        <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d"/>
+        <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d">Tracks, Transport: 10, Armored, Stablized</characteristic>
         <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6"/>
         <characteristic name="DEF" typeId="26f5-47a1-8310-51da"/>
         <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4"/>
@@ -10479,7 +10533,7 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
     </profile>
     <profile id="df7c-05aa-b6cd-b2dc" name="•Master Sargeant Powell" publicationId="8c20-1e89-cba7-0494" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
-        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8"/>
+        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
         <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
         <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
         <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>

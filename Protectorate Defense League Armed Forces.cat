@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="22" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="23" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="4f5f-9cb5-c624-6d11" name="Central Guard Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -717,7 +717,7 @@ The Pak Mule can never benefit from its own ballistic shields
         <selectionEntry id="0ff2-0ba9-00a4-1a69" name="DP-9 &quot;Phantom&quot; RIG" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fd5-92ba-6366-a65a" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="507f-688d-66e9-c674" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="507f-688d-66e9-c674" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="e6bb-e25d-fc95-efd4" name="Armored" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5cdd-1b21-9cee-76de" type="rule"/>
@@ -1071,7 +1071,9 @@ The Pak Mule can never benefit from its own ballistic shields
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ff3-d6b8-9b1e-40c4" type="max"/>
               </constraints>
               <rules>
-                <rule id="2a64-bc73-201d-dd9f" name="•Skilled Marksmen" publicationId="6f11-4351-f3f0-26cb" hidden="false"/>
+                <rule id="2a64-bc73-201d-dd9f" name="•Skilled Marksmen" publicationId="6f11-4351-f3f0-26cb" hidden="false">
+                  <description>Choose an enemy unit currently concealed. During this round only, you can target the selected unit with a LIGHT CORE unit as if it were not concealed. </description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -1090,7 +1092,9 @@ The Pak Mule can never benefit from its own ballistic shields
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3606-6657-e05d-8da4" type="max"/>
               </constraints>
               <rules>
-                <rule id="ba0d-ce6a-cef6-1d31" name="•Expert Trackers" hidden="false"/>
+                <rule id="ba0d-ce6a-cef6-1d31" name="•Expert Trackers" hidden="false">
+                  <description>At the start of the game, activate this card. Choose a LIGHT or Heavy CORE unit to benefit from the Advanced Deployment rule during deployment. Once used, discard this card.</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -1193,7 +1197,9 @@ The Pak Mule can never benefit from its own ballistic shields
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0b0-0ca7-af61-f26c" type="max"/>
               </constraints>
               <rules>
-                <rule id="9556-8d12-eb5f-187f" name="•We Lead the Way!" hidden="false"/>
+                <rule id="9556-8d12-eb5f-187f" name="•We Lead the Way!" publicationId="6f11-4351-f3f0-26cb" hidden="false">
+                  <description>Play this card to activate a LIGHT or HEAVY CORE unit. That unit gains +3 to its Movement speed for the duration of the round.</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
@@ -1212,7 +1218,9 @@ The Pak Mule can never benefit from its own ballistic shields
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8914-eddf-c609-6ad9" type="max"/>
               </constraints>
               <rules>
-                <rule id="af2d-643d-8a36-496b" name="•Luck and Talent" publicationId="6f11-4351-f3f0-26cb" hidden="false"/>
+                <rule id="af2d-643d-8a36-496b" name="•Luck and Talent" publicationId="6f11-4351-f3f0-26cb" hidden="false">
+                  <description>Use this card to reroll a single failed dice roll for any action performed by a friendly model during this round.</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
@@ -1327,7 +1335,7 @@ The Pak Mule can never benefit from its own ballistic shields
               </constraints>
               <rules>
                 <rule id="3c8c-5706-11a6-c26a" name="••Stealth Tactics" publicationId="c8da-24a8-bcaa-8190" hidden="false">
-                  <description>If a LIGHT CORE unit is stealthed, you may add one dice to the dice pool when rolling for a Stealth Check.</description>
+                  <description>Select a LIGHT CORE unit under the Stealth Condition. Until the end of the round, they gain a +2 bonus to their ATHL rolls and can move through difficult terrain without penalty.</description>
                 </rule>
               </rules>
               <costs>
@@ -1348,7 +1356,7 @@ The Pak Mule can never benefit from its own ballistic shields
               </constraints>
               <rules>
                 <rule id="db2c-d872-5705-945b" name="••Forward Recon" publicationId="c8da-24a8-bcaa-8190" hidden="false">
-                  <description>A LIGHT CORE unit may immediately make an extra move action even if they do not have the action to do so.</description>
+                  <description>Activate a LIGHT CORE unit. Until the end of the round, they gain the Infiltrate Trait and can perform the Observer Action for free instead of spending a action.</description>
                 </rule>
               </rules>
               <costs>
@@ -1431,7 +1439,9 @@ The Pak Mule can never benefit from its own ballistic shields
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ac5-1d22-9456-06d6" type="max"/>
               </constraints>
               <rules>
-                <rule id="1543-6026-3a66-4ba6" name="••Skilled Commander" hidden="false"/>
+                <rule id="1543-6026-3a66-4ba6" name="••Skilled Commander" publicationId="6f11-4351-f3f0-26cb" hidden="false">
+                  <description>Use this card to give a LIGHT or HEAVY CORE unit an extra activation this round. The unit must use this activation immediately. During this activation, the unit can take all its actions as if it had not been activated yet in the round, unless it is affected by any conditions.</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -1450,7 +1460,9 @@ The Pak Mule can never benefit from its own ballistic shields
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5d0-c9c0-89f5-a35e" type="max"/>
               </constraints>
               <rules>
-                <rule id="edd8-1bd1-f3d1-9f61" name="••Improvised Orders " publicationId="6f11-4351-f3f0-26cb" hidden="false"/>
+                <rule id="edd8-1bd1-f3d1-9f61" name="••Improvised Orders " publicationId="6f11-4351-f3f0-26cb" hidden="false">
+                  <description>Activate this card to allow a friendly HEAVY SUPPORT Unit to perform an additional action during its activation this round.</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -1543,7 +1555,31 @@ The Pak Mule can never benefit from its own ballistic shields
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25a9-ac45-b1fd-b763" type="max"/>
               </constraints>
               <rules>
-                <rule id="8824-a024-6466-4a33" name="••• EMP Warfare" hidden="false"/>
+                <rule id="8824-a024-6466-4a33" name="••• EMP Warfare" publicationId="6f11-4351-f3f0-26cb" hidden="false">
+                  <description>Select a enemy unit with the VEHICLE or RiG Keywords. That unit (unless it is hardened) must activate last this round with only 1 Action allowed.  Additionally, any gear or upgrades carried by the unit with the Electronic Keyword are disabled for this round only. </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4e4b-557b-808e-6b43" name="•••Booby Trapped Objectives" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d7b9-ffa4-5975-0e4b" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fe6-9ec1-a6dd-4078" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="c715-56c4-76af-d31e" name="•••Booby Trapped Objectives" publicationId="6f11-4351-f3f0-26cb" hidden="false">
+                  <description>Choose up to three objectives on the battlefield. These objectives are now considered booby-trapped. When an enemy unit attempts to interact with them, roll a D10 . On a roll of 5 or lower, each enemy model in range triggers the trap, suffering DMG:13, Blast:2,  Frag, Single Use 
+</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
@@ -1857,7 +1893,7 @@ The Pak Mule can never benefit from its own ballistic shields
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
-            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="20.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="17.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3566-7460-a484-4707" name="Protectorate Howitzer Team" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -1912,7 +1948,7 @@ The Pak Mule can never benefit from its own ballistic shields
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
-            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="20.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="36e5-f135-e0f6-e670" name="Protectorate Mortar Team" hidden="false" collective="false" import="true" type="upgrade">
@@ -1949,8 +1985,8 @@ The Pak Mule can never benefit from its own ballistic shields
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="13.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ddd6-616b-7528-4672" name="Frontiersman Flamethrower Team" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -2045,7 +2081,7 @@ The Pak Mule can never benefit from its own ballistic shields
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
-            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="12.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="13.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="8" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="9" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="a603-48d7-f61c-36e6" name="Special Operations Task Force (Casual Play)" publicationId="ecbd-4756-1610-637c" hidden="false">
       <categoryLinks>
@@ -122,11 +122,11 @@
       <selectionEntries>
         <selectionEntry id="4f96-2c36-2f80-be84" name="Mjolnir Main Battle RIG" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0e0-8375-e380-69fe" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0e0-8375-e380-69fe" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="419c-06a6-80cb-ecc8" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="fe48-0ff9-30c6-637d" name="Mjolnir Main Battle RIG" hidden="false" targetId="df2b-a53f-7c5b-703b" type="profile"/>
+            <infoLink id="fe48-0ff9-30c6-637d" name="ERA-7 &quot;Mjolnir&quot; Main Battle RIG" hidden="false" targetId="df2b-a53f-7c5b-703b" type="profile"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="2458-c6b0-8fad-064d" name="2x Metal Fist" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="a8c9-9fe4-8348-c039" type="selectionEntry"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="19" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="21" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="3e5c-c3d7-7fa7-d7d6" name="Han&apos;s Crusaders (Casual Play)" publicationId="782f-493f-cc20-a098" hidden="false">
       <categoryLinks>
@@ -549,12 +549,12 @@
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7bff-a191-451f-ed6a" name="Independent&apos;s Combat Technical Truck" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7bff-a191-451f-ed6a" name="Independent&apos;s Tactical Light Vehicle" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="4381-f4c6-846f-b9e5" name="Heavy Core" hidden="false" targetId="aaf1-86b5-3e39-53a0" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c47a-cac0-7974-4d69" name="Independent&apos;s Technical Truck" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c47a-cac0-7974-4d69" name="Independent&apos;s Tactical Light Vehicle" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b07-4a0f-b905-e060" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f18-137b-7fd1-8786" type="min"/>
@@ -1642,8 +1642,8 @@ Ammo: OOO</characteristic>
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="17.0"/>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="91a9-3478-cd29-2d19" name="Planetary Howitzer Team" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
@@ -1735,8 +1735,8 @@ Ammo: OOO</characteristic>
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="aaa1-171f-13a9-d4b9" name="Planetary Mortar Team" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
@@ -1825,14 +1825,14 @@ Ammo: OOO</characteristic>
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="13.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7074-83cc-ce25-0d82" name="Planetary Seditionist Squad" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
@@ -2201,7 +2201,9 @@ Ammo: OOO</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f7c-34a8-e8e5-ab3d" type="max"/>
               </constraints>
               <rules>
-                <rule id="9565-2986-4514-d548" name="•Insurgents Uprising " hidden="false"/>
+                <rule id="9565-2986-4514-d548" name="•Insurgents Uprising " hidden="false">
+                  <description>Play this card to activate a Erland Seditionist Squad. For this round only, the activated unit gains +1 to its CMBT rolls against enemy units within 12 inches. Additionally, if the activated unit successfully eliminates an enemy unit during this round, gain 1 Victory Point.</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
@@ -2220,7 +2222,9 @@ Ammo: OOO</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07dd-c86e-bfcd-bb18" type="max"/>
               </constraints>
               <rules>
-                <rule id="dc02-2b3b-5980-0c15" name="•Eternal Dissent  (Erland seditionist) " hidden="false"/>
+                <rule id="dc02-2b3b-5980-0c15" name="•Eternal Dissent  (Erland seditionist) " publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>Play this card at the beginning of the round. For this round only, all LIGHT CORE units gain +1 to their NERVE checks. Additionally, if any friendly unit is destroyed this round, you may immediately activate another friendly unit within 6 inches as if it were your turn, ignoring the normal activation order.</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
@@ -2420,7 +2424,9 @@ Ammo: OOO</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5f8-30f9-157e-eaa8" type="max"/>
               </constraints>
               <rules>
-                <rule id="14b1-1bf1-4863-0b1a" name="•• Seditionist Turmoil (Erland seditionist) " hidden="false"/>
+                <rule id="14b1-1bf1-4863-0b1a" name="•• Seditionist Turmoil (Erland seditionist) " publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>Play this card when a friendly LIGHT CORE unit is targeted by an enemy unit&apos;s CMBT attack. The attacking enemy unit must immediately make a Nerve Check with -2 to their roll. If they fail the test, they suffer a disadvantage to their CMBT attribute for the remainder of the turn. If they pass, the your LIGHT CORE unit gains +1 DEF for the duration of the round.</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -3260,7 +3266,7 @@ Ammo: OOO</characteristic>
         <characteristic name="SIZE" typeId="e61f-5448-0a3e-69e1">9-H</characteristic>
       </characteristics>
     </profile>
-    <profile id="b734-4ac1-9f3a-6e97" name="Independent&apos;s Combat Technical Truck" publicationId="782f-493f-cc20-a098" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
+    <profile id="b734-4ac1-9f3a-6e97" name="Independent&apos;s Tactical Light Vehicle" publicationId="782f-493f-cc20-a098" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
       <characteristics>
         <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d">Mechanum Wheels, Transport:5</characteristic>
         <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6">2</characteristic>
