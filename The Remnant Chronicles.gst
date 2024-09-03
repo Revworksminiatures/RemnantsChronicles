@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="21" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="23" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c8da-24a8-bcaa-8190" name="The Remnant Chronicles Rulebook"/>
     <publication id="8c20-1e89-cba7-0494" name="Forces of the Federal Coalition "/>
@@ -3460,6 +3460,9 @@ Once a Token has been rolled for and the result applied, remove it from the game
     <rule id="41db-d4fa-3bf5-9e26" name="Voice of Command" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <description>Use the unit cohesion range instead of LD+SZ when determining area of effect for command Cards</description>
     </rule>
+    <rule id="479c-17c0-c10a-f743" name="Flexiable Command" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+      <description>A model with this special rule can spend an action during its activation to join or leave a LIGHT CORE unit. While part of the unit, it grants its special rules or abilities to the entire unit.</description>
+    </rule>
   </rules>
   <sharedSelectionEntries>
     <selectionEntry id="3ba8-bd94-f0f3-325e" name="Task Force Leader" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -5216,6 +5219,21 @@ The  Model must be in base-to-base contact with the casualty to perform the chec
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="8ee6-4231-5c7c-2634" name="Combat Radio Network" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2430-1c49-e77e-0808" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="5476-74cc-1fcd-e908" name="Combat Radio Network" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+          <description>Units equipped with a Combat Network Radio benefit from an enhanced area of effect for Command Cards. The Voice of Command ability extends up to 15 inches instead of the standard 5 inch range. 
+</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="bfd2-6b47-8ff3-dd43" name="Tank Upgrades" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="true" import="true">
@@ -5520,6 +5538,9 @@ The  Model must be in base-to-base contact with the casualty to perform the chec
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="ae11-0d8a-6d2e-45f7" name="Combat Radio Network" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8ee6-4231-5c7c-2634" type="selectionEntry"/>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="ca0a-20b8-683b-684f" name="Tank Turret Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="true" import="true" defaultSelectionEntryId="ab74-3fda-5de5-7e42">
       <entryLinks>
@@ -5836,6 +5857,9 @@ The  Model must be in base-to-base contact with the casualty to perform the chec
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="158a-1317-a2ce-d8be" name="Combat Radio Network" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8ee6-4231-5c7c-2634" type="selectionEntry"/>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="7ba1-b606-da62-bb6e" name="Advanced Fire Support Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="true" import="true" defaultSelectionEntryId="c228-a8d1-b8ce-6ed7">
       <constraints>
@@ -6792,6 +6816,39 @@ If an action cost for an objective exceeds double its starting value, the object
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup id="0e61-a28e-1114-2d52" name="Light Tank Turret Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="true" import="true">
+      <entryLinks>
+        <entryLink id="37a9-82fd-f2b3-199b" name="Beam Cannon" hidden="false" collective="false" import="true" targetId="638c-214b-2837-c4ce" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb49-75b1-be82-f872" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="dc7a-74a6-d810-c73f" name="Light Tank Gun" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="78a8-d454-8a31-4812" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd92-19ad-8cf8-2311" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0a28-26f9-540f-3d63" name="Heavy Autocannon" hidden="false" collective="false" import="true" targetId="9369-b4a1-746e-7947" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd1c-aa7e-332b-ffca" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a5e8-0b5b-3dea-06b6" name="Medium Autocannon" hidden="false" collective="false" import="true" targetId="df39-c5a3-5fc1-eeb5" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28f3-b3b3-3841-b03e" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="44d0-181c-4e1d-2e8c" name="Squad Communications" hidden="false" collective="true" import="true">
+      <entryLinks>
+        <entryLink id="35ba-9a15-e109-4d1b" name="Combat Radio Network" hidden="false" collective="false" import="true" targetId="8ee6-4231-5c7c-2634" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="078c-998a-43ce-57c2" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="48d5-dd87-3500-38a0" name="Walker" hidden="false">
@@ -6801,7 +6858,8 @@ If an action cost for an objective exceeds double its starting value, the object
       <description>This weapon has the chance of Exploding. If the Model wielding this weapon is attacked in the Rear Arc, Roll a D10. On 6+ nothing happens. 2-5, The weapon cannot be used the rest of the Game. On a 1 The weapon detonates. Your Friends Will Miss You Dearly. The Model and anything that is in a Radius equal to the Weapon’s ROF in inches must defend against an Attack Roll using the Model’s Combat Skill. The model is considered to be in the Open for the purposes of this Attack</description>
     </rule>
     <rule id="5581-8d83-3043-4a25" name="Voice of Command" hidden="false">
-      <description>Use the unit cohesion range instead of LD+SZ when determining area of effect for command Cards</description>
+      <description>Certain models possess enhanced command abilities. The Voice of Command ability allows the area of effect for certain Command Cards to be determined using the same 5-inch range as the unit cohesion. 
+</description>
     </rule>
     <rule id="cc82-cc85-07be-750b" name="Veteran Crew" hidden="false">
       <description>Grants this Vehicle the Voice of Command Ability</description>

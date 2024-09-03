@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="20" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="21" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="674c-569a-ca53-7190" name="Marine Boarding Assault Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -1262,6 +1262,7 @@
                 <entryLink id="40f8-4d56-7812-b4bc" name="Anti-Tank Weapons" hidden="false" collective="false" import="true" targetId="21a2-e213-95c8-b961" type="selectionEntryGroup"/>
                 <entryLink id="f2b6-e77f-e5c0-c26a" name="Explosives" hidden="false" collective="false" import="true" targetId="ae5e-6636-b33c-051b" type="selectionEntryGroup"/>
                 <entryLink id="b95b-311b-9ba3-69f1" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="c7e8-1f2d-1ea3-29ae" type="selectionEntryGroup"/>
+                <entryLink id="2aa1-a14b-6d88-a2cb" name="Squad Communications" hidden="false" collective="false" import="true" targetId="44d0-181c-4e1d-2e8c" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -6423,6 +6424,7 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
             <entryLink id="2aaa-e5b1-44ee-40ef" name="Anti-Tank Weapons" hidden="false" collective="false" import="true" targetId="21a2-e213-95c8-b961" type="selectionEntryGroup"/>
             <entryLink id="1b26-dd5e-c99d-d6af" name="Explosives" hidden="false" collective="false" import="true" targetId="ae5e-6636-b33c-051b" type="selectionEntryGroup"/>
             <entryLink id="a98b-c25d-2682-2659" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="c7e8-1f2d-1ea3-29ae" type="selectionEntryGroup"/>
+            <entryLink id="82fc-4ed6-a83c-5ecd" name="Squad Communications" hidden="false" collective="false" import="true" targetId="44d0-181c-4e1d-2e8c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>

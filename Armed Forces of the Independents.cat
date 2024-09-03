@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="21" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="22" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="3e5c-c3d7-7fa7-d7d6" name="Han&apos;s Crusaders (Casual Play)" publicationId="782f-493f-cc20-a098" hidden="false">
       <categoryLinks>
@@ -560,7 +560,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f18-137b-7fd1-8786" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="1cec-b37c-31c5-47bf" name="Independent&apos;s Combat Technical Truck" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b734-4ac1-9f3a-6e97" type="profile"/>
+            <infoLink id="1cec-b37c-31c5-47bf" name="Independent&apos;s Tactical Light Vehicle" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b734-4ac1-9f3a-6e97" type="profile"/>
             <infoLink id="ac5c-42a2-3446-0ad6" name="Mechanum Wheels" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="4359-da52-3a45-63b3" type="rule"/>
             <infoLink id="c94b-1af8-0c0f-233d" name="Transport: X" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="369e-0c29-6c01-f12b" type="rule"/>
             <infoLink id="0f65-ebd1-9d62-446e" name="Armored" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5cdd-1b21-9cee-76de" type="rule"/>
@@ -808,8 +808,8 @@
       <selectionEntries>
         <selectionEntry id="bc91-fb64-c364-47c4" name="Assassin League Member" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19a8-7790-7270-2cb6" type="max"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb53-162b-d79e-a149" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19a8-7790-7270-2cb6" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb53-162b-d79e-a149" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="54a2-69fd-cc42-c4d5" name="Assassin" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
@@ -831,11 +831,20 @@
                 </entryLink>
                 <entryLink id="75a3-2fe7-1492-978a" name="The Independent&apos;s Primary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
                 <entryLink id="2174-c855-99c0-2ef5" name="The Independent&apos;s Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
-                <entryLink id="3cbe-66b9-43fc-0362" name="Combat Knife" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
+                <entryLink id="aefa-f664-c674-ce2d" name="Sniper Rifle" hidden="false" collective="false" import="true" targetId="c1cb-b5dd-ddad-f1d4" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed51-fc57-8623-c601" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d6c-7ce0-a3f4-4ff2" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="36b1-4a4b-9a63-8510" name="Combat Knife" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="1.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="4.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1049,6 +1058,7 @@
             <infoLink id="7efb-5569-fe82-51bc" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
             <infoLink id="c723-2325-4629-d6be" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
             <infoLink id="2d80-ad8f-adea-3210" name="Walker" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="48d5-dd87-3500-38a0" type="rule"/>
+            <infoLink id="ff01-ebeb-a135-f374" name="Independent&apos;s DP-9 &quot;Phantom&quot; RIG" hidden="false" targetId="6d9e-9147-e151-0aaf" type="profile"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="d510-da8a-8042-f2fb" name="2x Metal Fist" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="a8c9-9fe4-8348-c039" type="selectionEntry"/>
@@ -1130,6 +1140,11 @@
         <modifier type="set" field="hidden" value="false">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3ef7-5a45-7e70-4455" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3ef7-5a45-7e70-4455" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1548,6 +1563,9 @@ Ammo: OOO</characteristic>
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink id="21d8-4491-4a19-4363" name="Planetary Heavy Weapons Team" hidden="false" targetId="8200-cdc5-5259-65ba" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="e50b-ba79-9510-d904" name="Light Support" hidden="false" targetId="45b0-9ee5-e76b-4914" primary="true"/>
       </categoryLinks>
@@ -1557,7 +1575,6 @@ Ammo: OOO</characteristic>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08b6-ef80-fd72-a6ce" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="74d0-373b-9385-f35d" name="Planetary Heavy Machine Gun Team" hidden="false" targetId="66a0-a9c6-d9ec-a538" type="profile"/>
             <infoLink id="be20-64df-3dff-51f9" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
             <infoLink id="be6f-2372-14a1-0bc6" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
             <infoLink id="4904-a979-8757-0c45" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
@@ -1847,6 +1864,7 @@ Ammo: OOO</characteristic>
         <infoLink id="9cb6-079c-9bd7-898b" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
         <infoLink id="24fd-449e-32c8-83f6" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
         <infoLink id="913a-e5f9-e1f2-9fd2" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+        <infoLink id="81dc-c596-81e6-50f8" name="Planetary Seditionist Squad" hidden="false" targetId="f701-b7a1-8e0b-eb8c" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="cffb-22af-bb26-8aa6" name="Light Core" hidden="false" targetId="fa42-d150-a4d6-a3db" primary="true"/>
@@ -1896,6 +1914,9 @@ Ammo: OOO</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="459d-3358-5423-3154" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccb5-fad3-b2f1-e2f3" type="min"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="af77-d16e-1dc4-e40e" name="Well Trained Planetary Seditionist Trooper" hidden="false" targetId="327f-8ef1-e92f-251e" type="profile"/>
+              </infoLinks>
               <entryLinks>
                 <entryLink id="ed46-49da-655d-6b7f" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
                 <entryLink id="57c3-5387-67ba-90f5" name="Personal Loadouts" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
@@ -1939,6 +1960,7 @@ Ammo: OOO</characteristic>
         <infoLink id="9d56-f28e-be8c-5932" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
         <infoLink id="f4e4-5653-a7c4-7430" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
         <infoLink id="9277-e6ad-d2bf-d05d" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+        <infoLink id="7b92-db82-444e-3be2" name="Planetary Milita Squad" hidden="false" targetId="100e-69a6-bf61-7de2" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="dca6-d42d-cd12-16e3" name="Light Core" hidden="false" targetId="fa42-d150-a4d6-a3db" primary="true"/>
@@ -1977,7 +1999,7 @@ Ammo: OOO</characteristic>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ec6d-0abd-a28b-fb84" name="Planetary Seditionist Team Leader" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ec6d-0abd-a28b-fb84" name="Planetary Milita  Team Leader" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9a3-540e-21db-f9db" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9989-d3a6-b00d-df3e" type="min"/>
@@ -1988,6 +2010,9 @@ Ammo: OOO</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22f8-3272-b3da-625a" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="beb2-e89b-9fb9-776e" type="min"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="bd87-97db-7327-f5c0" name="Well Trained Planetary Trooper" hidden="false" targetId="1011-179b-0059-a3e9" type="profile"/>
+              </infoLinks>
               <entryLinks>
                 <entryLink id="f9e0-16b8-80c3-5ba2" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
                 <entryLink id="6bd8-feeb-4a6a-711b" name="Personal Loadouts" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
@@ -2162,6 +2187,13 @@ Ammo: OOO</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="e051-1ab8-502d-40f1" name="•Independent Vigilance (Sponsored Colonies)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4edd-1901-d664-8525" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd6d-0c1c-6879-9b63" type="max"/>
               </constraints>
@@ -2176,6 +2208,13 @@ Ammo: OOO</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="f1ee-2e94-90e8-0b11" name="•Sovereign Bastion (Sponsored Colonies)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4edd-1901-d664-8525" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb51-67de-a21f-841c" type="max"/>
               </constraints>
@@ -2366,6 +2405,13 @@ Ammo: OOO</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="2901-d2d5-82af-3991" name="••Colonial Unity (Sponsored Colonies)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4edd-1901-d664-8525" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1ee-cbd4-4370-c77f" type="max"/>
               </constraints>
@@ -2380,6 +2426,13 @@ Ammo: OOO</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="1de2-e0fa-f428-7ed4" name="••Liberty Guardians (Sponsored Colonies)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4edd-1901-d664-8525" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbe5-f7e5-c2e7-ff36" type="max"/>
               </constraints>
@@ -2668,6 +2721,7 @@ Ammo: OOO</characteristic>
         <infoLink id="ee81-4c7f-f02e-06a5" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
         <infoLink id="bbd7-df15-d7a9-6659" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
         <infoLink id="699f-464c-ac15-1eea" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+        <infoLink id="bc6f-d0d4-0aa4-c009" name="Planetary Milita Squad" hidden="false" targetId="100e-69a6-bf61-7de2" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f222-8e68-a5d5-b79b" name="Light Core" hidden="false" targetId="fa42-d150-a4d6-a3db" primary="true"/>
@@ -2706,7 +2760,7 @@ Ammo: OOO</characteristic>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="cc3b-e97c-e4b7-f6ce" name="Planetary Seditionist Team Leader" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="cc3b-e97c-e4b7-f6ce" name="Planetary Milita  Team Leader" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="913a-fdd8-d5d2-1126" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0917-3e14-0a17-a135" type="min"/>
@@ -2717,6 +2771,9 @@ Ammo: OOO</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6edc-5471-3421-0552" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64fb-a3c4-f4bb-a8b7" type="min"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="7467-6d27-3e27-fbe1" name="Well Trained Planetary Trooper" hidden="false" targetId="1011-179b-0059-a3e9" type="profile"/>
+              </infoLinks>
               <entryLinks>
                 <entryLink id="7fd7-bb9e-6435-0b57" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
                 <entryLink id="de0b-200f-426d-5b39" name="Personal Loadouts" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
@@ -2745,6 +2802,139 @@ Ammo: OOO</characteristic>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="5.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="db7c-3db9-7ced-c566" name="Independent&apos;s Technical Light Vehicle" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3c28-7815-7be8-e3a2" name="Independent&apos;s Technical Light Vehicle" hidden="false" targetId="ccfe-783b-8cd7-df6a" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="24c2-9890-4b70-b71e" name="Light Core" hidden="false" targetId="fa42-d150-a4d6-a3db" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="00e2-b275-11b3-1a19" name="Independent&apos;s Technical Light Vehicle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cc8-201b-a9fa-4531" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6803-d15f-d3a2-61f5" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="0dc6-d48e-0558-26bd" name="Armored" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5cdd-1b21-9cee-76de" type="rule"/>
+            <infoLink id="4c51-747a-3d6d-dd3c" name="Mechanum Wheels" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="4359-da52-3a45-63b3" type="rule"/>
+            <infoLink id="7998-87bf-a063-c594" name="Transport: X" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="369e-0c29-6c01-f12b" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="44a7-3cee-29bd-6f05" name="Anti-Personal Weapons " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="5ea4-d121-3247-864f" type="selectionEntryGroup"/>
+            <entryLink id="3fe8-9a80-d740-d74c" name="Vehicle Upgrades" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="7efe-9b10-3efa-df24" type="selectionEntryGroup"/>
+            <entryLink id="9ca7-0c8f-57b4-0a91" name="Veteran Crew" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="a35e-f097-842e-9664" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="5.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d636-82ea-eb4a-c69e" name="TM-25 Light Assault Tank Squadron" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="eee9-77ae-be7f-eff4" name="Heavy Support" hidden="false" targetId="4749-85c7-9d41-aa3f" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="964e-0dd2-0580-b711" name="TM-25 Light Assault Tank" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7508-7c23-adf1-5e68" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8f3-d3d2-1211-ae1c" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="fd31-37d5-db83-038e" name="Armored" hidden="false" targetId="5cdd-1b21-9cee-76de" type="rule"/>
+            <infoLink id="8779-1448-32dd-3c81" name="Stablized" hidden="false" targetId="1e08-ca30-b162-2802" type="rule"/>
+            <infoLink id="019b-b82f-3255-4912" name="Tracks" hidden="false" targetId="33c8-ea05-c817-6f55" type="rule"/>
+            <infoLink id="0084-2069-ad02-0b9b" name="TM-25 Light Assault Tank" hidden="false" targetId="4604-9c63-45d2-c852" type="profile"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="7aea-5f32-17c8-ed09" name="Anti Air Missiles Upgrade Kit" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f812-514d-ce2f-fec0" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="fb54-fd77-2ee2-73c2" name="Anti-Air Missile Package" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eef3-e738-0141-d256" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="db3b-17a2-681f-a6e2" name="Anti-Air Missile Package" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct</characteristic>
+                        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">15/30/60</characteristic>
+                        <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">-</characteristic>
+                        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">14</characteristic>
+                        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Blast:2 , Piercing: 2 , Single Use</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="5239-aa6f-ee1f-b426" name="Blast" hidden="false" targetId="2c83-dd28-35b9-0f5d" type="rule"/>
+                    <infoLink id="5691-be4b-26b8-0b20" name="Piercing:X " hidden="false" targetId="8015-9cc1-b80a-25a1" type="rule"/>
+                    <infoLink id="832b-2797-641b-162b" name="Single Use" hidden="false" targetId="f740-eeb9-719c-d5c7" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-5.0"/>
+                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="5c07-23b1-ed3b-7240" name="Anti-Personal Weapons " hidden="false" collective="false" import="true" targetId="5ea4-d121-3247-864f" type="selectionEntryGroup"/>
+            <entryLink id="b37b-9fcf-1c5d-1bb8" name="Tank Upgrades" hidden="false" collective="false" import="true" targetId="bfd2-6b47-8ff3-dd43" type="selectionEntryGroup"/>
+            <entryLink id="eb2b-36d8-21fc-8b9f" name="Veteran Crew" hidden="false" collective="false" import="true" targetId="a35e-f097-842e-9664" type="selectionEntryGroup"/>
+            <entryLink id="697b-b553-c460-1bb4" name="Light Tank Turret Weapons" hidden="false" collective="false" import="true" targetId="0e61-a28e-1114-2d52" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="8.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6955-2d92-0143-8732" name="TM-165 Armored Personnel Carrier" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="bae1-5508-951c-e944" name="Heavy Core" hidden="false" targetId="aaf1-86b5-3e39-53a0" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ad7a-61cf-b283-8ef6" name="TM-165 Armored Personnel Carrier" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e46-a1a0-63f6-8f3d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2499-540d-a931-5017" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="1341-e5dc-f794-7bd8" name="Armored" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5cdd-1b21-9cee-76de" type="rule"/>
+            <infoLink id="e2c3-aec8-19bf-9ad9" name="Transport: X" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="369e-0c29-6c01-f12b" type="rule"/>
+            <infoLink id="93b3-21d3-50b8-5b9e" name="Tracks" hidden="false" targetId="33c8-ea05-c817-6f55" type="rule"/>
+            <infoLink id="1ac1-086c-0552-b99b" name="TM-165 Armored Personnel Carrier" hidden="false" targetId="b7cb-064b-0809-481c" type="profile"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="3447-32fd-dc27-cf1b" name="Anti-Personal Weapons " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="5ea4-d121-3247-864f" type="selectionEntryGroup"/>
+            <entryLink id="a515-c34d-81fa-8e86" name="Vehicle Upgrades" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="7efe-9b10-3efa-df24" type="selectionEntryGroup"/>
+            <entryLink id="445c-4b90-4fe3-3a5a" name="Veteran Crew" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="a35e-f097-842e-9664" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="4.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2980,7 +3170,6 @@ Ammo: OOO</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86d3-b640-cf2c-eb28" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="fa3d-fc26-72cb-5a60" name="Combat Knife" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
             <entryLink id="c6bf-4ed8-8df5-e3ee" name="Personal Loadouts" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a2f-15fa-2c74-4bb1" type="max"/>
@@ -2989,6 +3178,7 @@ Ammo: OOO</characteristic>
             </entryLink>
             <entryLink id="979e-266d-97b1-4914" name="The Independent&apos;s Primary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
             <entryLink id="fcc7-fa59-27f4-26ba" name="The Independent&apos;s Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
+            <entryLink id="1e9c-9811-089d-9add" name="Combat Knife" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="5.0"/>
@@ -3000,7 +3190,6 @@ Ammo: OOO</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc1a-972e-98ff-007f" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="c99d-bbc5-f578-d4be" name="Combat Knife" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
             <entryLink id="020d-8884-4f61-e65c" name="Personal Loadouts" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="614b-49fe-f8db-7043" type="max"/>
@@ -3009,6 +3198,7 @@ Ammo: OOO</characteristic>
             </entryLink>
             <entryLink id="6a00-5561-7e44-8c93" name="The Independent&apos;s Primary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
             <entryLink id="42c4-9088-a776-baa6" name="The Independent&apos;s Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
+            <entryLink id="c3a8-ba95-b66e-aa43" name="Combat Knife" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="7.0"/>
@@ -3238,7 +3428,7 @@ Ammo: OOO</characteristic>
     </profile>
     <profile id="3dd6-b204-01b5-b252" name="Independent&apos;s &quot;Mercuary II&quot; RIG" publicationId="782f-493f-cc20-a098" hidden="false" typeId="752c-3a73-d54e-d187" typeName="RIG (Reinforced Integrated General Suit)">
       <characteristics>
-        <characteristic name="Key Traits" typeId="ceff-52f7-ad02-94b5">Arms, Legs, Armored, Walker</characteristic>
+        <characteristic name="Key Traits" typeId="ceff-52f7-ad02-94b5">Arms, Legs, Armored, Walker, RIG</characteristic>
         <characteristic name="CMBT" typeId="06b1-607f-a7ec-e56f">2</characteristic>
         <characteristic name="DEF" typeId="58eb-5efc-7ff9-eda8">1</characteristic>
         <characteristic name="ATHL" typeId="16cc-6490-5a6c-d9a3">2</characteristic>
@@ -3253,7 +3443,7 @@ Ammo: OOO</characteristic>
     </profile>
     <profile id="9a5a-e1bf-88bc-467e" name="Independent&apos;s DP-36  &quot;Specter&quot; Light RIG" publicationId="782f-493f-cc20-a098" hidden="false" typeId="752c-3a73-d54e-d187" typeName="RIG (Reinforced Integrated General Suit)">
       <characteristics>
-        <characteristic name="Key Traits" typeId="ceff-52f7-ad02-94b5">Arms, Legs, Walker, Armored</characteristic>
+        <characteristic name="Key Traits" typeId="ceff-52f7-ad02-94b5">Arms, Legs, Walker, Armored, RIG</characteristic>
         <characteristic name="CMBT" typeId="06b1-607f-a7ec-e56f">2</characteristic>
         <characteristic name="DEF" typeId="58eb-5efc-7ff9-eda8">2</characteristic>
         <characteristic name="ATHL" typeId="16cc-6490-5a6c-d9a3">3</characteristic>
@@ -3268,7 +3458,7 @@ Ammo: OOO</characteristic>
     </profile>
     <profile id="b734-4ac1-9f3a-6e97" name="Independent&apos;s Tactical Light Vehicle" publicationId="782f-493f-cc20-a098" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
       <characteristics>
-        <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d">Mechanum Wheels, Transport:5</characteristic>
+        <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d">Mechanum Wheel, Transport: 5, Armored</characteristic>
         <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6">2</characteristic>
         <characteristic name="DEF" typeId="26f5-47a1-8310-51da">2</characteristic>
         <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4">2</characteristic>
@@ -3283,7 +3473,7 @@ Ammo: OOO</characteristic>
     </profile>
     <profile id="0c13-8eac-1b91-16ff" name="Independent&apos;s &quot;Apollo&quot; Light RIG" publicationId="782f-493f-cc20-a098" hidden="false" typeId="752c-3a73-d54e-d187" typeName="RIG (Reinforced Integrated General Suit)">
       <characteristics>
-        <characteristic name="Key Traits" typeId="ceff-52f7-ad02-94b5">Legs, Arms, Armored, Walker</characteristic>
+        <characteristic name="Key Traits" typeId="ceff-52f7-ad02-94b5">Legs, Arms, Armored, Walker, RIG</characteristic>
         <characteristic name="CMBT" typeId="06b1-607f-a7ec-e56f">2</characteristic>
         <characteristic name="DEF" typeId="58eb-5efc-7ff9-eda8">2</characteristic>
         <characteristic name="ATHL" typeId="16cc-6490-5a6c-d9a3">3</characteristic>
@@ -3301,7 +3491,7 @@ Ammo: OOO</characteristic>
         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
         <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
         <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
-        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">2</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
         <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
         <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
         <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
@@ -3334,7 +3524,7 @@ Ammo: OOO</characteristic>
         <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">2</characteristic>
         <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
         <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">8</characteristic>
         <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
         <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
         <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
@@ -3406,10 +3596,10 @@ Ammo: OOO</characteristic>
         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
         <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
         <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
-        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">2</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
         <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
         <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">9</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
         <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
         <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
         <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
@@ -3418,7 +3608,7 @@ Ammo: OOO</characteristic>
     </profile>
     <profile id="cfcc-4fa4-52f0-d689" name="Independent&apos;s DP-36  &quot;Specter&quot; Light RIG" publicationId="782f-493f-cc20-a098" hidden="false" typeId="752c-3a73-d54e-d187" typeName="RIG (Reinforced Integrated General Suit)">
       <characteristics>
-        <characteristic name="Key Traits" typeId="ceff-52f7-ad02-94b5">Arms, Legs, Walker, Armored</characteristic>
+        <characteristic name="Key Traits" typeId="ceff-52f7-ad02-94b5">Arms, Legs, Walker, Armored, RIG</characteristic>
         <characteristic name="CMBT" typeId="06b1-607f-a7ec-e56f">2</characteristic>
         <characteristic name="DEF" typeId="58eb-5efc-7ff9-eda8">2</characteristic>
         <characteristic name="ATHL" typeId="16cc-6490-5a6c-d9a3">3</characteristic>
@@ -3566,26 +3756,11 @@ Ammo: OOO</characteristic>
         <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
       </characteristics>
     </profile>
-    <profile id="a5dd-2c87-eb50-37f5" name="Zi&apos;lo Crew Leader" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+    <profile id="a5dd-2c87-eb50-37f5" name="Zi&apos;lo Crew Leader" publicationId="782f-493f-cc20-a098" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
         <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
         <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
-        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">2</characteristic>
-        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
-        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
-        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
-        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
-        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
-        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5- Med</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="66a0-a9c6-d9ec-a538" name="Planetary Heavy Machine Gun Team" publicationId="782f-493f-cc20-a098" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
-      <characteristics>
-        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
-        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
-        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">3</characteristic>
         <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">2</characteristic>
         <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
         <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
@@ -3643,38 +3818,147 @@ Ammo: OOO</characteristic>
     </profile>
     <profile id="c074-aaab-f8f6-3f7b" name="Assault Rifle" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
       <characteristics>
-        <characteristic name="Type" typeId="e829-a194-1e82-ef0e"/>
-        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd"/>
-        <characteristic name="RoF" typeId="78b1-0557-98bf-20b5"/>
-        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4"/>
+        <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct</characteristic>
+        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">15/30/OO
+</characteristic>
+        <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">1-2</characteristic>
+        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">10</characteristic>
         <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb"/>
       </characteristics>
     </profile>
     <profile id="baf5-616e-ac38-ee10" name="Pistol" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
       <characteristics>
-        <characteristic name="Type" typeId="e829-a194-1e82-ef0e"/>
-        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd"/>
-        <characteristic name="RoF" typeId="78b1-0557-98bf-20b5"/>
-        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4"/>
-        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb"/>
+        <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct</characteristic>
+        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">5/10/15
+</characteristic>
+        <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">1</characteristic>
+        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">8</characteristic>
+        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Pistol</characteristic>
       </characteristics>
     </profile>
     <profile id="1f66-2544-4f1c-4ca0" name="Assault Shotgun" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
       <characteristics>
-        <characteristic name="Type" typeId="e829-a194-1e82-ef0e"/>
-        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd"/>
-        <characteristic name="RoF" typeId="78b1-0557-98bf-20b5"/>
-        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4"/>
-        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb"/>
+        <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct</characteristic>
+        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">15/30/45
+</characteristic>
+        <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">1</characteristic>
+        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">9</characteristic>
+        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Spray</characteristic>
       </characteristics>
     </profile>
     <profile id="821c-5b7b-f831-6885" name="Submachine Gun" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
       <characteristics>
-        <characteristic name="Type" typeId="e829-a194-1e82-ef0e"/>
-        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd"/>
-        <characteristic name="RoF" typeId="78b1-0557-98bf-20b5"/>
-        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4"/>
-        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb"/>
+        <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct</characteristic>
+        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">15/30/45
+</characteristic>
+        <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">2-3</characteristic>
+        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">8</characteristic>
+        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Pistol</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="100e-69a6-bf61-7de2" name="Planetary Milita Squad" publicationId="782f-493f-cc20-a098" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">1</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">2</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">8</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">2</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f701-b7a1-8e0b-eb8c" name="Planetary Seditionist Squad" publicationId="782f-493f-cc20-a098" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">1</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">2</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">8</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">2</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ccfe-783b-8cd7-df6a" name="Independent&apos;s Technical Light Vehicle" publicationId="782f-493f-cc20-a098" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d">Mechanum Wheel, Transport: 5, Armored</characteristic>
+        <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6">2</characteristic>
+        <characteristic name="DEF" typeId="26f5-47a1-8310-51da">2</characteristic>
+        <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4">3</characteristic>
+        <characteristic name="INT" typeId="b52b-fc57-76e8-5e4b">2</characteristic>
+        <characteristic name="LD" typeId="1c19-dad2-a576-46c1">2</characteristic>
+        <characteristic name="ARMOR" typeId="0abc-6803-65ce-ea04">10/10/9</characteristic>
+        <characteristic name="END" typeId="60e8-bc63-0a32-48e5">4</characteristic>
+        <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34">3</characteristic>
+        <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90">9</characteristic>
+        <characteristic name="SIZE" typeId="1adb-2fcb-5438-776f">9-H</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="327f-8ef1-e92f-251e" name="Well Trained Planetary Seditionist Trooper" publicationId="782f-493f-cc20-a098" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">2</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">8</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4604-9c63-45d2-c852" name="TM-25 Light Assault Tank" publicationId="782f-493f-cc20-a098" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d">Tracked, Armored, Turret, Stablized </characteristic>
+        <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6">2</characteristic>
+        <characteristic name="DEF" typeId="26f5-47a1-8310-51da">1</characteristic>
+        <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4">2</characteristic>
+        <characteristic name="INT" typeId="b52b-fc57-76e8-5e4b">2</characteristic>
+        <characteristic name="LD" typeId="1c19-dad2-a576-46c1">2</characteristic>
+        <characteristic name="ARMOR" typeId="0abc-6803-65ce-ea04">12/11/11</characteristic>
+        <characteristic name="END" typeId="60e8-bc63-0a32-48e5">4</characteristic>
+        <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34">4</characteristic>
+        <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90">9</characteristic>
+        <characteristic name="SIZE" typeId="1adb-2fcb-5438-776f">9-H</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b7cb-064b-0809-481c" name="TM-165 Armored Personnel Carrier" publicationId="782f-493f-cc20-a098" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d">Tracked, Armored</characteristic>
+        <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6">2</characteristic>
+        <characteristic name="DEF" typeId="26f5-47a1-8310-51da">2</characteristic>
+        <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4">2</characteristic>
+        <characteristic name="INT" typeId="b52b-fc57-76e8-5e4b">2</characteristic>
+        <characteristic name="LD" typeId="1c19-dad2-a576-46c1">2</characteristic>
+        <characteristic name="ARMOR" typeId="0abc-6803-65ce-ea04">11/10/10</characteristic>
+        <characteristic name="END" typeId="60e8-bc63-0a32-48e5">4</characteristic>
+        <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34">3</characteristic>
+        <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90">9</characteristic>
+        <characteristic name="SIZE" typeId="1adb-2fcb-5438-776f">9-H</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8200-cdc5-5259-65ba" name="Planetary Heavy Weapons Team" publicationId="782f-493f-cc20-a098" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">2</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">8</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">2</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

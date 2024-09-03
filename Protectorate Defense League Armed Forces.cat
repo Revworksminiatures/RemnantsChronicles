@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="23" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="24" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="4f5f-9cb5-c624-6d11" name="Central Guard Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -1882,6 +1882,19 @@ The Pak Mule can never benefit from its own ballistic shields
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d567-a162-6fe8-ee7d" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8920-7037-5641-1756" type="min"/>
               </constraints>
+              <profiles>
+                <profile id="34f0-78f3-d605-8fd2" name="12mm Heavy Machine Gun" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct</characteristic>
+                    <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">10/20/OO 
+</characteristic>
+                    <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">2-3</characteristic>
+                    <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">12</characteristic>
+                    <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Heavy, Auto, Belt Fed, Piercing: 1
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
             </entryLink>
             <entryLink id="5c68-23df-fa5e-8c8f" name="Protectorate Squad Leader" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="a00e-d9f6-ddf2-e480" type="selectionEntryGroup"/>
             <entryLink id="0ed2-b1c5-d010-0a0e" name="Sotil" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="6674-a449-84f1-1081" type="selectionEntry">
@@ -1893,7 +1906,7 @@ The Pak Mule can never benefit from its own ballistic shields
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
-            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="17.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="13.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3566-7460-a484-4707" name="Protectorate Howitzer Team" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -1923,11 +1936,13 @@ The Pak Mule can never benefit from its own ballistic shields
               <profiles>
                 <profile id="9dc9-873f-4f8f-28b7" name="122mm Light Howitzer  " publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
                   <characteristics>
-                    <characteristic name="Type" typeId="e829-a194-1e82-ef0e"/>
-                    <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd"/>
-                    <characteristic name="RoF" typeId="78b1-0557-98bf-20b5"/>
-                    <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4"/>
-                    <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb"/>
+                    <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Indirect</characteristic>
+                    <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">30/60/OO 
+</characteristic>
+                    <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">-</characteristic>
+                    <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">14</characteristic>
+                    <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Observer, Blast:4, Guided, Single Use 
+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1948,7 +1963,7 @@ The Pak Mule can never benefit from its own ballistic shields
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
-            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="15.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="13.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="36e5-f135-e0f6-e670" name="Protectorate Mortar Team" hidden="false" collective="false" import="true" type="upgrade">
@@ -1982,11 +1997,24 @@ The Pak Mule can never benefit from its own ballistic shields
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="127d-0426-25bf-39a4" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2876-a73d-fe60-65ed" type="min"/>
               </constraints>
+              <profiles>
+                <profile id="90fe-43a1-52ed-ece5" name="Mortar" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Indirect</characteristic>
+                    <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">30/60/OO 
+</characteristic>
+                    <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">-</characteristic>
+                    <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">13</characteristic>
+                    <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Observer, Blast:3, Guided, Single Use 
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
             </entryLink>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
-            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="13.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="9.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ddd6-616b-7528-4672" name="Frontiersman Flamethrower Team" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -2074,14 +2102,29 @@ The Pak Mule can never benefit from its own ballistic shields
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e814-5185-5485-bfe3" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baf1-031a-851a-69b3" type="min"/>
                   </constraints>
+                  <profiles>
+                    <profile id="9d0b-4c6a-62c1-95b9" name="ES-35 FlameThrower" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct</characteristic>
+                        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">15/30/- </characteristic>
+                        <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">1</characteristic>
+                        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">8</characteristic>
+                        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Spray, Ignore Cover:1, Sustained, Fire:3, Volatile 
+</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
                 </entryLink>
               </entryLinks>
+              <costs>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="3.0"/>
+              </costs>
             </entryLink>
             <entryLink id="69b7-16b3-94b3-4211" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
-            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="13.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="10.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2763,11 +2806,12 @@ The Pak Mule can never benefit from its own ballistic shields
       <profiles>
         <profile id="2999-60fc-ac33-b90a" name="Discus Grenades " publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
           <characteristics>
-            <characteristic name="Type" typeId="e829-a194-1e82-ef0e"/>
-            <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd"/>
-            <characteristic name="RoF" typeId="78b1-0557-98bf-20b5"/>
-            <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4"/>
-            <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb"/>
+            <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Thrown</characteristic>
+            <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">SZ+ATHL</characteristic>
+            <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">-</characteristic>
+            <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">12</characteristic>
+            <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Blast:4 , Frag, Single Use
+</characteristic>
           </characteristics>
         </profile>
       </profiles>

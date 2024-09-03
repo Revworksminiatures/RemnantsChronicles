@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="9" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="10" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="a603-48d7-f61c-36e6" name="Special Operations Task Force (Casual Play)" publicationId="ecbd-4756-1610-637c" hidden="false">
       <categoryLinks>
@@ -127,6 +127,9 @@
           </constraints>
           <infoLinks>
             <infoLink id="fe48-0ff9-30c6-637d" name="ERA-7 &quot;Mjolnir&quot; Main Battle RIG" hidden="false" targetId="df2b-a53f-7c5b-703b" type="profile"/>
+            <infoLink id="a13e-4122-6ba8-b38d" name="Armored" hidden="false" targetId="5cdd-1b21-9cee-76de" type="rule"/>
+            <infoLink id="8012-2de9-eda0-88c7" name="Arms" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+            <infoLink id="f85a-26ba-a7b3-846a" name="Legs" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="2458-c6b0-8fad-064d" name="2x Metal Fist" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="a8c9-9fe4-8348-c039" type="selectionEntry"/>
@@ -640,7 +643,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d3df-3a6e-fd23-18e6" name="••Disabling Blow (Royal Elite Guard)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d3df-3a6e-fd23-18e6" name="••Ansgar Training (Royal Elite Guard)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -652,7 +655,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a9c-d1a6-07e6-a3a7" type="max"/>
               </constraints>
               <rules>
-                <rule id="d609-1ced-4928-a113" name="••Disabling Blow " publicationId="ecbd-4756-1610-637c" hidden="false">
+                <rule id="d609-1ced-4928-a113" name="••Ansgar Training (The &quot;God Spear&quot;)" publicationId="ecbd-4756-1610-637c" hidden="false">
                   <description>Upon receiving damage in melee combat, each enemy model is immediately inflicted with the &quot;Prone&quot; and &quot;Stunned&quot; status effects.</description>
                 </rule>
               </rules>
@@ -839,6 +842,69 @@ Every model in the unit that uses this Tactical Asset will automatically take an
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="ac2f-3cf7-6ed4-25e7" name="••• Phantom Flight " hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6feb-aa74-b049-6c4a" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb23-1c5b-2b0e-3ce8" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="979a-f9a9-89f6-98e3" name="••• Phantom Flight " publicationId="ecbd-4756-1610-637c" hidden="false">
+                  <description>The aircraft becomes invisible to enemy radar and targeting systems, effectively gaining the &quot;Stealthed&quot; Condition for the entire round.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7778-20e4-41b1-cec1" name="•••Precision Bombardment" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0e56-6172-7ca0-42f2" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cc2-fc3a-054c-f622" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="a230-2eaa-069d-fe48" name="•••Precision Bombardment" publicationId="ecbd-4756-1610-637c" hidden="false">
+                  <description>The ERD-6 Corsair can perform a bombing run with pinpoint accuracy, ignoring any cover bonuses the target may have.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="da89-fdcc-30db-7920" name="••• The Kings Executioner " hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4513-6534-65a7-cf0c" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6274-7c0c-11fd-9518" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="d1df-a7e0-1928-1fe4" name="••• The Kings Executioner " publicationId="ecbd-4756-1610-637c" hidden="false">
+                  <description>Every enemy LIVING model within BASE contact of Prince Captain Joakim Gosta gain +3 tokens to their NERVE automatically the first time they enter into or attacked by this model and its unit.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -863,6 +929,9 @@ Every model in the unit that uses this Tactical Asset will automatically take an
           </constraints>
           <infoLinks>
             <infoLink id="7c9e-7b62-b798-f46a" name="Lancer Light RIG" publicationId="ecbd-4756-1610-637c" hidden="false" targetId="927c-2724-7159-c087" type="profile"/>
+            <infoLink id="5b49-503f-2501-7350" name="Arms" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
+            <infoLink id="6cbd-6a21-7211-a949" name="Legs" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+            <infoLink id="117f-d986-303e-461a" name="Armored" hidden="false" targetId="5cdd-1b21-9cee-76de" type="rule"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="4d28-db11-b7e2-7376" name="2x Metal Arm" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="16c0-59b6-031d-2e6b" type="selectionEntry"/>
@@ -921,6 +990,9 @@ Every model in the unit that uses this Tactical Asset will automatically take an
               </constraints>
               <selectionEntries>
                 <selectionEntry id="df54-3ec6-d2fd-ea34" name="Veteran Crew" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a0a-711c-6d5b-be3d" type="max"/>
+                  </constraints>
                   <infoLinks>
                     <infoLink id="a7eb-722e-7bbf-3e51" name="Voice of Command" publicationId="ecbd-4756-1610-637c" hidden="false" targetId="5581-8d83-3043-4a25" type="rule"/>
                     <infoLink id="0617-8e75-22f2-3f1b" name="Veteran Crew" publicationId="ecbd-4756-1610-637c" hidden="false" targetId="cc82-cc85-07be-750b" type="rule"/>
@@ -1804,6 +1876,81 @@ Every model in the unit that uses this Tactical Asset will automatically take an
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="6e3e-9d4a-181b-ec44" name="Erland Guardian Fire Team" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="9997-a12d-36fe-8953" name="Light Core" hidden="false" targetId="fa42-d150-a4d6-a3db" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4b4a-ebaa-f563-d069" name="Guardian" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aa1-600f-5c58-4232" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea50-43ba-fcf2-3668" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="5aa6-caee-138e-e55a" name="Erland Guardian Fire Team" hidden="false" targetId="6b0d-b976-48b0-b926" type="profile"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="3f1b-833a-279d-af3d" name="Hand to Hand Combat" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="2772-828a-0b7c-24f8" type="selectionEntry"/>
+            <entryLink id="9ddc-fd85-bd8c-866a" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7081-e058-49d7-3db9" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bf9-23f1-bbef-cd5b" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="d4a5-71c6-412e-08e8" name="War Pick" hidden="false" collective="false" import="true" targetId="5d84-3531-a182-8f11" type="selectionEntry"/>
+            <entryLink id="7c71-9e67-d665-6ebb" name="Royal Kingdom of Erland Primary Weapons" hidden="false" collective="false" import="true" targetId="d5e0-3097-73ef-9470" type="selectionEntryGroup"/>
+            <entryLink id="9020-f6d6-9ddf-e8ab" name="Royal Kingdom of Erland Secondary Weapons" hidden="false" collective="false" import="true" targetId="9266-683a-a1bd-43bd" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="07e6-6a80-44b7-2a53" name="Guardian Leader " hidden="false" collective="false" import="true" targetId="4519-1ccc-de4a-f185" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="af99-f473-21d6-da3d" name="Erland Militia Fire Team" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntries>
+        <selectionEntry id="c417-f5a3-8380-6181" name="Militia " hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecab-af2a-0d01-901e" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f441-4887-dd2d-95df" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b837-02c8-4f33-b02b" name="Erland Militia Fire Team" hidden="false" targetId="59b4-847e-529f-3dc1" type="profile"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="bfab-a534-64b2-1924" name="Hand to Hand Combat" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="2772-828a-0b7c-24f8" type="selectionEntry"/>
+            <entryLink id="1be0-2112-bec2-ee6c" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69f1-26f3-979c-d004" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d945-fad8-8f91-3ab9" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="d38a-f224-ceef-77ee" name="War Pick" hidden="false" collective="false" import="true" targetId="5d84-3531-a182-8f11" type="selectionEntry"/>
+            <entryLink id="1986-25aa-c847-031a" name="Royal Kingdom of Erland Primary Weapons" hidden="false" collective="false" import="true" targetId="d5e0-3097-73ef-9470" type="selectionEntryGroup"/>
+            <entryLink id="8097-2e28-e534-22eb" name="Royal Kingdom of Erland Secondary Weapons" hidden="false" collective="false" import="true" targetId="9266-683a-a1bd-43bd" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="f4d1-1992-03b7-bb14" name="Militia  Leader " hidden="false" collective="false" import="true" targetId="b2a8-3c57-a483-80b1" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="f202-a1b8-bf5e-377b" name="Royal Kingdom of Erland Power Armor" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
@@ -2326,6 +2473,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
             <infoLink id="f13d-db97-4389-6c45" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
             <infoLink id="130d-a3d1-7f9e-cdc0" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
             <infoLink id="07ef-58c2-6f64-cb0a" name="Voice of Command" publicationId="ecbd-4756-1610-637c" hidden="false" targetId="5581-8d83-3043-4a25" type="rule"/>
+            <infoLink id="cb10-169b-74c3-e08d" name="Flexiable Command" hidden="false" targetId="479c-17c0-c10a-f743" type="rule"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="2f98-1dfd-eb34-1cf1" name="Hand to Hand Combat" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="2772-828a-0b7c-24f8" type="selectionEntry"/>
@@ -2357,6 +2505,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
             <infoLink id="ea72-eaa8-aa0f-e7a3" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
             <infoLink id="a3a7-6c43-50e0-c6c1" name="Lotnaunt (Tier 3 or above)" publicationId="ecbd-4756-1610-637c" hidden="false" targetId="f364-bd7b-7525-d856" type="profile"/>
             <infoLink id="266e-7eb8-e8a1-7cf6" name="Voice of Command" publicationId="ecbd-4756-1610-637c" hidden="false" targetId="5581-8d83-3043-4a25" type="rule"/>
+            <infoLink id="c7a3-24a2-aa8b-ef67" name="Flexiable Command" hidden="false" targetId="479c-17c0-c10a-f743" type="rule"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="348b-66f0-4857-d081" name="Hand to Hand Combat" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="2772-828a-0b7c-24f8" type="selectionEntry"/>
@@ -2388,6 +2537,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
             <infoLink id="6fa7-4923-3e96-eabc" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
             <infoLink id="9938-853d-950c-d3b7" name="Kapten (Tier 4 or above)" publicationId="ecbd-4756-1610-637c" hidden="false" targetId="2b3e-e433-4a18-a78d" type="profile"/>
             <infoLink id="58f7-c3ba-d09f-d8ba" name="Voice of Command" publicationId="ecbd-4756-1610-637c" hidden="false" targetId="5581-8d83-3043-4a25" type="rule"/>
+            <infoLink id="2d83-a85b-9cc8-a89d" name="Flexiable Command" hidden="false" targetId="479c-17c0-c10a-f743" type="rule"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="01ce-7df2-2cc1-73cd" name="Hand to Hand Combat" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="2772-828a-0b7c-24f8" type="selectionEntry"/>
@@ -2922,6 +3072,64 @@ Every model in the unit that uses this Tactical Asset will automatically take an
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="5.0"/>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4519-1ccc-de4a-f185" name="Guardian Leader " publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" defaultSelectionEntryId="e8f5-73ed-048a-f7d1">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75d0-c75a-d7c6-812f" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4025-db2b-121f-0237" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="e8f5-73ed-048a-f7d1" name="Guardian Leader" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="model">
+          <infoLinks>
+            <infoLink id="6bd3-4f2c-6668-dd87" name="Voice of Command" publicationId="ecbd-4756-1610-637c" hidden="false" targetId="5581-8d83-3043-4a25" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="6540-dd27-6d1c-6c64" name="Hand to Hand Combat" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="2772-828a-0b7c-24f8" type="selectionEntry"/>
+            <entryLink id="2b53-c5de-be22-b0a7" name="War Pick" hidden="false" collective="false" import="true" targetId="5d84-3531-a182-8f11" type="selectionEntry"/>
+            <entryLink id="b7dd-dd36-f7da-0b86" name="Royal Kingdom of Erland Primary Weapons" hidden="false" collective="false" import="true" targetId="d5e0-3097-73ef-9470" type="selectionEntryGroup"/>
+            <entryLink id="3754-530c-ea74-f891" name="Royal Kingdom of Erland Secondary Weapons" hidden="false" collective="false" import="true" targetId="9266-683a-a1bd-43bd" type="selectionEntryGroup"/>
+            <entryLink id="88d2-263e-269e-c11a" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54af-6257-0a73-2df4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e5a-ee76-4f3d-97b8" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="7.0"/>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b2a8-3c57-a483-80b1" name="Militia  Leader " publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" defaultSelectionEntryId="6789-f20e-25b6-896a">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c41d-0df3-920c-bb90" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1b8-c390-9ba2-d4a5" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="6789-f20e-25b6-896a" name="Militia  Leader" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="model">
+          <infoLinks>
+            <infoLink id="bb8d-4ad5-ec33-f33b" name="Voice of Command" publicationId="ecbd-4756-1610-637c" hidden="false" targetId="5581-8d83-3043-4a25" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="6b3b-2915-bf26-dc61" name="Hand to Hand Combat" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="2772-828a-0b7c-24f8" type="selectionEntry"/>
+            <entryLink id="97f8-e0c6-53ea-dad7" name="War Pick" hidden="false" collective="false" import="true" targetId="5d84-3531-a182-8f11" type="selectionEntry"/>
+            <entryLink id="29f9-5321-80d3-29d8" name="Royal Kingdom of Erland Primary Weapons" hidden="false" collective="false" import="true" targetId="d5e0-3097-73ef-9470" type="selectionEntryGroup"/>
+            <entryLink id="ebb5-5f5e-56a5-1d92" name="Royal Kingdom of Erland Secondary Weapons" hidden="false" collective="false" import="true" targetId="9266-683a-a1bd-43bd" type="selectionEntryGroup"/>
+            <entryLink id="d9ba-df52-02c6-4168" name="Personal Loadouts" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="866d-f8a5-43f5-dcbf" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e7b-02bd-22ac-e53c" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="7.0"/>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3521,6 +3729,36 @@ Every model in the unit that uses this Tactical Asset will automatically take an
         <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
         <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
         <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="59b4-847e-529f-3dc1" name="Erland Militia Fire Team" publicationId="ecbd-4756-1610-637c" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8"/>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
+      </characteristics>
+    </profile>
+    <profile id="6b0d-b976-48b0-b926" name="Erland Guardian Fire Team" publicationId="ecbd-4756-1610-637c" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8"/>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
       </characteristics>
     </profile>
   </sharedProfiles>
