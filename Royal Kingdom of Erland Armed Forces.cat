@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="10" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="11" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="a603-48d7-f61c-36e6" name="Special Operations Task Force (Casual Play)" publicationId="ecbd-4756-1610-637c" hidden="false">
       <categoryLinks>
@@ -1877,6 +1877,13 @@ Every model in the unit that uses this Tactical Asset will automatically take an
       </costs>
     </selectionEntry>
     <selectionEntry id="6e3e-9d4a-181b-ec44" name="Erland Guardian Fire Team" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4929-fa1c-dc9c-9f5f" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="9997-a12d-36fe-8953" name="Light Core" hidden="false" targetId="fa42-d150-a4d6-a3db" primary="true"/>
       </categoryLinks>
@@ -1916,6 +1923,13 @@ Every model in the unit that uses this Tactical Asset will automatically take an
       </costs>
     </selectionEntry>
     <selectionEntry id="af99-f473-21d6-da3d" name="Erland Militia Fire Team" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4929-fa1c-dc9c-9f5f" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <selectionEntries>
         <selectionEntry id="c417-f5a3-8380-6181" name="Militia " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1959,7 +1973,9 @@ Every model in the unit that uses this Tactical Asset will automatically take an
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="033a-8955-5fd9-93eb" type="min"/>
       </constraints>
       <rules>
-        <rule id="4dd8-3f45-f483-4491" name="Royal Kingdom of Erland Power Armor" hidden="false"/>
+        <rule id="4dd8-3f45-f483-4491" name="Royal Kingdom of Erland Power Armor" hidden="false">
+          <description>Royal Kingdom of Erland Power Armor grants +1 to the armor, +1 to CMBT and +1 to Endurance. This stats have all been added the units stat line.</description>
+        </rule>
       </rules>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -1972,7 +1988,9 @@ Every model in the unit that uses this Tactical Asset will automatically take an
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc32-a6b2-196e-f882" type="min"/>
       </constraints>
       <rules>
-        <rule id="5ed9-d613-eea3-82c4" name="Strkyor Power Armor" publicationId="ecbd-4756-1610-637c" hidden="false"/>
+        <rule id="5ed9-d613-eea3-82c4" name="Strkyor Power Armor" publicationId="ecbd-4756-1610-637c" hidden="false">
+          <description>Strykor Power Armor grants +1 to the armor, +1 to CMBT and +1 to Endurance. This stats have all been added the units stat line.</description>
+        </rule>
       </rules>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -1998,6 +2016,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
       <infoLinks>
         <infoLink id="5256-68ba-499f-a130" name="Brutal" publicationId="ecbd-4756-1610-637c" hidden="false" targetId="e3c4-cf2c-a076-fd94" type="rule"/>
         <infoLink id="37be-daec-6e0f-fee6" name="Stun" publicationId="ecbd-4756-1610-637c" hidden="false" targetId="1571-6e5e-3087-ac7f" type="rule"/>
+        <infoLink id="7efb-22b8-9468-ed9f" name="Piercing:X " hidden="false" targetId="8015-9cc1-b80a-25a1" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -2261,6 +2280,9 @@ Every model in the unit that uses this Tactical Asset will automatically take an
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="35f4-5f74-6d58-9511" name="Pistol" hidden="false" targetId="2bf3-65e8-f195-5487" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -3674,16 +3696,16 @@ Every model in the unit that uses this Tactical Asset will automatically take an
     <profile id="2144-01d4-03e0-6e37" name="Erland Void Engineer Squad" publicationId="ecbd-4756-1610-637c" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
-        <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
-        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
-        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
-        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
-        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
-        <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
-        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
-        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
-        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
       </characteristics>
     </profile>
     <profile id="11aa-234e-acd0-653e" name="Erland “King’s Own”Royal Guard Squad" publicationId="ecbd-4756-1610-637c" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
@@ -3733,32 +3755,32 @@ Every model in the unit that uses this Tactical Asset will automatically take an
     </profile>
     <profile id="59b4-847e-529f-3dc1" name="Erland Militia Fire Team" publicationId="ecbd-4756-1610-637c" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
-        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8"/>
-        <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
-        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
-        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
-        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
-        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
-        <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
-        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
-        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
-        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
+        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
       </characteristics>
     </profile>
     <profile id="6b0d-b976-48b0-b926" name="Erland Guardian Fire Team" publicationId="ecbd-4756-1610-637c" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
-        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8"/>
-        <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
-        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
-        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
-        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
-        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
-        <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
-        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
-        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
-        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
+        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

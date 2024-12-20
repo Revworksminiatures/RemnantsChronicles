@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="22" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="23" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="3e5c-c3d7-7fa7-d7d6" name="Han&apos;s Crusaders (Casual Play)" publicationId="782f-493f-cc20-a098" hidden="false">
       <categoryLinks>
@@ -712,6 +712,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="9f0e-dd02-f798-cc4f" name="Squad Equipment (Max 3 per Squad)" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
+        <entryLink id="72f0-48ff-a315-f67f" name="Lineage" hidden="false" collective="false" import="true" targetId="0f63-bd28-9d9c-d49a" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -984,6 +985,7 @@
         <entryLink id="6dad-8855-dbca-a2ac" name="Hired Guns Team Leader" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="aaa5-fb49-6916-1c96" type="selectionEntryGroup"/>
         <entryLink id="2607-cda2-c859-3b8c" name="Hired Gun Squad Specialist" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="fb88-21ae-6eff-2ede" type="selectionEntryGroup"/>
         <entryLink id="db73-beba-7012-4a27" name="Squad Equipment (Max 3 per Squad)" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
+        <entryLink id="c81d-386c-ebec-e0e0" name="Lineage" hidden="false" collective="false" import="true" targetId="0f63-bd28-9d9c-d49a" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -2038,6 +2040,7 @@ Ammo: OOO</characteristic>
       </selectionEntries>
       <entryLinks>
         <entryLink id="00b8-1862-8e49-e21a" name="Squad Equipment (Max 3 per Squad)" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
+        <entryLink id="aa5b-c1d6-52a7-75db" name="Lineage" hidden="false" collective="false" import="true" targetId="0f63-bd28-9d9c-d49a" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="5.0"/>
@@ -2270,6 +2273,27 @@ Ammo: OOO</characteristic>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="eb3d-5952-e102-dcc4" name="•Relentless Fury (Oyar BloodLine)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b6dd-bf62-ef07-4fdc" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fae5-b1ea-212f-b0af" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="5443-b82f-5546-ab7a" name="•Relentless Fury (Oyar BloodLine)" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>If a member of a HIRED GUN squad with a OYAR BLOODLINE is reduced to 0 wounds, they make make one final CMBT attack before being removed from the battlefield even if they do not have the action to do so. </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -2486,6 +2510,27 @@ Ammo: OOO</characteristic>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="8380-e0d5-a153-d4e8" name="••Valkyrie&apos;s Call (Oyar BloodLines)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b6dd-bf62-ef07-4fdc" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a5c-2391-112e-a0f1" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="9fb4-f041-2474-2d68" name="••Valkyrie&apos;s Call (Oyar BloodLines)" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>If a HIRED GUN squad with OYAR BLOODLINES  is engaged in melee combat and kills the enemy in Melee, the HIRED GUN squad gains an additonal action to reposition or advance immediately after the kill. This does not trigger any reactions for the opposing player. </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -2691,6 +2736,27 @@ Ammo: OOO</characteristic>
               </constraints>
               <rules>
                 <rule id="9958-cf3c-d232-f4cb" name="•••Rebellion’s Shadow (Erland seditionist) " hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4a55-8cbc-75d0-ecd1" name="•••Legacy of Steel (Oyar BloodLines)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b6dd-bf62-ef07-4fdc" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="408f-6b45-d0d2-9f58" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="e1ac-a057-93ab-0a91" name="•••Legacy of Steel (Oyar BloodLines)" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>A HIRED GUN or BOUNTY HUNTER SQUAD with the OYAR BLOODLINES lineage gains +2 Piercing to their Melee weapons for the round of combat that this card is played.</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
@@ -3131,6 +3197,9 @@ Ammo: OOO</characteristic>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d44f-eb56-b7b2-e115" type="max"/>
           </constraints>
+          <costs>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-5.0"/>
+          </costs>
         </entryLink>
         <entryLink id="849d-e7e4-e6e6-2de0" name="Light Machine Gun" hidden="false" collective="false" import="true" targetId="8470-6bb3-5742-f936" type="selectionEntry">
           <constraints>
@@ -3141,11 +3210,17 @@ Ammo: OOO</characteristic>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fbf-453e-64da-5c80" type="max"/>
           </constraints>
+          <costs>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-7.0"/>
+          </costs>
         </entryLink>
         <entryLink id="4fba-17f3-0e86-db1b" name="Medium Machine Gun" hidden="false" collective="false" import="true" targetId="c2a2-d6f1-d5b9-f991" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d12-70ca-b880-ddf7" type="max"/>
           </constraints>
+          <costs>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-7.0"/>
+          </costs>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -3409,6 +3484,41 @@ Ammo: OOO</characteristic>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup id="0f63-bd28-9d9c-d49a" name="Lineage" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="true" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7476-e5ae-9c09-a947" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="4f55-a05e-541b-56d0" name="Oyar Bloodlines" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05b2-e7e5-5439-0446" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="6171-86ef-c172-48f0" name="Oyar Bloodlines" publicationId="782f-493f-cc20-a098" hidden="false">
+              <description>Grants the Keyword &quot;Oyar&quot; to any unit that takes this upgrade card</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4c59-eabe-b3d5-2ec3" name="Stalland Bloodlines" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5325-5895-1d5c-802c" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="62a0-fda2-57e9-2fda" name="Stalland Bloodlines" publicationId="782f-493f-cc20-a098" hidden="false">
+              <description>Grants the Keyword &quot;Stalland&quot; to any unit that takes this upgrade card</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedProfiles>
     <profile id="74c7-ec08-ad8b-bbef" name="Independent&apos;s &quot;Crusader&quot; Tank" publicationId="782f-493f-cc20-a098" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
@@ -3494,7 +3604,7 @@ Ammo: OOO</characteristic>
         <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
         <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
         <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">9</characteristic>
         <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
         <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
         <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
@@ -3554,7 +3664,7 @@ Ammo: OOO</characteristic>
         <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">2</characteristic>
         <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
         <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">8</characteristic>
         <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
         <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
         <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
@@ -3599,7 +3709,7 @@ Ammo: OOO</characteristic>
         <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
         <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
         <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">9</characteristic>
         <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
         <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
         <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
@@ -3749,7 +3859,7 @@ Ammo: OOO</characteristic>
         <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">2</characteristic>
         <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
         <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">8</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
         <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
         <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
         <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
@@ -3779,7 +3889,7 @@ Ammo: OOO</characteristic>
         <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">2</characteristic>
         <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
         <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">8</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">9</characteristic>
         <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
         <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
         <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
@@ -3909,7 +4019,7 @@ Ammo: OOO</characteristic>
         <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">2</characteristic>
         <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
         <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">8</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">9</characteristic>
         <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
         <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
         <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>

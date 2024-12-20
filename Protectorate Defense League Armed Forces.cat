@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="24" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="25" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="4f5f-9cb5-c624-6d11" name="Central Guard Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -1683,6 +1683,7 @@ The Pak Mule can never benefit from its own ballistic shields
             <infoLink id="0480-3dcb-1038-f087" name="Armored" hidden="false" targetId="5cdd-1b21-9cee-76de" type="rule"/>
             <infoLink id="5672-798f-9dfc-c44b" name="Fly" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="05c5-d7d9-c3e9-8ba5" type="rule"/>
             <infoLink id="3842-ea9b-c693-a74d" name="Hover" hidden="false" targetId="9df6-6829-df07-ef91" type="rule"/>
+            <infoLink id="bf2e-43dd-dae9-7cb6" name="Transport: X" hidden="false" targetId="369e-0c29-6c01-f12b" type="rule"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry id="9fbb-4c92-5822-edc9" name="JP-9 Aurora Gunship Veteran Pilot" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -1699,6 +1700,31 @@ The Pak Mule can never benefit from its own ballistic shields
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="ffdc-72e8-8d11-7bd1" name="Metal Storm Cannon" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9656-4bfd-6b83-698c" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a87-1d91-6d7f-5e75" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="0e2e-1b07-b416-a17e" name="Metal Storm Cannon" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct</characteristic>
+                    <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">10/20/OO</characteristic>
+                    <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">1-5</characteristic>
+                    <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">15</characteristic>
+                    <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Heavy, Stablized</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="1ee3-e3e1-f6ba-ef79" name="Heavy" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="3153-e2fe-8a63-449c" type="rule"/>
+                <infoLink id="5cdb-99b4-9084-8bc0" name="Stablized" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="1e08-ca30-b162-2802" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-9.0"/>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <entryLinks>
             <entryLink id="3f89-cb4e-e294-82a5" name="HAVOC Upgrades" hidden="false" collective="false" import="true" targetId="acee-a966-194d-e3af" type="selectionEntryGroup"/>
@@ -1707,7 +1733,7 @@ The Pak Mule can never benefit from its own ballistic shields
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="8.0"/>
-            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="20.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="29.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2417,7 +2443,7 @@ The Pak Mule can never benefit from its own ballistic shields
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="139f-0160-def7-3a98" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="b67e-a519-e974-ce22" name="• Commander Wandi Danzinger" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+                    <profile id="b67e-a519-e974-ce22" name="• Commander Wandi Danzinger" publicationId="6f11-4351-f3f0-26cb" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
                       <characteristics>
                         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Arms, Legs, Living	</characteristic>
                         <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
@@ -2767,7 +2793,9 @@ The Pak Mule can never benefit from its own ballistic shields
   <sharedSelectionEntries>
     <selectionEntry id="ce4c-1396-5e64-75db" name="Protectorate Defense League Power Armor" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
-        <rule id="f50b-3a92-9e71-d32b" name="Protectorate Defense League Power Armor" publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
+        <rule id="f50b-3a92-9e71-d32b" name="Protectorate Defense League Power Armor" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+          <description>Protectorate Defense League Power Armor grants +1 to the armor, +1 to CMBT and +1 to Endurance. This stats have all been added the units stat line.</description>
+        </rule>
       </rules>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -3351,7 +3379,7 @@ Ammo: OOO</characteristic>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="1313-1095-ab60-832c" name="Protectorate Defense League Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" defaultSelectionEntryId="d469-4bb1-e6a6-9841">
+    <selectionEntryGroup id="1313-1095-ab60-832c" name="Protectorate Defense League Secondary Weapons" publicationId="6f11-4351-f3f0-26cb" hidden="false" collective="false" import="true" defaultSelectionEntryId="d469-4bb1-e6a6-9841">
       <selectionEntries>
         <selectionEntry id="ab79-2930-0570-b0f0" name="CAR-66 Submachine Gun" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3359,6 +3387,7 @@ Ammo: OOO</characteristic>
           </constraints>
           <infoLinks>
             <infoLink id="a1d7-ebf7-a580-22a0" name="CAR-66 Submachine Gun" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c7a1-dbf5-dc89-faf8" type="profile"/>
+            <infoLink id="9ac7-a7aa-896d-47cf" name="Pistol" hidden="false" targetId="2bf3-65e8-f195-5487" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
@@ -4171,7 +4200,7 @@ Ammo: OOO</characteristic>
         <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5 - Med</characteristic>
       </characteristics>
     </profile>
-    <profile id="946e-eee3-551f-dfda" name="• Captain Kasper Ywain" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+    <profile id="946e-eee3-551f-dfda" name="• Captain Kasper Ywain" publicationId="6f11-4351-f3f0-26cb" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
         <characteristic name="CMBT" typeId="2883-255f-189e-af1b">4</characteristic>
@@ -4411,7 +4440,7 @@ Ammo: OOO</characteristic>
         <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
       </characteristics>
     </profile>
-    <profile id="9574-d567-a0b9-1ff0" name="Type 221 &quot;Armada&quot; Tank" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
+    <profile id="9574-d567-a0b9-1ff0" name="Type 221 &quot;Armada&quot; Tank" publicationId="6f11-4351-f3f0-26cb" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
       <characteristics>
         <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d"/>
         <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6"/>

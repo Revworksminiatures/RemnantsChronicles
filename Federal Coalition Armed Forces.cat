@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="21" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="22" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="674c-569a-ca53-7190" name="Marine Boarding Assault Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -2784,6 +2784,22 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="8bbd-292c-9764-a269" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a5f-0403-d4c2-dcf7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b69-d256-2a3e-0379" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5a3c-de70-d4e8-7aba" name="Anti-Tank Weapons" hidden="false" collective="false" import="true" targetId="21a2-e213-95c8-b961" type="selectionEntryGroup"/>
+            <entryLink id="f780-2a0b-3bae-f71b" name="Explosives" hidden="false" collective="false" import="true" targetId="ae5e-6636-b33c-051b" type="selectionEntryGroup"/>
+            <entryLink id="b350-1782-96df-21aa" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="c7e8-1f2d-1ea3-29ae" type="selectionEntryGroup"/>
+            <entryLink id="8c55-1b1f-7eb6-932f" name="Squad Communications" hidden="false" collective="false" import="true" targetId="44d0-181c-4e1d-2e8c" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="f45b-7bbb-9015-5ac3" name="Marine Special Forces Squad Leader" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true">
@@ -3089,6 +3105,7 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
                 <entryLink id="15c8-a3ec-7f1a-64d3" name="Anti-Tank Weapons" hidden="false" collective="false" import="true" targetId="21a2-e213-95c8-b961" type="selectionEntryGroup"/>
                 <entryLink id="5455-df12-1481-4798" name="Explosives" hidden="false" collective="false" import="true" targetId="ae5e-6636-b33c-051b" type="selectionEntryGroup"/>
                 <entryLink id="ef9a-3c65-09e7-2468" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="c7e8-1f2d-1ea3-29ae" type="selectionEntryGroup"/>
+                <entryLink id="af6a-93cc-02f5-dd15" name="Squad Communications" hidden="false" collective="false" import="true" targetId="44d0-181c-4e1d-2e8c" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -3227,6 +3244,22 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="60cc-0570-fded-89f8" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e6f-ee75-a90a-f078" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3625-ed7d-fc74-34bc" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0161-ab50-4e35-3e21" name="Anti-Tank Weapons" hidden="false" collective="false" import="true" targetId="21a2-e213-95c8-b961" type="selectionEntryGroup"/>
+            <entryLink id="fe4c-4f77-d380-0d2a" name="Explosives" hidden="false" collective="false" import="true" targetId="ae5e-6636-b33c-051b" type="selectionEntryGroup"/>
+            <entryLink id="3ed3-270f-28d7-73b7" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="c7e8-1f2d-1ea3-29ae" type="selectionEntryGroup"/>
+            <entryLink id="c256-c70d-fdb0-eff8" name="Squad Communications" hidden="false" collective="false" import="true" targetId="44d0-181c-4e1d-2e8c" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -3373,6 +3406,10 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="13a2-1f7d-68a1-be68" name="Federal Coalition Power Armor" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfc2-d5f2-2978-a299" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="113e-9c2b-458e-427a" type="max"/>
+                  </constraints>
                   <rules>
                     <rule id="2844-5310-e681-d570" name="Federal Coalition Power Armor" publicationId="c8da-24a8-bcaa-8190" hidden="false">
                       <description>Federal Coalition Power Armor grants +1 to the armor, +1 to CMBT and +1 to Endurance. This stats have all been added the units stat line.</description>
@@ -4527,6 +4564,22 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="8b83-f63a-b459-44b5" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e908-bff4-247f-8c4d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a96f-18e7-1ccb-7b0e" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="260c-2601-9650-77b1" name="Anti-Tank Weapons" hidden="false" collective="false" import="true" targetId="21a2-e213-95c8-b961" type="selectionEntryGroup"/>
+            <entryLink id="ef6e-accb-d5d0-6855" name="Explosives" hidden="false" collective="false" import="true" targetId="ae5e-6636-b33c-051b" type="selectionEntryGroup"/>
+            <entryLink id="8cbb-6eb7-72a8-3cbe" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="c7e8-1f2d-1ea3-29ae" type="selectionEntryGroup"/>
+            <entryLink id="dfde-278f-9cc6-af5c" name="Squad Communications" hidden="false" collective="false" import="true" targetId="44d0-181c-4e1d-2e8c" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="5fbc-e58e-2d49-6849" name="Guardsmen Milita Special Forces Squad Leader" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="true" import="true" defaultSelectionEntryId="250d-53fa-9c7b-d662">
@@ -4678,6 +4731,22 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b684-1570-048d-2810" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16eb-d5de-6fe0-ed04" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c51-eefb-e2bb-0bd8" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d2ce-faeb-88a1-5815" name="Anti-Tank Weapons" hidden="false" collective="false" import="true" targetId="21a2-e213-95c8-b961" type="selectionEntryGroup"/>
+            <entryLink id="ece0-a82f-3b43-48af" name="Explosives" hidden="false" collective="false" import="true" targetId="ae5e-6636-b33c-051b" type="selectionEntryGroup"/>
+            <entryLink id="2018-c231-66e1-badd" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="c7e8-1f2d-1ea3-29ae" type="selectionEntryGroup"/>
+            <entryLink id="d2b0-c97e-c81a-e987" name="Squad Communications" hidden="false" collective="false" import="true" targetId="44d0-181c-4e1d-2e8c" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -5901,6 +5970,22 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="459c-b9db-1b31-212f" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="891b-8083-d368-36fb" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dbd-ff85-8a74-50d3" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8dc5-23c6-a846-5a56" name="Anti-Tank Weapons" hidden="false" collective="false" import="true" targetId="21a2-e213-95c8-b961" type="selectionEntryGroup"/>
+            <entryLink id="cf02-a810-53d0-fbb0" name="Explosives" hidden="false" collective="false" import="true" targetId="ae5e-6636-b33c-051b" type="selectionEntryGroup"/>
+            <entryLink id="890f-9f69-7e8a-2303" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="c7e8-1f2d-1ea3-29ae" type="selectionEntryGroup"/>
+            <entryLink id="f4c9-d2b6-3e56-092f" name="Squad Communications" hidden="false" collective="false" import="true" targetId="44d0-181c-4e1d-2e8c" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="4234-46db-cd2c-64ba" name="Army Special Forces Squad Leader" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="true" import="true">
@@ -7102,6 +7187,7 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
             <entryLink id="9536-b49b-110b-7992" name="Anti-Tank Weapons" hidden="false" collective="false" import="true" targetId="21a2-e213-95c8-b961" type="selectionEntryGroup"/>
             <entryLink id="61d6-f895-02f6-12b5" name="Explosives" hidden="false" collective="false" import="true" targetId="ae5e-6636-b33c-051b" type="selectionEntryGroup"/>
             <entryLink id="18d1-7789-e659-2b16" name="Hand Grenades" hidden="false" collective="false" import="true" targetId="c7e8-1f2d-1ea3-29ae" type="selectionEntryGroup"/>
+            <entryLink id="d14b-bb7c-5705-0fda" name="Squad Communications" hidden="false" collective="false" import="true" targetId="44d0-181c-4e1d-2e8c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -8700,6 +8786,9 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="0e44-1372-1722-845a" name="Pistol" hidden="false" targetId="2bf3-65e8-f195-5487" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -8720,6 +8809,9 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="ba69-4b79-7506-9ccc" name="Pistol" hidden="false" targetId="2bf3-65e8-f195-5487" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>

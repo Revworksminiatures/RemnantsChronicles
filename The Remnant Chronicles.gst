@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="23" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="24" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c8da-24a8-bcaa-8190" name="The Remnant Chronicles Rulebook"/>
     <publication id="8c20-1e89-cba7-0494" name="Forces of the Federal Coalition "/>
@@ -3458,7 +3458,7 @@ Once a Token has been rolled for and the result applied, remove it from the game
       <description>If the Task Force Leader is killed, Another model with the Voice of Command Ability of Equal or Lesser Rank must be appointed as the new Task Force Leader. Killing the Task Force Leader counts towards Disrupt Enemy Leadership and also Take Prisoners if the Task Force Leader is captured. There may be only 1 Task Force Leader Per Task Force. </description>
     </rule>
     <rule id="41db-d4fa-3bf5-9e26" name="Voice of Command" publicationId="c8da-24a8-bcaa-8190" hidden="false">
-      <description>Use the unit cohesion range instead of LD+SZ when determining area of effect for command Cards</description>
+      <description>Certain models possess enhanced command abilities. The Voice of Command ability extends the area of effect for Command Cards to a range equal to the unit cohesion range of 5 inches plus the model’s Leadership (LD) and Intelligence (INT) attributes.</description>
     </rule>
     <rule id="479c-17c0-c10a-f743" name="Flexiable Command" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <description>A model with this special rule can spend an action during its activation to join or leave a LIGHT CORE unit. While part of the unit, it grants its special rules or abilities to the entire unit.</description>
@@ -3931,6 +3931,9 @@ The Models must be in base-to-base contact to perform the check.</description>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="4fbf-93d2-8360-2ee6" name="Heavy" hidden="false" targetId="3153-e2fe-8a63-449c" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -3938,13 +3941,13 @@ The Models must be in base-to-base contact to perform the check.</description>
     </selectionEntry>
     <selectionEntry id="f259-81a2-a49a-9ed4" name="Railgun" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="05a3-1400-aaf4-c18f" name="Railgun" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+        <profile id="05a3-1400-aaf4-c18f" name="Railgun" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
           <characteristics>
             <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct</characteristic>
             <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">30/60/OO</characteristic>
             <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">1</characteristic>
-            <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">20</characteristic>
-            <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Heavy</characteristic>
+            <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">15</characteristic>
+            <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Heavy, Piercing: 2</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4626,6 +4629,11 @@ Medkit        OO
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="13cd-64ce-c10d-a26d" name="Blast" hidden="false" targetId="2c83-dd28-35b9-0f5d" type="rule"/>
+        <infoLink id="d36e-4be4-da3f-b9d3" name="Piercing:X " publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="8015-9cc1-b80a-25a1" type="rule"/>
+        <infoLink id="2322-32f4-88ea-8c95" name="Single Use" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="f740-eeb9-719c-d5c7" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -4705,6 +4713,10 @@ Medkit        OO
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="dd8e-8ffd-2634-e7e8" name="Blast" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="2c83-dd28-35b9-0f5d" type="rule"/>
+        <infoLink id="97be-ac92-9c08-0ff5" name="Limited Ammo" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="4898-7f83-c872-4349" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -6886,8 +6898,9 @@ If an action cost for an objective exceeds double its starting value, the object
     <rule id="1e08-ca30-b162-2802" name="Stablized" hidden="false">
       <description>This model does not suffer a disadvantage when attacking with a weapon that has the Heavy Trait</description>
     </rule>
-    <rule id="6173-216f-8176-f9ae" name="Spray " hidden="false">
-      <description>This weapon attack spreads out from the attacker. The width is equal to the Rangefinder Template. Any Models caught under the Template must defend against the Attack.</description>
+    <rule id="6173-216f-8176-f9ae" name="Spray" hidden="false">
+      <description> This weapon attack spreads out in a cone from the attacker. The width of the spray is 3 inches. To use, place the Range Finder Tool over a target. Any models within the 3-inch width of the Spray are also hit and must take a DEF test against the weapon’s attack.
+</description>
     </rule>
     <rule id="1baa-6f0d-4ec3-49fb" name="Spec. Ammo (Special Ammunition)" hidden="false">
       <description>This Weapon can use different types of ammunition. The different profiles will be listed under the Model’s Special Rules Section. Each time this weapon attacks, regardless of the Ammo type used, mark off an Ammo Box.</description>
@@ -6996,7 +7009,10 @@ equal to X inches from the point where the weapon hit. The Blind Condition lasts
     <rule id="f323-0cdf-891e-1f8a" name="EM:X" hidden="false">
       <description>This weapon does electromagnetic damage. If a model with the Construct trait is hit by an EM:X weapon, the damage of X is added to the attack.</description>
     </rule>
-    <rule id="2a0f-026c-25bc-7634" name="Electronic" hidden="false"/>
+    <rule id="2a0f-026c-25bc-7634" name="Electronic" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+      <description>When targeted by an Electromagnetic weapon, the damage inflicted on the this vehicle or model is doubled. 
+</description>
+    </rule>
     <rule id="3eb5-a320-2ac6-2385" name="Deafened " hidden="false">
       <description>A model that is deafened loses all of its actions the next time it activates. It may not be affected by any command cards or rallied by friendly units.</description>
     </rule>
