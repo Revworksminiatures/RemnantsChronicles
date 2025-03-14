@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="24" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="25" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c8da-24a8-bcaa-8190" name="The Remnant Chronicles Rulebook"/>
     <publication id="8c20-1e89-cba7-0494" name="Forces of the Federal Coalition "/>
@@ -3898,7 +3898,7 @@ The Models must be in base-to-base contact to perform the check.</description>
     </selectionEntry>
     <selectionEntry id="78a8-d454-8a31-4812" name="Light Tank Gun" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="1c79-804f-1e8a-6165" name="Light Tank Gun" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+        <profile id="1c79-804f-1e8a-6165" name="Light Tank Gun" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
           <characteristics>
             <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct</characteristic>
             <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">15/30/OO</characteristic>
@@ -4373,7 +4373,7 @@ The Models must be in base-to-base contact to perform the check.</description>
     </selectionEntry>
     <selectionEntry id="c2a2-d6f1-d5b9-f991" name="Medium Machine Gun" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="0e96-85f3-ab6a-49a8" name="Medium Machine Gun" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+        <profile id="0e96-85f3-ab6a-49a8" name="Medium Machine Gun" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
           <characteristics>
             <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct</characteristic>
             <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">10/20/OO</characteristic>
@@ -4619,13 +4619,13 @@ Medkit        OO
     </selectionEntry>
     <selectionEntry id="b7e9-9fff-d7ff-373f" name="2-round Light Anti Armor Rocket Launcher" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="1508-ba30-a086-df45" name="2-round Light Anti Armor Rocket Launcher" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+        <profile id="1508-ba30-a086-df45" name="2-round Light Anti Armor Rocket Launcher" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
           <characteristics>
             <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct</characteristic>
             <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">15/30/60</characteristic>
             <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">-</characteristic>
             <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">13</characteristic>
-            <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb"/>
+            <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Blast, Piercing:X, Single Use</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4716,6 +4716,7 @@ Medkit        OO
       <infoLinks>
         <infoLink id="dd8e-8ffd-2634-e7e8" name="Blast" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="2c83-dd28-35b9-0f5d" type="rule"/>
         <infoLink id="97be-ac92-9c08-0ff5" name="Limited Ammo" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="4898-7f83-c872-4349" type="rule"/>
+        <infoLink id="e5bc-6539-7969-5919" name="Single Use" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="f740-eeb9-719c-d5c7" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>

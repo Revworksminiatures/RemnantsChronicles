@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="23" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="24" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="3e5c-c3d7-7fa7-d7d6" name="Han&apos;s Crusaders (Casual Play)" publicationId="782f-493f-cc20-a098" hidden="false">
       <categoryLinks>
@@ -248,7 +248,7 @@
     </forceEntry>
   </forceEntries>
   <selectionEntries>
-    <selectionEntry id="a69a-b9a3-eed9-3463" name="Stockpiles Selection" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a69a-b9a3-eed9-3463" name="Stockpiles Selection (Max 2)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9816-25a7-65fc-4d4a" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0178-9cdf-c7d4-053b" type="min"/>
@@ -299,10 +299,10 @@
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2ae1-1206-d375-9c8e" name="Independent Factions" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2ae1-1206-d375-9c8e" name="Independent Factions (Max 2)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0f1a-52ed-d8bd-38f0" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c267-7462-1724-b3b6" type="min"/>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0f1a-52ed-d8bd-38f0" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c267-7462-1724-b3b6" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="dd27-7df3-7bd9-ec68" name="Armed Forces Selector" hidden="false" targetId="bc1c-3334-8a07-6030" primary="true"/>
@@ -496,6 +496,7 @@
           <infoLinks>
             <infoLink id="8ba5-7192-a070-e024" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
             <infoLink id="66c6-811d-1bc7-6adf" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
+            <infoLink id="77dd-f007-c229-70c5" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry id="75ad-4e3c-b83f-9126" name="2x Metal Fist" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -1306,6 +1307,110 @@ The Pak Mule can never benefit from its own ballistic shields
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="4aa7-f219-c1fa-ffad" name="Type 7 P.A.K. Mule UGV Attachment" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c20-f300-6bb0-4f1d" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="a5aa-ba6d-8f5d-1059" name="Construct" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="934c-8201-c567-37c2" type="rule"/>
+                <infoLink id="3625-9e12-0af1-70ad" name="Bulky" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="9f3a-57ab-abea-9055" type="rule"/>
+                <infoLink id="52a7-4a91-009e-9535" name="Cumbersome" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="8ca3-384f-643a-b0ff" type="rule"/>
+                <infoLink id="a0be-4336-065f-2979" name="Mechanum Wheels" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="4359-da52-3a45-63b3" type="rule"/>
+                <infoLink id="0af1-4d88-00be-2315" name="Stablized" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="1e08-ca30-b162-2802" type="rule"/>
+                <infoLink id="305f-9d76-a05b-6c48" name="Resist EM: X" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5b87-887a-1c84-e626" type="rule"/>
+                <infoLink id="bc61-7045-237c-7c51" name="Type 7 P.A.K. Mule UGV" hidden="false" targetId="2158-291a-922e-dbc2" type="profile"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="451a-f053-657c-3faf" name="2x Ballistic Shields" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e92-8ba9-47e3-a62c" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f044-7108-5763-ed18" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="61a3-83cd-77bd-5aa3" name="Ballistic Shields" hidden="false">
+                      <description>This model may spend an action to deploy its shields. When the Ballistic Shields are deployed, any other models that are equal to or smaller in size and in the base-to-base contact are considered to be in Cover 3. While the shields are deployed the Pak Mule can only use a Move action once a round. 
+The PAK Mule must use an action to store the shield. When stored, the model may move normally and no models in the base contact gain any cover from the shields.
+Models that are in base contact in the front arc of this model do not benefit from Cover 3 from the shields when they are deployed. 
+The Pak Mule can never benefit from its own ballistic shields
+</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="84bd-d6ed-e824-321c" name="P.A.K Muke Primary Weapon" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b856-0c76-9da3-cf84" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c858-2a47-a581-a324" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="e24d-c46c-ce72-33e7" name="Automatic Grenade Launcher" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+                      <profiles>
+                        <profile id="9f51-d6e6-f3dc-438b" name="Automatic Grenade Launcher" publicationId="6f11-4351-f3f0-26cb" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+                          <characteristics>
+                            <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Indirect</characteristic>
+                            <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">15/30/60</characteristic>
+                            <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">1-3</characteristic>
+                            <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">12</characteristic>
+                            <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Blast:3, Belt Fed
+Ammo: OOO</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="8fa3-5836-138a-1c0a" name="Ammo" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="0f09-f549-0263-f861" type="rule"/>
+                        <infoLink id="0c74-7716-ca92-2d6c" name="Belt Fed" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="622c-5549-d899-9bff" type="rule"/>
+                        <infoLink id="b411-8475-10e5-ac29" name="Blast" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="2c83-dd28-35b9-0f5d" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-5.0"/>
+                        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <entryLinks>
+                    <entryLink id="629b-e650-d422-fc53" name="Light Machine Gun" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8470-6bb3-5742-f936" type="selectionEntry"/>
+                    <entryLink id="9de3-4e4b-d318-cea1" name="FlameThrower" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="6973-1648-21e8-3370" type="selectionEntry"/>
+                    <entryLink id="7db1-d5d7-fd6a-fb47" name="Pulse Beam Rifle" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="26be-6922-6f08-5fc0" type="selectionEntry"/>
+                    <entryLink id="8550-bc2f-1b10-2eca" name="Rocket Propelled Grenade" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="a39c-f766-a988-23d7" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="dacb-8c66-fb61-ad81" name="Spare Supplies" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="903e-4671-5939-e5b6" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="156e-c0b1-f22f-880d" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9bf-f01b-b42e-3e04" type="min"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="0711-7730-8a35-5362" name="Spare Ammo" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="878c-d1c1-b3d0-d700" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4fd-66ef-7043-929a" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26d3-b33d-349b-fd15" type="min"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="87fc-ff17-ac74-025e" name="Smoke Launchers" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="b971-a7da-c743-7465" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6708-9f02-30ce-ad62" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe97-7135-fc8e-a35e" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="39be-20c9-9649-7a6d" name="Senor Package" hidden="false" collective="false" import="true" targetId="bbe2-dd0d-f6cc-5ccf" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5456-9cbf-fc85-ad99" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f27e-ee8b-78e5-26ef" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="a268-2877-3762-c4b1" name="P.A.K Muke Primary Weapon" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" defaultSelectionEntryId="c6cd-fa4d-a673-55d6">
@@ -2040,7 +2145,6 @@ Ammo: OOO</characteristic>
       </selectionEntries>
       <entryLinks>
         <entryLink id="00b8-1862-8e49-e21a" name="Squad Equipment (Max 3 per Squad)" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
-        <entryLink id="aa5b-c1d6-52a7-75db" name="Lineage" hidden="false" collective="false" import="true" targetId="0f63-bd28-9d9c-d49a" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="5.0"/>
@@ -2273,7 +2377,7 @@ Ammo: OOO</characteristic>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="eb3d-5952-e102-dcc4" name="•Relentless Fury (Oyar BloodLine)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="eb3d-5952-e102-dcc4" name="•Relentless Fury (Oyar Lineage)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -2288,6 +2392,65 @@ Ammo: OOO</characteristic>
                 <rule id="5443-b82f-5546-ab7a" name="•Relentless Fury (Oyar BloodLine)" publicationId="782f-493f-cc20-a098" hidden="false">
                   <description>If a member of a HIRED GUN squad with a OYAR BLOODLINE is reduced to 0 wounds, they make make one final CMBT attack before being removed from the battlefield even if they do not have the action to do so. </description>
                 </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5643-f47e-1d55-f220" name="•Raider&apos;s Plunder (Oyar Lineage)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b6dd-bf62-ef07-4fdc" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11a3-1d0f-095f-5c1a" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="3233-ae34-0f6e-6fbb" name="•Raider&apos;s Plunder (Oyar Lineage)" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>If an Oyar LIGHT CORE unit destroys an enemy unit this turn, gain +. This card can be played at the start of your turn.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="52e4-7ca0-7e01-809f" name="•Stalwart Outpost (Autonomous Colonies)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="640d-8429-c7a4-a187" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53ff-99f6-8c8e-9cbe" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="7c65-2409-118d-02f0" name="•Stalwart Outpost" publicationId="782f-493f-cc20-a098" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d6a0-d805-d72d-1388" name="•Insurgent Strongpoints (Autonomous Colonies)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="640d-8429-c7a4-a187" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c54-8f3c-d83c-004e" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="6807-b0d8-ec12-c27f" name="•Stalwart Outpost" publicationId="782f-493f-cc20-a098" hidden="false"/>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
@@ -2402,7 +2565,9 @@ Ammo: OOO</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d85e-8062-6f81-5727" type="max"/>
               </constraints>
               <rules>
-                <rule id="3a34-3ce5-3237-28bf" name="••Nomadic Kingdom  (Han&apos;s Crusade)" publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
+                <rule id="3a34-3ce5-3237-28bf" name="••Nomadic Kingdom  (Han&apos;s Crusade)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+                  <description>This unit gains the ability to move an additional time this turn without expending an action. Additionally, if the unit ends its movement within an objective zone, gain +1 Victory Point.</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -2421,7 +2586,9 @@ Ammo: OOO</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fd2-1382-0e46-1d06" type="max"/>
               </constraints>
               <rules>
-                <rule id="3ba1-5406-000c-3aa4" name="••Banished Elite   (Han&apos;s Crusade)" publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
+                <rule id="3ba1-5406-000c-3aa4" name="••Banished Elite   (Han&apos;s Crusade)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+                  <description>This HANS CRUSADER unit gains the INFILTRATE keyword at the start of the game. Discard after use</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -2510,7 +2677,7 @@ Ammo: OOO</characteristic>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8380-e0d5-a153-d4e8" name="••Valkyrie&apos;s Call (Oyar BloodLines)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8380-e0d5-a153-d4e8" name="••Valkyrie&apos;s Call (Oyar Lineage)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -2525,6 +2692,65 @@ Ammo: OOO</characteristic>
                 <rule id="9fb4-f041-2474-2d68" name="••Valkyrie&apos;s Call (Oyar BloodLines)" publicationId="782f-493f-cc20-a098" hidden="false">
                   <description>If a HIRED GUN squad with OYAR BLOODLINES  is engaged in melee combat and kills the enemy in Melee, the HIRED GUN squad gains an additonal action to reposition or advance immediately after the kill. This does not trigger any reactions for the opposing player. </description>
                 </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="878f-ddcd-af4f-3f7c" name="•• Storm of the Void (Oyar Lineage)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b6dd-bf62-ef07-4fdc" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e29-cc6d-cf7b-9ae6" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="0077-c7ca-f8a3-49a2" name="•• Storm of the Void (Oyar Lineage)" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>Select a LIGHT CORE OYAR LINEAGE unit.  This unit may move and attack in the same activation. If they successfully charge into melee this turn, they gain an additional dice to their dice pool for each model in the unit.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5237-14ed-558c-7a8d" name="••Sovereign Haven (Autonomous Colonies)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="640d-8429-c7a4-a187" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3053-d97b-b5b9-8c47" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="f0ae-74a2-f069-dd6c" name="••Sovereign Haven (Autonomous Colonies)" publicationId="782f-493f-cc20-a098" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c88c-d48e-d2ec-0b38" name="••Resolute Outlanders (Autonomous Colonies)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="640d-8429-c7a4-a187" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc10-5f63-f98a-6120" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="ca81-ca2b-cf13-883c" name="••Resolute Outlanders (Autonomous Colonies)" publicationId="782f-493f-cc20-a098" hidden="false"/>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -2632,7 +2858,9 @@ Ammo: OOO</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd5e-1d7d-c1cb-f022" type="max"/>
               </constraints>
               <rules>
-                <rule id="5b9d-4bb7-513c-830c" name="••• Royal Wardens  (Han&apos;s Crusade)" publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
+                <rule id="5b9d-4bb7-513c-830c" name="••• Royal Wardens  (Han&apos;s Crusade)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+                  <description>The chosen HANS CRUSADER unit gains the ADVANCED DEPLOYMENT keyword for this game. </description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
@@ -2651,7 +2879,9 @@ Ammo: OOO</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea7f-b4dc-e199-dc54" type="max"/>
               </constraints>
               <rules>
-                <rule id="478a-50bf-151c-3622" name="••• Sovereign&apos;s in Exile  (Han&apos;s Crusade)" publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
+                <rule id="478a-50bf-151c-3622" name="••• Sovereign&apos;s in Exile  (Han&apos;s Crusade)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+                  <description>Play this card at the start of the Activation Phase. Select up to two enemy units within 12 inches of any unit with the HANS CRUSADER keyword. These enemy units immediately gain 2 Nerve Tokens and lose 1 Action during their next activation.</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
@@ -2716,7 +2946,7 @@ Ammo: OOO</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f45-8c1b-b7ea-8525" type="max"/>
               </constraints>
               <rules>
-                <rule id="d0ab-5956-e77b-1bca" name="•••Uncertain Loyalties (Erland seditionist) " hidden="false"/>
+                <rule id="d0ab-5956-e77b-1bca" name="•••Uncertain Loyalties (Erland seditionist) " publicationId="782f-493f-cc20-a098" hidden="false"/>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
@@ -2742,7 +2972,7 @@ Ammo: OOO</characteristic>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4a55-8cbc-75d0-ecd1" name="•••Legacy of Steel (Oyar BloodLines)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4a55-8cbc-75d0-ecd1" name="•••Legacy of Steel (Oyar Lineage)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -2756,6 +2986,48 @@ Ammo: OOO</characteristic>
               <rules>
                 <rule id="e1ac-a057-93ab-0a91" name="•••Legacy of Steel (Oyar BloodLines)" publicationId="782f-493f-cc20-a098" hidden="false">
                   <description>A HIRED GUN or BOUNTY HUNTER SQUAD with the OYAR BLOODLINES lineage gains +2 Piercing to their Melee weapons for the round of combat that this card is played.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="073d-cfae-3187-bff9" name="•••Unyielding Frontiersmen  (Autonomous Colonies)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="640d-8429-c7a4-a187" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ff0-fd3e-77bf-6d80" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="76be-e68b-4be1-acc4" name="••Unyielding Frontiersmen  (Autonomous Colonies)" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>Two Autonomous LIGHT CORE units gain Advanced Deployment at the beginning of the game. If deployed in cover, they also gain +1 to NERVE until they move out of that cover. This card must be played at the beginning of the game.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b1e4-d036-263a-8bdc" name="•••Defenders Sanctuaries  (Autonomous Colonies)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="640d-8429-c7a4-a187" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdb5-1dd4-9985-bbd8" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="a839-c966-153d-d200" name="••Defenders Sanctuaries  (Autonomous Colonies)" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>If an Autonomous LIGHT CORE LIVING unit is fully within cover, it gains +2 to its NERVE stat as long as it remains within cover for this turn.</description>
                 </rule>
               </rules>
               <costs>
@@ -2995,6 +3267,48 @@ Ammo: OOO</characteristic>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="4.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f4c1-70d8-2efa-686f" name="Independents PDAM-530 Assault Transport" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3ef7-5a45-7e70-4455" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="24e6-2583-1e16-152a" name="Light Support" hidden="false" targetId="45b0-9ee5-e76b-4914" primary="true"/>
+        <categoryLink id="5fb5-3b16-092e-f110" name="Light Support" hidden="false" targetId="45b0-9ee5-e76b-4914" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b847-de47-d82e-8920" name="Independents PDAM-530 Assault Transport" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab8c-79dc-f3d1-1e1b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fb7-ff71-594c-6f95" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="13e3-beab-4711-252b" name="Armored" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5cdd-1b21-9cee-76de" type="rule"/>
+            <infoLink id="5e74-7035-9013-c9eb" name="Fly" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="05c5-d7d9-c3e9-8ba5" type="rule"/>
+            <infoLink id="5b7f-1853-6ba5-ce01" name="Hover" hidden="false" targetId="9df6-6829-df07-ef91" type="rule"/>
+            <infoLink id="4690-b79f-2774-07ce" name="Transport: X" hidden="false" targetId="369e-0c29-6c01-f12b" type="rule"/>
+            <infoLink id="04cd-cd5c-5648-c42f" name="Independents PDAM-530 HAVOC Support" hidden="false" targetId="5a79-f33a-e87e-06b6" type="profile"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="655e-1ba9-5abb-ba35" name="HAVOC Upgrades" hidden="false" collective="false" import="true" targetId="acee-a966-194d-e3af" type="selectionEntryGroup"/>
+            <entryLink id="8394-68f0-8ddb-1c81" name="HAVOC Weapons" hidden="false" collective="false" import="true" targetId="889c-7917-52f4-6490" type="selectionEntryGroup"/>
+            <entryLink id="adf5-04c4-8250-8074" name="HAVOC Weapons" hidden="false" collective="false" import="true" targetId="889c-7917-52f4-6490" type="selectionEntryGroup"/>
+            <entryLink id="77b2-fd9a-7d27-5baf" name="Surplus Modification" hidden="false" collective="false" import="true" targetId="a48a-6f2e-2705-a900" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="20.0"/>
           </costs>
         </selectionEntry>
@@ -3489,7 +3803,7 @@ Ammo: OOO</characteristic>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7476-e5ae-9c09-a947" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="4f55-a05e-541b-56d0" name="Oyar Bloodlines" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4f55-a05e-541b-56d0" name="Oyar Lineage" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05b2-e7e5-5439-0446" type="max"/>
           </constraints>
@@ -3503,7 +3817,7 @@ Ammo: OOO</characteristic>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4c59-eabe-b3d5-2ec3" name="Stalland Bloodlines" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4c59-eabe-b3d5-2ec3" name="Stalland Lineage" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5325-5895-1d5c-802c" type="max"/>
           </constraints>
@@ -3659,8 +3973,8 @@ Ammo: OOO</characteristic>
     <profile id="8c9f-5c0a-a51c-df1a" name="Assassin&apos;s Guild Team" publicationId="782f-493f-cc20-a098" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
-        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
-        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">3</characteristic>
         <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">2</characteristic>
         <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
         <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
@@ -4069,6 +4383,21 @@ Ammo: OOO</characteristic>
         <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">2</characteristic>
         <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
         <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5a79-f33a-e87e-06b6" name="Independents PDAM-530 Assault Transport" publicationId="782f-493f-cc20-a098" hidden="false" typeId="41dd-5dc6-25fb-0fec" typeName="HAVOC (High Altitude Void Operable Craft)">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="4633-6459-4bd3-e726">Fly, Hover, Armored, Transport: 6</characteristic>
+        <characteristic name="CMBT" typeId="eb85-3ac6-58e1-f7a9">2</characteristic>
+        <characteristic name="DEF" typeId="433c-b0b2-1479-82a1">2</characteristic>
+        <characteristic name="ATHL" typeId="eb57-555c-3be1-767d">2</characteristic>
+        <characteristic name="INT" typeId="c57d-6641-9fa9-54eb">2</characteristic>
+        <characteristic name="LD" typeId="50a1-cbc1-0863-bab7">2</characteristic>
+        <characteristic name="ARMOR" typeId="8114-e1e1-84cf-8538">12/11/10</characteristic>
+        <characteristic name="END" typeId="dd36-bcb2-7fcd-8e42">4</characteristic>
+        <characteristic name="NERVE" typeId="d831-570a-d7a0-0a7f">3</characteristic>
+        <characteristic name="MOVE" typeId="9bbe-c282-7305-bd5b">7</characteristic>
+        <characteristic name="SIZE" typeId="2dfb-1c0b-95d8-1e29">9-H</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

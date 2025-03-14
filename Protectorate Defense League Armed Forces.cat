@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="25" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="26" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="4f5f-9cb5-c624-6d11" name="Central Guard Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -308,7 +308,7 @@
       <selectionEntries>
         <selectionEntry id="48f5-6343-8718-3b0a" name="Type 7 P.A.K. Mule UGV " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f251-25dd-920c-e0e4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f251-25dd-920c-e0e4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c6b-b983-363c-3ab5" type="min"/>
           </constraints>
           <infoLinks>
@@ -338,6 +338,72 @@ The Pak Mule can never benefit from its own ballistic shields
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c281-2117-1f78-619c" name="Type 7 P.A.K. Mule UGV Attachment" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f50-dd69-ddee-dee1" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="d3b9-cf60-3008-4a39" name="Construct" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="934c-8201-c567-37c2" type="rule"/>
+                <infoLink id="d4de-ca15-29a2-6ce6" name="Type 7 P.A.K. Mule UGV" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="0622-8897-516d-deaa" type="profile"/>
+                <infoLink id="3957-dfa7-ab10-b187" name="Bulky" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="9f3a-57ab-abea-9055" type="rule"/>
+                <infoLink id="93f1-e2d0-08c3-6ac7" name="Cumbersome" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="8ca3-384f-643a-b0ff" type="rule"/>
+                <infoLink id="473f-f2cf-e2d9-a7ae" name="Mechanum Wheels" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="4359-da52-3a45-63b3" type="rule"/>
+                <infoLink id="4eb4-a64e-6a4a-d340" name="Stablized" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="1e08-ca30-b162-2802" type="rule"/>
+                <infoLink id="0709-5f3f-c3e3-57e7" name="Resist EM: X" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5b87-887a-1c84-e626" type="rule"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="28e1-5559-d8fb-3c4d" name="2x Ballistic Shields" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9092-cca7-fe75-26a6" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3af1-a22e-3d45-8ffc" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="faca-17ec-478d-d1bd" name="Ballistic Shields" hidden="false">
+                      <description>This model may spend an action to deploy its shields. When the Ballistic Shields are deployed, any other models that are equal to or smaller in size and in the base-to-base contact are considered to be in Cover 3. While the shields are deployed the Pak Mule can only use a Move action once a round. 
+The PAK Mule must use an action to store the shield. When stored, the model may move normally and no models in the base contact gain any cover from the shields.
+Models that are in base contact in the front arc of this model do not benefit from Cover 3 from the shields when they are deployed. 
+The Pak Mule can never benefit from its own ballistic shields
+</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="242e-63e4-dbca-70c2" name="Spare Supplies" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="903e-4671-5939-e5b6" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3b5-a175-5fd3-e055" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26ba-19d7-385d-69b5" type="min"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="48a7-7548-f38a-dfbf" name="Spare Ammo" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="878c-d1c1-b3d0-d700" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06c5-ec14-ed8e-ee62" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea32-71c3-12ab-c166" type="min"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="0c75-9f2f-b912-3923" name="Smoke Launchers" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="b971-a7da-c743-7465" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="415c-aed9-f49d-2d6d" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3644-a320-f597-4a18" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="7e02-ed1e-f73f-c4c9" name="Senor Package" hidden="false" collective="false" import="true" targetId="bbe2-dd0d-f6cc-5ccf" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfd0-fdf5-7ae2-a43b" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e08c-c10a-4d31-1cd4" type="min"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="df6e-547b-6534-e933" name="P.A.K Mule Primary Weapon" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="0de6-dcb7-98e5-dd84" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -375,7 +441,7 @@ The Pak Mule can never benefit from its own ballistic shields
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="10.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="20.0"/>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
       </costs>
     </selectionEntry>
@@ -750,9 +816,6 @@ The Pak Mule can never benefit from its own ballistic shields
       </costs>
     </selectionEntry>
     <selectionEntry id="9109-94ba-a866-0d23" name="JP-7 &quot;BlackStar&quot; HAVOC Support" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93d6-2a54-6aec-9309" type="max"/>
-      </constraints>
       <categoryLinks>
         <categoryLink id="bebb-a02d-fc8b-13c2" name="Light Support" hidden="false" targetId="45b0-9ee5-e76b-4914" primary="true"/>
       </categoryLinks>
@@ -1667,9 +1730,6 @@ The Pak Mule can never benefit from its own ballistic shields
       </costs>
     </selectionEntry>
     <selectionEntry id="66b4-e912-bfdc-f6b1" name="JP-9 Aurora Gunship HAVOC Support" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7894-9864-5e19-d256" type="max"/>
-      </constraints>
       <categoryLinks>
         <categoryLink id="ff9a-a372-909f-1586" name="Heavy Support" hidden="false" targetId="4749-85c7-9d41-aa3f" primary="true"/>
       </categoryLinks>
@@ -1684,6 +1744,7 @@ The Pak Mule can never benefit from its own ballistic shields
             <infoLink id="5672-798f-9dfc-c44b" name="Fly" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="05c5-d7d9-c3e9-8ba5" type="rule"/>
             <infoLink id="3842-ea9b-c693-a74d" name="Hover" hidden="false" targetId="9df6-6829-df07-ef91" type="rule"/>
             <infoLink id="bf2e-43dd-dae9-7cb6" name="Transport: X" hidden="false" targetId="369e-0c29-6c01-f12b" type="rule"/>
+            <infoLink id="b2c6-9350-5e86-5314" name="JP-9 &quot;Aurora&quot; HAVOC" hidden="false" targetId="6292-a39e-cf29-167c" type="profile"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry id="9fbb-4c92-5822-edc9" name="JP-9 Aurora Gunship Veteran Pilot" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -2789,6 +2850,63 @@ The Pak Mule can never benefit from its own ballistic shields
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="6352-843f-9b97-b5b2" name="PDAM-530 Assault Transport" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d7b9-ffa4-5975-0e4b" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="62e9-bc36-955e-1fc2" name="Light Support" hidden="false" targetId="45b0-9ee5-e76b-4914" primary="true"/>
+        <categoryLink id="9254-d3bb-dbbd-4c06" name="Light Support" hidden="false" targetId="45b0-9ee5-e76b-4914" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a249-5346-d304-441a" name="PDAM-530 Assault Transport" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="122a-873f-3153-adc7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d596-d40a-5af5-bc55" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d14b-9b5b-0a37-a944" name="Armored" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5cdd-1b21-9cee-76de" type="rule"/>
+            <infoLink id="4e1e-6528-1464-475e" name="Fly" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="05c5-d7d9-c3e9-8ba5" type="rule"/>
+            <infoLink id="27b5-eb61-a91b-d370" name="Hover" hidden="false" targetId="9df6-6829-df07-ef91" type="rule"/>
+            <infoLink id="ddaf-fc9d-c419-84d5" name="Transport: X" hidden="false" targetId="369e-0c29-6c01-f12b" type="rule"/>
+            <infoLink id="9a50-59ce-1a62-aa64" name="PDAM-530 HAVOC" hidden="false" targetId="2409-1bda-5f44-1b0c" type="profile"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="5923-f877-3dba-78fb" name="PDAM-530 Veteran Pilot" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b87-4ed9-62ff-9dd9" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="9894-13b1-47b3-fe49" name="Voice of Command" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5581-8d83-3043-4a25" type="rule"/>
+                <infoLink id="b188-84f8-8e37-db0b" name="Veteran Crew" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="cc82-cc85-07be-750b" type="rule"/>
+                <infoLink id="4780-69a5-df80-e64a" name="Veteran Pilot" hidden="false" targetId="aaa1-218c-ea0a-22a4" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="3.0"/>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="0512-ec8a-0934-4e1b" name="HAVOC Upgrades" hidden="false" collective="false" import="true" targetId="acee-a966-194d-e3af" type="selectionEntryGroup"/>
+            <entryLink id="f861-b8e1-8e8d-0790" name="HAVOC Weapons" hidden="false" collective="false" import="true" targetId="889c-7917-52f4-6490" type="selectionEntryGroup"/>
+            <entryLink id="617e-8025-cb52-04ee" name="HAVOC Weapons" hidden="false" collective="false" import="true" targetId="889c-7917-52f4-6490" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="ce4c-1396-5e64-75db" name="Protectorate Defense League Power Armor" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -3231,6 +3349,72 @@ Ammo: OOO</characteristic>
       </entryLinks>
       <costs>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="1.0"/>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ad35-247c-5799-fe28" name="Type 7 P.A.K. Mule UGV Attachment" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f61-4abd-0c1e-98aa" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="0ac8-6b4e-f7f2-273e" name="Construct" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="934c-8201-c567-37c2" type="rule"/>
+        <infoLink id="65a0-b2f8-74f9-128d" name="Type 7 P.A.K. Mule UGV" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="0622-8897-516d-deaa" type="profile"/>
+        <infoLink id="d1e0-d3d3-fc10-54c0" name="Bulky" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="9f3a-57ab-abea-9055" type="rule"/>
+        <infoLink id="969b-e42c-e84b-cff7" name="Cumbersome" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="8ca3-384f-643a-b0ff" type="rule"/>
+        <infoLink id="e363-9bfa-0ece-dff1" name="Mechanum Wheels" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="4359-da52-3a45-63b3" type="rule"/>
+        <infoLink id="f8d7-b74c-d73a-ca56" name="Stablized" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="1e08-ca30-b162-2802" type="rule"/>
+        <infoLink id="81e5-f0e5-7cc9-360e" name="Resist EM: X" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5b87-887a-1c84-e626" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="a7ce-878e-8680-4982" name="2x Ballistic Shields" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d164-1eb9-fa1f-e83c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b0e-2a34-f9b8-e5e4" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="ea87-e95d-4b3b-fe01" name="Ballistic Shields" hidden="false">
+              <description>This model may spend an action to deploy its shields. When the Ballistic Shields are deployed, any other models that are equal to or smaller in size and in the base-to-base contact are considered to be in Cover 3. While the shields are deployed the Pak Mule can only use a Move action once a round. 
+The PAK Mule must use an action to store the shield. When stored, the model may move normally and no models in the base contact gain any cover from the shields.
+Models that are in base contact in the front arc of this model do not benefit from Cover 3 from the shields when they are deployed. 
+The Pak Mule can never benefit from its own ballistic shields
+</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="f5e9-4a1e-2c63-4077" name="Spare Supplies" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="903e-4671-5939-e5b6" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="330f-3c29-0019-29c5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5977-fabd-0d3d-3ee1" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7f4e-63b1-2dc5-262b" name="Spare Ammo" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="878c-d1c1-b3d0-d700" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58f2-6f47-f0b8-74f1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ad4-7241-15ed-d24c" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6eaa-c436-37a0-6844" name="Smoke Launchers" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="b971-a7da-c743-7465" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8ac-44a1-f8d5-9a1c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="960f-b27e-b74f-85f1" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="35c8-da3c-e20c-5783" name="Senor Package" hidden="false" collective="false" import="true" targetId="bbe2-dd0d-f6cc-5ccf" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fda0-d509-08f1-f560" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a8b-58cd-1c93-1ff7" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="19b0-e25a-45b2-eec6" name="P.A.K Mule Primary Weapon" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="0de6-dcb7-98e5-dd84" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-4.0"/>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4307,7 +4491,7 @@ Ammo: OOO</characteristic>
     </profile>
     <profile id="6292-a39e-cf29-167c" name="JP-9 &quot;Aurora&quot; HAVOC" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="41dd-5dc6-25fb-0fec" typeName="HAVOC (High Altitude Void Operable Craft)">
       <characteristics>
-        <characteristic name="Key Traits" typeId="4633-6459-4bd3-e726">Fly, Hover, Armored</characteristic>
+        <characteristic name="Key Traits" typeId="4633-6459-4bd3-e726">Fly, Hover, Armored, Transport: 8</characteristic>
         <characteristic name="CMBT" typeId="eb85-3ac6-58e1-f7a9">3</characteristic>
         <characteristic name="DEF" typeId="433c-b0b2-1479-82a1">3</characteristic>
         <characteristic name="ATHL" typeId="eb57-555c-3be1-767d">2</characteristic>
@@ -4443,6 +4627,21 @@ Ammo: OOO</characteristic>
     <profile id="9574-d567-a0b9-1ff0" name="Type 221 &quot;Armada&quot; Tank" publicationId="6f11-4351-f3f0-26cb" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
       <characteristics>
         <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d"/>
+        <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6"/>
+        <characteristic name="DEF" typeId="26f5-47a1-8310-51da"/>
+        <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4"/>
+        <characteristic name="INT" typeId="b52b-fc57-76e8-5e4b"/>
+        <characteristic name="LD" typeId="1c19-dad2-a576-46c1"/>
+        <characteristic name="ARMOR" typeId="0abc-6803-65ce-ea04"/>
+        <characteristic name="END" typeId="60e8-bc63-0a32-48e5"/>
+        <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34"/>
+        <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90"/>
+        <characteristic name="SIZE" typeId="1adb-2fcb-5438-776f"/>
+      </characteristics>
+    </profile>
+    <profile id="2409-1bda-5f44-1b0c" name="PDAM-530 Assault Transport" publicationId="6f11-4351-f3f0-26cb" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d">Fly, Hover, Armored, Transport: 6</characteristic>
         <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6"/>
         <characteristic name="DEF" typeId="26f5-47a1-8310-51da"/>
         <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4"/>

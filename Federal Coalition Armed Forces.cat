@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="22" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="23" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="674c-569a-ca53-7190" name="Marine Boarding Assault Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -186,11 +186,12 @@
                   <profiles>
                     <profile id="e135-c1a3-a45d-362c" name="2x Light Tank Gun" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
                       <characteristics>
-                        <characteristic name="Type" typeId="e829-a194-1e82-ef0e"/>
-                        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd"/>
-                        <characteristic name="RoF" typeId="78b1-0557-98bf-20b5"/>
-                        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4"/>
-                        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb"/>
+                        <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct</characteristic>
+                        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">15/30/OO 
+</characteristic>
+                        <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">1-2</characteristic>
+                        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">14</characteristic>
+                        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Heavy</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -207,13 +208,13 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="598e-364d-398a-ac5e" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="6e16-1eca-9be0-f44a" name="2x Medium Tank Guns" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+                    <profile id="6e16-1eca-9be0-f44a" name="2x Medium Tank Guns" publicationId="8c20-1e89-cba7-0494" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
                       <characteristics>
-                        <characteristic name="Type" typeId="e829-a194-1e82-ef0e"/>
-                        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd"/>
-                        <characteristic name="RoF" typeId="78b1-0557-98bf-20b5"/>
-                        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4"/>
-                        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb"/>
+                        <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct</characteristic>
+                        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">30/60/OO </characteristic>
+                        <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">1-2</characteristic>
+                        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">15</characteristic>
+                        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Heavy</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5392,7 +5393,7 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
       <selectionEntries>
         <selectionEntry id="6db7-8cf6-3d40-fc0f" name="Combat Automated Loader " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f286-86dd-b02b-a9ec" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f286-86dd-b02b-a9ec" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb34-ba0f-6137-95ca" type="min"/>
           </constraints>
           <selectionEntryGroups>
@@ -5816,6 +5817,7 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c253-f234-0a3d-93e1" type="max"/>
               </constraints>
             </entryLink>
+            <entryLink id="d80b-7c73-ff1f-0033" name="Combat Automated Loader Team Attachment" hidden="false" collective="false" import="true" targetId="a6ca-be1a-d5c3-8fbd" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -10429,6 +10431,424 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
           </entryLinks>
           <costs>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a6ca-be1a-d5c3-8fbd" name="Combat Automated Loader Team Attachment" hidden="false" collective="true" import="true">
+      <selectionEntries>
+        <selectionEntry id="0d51-059a-e5f5-dbf5" name="Combat Automated Loader (CAL Mk1)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="788d-a173-e825-4e28" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="12f8-d038-1ab5-480f" name="Combat Automated Loader (CAL Mk1)" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+              <characteristics>
+                <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Construct, Arms, Legs, Cumbersome, Resist EM:2, Tough:2 </characteristic>
+                <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
+                <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">1</characteristic>
+                <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+                <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+                <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">1</characteristic>
+                <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">12</characteristic>
+                <characteristic name="END" typeId="9490-11f5-1aaf-c586">2(5)</characteristic>
+                <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">-</characteristic>
+                <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">4</characteristic>
+                <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">7- Large</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="c331-4b2e-84f8-e0d1" name="CAL Weapon Selection" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02c6-57a8-1cb0-ab80" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b71-1f1f-e0d9-8240" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="906d-58ca-ee30-0168" name="Two Light Machine Guns" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="9ebd-caf7-2d9c-1cc6" name="M892A3 Light Machine Gun" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct</characteristic>
+                        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">10/20/OO</characteristic>
+                        <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">2-3</characteristic>
+                        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">10</characteristic>
+                        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Auto</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="4b57-b3df-9ae1-92b5" name="Auto (Automatic)" hidden="false" targetId="f7d5-73e2-4f36-0461" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="6462-3b25-cf43-98d1" name="Anti Material Sniper Rifle" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="7f91-b41b-9e54-7900" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-4.0"/>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9a7c-852b-99a9-9d63" name="• &quot;Relentless&quot; Combat Automated Loader (CAL Mk 1)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="89d8-cf0a-2b59-8519" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b79-61fc-f1b5-4b0d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="586e-40ec-8607-923c" name="• &quot;Relentless&quot; Combat Automated Loader (CAL Mk 1)" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+              <characteristics>
+                <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Construct, Arms, Legs, Cumbersome, Resist EM:2, Tough:2 </characteristic>
+                <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
+                <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">1</characteristic>
+                <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+                <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+                <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">1</characteristic>
+                <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">12</characteristic>
+                <characteristic name="END" typeId="9490-11f5-1aaf-c586">2(5)</characteristic>
+                <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">-</characteristic>
+                <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">4</characteristic>
+                <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">7- Large</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="f864-9ac9-e50e-89c3" name="Unstable Combat Programming" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+              <description>Relentless has the &quot;Fearless&quot; Special rule as described in the Remnant Rulebook</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="a741-5460-bc99-b59f" name="Fearless" hidden="false" targetId="1840-3c7e-cb3d-5444" type="rule"/>
+            <infoLink id="881e-44b3-abe5-2d24" name="Construct" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="934c-8201-c567-37c2" type="rule"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="3afd-83ec-7f94-3030" name="CAL Weapon Selection" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ac2-0b8a-93eb-c27e" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8b8-7c8e-495b-a476" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="d9e6-36eb-86a6-867a" name="Two Light Machine Guns" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="3f9b-d537-dc7f-2ec5" name="M892A3 Light Machine Gun" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct</characteristic>
+                        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">10/20/OO</characteristic>
+                        <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">2-3</characteristic>
+                        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">10</characteristic>
+                        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Auto</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="cac6-4253-fd40-ceef" name="Auto (Automatic)" hidden="false" targetId="f7d5-73e2-4f36-0461" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="9057-0ab7-71c7-4cf3" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f5d-f310-27a3-68db" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0edb-d74d-1e23-8bc3" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="34dc-1b1d-e462-9395" name="Hand to Hand Combat" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="2772-828a-0b7c-24f8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2958-a515-2b98-0003" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9124-3a63-9c1e-ae57" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="c6ce-c0df-a97c-81b7" name="Senor Package" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="bbe2-dd0d-f6cc-5ccf" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c31-39ef-f06d-6190" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ebf-611e-e9b3-57ec" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="25a2-8f07-7373-09be" name="Stabilizers " hidden="false" collective="false" import="true" targetId="6450-d775-6654-a999" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2c0-8b0c-f9aa-83ef" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1c0-2e40-4aac-6db4" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="4206-5e29-673c-2310" name="Target Designator" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="5d59-53f8-df05-dc7e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cb2-d8f7-b4a6-568b" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0622-54b3-cad7-6e39" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-6.0"/>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0dd3-79c7-e693-73a0" name="Combat Automated Loader (CAL Mk2)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8be4-e13a-b373-fc47" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="678c-95ba-a179-b6e8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="983c-76e8-9c0a-1165" name="Combat Automated Loader (CAL Mk2)" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+              <characteristics>
+                <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Construct, Arms, Legs, Cumbersome, Resist EM:2, Tough:2 </characteristic>
+                <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
+                <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">1</characteristic>
+                <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+                <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+                <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">1</characteristic>
+                <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">12</characteristic>
+                <characteristic name="END" typeId="9490-11f5-1aaf-c586">2(5)</characteristic>
+                <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">-</characteristic>
+                <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">4</characteristic>
+                <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">7- Large</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7fb3-8bf2-fa64-6166" name="Fearless" hidden="false" targetId="1840-3c7e-cb3d-5444" type="rule"/>
+            <infoLink id="8102-1b9e-004f-8ddd" name="Construct" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="934c-8201-c567-37c2" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="6daf-926c-5d95-4448" name="Reinforced Armor" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66c8-7c01-4dfb-2219" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99d0-aec4-1973-058e" type="min"/>
+              </constraints>
+              <rules>
+                <rule id="7194-80de-9ee9-8bfa" name="Reinforced Armor" publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="c39c-fe87-d72e-05ed" name="CAL Weapon Selection" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a506-1b81-ebac-601c" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd03-b3c8-eec3-2b1e" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="da69-fb8d-2702-4fb0" name="Two Light Machine Guns" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="04d3-3b36-74b7-6243" name="M892A3 Light Machine Gun" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct</characteristic>
+                        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">10/20/OO</characteristic>
+                        <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">2-3</characteristic>
+                        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">10</characteristic>
+                        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Auto</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="fb42-8347-b708-7a93" name="Auto (Automatic)" hidden="false" targetId="f7d5-73e2-4f36-0461" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="29bd-6c26-64db-03a7" name="Combat Automated Loader Variant" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c043-20f7-4b19-fa0b" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e62-715e-9eb9-597d" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="0bd5-a63a-32a7-2cd9" name="CAL Engineering Variant" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="0e4e-6f9c-a18f-6b6a" name="Construct" hidden="false" targetId="934c-8201-c567-37c2" type="rule"/>
+                  </infoLinks>
+                  <selectionEntries>
+                    <selectionEntry id="f297-b070-e670-f195" name="Two Light Machine Guns" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2cd-cd1e-16d7-d8e1" type="max"/>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a788-b79d-6add-e88d" type="min"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="7e04-63af-43d7-fcb6" name="M892A3 Light Machine Gun" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+                          <characteristics>
+                            <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct</characteristic>
+                            <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">10/20/OO</characteristic>
+                            <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">2-3</characteristic>
+                            <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">10</characteristic>
+                            <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Auto</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="ccc0-e36f-8f7b-0a86" name="Auto (Automatic)" hidden="false" targetId="f7d5-73e2-4f36-0461" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <entryLinks>
+                    <entryLink id="f1b2-d4f2-6bb4-cc68" name="Engineering Saw" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="4584-c690-2963-e8c4" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ce2-583b-d4ce-5e27" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce8c-aefe-04fa-e601" type="min"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="fcb3-4819-eeec-59f5" name="Hot Fix" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="d54d-fd72-a10a-45dd" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="581b-0d77-66a6-0796" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="477b-b686-70ab-8d0b" type="min"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="a07d-e9bb-3a0c-bbc1" name="Repair Kit" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="6e89-cbc0-7d2f-4c92" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9423-8725-284d-7d13" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce88-5ad6-903f-5e9c" type="min"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="4431-228b-1bef-4420" name="Terminal Splices" hidden="false" collective="false" import="true" targetId="b2f8-60db-07c8-cbc7" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="581a-9c47-f2c1-bf18" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e913-b62c-e12f-5d65" type="min"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="d9a9-d0d3-28aa-88be" name="Hand to Hand Combat" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="2772-828a-0b7c-24f8" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef5e-d6d7-40bf-3bf5" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b4b-1cf0-b293-5231" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
+                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="0aea-175a-b3ef-bb04" name="CAL Squad Support Variant" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="52d3-e27d-30dd-a4f9" name="CAL Squad Support Variant" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+                      <characteristics>
+                        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Construct, Arms, Legs, Cumbersome, Resist EM:2, Tough:2 </characteristic>
+                        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
+                        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">1</characteristic>
+                        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+                        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+                        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">1</characteristic>
+                        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">12</characteristic>
+                        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2(5)</characteristic>
+                        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">-</characteristic>
+                        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">4</characteristic>
+                        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">7- Large</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="91fd-f736-4f53-335a" name="Construct" hidden="false" targetId="934c-8201-c567-37c2" type="rule"/>
+                  </infoLinks>
+                  <selectionEntries>
+                    <selectionEntry id="19c3-9dd7-013e-9372" name="Two Light Machine Guns" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0e8-6781-1b0f-05e0" type="max"/>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d1d-2286-619a-79f0" type="min"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="62c0-065a-ae7b-b78b" name="M892A3 Light Machine Gun" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+                          <characteristics>
+                            <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct</characteristic>
+                            <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">10/20/OO</characteristic>
+                            <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">2-3</characteristic>
+                            <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">10</characteristic>
+                            <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Auto</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="e462-bbfb-4f90-5865" name="Auto (Automatic)" hidden="false" targetId="f7d5-73e2-4f36-0461" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <entryLinks>
+                    <entryLink id="c721-1b93-221e-4f06" name="Spare Ammo" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="878c-d1c1-b3d0-d700" type="selectionEntry"/>
+                    <entryLink id="2c41-053b-2d4e-ca1f" name="Spare Supplies" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="903e-4671-5939-e5b6" type="selectionEntry"/>
+                    <entryLink id="c021-536a-1033-80d8" name="Hand to Hand Combat" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="2772-828a-0b7c-24f8" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58c8-205c-ed89-0170" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ee2-2e81-693b-5af1" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="721f-5526-29b6-554e" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4864-206d-574e-8cd4" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4615-0456-0ed3-df45" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="078c-607b-4829-1dd2" name="Hand to Hand Combat" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="2772-828a-0b7c-24f8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8806-4b4b-7e68-6047" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3486-829e-7b33-5f03" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="afed-aa0e-1a8e-2325" name="Senor Package" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="bbe2-dd0d-f6cc-5ccf" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94e3-0892-1df4-2aeb" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8a3-7c11-3521-dbd8" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="9b2d-3da5-16b1-1112" name="Stabilizers " hidden="false" collective="false" import="true" targetId="6450-d775-6654-a999" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="949c-1a0b-c36c-92d5" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97d1-d9c5-1a30-dfe1" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="cfa9-09cc-88f2-840e" name="Target Designator" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="5d59-53f8-df05-dc7e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8085-1ab0-8ee0-1b92" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db82-b6f5-a527-7969" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-6.0"/>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
           </costs>
         </selectionEntry>

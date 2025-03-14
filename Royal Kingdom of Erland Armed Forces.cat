@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="11" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="12" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="a603-48d7-f61c-36e6" name="Special Operations Task Force (Casual Play)" publicationId="ecbd-4756-1610-637c" hidden="false">
       <categoryLinks>
@@ -1774,6 +1774,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
       <entryLinks>
         <entryLink id="10a2-f567-2db0-7515" name="Squad Equipment (Max 3 per Squad)" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
         <entryLink id="a3c2-9583-9852-8747" name="Erland Strykor Leader " hidden="false" collective="false" import="true" targetId="975e-eb8e-08a4-e6aa" type="selectionEntryGroup"/>
+        <entryLink id="b8d9-8cc3-eba6-0379" name="Lineage" hidden="false" collective="false" import="true" targetId="8d14-bba7-bfe8-e23b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="10.0"/>
@@ -2511,6 +2512,15 @@ Every model in the unit that uses this Tactical Asset will automatically take an
               </constraints>
             </entryLink>
             <entryLink id="b721-4780-27bc-e4c4" name="Task Force Leader" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
+            <entryLink id="33d7-6194-312d-0634" name="Lineage" hidden="false" collective="false" import="true" targetId="8d14-bba7-bfe8-e23b" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0a01-ffe9-d186-4c04" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="5.0"/>
@@ -2543,6 +2553,15 @@ Every model in the unit that uses this Tactical Asset will automatically take an
             <entryLink id="5b5c-8a43-dec1-109f" name="Royal Kingdom of Erland Primary Weapons" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" targetId="d5e0-3097-73ef-9470" type="selectionEntryGroup"/>
             <entryLink id="adc7-05de-647d-ee52" name="Royal Kingdom of Erland Secondary Weapons" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" targetId="9266-683a-a1bd-43bd" type="selectionEntryGroup"/>
             <entryLink id="331a-af99-0ec9-2b1f" name="Task Force Leader" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
+            <entryLink id="9083-baa2-0284-b287" name="Lineage" hidden="false" collective="false" import="true" targetId="8d14-bba7-bfe8-e23b" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0a01-ffe9-d186-4c04" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="7.0"/>
@@ -2575,6 +2594,15 @@ Every model in the unit that uses this Tactical Asset will automatically take an
             <entryLink id="80ff-72d2-4f9f-7434" name="Royal Kingdom of Erland Secondary Weapons" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" targetId="9266-683a-a1bd-43bd" type="selectionEntryGroup"/>
             <entryLink id="598e-3eec-7737-719c" name="Task Force Leader" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
             <entryLink id="fa95-cd49-c0b2-f2ef" name="Hand Grenades" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c7e8-1f2d-1ea3-29ae" type="selectionEntryGroup"/>
+            <entryLink id="903f-1dbc-697f-1c5d" name="Lineage" hidden="false" collective="false" import="true" targetId="8d14-bba7-bfe8-e23b" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0a01-ffe9-d186-4c04" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="9.0"/>
@@ -3152,6 +3180,22 @@ Every model in the unit that uses this Tactical Asset will automatically take an
           <costs>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="7.0"/>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8d14-bba7-bfe8-e23b" name="Lineage" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="7034-09ce-c24c-ced7" name="Paladins of Erland" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="716c-debd-6b66-fc4c" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="7fa6-94a0-801d-6eb0" name="Paladins of Erland" publicationId="ecbd-4756-1610-637c" hidden="false"/>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
