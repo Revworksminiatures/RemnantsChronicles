@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="25" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="26" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="26" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="3e5c-c3d7-7fa7-d7d6" name="Han&apos;s Crusaders (Casual Play)" publicationId="782f-493f-cc20-a098" hidden="false">
       <categoryLinks>
@@ -3306,6 +3306,7 @@ Ammo: OOO</characteristic>
             <entryLink id="8394-68f0-8ddb-1c81" name="HAVOC Weapons" hidden="false" collective="false" import="true" targetId="889c-7917-52f4-6490" type="selectionEntryGroup"/>
             <entryLink id="adf5-04c4-8250-8074" name="HAVOC Weapons" hidden="false" collective="false" import="true" targetId="889c-7917-52f4-6490" type="selectionEntryGroup"/>
             <entryLink id="77b2-fd9a-7d27-5baf" name="Surplus Modification" hidden="false" collective="false" import="true" targetId="a48a-6f2e-2705-a900" type="selectionEntry"/>
+            <entryLink id="9cbf-85a2-2ab1-0803" name="Anti-Personal Weapons " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="5ea4-d121-3247-864f" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>

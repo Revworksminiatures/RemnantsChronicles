@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="28" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="29" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="26" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="4f5f-9cb5-c624-6d11" name="Central Guard Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -1794,6 +1794,7 @@ The Pak Mule can never benefit from its own ballistic shields
             <entryLink id="3f89-cb4e-e294-82a5" name="HAVOC Upgrades" hidden="false" collective="false" import="true" targetId="acee-a966-194d-e3af" type="selectionEntryGroup"/>
             <entryLink id="4ecd-2710-a536-adea" name="HAVOC Weapons" hidden="false" collective="false" import="true" targetId="889c-7917-52f4-6490" type="selectionEntryGroup"/>
             <entryLink id="f5a4-2926-c2bb-d966" name="HAVOC Weapons" hidden="false" collective="false" import="true" targetId="889c-7917-52f4-6490" type="selectionEntryGroup"/>
+            <entryLink id="c579-92b4-ca63-e346" name="Anti-Personal Weapons " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="5ea4-d121-3247-864f" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="8.0"/>
@@ -2907,6 +2908,7 @@ The Pak Mule can never benefit from its own ballistic shields
             <entryLink id="0512-ec8a-0934-4e1b" name="HAVOC Upgrades" hidden="false" collective="false" import="true" targetId="acee-a966-194d-e3af" type="selectionEntryGroup"/>
             <entryLink id="f861-b8e1-8e8d-0790" name="HAVOC Weapons" hidden="false" collective="false" import="true" targetId="889c-7917-52f4-6490" type="selectionEntryGroup"/>
             <entryLink id="617e-8025-cb52-04ee" name="HAVOC Weapons" hidden="false" collective="false" import="true" targetId="889c-7917-52f4-6490" type="selectionEntryGroup"/>
+            <entryLink id="6853-8ce4-26b8-7708" name="Anti-Personal Weapons " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="5ea4-d121-3247-864f" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
