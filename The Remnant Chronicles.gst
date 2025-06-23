@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="25" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="26" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c8da-24a8-bcaa-8190" name="The Remnant Chronicles Rulebook"/>
     <publication id="8c20-1e89-cba7-0494" name="Forces of the Federal Coalition "/>
@@ -4466,7 +4466,7 @@ If the model moves, then it must spend another action to reengage the Stabilizer
       </infoLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a969-6800-858c-1fcb" name="Assault Shotgun" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -4512,7 +4512,7 @@ If the model moves, then it must spend another action to reengage the Stabilizer
       </infoLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d54d-fd72-a10a-45dd" name="Hot Fix" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">

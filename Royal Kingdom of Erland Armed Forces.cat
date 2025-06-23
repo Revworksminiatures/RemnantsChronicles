@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="12" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="13" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="a603-48d7-f61c-36e6" name="Special Operations Task Force (Casual Play)" publicationId="ecbd-4756-1610-637c" hidden="false">
       <categoryLinks>
@@ -1040,6 +1040,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
             <infoLink id="a118-b191-667d-f8db" name="Guided" hidden="false" targetId="b47c-7c4e-7f21-050e" type="rule"/>
             <infoLink id="9bea-37f9-d4c9-e166" name="Observer" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="f9de-63fa-4577-a269" type="rule"/>
             <infoLink id="e7fe-0346-1dd8-9346" name="Single Use" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="f740-eeb9-719c-d5c7" type="rule"/>
+            <infoLink id="696d-5b13-416a-30aa" name="155mm Field Artillery Gun" hidden="false" targetId="124e-e391-e5d6-8513" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="8.0"/>
@@ -1963,6 +1964,85 @@ Every model in the unit that uses this Tactical Asset will automatically take an
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3df4-f03f-ff16-0c1e" name="Erland Judicator Self-propelled Artillery " hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="debf-9e76-3d3a-2f4b" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="4cbc-3ed9-f7a4-3dd5" name="Heavy Support" hidden="false" targetId="4749-85c7-9d41-aa3f" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4ff5-3902-25ce-49eb" name="Erland Judicator Self-propelled Artillery " hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c038-8a92-7ebf-e905" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e58-c207-120c-6bb9" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d21a-77b5-4c98-632d" name="Erland Judicator Self-propelled Artillery " hidden="false" targetId="d571-32c0-e8b6-c925" type="profile"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="ed64-6db4-d010-1cff" name="155mm Field Artillery Gun" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ce7-34da-e160-5a49" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d04-7c06-c071-389b" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="a3ed-9c45-b318-b179" name="Blast" publicationId="ecbd-4756-1610-637c" hidden="false" targetId="2c83-dd28-35b9-0f5d" type="rule"/>
+                <infoLink id="dca4-d8b9-e935-52f5" name="Guided" hidden="false" targetId="b47c-7c4e-7f21-050e" type="rule"/>
+                <infoLink id="fdfc-ac08-2db6-ffb0" name="Observer" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="f9de-63fa-4577-a269" type="rule"/>
+                <infoLink id="d49d-8355-2be3-369e" name="Single Use" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="f740-eeb9-719c-d5c7" type="rule"/>
+                <infoLink id="bd57-f1b5-fe05-f318" name="155mm Field Artillery Gun" hidden="false" targetId="124e-e391-e5d6-8513" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="8.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="128d-2191-0a2a-9346" name="Erland Judicator Self-propelled Artillery   Crew Commander" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b29-e7dd-45bf-13fd" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="bbc8-ef2f-f1ad-7b22" name="Veteran Crew" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fd9-3cdd-4e1b-5435" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="1a46-a053-855b-a8ab" name="Voice of Command" publicationId="ecbd-4756-1610-637c" hidden="false" targetId="5581-8d83-3043-4a25" type="rule"/>
+                    <infoLink id="e271-23e3-0f87-74e2" name="Veteran Crew" publicationId="ecbd-4756-1610-637c" hidden="false" targetId="cc82-cc85-07be-750b" type="rule"/>
+                    <infoLink id="1189-6eba-3b66-922e" name="Veteran Crew" publicationId="ecbd-4756-1610-637c" hidden="false" targetId="93de-01b7-b2bd-38a7" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="b0af-f0da-205f-890e" name="Anti-Personal Weapons " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="5ea4-d121-3247-864f" type="selectionEntryGroup"/>
+            <entryLink id="6c62-a915-070b-39ea" name="Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="7efe-9b10-3efa-df24" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="20.0"/>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3825,6 +3905,21 @@ Every model in the unit that uses this Tactical Asset will automatically take an
         <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
         <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
         <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d571-32c0-e8b6-c925" name="Erland Judicator Self-propelled Artillery " hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d"/>
+        <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6"/>
+        <characteristic name="DEF" typeId="26f5-47a1-8310-51da"/>
+        <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4"/>
+        <characteristic name="INT" typeId="b52b-fc57-76e8-5e4b"/>
+        <characteristic name="LD" typeId="1c19-dad2-a576-46c1"/>
+        <characteristic name="ARMOR" typeId="0abc-6803-65ce-ea04"/>
+        <characteristic name="END" typeId="60e8-bc63-0a32-48e5"/>
+        <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34"/>
+        <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90"/>
+        <characteristic name="SIZE" typeId="1adb-2fcb-5438-776f"/>
       </characteristics>
     </profile>
   </sharedProfiles>

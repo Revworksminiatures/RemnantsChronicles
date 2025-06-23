@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="26" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="732a-da47-9f47-5d32" name="Protectorate Defense League Armed Forces" revision="28" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="4f5f-9cb5-c624-6d11" name="Central Guard Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -163,6 +163,9 @@
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7b8-7886-5ddd-1727" type="max"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e762-83ec-baf4-c4ea" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="ef68-c463-3106-0931" name="Sotil" hidden="false" targetId="62d5-f3d5-b801-7e94" type="profile"/>
+          </infoLinks>
         </entryLink>
         <entryLink id="b3dc-97dd-d823-f1ce" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
       </entryLinks>
@@ -1897,6 +1900,9 @@ The Pak Mule can never benefit from its own ballistic shields
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6215-2df7-75ad-95f5" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fd1-c58f-e69e-ab8b" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="4534-a0a9-8220-f8b8" name="Sotil Team" hidden="false" targetId="62d5-f3d5-b801-7e94" type="profile"/>
+          </infoLinks>
         </entryLink>
         <entryLink id="4684-c28a-1892-6818" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
       </entryLinks>
@@ -2183,6 +2189,9 @@ The Pak Mule can never benefit from its own ballistic shields
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfbe-b7d1-a7b4-625c" type="max"/>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3f3-7c58-c150-6128" type="min"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="12ac-2947-60fe-7f04" name="Frontiersman  Team" hidden="false" targetId="4dd1-7a87-f088-4669" type="profile"/>
+              </infoLinks>
               <entryLinks>
                 <entryLink id="676e-3d47-fa09-7a0d" name="FlameThrower" hidden="false" collective="false" import="true" targetId="6973-1648-21e8-3370" type="selectionEntry">
                   <constraints>
@@ -2440,6 +2449,9 @@ The Pak Mule can never benefit from its own ballistic shields
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e39a-e258-6ec3-5c7e" type="max"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="743f-862b-6b2d-9ca3" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="6b25-1195-0779-179d" name="Frontiersman  Team" hidden="false" targetId="4dd1-7a87-f088-4669" type="profile"/>
+          </infoLinks>
         </entryLink>
         <entryLink id="7a15-0075-487c-3dd6" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
       </entryLinks>
@@ -2873,7 +2885,7 @@ The Pak Mule can never benefit from its own ballistic shields
             <infoLink id="4e1e-6528-1464-475e" name="Fly" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="05c5-d7d9-c3e9-8ba5" type="rule"/>
             <infoLink id="27b5-eb61-a91b-d370" name="Hover" hidden="false" targetId="9df6-6829-df07-ef91" type="rule"/>
             <infoLink id="ddaf-fc9d-c419-84d5" name="Transport: X" hidden="false" targetId="369e-0c29-6c01-f12b" type="rule"/>
-            <infoLink id="9a50-59ce-1a62-aa64" name="PDAM-530 HAVOC" hidden="false" targetId="2409-1bda-5f44-1b0c" type="profile"/>
+            <infoLink id="9a50-59ce-1a62-aa64" name="PDAM-530 Assault Transport" hidden="false" targetId="2409-1bda-5f44-1b0c" type="profile"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry id="5923-f877-3dba-78fb" name="PDAM-530 Veteran Pilot" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -4566,7 +4578,7 @@ The Pak Mule can never benefit from its own ballistic shields
     </profile>
     <profile id="fd13-9edc-7560-d7a5" name="BL-70 &quot;Maverick&quot; Armor Personnal Carrier" publicationId="6f11-4351-f3f0-26cb" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
       <characteristics>
-        <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d"/>
+        <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d">Transport:10, Armored, Stablized, Tracks</characteristic>
         <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6"/>
         <characteristic name="DEF" typeId="26f5-47a1-8310-51da"/>
         <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4"/>
@@ -4626,7 +4638,7 @@ The Pak Mule can never benefit from its own ballistic shields
     </profile>
     <profile id="9574-d567-a0b9-1ff0" name="Type 221 &quot;Armada&quot; Tank" publicationId="6f11-4351-f3f0-26cb" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
       <characteristics>
-        <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d"/>
+        <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d">Armored, Tracks, Turret, Stablized</characteristic>
         <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6"/>
         <characteristic name="DEF" typeId="26f5-47a1-8310-51da"/>
         <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4"/>
@@ -4642,16 +4654,46 @@ The Pak Mule can never benefit from its own ballistic shields
     <profile id="2409-1bda-5f44-1b0c" name="PDAM-530 Assault Transport" publicationId="6f11-4351-f3f0-26cb" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
       <characteristics>
         <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d">Fly, Hover, Armored, Transport: 6</characteristic>
-        <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6"/>
-        <characteristic name="DEF" typeId="26f5-47a1-8310-51da"/>
-        <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4"/>
-        <characteristic name="INT" typeId="b52b-fc57-76e8-5e4b"/>
-        <characteristic name="LD" typeId="1c19-dad2-a576-46c1"/>
-        <characteristic name="ARMOR" typeId="0abc-6803-65ce-ea04"/>
-        <characteristic name="END" typeId="60e8-bc63-0a32-48e5"/>
-        <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34"/>
-        <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90"/>
-        <characteristic name="SIZE" typeId="1adb-2fcb-5438-776f"/>
+        <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6">2</characteristic>
+        <characteristic name="DEF" typeId="26f5-47a1-8310-51da">3</characteristic>
+        <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4">3</characteristic>
+        <characteristic name="INT" typeId="b52b-fc57-76e8-5e4b">2</characteristic>
+        <characteristic name="LD" typeId="1c19-dad2-a576-46c1">2</characteristic>
+        <characteristic name="ARMOR" typeId="0abc-6803-65ce-ea04">11/9/8</characteristic>
+        <characteristic name="END" typeId="60e8-bc63-0a32-48e5">4</characteristic>
+        <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34">4</characteristic>
+        <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90">7</characteristic>
+        <characteristic name="SIZE" typeId="1adb-2fcb-5438-776f">9-H</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="62d5-f3d5-b801-7e94" name="Sotil Team" publicationId="6f11-4351-f3f0-26cb" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
+      </characteristics>
+    </profile>
+    <profile id="4dd1-7a87-f088-4669" name="Frontiersman  Team" publicationId="6f11-4351-f3f0-26cb" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="23" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="24" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="674c-569a-ca53-7190" name="Marine Boarding Assault Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -4665,7 +4665,7 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="10.0"/>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4733,8 +4733,8 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b684-1570-048d-2810" name="Squad Equipment (Max 3 per Squad)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -5125,7 +5125,7 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+        <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
       </costs>
     </selectionEntry>
