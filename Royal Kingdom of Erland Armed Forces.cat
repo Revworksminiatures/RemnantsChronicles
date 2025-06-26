@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="17" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="26" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="18" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="26" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="a603-48d7-f61c-36e6" name="Special Operations Task Force (Casual Play)" publicationId="ecbd-4756-1610-637c" hidden="false">
       <categoryLinks>
@@ -303,10 +303,78 @@ Given Erland&apos;s relatively modest population, this mandatory service require
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="95b4-6bc3-fc40-7c72" name="Erland Squad Attachment" hidden="false" collective="false" import="true" type="upgrade">
+          <selectionEntries>
+            <selectionEntry id="92bf-c277-4760-b6ef" name="RER &quot;Squire&quot; Mobile Combat Unit" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f52-62ca-d347-98da" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="8979-f80a-3a18-6d81" name="Squire Support Squad" hidden="false" targetId="77a9-51b6-9358-f6b5" type="profile"/>
+                <infoLink id="7c67-cb3b-61cc-bd0f" name="Bulky" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="9f3a-57ab-abea-9055" type="rule"/>
+                <infoLink id="b3f5-d4d7-88f7-8953" name="Construct" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="934c-8201-c567-37c2" type="rule"/>
+                <infoLink id="2668-1b8e-55c5-b6c0" name="Cumbersome" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="8ca3-384f-643a-b0ff" type="rule"/>
+                <infoLink id="0a87-83b3-f95f-6bb1" name="Tracks" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="33c8-ea05-c817-6f55" type="rule"/>
+                <infoLink id="a6a8-649d-2e61-f6f3" name="Stablized" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="1e08-ca30-b162-2802" type="rule"/>
+                <infoLink id="2f6c-78fd-1d1c-7d05" name="Resist EM: X" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5b87-887a-1c84-e626" type="rule"/>
+                <infoLink id="4fe3-6905-cb8b-97f1" name="Observer" hidden="false" targetId="f9de-63fa-4577-a269" type="rule"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="79da-21b5-ac1a-ba29" name="Primary Weapon" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="616e-0fdd-8d28-5fbb" name="40mm Automatic Grenade Launcher" hidden="false" collective="false" import="true" targetId="50d0-0705-96cc-8b5d" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bf0-cf84-be9e-6cc6" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="d4ea-de02-d25c-ea97" name="7.5mm Missile Launcher" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" targetId="d072-4a42-5c78-f88a" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25fb-cdfe-32d6-305d" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="b457-9555-a854-5772" name="75 mm Medium Machine Gun" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" targetId="da42-4a69-851f-fd0e" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a91-05b3-3bf7-37dc" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="dbd4-d5b2-1f71-8612" name="Senor Package" hidden="false" collective="false" import="true" targetId="bbe2-dd0d-f6cc-5ccf" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="606e-d1e4-f44a-a1e9" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="777d-9f87-0cc9-356a" type="min"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="8026-b5e9-cee1-8c35" name="Target Designator" hidden="false" collective="false" import="true" targetId="5d59-53f8-df05-dc7e" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6326-e43c-f55a-167e" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="8501-6f98-f0c7-808c" name="Electro Magnetic Scrambler" hidden="false" collective="false" import="true" targetId="a625-2ae8-f7a4-be67" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cee4-e4e6-7f72-36af" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="0b0b-da9f-89c4-cf52" name="Cadre Trupp Leader " publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" targetId="f508-1433-6c21-7996" type="selectionEntryGroup"/>
-        <entryLink id="c189-1803-d873-0835" name="Erland Squad Attachment" hidden="false" collective="false" import="true" targetId="0e1d-3843-a4e3-2670" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -1866,10 +1934,78 @@ Every model in the unit that uses this Tactical Asset will automatically take an
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="cbb0-9564-6848-b117" name="Erland Squad Attachment" hidden="false" collective="false" import="true" type="upgrade">
+          <selectionEntries>
+            <selectionEntry id="64e7-c84d-325a-60b0" name="RER &quot;Squire&quot; Mobile Combat Unit" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c372-9595-b346-9b23" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="d919-5af0-cdb3-6b71" name="Squire Support Squad" hidden="false" targetId="77a9-51b6-9358-f6b5" type="profile"/>
+                <infoLink id="7264-908b-deab-6e25" name="Bulky" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="9f3a-57ab-abea-9055" type="rule"/>
+                <infoLink id="c9f0-7f8f-e106-6366" name="Construct" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="934c-8201-c567-37c2" type="rule"/>
+                <infoLink id="e1b8-7126-1973-eec6" name="Cumbersome" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="8ca3-384f-643a-b0ff" type="rule"/>
+                <infoLink id="e32f-90eb-035f-09e9" name="Tracks" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="33c8-ea05-c817-6f55" type="rule"/>
+                <infoLink id="1faf-5a4a-add8-ac98" name="Stablized" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="1e08-ca30-b162-2802" type="rule"/>
+                <infoLink id="71ad-bb9b-7c90-2dd7" name="Resist EM: X" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5b87-887a-1c84-e626" type="rule"/>
+                <infoLink id="0113-87a4-8396-8572" name="Observer" hidden="false" targetId="f9de-63fa-4577-a269" type="rule"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="ac03-bf31-57ad-1db0" name="Primary Weapon" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="4595-5ca8-082d-7816" name="40mm Automatic Grenade Launcher" hidden="false" collective="false" import="true" targetId="50d0-0705-96cc-8b5d" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47f4-cb4a-15d1-d08a" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="9aff-073d-1a98-d5cf" name="7.5mm Missile Launcher" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" targetId="d072-4a42-5c78-f88a" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e22-8327-ad5d-cfc6" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="c086-97cd-ff51-5923" name="75 mm Medium Machine Gun" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" targetId="da42-4a69-851f-fd0e" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76f2-3290-1d1d-85a6" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="38a8-34a6-709f-a5c7" name="Senor Package" hidden="false" collective="false" import="true" targetId="bbe2-dd0d-f6cc-5ccf" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cb3-071a-9dfa-3721" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d52-1ada-9686-3c59" type="min"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="f867-b125-6922-999a" name="Target Designator" hidden="false" collective="false" import="true" targetId="5d59-53f8-df05-dc7e" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="274e-731c-10d5-fab4" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="0fc0-281e-1bd7-a766" name="Electro Magnetic Scrambler" hidden="false" collective="false" import="true" targetId="a625-2ae8-f7a4-be67" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f2d-9d40-452a-d7c3" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="84b5-ed45-7f61-90d9" name="Squad Equipment (Max 3 per Squad)" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
-        <entryLink id="4731-362d-1b2e-08a5" name="Erland Squad Attachment" hidden="false" collective="false" import="true" targetId="0e1d-3843-a4e3-2670" type="selectionEntry"/>
         <entryLink id="47db-f07e-8065-25b7" name="Royal Guard Leader " hidden="false" collective="false" import="true" targetId="cb0b-c7a5-274c-d803" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -1914,10 +2050,78 @@ Every model in the unit that uses this Tactical Asset will automatically take an
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="e9a9-7c4e-cceb-c873" name="Erland Squad Attachment" hidden="false" collective="false" import="true" type="upgrade">
+          <selectionEntries>
+            <selectionEntry id="30ae-fbee-0e0f-fa5e" name="RER &quot;Squire&quot; Mobile Combat Unit" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b271-8655-d921-2e83" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="987b-92a4-1951-3f2e" name="Squire Support Squad" hidden="false" targetId="77a9-51b6-9358-f6b5" type="profile"/>
+                <infoLink id="e862-58ca-d5f2-b6dc" name="Bulky" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="9f3a-57ab-abea-9055" type="rule"/>
+                <infoLink id="f1ab-6feb-6e36-2370" name="Construct" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="934c-8201-c567-37c2" type="rule"/>
+                <infoLink id="315d-e856-ee0c-e24f" name="Cumbersome" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="8ca3-384f-643a-b0ff" type="rule"/>
+                <infoLink id="99aa-417b-bf3a-5e6e" name="Tracks" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="33c8-ea05-c817-6f55" type="rule"/>
+                <infoLink id="32e9-b73a-e59e-222d" name="Stablized" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="1e08-ca30-b162-2802" type="rule"/>
+                <infoLink id="f909-3d59-d69c-0b9e" name="Resist EM: X" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5b87-887a-1c84-e626" type="rule"/>
+                <infoLink id="c694-5b96-ace7-3cd2" name="Observer" hidden="false" targetId="f9de-63fa-4577-a269" type="rule"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="7983-fd87-4a4f-48fe" name="Primary Weapon" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="47f7-36ee-ecc4-8550" name="40mm Automatic Grenade Launcher" hidden="false" collective="false" import="true" targetId="50d0-0705-96cc-8b5d" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48b4-4419-c8ea-0f18" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="6db4-7e47-8f04-f2e0" name="7.5mm Missile Launcher" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" targetId="d072-4a42-5c78-f88a" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d473-2a1b-f61f-3779" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="3015-8a69-d7ca-56f8" name="75 mm Medium Machine Gun" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" targetId="da42-4a69-851f-fd0e" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d300-5803-547c-bc8d" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="3919-081b-605a-2b27" name="Senor Package" hidden="false" collective="false" import="true" targetId="bbe2-dd0d-f6cc-5ccf" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f69b-4a9c-e989-dc37" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b12-0868-26f4-b21f" type="min"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="211f-539d-2083-ec90" name="Target Designator" hidden="false" collective="false" import="true" targetId="5d59-53f8-df05-dc7e" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5428-2147-f2b7-7182" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="09b0-f960-ef4b-60a2" name="Electro Magnetic Scrambler" hidden="false" collective="false" import="true" targetId="a625-2ae8-f7a4-be67" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="565b-c728-7daa-5c6a" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="07e6-6a80-44b7-2a53" name="Guardian Leader " hidden="false" collective="false" import="true" targetId="4519-1ccc-de4a-f185" type="selectionEntryGroup"/>
-        <entryLink id="146b-a8e1-8155-85b9" name="Erland Squad Attachment" hidden="false" collective="false" import="true" targetId="0e1d-3843-a4e3-2670" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -2132,78 +2336,63 @@ Every model in the unit that uses this Tactical Asset will automatically take an
       </costs>
     </selectionEntry>
     <selectionEntry id="0e1d-3843-a4e3-2670" name="Erland Squad Attachment" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44dd-9926-75d3-399a" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f8a-ad58-315f-d6a7" type="min"/>
-      </constraints>
       <selectionEntries>
-        <selectionEntry id="8265-15ef-59aa-2fa0" name="Squad Attachment Unit" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1821-0686-0b10-ce82" name="RER &quot;Squire&quot; Mobile Combat Unit" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a314-7315-1221-fd88" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3771-343d-e95e-a888" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="ec35-9bc8-b355-f4be" name="RER &quot;Squire&quot; Mobile Combat Unit" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ac5-792a-2ab1-ab70" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="bd8e-9f91-9da3-6ce8" name="Squire Support Squad" hidden="false" targetId="77a9-51b6-9358-f6b5" type="profile"/>
-                <infoLink id="a1bf-6f95-1624-4b85" name="Bulky" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="9f3a-57ab-abea-9055" type="rule"/>
-                <infoLink id="ed39-0a85-c039-309d" name="Construct" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="934c-8201-c567-37c2" type="rule"/>
-                <infoLink id="4dfb-a3a5-6cf5-ec03" name="Cumbersome" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="8ca3-384f-643a-b0ff" type="rule"/>
-                <infoLink id="1068-830b-160a-210b" name="Tracks" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="33c8-ea05-c817-6f55" type="rule"/>
-                <infoLink id="9f72-fd5f-0f3f-f78c" name="Stablized" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="1e08-ca30-b162-2802" type="rule"/>
-                <infoLink id="1a9f-1f48-daeb-7f3a" name="Resist EM: X" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5b87-887a-1c84-e626" type="rule"/>
-                <infoLink id="25a7-64a3-afb1-7c3d" name="Observer" hidden="false" targetId="f9de-63fa-4577-a269" type="rule"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="bd06-ec1a-53ae-c5dc" name="Primary Weapon" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true">
-                  <entryLinks>
-                    <entryLink id="26db-c0ef-2d99-6e40" name="40mm Automatic Grenade Launcher" hidden="false" collective="false" import="true" targetId="50d0-0705-96cc-8b5d" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2910-c730-8394-3bd9" type="max"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink id="84ae-4cae-8af2-7156" name="7.5mm Missile Launcher" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" targetId="d072-4a42-5c78-f88a" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf98-f76c-d022-24dd" type="max"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink id="570a-c23c-9d97-d1fe" name="75 mm Medium Machine Gun" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" targetId="da42-4a69-851f-fd0e" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ece-1153-ac09-a73d" type="max"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+          <infoLinks>
+            <infoLink id="921e-8859-3a9e-e462" name="Squire Support Squad" hidden="false" targetId="77a9-51b6-9358-f6b5" type="profile"/>
+            <infoLink id="34e9-ca7e-fd74-94db" name="Bulky" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="9f3a-57ab-abea-9055" type="rule"/>
+            <infoLink id="1e1e-4398-49b8-773b" name="Construct" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="934c-8201-c567-37c2" type="rule"/>
+            <infoLink id="07b4-e37c-94ab-f15a" name="Cumbersome" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="8ca3-384f-643a-b0ff" type="rule"/>
+            <infoLink id="75ea-bae7-9e6f-f3fb" name="Tracks" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="33c8-ea05-c817-6f55" type="rule"/>
+            <infoLink id="8a91-00d6-cd72-58e0" name="Stablized" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="1e08-ca30-b162-2802" type="rule"/>
+            <infoLink id="d514-b665-d71a-5677" name="Resist EM: X" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="5b87-887a-1c84-e626" type="rule"/>
+            <infoLink id="d44b-f0ba-812e-a746" name="Observer" hidden="false" targetId="f9de-63fa-4577-a269" type="rule"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="6781-d90f-ecbe-ff2a" name="Primary Weapon" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true">
               <entryLinks>
-                <entryLink id="aba4-1f6e-4b14-55b8" name="Senor Package" hidden="false" collective="false" import="true" targetId="bbe2-dd0d-f6cc-5ccf" type="selectionEntry">
+                <entryLink id="580d-0ff2-54bb-769c" name="40mm Automatic Grenade Launcher" hidden="false" collective="false" import="true" targetId="50d0-0705-96cc-8b5d" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0301-bc5a-45be-eaf0" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2979-a42c-ef9d-5452" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="226e-96a8-0734-32ec" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="37d8-0ed4-d36a-e89e" name="Target Designator" hidden="false" collective="false" import="true" targetId="5d59-53f8-df05-dc7e" type="selectionEntry">
+                <entryLink id="75f0-f88f-e3ee-e357" name="7.5mm Missile Launcher" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" targetId="d072-4a42-5c78-f88a" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4862-1217-c080-75fd" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99b7-b250-0c5f-b524" type="max"/>
                   </constraints>
-                  <costs>
-                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
-                  </costs>
                 </entryLink>
-                <entryLink id="e936-36bc-a3ce-7de6" name="Electro Magnetic Scrambler" hidden="false" collective="false" import="true" targetId="a625-2ae8-f7a4-be67" type="selectionEntry">
+                <entryLink id="2f15-d673-1c00-4e18" name="75 mm Medium Machine Gun" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" targetId="da42-4a69-851f-fd0e" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53f6-67c4-8fcf-f83b" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2050-8243-12f5-bb32" type="max"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="01e9-b34b-ac07-43e1" name="Senor Package" hidden="false" collective="false" import="true" targetId="bbe2-dd0d-f6cc-5ccf" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a827-9173-a8a8-ce1b" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c6a-ebe4-6ded-2fe6" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="62f8-dbe6-4ab2-0db9" name="Target Designator" hidden="false" collective="false" import="true" targetId="5d59-53f8-df05-dc7e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b391-a8c5-cd8c-fc54" type="max"/>
+              </constraints>
               <costs>
-                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
               </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </entryLink>
+            <entryLink id="1abb-cf18-871d-aee6" name="Electro Magnetic Scrambler" hidden="false" collective="false" import="true" targetId="a625-2ae8-f7a4-be67" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9829-a48c-7edf-51bc" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
