@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="26" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="30" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c8da-24a8-bcaa-8190" name="The Remnant Chronicles Rulebook"/>
     <publication id="8c20-1e89-cba7-0494" name="Forces of the Federal Coalition "/>
