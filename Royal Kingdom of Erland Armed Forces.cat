@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="13" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="14" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="26" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="a603-48d7-f61c-36e6" name="Special Operations Task Force (Casual Play)" publicationId="ecbd-4756-1610-637c" hidden="false">
       <categoryLinks>
@@ -305,9 +305,8 @@ Given Erland&apos;s relatively modest population, this mandatory service require
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="5be9-8a9c-f5c9-a4bb" name="Erland Squad Attachment" hidden="false" collective="false" import="true" targetId="0e1d-3843-a4e3-2670" type="selectionEntry"/>
         <entryLink id="0b0b-da9f-89c4-cf52" name="Cadre Trupp Leader " publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" targetId="f508-1433-6c21-7996" type="selectionEntryGroup"/>
-        <entryLink id="9247-8c3a-782a-55e5" name="Squad Equipment (Max 3 per Squad)" hidden="false" collective="false" import="true" targetId="c541-04e9-2851-e86f" type="selectionEntryGroup"/>
+        <entryLink id="c189-1803-d873-0835" name="Erland Squad Attachment" hidden="false" collective="false" import="true" targetId="0e1d-3843-a4e3-2670" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -1918,6 +1917,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
       </selectionEntries>
       <entryLinks>
         <entryLink id="07e6-6a80-44b7-2a53" name="Guardian Leader " hidden="false" collective="false" import="true" targetId="4519-1ccc-de4a-f185" type="selectionEntryGroup"/>
+        <entryLink id="146b-a8e1-8155-85b9" name="Erland Squad Attachment" hidden="false" collective="false" import="true" targetId="0e1d-3843-a4e3-2670" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -1932,6 +1932,9 @@ Every model in the unit that uses this Tactical Asset will automatically take an
           </conditions>
         </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink id="78d9-6626-4f8c-8688" name="Light Core" hidden="false" targetId="fa42-d150-a4d6-a3db" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c417-f5a3-8380-6181" name="Militia " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3907,19 +3910,19 @@ Every model in the unit that uses this Tactical Asset will automatically take an
         <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
       </characteristics>
     </profile>
-    <profile id="d571-32c0-e8b6-c925" name="Erland Judicator Self-propelled Artillery " hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
+    <profile id="d571-32c0-e8b6-c925" name="Erland Judicator Self-propelled Artillery " publicationId="ecbd-4756-1610-637c" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
       <characteristics>
-        <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d"/>
-        <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6"/>
-        <characteristic name="DEF" typeId="26f5-47a1-8310-51da"/>
-        <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4"/>
-        <characteristic name="INT" typeId="b52b-fc57-76e8-5e4b"/>
-        <characteristic name="LD" typeId="1c19-dad2-a576-46c1"/>
-        <characteristic name="ARMOR" typeId="0abc-6803-65ce-ea04"/>
-        <characteristic name="END" typeId="60e8-bc63-0a32-48e5"/>
-        <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34"/>
-        <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90"/>
-        <characteristic name="SIZE" typeId="1adb-2fcb-5438-776f"/>
+        <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d">Tracked, Armored, Turret, Stablized </characteristic>
+        <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6">2</characteristic>
+        <characteristic name="DEF" typeId="26f5-47a1-8310-51da">2</characteristic>
+        <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4">2</characteristic>
+        <characteristic name="INT" typeId="b52b-fc57-76e8-5e4b">2</characteristic>
+        <characteristic name="LD" typeId="1c19-dad2-a576-46c1">2</characteristic>
+        <characteristic name="ARMOR" typeId="0abc-6803-65ce-ea04">12/12/11</characteristic>
+        <characteristic name="END" typeId="60e8-bc63-0a32-48e5">4</characteristic>
+        <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34">4</characteristic>
+        <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90">7</characteristic>
+        <characteristic name="SIZE" typeId="1adb-2fcb-5438-776f">9-H</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
