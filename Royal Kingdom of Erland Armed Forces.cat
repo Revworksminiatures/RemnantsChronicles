@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="15" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="26" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="16" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="26" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="a603-48d7-f61c-36e6" name="Special Operations Task Force (Casual Play)" publicationId="ecbd-4756-1610-637c" hidden="false">
       <categoryLinks>
@@ -1924,7 +1924,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="af99-f473-21d6-da3d" name="Erland Militia Fire Team" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="af99-f473-21d6-da3d" name="Erland Militia Fire Team" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
