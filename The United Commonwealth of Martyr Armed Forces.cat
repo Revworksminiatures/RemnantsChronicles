@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7fda-f2e8-7200-f30b" name="The United Commonwealth of Martyr Armed Forces" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7fda-f2e8-7200-f30b" name="The United Commonwealth of Martyr Armed Forces" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="210f-a0b5-7f5c-50e4" name="Special Operations Task Force (Casual Play)" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false">
       <categoryLinks>
@@ -543,6 +543,11 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b26-a869-8288-b24d" type="max"/>
               </constraints>
+              <rules>
+                <rule id="424c-787e-d082-0baf" name="••Adaptive Tactics " publicationId="9b0c-e2fe-dd63-1ebd" hidden="false">
+                  <description>Choose a Command Card your opponent has already played this round. You may play a copy of it as if it were your own.</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
