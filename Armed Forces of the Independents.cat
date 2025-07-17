@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="26" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="26" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="27" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="3e5c-c3d7-7fa7-d7d6" name="Han&apos;s Crusaders (Casual Play)" publicationId="782f-493f-cc20-a098" hidden="false">
       <categoryLinks>
@@ -262,7 +262,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbe1-a657-8b9b-561b" type="max"/>
           </constraints>
           <rules>
-            <rule id="6d5f-09e3-3b43-add7" name="Federal Coalition Surplus" publicationId="782f-493f-cc20-a098" hidden="false"/>
+            <rule id="6d5f-09e3-3b43-add7" name="Federal Coalition Surplus" publicationId="782f-493f-cc20-a098" hidden="false">
+              <description>Unlocks the Federal Coalition Stockpiloes found in the Remnants </description>
+            </rule>
           </rules>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -274,7 +276,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dd9-25e1-2dd0-a726" type="max"/>
           </constraints>
           <rules>
-            <rule id="fd3c-f6ac-5533-ecb3" name="Protectorate Defense League Surplus" publicationId="782f-493f-cc20-a098" hidden="false"/>
+            <rule id="fd3c-f6ac-5533-ecb3" name="Protectorate Defense League Surplus" publicationId="782f-493f-cc20-a098" hidden="false">
+              <description>Unlocks the Protectorate Defense League Stockpiloes found in the Remnants </description>
+            </rule>
           </rules>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -286,7 +290,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5b1-e25f-e397-614d" type="max"/>
           </constraints>
           <rules>
-            <rule id="e86c-b511-d1f3-a40d" name="Royal Kingdom of Erland Surplus" publicationId="782f-493f-cc20-a098" hidden="false"/>
+            <rule id="e86c-b511-d1f3-a40d" name="Royal Kingdom of Erland Surplus" publicationId="782f-493f-cc20-a098" hidden="false">
+              <description>Unlocks the Royal Kingdom of Erland Stockpiloes found in the Remnants </description>
+            </rule>
           </rules>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -1685,6 +1691,7 @@ Ammo: OOO</characteristic>
             <infoLink id="be20-64df-3dff-51f9" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
             <infoLink id="be6f-2372-14a1-0bc6" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
             <infoLink id="4904-a979-8757-0c45" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+            <infoLink id="f7c7-af77-619f-c0e7" name="Crewed:X" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="6704-0ad0-cba9-1c7d" type="rule"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry id="c952-837f-a874-235d" name="Planetary Trooper" hidden="false" collective="false" import="true" type="upgrade">
@@ -1778,6 +1785,7 @@ Ammo: OOO</characteristic>
             <infoLink id="3c8b-e045-31f0-15f2" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
             <infoLink id="658b-ccc6-9ebb-0715" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
             <infoLink id="775c-b040-e35e-2be5" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+            <infoLink id="2353-66c3-076c-cba1" name="Crewed:X" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="6704-0ad0-cba9-1c7d" type="rule"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry id="68a9-bad1-a453-b5cc" name="Planetary Trooper" hidden="false" collective="false" import="true" type="upgrade">
@@ -1868,6 +1876,7 @@ Ammo: OOO</characteristic>
             <infoLink id="25ef-c42d-41da-2183" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
             <infoLink id="6dfb-f727-34c2-f9eb" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
             <infoLink id="6367-ec67-3861-dd62" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+            <infoLink id="7bb9-df30-21f4-148f" name="Crewed:X" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="6704-0ad0-cba9-1c7d" type="rule"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry id="cb75-0b3a-c120-6539" name="Planetary Team Leader" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
@@ -2034,6 +2043,7 @@ Ammo: OOO</characteristic>
                 </entryLink>
                 <entryLink id="665f-b2a3-b041-02da" name="The Independent&apos;s Primary Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
                 <entryLink id="5a79-bead-db97-10c5" name="The Independent&apos;s Secondary Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
+                <entryLink id="227b-9b81-efb8-117d" name="Task Force Leader" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="5.0"/>
@@ -2055,7 +2065,7 @@ Ammo: OOO</characteristic>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cf1c-fb3e-83fa-9e84" name="Planetary Milita Squad" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="cf1c-fb3e-83fa-9e84" name="Autonomous Colonies Planetary Milita Squad" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2130,6 +2140,7 @@ Ammo: OOO</characteristic>
                 </entryLink>
                 <entryLink id="6203-9cb0-6da8-977f" name="The Independent&apos;s Primary Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
                 <entryLink id="2114-f540-51a3-cdd0" name="The Independent&apos;s Secondary Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
+                <entryLink id="c412-78bb-839f-2266" name="Task Force Leader" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="5.0"/>
@@ -2411,7 +2422,7 @@ Ammo: OOO</characteristic>
               </constraints>
               <rules>
                 <rule id="3233-ae34-0f6e-6fbb" name="•Raider&apos;s Plunder (Oyar Lineage)" publicationId="782f-493f-cc20-a098" hidden="false">
-                  <description>If an Oyar LIGHT CORE unit destroys an enemy unit this turn, gain +. This card can be played at the start of your turn.</description>
+                  <description>If an Oyar LIGHT CORE unit destroys an enemy unit this turn, gain +1 VP. This card must be played at the start of your turn.</description>
                 </rule>
               </rules>
               <costs>
@@ -3047,7 +3058,7 @@ Ammo: OOO</characteristic>
         <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6841-41d0-f1d8-6744" name="Planetary Milita Squad" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6841-41d0-f1d8-6744" name="Sponsored Colonies Planetary Milita Squad" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -3122,6 +3133,7 @@ Ammo: OOO</characteristic>
                 </entryLink>
                 <entryLink id="80c6-9b30-c447-d684" name="The Independent&apos;s Primary Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
                 <entryLink id="50f9-3dfb-7e98-09d3" name="The Independent&apos;s Secondary Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
+                <entryLink id="3c16-336f-f7e3-b6a5" name="Task Force Leader" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="5.0"/>
@@ -3161,6 +3173,40 @@ Ammo: OOO</characteristic>
             <infoLink id="4c51-747a-3d6d-dd3c" name="Mechanum Wheels" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="4359-da52-3a45-63b3" type="rule"/>
             <infoLink id="7998-87bf-a063-c594" name="Transport: X" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="369e-0c29-6c01-f12b" type="rule"/>
           </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="d056-d0f0-5d73-3f63" name="Anti Air Missiles Upgrade Kit" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5738-472a-c498-260a" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="f348-8938-3141-9ad4" name="Anti-Air Missile Package" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5db-98f5-203f-2e88" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="95be-b971-0bee-eac8" name="Anti-Air Missile Package" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct</characteristic>
+                        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">15/30/60</characteristic>
+                        <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">-</characteristic>
+                        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">14</characteristic>
+                        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Blast:2 , Piercing: 2 , Single Use</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="932b-1fb0-63c8-9151" name="Blast" hidden="false" targetId="2c83-dd28-35b9-0f5d" type="rule"/>
+                    <infoLink id="7aef-f539-d291-1ddc" name="Piercing:X " hidden="false" targetId="8015-9cc1-b80a-25a1" type="rule"/>
+                    <infoLink id="faf8-f253-1609-2a8c" name="Single Use" hidden="false" targetId="f740-eeb9-719c-d5c7" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-5.0"/>
+                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <entryLinks>
             <entryLink id="44a7-3cee-29bd-6f05" name="Anti-Personal Weapons " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="5ea4-d121-3247-864f" type="selectionEntryGroup"/>
             <entryLink id="3fe8-9a80-d740-d74c" name="Vehicle Upgrades" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="7efe-9b10-3efa-df24" type="selectionEntryGroup"/>
@@ -4319,7 +4365,7 @@ Ammo: OOO</characteristic>
         <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4">3</characteristic>
         <characteristic name="INT" typeId="b52b-fc57-76e8-5e4b">2</characteristic>
         <characteristic name="LD" typeId="1c19-dad2-a576-46c1">2</characteristic>
-        <characteristic name="ARMOR" typeId="0abc-6803-65ce-ea04">10/10/9</characteristic>
+        <characteristic name="ARMOR" typeId="0abc-6803-65ce-ea04">10/9/8</characteristic>
         <characteristic name="END" typeId="60e8-bc63-0a32-48e5">4</characteristic>
         <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34">3</characteristic>
         <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90">9</characteristic>

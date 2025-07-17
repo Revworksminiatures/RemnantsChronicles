@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7fda-f2e8-7200-f30b" name="The United Commonwealth of Martyr Armed Forces" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7fda-f2e8-7200-f30b" name="The United Commonwealth of Martyr Armed Forces" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="210f-a0b5-7f5c-50e4" name="Special Operations Task Force (Casual Play)" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false">
       <categoryLinks>
@@ -1406,6 +1406,7 @@
         <infoLink id="e5ae-7ced-cd49-a541" name="Arms" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
         <infoLink id="7aeb-948b-37ef-8553" name="Legs" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
         <infoLink id="b273-faec-7b57-1278" name="Living" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
+        <infoLink id="3d82-aa39-6760-c575" name="Crewed:X" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="6704-0ad0-cba9-1c7d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="75a5-8743-fbb0-b2b9" name="Heavy Support" hidden="false" targetId="4749-85c7-9d41-aa3f" primary="true"/>
@@ -2156,31 +2157,31 @@
     <profile id="19ed-a90e-9f74-bf6f" name="Legionnarie Stormtrooper Fire Team" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
-        <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
-        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
-        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
-        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
-        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
-        <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
-        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
-        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
-        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
       </characteristics>
     </profile>
     <profile id="0f1e-1148-f3cf-cb63" name="Close Assault Trooper Mk1" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Construct, Bulky, Cumbersome, Resist EM:2, Sensor Package</characteristic>
-        <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
-        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
-        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
-        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
-        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
-        <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
-        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
-        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
-        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">1</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">1</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">12</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2(5)</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">-</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">4</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">7-Large</characteristic>
       </characteristics>
     </profile>
     <profile id="ad35-92c1-7b9a-a8e0" name="MI-52 &quot;Torrent&quot; HAVOC Fighter" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" typeId="41dd-5dc6-25fb-0fec" typeName="HAVOC (High Altitude Void Operable Craft)">
@@ -2216,31 +2217,31 @@
     <profile id="0c85-9104-5e02-426b" name="Baron&apos;s Resistance FireTeam" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
-        <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
-        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
-        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
-        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
-        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
-        <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
-        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
-        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
-        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2		</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
       </characteristics>
     </profile>
     <profile id="6715-9142-67dc-9d94" name="Legionnarie Fire Team" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
-        <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
-        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
-        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
-        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
-        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
-        <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
-        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
-        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
-        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
       </characteristics>
     </profile>
     <profile id="734c-defb-c53b-7499" name="PA-190 &quot;Hoplite&quot; Light RIG" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" typeId="752c-3a73-d54e-d187" typeName="RIG (Reinforced Integrated General Suit)">
@@ -2261,16 +2262,16 @@
     <profile id="cfcc-d8a5-e44b-cb78" name="PA-109 &quot;Russelli&quot; Joint Light Tactical Vehicle" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
       <characteristics>
         <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d">Mechanum Wheel, Transport: 5, Armored</characteristic>
-        <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6"/>
-        <characteristic name="DEF" typeId="26f5-47a1-8310-51da"/>
-        <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4"/>
-        <characteristic name="INT" typeId="b52b-fc57-76e8-5e4b"/>
-        <characteristic name="LD" typeId="1c19-dad2-a576-46c1"/>
-        <characteristic name="ARMOR" typeId="0abc-6803-65ce-ea04"/>
-        <characteristic name="END" typeId="60e8-bc63-0a32-48e5"/>
-        <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34"/>
-        <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90"/>
-        <characteristic name="SIZE" typeId="1adb-2fcb-5438-776f"/>
+        <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6">2</characteristic>
+        <characteristic name="DEF" typeId="26f5-47a1-8310-51da">2</characteristic>
+        <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4">3</characteristic>
+        <characteristic name="INT" typeId="b52b-fc57-76e8-5e4b">2</characteristic>
+        <characteristic name="LD" typeId="1c19-dad2-a576-46c1">2</characteristic>
+        <characteristic name="ARMOR" typeId="0abc-6803-65ce-ea04">11/11/10</characteristic>
+        <characteristic name="END" typeId="60e8-bc63-0a32-48e5">4</characteristic>
+        <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34">3</characteristic>
+        <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90">9</characteristic>
+        <characteristic name="SIZE" typeId="1adb-2fcb-5438-776f">9-H</characteristic>
       </characteristics>
     </profile>
     <profile id="7d7d-ed8a-3c11-a883" name="PA-96 Carbine Rifle " publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
@@ -2294,10 +2295,10 @@
     <profile id="4cb6-18d7-3b5e-4e05" name="MMI-94 Beam Rifle" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
       <characteristics>
         <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct</characteristic>
-        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd"/>
-        <characteristic name="RoF" typeId="78b1-0557-98bf-20b5"/>
-        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4"/>
-        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb"/>
+        <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">20/40/OO</characteristic>
+        <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">*</characteristic>
+        <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">9</characteristic>
+        <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb">Melt:X, Overheats, Scope:X Sustained</characteristic>
       </characteristics>
     </profile>
     <profile id="bf2e-7f9b-2fe7-0cba" name="MMI-32 Submachine Gun" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
@@ -2322,46 +2323,46 @@
     <profile id="59d5-d6eb-0734-077a" name="Jr. Officer (Tier 3 or above)" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
-        <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
-        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
-        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
-        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
-        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
-        <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
-        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
-        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
-        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">4</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">4</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">3</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">4</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
       </characteristics>
     </profile>
     <profile id="8243-229e-0fc1-64b6" name="Senior Ensign Officer" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
-        <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
-        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
-        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
-        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
-        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
-        <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
-        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
-        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
-        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">2</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">3</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">3</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">3</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
       </characteristics>
     </profile>
     <profile id="ea33-9803-64a4-a7a2" name="Sr. Officer (Tier 4 or above)" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
-        <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
-        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
-        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
-        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
-        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
-        <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
-        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
-        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
-        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">4</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">4</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">4</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">4</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">4</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
       </characteristics>
     </profile>
     <profile id="cd18-a46c-38ea-e904" name="MMI-21 FlameThrower" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
@@ -2388,16 +2389,16 @@
     <profile id="ab05-0d03-8199-0ad8" name="PaMi Type-262 &quot;Marshall&quot; Tank" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
       <characteristics>
         <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d">Armored, Tracks, Turret, Stablized</characteristic>
-        <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6"/>
-        <characteristic name="DEF" typeId="26f5-47a1-8310-51da"/>
-        <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4"/>
-        <characteristic name="INT" typeId="b52b-fc57-76e8-5e4b"/>
-        <characteristic name="LD" typeId="1c19-dad2-a576-46c1"/>
-        <characteristic name="ARMOR" typeId="0abc-6803-65ce-ea04"/>
-        <characteristic name="END" typeId="60e8-bc63-0a32-48e5"/>
-        <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34"/>
-        <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90"/>
-        <characteristic name="SIZE" typeId="1adb-2fcb-5438-776f"/>
+        <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6">2</characteristic>
+        <characteristic name="DEF" typeId="26f5-47a1-8310-51da">1</characteristic>
+        <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4">2</characteristic>
+        <characteristic name="INT" typeId="b52b-fc57-76e8-5e4b">2</characteristic>
+        <characteristic name="LD" typeId="1c19-dad2-a576-46c1">2</characteristic>
+        <characteristic name="ARMOR" typeId="0abc-6803-65ce-ea04">13/13/12</characteristic>
+        <characteristic name="END" typeId="60e8-bc63-0a32-48e5">5</characteristic>
+        <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34">4</characteristic>
+        <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90">7</characteristic>
+        <characteristic name="SIZE" typeId="1adb-2fcb-5438-776f">MA-12</characteristic>
       </characteristics>
     </profile>
     <profile id="b021-642c-4e3c-f8fd" name="Special Intervention Group Fire Team" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
@@ -2418,31 +2419,31 @@
     <profile id="cf2b-7f0f-8371-7542" name="Baron&apos;s Royal Guard Fire Team" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
-        <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
-        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
-        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
-        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
-        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
-        <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
-        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
-        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
-        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">2</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
       </characteristics>
     </profile>
     <profile id="6d26-b8c6-4653-183f" name="Close Assault Trooper Mk1 Team" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Construct, Bulky, Cumbersome, Resist EM:2, Sensor Package</characteristic>
-        <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
-        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
-        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
-        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
-        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
-        <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
-        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
-        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
-        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">1</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">1</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">12</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2(5)</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">-</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">4</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">7-Large</characteristic>
       </characteristics>
     </profile>
     <profile id="a9ef-12f0-98e5-ff00" name="MI-163 &quot;Minsk&quot; HAVOC Bomber" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" typeId="41dd-5dc6-25fb-0fec" typeName="HAVOC (High Altitude Void Operable Craft)">
@@ -2493,16 +2494,16 @@
     <profile id="a4df-deda-78dd-402a" name="PaMi Type-234 &quot;Chancollor&quot; IFV" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">
       <characteristics>
         <characteristic name="Key Traits" typeId="b665-ff08-0e63-d70d">Armored, Tracks, Turret, Stablized, Transport: 6</characteristic>
-        <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6"/>
-        <characteristic name="DEF" typeId="26f5-47a1-8310-51da"/>
-        <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4"/>
-        <characteristic name="INT" typeId="b52b-fc57-76e8-5e4b"/>
-        <characteristic name="LD" typeId="1c19-dad2-a576-46c1"/>
-        <characteristic name="ARMOR" typeId="0abc-6803-65ce-ea04"/>
-        <characteristic name="END" typeId="60e8-bc63-0a32-48e5"/>
-        <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34"/>
-        <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90"/>
-        <characteristic name="SIZE" typeId="1adb-2fcb-5438-776f"/>
+        <characteristic name="CMBT" typeId="d9ed-bc69-fa1e-bce6">2</characteristic>
+        <characteristic name="DEF" typeId="26f5-47a1-8310-51da">2</characteristic>
+        <characteristic name="ATHL" typeId="3734-2d11-b7c4-15f4">2</characteristic>
+        <characteristic name="INT" typeId="b52b-fc57-76e8-5e4b">2</characteristic>
+        <characteristic name="LD" typeId="1c19-dad2-a576-46c1">2</characteristic>
+        <characteristic name="ARMOR" typeId="0abc-6803-65ce-ea04">12/11/10</characteristic>
+        <characteristic name="END" typeId="60e8-bc63-0a32-48e5">4</characteristic>
+        <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34">4</characteristic>
+        <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90">7</characteristic>
+        <characteristic name="SIZE" typeId="1adb-2fcb-5438-776f">9-H</characteristic>
       </characteristics>
     </profile>
     <profile id="3626-f4a3-a187-2e17" name="PaMi Type-163 &quot;Prefect&quot; APC" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" typeId="c48c-0898-b719-a4a1" typeName="Vehicle">

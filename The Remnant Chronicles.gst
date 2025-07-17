@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="30" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="31" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c8da-24a8-bcaa-8190" name="The Remnant Chronicles Rulebook"/>
     <publication id="8c20-1e89-cba7-0494" name="Forces of the Federal Coalition "/>
@@ -322,7 +322,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8453-2df2-08a9-8e0a" type="max"/>
           </constraints>
           <rules>
-            <rule id="425d-c0e2-ca9b-53c3" name="First Void War Time Period" hidden="false"/>
+            <rule id="425d-c0e2-ca9b-53c3" name="First Void War Time Period" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+              <description>For Games that take place during the First Void War Era</description>
+            </rule>
           </rules>
           <categoryLinks>
             <categoryLink id="0dad-ce67-b975-96b1" name="Era of Play " hidden="false" targetId="b6a6-5387-61f2-2383" primary="false"/>
@@ -337,7 +339,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1ae-4586-b593-5138" type="max"/>
           </constraints>
           <rules>
-            <rule id="1af8-27e5-2792-cfce" name="Remnant Time Period" hidden="false"/>
+            <rule id="1af8-27e5-2792-cfce" name="Remnant Time Period" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+              <description>For Games that take place during the Remnants Era</description>
+            </rule>
           </rules>
           <categoryLinks>
             <categoryLink id="4f71-20e0-ce3a-e4ab" name="Era of Play " hidden="false" targetId="b6a6-5387-61f2-2383" primary="false"/>
@@ -352,7 +356,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c81b-c72c-3b7b-6288" type="max"/>
           </constraints>
           <rules>
-            <rule id="acc2-982c-bb88-73f5" name="Han&apos;s Crusade Time Period" hidden="false"/>
+            <rule id="acc2-982c-bb88-73f5" name="Han&apos;s Crusade Time Period" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+              <description>For Games that take place during the Han&apos;s Crusade Era</description>
+            </rule>
           </rules>
           <categoryLinks>
             <categoryLink id="ce70-a540-fb2e-a55c" name="Era of Play " hidden="false" targetId="b6a6-5387-61f2-2383" primary="false"/>
@@ -367,7 +373,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08ac-bfa9-c7e4-7645" type="max"/>
           </constraints>
           <rules>
-            <rule id="e735-e4cc-e06e-f275" name="Second Void War Time Period" hidden="false"/>
+            <rule id="e735-e4cc-e06e-f275" name="Second Void War Time Period" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+              <description>For Games that take place during the Second Void War Era</description>
+            </rule>
           </rules>
           <categoryLinks>
             <categoryLink id="c710-8469-100f-39ed" name="Era of Play " hidden="false" targetId="b6a6-5387-61f2-2383" primary="false"/>
@@ -382,7 +390,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f45e-1786-be01-255a" type="max"/>
           </constraints>
           <rules>
-            <rule id="3ec0-aab8-3dea-70b4" name="Generic " hidden="false">
+            <rule id="3ec0-aab8-3dea-70b4" name="Generic " publicationId="c8da-24a8-bcaa-8190" hidden="false">
               <description>Use this for Tournament play </description>
             </rule>
           </rules>
@@ -529,7 +537,7 @@ Casualties can only be secured by bringing them in contact with your home edge.
           </constraints>
           <rules>
             <rule id="c342-1d36-2723-8ada" name="General" publicationId="c8da-24a8-bcaa-8190" hidden="false">
-              <description>This is the method by which most games are set up. It is ideal for more experience play or more pre-planned gaming. More detail will be given below about General Terrain Placement. </description>
+              <description>This is the method by which most games are set up. It is ideal for more experience play or more pre-planned gaming. </description>
             </rule>
           </rules>
           <costs>
@@ -3457,8 +3465,8 @@ Once a Token has been rolled for and the result applied, remove it from the game
     <rule id="125b-8efb-f5f8-7b3d" name="Task Force Leader" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <description>If the Task Force Leader is killed, Another model with the Voice of Command Ability of Equal or Lesser Rank must be appointed as the new Task Force Leader. Killing the Task Force Leader counts towards Disrupt Enemy Leadership and also Take Prisoners if the Task Force Leader is captured. There may be only 1 Task Force Leader Per Task Force. </description>
     </rule>
-    <rule id="41db-d4fa-3bf5-9e26" name="Voice of Command" publicationId="c8da-24a8-bcaa-8190" hidden="false">
-      <description>Certain models possess enhanced command abilities. The Voice of Command ability extends the area of effect for Command Cards to a range equal to the unit cohesion range of 5 inches plus the model’s Leadership (LD) and Intelligence (INT) attributes.</description>
+    <rule id="41db-d4fa-3bf5-9e26" name="Command Projection" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+      <description>Certain models possess enhanced command abilities. The Command Projection ability extends the area of effect for Command Cards to a range equal to the unit cohesion range of 5 inches plus the model’s Leadership (LD) and Intelligence (INT) attributes.</description>
     </rule>
     <rule id="479c-17c0-c10a-f743" name="Flexiable Command" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <description>A model with this special rule can spend an action during its activation to join or leave a LIGHT CORE unit. While part of the unit, it grants its special rules or abilities to the entire unit.</description>
@@ -5238,7 +5246,7 @@ The  Model must be in base-to-base contact with the casualty to perform the chec
       </constraints>
       <rules>
         <rule id="5476-74cc-1fcd-e908" name="Combat Radio Network" publicationId="c8da-24a8-bcaa-8190" hidden="false">
-          <description>Units equipped with a Combat Network Radio benefit from an enhanced area of effect for Command Cards. The Voice of Command ability extends up to 15 inches instead of the standard 5 inch range. 
+          <description>Units equipped with a Combat Network Radio benefit from an enhanced area of effect for Command Cards. The Command Projection ability extends up to 15 inches instead of the standard 5 inch range. 
 </description>
         </rule>
       </rules>
@@ -6870,7 +6878,7 @@ If an action cost for an objective exceeds double its starting value, the object
     <rule id="f95c-d735-9989-7a31" name="Volatile" hidden="false">
       <description>This weapon has the chance of Exploding. If the Model wielding this weapon is attacked in the Rear Arc, Roll a D10. On 6+ nothing happens. 2-5, The weapon cannot be used the rest of the Game. On a 1 The weapon detonates. Your Friends Will Miss You Dearly. The Model and anything that is in a Radius equal to the Weapon’s ROF in inches must defend against an Attack Roll using the Model’s Combat Skill. The model is considered to be in the Open for the purposes of this Attack</description>
     </rule>
-    <rule id="5581-8d83-3043-4a25" name="Voice of Command" hidden="false">
+    <rule id="5581-8d83-3043-4a25" name="Command Projection" hidden="false">
       <description>Certain models possess enhanced command abilities. The Voice of Command ability allows the area of effect for certain Command Cards to be determined using the same 5-inch range as the unit cohesion. 
 </description>
     </rule>
@@ -7064,6 +7072,15 @@ equal to X inches from the point where the weapon hit. The Blind Condition lasts
       <description>This model maybe added to or  removed from the tabletop if a model uses a action to deploy or undeploy it. The controlling model must be in base to base contact in order to deploy or undeploy the model</description>
     </rule>
     <rule id="ea3e-af6a-4404-a09b" name="Blind" publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
+    <rule id="6704-0ad0-cba9-1c7d" name="Crewed:X" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+      <description>Crewed weapons—such as machine guns, mortars, or flamethrowers—require multiple models to operate but can continue firing as long as at least one crew member remains. 
+
+If all crew members are killed, the weapon can be re-crewed if the squad has at least X models, as defined on the unit’s card. Doing so permanently turns that unit into a crewed weapon team of the same type. If the squad has fewer than X models, reloading the weapon requires two actions. 
+
+For Victory Points, full points are only awarded when the entire crew is eliminated.
+
+</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="93de-01b7-b2bd-38a7" name="Veteran Crew" publicationId="c8da-24a8-bcaa-8190" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">

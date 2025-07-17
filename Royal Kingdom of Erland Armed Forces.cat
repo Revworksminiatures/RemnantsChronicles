@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="19" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="26" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="20" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="a603-48d7-f61c-36e6" name="Special Operations Task Force (Casual Play)" publicationId="ecbd-4756-1610-637c" hidden="false">
       <categoryLinks>
@@ -548,6 +548,48 @@ Every model in the unit that uses this Tactical Asset will automatically take an
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="9328-d999-ed7e-0e25" name="• The Great Purge Begins" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7034-09ce-c24c-ced7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14f5-b595-efe7-be4f" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="1ec3-ca9e-730a-58a6" name="• The Great Purge Begins" publicationId="ecbd-4756-1610-637c" hidden="false">
+                  <description>Play at the start of your activation. All PALADIN units gain +2 MOVE this turn.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="df6e-8200-b590-cf36" name="• Edict of Silence" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7034-09ce-c24c-ced7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9789-97e0-ae9d-beae" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="7c54-599c-314a-6728" name="• Edict of Silence" publicationId="ecbd-4756-1610-637c" hidden="false">
+                  <description>Play at the start of your turn. Choose an enemy unit within 10&quot; of your PALADIN unit. That enemy unit suffers -1 dice to their CMBT stat this turn.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -727,6 +769,48 @@ Every model in the unit that uses this Tactical Asset will automatically take an
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="be6b-8b36-5a47-2bdf" name="•• Royal Decree (Paladins of Erland)" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7034-09ce-c24c-ced7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed44-6f72-82ab-b050" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="5a3d-4b42-109a-0edf" name="•• Royal Decree (Paladins of Erland)" publicationId="ecbd-4756-1610-637c" hidden="false">
+                  <description>Play this card instead of activating a unit. All PALADIN units in command range immediately reposition up to 5&quot; ignoring engagement rules. They cannot shoot or fight this turn.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="693c-e50c-d232-aa3b" name="•• The Executioner&apos;s Eye (Paladins of Erland)" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7034-09ce-c24c-ced7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1918-9f98-bf7c-4c26" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="3c38-f2ba-8f7d-d30f" name="•• The Executioner&apos;s Eye (Paladins of Erland)" publicationId="ecbd-4756-1610-637c" hidden="false">
+                  <description>Play at the start of the enemy&apos;s turn. Pick an enemy model with the Command Presense ability. That model immediately gains +3 NERVE tokens and loses an action on its next activation.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -884,7 +968,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="da89-fdcc-30db-7920" name="••• The Kings Executioner " hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="da89-fdcc-30db-7920" name="••• The Kings Executioner " publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -898,6 +982,52 @@ Every model in the unit that uses this Tactical Asset will automatically take an
               <rules>
                 <rule id="d1df-a7e0-1928-1fe4" name="••• The Kings Executioner " publicationId="ecbd-4756-1610-637c" hidden="false">
                   <description>Every enemy LIVING model within BASE contact of Prince Captain Joakim Gosta gain +3 tokens to their NERVE automatically the first time they enter into or attacked by this model and its unit.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bab1-ea12-c7ae-2482" name="••• The King&apos;s Justice " publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4513-6534-65a7-cf0c" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41f2-085a-79bd-027f" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="2970-dba1-878b-46e5" name="••• The King&apos;s Justice (Prince-Captain Joakim Only)" publicationId="ecbd-4756-1610-637c" hidden="false">
+                  <description>Play at the start of the Jaokim&apos;s unit activation. Select Joakim and one enemy model with the Command Projection ability within 15&quot;
+
+ Joakim and his unit immediately makes a free move directly towards the target ignoring engagement penalties and difficult terrain. 
+
+If the enemy model with the Command Projection abilitiy is slain by Joakim this round gain +3 VP and all enemy units within 5&quot; gain +3 NERVE tokens</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="67a2-60d0-397c-693e" name="••• Oath of Blood (Paladins of Erland)" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7034-09ce-c24c-ced7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebe8-ec8a-88ad-029d" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="f7f8-efbb-8393-af80" name="••• Oath of Blood (Paladins of Erland)" publicationId="ecbd-4756-1610-637c" hidden="false">
+                  <description>Play after a PALADIN Lineage unit destroys an enemy unit. For the rest of the round, that Paladin unit gains +1 dice to its CMBT and DEF stats. Discard after use </description>
                 </rule>
               </rules>
               <costs>
@@ -1026,6 +1156,9 @@ Every model in the unit that uses this Tactical Asset will automatically take an
       </costs>
     </selectionEntry>
     <selectionEntry id="d3e7-f076-6444-b297" name="155mm Field Artillery Battery" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="be3b-4fc8-88fe-5807" name="Crewed:X" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="6704-0ad0-cba9-1c7d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="6389-7eaa-22a8-da13" name="Heavy Support" hidden="false" targetId="4749-85c7-9d41-aa3f" primary="true"/>
       </categoryLinks>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="24" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="25" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="674c-569a-ca53-7190" name="Marine Boarding Assault Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -527,6 +527,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="7e38-bdbf-c4a7-c195" name="Crewed:X" hidden="false" targetId="6704-0ad0-cba9-1c7d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="467d-a1a0-5b51-7c74" name="Heavy Support" hidden="false" targetId="4749-85c7-9d41-aa3f" primary="true"/>
       </categoryLinks>
@@ -1576,6 +1579,27 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="c7f1-d105-0057-711e" name="••• Leadership in Calm (Master Sergeant Powell Only)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0089-96a8-0fc0-6074" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ccd-e174-dc85-6abc" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="53e3-7d82-6881-7df7" name="••• Leadership in Calm (Master Sergeant Powell Only)" publicationId="8c20-1e89-cba7-0494" hidden="false">
+                  <description>If your forces are outnumbered, Master Sergeant Powell&apos;s unit grants an additional action to one nearby friendly unit within Command Range , allowing them to move or attack again this round.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -1911,6 +1935,9 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f4f-c410-12c4-7af4" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="c78c-91be-706b-61e8" name="Crewed:X" hidden="false" targetId="6704-0ad0-cba9-1c7d" type="rule"/>
+          </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="812f-840a-df2c-cc19" name="Marines" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" defaultSelectionEntryId="5140-3a9b-761d-d5c2">
               <constraints>
@@ -2168,6 +2195,9 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac59-ec20-2a42-f3fe" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="f70c-f426-a860-a6bc" name="Crewed:X" hidden="false" targetId="6704-0ad0-cba9-1c7d" type="rule"/>
+          </infoLinks>
           <selectionEntries>
             <selectionEntry id="973b-3c40-8109-8c95" name="Light Howitzer" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2443,6 +2473,9 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c85-9060-c422-0292" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="b652-66ac-c2b8-5fe9" name="Crewed:X" hidden="false" targetId="6704-0ad0-cba9-1c7d" type="rule"/>
+          </infoLinks>
           <selectionEntries>
             <selectionEntry id="3ef1-fd00-24c9-82af" name="Mortar" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -3705,6 +3738,9 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b62-6a9f-5838-7ae6" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="40a6-dc0b-224a-bded" name="Crewed:X" hidden="false" targetId="6704-0ad0-cba9-1c7d" type="rule"/>
+          </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="7943-280e-f434-810a" name="Guardsmen Milita" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" defaultSelectionEntryId="da87-50ca-5338-7bf6">
               <constraints>
@@ -3962,6 +3998,9 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="674b-f03b-7979-afc7" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="9253-a824-eb11-3724" name="Crewed:X" hidden="false" targetId="6704-0ad0-cba9-1c7d" type="rule"/>
+          </infoLinks>
           <selectionEntries>
             <selectionEntry id="b2e2-8fb6-1525-29e0" name="Light Howitzer" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -4220,6 +4259,9 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="267c-77d7-150d-6937" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="2cb0-d626-359e-7c80" name="Crewed:X" hidden="false" targetId="6704-0ad0-cba9-1c7d" type="rule"/>
+          </infoLinks>
           <selectionEntries>
             <selectionEntry id="27cc-074e-a413-4af4" name="Mortar" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -6101,6 +6143,9 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="81cc-cc19-4e0f-f3d6" name="Crewed:X" hidden="false" targetId="6704-0ad0-cba9-1c7d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="63b7-dd05-1aaf-206c" name="Heavy Support" hidden="false" targetId="4749-85c7-9d41-aa3f" primary="true"/>
       </categoryLinks>
@@ -7613,6 +7658,9 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59b9-f0d0-4eb1-102f" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="7c99-3595-f0e9-a017" name="Crewed:X" hidden="false" targetId="6704-0ad0-cba9-1c7d" type="rule"/>
+          </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="e3cc-93d1-68b0-f1f0" name="Soldiers" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" defaultSelectionEntryId="40ec-01f0-434a-71c3">
               <constraints>
@@ -7870,6 +7918,9 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a56a-c46d-674e-0a51" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="d05d-90f1-7240-8049" name="Crewed:X" hidden="false" targetId="6704-0ad0-cba9-1c7d" type="rule"/>
+          </infoLinks>
           <selectionEntries>
             <selectionEntry id="1124-9fa3-159a-0d03" name="Light Howitzer" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -8128,6 +8179,9 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e36-ae4e-159f-4c58" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="ead0-e72a-c3ac-f029" name="Crewed:X" hidden="false" targetId="6704-0ad0-cba9-1c7d" type="rule"/>
+          </infoLinks>
           <selectionEntries>
             <selectionEntry id="67fb-91e5-e285-60c5" name="Mortar" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -11048,16 +11102,16 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
     <profile id="df7c-05aa-b6cd-b2dc" name="•Master Sargeant Powell" publicationId="8c20-1e89-cba7-0494" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
       <characteristics>
         <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
-        <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
-        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
-        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
-        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
-        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
-        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
-        <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
-        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
-        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
-        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">3</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">3</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">3</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">4</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
