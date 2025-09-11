@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="20" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="21" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="a603-48d7-f61c-36e6" name="Special Operations Task Force (Casual Play)" publicationId="ecbd-4756-1610-637c" hidden="false">
       <categoryLinks>
@@ -548,7 +548,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9328-d999-ed7e-0e25" name="• The Great Purge Begins" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9328-d999-ed7e-0e25" name="• The Great Purge Begins (Paladins of Erland)" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -569,7 +569,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="df6e-8200-b590-cf36" name="• Edict of Silence" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="df6e-8200-b590-cf36" name="• Edict of Silence (Paladins of Erland)" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -855,7 +855,9 @@ Every model in the unit that uses this Tactical Asset will automatically take an
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="825f-340b-713d-facc" type="max"/>
               </constraints>
               <rules>
-                <rule id="2e96-41ef-0114-e5a3" name="•••Orbital Relay " hidden="false"/>
+                <rule id="2e96-41ef-0114-e5a3" name="•••Orbital Relay " publicationId="ecbd-4756-1610-637c" hidden="false">
+                  <description>A LIGHT SUPPORT Unit with a Indirect ability weapon may fire its weapon as if it was a Direct Fire weapon. Line of Sight is not needed in order to use this card. </description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
@@ -968,28 +970,7 @@ Every model in the unit that uses this Tactical Asset will automatically take an
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="da89-fdcc-30db-7920" name="••• The Kings Executioner " publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4513-6534-65a7-cf0c" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6274-7c0c-11fd-9518" type="max"/>
-              </constraints>
-              <rules>
-                <rule id="d1df-a7e0-1928-1fe4" name="••• The Kings Executioner " publicationId="ecbd-4756-1610-637c" hidden="false">
-                  <description>Every enemy LIVING model within BASE contact of Prince Captain Joakim Gosta gain +3 tokens to their NERVE automatically the first time they enter into or attacked by this model and its unit.</description>
-                </rule>
-              </rules>
-              <costs>
-                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
-                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="bab1-ea12-c7ae-2482" name="••• The King&apos;s Justice " publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="bab1-ea12-c7ae-2482" name="••• The King&apos;s Executioner (Prince-Captain Joakim Gosta Only) " publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -2919,8 +2900,8 @@ If the enemy model with the Command Projection abilitiy is slain by Joakim this 
       <selectionEntries>
         <selectionEntry id="01f3-1f5c-f496-2f45" name="Marine Lancer Leader " publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="model">
           <infoLinks>
-            <infoLink id="e63f-255e-6da2-aaaa" name="Army Skirmisher Leader " hidden="false" targetId="7f2d-b3bc-13af-5780" type="profile"/>
-            <infoLink id="e49a-593d-e68e-4a6b" name="Voice of Command" publicationId="ecbd-4756-1610-637c" hidden="false" targetId="5581-8d83-3043-4a25" type="rule"/>
+            <infoLink id="e49a-593d-e68e-4a6b" name="Command Projection" publicationId="ecbd-4756-1610-637c" hidden="false" targetId="5581-8d83-3043-4a25" type="rule"/>
+            <infoLink id="b2f3-793c-35e5-341c" name="Marine Lancer Leader " hidden="false" targetId="e02a-6dba-1878-d20b" type="profile"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="6368-64db-ea07-34f1" name="Hand to Hand Combat" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="2772-828a-0b7c-24f8" type="selectionEntry"/>
@@ -2936,7 +2917,7 @@ If the enemy model with the Command Projection abilitiy is slain by Joakim this 
         </selectionEntry>
         <selectionEntry id="a7a2-2ef9-38a3-c018" name="Senior Marine Lancer Leader" publicationId="ecbd-4756-1610-637c" hidden="false" collective="false" import="true" type="model">
           <infoLinks>
-            <infoLink id="4b7e-f2ec-629f-5886" name="Senior Army Skirmisher Leader" hidden="false" targetId="2c5e-9c67-21d1-00ea" type="profile"/>
+            <infoLink id="4b7e-f2ec-629f-5886" name="Senior Marine Lancer Leader" hidden="false" targetId="9e2e-f8ab-cc0f-4028" type="profile"/>
             <infoLink id="819f-f75d-23ff-3f7b" name="Voice of Command" publicationId="ecbd-4756-1610-637c" hidden="false" targetId="5581-8d83-3043-4a25" type="rule"/>
           </infoLinks>
           <entryLinks>
@@ -4038,6 +4019,36 @@ If the enemy model with the Command Projection abilitiy is slain by Joakim this 
         <characteristic name="NERVE" typeId="6f6e-eb2b-f021-7a34">4</characteristic>
         <characteristic name="MOVE" typeId="df56-119e-bf6f-8e90">7</characteristic>
         <characteristic name="SIZE" typeId="1adb-2fcb-5438-776f">9-H</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9e2e-f8ab-cc0f-4028" name="Senior Marine Lancer Leader" publicationId="ecbd-4756-1610-637c" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b"/>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42"/>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4"/>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d"/>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb"/>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7"/>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586"/>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45"/>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba"/>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae"/>
+      </characteristics>
+    </profile>
+    <profile id="e02a-6dba-1878-d20b" name="Erland Marine Lancer Leader " publicationId="ecbd-4756-1610-637c" hidden="false" typeId="26f1-62ef-78f9-c624" typeName="Trooper">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="b7f7-1712-33a4-4db8">Living, Arms, Legs</characteristic>
+        <characteristic name="CMBT" typeId="2883-255f-189e-af1b">3</characteristic>
+        <characteristic name="DEF" typeId="29bb-e23d-71ec-ce42">2</characteristic>
+        <characteristic name="ATHL" typeId="3576-837b-0724-0dc4">3</characteristic>
+        <characteristic name="INT" typeId="6909-6f4c-c7b2-fd2d">2</characteristic>
+        <characteristic name="LD" typeId="3ea7-0008-ddf1-c7bb">2</characteristic>
+        <characteristic name="ARMOR" typeId="2b8c-e750-486a-50d7">10</characteristic>
+        <characteristic name="END" typeId="9490-11f5-1aaf-c586">2</characteristic>
+        <characteristic name="NERVE" typeId="ab64-6565-5535-bf45">3</characteristic>
+        <characteristic name="MOVE" typeId="e560-e6a3-6931-12ba">5</characteristic>
+        <characteristic name="SIZE" typeId="35b0-98cf-50a3-44ae">5-Med</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

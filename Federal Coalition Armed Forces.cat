@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="25" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2cb-99b2-7a20-3386" name="Federal Coalition Armed Forces" revision="29" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="674c-569a-ca53-7190" name="Marine Boarding Assault Task Force (Casual Play)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
       <categoryLinks>
@@ -1010,6 +1010,7 @@
             <entryLink id="272b-83ff-2add-68a9" name="Vehicle Upgrades" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="7efe-9b10-3efa-df24" type="selectionEntryGroup"/>
             <entryLink id="e179-146a-0f31-cb39" name="Anti-Personal Weapons " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="5ea4-d121-3247-864f" type="selectionEntryGroup"/>
             <entryLink id="5847-fdc2-fe8b-e349" name="Field Modifications" hidden="false" collective="false" import="true" targetId="2fb8-c0aa-698f-822b" type="selectionEntryGroup"/>
+            <entryLink id="2eea-db4e-c967-b66f" name="Lineage" hidden="false" collective="false" import="true" targetId="6fdc-5473-8c25-4030" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="4.0"/>
@@ -1394,6 +1395,48 @@
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="c225-4dc0-8c69-b0d7" name="• Take and Hold (ODA Lineage)" publicationId="8c20-1e89-cba7-0494" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8be4-e13a-b373-fc47" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c40e-ce09-685f-0333" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="7c27-8e32-5aef-e430" name="• Take and Hold (ODA Lineage)" publicationId="8c20-1e89-cba7-0494" hidden="false">
+                  <description>Pick a ODA LIGHT CORE unit directly on a objective. Each models counts as two models for purposes of objective control for this turn only.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d6e1-98ed-a1d8-d114" name="• Rapid Consolidation (ODA Lineage)" publicationId="8c20-1e89-cba7-0494" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8be4-e13a-b373-fc47" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e792-5a6a-054c-f2f1" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="49c2-9e30-22b1-8b3d" name="• Rapid Consolidation (ODA Lineage)" publicationId="8c20-1e89-cba7-0494" hidden="false">
+                  <description>Choose one ODA LIGHT CORE or LIGHT SUPPORT unit. It may move up to 5&quot; immediately ignoring terrain penalties, even if it is out of actions for this turn. Units that move this way cannot make attacks this round.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -1500,6 +1543,48 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="b0b8-29e8-2e56-4722" name="••Pathfinder Training (ODA Lineage)" publicationId="8c20-1e89-cba7-0494" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8be4-e13a-b373-fc47" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ada8-94c8-bd19-6ea8" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="3511-9cc2-2490-f524" name="••Pathfinder Training (ODA Lineage)" publicationId="8c20-1e89-cba7-0494" hidden="false">
+                  <description>Grants the PATHFINDER keyword to one LIGHT CORE ODA unit. This unit may use the OBSERVER action without spending an action to do so.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="2.0"/>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="aac6-f939-f092-8f4f" name="••Drop Zone Secure (ODA Lineage)" publicationId="8c20-1e89-cba7-0494" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8be4-e13a-b373-fc47" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ea8-d2eb-c767-e738" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="33df-6a05-052f-b93f" name="••Drop Zone Secure (ODA Lineage)" publicationId="8c20-1e89-cba7-0494" hidden="false">
+                  <description>Pick one ODA LIGHT CORE unit that just deployed via HADOC. That unit gains +2 to their ARMOR unit the end of the round</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="2.0"/>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -1593,6 +1678,48 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
               <rules>
                 <rule id="53e3-7d82-6881-7df7" name="••• Leadership in Calm (Master Sergeant Powell Only)" publicationId="8c20-1e89-cba7-0494" hidden="false">
                   <description>If your forces are outnumbered, Master Sergeant Powell&apos;s unit grants an additional action to one nearby friendly unit within Command Range , allowing them to move or attack again this round.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f66b-a28e-fb2c-65b3" name="••• Eagle Eyes (ODA Lineage)" publicationId="8c20-1e89-cba7-0494" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8be4-e13a-b373-fc47" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="379c-942f-d1a7-8ee3" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="f87e-c47e-6b23-428f" name="••• Eagle Eyes (ODA Lineage)" publicationId="8c20-1e89-cba7-0494" hidden="false">
+                  <description>Select one ODA LIGHT SUPPORT unit. Enemys cannot benefit from COVER or CONCEALMENT for this round.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="79e0-61da-d6f4-4f5e" name="••• Observer Link (ODA Lineage)" publicationId="8c20-1e89-cba7-0494" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8be4-e13a-b373-fc47" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bda-ef89-bc35-efe3" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="07aa-3c84-7602-4b40" name="••• Observer Link (ODA Lineage)" publicationId="8c20-1e89-cba7-0494" hidden="false">
+                  <description>Select one ODA PATHFINDER unit. Until the end of the round, any friendly ODA unit within 10&quot; may fire as if it were within line of sight of the target, provided the PATHFINDER does not move this round.</description>
                 </rule>
               </rules>
               <costs>
@@ -7184,6 +7311,7 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="e64d-b075-52d5-d7f2" name="Army Squad Leader" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="eb72-bed6-6ee7-be0a" type="selectionEntryGroup"/>
+        <entryLink id="4055-313b-8261-297c" name="Lineage" hidden="false" collective="false" import="true" targetId="6fdc-5473-8c25-4030" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -7494,6 +7622,7 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="218a-cdf1-16fb-757f" type="min"/>
               </constraints>
             </entryLink>
+            <entryLink id="d1e3-7e19-669f-efc8" name="Lineage" hidden="false" collective="false" import="true" targetId="6fdc-5473-8c25-4030" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="8.0"/>
@@ -7608,6 +7737,7 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a34-cea8-19ff-d70e" type="min"/>
               </constraints>
             </entryLink>
+            <entryLink id="3fc5-c77d-4bab-6a55" name="Lineage" hidden="false" collective="false" import="true" targetId="6fdc-5473-8c25-4030" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
@@ -7908,6 +8038,7 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-7.0"/>
               </costs>
             </entryLink>
+            <entryLink id="8383-7bf3-c44e-3d0e" name="Lineage" hidden="false" collective="false" import="true" targetId="6fdc-5473-8c25-4030" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
@@ -8170,6 +8301,9 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="c6c1-245e-35af-364f" name="Lineage" hidden="false" collective="false" import="true" targetId="6fdc-5473-8c25-4030" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="15.0"/>
@@ -8431,6 +8565,9 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="ef57-6476-4678-1b76" name="Lineage" hidden="false" collective="false" import="true" targetId="6fdc-5473-8c25-4030" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="13.0"/>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="6.0"/>
@@ -8557,6 +8694,7 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28a2-5859-502e-9145" type="min"/>
               </constraints>
             </entryLink>
+            <entryLink id="59d1-b757-b06f-62bd" name="Lineage" hidden="false" collective="false" import="true" targetId="6fdc-5473-8c25-4030" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="8.0"/>
@@ -9071,6 +9209,11 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1276-7738-0afa-bc10" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e5e-cdcc-5bdd-da4c" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="f521-949a-5c79-86ea" name="Patch Kit" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="02a8-2a11-5cb3-51a4" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6926-5b23-d301-03fc" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -9716,7 +9859,7 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8079-bd53-4233-146e" name="Army Engineer" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8079-bd53-4233-146e" name="Army Engineer" publicationId="8c20-1e89-cba7-0494" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ff6-9037-5405-9a2a" type="max"/>
           </constraints>
@@ -9790,10 +9933,15 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8608-a7fa-b165-8860" type="min"/>
               </constraints>
             </entryLink>
+            <entryLink id="3999-2c45-d32b-d221" name="Patch Kit" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="02a8-2a11-5cb3-51a4" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84ba-cc51-a253-15e2" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-6.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="586e-6bef-d68e-0263" name="Combat Automated Loader (CAL Mk2)" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="model">
@@ -10904,6 +11052,40 @@ Additionally, another Light Core Unit gains an advantage for all ranged attacks 
           <costs>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-6.0"/>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="6fdc-5473-8c25-4030" name="Lineage" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="1f87-e7ac-2f2e-2746" name="Orbital Drop Assault Trained" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8be4-e13a-b373-fc47" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c010-cc43-c217-2a85" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="0aaf-359a-c79d-4254" name="Orbital Drop Assault Trained" publicationId="8c20-1e89-cba7-0494" hidden="false">
+              <description>Grants the HADOC Special Rule to any units with this Lineage</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="34dc-078c-ad95-4d9a" name="None" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3866-f088-bd35-8493" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="31" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="35" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c8da-24a8-bcaa-8190" name="The Remnant Chronicles Rulebook"/>
     <publication id="8c20-1e89-cba7-0494" name="Forces of the Federal Coalition "/>
@@ -4525,27 +4525,35 @@ If the model moves, then it must spend another action to reengage the Stabilizer
     </selectionEntry>
     <selectionEntry id="d54d-fd72-a10a-45dd" name="Hot Fix" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
-        <rule id="6a53-1616-b31c-0524" name="Hot Fix" hidden="false">
-          <description>The model may spend an action if it is in Base Contact with another friendly model with the Construct Trait. The friendly model may ignore the effects of Critical Wounds until the start of their next activation</description>
+        <rule id="6a53-1616-b31c-0524" name="Hot Fix" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+          <description>A model may spend one action while in base-to-base contact with a friendly model that has the Construct Trait. That friendly model ignores the effects of Critical Wounds until the start of its next activation. This does not remove the wound.</description>
         </rule>
       </rules>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6e89-cbc0-7d2f-4c92" name="Repair Kit" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="bc9a-4b12-5ab6-bb5e" name="Repair Kit" hidden="false" typeId="ab93-fd75-60ca-f65d" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="e829-a194-1e82-ef0e">Direct	</characteristic>
+            <characteristic name="Range" typeId="8c3b-7392-eccb-3fbd">Base</characteristic>
+            <characteristic name="RoF" typeId="78b1-0557-98bf-20b5">-</characteristic>
+            <characteristic name="DMG" typeId="fd6b-8dc5-3738-8dd4">-Uses: OOO</characteristic>
+            <characteristic name="Special Rules" typeId="c841-288e-1d62-7ddb"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules>
-        <rule id="f645-498d-0fc2-5e45" name="Repair  Kit" hidden="false">
-          <description>Every model in the unit is equipped with one repair kit. A model may spend 1 repair kit to add to their intelligence roll on a casualty with the Construct Keyword. 
-Regardless of the result of the check, the repair kit is used up and the model loses this special rule. 
-The Models must be in base-to-base contact in order to perform the check.
-</description>
+        <rule id="f645-498d-0fc2-5e45" name="Repair  Kit" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+          <description>A model in the unit is equipped with one repair kit. A model can spend 1 repair kit to boost their Intelligence roll when treating a casualty with the Construct Keyword. Regardless of the check result, the repair kit is expended, and the model loses this special rule. The models must be in base-to-base contact to perform the check</description>
         </rule>
       </rules>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4584-c690-2963-e8c4" name="Engineering Saw" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -4582,13 +4590,13 @@ The Models must be in base-to-base contact in order to perform the check.
         </profile>
       </profiles>
       <rules>
-        <rule id="fd4a-fe14-4e6c-1299" name="Terminal Splices" hidden="false">
+        <rule id="fd4a-fe14-4e6c-1299" name="Terminal Splices" publicationId="c8da-24a8-bcaa-8190" hidden="false">
           <description>Maybe used to add an advantge to a single INT roll for a single round. Once this splice is used it may not be used again for this round.</description>
         </rule>
       </rules>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="878c-d1c1-b3d0-d700" name="Spare Ammo" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -5076,7 +5084,7 @@ The  Model must be in base-to-base contact with the casualty to perform the chec
         </rule>
       </rules>
       <costs>
-        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-2.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -5093,11 +5101,14 @@ The  Model must be in base-to-base contact with the casualty to perform the chec
         </profile>
       </profiles>
       <rules>
-        <rule id="db2e-2710-43b0-9fab" name="Patch Kit" hidden="false"/>
+        <rule id="db2e-2710-43b0-9fab" name="Patch Kit" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+          <description>A model in the unit is equipped with one Patch kit. A model can spend 1 patch kit to boost their Intelligence roll when treating a casualty with the Vehicle Keyword. Regardless of the check result, the patch kit is expended, and the model loses this special rule. The models must be in base-to-base contact to perform the check.
+</description>
+        </rule>
       </rules>
       <costs>
         <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+        <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7387-4f6a-aa11-959f" name="Combat Stims Kit" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
@@ -5729,11 +5740,11 @@ The  Model must be in base-to-base contact with the casualty to perform the chec
           </constraints>
           <rules>
             <rule id="85e5-8ed0-84b9-deed" name="Command Vehicle Modification" publicationId="c8da-24a8-bcaa-8190" hidden="false">
-              <description>This modification grants the Vehicle the Voice of Command Special Rule</description>
+              <description>This modification grants the Vehicle the Command Projection Rule</description>
             </rule>
           </rules>
           <infoLinks>
-            <infoLink id="7a39-b5b0-43db-4290" name="Voice of Command" hidden="false" targetId="5581-8d83-3043-4a25" type="rule"/>
+            <infoLink id="7a39-b5b0-43db-4290" name="Command Projection" hidden="false" targetId="5581-8d83-3043-4a25" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-10.0"/>
@@ -6883,7 +6894,7 @@ If an action cost for an objective exceeds double its starting value, the object
 </description>
     </rule>
     <rule id="cc82-cc85-07be-750b" name="Veteran Crew" hidden="false">
-      <description>Grants this Vehicle the Voice of Command Ability</description>
+      <description>Grants this Vehicle the Command Projection Ability</description>
     </rule>
     <rule id="9b21-2da6-42dd-e66c" name="Turret" hidden="false">
       <description>The weapon may fire in any direction no matter which direction it is facing.</description>
