@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="27" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="28" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="3e5c-c3d7-7fa7-d7d6" name="Han&apos;s Crusaders (Casual Play)" publicationId="782f-493f-cc20-a098" hidden="false">
       <categoryLinks>
@@ -1561,6 +1561,7 @@ Ammo: OOO</characteristic>
             <entryLink id="377e-f1f6-e396-5df5" name="The Independent&apos;s Primary Weapons" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
             <entryLink id="ced8-4cc3-0c0e-78df" name="The Independent&apos;s Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
             <entryLink id="bed0-7095-54f8-6466" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
+            <entryLink id="84e8-40cd-a1ee-afc6" name="Task Force Leader" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
@@ -1648,6 +1649,7 @@ Ammo: OOO</characteristic>
             <entryLink id="c5a1-6b24-c963-760d" name="The Independent&apos;s Primary Weapons" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
             <entryLink id="f3b9-d83f-f938-39e7" name="The Independent&apos;s Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
             <entryLink id="0ca9-7c43-2716-360a" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
+            <entryLink id="8fac-ab2b-cb4d-5c9e" name="Task Force Leader" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
@@ -2189,7 +2191,7 @@ Ammo: OOO</characteristic>
               </constraints>
               <rules>
                 <rule id="e13b-0b4d-ca76-e865" name="•Combat Stims (Zi&apos;lo Drug Cartel)" publicationId="782f-493f-cc20-a098" hidden="false">
-                  <description>Select a ZI&apos;LO SLAVER or GANGER unit. When that unit is attacked immediatly prevent up to 2 damage for each member of the squad. Place the wound tokens on this card instead. At the beginning of the next round, roll a defense </description>
+                  <description>Select a Zi&apos;lo SLAVER or GANGER unit. When that unit is attacked immediatly prevent up to 2 damage for each member of the squad. Place the wound tokens on this card instead. At the beginning of the next round, roll DEF for each member who would have been wounded and remove any failed rolls as needed.</description>
                 </rule>
               </rules>
               <costs>
@@ -2210,7 +2212,7 @@ Ammo: OOO</characteristic>
               </constraints>
               <rules>
                 <rule id="f3d6-080f-40d4-d532" name="•Street Smarts (Zi&apos;lo Drug Cartel)" publicationId="782f-493f-cc20-a098" hidden="false">
-                  <description>Select a ZI&apos;LO SLAVER or GANGER unit. That unit immediatly gains 1 advantage to all of their defense rolls for the next round to a maximum of 5 dice.</description>
+                  <description>Select a Zi&apos;lo SLAVER or GANGER unit. That unit immediatly gains 1 advantage to all of their defense rolls for the next round to a maximum of 5 dice.</description>
                 </rule>
               </rules>
               <costs>
@@ -2401,7 +2403,7 @@ Ammo: OOO</characteristic>
               </constraints>
               <rules>
                 <rule id="5443-b82f-5546-ab7a" name="•Relentless Fury (Oyar BloodLine)" publicationId="782f-493f-cc20-a098" hidden="false">
-                  <description>If a member of a HIRED GUN squad with a OYAR BLOODLINE is reduced to 0 wounds, they make make one final CMBT attack before being removed from the battlefield even if they do not have the action to do so. </description>
+                  <description>If a member of a HIRED GUN squad with a OYAR BLOODLINE is reduced to 0 wounds, they make make one final CMBT (shooting or melee) attack before being removed from the battlefield even if they do not have the action to do so. </description>
                 </rule>
               </rules>
               <costs>
@@ -2449,7 +2451,7 @@ Ammo: OOO</characteristic>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d6a0-d805-d72d-1388" name="•Insurgent Strongpoints (Autonomous Colonies)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d6a0-d805-d72d-1388" name="•Insurgent Strongpoint (Autonomous Colonies)" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -2461,7 +2463,51 @@ Ammo: OOO</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c54-8f3c-d83c-004e" type="max"/>
               </constraints>
               <rules>
-                <rule id="6807-b0d8-ec12-c27f" name="•Stalwart Outpost" publicationId="782f-493f-cc20-a098" hidden="false"/>
+                <rule id="6807-b0d8-ec12-c27f" name="•Insurgent Strongpoint (Autonomous Colonies)" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>Play at the start of a round when a friendly Autonomous Colonies unit is within 5&quot; of terrain. Until the end of the round If the unit does not move this round, it may take one free action, adding +1 to the cover rating until the end of the round</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6a7d-ba66-2cb6-473a" name="• Merchant’s Guile (Stalland Lineage)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4c59-eabe-b3d5-2ec3" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="253c-d2d0-87f3-aaf5" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="484c-1843-32eb-85e0" name="• Merchant’s Guile (Stalland Lineage)" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>Play when contesting an Objective. you may “buy” the Objective this round: discard an additonal command card immediately to count the Objective as captured, even if enemy units are in range.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b52f-b30a-ed35-c4aa" name="•Storm-Born Strike (Stalland Lineage)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4c59-eabe-b3d5-2ec3" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13f3-5198-1161-e9f5" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="8b78-56c7-cfe6-3973" name="•Storm-Born Strike (Stalland Lineage)" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>Play at the start of the game. Choose up to 2 STALLAND units. They gain the ADVANCED DEPLOYMENT rule.</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
@@ -2535,7 +2581,7 @@ Ammo: OOO</characteristic>
               </constraints>
               <rules>
                 <rule id="c9e3-d0b8-4592-af59" name="••Shrouded Vendetta(Zi&apos;lo Drug Cartel)" publicationId="782f-493f-cc20-a098" hidden="false">
-                  <description> </description>
+                  <description> Play this card when a Zi&apos;lo CREW or SLAVER unit was removed from play. The enemy unit is now &quot;Marked for death&quot;. If the enemy unit is killed this turn gain +2 VP for the sanctioned hit.</description>
                 </rule>
               </rules>
               <costs>
@@ -2556,7 +2602,7 @@ Ammo: OOO</characteristic>
               </constraints>
               <rules>
                 <rule id="508c-286e-d7cb-b1d5" name="••Whispering Shadows (Zi&apos;lo Drug Cartel)" publicationId="782f-493f-cc20-a098" hidden="false">
-                  <description> </description>
+                  <description> Play at the start of your turn or after the a unit had been detected from stealth. Chose one stealth token on the battlefield. Instead of revealing the unit when required (after being detected) delay the reveal by one full round. The detecting player cannont target or affect the stealth token until the next round.</description>
                 </rule>
               </rules>
               <costs>
@@ -2598,7 +2644,7 @@ Ammo: OOO</characteristic>
               </constraints>
               <rules>
                 <rule id="3ba1-5406-000c-3aa4" name="••Banished Elite   (Han&apos;s Crusade)" publicationId="c8da-24a8-bcaa-8190" hidden="false">
-                  <description>This HANS CRUSADER unit gains the INFILTRATE keyword at the start of the game. Discard after use</description>
+                  <description>Two HANS CRUSADER units gain the INFILTRATE keyword at the start of the game. Discard after use</description>
                 </rule>
               </rules>
               <costs>
@@ -2660,7 +2706,7 @@ Ammo: OOO</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d41d-49c1-4bea-6778" type="max"/>
               </constraints>
               <rules>
-                <rule id="4f7d-6a21-dc39-ec5f" name="••Kingdom&apos;s Thorn (Erland seditionist) " hidden="false"/>
+                <rule id="4f7d-6a21-dc39-ec5f" name="••Kingdom&apos;s Thorn (Erland seditionist) " publicationId="782f-493f-cc20-a098" hidden="false"/>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -2742,7 +2788,9 @@ Ammo: OOO</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3053-d97b-b5b9-8c47" type="max"/>
               </constraints>
               <rules>
-                <rule id="f0ae-74a2-f069-dd6c" name="••Sovereign Haven (Autonomous Colonies)" publicationId="782f-493f-cc20-a098" hidden="false"/>
+                <rule id="f0ae-74a2-f069-dd6c" name="••Sovereign Haven (Autonomous Colonies)" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>If a AUTONOMOUS COLONIES unit is holding an Objective at the end of the round, immediately gain +2 VP</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -2761,7 +2809,51 @@ Ammo: OOO</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc10-5f63-f98a-6120" type="max"/>
               </constraints>
               <rules>
-                <rule id="ca81-ca2b-cf13-883c" name="••Resolute Outlanders (Autonomous Colonies)" publicationId="782f-493f-cc20-a098" hidden="false"/>
+                <rule id="ca81-ca2b-cf13-883c" name="••Resolute Outlanders (Autonomous Colonies)" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>When this card is played, choose one friendly AUTONOMOUS COLONIES unit. If defending an Objective, it gains +1 DEF and counts as double the number of models for contesting or holding it.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cfe1-6acd-eeff-5f64" name="••Blood Oath (Stalland Lineage)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4c59-eabe-b3d5-2ec3" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e3f-ec57-ad22-bdeb" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="1900-a925-0b39-be2d" name="••Blood Oath (Stalland Lineage)" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>Play at the start of a round. Choose one Stalland unit within 5&quot; of a TASK FORCE LEADER. If the entire unit is destroyed, another friendly Stalland unit within 10&quot; gains a free move action towards the enemy and may preform a CMBT action (shooting or melee).</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ff84-01d1-c8e9-5f2c" name="••Raiders’ Fury (Stalland Lineage)" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4c59-eabe-b3d5-2ec3" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="271b-3c86-efd3-b7ff" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="f002-457b-e248-3bec" name="••Raiders’ Fury (Stalland Lineage)" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>Play at the start of a melee combat involving one STALLAND unit. Until the end of this round, the units melee weapon gains Piercing: 2</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
@@ -2828,7 +2920,7 @@ Ammo: OOO</characteristic>
               </constraints>
               <rules>
                 <rule id="99ae-2461-5aab-1f10" name="••Nocturnal Cypher(Zi&apos;lo Drug Cartel)" publicationId="782f-493f-cc20-a098" hidden="false">
-                  <description> </description>
+                  <description>Two Zi&apos;lo GANG or SLAVER crew units cannont be targeted by reactions this turn for any reason, even if the enemy unit has a action prepared.</description>
                 </rule>
               </rules>
               <costs>
@@ -2849,7 +2941,7 @@ Ammo: OOO</characteristic>
               </constraints>
               <rules>
                 <rule id="dc73-d1be-9dd0-f17b" name="••Shadow Serenade(Zi&apos;lo Drug Cartel)" publicationId="782f-493f-cc20-a098" hidden="false">
-                  <description> </description>
+                  <description> Select a nearby enemy unit within 10&quot;. That unit is now considered to be PINNED DOWN with 5 PIN Tokens and suffers a disadvantage to all skill checks until until the start of the next round.</description>
                 </rule>
               </rules>
               <costs>
@@ -2957,7 +3049,9 @@ Ammo: OOO</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f45-8c1b-b7ea-8525" type="max"/>
               </constraints>
               <rules>
-                <rule id="d0ab-5956-e77b-1bca" name="•••Uncertain Loyalties (Erland seditionist) " publicationId="782f-493f-cc20-a098" hidden="false"/>
+                <rule id="d0ab-5956-e77b-1bca" name="•••Uncertain Loyalties (Erland seditionist) " publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>Play at the start of an enemy activation. Choose one enemy unit within 10&quot; of any ERLAND SEDITIONIST unit. It must immediately retreat 5&quot; towards its deployment zone</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
@@ -2976,7 +3070,9 @@ Ammo: OOO</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd79-cdb7-6192-d6b3" type="max"/>
               </constraints>
               <rules>
-                <rule id="9958-cf3c-d232-f4cb" name="•••Rebellion’s Shadow (Erland seditionist) " hidden="false"/>
+                <rule id="9958-cf3c-d232-f4cb" name="•••Rebellion’s Shadow (Erland seditionist) " publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>Play at the start of an enemy activation. Choose one enemy unit within 10&quot; of any Erland Seditionist model. If the targeted unit is currently holding or contesting an Objective, it cannot claim the Objective this round.</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
@@ -3039,6 +3135,27 @@ Ammo: OOO</characteristic>
               <rules>
                 <rule id="a839-c966-153d-d200" name="••Defenders Sanctuaries  (Autonomous Colonies)" publicationId="782f-493f-cc20-a098" hidden="false">
                   <description>If an Autonomous LIGHT CORE LIVING unit is fully within cover, it gains +2 to its NERVE stat as long as it remains within cover for this turn.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3a69-ec8a-8f2b-3160" name="•••Plunder and Tribute (Stalland Lineage)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4c59-eabe-b3d5-2ec3" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efa0-d26c-aeb8-2795" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="b1f4-eb73-27f7-b727" name="•••Plunder and Tribute (Stalland Lineage)" publicationId="782f-493f-cc20-a098" hidden="false">
+                  <description>Play when a STALLAND unit ends a round holding an Objective. If the Objective is taken from the enemy this round, gain an +3 VP.</description>
                 </rule>
               </rules>
               <costs>
