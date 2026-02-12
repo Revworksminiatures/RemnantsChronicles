@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="21" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="66aa-2cf1-f5a0-5723" name="Royal Kingdom of Erland Armed Forces" revision="22" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="36" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="a603-48d7-f61c-36e6" name="Special Operations Task Force (Casual Play)" publicationId="ecbd-4756-1610-637c" hidden="false">
       <categoryLinks>

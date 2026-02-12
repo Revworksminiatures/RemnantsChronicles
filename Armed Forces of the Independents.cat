@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="28" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4115-789f-05a7-73df" name="Armed Forces of the Independents" revision="29" battleScribeVersion="2.03" authorName="Jonathan Collett" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="36" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="3e5c-c3d7-7fa7-d7d6" name="Han&apos;s Crusaders (Casual Play)" publicationId="782f-493f-cc20-a098" hidden="false">
       <categoryLinks>
@@ -319,7 +319,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08c3-ee1d-61fd-a1ed" type="max"/>
           </constraints>
           <rules>
-            <rule id="d899-3208-b328-c0e1" name="Autonomous Colonies" hidden="false"/>
+            <rule id="d899-3208-b328-c0e1" name="Autonomous Colonies" publicationId="782f-493f-cc20-a098" hidden="false">
+              <description>	The Autonomous Colonies, born from the aftermath of the first void war within the Remnants, stand as self-ruling states characterized by their self-sovereign status and a complete lack of connection to the Protectorate or Federal Coalition. 
+	These highly independent regions, established after the turmoil of conflict, boast well-trained defense forces and nurture a strong resistance to external authority. Seeking allies for mutual protection against the persistent threats of raiders, slavers, and pirates, these autonomous entities navigate the harsh expanses of space with a determination to preserve their sovereignty.
+	 As resilient bastions of self-governance, they exist as beacons of resistance against the encroachment of external forces, embodying a spirit that refuses to bend to the will of larger factions within the Remnants.
+
+</description>
+            </rule>
           </rules>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -331,7 +337,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="659e-4f25-b7e6-e8a6" type="max"/>
           </constraints>
           <rules>
-            <rule id="6999-5abc-6e48-612b" name="Erland Seditionist" hidden="false"/>
+            <rule id="6999-5abc-6e48-612b" name="Erland Seditionist" publicationId="782f-493f-cc20-a098" hidden="false">
+              <description>	The Erland Seditionists, ardent followers of the Kingdom in Exile, prove to be a constant thorn in the side of the monarchy on Erland. Refusing allegiance to the established rule, they spark disturbances for both the home guard and the military and have evolved into a perceived terrorist threat.
+	 Despite repeated attempts to expel them from the home system, these insurgents persist, causing persistent turmoil within Erland&apos;s borders. The distinction between civilians and seditionists has blurred, creating an atmosphere of uncertainty and fear. 
+	The government, grappling with the rising influence of the Erland Seditionists, harbors concerns that more citizens are succumbing to their cause over time. Slowly gaining strength throughout the Erland Sphere of Influence, these rebels have forged alliances with neighboring worlds like Oyar and Stalland, hiring them as mercenaries and exacerbating the challenge faced by the Erland authorities. 
+</description>
+            </rule>
           </rules>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -343,7 +354,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d2d-f31d-8e56-0a6d" type="max"/>
           </constraints>
           <rules>
-            <rule id="3340-f08f-9e51-5970" name="Rogues and Mercenaries" hidden="false"/>
+            <rule id="3340-f08f-9e51-5970" name="Rogues and Mercenaries" publicationId="782f-493f-cc20-a098" hidden="false">
+              <description>	In the vast reaches of the Three Spheres, the lawless fringes harbored a motley assortment of individuals, all bound by a common thread—mercenary instincts. Whether mercenaries, bounty hunters, or part of the independents, these are hunters within the Remnants: ex-soldiers, hired guns and ex planetary defense forces.
+	 Trained with a gun and fueled by a relentless pursuit of the highest bidder, they formed warbands and mercenary companies, navigating the lawlessness of the Remnants with the precision of skilled RIG pilots. For some, the allure of easy riches led them down the path of piracy, preying on the vulnerable. 
+	On the flip side, some emerged as defenders of the weak, driven by a sense of honor and duty. Money motivated them as much as greed and wealth, but the only language they truly understood was the resounding echo of gunfire—a universal dialect spoken by those who thrived at the edge of chaos.
+</description>
+            </rule>
           </rules>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -355,7 +371,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="640c-a1ba-515d-98ca" type="max"/>
           </constraints>
           <rules>
-            <rule id="a50e-66c3-7d92-72f9" name="Sponsored Colonies" hidden="false"/>
+            <rule id="a50e-66c3-7d92-72f9" name="Sponsored Colonies" publicationId="782f-493f-cc20-a098" hidden="false">
+              <description>The Sponsored Colonies, once under the dominion of the Federal Coalition or Protectorate Defense League, now stand as liberated entities within the remnants. Abandoned in the aftermath of the last Void War, following the Treaty of Vardu, these colonies find themselves severed from the protective embrace of larger alliances, compelled to fend for themselves. 
+	In the vacuum left by the void war&apos;s conclusion, they either forge their own minor alliances or seek refuge with formidable entities such as the Royal Kingdom of Erland or the United Commonwealth of Martyr. Brimming with rich resources, the Sponsored Colonies become highly coveted targets, each boasting planetary defense forces or local militias forged in the crucible of former major war zones. 
+Some were part of the Colonial Alliance, while others severed ties during the tumultuous Hans Crusade. Now facing the persistent threats of pirates, slavers, and other opportunistic marauders, these resilient colonies unite in their collective endeavor to defend against those who seek to bring ruin to their hard-won worlds. 
+</description>
+            </rule>
           </rules>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -367,7 +388,11 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3240-f552-d290-c879" type="max"/>
           </constraints>
           <rules>
-            <rule id="5320-276b-4405-6e5f" name="The Erland Kingdom In Exile" hidden="false"/>
+            <rule id="5320-276b-4405-6e5f" name="The Erland Kingdom In Exile" publicationId="782f-493f-cc20-a098" hidden="false">
+              <description>	Nestled within the fragmented realms of the Remnants, The Han&apos;s enclave, under the charismatic leadership of Olav Hans, stands as the formidable Kingdom of Erland in Exile. Regarded as one of the most potent factions in the region, they pose a significant threat to the original Kingdom of Erland. With ambitious goals to reclaim the Erland system and overthrow the existing monarchy, their influence spreads like wildfire throughout the Remnants. 
+	Despite King Gosta I of Erland&apos;s rejection of their bid to join the Remnant Alliance, Olav Hans cunningly declares a pursuit of peace, masking their true intention to supplant the kingdom they claimed to represent. Behind the façade of diplomacy, the Kingdom of Erland in Exile harbors a desire to seize control and rule over Erland, ensnaring the unsuspecting in their web of political intrigue and power.
+</description>
+            </rule>
           </rules>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -379,7 +404,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a35-d934-a294-5218" type="max"/>
           </constraints>
           <rules>
-            <rule id="3cc7-860f-4024-90f8" name="Zi&apos;lo Drug Crime Syndicate " hidden="false"/>
+            <rule id="3cc7-860f-4024-90f8" name="Zi&apos;lo Drug Crime Syndicate " publicationId="782f-493f-cc20-a098" hidden="false">
+              <description>Hiding out amidst the ominous Zi’lo drug moons, a formidable cartel thrives in the shadows, comprised of slavers, thieves, outlaws, pirates, and criminals. Operating within the Independents of the Remnants, they specialize in mayhem, corruption, and crime. 
+	Utilizing assassins and orchestrating calculated assassinations, this clandestine faction employs a sly and violent approach to get to their targets. 
+	Though not as overtly strong as some other factions, their cunning and ruthlessness make them a force to be reckoned with in the underworld of the Remnants, where every shadow conceals a threat and every deal is tainted with the stench of treachery.
+</description>
+            </rule>
           </rules>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -544,6 +574,12 @@
             </entryLink>
             <entryLink id="0e73-045d-0c0d-5bf8" name="The Independent&apos;s Primary Heavy Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="980e-c581-d4d6-2982" type="selectionEntryGroup"/>
             <entryLink id="0e9d-56b4-9931-0bc6" name="The Independent&apos;s Special Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="14c7-e6c8-8846-517e" type="selectionEntryGroup"/>
+            <entryLink id="55e5-edb6-3efe-476d" name="Personal Loadouts" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5b0-35ad-52d7-ce63" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fec3-499d-aeb0-7335" type="min"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="17.0"/>
@@ -653,35 +689,17 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2020-dd1d-7e4f-84f6" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33be-6075-ceae-50b4" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="37ca-c7c4-3179-8d5f" name="Bounty Hunter Trainee" hidden="false" collective="false" import="true" type="upgrade">
+          <entryLinks>
+            <entryLink id="c577-59c0-0075-faef" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
+            <entryLink id="17cd-b131-db8d-8aff" name="Personal Loadouts" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9479-2065-4d72-6109" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="674e-ba8f-0428-10a3" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6147-1756-b256-5d17" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b046-b3e8-e248-3255" type="min"/>
               </constraints>
-              <infoLinks>
-                <infoLink id="d8f5-866d-54af-11a3" name="Bounty Hunter Trainees" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="4a18-b309-9c31-979f" type="profile"/>
-                <infoLink id="ada5-2432-37e3-538f" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
-                <infoLink id="46a6-3440-a54a-0173" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
-                <infoLink id="53ec-b6ec-589d-fa53" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="c29c-5aa5-fbbb-6d32" name="Personal Loadouts" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9374-de91-8fb1-b104" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baaa-2210-ca4a-8966" type="min"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="b621-3e38-ee62-33bf" name="The Independent&apos;s Primary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
-                <entryLink id="4851-522d-3353-0353" name="The Independent&apos;s Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
-                <entryLink id="09a2-ba2f-6ffa-ee2a" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="1.0"/>
-                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </entryLink>
+            <entryLink id="b4f1-1731-ec98-d46a" name="The Independent&apos;s Primary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
+            <entryLink id="bcc4-fe34-9155-2491" name="The Independent&apos;s Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="1.0"/>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -743,8 +761,8 @@
       <selectionEntries>
         <selectionEntry id="6e32-88a1-538c-b327" name="Han&apos;s Crusader " publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71ba-343d-d241-34f3" type="max"/>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2138-ebf3-d436-d9ae" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71ba-343d-d241-34f3" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2138-ebf3-d436-d9ae" type="min"/>
           </constraints>
           <infoLinks>
             <infoLink id="04e7-2afc-8cca-8dfb" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
@@ -819,46 +837,29 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19a8-7790-7270-2cb6" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb53-162b-d79e-a149" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="54a2-69fd-cc42-c4d5" name="Assassin" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+          <entryLinks>
+            <entryLink id="7642-b2e8-2cbb-9946" name="Combat Knife" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
+            <entryLink id="0f20-b3ad-ed4b-acbd" name="Personal Loadouts" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9e7-e640-76fd-f6f8" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef34-1592-0ee7-0b31" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4fd-a03c-3a36-4cb4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58a2-0130-3aad-ff67" type="min"/>
               </constraints>
-              <infoLinks>
-                <infoLink id="efa7-bee6-d973-fa63" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
-                <infoLink id="62c3-191e-15ef-828f" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
-                <infoLink id="7b23-d3e2-d189-9e44" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="0c34-144d-c1a3-ed92" name="Personal Loadouts" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf56-b1af-6b46-7ab6" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc76-c0f1-26a8-04d8" type="min"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="75a3-2fe7-1492-978a" name="The Independent&apos;s Primary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
-                <entryLink id="2174-c855-99c0-2ef5" name="The Independent&apos;s Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
-                <entryLink id="aefa-f664-c674-ce2d" name="Sniper Rifle" hidden="false" collective="false" import="true" targetId="c1cb-b5dd-ddad-f1d4" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed51-fc57-8623-c601" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d6c-7ce0-a3f4-4ff2" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="36b1-4a4b-9a63-8510" name="Combat Knife" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
-              </entryLinks>
+            </entryLink>
+            <entryLink id="0c1c-8207-ad9c-12c5" name="Sniper Rifle" hidden="false" collective="false" import="true" targetId="c1cb-b5dd-ddad-f1d4" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f7c-ab28-9de5-0958" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cd9-3846-7353-7375" type="max"/>
+              </constraints>
               <costs>
-                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="4.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-3.0"/>
               </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </entryLink>
+            <entryLink id="ae43-2860-87b1-be46" name="The Independent&apos;s Primary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
+            <entryLink id="b838-391a-3db4-c74a" name="The Independent&apos;s Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="4.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -886,42 +887,25 @@
         <categoryLink id="88fe-d4da-4d6d-c136" name="Light Core" hidden="false" targetId="fa42-d150-a4d6-a3db" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="cfe4-1a7f-7490-6870" name="Seditionist Member" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="cfe4-1a7f-7490-6870" name="Seditionist Member" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4404-029f-5a09-c192" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a19d-d4c9-c97c-1e5d" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="fea4-ed54-62f8-36c8" name="Seditionist" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+          <entryLinks>
+            <entryLink id="a7b0-0eca-a4b6-0f26" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
+            <entryLink id="35e9-71f5-186e-16ab" name="Personal Loadouts" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b98c-d686-f5de-ff6d" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c522-1c48-707e-7da6" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ac2-e62b-26cd-dff3" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4fb-24d9-4373-fa85" type="min"/>
               </constraints>
-              <infoLinks>
-                <infoLink id="cada-8715-6629-8c82" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
-                <infoLink id="08e8-221b-867e-7fc2" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
-                <infoLink id="5f18-461f-a1f4-788d" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="13d2-eb14-dffa-e19e" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
-                <entryLink id="a233-ffcb-862a-c6ed" name="Personal Loadouts" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c4d-dd99-1f59-ceb8" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b017-61df-75b5-4ed7" type="min"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="aaa2-e9af-fd60-40f5" name="The Independent&apos;s Primary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
-                <entryLink id="6373-a051-1cdd-828d" name="The Independent&apos;s Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
-              </entryLinks>
-              <costs>
-                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="1.0"/>
-                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </entryLink>
+            <entryLink id="9346-bfc0-facc-b0a7" name="The Independent&apos;s Primary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
+            <entryLink id="8363-caec-5f72-a192" name="The Independent&apos;s Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -954,34 +938,17 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1dd-33d0-1454-a829" type="max"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05fb-90fd-fced-4b98" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="4306-4d0e-b626-4d84" name="Hired Gun" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+          <entryLinks>
+            <entryLink id="d410-e6c4-77ce-cfbf" name="Personal Loadouts" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ba6-6ef4-040c-2c17" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f51-0748-df85-b87e" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0612-5be4-aa56-c86a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a50-6d47-7f34-9323" type="min"/>
               </constraints>
-              <infoLinks>
-                <infoLink id="f438-0af4-1857-d18a" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
-                <infoLink id="1bf1-b420-a529-05c3" name="Arms" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="c6ca-d1f9-d731-7a85" type="rule"/>
-                <infoLink id="317e-11d0-2fa3-c4d6" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="e59c-9199-6e08-aa7e" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
-                <entryLink id="31fa-08e0-c8f0-a9be" name="Personal Loadouts" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dc9-b34d-23a9-1de7" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d391-78f2-d898-6ab6" type="min"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="7def-a13b-bb7d-1bef" name="The Independent&apos;s Primary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
-                <entryLink id="c40c-20a3-7d30-748a" name="The Independent&apos;s Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
-              </entryLinks>
-              <costs>
-                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </entryLink>
+            <entryLink id="ae1d-06de-9036-7a8f" name="The Independent&apos;s Primary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
+            <entryLink id="79ff-8224-c4e2-175c" name="The Independent&apos;s Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
+            <entryLink id="e24e-ffbc-28bf-a194" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="1.0"/>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -1512,29 +1479,17 @@ Ammo: OOO</characteristic>
             <infoLink id="e80a-754b-b087-5691" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
             <infoLink id="295f-c2b4-5240-0a6a" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
           </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="7b62-7b63-45f3-7fa9" name="Zi&apos;lo Ganger" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+          <entryLinks>
+            <entryLink id="c40f-14c7-750a-16a6" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
+            <entryLink id="2c06-89ab-7a8e-29ce" name="Personal Loadouts" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab85-0937-63ea-0474" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce29-8e4d-24bb-f495" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecde-124c-b08f-5070" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6c2-0911-f5b7-b973" type="min"/>
               </constraints>
-              <entryLinks>
-                <entryLink id="72fe-42ef-2b22-0d1d" name="The Independent&apos;s Primary Weapons" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
-                <entryLink id="9ad9-5c31-eda2-ec12" name="The Independent&apos;s Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
-                <entryLink id="c144-9b5c-ad20-9877" name="Personal Loadouts" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3b3-f1c4-63f5-298f" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d895-5bbc-29d6-ccbc" type="min"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="bd75-9f4e-d0f6-1a75" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </entryLink>
+            <entryLink id="bd41-8359-43ab-5e47" name="The Independent&apos;s Primary Weapons" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
+            <entryLink id="c6f0-6bee-3030-916c" name="The Independent&apos;s Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -1600,29 +1555,17 @@ Ammo: OOO</characteristic>
             <infoLink id="8981-bd3a-eba1-74ec" name="Legs" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="beaa-c196-0a91-5616" type="rule"/>
             <infoLink id="9b93-e229-4212-9144" name="Living" publicationId="c8da-24a8-bcaa-8190" hidden="false" targetId="b519-61b7-b457-b03f" type="rule"/>
           </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="519d-3d62-a8ef-e3fb" name="Zi&apos;lo Slaver" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+          <entryLinks>
+            <entryLink id="abfd-2446-1ad2-a178" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
+            <entryLink id="1895-0098-0d79-3b9d" name="Personal Loadouts" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="692a-b49f-6078-770a" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6c1-308a-c3a7-2c90" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40eb-29e8-7b24-fe39" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a046-0b31-5435-dd11" type="min"/>
               </constraints>
-              <entryLinks>
-                <entryLink id="f4db-bb2d-d1e0-37e4" name="The Independent&apos;s Primary Weapons" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
-                <entryLink id="b986-a749-35a2-fb1b" name="The Independent&apos;s Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
-                <entryLink id="5798-4119-b902-cbe8" name="Personal Loadouts" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d42-345a-4246-bc07" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28f3-3fd9-e116-f778" type="min"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="af4c-a76f-f75b-47ca" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </entryLink>
+            <entryLink id="a567-094c-cfc1-93f2" name="The Independent&apos;s Primary Weapons" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
+            <entryLink id="82dd-1137-456e-1d90" name="The Independent&apos;s Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -1701,29 +1644,17 @@ Ammo: OOO</characteristic>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdfd-b8a4-ef8a-9223" type="max"/>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bc0-6eff-9a21-2e20" type="min"/>
               </constraints>
-              <selectionEntries>
-                <selectionEntry id="417d-ef0d-6e3b-6b1f" name="Planetary Trooper" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="f09e-efde-b3b1-5b82" name="The Independent&apos;s Primary Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
+                <entryLink id="380e-7594-cc88-aabe" name="The Independent&apos;s Secondary Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
+                <entryLink id="f05e-281f-cfe5-4f0d" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
+                <entryLink id="bb2b-05bf-1d1d-5e79" name="Personal Loadouts" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b96c-6b43-f33a-28f6" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="feea-9dff-3c5e-819b" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa8b-18ed-89ae-c294" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0781-9864-2abe-ff68" type="min"/>
                   </constraints>
-                  <entryLinks>
-                    <entryLink id="2587-542b-7043-a045" name="The Independent&apos;s Primary Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
-                    <entryLink id="b35d-cde0-3bbd-b58f" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
-                    <entryLink id="fef9-3f8a-4b80-267d" name="The Independent&apos;s Secondary Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
-                    <entryLink id="439e-810c-f6ab-c722" name="Personal Loadouts" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="146d-9c15-b530-958d" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3a4-90e6-e61a-8aaa" type="min"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                  <costs>
-                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="1.0"/>
-                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -1795,29 +1726,17 @@ Ammo: OOO</characteristic>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a38c-bd8d-3f45-7fa1" type="max"/>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34ea-27da-a377-5995" type="min"/>
               </constraints>
-              <selectionEntries>
-                <selectionEntry id="e073-4f58-5ed2-f1e2" name="Planetary Trooper" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="71a3-e47f-2a8e-3769" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
+                <entryLink id="48e9-d247-4b65-4426" name="Personal Loadouts" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58b5-e437-5b96-eab2" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cc1-444d-c361-f176" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2691-5ea5-d4c9-dbd2" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="068a-b3ba-565a-a847" type="min"/>
                   </constraints>
-                  <entryLinks>
-                    <entryLink id="92c9-8541-19fe-320d" name="The Independent&apos;s Primary Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
-                    <entryLink id="1207-5422-deb4-f8b0" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
-                    <entryLink id="9a7d-ec94-c2cd-cf63" name="The Independent&apos;s Secondary Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
-                    <entryLink id="e7ae-0356-806a-d245" name="Personal Loadouts" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed92-a7a5-68f7-ccc1" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea00-30df-a591-4606" type="min"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                  <costs>
-                    <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="1.0"/>
-                    <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+                </entryLink>
+                <entryLink id="3bef-486d-a161-19b8" name="The Independent&apos;s Secondary Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
+                <entryLink id="0420-dc61-88bb-3247" name="The Independent&apos;s Primary Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
+              </entryLinks>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -2090,32 +2009,20 @@ Ammo: OOO</characteristic>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="910b-9d14-fffe-25bf" type="max"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4577-d21a-d706-e7a0" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="965b-4a2c-81ba-a33b" name="Planetary Trooper" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
+          <entryLinks>
+            <entryLink id="64f5-04ab-bf21-d207" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
+            <entryLink id="fd14-d51d-05f9-929c" name="Personal Loadouts" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44bb-48dd-1d77-a836" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76c1-329e-9b7d-f0a6" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2244-459c-a9f9-4a1b" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c846-26bf-206d-05db" type="min"/>
               </constraints>
-              <entryLinks>
-                <entryLink id="05b0-53ed-13c4-302e" name="The Independent&apos;s Primary Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
-                <entryLink id="eeaa-33ea-0acf-03d3" name="Combat Knife" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
-                <entryLink id="8cec-48ae-bff7-377b" name="The Independent&apos;s Secondary Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
-                <entryLink id="4cf3-5656-7ad0-e9b9" name="Personal Loadouts" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="c9d8-fa13-6ff9-4300" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5050-c051-4bb9-6677" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ccc-cc8f-922c-ec71" type="min"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="1.0"/>
-                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </entryLink>
+            <entryLink id="174c-c1f5-0bd9-c69b" name="The Independent&apos;s Primary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
+            <entryLink id="a57a-d4a4-00ec-9bf1" name="The Independent&apos;s Secondary Weapons" publicationId="c8da-24a8-bcaa-8190" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
-            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+            <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ec6d-0abd-a28b-fb84" name="Planetary Milita  Team Leader" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" type="upgrade">
@@ -2143,6 +2050,7 @@ Ammo: OOO</characteristic>
                 <entryLink id="6203-9cb0-6da8-977f" name="The Independent&apos;s Primary Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="cf59-bbac-c47f-f167" type="selectionEntryGroup"/>
                 <entryLink id="2114-f540-51a3-cdd0" name="The Independent&apos;s Secondary Weapons" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="47e2-5cfe-d545-b7cf" type="selectionEntryGroup"/>
                 <entryLink id="c412-78bb-839f-2266" name="Task Force Leader" publicationId="782f-493f-cc20-a098" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
+                <entryLink id="b9d1-1b36-77b7-93f7" name="Drones" hidden="false" collective="false" import="true" targetId="ff57-6117-c5e2-2971" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="5.0"/>

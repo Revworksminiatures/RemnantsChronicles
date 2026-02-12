@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="35" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="04cf-0115-5d69-77a0" name="The Remnant Chronicles" revision="37" battleScribeVersion="2.03" authorName="Jonathan Collett" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c8da-24a8-bcaa-8190" name="The Remnant Chronicles Rulebook"/>
     <publication id="8c20-1e89-cba7-0494" name="Forces of the Federal Coalition "/>
@@ -3754,6 +3754,12 @@ Once a Token has been rolled for and the result applied, remove it from the game
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c17b-71de-aa97-00d2" type="max"/>
           </constraints>
+          <rules>
+            <rule id="8a8b-b157-a740-e715" name="Auxiliary Grenade Launcher" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+              <description>The auxiliary grenade launcher increases the effective range of the model&apos;s grenades. When using the launcher, the model can “throw” grenades with a range of 10/20/OO 
+</description>
+            </rule>
+          </rules>
           <costs>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-1.0"/>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="0.0"/>
@@ -5257,8 +5263,9 @@ The  Model must be in base-to-base contact with the casualty to perform the chec
       </constraints>
       <rules>
         <rule id="5476-74cc-1fcd-e908" name="Combat Radio Network" publicationId="c8da-24a8-bcaa-8190" hidden="false">
-          <description>Units equipped with a Combat Network Radio benefit from an enhanced area of effect for Command Cards. The Command Projection ability extends up to 15 inches instead of the standard 5 inch range. 
-</description>
+          <description>Units equipped with a Combat Network Radio benefit from an enhanced area of effect for Command Cards. The Command Projection ability extends up to 15 inches instead of the standard range. 
+
+If targeted by an EMP effect, the Combat Network Radio’s extended range benefits are disabled until fixed by INT Check.</description>
         </rule>
       </rules>
       <costs>
@@ -5727,7 +5734,15 @@ The  Model must be in base-to-base contact with the casualty to perform the chec
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e649-a3c0-b1fa-0a69" type="max"/>
           </constraints>
           <rules>
-            <rule id="a124-9786-b097-41b2" name="Ambluance  Modification" publicationId="c8da-24a8-bcaa-8190" hidden="false"/>
+            <rule id="a124-9786-b097-41b2" name="Ambluance  Modification" publicationId="c8da-24a8-bcaa-8190" hidden="false">
+              <description>This modification grants the vehicle access to 3 Medical Kits. Check one off after each use. </description>
+            </rule>
+            <rule id="78e2-bc8a-a7d7-f31c" name="Medical Kit" hidden="false">
+              <description>A model may spend 1 medical kit to add an advantage to their intelligence skill roll as long as the casualty has the Living Trait. Regardless if it is a success or not, the Medical Kit is used up and the model loses this special rule.
+The  Model must be in base-to-base contact with the casualty to perform the check.
+ A model may also only use a medical kit on themselves if they have sustained Critical Damage. On a successful check, the model is returned to normal condition.
+</description>
+            </rule>
           </rules>
           <costs>
             <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="-15.0"/>
@@ -6890,7 +6905,7 @@ If an action cost for an objective exceeds double its starting value, the object
       <description>This weapon has the chance of Exploding. If the Model wielding this weapon is attacked in the Rear Arc, Roll a D10. On 6+ nothing happens. 2-5, The weapon cannot be used the rest of the Game. On a 1 The weapon detonates. Your Friends Will Miss You Dearly. The Model and anything that is in a Radius equal to the Weapon’s ROF in inches must defend against an Attack Roll using the Model’s Combat Skill. The model is considered to be in the Open for the purposes of this Attack</description>
     </rule>
     <rule id="5581-8d83-3043-4a25" name="Command Projection" hidden="false">
-      <description>Certain models possess enhanced command abilities. The Voice of Command ability allows the area of effect for certain Command Cards to be determined using the same 5-inch range as the unit cohesion. 
+      <description>Certain models possess enhanced command abilities. The Command Projection ability extends the area of effect for Command Cards to a range equal to the unit cohesion range of 5 inches plus the model’s Leadership (LD) and Intelligence (INT) attributes. 
 </description>
     </rule>
     <rule id="cc82-cc85-07be-750b" name="Veteran Crew" hidden="false">

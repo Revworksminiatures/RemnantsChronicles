@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7fda-f2e8-7200-f30b" name="The United Commonwealth of Martyr Armed Forces" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7fda-f2e8-7200-f30b" name="The United Commonwealth of Martyr Armed Forces" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="04cf-0115-5d69-77a0" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="210f-a0b5-7f5c-50e4" name="Special Operations Task Force (Casual Play)" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false">
       <categoryLinks>
@@ -380,7 +380,7 @@
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="50df-a70b-095d-ee16" name="•Auxiliary Troopers " publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="50df-a70b-095d-ee16" name="•Hold to the Last" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -392,7 +392,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf5f-d40c-f22d-e3f8" type="max"/>
               </constraints>
               <rules>
-                <rule id="928b-e859-f7f8-f612" name="•Auxiliary Troopers " hidden="false"/>
+                <rule id="928b-e859-f7f8-f612" name="•Hold to the Last" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false">
+                  <description>When a LIGHT CORE unit is destroyed, do not remove the last model until the end of the next round. This squad cannot attack, use abilities, or advance, but may contest objectives.</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="1.0"/>
@@ -585,6 +587,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06c5-2a5e-54b5-2264" type="max"/>
               </constraints>
+              <rules>
+                <rule id="98ee-433f-3dde-ed29" name="••Blurred Lines " hidden="false"/>
+              </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -601,6 +606,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71f7-220b-9177-64af" type="max"/>
               </constraints>
+              <rules>
+                <rule id="8850-0d36-ca4f-6f9c" name="••Frontline Vigilance " hidden="false"/>
+              </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -617,6 +625,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6707-9389-52c6-4046" type="max"/>
               </constraints>
+              <rules>
+                <rule id="5034-0a53-b864-9ee8" name="••Aid of the Commonwealth " hidden="false"/>
+              </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -633,6 +644,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ebd-6fb3-98a6-2985" type="max"/>
               </constraints>
+              <rules>
+                <rule id="c370-5dcd-5834-071a" name="••Martyr’s Challenge " hidden="false"/>
+              </rules>
               <costs>
                 <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
                 <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
@@ -673,6 +687,45 @@
               <rules>
                 <rule id="7405-bce8-441b-e07b" name="••Phalanx Defense" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false">
                   <description>When a WARRIOR model is targeted by an enemy unit, if you have a HOPLITE unit nearby within command range, you may activate this card. Move the HOPLITE unit up to its movement range in front of the WARRIOR, effectively forming a protective shield. The enemy unit&apos;s attack is redirected towards the HOPLITE instead of the WARRIOR. This card can only be used once per turn and must be discarded after activation.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e33d-62f6-358d-6f43" name="•• Smoke of the Phalanx" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8396-e43f-37cc-17c8" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e776-692e-21b7-9083" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="6235-b920-26e6-880c" name="•• Smoke of the Phalanx" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false">
+                  <description>When a LIGHT CORE unit within Command Range of a HOPLITE is targeted, you may activate this card. Place a Smoke Token centered on the HOPLITE. Until the start of the next round, all units within 3&apos; of the HOPLITE&apos;s base gain CONCEALMENT</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="2.0"/>
+                <cost name="Resource Points" typeId="118c-125b-468b-4b84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2331-f650-94f5-2a8d" name="•• Legionnaire Pride" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8396-e43f-37cc-17c8" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <rules>
+                <rule id="1bad-45d0-8e6e-0afa" name="•• Legionnaire Pride" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false">
+                  <description>When a LEGIONNAIRE squad would suffer damage from an EXPLOSIVE attack (such as a grenade), you may remove one model from the squad. If you do, reduce the damage suffered by all remaining models in the squad by 1 DMG for that attack.</description>
                 </rule>
               </rules>
               <costs>
@@ -1759,6 +1812,7 @@
             <entryLink id="acba-257b-3b16-b787" name="Commonwealth Secondary Weapons" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" collective="false" import="true" targetId="422d-8def-332e-cc99" type="selectionEntryGroup"/>
             <entryLink id="42b1-ca49-fd0c-2ea4" name="Combat Knife" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
             <entryLink id="2716-246e-a0b9-4910" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
+            <entryLink id="67f2-9396-a80e-25ff" name="Drones" hidden="false" collective="false" import="true" targetId="ff57-6117-c5e2-2971" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
@@ -1781,6 +1835,7 @@
             <entryLink id="1312-2f72-c1c7-03c1" name="Commonwealth Secondary Weapons" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" collective="false" import="true" targetId="422d-8def-332e-cc99" type="selectionEntryGroup"/>
             <entryLink id="f9af-0d76-e6e3-a4da" name="Combat Knife" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
             <entryLink id="ff5d-2644-6dc1-c97d" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
+            <entryLink id="54f0-7e55-8d0a-6294" name="Drones" hidden="false" collective="false" import="true" targetId="ff57-6117-c5e2-2971" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="5.0"/>
@@ -1807,6 +1862,7 @@
             <entryLink id="cc75-31c7-5fcc-a090" name="Commonwealth Secondary Weapons" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" collective="false" import="true" targetId="422d-8def-332e-cc99" type="selectionEntryGroup"/>
             <entryLink id="f90c-17b0-3f88-399c" name="Combat Knife" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
             <entryLink id="dc89-ffd0-5838-5b96" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
+            <entryLink id="3609-bf9b-9266-10d1" name="Drones" hidden="false" collective="false" import="true" targetId="ff57-6117-c5e2-2971" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
@@ -1829,6 +1885,7 @@
             <entryLink id="2fbc-b442-487d-1fe8" name="Commonwealth Secondary Weapons" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" collective="false" import="true" targetId="422d-8def-332e-cc99" type="selectionEntryGroup"/>
             <entryLink id="0353-5c81-e8a2-ae32" name="Combat Knife" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
             <entryLink id="f9d1-a48a-83d6-5a15" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
+            <entryLink id="7f0d-b694-4c99-6e5f" name="Drones" hidden="false" collective="false" import="true" targetId="ff57-6117-c5e2-2971" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="5.0"/>
@@ -1896,7 +1953,7 @@
             <entryLink id="1564-6a8d-8332-7187" name="Commonwealth Secondary Weapons" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" collective="false" import="true" targetId="422d-8def-332e-cc99" type="selectionEntryGroup"/>
             <entryLink id="8958-a5db-de48-09db" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
             <entryLink id="7148-6080-c342-69fa" name="Combat Knife" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
-            <entryLink id="73c2-497a-caef-402f" name="Drones" hidden="false" collective="false" import="true" targetId="ff57-6117-c5e2-2971" type="selectionEntryGroup"/>
+            <entryLink id="111a-206f-fbc7-052c" name="Drones" hidden="false" collective="false" import="true" targetId="ff57-6117-c5e2-2971" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="7.0"/>
@@ -1955,6 +2012,7 @@
             <entryLink id="5daa-b4a9-a3e5-48aa" name="Commonwealth Secondary Weapons" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" collective="false" import="true" targetId="422d-8def-332e-cc99" type="selectionEntryGroup"/>
             <entryLink id="866e-b2f6-04d5-d707" name="Combat Knife" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
             <entryLink id="93b3-0a3c-70d6-e6f6" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
+            <entryLink id="df6d-e1cb-c998-25f4" name="Drones" hidden="false" collective="false" import="true" targetId="ff57-6117-c5e2-2971" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
@@ -1977,6 +2035,7 @@
             <entryLink id="7514-065b-7255-26a0" name="Commonwealth Secondary Weapons" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" collective="false" import="true" targetId="422d-8def-332e-cc99" type="selectionEntryGroup"/>
             <entryLink id="7ba8-4169-77e2-39c2" name="Combat Knife" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
             <entryLink id="b855-d02f-f14f-5070" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
+            <entryLink id="5162-9ac4-a602-55e3" name="Drones" hidden="false" collective="false" import="true" targetId="ff57-6117-c5e2-2971" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="5.0"/>
@@ -2107,6 +2166,7 @@
             <entryLink id="119e-bbad-ec7e-4577" name="Commonwealth Secondary Weapons" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" collective="false" import="true" targetId="422d-8def-332e-cc99" type="selectionEntryGroup"/>
             <entryLink id="d6d3-b0da-9461-b2ed" name="Combat Knife" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
             <entryLink id="e24c-9816-1c3b-7d09" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
+            <entryLink id="cf57-9cc9-5f88-2673" name="Drones" hidden="false" collective="false" import="true" targetId="ff57-6117-c5e2-2971" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="5.0"/>
@@ -2129,6 +2189,7 @@
             <entryLink id="19d2-7111-2d28-bffc" name="Commonwealth Secondary Weapons" publicationId="9b0c-e2fe-dd63-1ebd" hidden="false" collective="false" import="true" targetId="422d-8def-332e-cc99" type="selectionEntryGroup"/>
             <entryLink id="e5b2-e4d7-b904-62ec" name="Combat Knife" hidden="false" collective="false" import="true" targetId="8667-6791-160b-5e31" type="selectionEntry"/>
             <entryLink id="8033-cf14-d598-0359" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="3ba8-bd94-f0f3-325e" type="selectionEntry"/>
+            <entryLink id="c282-79e5-af61-acd4" name="Drones" hidden="false" collective="false" import="true" targetId="ff57-6117-c5e2-2971" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="757d-4bf1-4103-99c7" value="3.0"/>
