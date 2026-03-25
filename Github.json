@@ -1,0 +1,13 @@
+{
+  "catalogue": {
+    "library": false,
+    "id": "7203-278c-bc49-39b4",
+    "name": "GitHub",
+    "gameSystemId": "04cf-0115-5d69-77a0",
+    "gameSystemRevision": 44,
+    "revision": 1,
+    "authorUrl": "https://github.com/Revworksminiatures/RemnantsChronicles",
+    "battleScribeVersion": "2.03",
+    "type": "catalogue"
+  }
+}
