@@ -24,6 +24,11 @@
       {
         "id": "9b0c-e2fe-dd63-1ebd",
         "name": "The United Commonwealth of Martyr Armed Forces"
+      },
+      {
+        "name": "Zircon Confederation Armed Forces ",
+        "id": "f52b-7fd1-1ae5-1687",
+        "hidden": false
       }
     ],
     "costTypes": [
@@ -21476,13 +21481,15 @@
         "description": "A model hit by a weapon with this special rule loses a action for the next round that it activates. It may not be affected by any command cards or rallied by friendly units",
         "id": "1571-6e5e-3087-ac7f",
         "name": "Stun",
-        "hidden": false
+        "hidden": false,
+        "publicationId": "c8da-24a8-bcaa-8190"
       },
       {
         "description": "This model does not suffer a disadvantage when attacking with a weapon that has the Heavy Trait",
         "id": "1e08-ca30-b162-2802",
         "name": "Stablized",
-        "hidden": false
+        "hidden": false,
+        "publicationId": "c8da-24a8-bcaa-8190"
       },
       {
         "description": "This weapon attack spreads out in a cone from the attacker. The width of the spray is 3 inches. To use, place the Range Finder Tool over a target. Any models within the 3-inch width of the Spray are also hit and must take a DEF test against the weapon’s attack.",
@@ -21536,7 +21543,9 @@
       {
         "id": "8d04-2d8e-5a78-46b0",
         "name": "Reliable",
-        "hidden": false
+        "hidden": false,
+        "publicationId": "c8da-24a8-bcaa-8190",
+        "description": "This weapon may ignore any malfunction results the first time that it suffers this condition \n\n"
       },
       {
         "description": "A Vehicle can choose to ram into structures or other vehicles. If a vehicle chooses to ram a structure or vehicle, it makes a CMBT roll and adds success to the Vehicle’s Armor. If the vehicle’s roll is higher than the structures or vehicle's AR, the vehicle may use its full movement to “crash” into the target. \nThe structure is reduced to a “ruin” for purposes of terrain.\nAn enemy vehicle loses Endurance points equal to the DMG dealt to it by the Ramming force of the vehicle",
@@ -21776,7 +21785,8 @@
       {
         "id": "7661-4120-49fa-9c70",
         "name": "Amphibious",
-        "hidden": false
+        "hidden": false,
+        "description": "A vehicle with this rule treats all water terrain as normal terrain. It may move across water without taking Dangerous Terrain tests."
       },
       {
         "description": "This weapon has a limited ammunition supply, represented by the O symbol. When a model attacking with this weapon fails an Ammo Check, mark off one O symbol.",
@@ -21807,7 +21817,8 @@
         "id": "ea3e-af6a-4404-a09b",
         "name": "Blind",
         "publicationId": "c8da-24a8-bcaa-8190",
-        "hidden": false
+        "hidden": false,
+        "description": "While under the Blind Condition, this unit cannot make ranged attacks, loses 1 action in close combat, and cannot use any reactions it may have. The Blind Condition lasts for X rounds. \n\n"
       },
       {
         "description": "Crewed weapons—such as machine guns, mortars, or flamethrowers—require multiple models to operate but can continue firing as long as at least one crew member remains. \n\nIf all crew members are killed, the weapon can be re-crewed if the squad has at least X models, as defined on the unit’s card. Doing so permanently turns that unit into a crewed weapon team of the same type. If the squad has fewer than X models, reloading the weapon requires two actions. \n\nFor Victory Points, full points are only awarded when the entire crew is eliminated.",
@@ -21951,7 +21962,7 @@
     ],
     "id": "04cf-0115-5d69-77a0",
     "name": "The Remnant Chronicles",
-    "revision": 44,
+    "revision": 49,
     "battleScribeVersion": 2.03,
     "authorName": "Jonathan Collett",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
