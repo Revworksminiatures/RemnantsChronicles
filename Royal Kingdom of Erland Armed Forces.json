@@ -2121,6 +2121,368 @@
                 "collective": false,
                 "import": true,
                 "type": "upgrade"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "• Silent Insertion (Special Operations Task Force)",
+                "hidden": false,
+                "id": "7a6c-e978-1817-0abe",
+                "rules": [
+                  {
+                    "name": "• Silent Insertion (Special Operations Task Force)",
+                    "id": "cc80-fe51-dc43-6be1",
+                    "hidden": false,
+                    "description": "Select one SPECIAL OPERATIONS Special Issue unit. Remove it from the battlefield and redeploy it anywhere outside enemy detection range (SIZE+ INTELLIGENCE). That unit cannot be targeted until it attacks or is detected.",
+                    "publicationId": "ecbd-4756-1610-637c"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "118c-125b-468b-4b84",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "757d-4bf1-4103-99c7",
+                    "value": 1
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c75e-93ea-f844-1654",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "a603-48d7-f61c-36e6",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "• Breach and Clear (Special Operations Task Force)",
+                "hidden": false,
+                "id": "2701-5f9b-8c0d-5acb",
+                "rules": [
+                  {
+                    "name": "• Breach and Clear (Special Operations Task Force)",
+                    "id": "ccf1-a25a-eb4c-ab94",
+                    "hidden": false,
+                    "description": "Select one SPECIAL OPERATIONS Special Issue unit. During its next attack at close range. The enemy unit cannot react",
+                    "publicationId": "ecbd-4756-1610-637c"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "118c-125b-468b-4b84",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "757d-4bf1-4103-99c7",
+                    "value": 1
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "a662-c386-0fa9-c91e",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "a603-48d7-f61c-36e6",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "•Royal Interdiction (King's Life Guard Specialist Task Force)",
+                "hidden": false,
+                "id": "5900-e363-a079-c6ef",
+                "publicationId": "ecbd-4756-1610-637c",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "e358-53ad-f2be-6c9f"
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "•Royal Interdiction (King's Life Guard Specialist Task Force)",
+                    "id": "7029-5f44-b650-5055",
+                    "hidden": false,
+                    "description": "Select one enemy unit within range of a KING's LIFE GUARD Light Core unit. The enemy unit cannot move or be repositioned for the rest of the turn.",
+                    "publicationId": "ecbd-4756-1610-637c"
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "534b-6d88-a2e6-3ddb",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "118c-125b-468b-4b84",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "757d-4bf1-4103-99c7",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "•Bodyguard Detail (King's Life Guard Specialist Task Force)",
+                "hidden": false,
+                "id": "669c-c810-9d8b-f211",
+                "publicationId": "ecbd-4756-1610-637c",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "572b-70b1-9c57-7d59"
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "•Bodyguard Detail (King's Life Guard Specialist Task Force)",
+                    "id": "d148-b38b-d810-94fb",
+                    "hidden": false,
+                    "description": "Select one friendly ERLAND Task Force Leader. While within CMD range of a KING's LIFE GUARD Light Core unit, all attacks targeting that Leader must be redirected to the Royal Guard unit instead",
+                    "publicationId": "ecbd-4756-1610-637c"
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "534b-6d88-a2e6-3ddb",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "118c-125b-468b-4b84",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "757d-4bf1-4103-99c7",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "• Breach Charge(Royal Marine Boarding Task Force)",
+                "hidden": false,
+                "id": "47e7-781b-ded7-66be",
+                "rules": [
+                  {
+                    "name": "• Breach Charge(Royal Marine Boarding Task Force)",
+                    "id": "770e-2bc9-6511-83b4",
+                    "hidden": false,
+                    "description": "Select one ERLAND MARINE LIGHT CORE unit. When it targets an enemy unit this turn the target cannot benefit from cover",
+                    "publicationId": "ecbd-4756-1610-637c"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "118c-125b-468b-4b84",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "757d-4bf1-4103-99c7",
+                    "value": 1
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7a23-2d9e-7304-bcbb",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "6d1a-ce25-f6ae-9211",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "• Flash Entry(Royal Marine Boarding Task Force)",
+                "hidden": false,
+                "id": "2b86-5ad6-b9fa-e7cc",
+                "rules": [
+                  {
+                    "name": "• Flash Entry(Royal Marine Boarding Task Force)",
+                    "id": "3d4b-a216-a9b7-c60b",
+                    "hidden": false,
+                    "description": "Select one ROYAL ERLAND MARINE LIGHT CORE unit. During its next attack this turn, the target enemy unit cannot attack or react, even if it has a reaction prepared.\nAfter the attack is resolved, that unit may make one free Move action.\n",
+                    "publicationId": "ecbd-4756-1610-637c"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "118c-125b-468b-4b84",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "757d-4bf1-4103-99c7",
+                    "value": 1
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "86e3-596b-4afe-dbc3",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "6d1a-ce25-f6ae-9211",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "costs": [
@@ -2781,6 +3143,368 @@
                 "collective": false,
                 "import": true,
                 "type": "upgrade"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "•• Forward Recon Team (Special Operations Task Force)",
+                "hidden": false,
+                "id": "3cbd-4f34-2963-0e39",
+                "rules": [
+                  {
+                    "name": "• Forward Recon Team (Special Operations Task Force)",
+                    "id": "80a5-803c-4af3-0984",
+                    "hidden": false,
+                    "description": "Select one SPECIAL OPERATIONS Special Issue unit. Enemy units within its Command Range do not benefit from Concealment or Cover",
+                    "publicationId": "ecbd-4756-1610-637c"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "118c-125b-468b-4b84",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "757d-4bf1-4103-99c7",
+                    "value": 2
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "87c4-f107-519c-90cd",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "a603-48d7-f61c-36e6",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "•• Marksman Discipline (Special Operations Task Force)",
+                "hidden": false,
+                "id": "ebeb-3a7c-c3a6-f642",
+                "rules": [
+                  {
+                    "name": "•• Marksman Discipline (Special Operations Task Force)",
+                    "id": "142c-b343-d9fd-3fe4",
+                    "hidden": false,
+                    "description": "Select one SPECIAL OPERATIONS Special Issue unit. For this turn it ignores range penalties",
+                    "publicationId": "ecbd-4756-1610-637c"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "118c-125b-468b-4b84",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "757d-4bf1-4103-99c7",
+                    "value": 2
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "00cf-c567-4d91-17b0",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "a603-48d7-f61c-36e6",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "••Controlled Engagement (King's Life Guard Specialist Task Force)",
+                "hidden": false,
+                "id": "1c6e-831b-2933-0f6d",
+                "publicationId": "ecbd-4756-1610-637c",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "961d-8a3c-0019-35a3"
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "••Controlled Engagement (King's Life Guard Specialist Task Force)",
+                    "id": "73c2-677b-a5ce-3707",
+                    "hidden": false,
+                    "description": "Select one enemy unit engaged in CMBT by a ROYAL GUARD Light Core Unit. That unit cannot disengage or react this turn. Even if it has a reaction prepared.",
+                    "publicationId": "ecbd-4756-1610-637c"
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "534b-6d88-a2e6-3ddb",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "118c-125b-468b-4b84",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "757d-4bf1-4103-99c7",
+                    "value": 2
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "••No Failure Permitted (King's Life Guard Specialist Task Force)",
+                "hidden": false,
+                "id": "1fa2-1e55-7967-f6ce",
+                "publicationId": "ecbd-4756-1610-637c",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "8cba-07d8-c363-95b4"
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "••No Failure Permitted (King's Life Guard Specialist Task Force)",
+                    "id": "a8b4-07b8-0f78-9780",
+                    "hidden": false,
+                    "description": "Play when a KING's LIFE GUARD unit is targeted or fails an action. That Action or DEF is treated as successful. After resolving, the unit cannot act again this turn.",
+                    "publicationId": "ecbd-4756-1610-637c"
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "534b-6d88-a2e6-3ddb",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "118c-125b-468b-4b84",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "757d-4bf1-4103-99c7",
+                    "value": 2
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "•• Hull Breach(Royal Marine Boarding Task Force)",
+                "hidden": false,
+                "id": "123e-5059-78c5-7c42",
+                "rules": [
+                  {
+                    "name": "•• Hull Breach(Royal Marine Boarding Task Force)",
+                    "id": "fc86-dcc3-3a94-85a1",
+                    "hidden": false,
+                    "description": "Select a point on terrain or a structure. Place a breach token. Units may move through that point as if it were open terrain for the rest of the game.",
+                    "publicationId": "ecbd-4756-1610-637c"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "118c-125b-468b-4b84",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "757d-4bf1-4103-99c7",
+                    "value": 2
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "852f-752d-a675-c9a0",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "6d1a-ce25-f6ae-9211",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "•• Silent Approach(Royal Marine Boarding Task Force)",
+                "hidden": false,
+                "id": "9a17-b6b1-da40-1ceb",
+                "rules": [
+                  {
+                    "name": "•• Silent Approach(Royal Marine Boarding Task Force)",
+                    "id": "1a74-b764-2ddd-41a9",
+                    "hidden": false,
+                    "description": "Select one ERLAND ROYAL MARINE Light Core unit. Remove it from the battlefield.\nReturn it anywhere outside enemy detection range at the end of the turn.\n",
+                    "publicationId": "ecbd-4756-1610-637c"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "118c-125b-468b-4b84",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "757d-4bf1-4103-99c7",
+                    "value": 2
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "874d-2b55-c715-5c5d",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "6d1a-ce25-f6ae-9211",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "costs": [
@@ -3168,7 +3892,7 @@
                   {
                     "description": "The aircraft becomes invisible to enemy radar and targeting systems, effectively gaining the \"Stealthed\" Condition for the entire round.",
                     "id": "979a-f9a9-89f6-98e3",
-                    "name": "••• Phantom Flight ",
+                    "name": "••• Phantom Flight (Kaptain Vilhelm \"Shadow\" Cunningham)",
                     "publicationId": "ecbd-4756-1610-637c",
                     "hidden": false
                   }
@@ -3186,7 +3910,7 @@
                   }
                 ],
                 "id": "ac2f-3cf7-6ed4-25e7",
-                "name": "••• Phantom Flight ",
+                "name": "••• Phantom Flight  (Kaptain Vilhelm \"Shadow\" Cunningham)",
                 "hidden": false,
                 "collective": false,
                 "import": true,
@@ -3230,7 +3954,7 @@
                   {
                     "description": "The ERD-6 Corsair can perform a bombing run with pinpoint accuracy, ignoring any cover bonuses the target may have.",
                     "id": "a230-2eaa-069d-fe48",
-                    "name": "•••Precision Bombardment",
+                    "name": "•••Precision Bombardment (Kaptain Julia Zajara Only)",
                     "publicationId": "ecbd-4756-1610-637c",
                     "hidden": false
                   }
@@ -3248,7 +3972,7 @@
                   }
                 ],
                 "id": "7778-20e4-41b1-cec1",
-                "name": "•••Precision Bombardment",
+                "name": "•••Precision Bombardment (Kaptain Julia Zajara Only)",
                 "hidden": false,
                 "collective": false,
                 "import": true,
@@ -3379,6 +4103,187 @@
                 "collective": false,
                 "import": true,
                 "type": "upgrade"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "••• Extraction Protocol (Special Operations Task Force)",
+                "hidden": false,
+                "id": "2683-4b95-ebac-c609",
+                "rules": [
+                  {
+                    "name": "• Extraction Protocol (Special Operations Task Force)",
+                    "id": "784f-743e-518b-c43c",
+                    "hidden": false,
+                    "description": "Select one SPECIAL OPERATIONS Special Issue unit. Return it to the front of your deployment zone at the end of the turn. This unit cannot move again this turn, even if it has actions remaining, and cannot be placed on the board edge.",
+                    "publicationId": "ecbd-4756-1610-637c"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "118c-125b-468b-4b84",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "757d-4bf1-4103-99c7",
+                    "value": 3
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "951f-4d71-ec14-0756",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "a603-48d7-f61c-36e6",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "•••Interrogation Protocol (King's Life Guard Specialist Task Force)",
+                "hidden": false,
+                "id": "bc74-67cb-b04b-d86f",
+                "publicationId": "ecbd-4756-1610-637c",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9b4a-e453-f557-31fd"
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "•••Interrogation Protocol (King's Life Guard Specialist Task Force)",
+                    "id": "05cf-d776-aac5-e6fa",
+                    "hidden": false,
+                    "description": "Play at the start of your Activation. Your opponent reveals two Command Cards from their hand. Choose one of those cards. The chosen card cannot be played this turn.",
+                    "publicationId": "ecbd-4756-1610-637c"
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "534b-6d88-a2e6-3ddb",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "118c-125b-468b-4b84",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "757d-4bf1-4103-99c7",
+                    "value": 3
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "••• Overwhelming Entry(Royal Marine Boarding Task Force)",
+                "hidden": false,
+                "id": "6676-237f-fe7f-0434",
+                "rules": [
+                  {
+                    "name": "••• Overwhelming Entry(Royal Marine Boarding Task Force)",
+                    "id": "a20d-797d-cb9d-d505",
+                    "hidden": false,
+                    "description": "Play at the start of your Activation. Select two ERLAND ROYAL MARINE LIGHT CORE units within Command Range of each other. Each unit must immediately make one Move action toward the same enemy unit or target area. The targeted enemy unit cannot react to these movements. These moves count as actions and follow all normal movement limits.",
+                    "publicationId": "ecbd-4756-1610-637c"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "118c-125b-468b-4b84",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "757d-4bf1-4103-99c7",
+                    "value": 3
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "dda5-bd21-d465-5296",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "6d1a-ce25-f6ae-9211",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "costs": [
@@ -16663,7 +17568,7 @@
     ],
     "id": "66aa-2cf1-f5a0-5723",
     "name": "Royal Kingdom of Erland Armed Forces",
-    "revision": 25,
+    "revision": 29,
     "battleScribeVersion": 2.03,
     "authorName": "Jonathan Collett",
     "library": false,
