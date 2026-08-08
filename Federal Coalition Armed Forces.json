@@ -6073,7 +6073,7 @@
                   {
                     "description": "Choose a Light Core Unit, its movement rating is increased by half (rounded down) when moving toward an enemy unit.\nAdditionally, another Light Core Unit gains an advantage for all ranged attacks against that same enemy unit. This effect lasts until the end of the round.",
                     "id": "1fdb-c5d0-e5e5-5965",
-                    "name": "Cover me! (Federal Coalition)",
+                    "name": "••Cover me! (Federal Coalition)",
                     "publicationId": "c8da-24a8-bcaa-8190",
                     "hidden": false
                   }
@@ -37807,39 +37807,6 @@
                     "shared": true,
                     "includeChildSelections": false,
                     "includeChildForces": false,
-                    "id": "2c04-8db8-2213-99f4",
-                    "type": "max"
-                  },
-                  {
-                    "field": "selections",
-                    "scope": "parent",
-                    "value": 1,
-                    "percentValue": false,
-                    "shared": true,
-                    "includeChildSelections": false,
-                    "includeChildForces": false,
-                    "id": "c1a8-2ea5-ccea-3e74",
-                    "type": "min"
-                  }
-                ],
-                "id": "7147-9be8-8ba3-4f8c",
-                "name": "Patch Kit",
-                "hidden": false,
-                "collective": false,
-                "import": true,
-                "targetId": "02a8-2a11-5cb3-51a4",
-                "type": "selectionEntry"
-              },
-              {
-                "constraints": [
-                  {
-                    "field": "selections",
-                    "scope": "parent",
-                    "value": 1,
-                    "percentValue": false,
-                    "shared": true,
-                    "includeChildSelections": false,
-                    "includeChildForces": false,
                     "id": "f25e-877a-0ce3-d8e3",
                     "type": "max"
                   },
@@ -37910,7 +37877,7 @@
               {
                 "name": "Resource Points",
                 "typeId": "118c-125b-468b-4b84",
-                "value": -2
+                "value": -5
               },
               {
                 "name": "Command Points",
@@ -47189,7 +47156,7 @@
     ],
     "id": "c2cb-99b2-7a20-3386",
     "name": "Federal Coalition Armed Forces",
-    "revision": 42,
+    "revision": 46,
     "battleScribeVersion": 2.03,
     "authorName": "Jonathan Collett",
     "library": false,

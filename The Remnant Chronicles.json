@@ -94,8 +94,7 @@
           }
         ],
         "id": "41dd-5dc6-25fb-0fec",
-        "name": "HAVOC (High Altitude Void Operable Craft)",
-        "kind": "model"
+        "name": "HAVOC (High Altitude Void Operable Craft)"
       },
       {
         "characteristicTypes": [
@@ -146,7 +145,6 @@
         ],
         "id": "26f1-62ef-78f9-c624",
         "name": "Trooper",
-        "kind": "model",
         "sortIndex": 1
       },
       {
@@ -197,8 +195,7 @@
           }
         ],
         "id": "752c-3a73-d54e-d187",
-        "name": "RIG (Reinforced Integrated General Suit)",
-        "kind": "model"
+        "name": "RIG (Reinforced Integrated General Suit)"
       },
       {
         "characteristicTypes": [
@@ -249,13 +246,11 @@
         ],
         "id": "c48c-0898-b719-a4a1",
         "name": "Vehicle",
-        "sortIndex": 2,
-        "kind": "model"
+        "sortIndex": 2
       },
       {
         "id": "fc11-c77c-46e6-14f5",
         "name": "Drones",
-        "kind": "model",
         "characteristicTypes": [
           {
             "name": "Key Traits",
@@ -305,8 +300,7 @@
       },
       {
         "id": "9bfe-b9e5-f519-c0fa",
-        "name": "Command Cards",
-        "kind": "rule"
+        "name": "Command Cards"
       },
       {
         "characteristicTypes": [
@@ -332,8 +326,7 @@
           }
         ],
         "id": "ab93-fd75-60ca-f65d",
-        "name": "Weapons",
-        "kind": "weapon"
+        "name": "Weapons"
       }
     ],
     "categoryEntries": [
@@ -13188,23 +13181,28 @@
             "characteristics": [
               {
                 "name": "Type",
-                "typeId": "e829-a194-1e82-ef0e"
+                "typeId": "e829-a194-1e82-ef0e",
+                "$text": "Direct"
               },
               {
                 "name": "Range",
-                "typeId": "8c3b-7392-eccb-3fbd"
+                "typeId": "8c3b-7392-eccb-3fbd",
+                "$text": "15/30/OO"
               },
               {
                 "name": "RoF",
-                "typeId": "78b1-0557-98bf-20b5"
+                "typeId": "78b1-0557-98bf-20b5",
+                "$text": "1"
               },
               {
                 "name": "DMG",
-                "typeId": "fd6b-8dc5-3738-8dd4"
+                "typeId": "fd6b-8dc5-3738-8dd4",
+                "$text": "12"
               },
               {
                 "name": "Special Rules",
-                "typeId": "c841-288e-1d62-7ddb"
+                "typeId": "c841-288e-1d62-7ddb",
+                "$text": "Scope:1 Heavy, Auto, Piercing:1"
               }
             ],
             "id": "4619-8b68-cf12-8dad",
@@ -16398,6 +16396,13 @@
                 "hidden": false,
                 "targetId": "cc62-cd2d-f022-116a",
                 "type": "rule"
+              },
+              {
+                "name": "Fly",
+                "id": "c7a6-cca3-2076-738c",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "05c5-d7d9-c3e9-8ba5"
               }
             ],
             "entryLinks": [
@@ -16541,6 +16546,13 @@
                 "hidden": false,
                 "targetId": "f9de-63fa-4577-a269",
                 "type": "rule"
+              },
+              {
+                "name": "Fly",
+                "id": "60c4-2717-65d7-bd53",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "05c5-d7d9-c3e9-8ba5"
               }
             ],
             "costs": [
@@ -21962,7 +21974,7 @@
     ],
     "id": "04cf-0115-5d69-77a0",
     "name": "The Remnant Chronicles",
-    "revision": 49,
+    "revision": 52,
     "battleScribeVersion": 2.03,
     "authorName": "Jonathan Collett",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",

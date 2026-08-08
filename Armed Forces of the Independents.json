@@ -9747,7 +9747,8 @@
                     "id": "7c65-2409-118d-02f0",
                     "name": "•Stalwart Outpost",
                     "publicationId": "782f-493f-cc20-a098",
-                    "hidden": false
+                    "hidden": false,
+                    "description": "When a LIGHT CORE unit is destroyed or removed from an objective, another LIGHT CORE unit within Command Range may immediately move onto that objective. That unit controls the objective until the end of the turn, even if the enemy has more models on it."
                   }
                 ],
                 "costs": [
@@ -9956,6 +9957,252 @@
                 "collective": false,
                 "import": true,
                 "type": "upgrade"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "• Colt's Mark (Raiders of Cancer Task Force)",
+                "hidden": false,
+                "id": "468a-4bb0-440c-b424",
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "118c-125b-468b-4b84",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "757d-4bf1-4103-99c7",
+                    "value": 1
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1748-806e-b93a-2218",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "ed4e-0be0-e777-a865",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "• Colt's Mark (Raiders of Cancer Task Force)",
+                    "id": "5103-d167-ef61-116b",
+                    "hidden": false,
+                    "publicationId": "782f-493f-cc20-a098",
+                    "description": "Select an enemy unit. That unit becomes MARKED.\nThe next time a friendly Raiders of Cancer unit targets the MARKED unit, the enemy unit cannot react or redirect against that attack.\n\nAfter the attack is resolved, the unit is no longer MARKED. \n"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "• Stun Rounds (Raiders of Cancer Task Force)",
+                "hidden": false,
+                "id": "88e7-f0dd-9b58-40df",
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "118c-125b-468b-4b84",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "757d-4bf1-4103-99c7",
+                    "value": 1
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "07d9-c8e1-8bf4-c38a",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "ed4e-0be0-e777-a865",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "• Stun Rounds (Raiders of Cancer Task Force)",
+                    "id": "a965-07ac-6e0e-9fdc",
+                    "hidden": false,
+                    "publicationId": "782f-493f-cc20-a098",
+                    "description": "A RAIDERS OF CANCER Light Core unit gains the STUN keyword on all of its shooting CMBT attacks against enemy units until the end of this turn."
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "• Local Supply Network (Planetary Militia Force Task Force)",
+                "hidden": false,
+                "id": "93f7-3ada-451a-feda",
+                "publicationId": "782f-493f-cc20-a098",
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "118c-125b-468b-4b84",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "757d-4bf1-4103-99c7",
+                    "value": 1
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "5837-5d77-8802-1a37",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "4886-61ce-ad80-2345",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "• Local Supply Network (Planetary Militia Force Task Force)",
+                    "id": "936c-dbc0-a55a-17d4",
+                    "hidden": false,
+                    "publicationId": "782f-493f-cc20-a098",
+                    "description": "Once per game, a PLANETARY MILITIA unit may return one spent GEAR from the discard pile to its inventory."
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "• Military Training (Planetary Militia Force Task Force)",
+                "hidden": false,
+                "id": "f753-7abf-a173-9ec4",
+                "publicationId": "782f-493f-cc20-a098",
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "118c-125b-468b-4b84",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "757d-4bf1-4103-99c7",
+                    "value": 1
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7475-7977-7b19-6e42",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "4886-61ce-ad80-2345",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "• Military Training (Planetary Militia Force Task Force)",
+                    "id": "b312-a7aa-7903-b1cb",
+                    "hidden": false,
+                    "publicationId": "782f-493f-cc20-a098",
+                    "description": "When this card is played, a PLANETARY MILITIA unit on an objective continues to control it, even if it becomes contested, unless that unit is fully removed. "
+                  }
+                ]
               }
             ],
             "costs": [
@@ -10992,6 +11239,252 @@
                 "collective": false,
                 "import": true,
                 "type": "upgrade"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "•• Overcharged Cells (Raiders of Cancer Task Force)",
+                "hidden": false,
+                "id": "149c-b5ac-69e7-1af0",
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "118c-125b-468b-4b84",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "757d-4bf1-4103-99c7",
+                    "value": 2
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "3275-90f8-f4bf-5c26",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "ed4e-0be0-e777-a865",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "•• Overcharged Cells (Raiders of Cancer Task Force)",
+                    "id": "6081-b517-c69d-2050",
+                    "hidden": false,
+                    "publicationId": "782f-493f-cc20-a098",
+                    "description": "A RAIDERS OF CANCER unit gains +2 DMG to its BEAM weapons this turn. That BEAM weapon cannot be used during the next turn."
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "•• Ghost of the Remnants (Raiders of Cancer Task Force)",
+                "hidden": false,
+                "id": "5b0e-2eac-e716-4486",
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "118c-125b-468b-4b84",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "757d-4bf1-4103-99c7",
+                    "value": 2
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "d639-e0d9-7d71-29ad",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "ed4e-0be0-e777-a865",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "•• Ghost of the Remnants (Raiders of Cancer Task Force)",
+                    "id": "b732-be46-8c40-ec96",
+                    "hidden": false,
+                    "publicationId": "782f-493f-cc20-a098",
+                    "description": "Select one RAIDERS OF CANCER unit. Remove it from the battlefield, then redeploy it anywhere within your deployment zone. This does not count as a movement action."
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "•• Trained Command Network (Planetary Militia Force Task Force)",
+                "hidden": false,
+                "id": "50ed-361e-2eb4-e9b1",
+                "publicationId": "782f-493f-cc20-a098",
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "118c-125b-468b-4b84",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "757d-4bf1-4103-99c7",
+                    "value": 2
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "acf9-a041-cf64-4e21",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "4886-61ce-ad80-2345",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "•• Trained Command Network (Planetary Militia Force Task Force)",
+                    "id": "c589-8f09-7429-3b89",
+                    "hidden": false,
+                    "publicationId": "782f-493f-cc20-a098",
+                    "description": "A PLANETARY MILITIA unit may ignore any effects that would prevent it from using Command Cards this turn."
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "•• Improvised Armor Plating (Planetary Militia Force Task Force)",
+                "hidden": false,
+                "id": "d307-0223-2cdd-ee6b",
+                "publicationId": "782f-493f-cc20-a098",
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "118c-125b-468b-4b84",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "757d-4bf1-4103-99c7",
+                    "value": 2
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "4d01-178b-f53f-c331",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "4886-61ce-ad80-2345",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "•• Improvised Armor Plating (Planetary Militia Force Task Force)",
+                    "id": "401f-690d-59e7-529e",
+                    "hidden": false,
+                    "publicationId": "782f-493f-cc20-a098",
+                    "description": "At the start of the game, assign this card to one PLANETARY MILITIA LIGHT CORE unit. That unit gains +2 ARMOR. It cannot move more than once per turn."
+                  }
+                ]
               }
             ],
             "costs": [
@@ -11881,6 +12374,178 @@
                 "collective": false,
                 "import": true,
                 "type": "upgrade"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "••• Lightning Raid (Raiders of Cancer Task Force)",
+                "hidden": false,
+                "id": "8eab-f08c-1b9b-9076",
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "118c-125b-468b-4b84",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "757d-4bf1-4103-99c7",
+                    "value": 3
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "3abf-f4cb-e02c-b8a9",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "ed4e-0be0-e777-a865",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "••• Lightning Raid (Raiders of Cancer Task Force)",
+                    "id": "a845-58c3-aaaa-4c7a",
+                    "hidden": false,
+                    "publicationId": "782f-493f-cc20-a098",
+                    "description": "Choose up to two RAIDERS OF CANCER Light Core units. They may immediately move and perform an action. After resolving, they must reposition towards the closest cover. "
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "••• Fire Mission (Planetary Militia Force Task Force)",
+                "hidden": false,
+                "id": "807a-e55e-f711-576e",
+                "publicationId": "782f-493f-cc20-a098",
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "118c-125b-468b-4b84",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "757d-4bf1-4103-99c7",
+                    "value": 3
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "451a-885d-d305-eaa5",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "4886-61ce-ad80-2345",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "••• Fire Mission(Planetary Militia Force Task Force)",
+                    "id": "db68-d472-fa94-8b3a",
+                    "hidden": false,
+                    "publicationId": "782f-493f-cc20-a098",
+                    "description": "Once per game, select a point within Command Range of a PLANETARY MILITIA unit. At the start of the next round, place a Blast marker at that location. All units within the area suffer an BLAST:4, DMG 14 attack. This attack cannot be reacted to or redirected.\n\n\n\n"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "••• Melt the Barrel (Mercs and Bounty Hunters)",
+                "hidden": false,
+                "id": "398a-5a5c-ee47-1022",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7e97-2503-609a-4135",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "0ccd-8e75-d188-09c5",
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "••• Melt the Barrel (Mercs and Bounty Hunters)",
+                    "id": "3c29-c9ce-befb-81fa",
+                    "hidden": false,
+                    "publicationId": "782f-493f-cc20-a098",
+                    "description": "Play this card when a LIGHT SUPPORT unit with an AUTO or BELT FED weapon attacks. For this Activation only, The weapon gains RoF 1-5. After the attack resolves, the weapon is considered to be Out of Ammo and must reload before firing again."
+                  }
+                ]
               }
             ],
             "costs": [
@@ -17769,7 +18434,7 @@
     ],
     "id": "4115-789f-05a7-73df",
     "name": "Armed Forces of the Independents",
-    "revision": 37,
+    "revision": 43,
     "battleScribeVersion": 2.03,
     "authorName": "Jonathan Collett",
     "library": false,

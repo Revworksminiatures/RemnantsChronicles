@@ -688,15 +688,6 @@
                 "type": "min"
               }
             ],
-            "infoLinks": [
-              {
-                "id": "ef68-c463-3106-0931",
-                "name": "Sotil Team",
-                "hidden": false,
-                "targetId": "62d5-f3d5-b801-7e94",
-                "type": "profile"
-              }
-            ],
             "id": "6462-c9c8-a5e3-7d6b",
             "name": "Sotil",
             "publicationId": "c8da-24a8-bcaa-8190",
@@ -790,8 +781,9 @@
               {
                 "id": "b5de-36ec-263d-0e59",
                 "name": "Central Guard",
-                "publicationId": "c8da-24a8-bcaa-8190",
-                "hidden": false
+                "publicationId": "6f11-4351-f3f0-26cb",
+                "hidden": false,
+                "description": "The Central Guard stands as the backbone of the Protectorate Defense League, a formidable and discipline force committed to safeguarding their borders. As the main command of the Protectorate Defense League, the epitomize a well-trained and organized force, ensuring that each unit upholds the highest standards of readiness. The Central Guard is reflected in its united command structure , fostering seamless coordination amongst its members. This dedicated and vigilant force plays a crucial role in order to maintain peace and security within the Protectorate, standing as a symbol of strength and resilience. \n\n"
               }
             ],
             "costs": [
@@ -832,8 +824,9 @@
               {
                 "id": "f002-95b6-db5e-bda2",
                 "name": "The Border Republic",
-                "publicationId": "c8da-24a8-bcaa-8190",
-                "hidden": false
+                "publicationId": "6f11-4351-f3f0-26cb",
+                "hidden": false,
+                "description": "Nestled within the volatile Border Republic, the Republican Guardsmen of the Border Republic are more than just well trained; they are a dedicated and combat tested group of living on the edges of the Remnants. Serving as the frontline defense, these soldiers have earned a formidable reputation as fearsome soldiers and rightfully so. Seemingly fearless in the face of adversity, they navigate the battlefield with unmatched skill, safeguarding the Republic with a tenacity that stems from their commitment to the Protectorate. The Border Republic’s well trained and dedicated forces represent the epitome of elite soldiers , standing resolute as guardians on the precarious edge of the Remnants. \n\n"
               }
             ],
             "costs": [
@@ -874,8 +867,9 @@
               {
                 "id": "c864-abe9-dccd-9829",
                 "name": "The Outlands",
-                "publicationId": "c8da-24a8-bcaa-8190",
-                "hidden": false
+                "publicationId": "6f11-4351-f3f0-26cb",
+                "hidden": false,
+                "description": "In the rugged outskirts of the Protectorate Defense League sits the Outlands, a area of lawlessness which often prevails into violence. The Protectorate takes on a crucial role using their dedicated “Frontiersmen”, soldiers known for their crafty and sly tactics. These soldiers form a formable line against the chaos of the Outlands where pirates, slavers, and privateers lurk. The Protectorates commitment to maintaining order in this challenging terrain showcases their resilience and unwavering dedication. In the face of adversity, these guardians navigate their home protectorate with a keen sense strategy, embodying the crafty spirit required to tame the untamed space that is the Outlands. The delicate balance between law and wilderness is upheld by the Protectorates watchful eye, ensuring a semblance of order in the midst of the rugged frontiers of space."
               }
             ],
             "costs": [
@@ -916,8 +910,9 @@
               {
                 "id": "254b-fd2c-1c25-e798",
                 "name": "The Axel Collective",
-                "publicationId": "c8da-24a8-bcaa-8190",
-                "hidden": false
+                "publicationId": "6f11-4351-f3f0-26cb",
+                "hidden": false,
+                "description": "The Axel Collective Protectorate is a unique enclave, characterized by its recklessness and free spirited inhabitants. The Soldiers of this Protectorate, known as “Rangers” are an unconventional bunch, known for their intuitive approach to warfare, often seen as “risk takers” and gamblers on the battlefield. Despite their reputation as “carefree” individuals, others may perceive them as lazy but beneath the surface lies a deep well of loyalty. These crafty and knowledgeable soldiers have mastered the art of strategic improvisation, navigating challenges with a cleverness that belies their seemingly carefree demeanor. In times of peril the Axel Collective Protectorate proves its mettle, reminding that their distinct approach to life and warfare is a force to be reckoned with.\n\n"
               }
             ],
             "costs": [
@@ -957,8 +952,9 @@
               {
                 "id": "b61f-cbe9-791c-bd42",
                 "name": "E'Selda Protectorate",
-                "publicationId": "c8da-24a8-bcaa-8190",
-                "hidden": false
+                "publicationId": "6f11-4351-f3f0-26cb",
+                "hidden": false,
+                "description": "Amongst the Protectorate, E'Selda is often citied as the “Problem Child”. This Protectorate is defined by a landscape of highly technological advancements and cybernetic enhancements. In a society where upgraded technology and biology is the norm, E’Selda stands out amongst the Protectorates for their audacious modifications to vehicles and technology. Their rebellious spirit manifest in a fusion of cutting-edge cybernetics, creating a persona that challenges the very fabric of the Protectorates technological order. In this Protectorate of augmented reality and cyber enhancements, E’Selda disrupts the status quo, leaving a trail of technological defiance that sparks intrigue and concern amongst both allies and adversaries.\n\n"
               }
             ],
             "costs": [
@@ -1920,59 +1916,59 @@
               {
                 "characteristics": [
                   {
-                    "$text": "Armored, Tracks, Turret, Stablized",
                     "name": "Key Traits",
-                    "typeId": "b665-ff08-0e63-d70d"
+                    "typeId": "b665-ff08-0e63-d70d",
+                    "$text": "Armored, Tracks, Turret, Stablized"
                   },
                   {
-                    "$text": "2",
                     "name": "CMBT",
-                    "typeId": "d9ed-bc69-fa1e-bce6"
+                    "typeId": "d9ed-bc69-fa1e-bce6",
+                    "$text": "2"
                   },
                   {
-                    "$text": "1",
                     "name": "DEF",
-                    "typeId": "26f5-47a1-8310-51da"
+                    "typeId": "26f5-47a1-8310-51da",
+                    "$text": "1"
                   },
                   {
-                    "$text": "2",
                     "name": "ATHL",
-                    "typeId": "3734-2d11-b7c4-15f4"
+                    "typeId": "3734-2d11-b7c4-15f4",
+                    "$text": "2"
                   },
                   {
-                    "$text": "2",
                     "name": "INT",
-                    "typeId": "b52b-fc57-76e8-5e4b"
+                    "typeId": "b52b-fc57-76e8-5e4b",
+                    "$text": "2"
                   },
                   {
-                    "$text": "2",
                     "name": "LD",
-                    "typeId": "1c19-dad2-a576-46c1"
+                    "typeId": "1c19-dad2-a576-46c1",
+                    "$text": "2"
                   },
                   {
-                    "$text": "14/13/12",
                     "name": "ARMOR",
-                    "typeId": "0abc-6803-65ce-ea04"
+                    "typeId": "0abc-6803-65ce-ea04",
+                    "$text": "14/13/12"
                   },
                   {
-                    "$text": "5",
                     "name": "END",
-                    "typeId": "60e8-bc63-0a32-48e5"
+                    "typeId": "60e8-bc63-0a32-48e5",
+                    "$text": "5"
                   },
                   {
-                    "$text": "4",
                     "name": "NERVE",
-                    "typeId": "6f6e-eb2b-f021-7a34"
+                    "typeId": "6f6e-eb2b-f021-7a34",
+                    "$text": "4"
                   },
                   {
-                    "$text": "7",
                     "name": "MOVE",
-                    "typeId": "df56-119e-bf6f-8e90"
+                    "typeId": "df56-119e-bf6f-8e90",
+                    "$text": "7"
                   },
                   {
-                    "$text": "MA- 12",
                     "name": "SIZE",
-                    "typeId": "1adb-2fcb-5438-776f"
+                    "typeId": "1adb-2fcb-5438-776f",
+                    "$text": "MA- 11"
                   }
                 ],
                 "id": "0785-0c5f-0e6e-c767",
@@ -10946,7 +10942,7 @@
           }
         ],
         "id": "82a2-26eb-6586-491c",
-        "name": "BL-70 \"Maverick\" Armor Personnal Carrier",
+        "name": "BL-70 \"Maverick\" Armor Personnel Carrier",
         "publicationId": "6f11-4351-f3f0-26cb",
         "hidden": false,
         "collective": false,
@@ -11484,6 +11480,247 @@
         "collective": false,
         "import": true,
         "type": "unit"
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "BRI-220 Tank Squadron",
+        "hidden": false,
+        "id": "b581-4663-8fc4-e5cf",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "f27d-c990-17b4-68f0"
+          }
+        ],
+        "categoryLinks": [
+          {
+            "name": "Heavy Support",
+            "hidden": false,
+            "id": "49a4-ce44-cbff-675d",
+            "targetId": "4749-85c7-9d41-aa3f",
+            "primary": true
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "BRI-220 Tank",
+            "hidden": false,
+            "id": "2694-0c87-3550-3c4c",
+            "entryLinks": [
+              {
+                "import": true,
+                "name": "Anti-Personal Weapons ",
+                "hidden": false,
+                "id": "fee7-f18e-7a67-d4a7",
+                "publicationId": "c8da-24a8-bcaa-8190",
+                "collective": false,
+                "targetId": "5ea4-d121-3247-864f",
+                "type": "selectionEntryGroup"
+              },
+              {
+                "import": true,
+                "name": "Tank Turret Weapons",
+                "hidden": false,
+                "id": "9c2e-8409-a469-5adb",
+                "publicationId": "c8da-24a8-bcaa-8190",
+                "collective": false,
+                "targetId": "ca0a-20b8-683b-684f",
+                "type": "selectionEntryGroup"
+              },
+              {
+                "import": true,
+                "name": "Tank Upgrades",
+                "hidden": false,
+                "id": "7a80-3c2d-cce3-e79d",
+                "collective": false,
+                "targetId": "bfd2-6b47-8ff3-dd43",
+                "type": "selectionEntryGroup"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 2,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "fae9-9cc2-2136-dc5f",
+                "percentValue": false,
+                "includeChildSelections": false,
+                "includeChildForces": false
+              },
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "e812-11aa-e942-4e20",
+                "percentValue": false,
+                "includeChildSelections": false,
+                "includeChildForces": false
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "BRI-220 Tank Commander",
+                "id": "15c7-3ea6-4458-3d49",
+                "hidden": false,
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "BRI-220 Tank Commander",
+                    "hidden": false,
+                    "id": "95e3-f848-5bbf-e918",
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "a7ae-3bf5-66d7-9634",
+                        "percentValue": false,
+                        "includeChildSelections": false,
+                        "includeChildForces": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "name": "Command Projection",
+                        "id": "dbb0-c818-ddb8-c0e2",
+                        "hidden": false,
+                        "publicationId": "c8da-24a8-bcaa-8190",
+                        "targetId": "5581-8d83-3043-4a25",
+                        "type": "rule"
+                      },
+                      {
+                        "name": "Veteran Crew",
+                        "id": "5789-9601-2966-a02b",
+                        "hidden": false,
+                        "publicationId": "c8da-24a8-bcaa-8190",
+                        "targetId": "cc82-cc85-07be-750b",
+                        "type": "rule"
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "Resource Points",
+                        "typeId": "118c-125b-468b-4b84",
+                        "value": 3
+                      },
+                      {
+                        "name": "Command Points",
+                        "typeId": "757d-4bf1-4103-99c7",
+                        "value": 2
+                      }
+                    ],
+                    "publicationId": "c8da-24a8-bcaa-8190",
+                    "collective": false
+                  }
+                ],
+                "publicationId": "c8da-24a8-bcaa-8190",
+                "collective": false,
+                "import": true
+              }
+            ],
+            "profiles": [
+              {
+                "name": "BRI-220 Tank",
+                "typeId": "c48c-0898-b719-a4a1",
+                "typeName": "Vehicle",
+                "hidden": false,
+                "id": "b838-90f0-2a89-1933",
+                "characteristics": [
+                  {
+                    "name": "Key Traits",
+                    "typeId": "b665-ff08-0e63-d70d",
+                    "$text": "Armored, Tracks, Turret, Stablized"
+                  },
+                  {
+                    "name": "CMBT",
+                    "typeId": "d9ed-bc69-fa1e-bce6",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "DEF",
+                    "typeId": "26f5-47a1-8310-51da",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "ATHL",
+                    "typeId": "3734-2d11-b7c4-15f4",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "INT",
+                    "typeId": "b52b-fc57-76e8-5e4b",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "LD",
+                    "typeId": "1c19-dad2-a576-46c1",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "ARMOR",
+                    "typeId": "0abc-6803-65ce-ea04",
+                    "$text": "13/12/11"
+                  },
+                  {
+                    "name": "END",
+                    "typeId": "60e8-bc63-0a32-48e5",
+                    "$text": "4"
+                  },
+                  {
+                    "name": "NERVE",
+                    "typeId": "6f6e-eb2b-f021-7a34",
+                    "$text": "4"
+                  },
+                  {
+                    "name": "MOVE",
+                    "typeId": "df56-119e-bf6f-8e90",
+                    "$text": "8"
+                  },
+                  {
+                    "name": "SIZE",
+                    "typeId": "1adb-2fcb-5438-776f",
+                    "$text": "MA-11"
+                  }
+                ],
+                "publicationId": "6f11-4351-f3f0-26cb"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "equalTo",
+                "value": 0,
+                "field": "selections",
+                "scope": "force",
+                "childId": "ae31-3cb2-ae9f-c0aa",
+                "shared": true,
+                "percentValue": false,
+                "includeChildSelections": true,
+                "includeChildForces": false
+              }
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntries": [
@@ -11673,7 +11910,8 @@
             "name": "Blast",
             "hidden": false,
             "targetId": "2c83-dd28-35b9-0f5d",
-            "type": "rule"
+            "type": "rule",
+            "publicationId": "c8da-24a8-bcaa-8190"
           }
         ],
         "costs": [
@@ -19413,49 +19651,59 @@
       {
         "characteristics": [
           {
-            "$text": "Armored, Tracks, Turret, Stablized",
             "name": "Key Traits",
-            "typeId": "b665-ff08-0e63-d70d"
+            "typeId": "b665-ff08-0e63-d70d",
+            "$text": "Armored, Tracks, Turret, Stablized"
           },
           {
             "name": "CMBT",
-            "typeId": "d9ed-bc69-fa1e-bce6"
+            "typeId": "d9ed-bc69-fa1e-bce6",
+            "$text": "2"
           },
           {
             "name": "DEF",
-            "typeId": "26f5-47a1-8310-51da"
+            "typeId": "26f5-47a1-8310-51da",
+            "$text": "2"
           },
           {
             "name": "ATHL",
-            "typeId": "3734-2d11-b7c4-15f4"
+            "typeId": "3734-2d11-b7c4-15f4",
+            "$text": "3"
           },
           {
             "name": "INT",
-            "typeId": "b52b-fc57-76e8-5e4b"
+            "typeId": "b52b-fc57-76e8-5e4b",
+            "$text": "2"
           },
           {
             "name": "LD",
-            "typeId": "1c19-dad2-a576-46c1"
+            "typeId": "1c19-dad2-a576-46c1",
+            "$text": "2"
           },
           {
             "name": "ARMOR",
-            "typeId": "0abc-6803-65ce-ea04"
+            "typeId": "0abc-6803-65ce-ea04",
+            "$text": "14/13/12"
           },
           {
             "name": "END",
-            "typeId": "60e8-bc63-0a32-48e5"
+            "typeId": "60e8-bc63-0a32-48e5",
+            "$text": "5"
           },
           {
             "name": "NERVE",
-            "typeId": "6f6e-eb2b-f021-7a34"
+            "typeId": "6f6e-eb2b-f021-7a34",
+            "$text": "4"
           },
           {
             "name": "MOVE",
-            "typeId": "df56-119e-bf6f-8e90"
+            "typeId": "df56-119e-bf6f-8e90",
+            "$text": "7"
           },
           {
             "name": "SIZE",
-            "typeId": "1adb-2fcb-5438-776f"
+            "typeId": "1adb-2fcb-5438-776f",
+            "$text": "MA- 11"
           }
         ],
         "id": "9574-d567-a0b9-1ff0",
@@ -19533,49 +19781,59 @@
       {
         "characteristics": [
           {
-            "$text": "Living, Arms, Legs",
             "name": "Key Traits",
-            "typeId": "b7f7-1712-33a4-4db8"
+            "typeId": "b7f7-1712-33a4-4db8",
+            "$text": "Living, Arms, Legs"
           },
           {
             "name": "CMBT",
-            "typeId": "2883-255f-189e-af1b"
+            "typeId": "2883-255f-189e-af1b",
+            "$text": "2"
           },
           {
             "name": "DEF",
-            "typeId": "29bb-e23d-71ec-ce42"
+            "typeId": "29bb-e23d-71ec-ce42",
+            "$text": "2"
           },
           {
             "name": "ATHL",
-            "typeId": "3576-837b-0724-0dc4"
+            "typeId": "3576-837b-0724-0dc4",
+            "$text": "3"
           },
           {
             "name": "INT",
-            "typeId": "6909-6f4c-c7b2-fd2d"
+            "typeId": "6909-6f4c-c7b2-fd2d",
+            "$text": "2"
           },
           {
             "name": "LD",
-            "typeId": "3ea7-0008-ddf1-c7bb"
+            "typeId": "3ea7-0008-ddf1-c7bb",
+            "$text": "2"
           },
           {
             "name": "ARMOR",
-            "typeId": "2b8c-e750-486a-50d7"
+            "typeId": "2b8c-e750-486a-50d7",
+            "$text": "10"
           },
           {
             "name": "END",
-            "typeId": "9490-11f5-1aaf-c586"
+            "typeId": "9490-11f5-1aaf-c586",
+            "$text": "2"
           },
           {
             "name": "NERVE",
-            "typeId": "ab64-6565-5535-bf45"
+            "typeId": "ab64-6565-5535-bf45",
+            "$text": ""
           },
           {
             "name": "MOVE",
-            "typeId": "e560-e6a3-6931-12ba"
+            "typeId": "e560-e6a3-6931-12ba",
+            "$text": ""
           },
           {
             "name": "SIZE",
-            "typeId": "35b0-98cf-50a3-44ae"
+            "typeId": "35b0-98cf-50a3-44ae",
+            "$text": ""
           }
         ],
         "id": "62d5-f3d5-b801-7e94",
@@ -19643,7 +19901,7 @@
     ],
     "id": "732a-da47-9f47-5d32",
     "name": "Protectorate Defense League Armed Forces",
-    "revision": 35,
+    "revision": 43,
     "battleScribeVersion": 2.03,
     "authorName": "Jonathan Collett",
     "library": false,
