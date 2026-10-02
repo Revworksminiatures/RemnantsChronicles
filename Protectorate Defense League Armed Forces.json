@@ -11698,6 +11698,18 @@
                 ],
                 "publicationId": "6f11-4351-f3f0-26cb"
               }
+            ],
+            "costs": [
+              {
+                "name": "Resource Points",
+                "typeId": "118c-125b-468b-4b84",
+                "value": 20
+              },
+              {
+                "name": "Command Points",
+                "typeId": "757d-4bf1-4103-99c7",
+                "value": 8
+              }
             ]
           }
         ],
@@ -19901,7 +19913,7 @@
     ],
     "id": "732a-da47-9f47-5d32",
     "name": "Protectorate Defense League Armed Forces",
-    "revision": 43,
+    "revision": 46,
     "battleScribeVersion": 2.03,
     "authorName": "Jonathan Collett",
     "library": false,

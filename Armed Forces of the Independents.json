@@ -2168,7 +2168,7 @@
               {
                 "name": "Command Points",
                 "typeId": "757d-4bf1-4103-99c7",
-                "value": 0
+                "value": 4
               }
             ],
             "id": "0d20-ccac-acee-885e",
@@ -2182,13 +2182,13 @@
         ],
         "costs": [
           {
-            "name": "Command Points",
-            "typeId": "757d-4bf1-4103-99c7",
-            "value": 4
-          },
-          {
             "name": "Resource Points",
             "typeId": "118c-125b-468b-4b84",
+            "value": 0
+          },
+          {
+            "name": "Command Points",
+            "typeId": "757d-4bf1-4103-99c7",
             "value": 0
           }
         ],
@@ -18434,7 +18434,7 @@
     ],
     "id": "4115-789f-05a7-73df",
     "name": "Armed Forces of the Independents",
-    "revision": 43,
+    "revision": 46,
     "battleScribeVersion": 2.03,
     "authorName": "Jonathan Collett",
     "library": false,

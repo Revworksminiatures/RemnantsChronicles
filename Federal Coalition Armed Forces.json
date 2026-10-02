@@ -3824,19 +3824,6 @@
             "value": true
           }
         ],
-        "constraints": [
-          {
-            "field": "selections",
-            "scope": "parent",
-            "value": 1,
-            "percentValue": false,
-            "shared": true,
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "id": "30bf-48b1-35d2-a7a7",
-            "type": "max"
-          }
-        ],
         "categoryLinks": [
           {
             "id": "d0d7-1d66-470e-2ff1",
@@ -4044,19 +4031,6 @@
         "type": "unit"
       },
       {
-        "constraints": [
-          {
-            "field": "selections",
-            "scope": "parent",
-            "value": 1,
-            "percentValue": false,
-            "shared": true,
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "id": "4fd2-d8e2-d41c-da92",
-            "type": "max"
-          }
-        ],
         "categoryLinks": [
           {
             "id": "8810-e6e1-f569-77bf",
@@ -4365,7 +4339,27 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "unit"
+        "type": "unit",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "equalTo",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "67bd-5b17-9e9b-511e",
+                "shared": true,
+                "percentValue": false,
+                "includeChildSelections": true,
+                "includeChildForces": false
+              }
+            ]
+          }
+        ]
       },
       {
         "modifiers": [
@@ -36075,6 +36069,397 @@
         "collective": false,
         "import": true,
         "type": "upgrade"
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "FCA-9 Orbital Drop Assault Pod",
+        "hidden": false,
+        "id": "ac39-121f-b9f0-a158",
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "FCA-9 Orbital Drop Assault Pod",
+            "hidden": false,
+            "id": "87a4-5ab9-9fe1-1007",
+            "costs": [
+              {
+                "name": "Resource Points",
+                "typeId": "118c-125b-468b-4b84",
+                "value": 20
+              },
+              {
+                "name": "Command Points",
+                "typeId": "757d-4bf1-4103-99c7",
+                "value": 4
+              }
+            ],
+            "entryLinks": [
+              {
+                "import": true,
+                "name": "Lineage",
+                "hidden": false,
+                "id": "f6c3-cb85-6b7c-a181",
+                "collective": false,
+                "targetId": "6fdc-5473-8c25-4030",
+                "type": "selectionEntryGroup"
+              },
+              {
+                "import": true,
+                "name": "Vehicle Upgrades",
+                "hidden": false,
+                "id": "8828-cf53-1d1d-a199",
+                "collective": false,
+                "targetId": "7efe-9b10-3efa-df24",
+                "type": "selectionEntryGroup"
+              }
+            ],
+            "profiles": [
+              {
+                "name": "FCA-9 Orbital Drop Pod",
+                "typeId": "c48c-0898-b719-a4a1",
+                "typeName": "Vehicle",
+                "hidden": false,
+                "id": "9100-35a3-ec7b-321d",
+                "characteristics": [
+                  {
+                    "name": "Key Traits",
+                    "typeId": "b665-ff08-0e63-d70d",
+                    "$text": "Electronic, Immobile, Transport: 5, Armored, HADOC"
+                  },
+                  {
+                    "name": "CMBT",
+                    "typeId": "d9ed-bc69-fa1e-bce6",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "DEF",
+                    "typeId": "26f5-47a1-8310-51da",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "ATHL",
+                    "typeId": "3734-2d11-b7c4-15f4",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "INT",
+                    "typeId": "b52b-fc57-76e8-5e4b",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "LD",
+                    "typeId": "1c19-dad2-a576-46c1",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "ARMOR",
+                    "typeId": "0abc-6803-65ce-ea04",
+                    "$text": "11/10/10"
+                  },
+                  {
+                    "name": "END",
+                    "typeId": "60e8-bc63-0a32-48e5",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "NERVE",
+                    "typeId": "6f6e-eb2b-f021-7a34",
+                    "$text": "-"
+                  },
+                  {
+                    "name": "MOVE",
+                    "typeId": "df56-119e-bf6f-8e90",
+                    "$text": "-"
+                  },
+                  {
+                    "name": "SIZE",
+                    "typeId": "1adb-2fcb-5438-776f",
+                    "$text": "7"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "856b-0185-306b-ed30",
+                "percentValue": false,
+                "includeChildSelections": false,
+                "includeChildForces": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "63bb-da1c-c08b-d229",
+                "percentValue": false,
+                "includeChildSelections": false,
+                "includeChildForces": false
+              }
+            ],
+            "infoLinks": [
+              {
+                "name": "Armored",
+                "id": "daed-2af8-1067-273e",
+                "hidden": false,
+                "publicationId": "c8da-24a8-bcaa-8190",
+                "targetId": "5cdd-1b21-9cee-76de",
+                "type": "rule"
+              },
+              {
+                "name": "Transport: X",
+                "id": "4797-8020-87ac-286e",
+                "hidden": false,
+                "targetId": "369e-0c29-6c01-f12b",
+                "type": "rule"
+              },
+              {
+                "name": "High Altitude Drop Orbital Certificated (HADOC)",
+                "id": "6600-e4a8-7d84-42cb",
+                "hidden": false,
+                "publicationId": "c8da-24a8-bcaa-8190",
+                "targetId": "df1d-6427-a387-0682",
+                "type": "rule"
+              },
+              {
+                "name": "Immobile",
+                "id": "edaa-857d-3c1f-03c1",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "a90b-54a7-a137-6250"
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "equalTo",
+                    "value": 0,
+                    "field": "selections",
+                    "scope": "roster",
+                    "childId": "8be4-e13a-b373-fc47",
+                    "shared": true,
+                    "percentValue": false,
+                    "includeChildSelections": true,
+                    "includeChildForces": false
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "name": "Heavy Core",
+            "hidden": false,
+            "id": "fe27-0fd3-8c77-9125",
+            "targetId": "aaf1-86b5-3e39-53a0",
+            "primary": true
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "FCA-9 Orbital Drop Supply Pod",
+        "hidden": false,
+        "id": "9597-74d7-8141-be8a",
+        "categoryLinks": [
+          {
+            "name": "Heavy Core",
+            "hidden": false,
+            "id": "ec09-fdc9-6998-98ca",
+            "targetId": "aaf1-86b5-3e39-53a0",
+            "primary": true
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "FCA-9 Orbital Drop Supply Pod",
+            "hidden": false,
+            "id": "a605-ba06-70c4-0608",
+            "costs": [
+              {
+                "name": "Resource Points",
+                "typeId": "118c-125b-468b-4b84",
+                "value": 20
+              },
+              {
+                "name": "Command Points",
+                "typeId": "757d-4bf1-4103-99c7",
+                "value": 4
+              }
+            ],
+            "entryLinks": [
+              {
+                "import": true,
+                "name": "Lineage",
+                "hidden": false,
+                "id": "018f-228f-2ea9-6572",
+                "collective": false,
+                "targetId": "6fdc-5473-8c25-4030",
+                "type": "selectionEntryGroup"
+              },
+              {
+                "import": true,
+                "name": "Vehicle Upgrades",
+                "hidden": false,
+                "id": "ec2f-3f19-76e5-ffc4",
+                "collective": false,
+                "targetId": "7efe-9b10-3efa-df24",
+                "type": "selectionEntryGroup"
+              },
+              {
+                "import": true,
+                "name": "Spare Ammo",
+                "hidden": false,
+                "id": "252a-1a75-670c-f8d5",
+                "publicationId": "c8da-24a8-bcaa-8190",
+                "collective": false,
+                "targetId": "878c-d1c1-b3d0-d700",
+                "type": "selectionEntry"
+              },
+              {
+                "import": true,
+                "name": "Spare Supplies",
+                "hidden": false,
+                "id": "739e-3a74-d87f-691f",
+                "publicationId": "c8da-24a8-bcaa-8190",
+                "collective": false,
+                "targetId": "903e-4671-5939-e5b6",
+                "type": "selectionEntry"
+              }
+            ],
+            "profiles": [
+              {
+                "name": "FCA-9 Orbital Drop Pod",
+                "typeId": "c48c-0898-b719-a4a1",
+                "typeName": "Vehicle",
+                "hidden": false,
+                "id": "0e10-dbe0-3ea4-58c6",
+                "characteristics": [
+                  {
+                    "name": "Key Traits",
+                    "typeId": "b665-ff08-0e63-d70d",
+                    "$text": "Electronic, Immobile, Transport: 5, Armored, HADOC"
+                  },
+                  {
+                    "name": "CMBT",
+                    "typeId": "d9ed-bc69-fa1e-bce6",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "DEF",
+                    "typeId": "26f5-47a1-8310-51da",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "ATHL",
+                    "typeId": "3734-2d11-b7c4-15f4",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "INT",
+                    "typeId": "b52b-fc57-76e8-5e4b",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "LD",
+                    "typeId": "1c19-dad2-a576-46c1",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "ARMOR",
+                    "typeId": "0abc-6803-65ce-ea04",
+                    "$text": "11/10/10"
+                  },
+                  {
+                    "name": "END",
+                    "typeId": "60e8-bc63-0a32-48e5",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "NERVE",
+                    "typeId": "6f6e-eb2b-f021-7a34",
+                    "$text": "-"
+                  },
+                  {
+                    "name": "MOVE",
+                    "typeId": "df56-119e-bf6f-8e90",
+                    "$text": "-"
+                  },
+                  {
+                    "name": "SIZE",
+                    "typeId": "1adb-2fcb-5438-776f",
+                    "$text": "7"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "ef82-eda2-116a-352a",
+                "percentValue": false,
+                "includeChildSelections": false,
+                "includeChildForces": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "3383-f6d8-7af1-656d",
+                "percentValue": false,
+                "includeChildSelections": false,
+                "includeChildForces": false
+              }
+            ],
+            "infoLinks": [
+              {
+                "name": "Armored",
+                "id": "18ad-61e5-2e98-d900",
+                "hidden": false,
+                "publicationId": "c8da-24a8-bcaa-8190",
+                "targetId": "5cdd-1b21-9cee-76de",
+                "type": "rule"
+              },
+              {
+                "name": "High Altitude Drop Orbital Certificated (HADOC)",
+                "id": "87fa-7831-9fce-d6a9",
+                "hidden": false,
+                "publicationId": "c8da-24a8-bcaa-8190",
+                "targetId": "df1d-6427-a387-0682",
+                "type": "rule"
+              },
+              {
+                "name": "Immobile",
+                "id": "259d-0988-f61d-c48a",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "a90b-54a7-a137-6250"
+              }
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntries": [
@@ -47156,7 +47541,7 @@
     ],
     "id": "c2cb-99b2-7a20-3386",
     "name": "Federal Coalition Armed Forces",
-    "revision": 46,
+    "revision": 49,
     "battleScribeVersion": 2.03,
     "authorName": "Jonathan Collett",
     "library": false,
