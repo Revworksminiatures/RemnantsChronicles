@@ -4490,7 +4490,7 @@
               {
                 "field": "selections",
                 "scope": "parent",
-                "value": 4,
+                "value": 3,
                 "percentValue": false,
                 "shared": true,
                 "includeChildSelections": false,
@@ -4501,7 +4501,7 @@
               {
                 "field": "selections",
                 "scope": "parent",
-                "value": 4,
+                "value": 3,
                 "percentValue": false,
                 "shared": true,
                 "includeChildSelections": false,
@@ -12847,7 +12847,7 @@
               {
                 "field": "selections",
                 "scope": "parent",
-                "value": 3,
+                "value": 2,
                 "percentValue": false,
                 "shared": true,
                 "includeChildSelections": true,
@@ -12858,7 +12858,7 @@
               {
                 "field": "selections",
                 "scope": "parent",
-                "value": 3,
+                "value": 2,
                 "percentValue": false,
                 "shared": true,
                 "includeChildSelections": true,
@@ -36697,7 +36697,7 @@
               }
             ],
             "id": "2574-1c11-cbea-49c3",
-            "name": "Marine Sargeant",
+            "name": "Marine Sergeant",
             "publicationId": "c8da-24a8-bcaa-8190",
             "hidden": false,
             "collective": false,
@@ -37409,7 +37409,7 @@
               }
             ],
             "id": "0089-96a8-0fc0-6074",
-            "name": "•Master Sargeant Powell",
+            "name": "•Master Sergeant Powell",
             "hidden": false,
             "collective": false,
             "import": true,
@@ -39592,7 +39592,7 @@
               }
             ],
             "id": "c32e-9154-85cc-fad0",
-            "name": "Marine Sargeant",
+            "name": "Marine Sergeant",
             "publicationId": "c8da-24a8-bcaa-8190",
             "hidden": false,
             "collective": false,
@@ -39983,7 +39983,7 @@
               }
             ],
             "id": "981b-6d09-033d-4818",
-            "name": "Army Sargeant",
+            "name": "Army Sergeant",
             "publicationId": "c8da-24a8-bcaa-8190",
             "hidden": false,
             "collective": false,
@@ -43025,7 +43025,7 @@
               }
             ],
             "id": "ac7e-90c1-4d54-7760",
-            "name": "Army Sargeant",
+            "name": "Army Sergeant",
             "publicationId": "c8da-24a8-bcaa-8190",
             "hidden": false,
             "collective": false,
@@ -43416,7 +43416,7 @@
               }
             ],
             "id": "87cc-144c-a74f-9e31",
-            "name": "Guardsmen Milita  Sargeant",
+            "name": "Guardsmen Militia Sergeant",
             "publicationId": "c8da-24a8-bcaa-8190",
             "hidden": false,
             "collective": false,
@@ -43599,7 +43599,7 @@
               }
             ],
             "id": "242a-abeb-d8e6-8e7d",
-            "name": "Army Senior Enlisted",
+            "name": "Guardsmen Militia Senior Enlisted",
             "publicationId": "c8da-24a8-bcaa-8190",
             "hidden": false,
             "collective": false,
@@ -43795,7 +43795,7 @@
               }
             ],
             "id": "09de-8ad4-0fdc-1348",
-            "name": "Guardsmen Milita  Jr. Officer (Tier 3 or above)",
+            "name": "Guardsmen Militia  Jr. Officer (Tier 3 or above)",
             "publicationId": "c8da-24a8-bcaa-8190",
             "hidden": false,
             "collective": false,
@@ -43990,7 +43990,7 @@
               }
             ],
             "id": "3143-dc3f-f3ef-4a59",
-            "name": "Army Senior Officer (Tier 4 or above)",
+            "name": "Guardsmen Militia Officer (Tier 4 or above)",
             "hidden": false,
             "collective": false,
             "import": true,
@@ -47541,7 +47541,7 @@
     ],
     "id": "c2cb-99b2-7a20-3386",
     "name": "Federal Coalition Armed Forces",
-    "revision": 49,
+    "revision": 53,
     "battleScribeVersion": 2.03,
     "authorName": "Jonathan Collett",
     "library": false,
