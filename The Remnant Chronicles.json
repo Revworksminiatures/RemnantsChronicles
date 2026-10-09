@@ -9937,6 +9937,15 @@
             "includeChildForces": false,
             "id": "adce-baec-a4bc-a634",
             "type": "max"
+          },
+          {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "df01-90dd-767d-0a70",
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -21981,7 +21990,7 @@
     ],
     "id": "04cf-0115-5d69-77a0",
     "name": "The Remnant Chronicles",
-    "revision": 59,
+    "revision": 61,
     "battleScribeVersion": 2.03,
     "authorName": "Jonathan Collett",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
