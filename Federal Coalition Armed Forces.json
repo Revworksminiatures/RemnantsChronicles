@@ -31446,6 +31446,15 @@
             "import": true,
             "targetId": "eb72-bed6-6ee7-be0a",
             "type": "selectionEntryGroup"
+          },
+          {
+            "import": true,
+            "name": "Lineage",
+            "hidden": false,
+            "id": "cd8b-89ac-5316-3c3f",
+            "collective": false,
+            "targetId": "6fdc-5473-8c25-4030",
+            "type": "selectionEntryGroup"
           }
         ],
         "costs": [
@@ -47541,7 +47550,7 @@
     ],
     "id": "c2cb-99b2-7a20-3386",
     "name": "Federal Coalition Armed Forces",
-    "revision": 53,
+    "revision": 54,
     "battleScribeVersion": 2.03,
     "authorName": "Jonathan Collett",
     "library": false,

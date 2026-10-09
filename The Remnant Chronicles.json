@@ -9929,11 +9929,11 @@
         "constraints": [
           {
             "field": "selections",
-            "scope": "parent",
+            "scope": "force",
             "value": 1,
             "percentValue": false,
             "shared": true,
-            "includeChildSelections": false,
+            "includeChildSelections": true,
             "includeChildForces": false,
             "id": "adce-baec-a4bc-a634",
             "type": "max"
@@ -13072,7 +13072,7 @@
           {
             "description": "This model has the Observer key term",
             "id": "186b-f96a-9885-8ebb",
-            "name": "Senor Package",
+            "name": "Sensor Package",
             "publicationId": "c8da-24a8-bcaa-8190",
             "hidden": false
           }
@@ -21981,7 +21981,7 @@
     ],
     "id": "04cf-0115-5d69-77a0",
     "name": "The Remnant Chronicles",
-    "revision": 55,
+    "revision": 59,
     "battleScribeVersion": 2.03,
     "authorName": "Jonathan Collett",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
